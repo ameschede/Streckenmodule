@@ -41413,7 +41413,7 @@
 <b X="-821.1791" Y="1428.2679" Z="103.1883"/>
 <InfoNormRichtung vMax="55.5556" km="74.2274" Reg="5098"/>
 <InfoGegenRichtung vMax="-1" Reg="5098">
-<Signal NameBetriebsstelle="Unterlüß" Stellwerk="Steuerbereich 73 Unterlüß" Signalname="Ls 73L29X" SignalFlags="4" SignalTyp="5" BoundingR="1">
+<Signal NameBetriebsstelle="Unterlüß" Stellwerk="Steuerbereich 73 Unterlüß" Signalname="Ls 73L29X" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-801.8718" Y="1436.8484" Z="100.623"/>
 <phi Z="0.524896"/>
 <SignalFrame>
@@ -41424,18 +41424,43 @@
 <SignalFrame>
 <p Z="3.85"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\GsSiemens_Schirm1958Ks-h.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\GsSiemens_Schirm1958Ks-n.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="544500581" WeichenbaugruppeNr="1146047528" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="-0.05" Y="-0.25" Z="3.65"/>
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\Gs_Schild_wrw-n.lod.ls3"/>
 </SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.075" Z="3.695"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_Lsp.lod1.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.075" Z="3.73"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_L-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.04" Z="3.66"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.075" Z="3.66"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.11" Z="3.66"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_X-klein.lod.ls3"/>
+</SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
 <HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="13" MatrixGeschw="6.9444"/>
-<MatrixEintrag Signalbild="11"/>
+<MatrixEintrag Signalbild="509" MatrixGeschw="6.9444"/>
+<MatrixEintrag Signalbild="507"/>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="1111"/>
@@ -55297,6 +55322,10 @@
 <StrElement Nr="3390" spTrass="27.7778" Fkt="2">
 <g X="-1949.2369" Y="281.3406" Z="105.4471"/>
 <b X="-1854.4098" Y="297.0285" Z="106.2105"/>
+</StrElement>
+<StrElement Nr="3391" spTrass="27.7778" Fkt="2">
+<g X="-1703.9502" Y="328.7266" Z="105.7284"/>
+<b X="-1737.9819" Y="554.1229" Z="107.295"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Sbk 73101 73101" FahrstrStrecke="30b" RglGgl="2" FahrstrTyp="TypZug" Laenge="543.6857">
 <FahrstrStart Ref="2">
