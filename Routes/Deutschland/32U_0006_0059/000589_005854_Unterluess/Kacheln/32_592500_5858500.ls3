@@ -292,6 +292,12 @@
 <phi Z="1.441473"/>
 <sk X="1.0802" Y="1.0802" Z="1.0802"/>
 </Verknuepfte>
+<Verknuepfte Flags="16" GruppenName="Kilometersteine" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0059\000589_005854_Unterluess\Kilometersteine\DRG_HB_vw_beids_79_5.ls3"/>
+<p X="226.7112" Y="-474.6902" Z="88.9389"/>
+<phi Z="0.795402"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -729,6 +735,38 @@
 <Face i="4;1;7"/>
 <Face i="8;6;9"/>
 <Face i="6;5;9"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="3"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Strassen\Allein\schotterweg_2m.dds"/>
+</Textur>
+<Vertex U="-289.9534" V="0.7343" U2="-289.9534" V2="0.7343">
+<p X="244.9602" Y="-499.9998" Z="81.8546"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-289.7936" V="0.56" U2="-289.7936" V2="0.56">
+<p X="242.5274" Y="-499.9998" Z="81.9093"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-291.7412" V="0.56" U2="-291.7412" V2="0.56">
+<p X="255.305" Y="-485.3165" Z="81.2425"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-291.7412" V="0.94" U2="-291.7412" V2="0.94">
+<p X="258.3225" Y="-487.9424" Z="81.2425"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-290.1419" V="0.94" U2="-290.1419" V2="0.94">
+<p X="247.8301" Y="-499.9998" Z="81.79"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="0;3;4"/>
 </SubSet>
 </Landschaft>
 </Zusi>

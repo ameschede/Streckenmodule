@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="-1" AutorName="Zusi-generiert"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="_Setup\lib\milepost\hektometertafeln_DB\Texturen\hektometertafel.dds"/>
+</Textur>
+<Vertex U="0.06">
+<p Y="0.24"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.06" V="0.5">
+<p Y="0.24" Z="-0.8"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.38" V="0.5">
+<p Y="-0.24" Z="-0.8"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.38">
+<p Y="-0.24"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.52">
+<p Y="0.24"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.52" V="0.5">
+<p Y="0.24" Z="-0.8"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.84" V="0.5">
+<p Y="-0.24" Z="-0.8"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.84">
+<p Y="-0.24"/>
+<n X="1"/>
+</Vertex>
+<Face i="0;3;2"/>
+<Face i="0;2;1"/>
+<Face i="4;6;7"/>
+<Face i="4;5;6"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF" zBias="-1">
+<RenderFlags TexVoreinstellung="8"/>
+<Textur>
+<Datei Dateiname="_Setup\lib\milepost\hektometertafeln_DB\Texturen\hektometertafel.dds"/>
+</Textur>
+<Vertex U="0.335" V="0.77">
+<p Y="0.2027" Z="-0.046"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.335" V="0.98">
+<p Y="0.2027" Z="-0.331"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.495" V="0.98">
+<p Y="-0.0027" Z="-0.331"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.495" V="0.77">
+<p Y="-0.0027" Z="-0.046"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.187" V="0.53">
+<p Y="0.0027" Z="-0.046"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.187" V="0.74">
+<p Y="0.0027" Z="-0.331"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.317" V="0.74">
+<p Y="-0.2027" Z="-0.331"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.317" V="0.53">
+<p Y="-0.2027" Z="-0.046"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.653" V="0.53">
+<p Y="0.1027" Z="-0.405"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.653" V="0.74">
+<p Y="0.1027" Z="-0.69"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.796" V="0.74">
+<p Y="-0.1027" Z="-0.69"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.796" V="0.53">
+<p Y="-0.1027" Z="-0.405"/>
+<n X="-1"/>
+</Vertex>
+<Face i="0;3;2"/>
+<Face i="0;2;1"/>
+<Face i="4;7;6"/>
+<Face i="4;6;5"/>
+<Face i="8;11;10"/>
+<Face i="8;10;9"/>
+</SubSet>
+</Landschaft>
+</Zusi>
