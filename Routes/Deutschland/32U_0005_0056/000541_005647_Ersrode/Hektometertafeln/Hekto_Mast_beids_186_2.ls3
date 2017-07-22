@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="-1" AutorName="Zusi-generiert"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FF000000" Ce="00C0C0C0">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="_Setup\lib\milepost\hektometertafeln_DB\Texturen\hektometertafel-tunnel.dds"/>
+</Textur>
+<Vertex>
+<p X="-0.065" Y="0.36" Z="2.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex V="0.5">
+<p X="-0.065" Y="0.36" Z="1.6"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.44" V="0.5">
+<p X="-0.065" Y="-0.36" Z="1.6"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.44">
+<p X="-0.065" Y="-0.36" Z="2.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.46">
+<p X="-0.065" Y="0.36" Z="2.4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.46" V="0.5">
+<p X="-0.065" Y="0.36" Z="1.6"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9" V="0.5">
+<p X="-0.065" Y="-0.36" Z="1.6"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9">
+<p X="-0.065" Y="-0.36" Z="2.4"/>
+<n X="1"/>
+</Vertex>
+<Vertex>
+<p X="0.065" Y="-0.36" Z="2.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex V="0.5">
+<p X="0.065" Y="-0.36" Z="1.6"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.44" V="0.5">
+<p X="0.065" Y="0.36" Z="1.6"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.44">
+<p X="0.065" Y="0.36" Z="2.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.46">
+<p X="0.065" Y="-0.36" Z="2.4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.46" V="0.5">
+<p X="0.065" Y="-0.36" Z="1.6"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9" V="0.5">
+<p X="0.065" Y="0.36" Z="1.6"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9">
+<p X="0.065" Y="0.36" Z="2.4"/>
+<n X="1"/>
+</Vertex>
+<Face i="0;3;2"/>
+<Face i="0;2;1"/>
+<Face i="4;6;7"/>
+<Face i="4;5;6"/>
+<Face i="8;11;10"/>
+<Face i="8;10;9"/>
+<Face i="12;14;15"/>
+<Face i="12;13;14"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF" zBias="-1">
+<RenderFlags TexVoreinstellung="8"/>
+<Textur>
+<Datei Dateiname="_Setup\lib\milepost\hektometertafeln_DB\Texturen\hektometertafel.dds"/>
+</Textur>
+<Vertex U="0.187" V="0.53">
+<p X="-0.065" Y="0.2927" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.187" V="0.74">
+<p X="-0.065" Y="0.2927" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.317" V="0.74">
+<p X="-0.065" Y="0.0873" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.317" V="0.53">
+<p X="-0.065" Y="0.0873" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.485" V="0.77">
+<p X="-0.065" Y="0.1027" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.485" V="0.98">
+<p X="-0.065" Y="0.1027" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.645" V="0.98">
+<p X="-0.065" Y="-0.1027" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.645" V="0.77">
+<p X="-0.065" Y="-0.1027" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.175" V="0.77">
+<p X="-0.065" Y="-0.0873" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.175" V="0.98">
+<p X="-0.065" Y="-0.0873" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.335" V="0.98">
+<p X="-0.065" Y="-0.2927" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.335" V="0.77">
+<p X="-0.065" Y="-0.2927" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.339" V="0.53">
+<p X="-0.065" Y="0.1027" Z="1.995"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.339" V="0.74">
+<p X="-0.065" Y="0.1027" Z="1.71"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.482" V="0.74">
+<p X="-0.065" Y="-0.1027" Z="1.71"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.482" V="0.53">
+<p X="-0.065" Y="-0.1027" Z="1.995"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.187" V="0.53">
+<p X="0.065" Y="-0.2927" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.187" V="0.74">
+<p X="0.065" Y="-0.2927" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.317" V="0.74">
+<p X="0.065" Y="-0.0873" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.317" V="0.53">
+<p X="0.065" Y="-0.0873" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.485" V="0.77">
+<p X="0.065" Y="-0.1027" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.485" V="0.98">
+<p X="0.065" Y="-0.1027" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.645" V="0.98">
+<p X="0.065" Y="0.1027" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.645" V="0.77">
+<p X="0.065" Y="0.1027" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.175" V="0.77">
+<p X="0.065" Y="0.0873" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.175" V="0.98">
+<p X="0.065" Y="0.0873" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.335" V="0.98">
+<p X="0.065" Y="0.2927" Z="2.069"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.335" V="0.77">
+<p X="0.065" Y="0.2927" Z="2.354"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.339" V="0.53">
+<p X="0.065" Y="-0.1027" Z="1.995"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.339" V="0.74">
+<p X="0.065" Y="-0.1027" Z="1.71"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.482" V="0.74">
+<p X="0.065" Y="0.1027" Z="1.71"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.482" V="0.53">
+<p X="0.065" Y="0.1027" Z="1.995"/>
+<n X="-1"/>
+</Vertex>
+<Face i="0;3;2"/>
+<Face i="0;2;1"/>
+<Face i="4;7;6"/>
+<Face i="4;6;5"/>
+<Face i="8;11;10"/>
+<Face i="8;10;9"/>
+<Face i="12;15;14"/>
+<Face i="12;14;13"/>
+<Face i="16;19;18"/>
+<Face i="16;18;17"/>
+<Face i="20;23;22"/>
+<Face i="20;22;21"/>
+<Face i="24;27;26"/>
+<Face i="24;26;25"/>
+<Face i="28;31;30"/>
+<Face i="28;30;29"/>
+</SubSet>
+<Ankerpunkt>
+<p X="0.065" Z="2.4"/>
+<phi/>
+<Datei Dateiname="_Setup\lib\milepost\hektometertafeln_DB\NBUe_Signal.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt>
+<p X="-0.065" Z="2.4"/>
+<phi Z="3.141593"/>
+<Datei Dateiname="_Setup\lib\milepost\hektometertafeln_DB\NBUe_Signal.ls3" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>
