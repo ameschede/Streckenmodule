@@ -224,6 +224,32 @@
 <ReferenzElemente ReferenzNr="200" StrElement="718" RefTyp="2" Info="Register-Nr. 5063"/>
 <ReferenzElemente ReferenzNr="201" StrElement="722" RefTyp="4" Info="Signal: Üst Landrücken N v610"/>
 <ReferenzElemente ReferenzNr="202" StrElement="723" RefTyp="4" Info="Signal: Üst Landrücken N v640"/>
+<ReferenzElemente ReferenzNr="203" StrElement="127" StrNorm="1" RefTyp="4" Info="Signal: Üst Landrücken N GÜ 610"/>
+<ReferenzElemente ReferenzNr="204" StrElement="131" StrNorm="1" RefTyp="4" Info="Signal: Üst Landrücken N 500 Hz (610)"/>
+<ReferenzElemente ReferenzNr="205" StrElement="283" StrNorm="1" RefTyp="4" Info="Signal: Üst Landrücken N GÜ 640"/>
+<ReferenzElemente ReferenzNr="206" StrElement="287" StrNorm="1" RefTyp="4" Info="Signal: Üst Landrücken N 500 Hz (640)"/>
+<ReferenzElemente ReferenzNr="207" StrElement="530" RefTyp="4" Info="Signal: Üst Landrücken S GÜ 653"/>
+<ReferenzElemente ReferenzNr="208" StrElement="535" StrNorm="1" RefTyp="4" Info="Signal: Üst Landrücken S 500 Hz (653)"/>
+<ReferenzElemente ReferenzNr="209" StrElement="679" StrNorm="1" RefTyp="4" Info="Signal: Üst Landrücken N 500 Hz (609)"/>
+<ReferenzElemente ReferenzNr="210" StrElement="680" StrNorm="1" RefTyp="4" Info="Signal: Üst Landrücken N 500 Hz (639)"/>
+<ReferenzElemente ReferenzNr="211" StrElement="729" RefTyp="4" Info="Signal: Üst Landrücken S 500 Hz (683)"/>
+<ReferenzElemente ReferenzNr="212" StrElement="730" RefTyp="4" Info="Signal: Üst Landrücken S 500 Hz (654)"/>
+<ReferenzElemente ReferenzNr="213" StrElement="731" RefTyp="4" Info="Signal: Üst Landrücken S 500 Hz (684)"/>
+<ReferenzElemente ReferenzNr="214" StrElement="739" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="215" StrElement="739" StrNorm="1" RefTyp="2" Info="Register-Nr. 5060"/>
+<ReferenzElemente ReferenzNr="216" StrElement="739" RefTyp="2" Info="Register-Nr. 5060"/>
+<ReferenzElemente ReferenzNr="217" StrElement="742" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="218" StrElement="742" StrNorm="1" RefTyp="2" Info="Register-Nr. 5061"/>
+<ReferenzElemente ReferenzNr="219" StrElement="742" RefTyp="2" Info="Register-Nr. 5061"/>
+<ReferenzElemente ReferenzNr="220" StrElement="746" StrNorm="1" RefTyp="4" Info="Signal: LZB-Bk 642 642"/>
+<ReferenzElemente ReferenzNr="221" StrElement="746" StrNorm="1" RefTyp="2" Info="Register-Nr. 5062"/>
+<ReferenzElemente ReferenzNr="222" StrElement="746" RefTyp="2" Info="Register-Nr. 5062"/>
+<ReferenzElemente ReferenzNr="223" StrElement="752" RefTyp="4" Info="Signal: Üst Landrücken S GÜ 654"/>
+<ReferenzElemente ReferenzNr="224" StrElement="753" RefTyp="4" Info="Signal: Üst Landrücken S GÜ 684"/>
+<ReferenzElemente ReferenzNr="225" StrElement="760" RefTyp="4" Info="Signal: Üst Landrücken S GÜ 683"/>
+<ReferenzElemente ReferenzNr="226" StrElement="760" StrNorm="1" RefTyp="4" Info="Signal: LZB-Bk 616 616"/>
+<ReferenzElemente ReferenzNr="227" StrElement="760" StrNorm="1" RefTyp="2" Info="Register-Nr. 5063"/>
+<ReferenzElemente ReferenzNr="228" StrElement="760" RefTyp="2" Info="Register-Nr. 5063"/>
 <StrElement Nr="1" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-226.6353" Y="-1937.635" Z="328.2518"/>
 <b X="-220.967" Y="-1986.8029" Z="327.6344"/>
@@ -564,7 +590,7 @@
 <StrElement Nr="38" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-16.9109" Y="-3756.821" Z="305.4088"/>
 <b X="-15.6497" Y="-3767.7607" Z="305.2715"/>
-<InfoGegenRichtung vMax="77.7778" km="260.1661" Reg="5002"/>
+<InfoGegenRichtung vMax="77.7778" km="260.1661"/>
 <NachNorm Nr="742"/>
 <NachGegen Nr="703"/>
 </StrElement>
@@ -594,8 +620,8 @@
 <StrElement Nr="42" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="5.762" Y="-3953.49" Z="302.9393"/>
 <b X="11.4302" Y="-4002.657" Z="302.322"/>
-<InfoNormRichtung vMax="77.7778" km="260.3146" pos="1" Reg="5003"/>
-<InfoGegenRichtung vMax="77.7778" km="260.3641" Reg="5003">
+<InfoNormRichtung vMax="77.7778" km="260.3146" pos="1" Reg="5002"/>
+<InfoGegenRichtung vMax="77.7778" km="260.3641" Reg="5002">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="43"/>
@@ -1124,7 +1150,7 @@
 <StrElement Nr="103" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-694.1795" Y="2313.925" Z="374.4442"/>
 <b X="-694.5609" Y="2322.917" Z="374.4806"/>
-<InfoNormRichtung vMax="-1" Reg="5004">
+<InfoNormRichtung vMax="-1" Reg="5003">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 612"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 612" Stellwerk="Kalbach Landrücken Nord" Signalname="612" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -1165,7 +1191,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="253.9832" pos="1" Reg="5004"/>
+<InfoGegenRichtung vMax="77.7778" km="253.9832" pos="1" Reg="5003"/>
 <NachNorm Nr="719"/>
 <NachGegen Nr="102"/>
 </StrElement>
@@ -1243,8 +1269,8 @@
 <StrElement Nr="113" Ueberh="-0.0428" kr="0.000135" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-701.6952" Y="2386.1389" Z="374.7372"/>
 <b X="-700.8323" Y="2361.8838" Z="374.6393"/>
-<InfoNormRichtung vMax="77.7778" km="253.935" pos="1" Reg="5005"/>
-<InfoGegenRichtung vMax="77.7778" km="253.9593" Reg="5005">
+<InfoNormRichtung vMax="77.7778" km="253.935" pos="1" Reg="5004"/>
+<InfoGegenRichtung vMax="77.7778" km="253.9593" Reg="5004">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="215"/>
@@ -1253,8 +1279,8 @@
 <StrElement Nr="114" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-701.9929" Y="2580.3411" Z="375.5236"/>
 <b X="-702.9674" Y="2625.3301" Z="375.7058"/>
-<InfoNormRichtung vMax="-1" Reg="5006"/>
-<InfoGegenRichtung vMax="77.7778" km="253.6911" pos="1" Reg="5006">
+<InfoNormRichtung vMax="-1" Reg="5005"/>
+<InfoGegenRichtung vMax="77.7778" km="253.6911" pos="1" Reg="5005">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300a"/>
 </InfoGegenRichtung>
@@ -1478,7 +1504,7 @@
 <StrElement Nr="136" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-725.6498" Y="3672.457" Z="379.9464"/>
 <b X="-726.581" Y="3715.4468" Z="380.1205"/>
-<InfoNormRichtung vMax="-1" Reg="5007">
+<InfoNormRichtung vMax="-1" Reg="5006">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="610" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-723.5817" Y="3715.5117" Z="380.1205"/>
@@ -1579,17 +1605,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="252.5987" pos="1" Reg="5007"/>
+<InfoGegenRichtung vMax="77.7778" km="252.5987" pos="1" Reg="5006"/>
 <NachNorm Nr="691"/>
 <NachGegen Nr="135"/>
 </StrElement>
 <StrElement Nr="137" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-726.7251" Y="3722.0979" Z="380.1474"/>
 <b X="-727.8004" Y="3771.74" Z="380.3485"/>
-<InfoNormRichtung vMax="77.7778" km="252.5987" Reg="5008">
+<InfoNormRichtung vMax="77.7778" km="252.5987" Reg="5007">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="252.5491" pos="1" Reg="5008"/>
+<InfoGegenRichtung vMax="77.7778" km="252.5491" pos="1" Reg="5007"/>
 <NachNorm Nr="138"/>
 <NachGegen Nr="691"/>
 </StrElement>
@@ -1702,8 +1728,8 @@
 <StrElement Nr="151" Ueberh="0.0428" kr="-0.00013" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-747.1999" Y="4700.5488" Z="384.1095"/>
 <b X="-747.4028" Y="4724.0112" Z="384.205"/>
-<InfoNormRichtung vMax="77.7778" km="251.6201" Reg="5009"/>
-<InfoGegenRichtung vMax="77.7778" km="251.5966" pos="1" Reg="5009">
+<InfoNormRichtung vMax="77.7778" km="251.6201" Reg="5008"/>
+<InfoGegenRichtung vMax="77.7778" km="251.5966" pos="1" Reg="5008">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="250"/>
@@ -1720,8 +1746,8 @@
 <StrElement Nr="153" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3043">
 <g X="-747.6047" Y="5035.9849" Z="385.4683"/>
 <b X="-748.4275" Y="5011.9951" Z="385.3711"/>
-<InfoNormRichtung vMax="77.7778" km="251.2847" pos="1" Reg="5010"/>
-<InfoGegenRichtung vMax="77.7778" km="251.3087" Reg="5010"/>
+<InfoNormRichtung vMax="77.7778" km="251.2847" pos="1" Reg="5009"/>
+<InfoGegenRichtung vMax="77.7778" km="251.3087" Reg="5009"/>
 <NachNorm Nr="155"/>
 </StrElement>
 <StrElement Nr="155" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3069">
@@ -1801,7 +1827,7 @@
 <StrElement Nr="165" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-752.2863" Y="4771.9878" Z="384.3993"/>
 <b X="-752.2352" Y="4747.9829" Z="384.3022"/>
-<InfoNormRichtung vMax="77.7778" km="251.5488" pos="1" Reg="5011">
+<InfoNormRichtung vMax="77.7778" km="251.5488" pos="1" Reg="5010">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="609" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-755.2352" Y="4747.9766" Z="384.3022"/>
@@ -1902,7 +1928,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="251.5728" Reg="5011"/>
+<InfoGegenRichtung vMax="77.7778" km="251.5728" Reg="5010"/>
 <NachNorm Nr="166"/>
 <NachGegen Nr="164"/>
 </StrElement>
@@ -1967,8 +1993,8 @@
 <StrElement Nr="173" Ueberh="0.0169" kr="-0.000049" spTrass="83.3333" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="206.3368" Y="-5693.5698" Z="281.0887"/>
 <b X="208.7697" Y="-5715.0278" Z="280.8202"/>
-<InfoNormRichtung vMax="77.7778" km="262.0663" pos="1" Reg="5012"/>
-<InfoGegenRichtung vMax="77.7778" km="262.0879" Reg="5012">
+<InfoNormRichtung vMax="77.7778" km="262.0663" pos="1" Reg="5011"/>
+<InfoGegenRichtung vMax="77.7778" km="262.0879" Reg="5011">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="685"/>
@@ -1977,7 +2003,7 @@
 <StrElement Nr="175" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3169">
 <g X="210.9984" Y="-5734.9019" Z="280.5715"/>
 <b X="209.8841" Y="-5724.9648" Z="280.6958"/>
-<InfoNormRichtung vMax="-1" Reg="5013">
+<InfoNormRichtung vMax="-1" Reg="5012">
 <Ereignis Er="6" Beschr="LZB-Bk 688"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 688" Stellwerk="Sinntal Landrücken Süd" Signalname="688" SignalTyp="12" BoundingR="1">
@@ -2018,7 +2044,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="262.0879" pos="1" Reg="5013">
+<InfoGegenRichtung vMax="-1" km="262.0879" pos="1" Reg="5012">
 <Ereignis Er="6" Beschr="@tunnelende@"/>
 </InfoGegenRichtung>
 <NachNorm Nr="685"/>
@@ -2373,7 +2399,7 @@
 <MatrixEintrag Signalbild="117" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="253.9834" pos="1" Reg="5014"/>
+<InfoGegenRichtung vMax="77.7778" km="253.9834" pos="1"/>
 <NachNorm Nr="746"/>
 <NachGegen Nr="213"/>
 </StrElement>
@@ -2451,8 +2477,8 @@
 <StrElement Nr="224" Ueberh="-0.0428" kr="0.000135" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-696.9981" Y="2386.3059" Z="374.7372"/>
 <b X="-696.1357" Y="2362.0581" Z="374.6393"/>
-<InfoNormRichtung vMax="77.7778" km="253.9349" pos="1" Reg="5015"/>
-<InfoGegenRichtung vMax="77.7778" km="253.9591" Reg="5015">
+<InfoNormRichtung vMax="77.7778" km="253.9349" pos="1" Reg="5013"/>
+<InfoGegenRichtung vMax="77.7778" km="253.9591" Reg="5013">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="104"/>
@@ -2541,8 +2567,8 @@
 <StrElement Nr="235" Ueberh="0.0428" kr="-0.00013" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-751.8996" Y="4700.5078" Z="384.1104"/>
 <b X="-752.1026" Y="4723.978" Z="384.205"/>
-<InfoNormRichtung vMax="77.7778" km="251.6202" Reg="5016"/>
-<InfoGegenRichtung vMax="77.7778" km="251.5968" pos="1" Reg="5016">
+<InfoNormRichtung vMax="77.7778" km="251.6202" Reg="5014"/>
+<InfoGegenRichtung vMax="77.7778" km="251.5968" pos="1" Reg="5014">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="166"/>
@@ -2559,8 +2585,8 @@
 <StrElement Nr="237" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3027">
 <g X="-742.9075" Y="5035.8442" Z="385.4684"/>
 <b X="-743.7299" Y="5011.8672" Z="385.3712"/>
-<InfoNormRichtung vMax="77.7778" km="251.2847" pos="1" Reg="5017"/>
-<InfoGegenRichtung vMax="77.7778" km="251.3087" Reg="5017"/>
+<InfoNormRichtung vMax="77.7778" km="251.2847" pos="1" Reg="5015"/>
+<InfoGegenRichtung vMax="77.7778" km="251.3087" Reg="5015"/>
 <NachNorm Nr="239"/>
 </StrElement>
 <StrElement Nr="239" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2997">
@@ -2575,10 +2601,9 @@
 </StrElement>
 <StrElement Nr="240" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2937">
 <g X="-744.2872" Y="4993.876" Z="385.2982"/>
-<b X="-744.6271" Y="4981.8809" Z="385.2496"/>
-<InfoNormRichtung vMax="-1" km="251.3267" pos="1"/>
+<b X="-744.4571" Y="4987.8784" Z="385.2739"/>
 <InfoGegenRichtung vMax="77.7778" km="251.3387"/>
-<NachNorm Nr="684"/>
+<NachNorm Nr="1126"/>
 <NachGegen Nr="727"/>
 </StrElement>
 <StrElement Nr="241" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
@@ -2648,7 +2673,7 @@
 <StrElement Nr="249" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-747.5871" Y="4771.9961" Z="384.3994"/>
 <b X="-747.5361" Y="4748.0039" Z="384.3022"/>
-<InfoNormRichtung vMax="77.7778" km="251.5486" pos="1" Reg="5018">
+<InfoNormRichtung vMax="77.7778" km="251.5486" pos="1" Reg="5016">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="639" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-744.5361" Y="4748.0103" Z="384.3022"/>
@@ -2749,7 +2774,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="251.5726" Reg="5018"/>
+<InfoGegenRichtung vMax="77.7778" km="251.5726" Reg="5016"/>
 <NachNorm Nr="250"/>
 <NachGegen Nr="248"/>
 </StrElement>
@@ -2814,7 +2839,7 @@
 <StrElement Nr="259" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="215.6717" Y="-5734.4009" Z="280.5716"/>
 <b X="214.5573" Y="-5724.4639" Z="280.6959"/>
-<InfoNormRichtung vMax="-1" km="262.1078" Reg="5019">
+<InfoNormRichtung vMax="-1" km="262.1078" Reg="5017">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 658"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 658" Stellwerk="Sinntal Landrücken Süd" Signalname="658" SignalTyp="12" BoundingR="1">
@@ -2855,7 +2880,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="262.0979" pos="1" Reg="5019">
+<InfoGegenRichtung vMax="-1" km="262.0979" pos="1" Reg="5017">
 <Ereignis Er="6" Beschr="@tunnelende@"/>
 </InfoGegenRichtung>
 <NachNorm Nr="677"/>
@@ -2928,22 +2953,22 @@
 <StrElement Nr="268" Ueberh="-0.0628" kr="0.000183" spTrass="83.3333" Anschluss="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2847">
 <g X="234.9872" Y="-5926.251" Z="278.1609"/>
 <b X="233.3839" Y="-5907.938" Z="278.3906"/>
-<InfoNormRichtung vMax="77.7778" km="262.3007" Reg="5020"/>
-<InfoGegenRichtung vMax="77.7778" km="262.2823" pos="1" Reg="5020"/>
+<InfoNormRichtung vMax="77.7778" km="262.3007" Reg="5018"/>
+<InfoGegenRichtung vMax="77.7778" km="262.2823" pos="1" Reg="5018"/>
 <NachNorm Nr="267"/>
 </StrElement>
 <StrElement Nr="269" Ueberh="0.0628" kr="-0.000184" spTrass="83.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2887">
 <g X="228.7033" Y="-5908.3564" Z="278.3906"/>
 <b X="230.3053" Y="-5926.6533" Z="278.1609"/>
-<InfoNormRichtung vMax="77.7778" km="262.2823" pos="1" Reg="5021"/>
-<InfoGegenRichtung vMax="77.7778" km="262.3006" Reg="5021"/>
+<InfoNormRichtung vMax="77.7778" km="262.2823" pos="1" Reg="5019"/>
+<InfoGegenRichtung vMax="77.7778" km="262.3006" Reg="5019"/>
 <NachGegen Nr="183"/>
 </StrElement>
 <StrElement Nr="270" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-706.6917" Y="2580.239" Z="375.5236"/>
 <b X="-707.6662" Y="2625.228" Z="375.7058"/>
-<InfoNormRichtung vMax="-1" Reg="5022"/>
-<InfoGegenRichtung vMax="77.7778" km="253.6916" pos="1" Reg="5022">
+<InfoNormRichtung vMax="-1" Reg="5020"/>
+<InfoGegenRichtung vMax="77.7778" km="253.6916" pos="1" Reg="5020">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300a"/>
 </InfoGegenRichtung>
@@ -3190,7 +3215,7 @@
 <StrElement Nr="293" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-731.2228" Y="3712.7109" Z="380.1098"/>
 <b X="-731.2878" Y="3715.7102" Z="380.1219"/>
-<InfoNormRichtung vMax="-1" Reg="5023">
+<InfoNormRichtung vMax="-1" Reg="5021">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="640" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-734.287" Y="3715.6453" Z="380.1219"/>
@@ -3291,7 +3316,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="252.5589" pos="1" Reg="5023"/>
+<InfoGegenRichtung vMax="77.7778" km="252.5589" pos="1" Reg="5021"/>
 <NachNorm Nr="692"/>
 <NachGegen Nr="292"/>
 </StrElement>
@@ -3348,8 +3373,8 @@
 <StrElement Nr="300" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-738.6888" Y="4057.377" Z="381.5056"/>
 <b X="-739.2221" Y="4081.9961" Z="381.6053"/>
-<InfoNormRichtung vMax="-1" Reg="5024"/>
-<InfoGegenRichtung vMax="77.7778" km="252.2141" pos="1" Reg="5024">
+<InfoNormRichtung vMax="-1" Reg="5022"/>
+<InfoGegenRichtung vMax="77.7778" km="252.2141" pos="1" Reg="5022">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="693"/>
@@ -3358,7 +3383,7 @@
 <StrElement Nr="301" spTrass="27.7778" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3171">
 <g X="-741.1592" Y="4171.417" Z="381.9675"/>
 <b X="-741.1326" Y="4170.188" Z="381.9625"/>
-<InfoNormRichtung vMax="-1" km="252.1493" pos="1" Reg="5025">
+<InfoNormRichtung vMax="-1" km="252.1493" pos="1" Reg="5023">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="603" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-741.1592" Y="4171.417" Z="381.9675"/>
 <phi Y="0.004047" Z="-1.549139"/>
@@ -3429,7 +3454,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="252.1505" Reg="5025"/>
+<InfoGegenRichtung vMax="-1" km="252.1505" Reg="5023"/>
 <NachNorm Nr="302"/>
 <NachNorm Nr="311"/>
 <NachGegen Nr="225"/>
@@ -3603,7 +3628,7 @@
 <StrElement Nr="322" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-733.177" Y="4019.9478" Z="381.3536"/>
 <b X="-733.2036" Y="4021.178" Z="381.3586"/>
-<InfoNormRichtung vMax="-1" km="252.3008" Reg="5026">
+<InfoNormRichtung vMax="-1" km="252.3008" Reg="5024">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="604" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-733.177" Y="4019.9478" Z="381.3536"/>
 <phi Y="-0.004049" Z="1.592454"/>
@@ -3674,7 +3699,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="252.2996" pos="1" Reg="5026">
+<InfoGegenRichtung vMax="-1" km="252.2996" pos="1" Reg="5024">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -3825,11 +3850,11 @@
 <StrElement Nr="340" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3516">
 <g X="-744.1656" Y="4310.2012" Z="382.5295"/>
 <b X="-744.7502" Y="4337.1948" Z="382.6388"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5027">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5025">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="251.9717" pos="1" Reg="5027"/>
+<InfoGegenRichtung vMax="77.7778" km="251.9717" pos="1" Reg="5025"/>
 <NachNorm Nr="724"/>
 <NachGegen Nr="353"/>
 </StrElement>
@@ -3861,7 +3886,7 @@
 <StrElement Nr="344" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3334">
 <g X="-742.7617" Y="4245.3989" Z="382.2671"/>
 <b X="-742.7883" Y="4246.6279" Z="382.2721"/>
-<InfoNormRichtung vMax="-1" km="252.0753" Reg="5028">
+<InfoNormRichtung vMax="-1" km="252.0753" Reg="5026">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="602" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-742.7617" Y="4245.3989" Z="382.2671"/>
 <phi Y="-0.004049" Z="1.592456"/>
@@ -3932,7 +3957,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="252.0741" pos="1" Reg="5028"/>
+<InfoGegenRichtung vMax="-1" km="252.0741" pos="1" Reg="5026"/>
 <NachNorm Nr="345"/>
 <NachNorm Nr="354"/>
 <NachGegen Nr="688"/>
@@ -4128,7 +4153,7 @@
 <StrElement Nr="368" spTrass="27.7778" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2939">
 <g X="-741.3464" Y="4397.0869" Z="382.881"/>
 <b X="-741.3198" Y="4395.8569" Z="382.876"/>
-<InfoNormRichtung vMax="-1" km="251.9236" pos="1" Reg="5029">
+<InfoNormRichtung vMax="-1" km="251.9236" pos="1" Reg="5027">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="601" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-741.3464" Y="4397.0869" Z="382.881"/>
 <phi Y="0.004049" Z="-1.549139"/>
@@ -4199,7 +4224,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="251.9248" Reg="5029">
+<InfoGegenRichtung vMax="-1" km="251.9248" Reg="5027">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -4360,11 +4385,11 @@
 <StrElement Nr="387" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-231.9546" Y="-1850.4572" Z="329.3397"/>
 <b X="-227.9465" Y="-1885.2242" Z="328.9031"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5030">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5028">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="258.2472" Reg="5030"/>
+<InfoGegenRichtung vMax="77.7778" km="258.2472" Reg="5028"/>
 <NachNorm Nr="702"/>
 <NachGegen Nr="471"/>
 </StrElement>
@@ -4429,8 +4454,8 @@
 <StrElement Nr="395" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-186.7526" Y="-2242.5471" Z="324.4163"/>
 <b X="-181.1024" Y="-2291.5581" Z="323.8009"/>
-<InfoNormRichtung vMax="77.7778" km="258.5926" pos="1" Reg="5031"/>
-<InfoGegenRichtung vMax="77.7778" km="258.642" Reg="5031">
+<InfoNormRichtung vMax="77.7778" km="258.5926" pos="1" Reg="5029"/>
+<InfoGegenRichtung vMax="77.7778" km="258.642" Reg="5029">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="396"/>
@@ -4666,7 +4691,7 @@
 <StrElement Nr="425" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-17.2451" Y="-3712.8853" Z="305.9538"/>
 <b X="-14.8402" Y="-3733.7454" Z="305.6918"/>
-<InfoNormRichtung vMax="-1" Reg="5032">
+<InfoNormRichtung vMax="-1" Reg="5030">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 687"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 687" Stellwerk="Sinntal Landrücken Süd" Signalname="687" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -4707,14 +4732,14 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="260.1222" Reg="5032"/>
+<InfoGegenRichtung vMax="77.7778" km="260.1222" Reg="5030"/>
 <NachNorm Nr="704"/>
 <NachGegen Nr="738"/>
 </StrElement>
 <StrElement Nr="426" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-11.5948" Y="-3761.896" Z="305.3383"/>
 <b X="-10.9487" Y="-3767.5" Z="305.2679"/>
-<InfoGegenRichtung vMax="77.7778" km="260.1715" Reg="5033"/>
+<InfoGegenRichtung vMax="77.7778" km="260.1715"/>
 <NachNorm Nr="739"/>
 <NachGegen Nr="704"/>
 </StrElement>
@@ -4744,8 +4769,8 @@
 <StrElement Nr="430" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="11.0062" Y="-3957.9409" Z="302.8767"/>
 <b X="16.6564" Y="-4006.9529" Z="302.2613"/>
-<InfoNormRichtung vMax="77.7778" km="260.3195" pos="1" Reg="5034"/>
-<InfoGegenRichtung vMax="77.7778" km="260.3688" Reg="5034">
+<InfoNormRichtung vMax="77.7778" km="260.3195" pos="1" Reg="5031"/>
+<InfoGegenRichtung vMax="77.7778" km="260.3688" Reg="5031">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="431"/>
@@ -5003,7 +5028,7 @@
 <StrElement Nr="462" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.286">
 <g X="-239.3778" Y="-1786.066" Z="330.1482"/>
 <b X="-239.2369" Y="-1787.2878" Z="330.1329"/>
-<InfoNormRichtung vMax="-1" km="258.1331" pos="1" Reg="5035">
+<InfoNormRichtung vMax="-1" km="258.1331" pos="1" Reg="5032">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="653" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-239.3778" Y="-1786.066" Z="330.1482"/>
 <phi Y="0.012476" Z="-1.45602"/>
@@ -5074,7 +5099,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="258.1343" Reg="5035"/>
+<InfoGegenRichtung vMax="-1" km="258.1343" Reg="5032"/>
 <NachNorm Nr="463"/>
 <NachNorm Nr="472"/>
 <NachGegen Nr="386"/>
@@ -5414,7 +5439,7 @@
 <StrElement Nr="504" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-515.8685" Y="571.2259" Z="359.7547"/>
 <b X="-511.8605" Y="536.4589" Z="359.3181"/>
-<InfoNormRichtung vMax="-1" Reg="5036">
+<InfoNormRichtung vMax="-1" Reg="5033">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 615"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 615" Stellwerk="Kalbach Landrücken Nord" Signalname="615" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -5455,24 +5480,24 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="255.8099" Reg="5036"/>
+<InfoGegenRichtung vMax="77.7778" km="255.8099" Reg="5033"/>
 <NachNorm Nr="697"/>
 <NachGegen Nr="503"/>
 </StrElement>
 <StrElement Nr="505" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-510.1489" Y="521.6125" Z="359.1317"/>
 <b X="-504.4292" Y="471.9989" Z="358.5088"/>
-<InfoNormRichtung vMax="77.7778" km="255.8099" pos="1" Reg="5037">
+<InfoNormRichtung vMax="77.7778" km="255.8099" pos="1" Reg="5034">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="255.8599" Reg="5037"/>
+<InfoGegenRichtung vMax="77.7778" km="255.8599" Reg="5034"/>
 <NachNorm Nr="718"/>
 <NachGegen Nr="697"/>
 </StrElement>
 <StrElement Nr="506" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-498.7095" Y="422.3855" Z="357.8858"/>
 <b X="-500.1982" Y="435.299" Z="358.048"/>
-<InfoNormRichtung vMax="-1" Reg="5038">
+<InfoNormRichtung vMax="-1" Reg="5035">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 644"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 644" Stellwerk="Kalbach Landrücken Nord" Signalname="644" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -5513,7 +5538,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="255.8599" pos="1" Reg="5038"/>
+<InfoGegenRichtung vMax="77.7778" km="255.8599" pos="1" Reg="5035"/>
 <NachNorm Nr="718"/>
 <NachGegen Nr="507"/>
 </StrElement>
@@ -5837,7 +5862,7 @@
 <StrElement Nr="530" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-361.4374" Y="-768.3379" Z="342.9343"/>
 <b X="-362.4681" Y="-759.3978" Z="343.0466"/>
-<InfoNormRichtung vMax="-1" Reg="5039">
+<InfoNormRichtung vMax="-1" Reg="5036">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 646"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 646" Stellwerk="Kalbach Landrücken Nord" Signalname="646" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -5878,7 +5903,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="257.0586" pos="1" Reg="5039">
+<InfoGegenRichtung vMax="77.7778" km="257.0586" pos="1" Reg="5036">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="GÜ 653" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-361.4374" Y="-768.3379" Z="342.9343"/>
 <phi Y="0.012479" Z="-1.456013"/>
@@ -6001,7 +6026,7 @@
 <StrElement Nr="540" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-309.9604" Y="-1214.859" Z="337.3275"/>
 <b X="-305.895" Y="-1250.1226" Z="336.8846"/>
-<InfoNormRichtung vMax="-1" Reg="5040">
+<InfoNormRichtung vMax="-1" Reg="5037">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="653" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-308.8753" Y="-1250.4663" Z="336.8846"/>
@@ -6102,17 +6127,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="257.608" Reg="5040"/>
+<InfoGegenRichtung vMax="77.7778" km="257.608" Reg="5037"/>
 <NachNorm Nr="700"/>
 <NachGegen Nr="539"/>
 </StrElement>
 <StrElement Nr="541" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-304.2407" Y="-1264.472" Z="336.7044"/>
 <b X="-298.521" Y="-1314.0861" Z="336.0815"/>
-<InfoNormRichtung vMax="77.7778" km="257.608" pos="1" Reg="5041">
+<InfoNormRichtung vMax="77.7778" km="257.608" pos="1" Reg="5038">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="257.6579" Reg="5041"/>
+<InfoGegenRichtung vMax="77.7778" km="257.6579" Reg="5038"/>
 <NachNorm Nr="542"/>
 <NachGegen Nr="700"/>
 </StrElement>
@@ -6158,7 +6183,7 @@
 <StrElement Nr="547" spTrass="27.7778" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-226.6353" Y="-1937.635" Z="328.2518"/>
 <b X="-226.7762" Y="-1936.413" Z="328.2671"/>
-<InfoNormRichtung vMax="-1" km="258.2852" Reg="5042">
+<InfoNormRichtung vMax="-1" km="258.2852" Reg="5039">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="654" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-226.6353" Y="-1937.635" Z="328.2518"/>
 <phi Y="-0.012472" Z="-4.597611"/>
@@ -6229,7 +6254,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="258.284" pos="1" Reg="5042">
+<InfoGegenRichtung vMax="-1" km="258.284" pos="1" Reg="5039">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="548"/>
@@ -6379,11 +6404,11 @@
 <StrElement Nr="565" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3261">
 <g X="-255.2762" Y="-1648.1619" Z="331.8799"/>
 <b X="-258.7117" Y="-1618.3615" Z="332.254"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5043">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5040">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="257.9445" pos="1" Reg="5043"/>
+<InfoGegenRichtung vMax="77.7778" km="257.9445" pos="1" Reg="5040"/>
 <NachNorm Nr="715"/>
 <NachGegen Nr="638"/>
 </StrElement>
@@ -6440,8 +6465,8 @@
 <StrElement Nr="572" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-295.1541" Y="-1302.254" Z="336.2233"/>
 <b X="-300.8509" Y="-1252.839" Z="336.8438"/>
-<InfoNormRichtung vMax="77.7778" km="257.646" Reg="5044"/>
-<InfoGegenRichtung vMax="77.7778" km="257.5963" pos="1" Reg="5044">
+<InfoNormRichtung vMax="77.7778" km="257.646" Reg="5041"/>
+<InfoGegenRichtung vMax="77.7778" km="257.5963" pos="1" Reg="5041">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="573"/>
@@ -6520,18 +6545,18 @@
 <StrElement Nr="582" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-352.1223" Y="-808.1009" Z="342.4282"/>
 <b X="-356.7353" Y="-768.0878" Z="342.9306"/>
-<InfoGegenRichtung vMax="77.7778" km="257.0988" pos="1" Reg="5045"/>
+<InfoGegenRichtung vMax="77.7778" km="257.0988" pos="1"/>
 <NachNorm Nr="760"/>
 <NachGegen Nr="581"/>
 </StrElement>
 <StrElement Nr="583" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-357.8192" Y="-758.6855" Z="343.0487"/>
 <b X="-363.516" Y="-709.2702" Z="343.6692"/>
-<InfoNormRichtung vMax="77.7778" km="257.0988" Reg="5046">
+<InfoNormRichtung vMax="77.7778" km="257.0988" Reg="5042">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="257.0491" pos="1" Reg="5046"/>
+<InfoGegenRichtung vMax="77.7778" km="257.0491" pos="1" Reg="5042"/>
 <NachNorm Nr="584"/>
 <NachGegen Nr="760"/>
 </StrElement>
@@ -6718,7 +6743,7 @@
 <StrElement Nr="607" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-494.5431" Y="427.2825" Z="357.9405"/>
 <b X="-495.5737" Y="436.2226" Z="358.0528"/>
-<InfoNormRichtung vMax="-1" Reg="5047">
+<InfoNormRichtung vMax="-1" Reg="5043">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 614"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 614" Stellwerk="Kalbach Landrücken Nord" Signalname="614" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -6759,15 +6784,15 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="255.8551" pos="1" Reg="5047"/>
+<InfoGegenRichtung vMax="77.7778" km="255.8551" pos="1" Reg="5043"/>
 <NachNorm Nr="717"/>
 <NachGegen Nr="606"/>
 </StrElement>
 <StrElement Nr="608" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-500.2399" Y="476.6978" Z="358.561"/>
 <b X="-505.9367" Y="526.1133" Z="359.1815"/>
-<InfoNormRichtung vMax="77.7778" km="255.8551" Reg="5048"/>
-<InfoGegenRichtung vMax="77.7778" km="255.8054" pos="1" Reg="5048">
+<InfoNormRichtung vMax="77.7778" km="255.8551" Reg="5044"/>
+<InfoGegenRichtung vMax="77.7778" km="255.8054" pos="1" Reg="5044">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="609"/>
@@ -6937,7 +6962,7 @@
 <StrElement Nr="629" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2917">
 <g X="-247.8528" Y="-1712.5529" Z="331.0713"/>
 <b X="-247.9937" Y="-1711.3311" Z="331.0866"/>
-<InfoNormRichtung vMax="-1" km="258.0591" Reg="5049">
+<InfoNormRichtung vMax="-1" km="258.0591" Reg="5045">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="652" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-247.8528" Y="-1712.5529" Z="331.0713"/>
 <phi Y="-0.012476" Z="1.685575"/>
@@ -7008,7 +7033,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="258.0578" pos="1" Reg="5049"/>
+<InfoGegenRichtung vMax="-1" km="258.0578" pos="1" Reg="5045"/>
 <NachNorm Nr="630"/>
 <NachNorm Nr="639"/>
 <NachGegen Nr="184"/>
@@ -7205,7 +7230,7 @@
 <StrElement Nr="653" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3401">
 <g X="-269.9225" Y="-1562.1541" Z="332.9666"/>
 <b X="-269.7816" Y="-1563.376" Z="332.9512"/>
-<InfoNormRichtung vMax="-1" km="257.9077" pos="1" Reg="5050">
+<InfoNormRichtung vMax="-1" km="257.9077" pos="1" Reg="5046">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="651" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-269.9225" Y="-1562.1541" Z="332.9666"/>
 <phi Y="0.012476" Z="-1.456018"/>
@@ -7276,7 +7301,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="257.9089" Reg="5050">
+<InfoGegenRichtung vMax="-1" km="257.9089" Reg="5046">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -7446,21 +7471,20 @@
 </StrElement>
 <StrElement Nr="677" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="214.5573" Y="-5724.4639" Z="280.6959"/>
-<b X="213.2101" Y="-5712.5405" Z="280.845"/>
-<InfoNormRichtung vMax="-1" km="262.0979"/>
+<b X="213.4346" Y="-5714.5278" Z="280.8202"/>
 <InfoGegenRichtung vMax="-1" km="262.0858" pos="1"/>
-<NachNorm Nr="678"/>
+<NachNorm Nr="1127"/>
 <NachGegen Nr="259"/>
 </StrElement>
 <StrElement Nr="678" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="213.2101" Y="-5712.5405" Z="280.845"/>
 <b X="211.009" Y="-5693.0601" Z="281.0887"/>
-<InfoNormRichtung vMax="77.7778" km="262.0858" Reg="5051">
+<InfoNormRichtung vMax="77.7778" km="262.0858" Reg="5047">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="262.0663" pos="1" Reg="5051"/>
+<InfoGegenRichtung vMax="77.7778" km="262.0663" pos="1" Reg="5047"/>
 <NachNorm Nr="256"/>
-<NachGegen Nr="677"/>
+<NachGegen Nr="1127"/>
 </StrElement>
 <StrElement Nr="679" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3093">
 <g X="-748.6752" Y="5003.999" Z="385.3387"/>
@@ -7518,10 +7542,9 @@
 </StrElement>
 <StrElement Nr="681" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3122">
 <g X="-748.9848" Y="4994.0039" Z="385.2982"/>
-<b X="-749.3246" Y="4982.0088" Z="385.2495"/>
-<InfoNormRichtung vMax="-1" km="251.3267" pos="1"/>
+<b X="-749.1547" Y="4988.0063" Z="385.2739"/>
 <InfoGegenRichtung vMax="-1" km="251.3387"/>
-<NachNorm Nr="683"/>
+<NachNorm Nr="1125"/>
 <NachGegen Nr="726"/>
 </StrElement>
 <StrElement Nr="683" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
@@ -7530,7 +7553,7 @@
 <InfoNormRichtung vMax="77.7778" km="251.3387" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="251.3567"/>
 <NachNorm Nr="157"/>
-<NachGegen Nr="681"/>
+<NachGegen Nr="1125"/>
 </StrElement>
 <StrElement Nr="684" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-744.6271" Y="4981.8809" Z="385.2496"/>
@@ -7538,7 +7561,7 @@
 <InfoNormRichtung vMax="77.7778" km="251.3387" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="251.3567"/>
 <NachNorm Nr="241"/>
-<NachGegen Nr="240"/>
+<NachGegen Nr="1126"/>
 </StrElement>
 <StrElement Nr="685" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.323">
 <g X="209.8841" Y="-5724.9648" Z="280.6958"/>
@@ -7594,10 +7617,10 @@
 <StrElement Nr="692" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-731.2878" Y="3715.7102" Z="380.122"/>
 <b X="-732.2895" Y="3761.9492" Z="380.3092"/>
-<InfoNormRichtung vMax="77.7778" km="252.6081" Reg="5052">
+<InfoNormRichtung vMax="77.7778" km="252.6081" Reg="5048">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5052"/>
+<InfoGegenRichtung vMax="-1" Reg="5048"/>
 <NachNorm Nr="294"/>
 <NachGegen Nr="293"/>
 </StrElement>
@@ -7637,8 +7660,8 @@
 <StrElement Nr="695" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-707.6662" Y="2625.228" Z="375.7058"/>
 <b X="-707.7582" Y="2629.4771" Z="375.723"/>
-<InfoNormRichtung vMax="77.7778" km="253.7409" Reg="5053"/>
-<InfoGegenRichtung vMax="-1" Reg="5053">
+<InfoNormRichtung vMax="77.7778" km="253.7409" Reg="5049"/>
+<InfoGegenRichtung vMax="-1" Reg="5049">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 613"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 613" Stellwerk="Kalbach Landrücken Nord" Signalname="613" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -7685,8 +7708,8 @@
 <StrElement Nr="696" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-702.9674" Y="2625.3301" Z="375.7058"/>
 <b X="-703.0682" Y="2629.9819" Z="375.7246"/>
-<InfoNormRichtung vMax="77.7778" km="253.7408" Reg="5054"/>
-<InfoGegenRichtung vMax="-1" Reg="5054">
+<InfoNormRichtung vMax="77.7778" km="253.7408" Reg="5050"/>
+<InfoGegenRichtung vMax="-1" Reg="5050">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 643"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 643" Stellwerk="Kalbach Landrücken Nord" Signalname="643" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -7742,8 +7765,8 @@
 <StrElement Nr="698" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-507.1964" Y="537.04" Z="359.3187"/>
 <b X="-511.6336" Y="575.5288" Z="359.802"/>
-<InfoNormRichtung vMax="77.7778" km="255.8054" Reg="5055"/>
-<InfoGegenRichtung vMax="-1" Reg="5055">
+<InfoNormRichtung vMax="77.7778" km="255.8054" Reg="5051"/>
+<InfoGegenRichtung vMax="-1" Reg="5051">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 645"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 645" Stellwerk="Kalbach Landrücken Nord" Signalname="645" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -7790,8 +7813,8 @@
 <StrElement Nr="699" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-301.1944" Y="-1249.859" Z="336.8812"/>
 <b X="-306.5477" Y="-1203.424" Z="337.4643"/>
-<InfoNormRichtung vMax="77.7778" km="257.5963" Reg="5056"/>
-<InfoGegenRichtung vMax="-1" Reg="5056">
+<InfoNormRichtung vMax="77.7778" km="257.5963" Reg="5052"/>
+<InfoGegenRichtung vMax="-1" Reg="5052">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="683" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-298.2142" Y="-1249.5154" Z="336.8812"/>
@@ -8049,8 +8072,8 @@
 <StrElement Nr="708" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="19.6339" Y="-4032.7798" Z="301.937"/>
 <b X="22.3067" Y="-4055.9641" Z="301.6458"/>
-<InfoNormRichtung vMax="77.7778" km="260.3688" pos="1" Reg="5057"/>
-<InfoGegenRichtung vMax="-1" Reg="5057">
+<InfoNormRichtung vMax="77.7778" km="260.3688" pos="1" Reg="5053"/>
+<InfoGegenRichtung vMax="-1" Reg="5053">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 656"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 656" Stellwerk="Sinntal Landrücken Süd" Signalname="656" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -8097,8 +8120,8 @@
 <StrElement Nr="709" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="14.9802" Y="-4033.4504" Z="301.9353"/>
 <b X="17.0984" Y="-4051.824" Z="301.7046"/>
-<InfoNormRichtung vMax="77.7778" km="260.3641" pos="1" Reg="5058"/>
-<InfoGegenRichtung vMax="-1" Reg="5058">
+<InfoNormRichtung vMax="77.7778" km="260.3641" pos="1" Reg="5054"/>
+<InfoGegenRichtung vMax="-1" Reg="5054">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 686"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 686" Stellwerk="Sinntal Landrücken Süd" Signalname="686" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -8145,8 +8168,8 @@
 <StrElement Nr="710" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-179.8427" Y="-2302.4849" Z="323.6637"/>
 <b X="-175.4521" Y="-2340.5701" Z="323.1855"/>
-<InfoNormRichtung vMax="77.7778" km="258.6419" pos="1" Reg="5059"/>
-<InfoGegenRichtung vMax="-1" Reg="5059">
+<InfoNormRichtung vMax="77.7778" km="258.6419" pos="1" Reg="5055"/>
+<InfoGegenRichtung vMax="-1" Reg="5055">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="654" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-176.8625" Y="-2302.1414" Z="323.6637"/>
@@ -8253,8 +8276,8 @@
 <StrElement Nr="711" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-184.5528" Y="-2302.666" Z="323.6682"/>
 <b X="-181.2895" Y="-2330.9729" Z="323.3127"/>
-<InfoNormRichtung vMax="77.7778" km="258.6317" pos="1" Reg="5060"/>
-<InfoGegenRichtung vMax="-1" Reg="5060">
+<InfoNormRichtung vMax="77.7778" km="258.6317" pos="1" Reg="5056"/>
+<InfoGegenRichtung vMax="-1" Reg="5056">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="684" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-187.5331" Y="-2303.0095" Z="323.6682"/>
@@ -8572,33 +8595,33 @@
 <StrElement Nr="716" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-362.4681" Y="-759.3978" Z="343.0466"/>
 <b X="-367.1571" Y="-718.7241" Z="343.5573"/>
-<InfoNormRichtung vMax="77.7778" km="257.1085" Reg="5061">
+<InfoNormRichtung vMax="77.7778" km="257.1085" Reg="5057">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5061"/>
+<InfoGegenRichtung vMax="-1" Reg="5057"/>
 <NachNorm Nr="529"/>
 <NachGegen Nr="530"/>
 </StrElement>
 <StrElement Nr="717" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-495.5737" Y="436.2226" Z="358.0528"/>
 <b X="-500.2399" Y="476.6978" Z="358.561"/>
-<InfoNormRichtung vMax="77.7778" km="255.9049" Reg="5062">
+<InfoNormRichtung vMax="77.7778" km="255.9049" Reg="5058">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5062"/>
+<InfoGegenRichtung vMax="-1" Reg="5058"/>
 <NachNorm Nr="608"/>
 <NachGegen Nr="607"/>
 </StrElement>
 <StrElement Nr="718" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-500.1982" Y="435.299" Z="358.048"/>
 <b X="-504.4292" Y="471.9989" Z="358.5088"/>
-<InfoNormRichtung vMax="77.7778" km="255.9098" Reg="5063">
+<InfoNormRichtung vMax="77.7778" km="255.9098" Reg="5059">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5063"/>
+<InfoGegenRichtung vMax="-1" Reg="5059"/>
 <NachNorm Nr="505"/>
 <NachGegen Nr="506"/>
 </StrElement>
@@ -9042,10 +9065,10 @@
 <StrElement Nr="739" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-10.9487" Y="-3767.5" Z="305.2679"/>
 <b X="-5.9446" Y="-3810.907" Z="304.7229"/>
-<InfoNormRichtung vMax="77.7778" km="260.1222" pos="1" Reg="5033">
+<InfoNormRichtung vMax="77.7778" km="260.1222" pos="1" Reg="5060">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="-1" Reg="5060">
 <Signal SignalTyp="1" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-7.4718" Y="-3767.0991" Z="308.2679"/>
 <phi Z="1.685574"/>
@@ -9107,10 +9130,10 @@
 <StrElement Nr="742" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-15.6497" Y="-3767.7607" Z="305.2715"/>
 <b X="-11.2427" Y="-3805.988" Z="304.7914"/>
-<InfoNormRichtung vMax="77.7778" km="260.1166" pos="1" Reg="5002">
+<InfoNormRichtung vMax="77.7778" km="260.1166" pos="1" Reg="5061">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="-1" Reg="5061">
 <Signal SignalTyp="1" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-19.1267" Y="-3768.1616" Z="308.2715"/>
 <phi Z="1.685574"/>
@@ -9165,7 +9188,7 @@
 <StrElement Nr="746" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-698.9603" Y="2315.73" Z="374.4524"/>
 <b X="-699.2555" Y="2322.7109" Z="374.4806"/>
-<InfoNormRichtung vMax="-1" Reg="5014">
+<InfoNormRichtung vMax="-1" Reg="5062">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 642"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 642" Stellwerk="Kalbach Landrücken Nord" Signalname="642" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -9206,6 +9229,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" Reg="5062"/>
 <NachNorm Nr="720"/>
 <NachGegen Nr="214"/>
 </StrElement>
@@ -9342,7 +9366,7 @@
 <StrElement Nr="760" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-356.7353" Y="-768.0878" Z="342.9306"/>
 <b X="-357.8192" Y="-758.6855" Z="343.0487"/>
-<InfoNormRichtung vMax="77.7778" km="257.1486" Reg="5045">
+<InfoNormRichtung vMax="77.7778" km="257.1486" Reg="5063">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 616"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 616" Stellwerk="Kalbach Landrücken Nord" Signalname="616" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -9383,7 +9407,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="-1" Reg="5063">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="GÜ 683" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-356.7353" Y="-768.0878" Z="342.9306"/>
 <phi Y="0.012474" Z="-1.456017"/>
@@ -10823,16 +10847,19 @@
 <StrElement Nr="1102" spTrass="27.7778" Fkt="2">
 <g X="199.6933" Y="-5760.0513" Z="279.75"/>
 <b X="199.4242" Y="-5756.9917" Z="279.75"/>
+<NachGegen Nr="1105"/>
 </StrElement>
-<StrElement Nr="1103" spTrass="27.7778" Fkt="2">
+<StrElement Nr="1103" spTrass="27.7778" Anschluss="1" Fkt="2">
 <g X="166.5333" Y="-5822.7476" Z="285.7237"/>
 <b X="168.9111" Y="-5818.9985" Z="286.0638"/>
+<NachNorm Nr="1121"/>
 </StrElement>
 <StrElement Nr="1105" spTrass="2.7778" Fkt="2">
 <g X="199.6933" Y="-5760.0503" Z="279.7499"/>
 <b X="199.804" Y="-5764.0454" Z="279.8347"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
 <NachNorm Nr="1106"/>
+<NachGegen Nr="1102"/>
 </StrElement>
 <StrElement Nr="1106" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="199.804" Y="-5764.0454" Z="279.8347"/>
@@ -10939,10 +10966,11 @@
 <NachNorm Nr="1121"/>
 <NachGegen Nr="1119"/>
 </StrElement>
-<StrElement Nr="1121" spTrass="8.3333" Anschluss="256" Fkt="2">
+<StrElement Nr="1121" spTrass="8.3333" Anschluss="257" Fkt="2">
 <g X="171.3431" Y="-5815.3364" Z="286.2789"/>
 <b X="168.9111" Y="-5818.9976" Z="286.0638"/>
 <InfoNormRichtung vMax="8.3333" km="0.0636" pos="1"/>
+<NachNorm Nr="1103"/>
 <NachGegen Nr="1120"/>
 </StrElement>
 <StrElement Nr="1122" spTrass="27.7778" Fkt="2">
@@ -10952,12 +10980,84 @@
 <StrElement Nr="1123" spTrass="27.7778" Fkt="2">
 <g X="179.3775" Y="-5708.2739" Z="298.2426"/>
 <b X="186.8345" Y="-5700.4775" Z="297.1111"/>
+<NachNorm Nr="1129"/>
 </StrElement>
-<StrElement Nr="1124" spTrass="27.7778" Fkt="2">
+<StrElement Nr="1124" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="204.088" Y="-5683.5435" Z="293.6854"/>
 <b X="209.7856" Y="-5678.3291" Z="292.1512"/>
+<NachGegen Nr="1135"/>
 </StrElement>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 612 612 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1358.915">
+<StrElement Nr="1125" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3122">
+<g X="-749.1547" Y="4988.0063" Z="385.2739"/>
+<b X="-749.3246" Y="4982.0088" Z="385.2495"/>
+<InfoNormRichtung vMax="-1" km="251.3267" pos="1"/>
+<NachNorm Nr="683"/>
+<NachGegen Nr="681"/>
+</StrElement>
+<StrElement Nr="1126" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2937">
+<g X="-744.4571" Y="4987.8784" Z="385.2739"/>
+<b X="-744.6271" Y="4981.8809" Z="385.2496"/>
+<InfoNormRichtung vMax="-1" km="251.3267" pos="1"/>
+<NachNorm Nr="684"/>
+<NachGegen Nr="240"/>
+</StrElement>
+<StrElement Nr="1127" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
+<g X="213.4346" Y="-5714.5278" Z="280.8202"/>
+<b X="213.2101" Y="-5712.5405" Z="280.845"/>
+<InfoNormRichtung vMax="-1" km="262.0979"/>
+<NachNorm Nr="678"/>
+<NachGegen Nr="677"/>
+</StrElement>
+<StrElement Nr="1129" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="186.8345" Y="-5700.4766" Z="297.1111"/>
+<b X="189.0542" Y="-5698.1641" Z="296.7544"/>
+<InfoNormRichtung vMax="27.7778" pos="1"/>
+<NachNorm Nr="1130"/>
+<NachGegen Nr="1123"/>
+</StrElement>
+<StrElement Nr="1130" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="189.0542" Y="-5698.1641" Z="296.7544"/>
+<b X="191.8523" Y="-5695.3057" Z="296.2522"/>
+<InfoNormRichtung vMax="13.8889" km="0.0032" pos="1"/>
+<NachNorm Nr="1131"/>
+<NachGegen Nr="1129"/>
+</StrElement>
+<StrElement Nr="1131" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="191.8523" Y="-5695.3057" Z="296.2522"/>
+<b X="194.1644" Y="-5692.9927" Z="295.7944"/>
+<InfoNormRichtung vMax="13.8889" km="0.0072" pos="1"/>
+<NachNorm Nr="1132"/>
+<NachGegen Nr="1130"/>
+</StrElement>
+<StrElement Nr="1132" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="194.1644" Y="-5692.9927" Z="295.7944"/>
+<b X="197.2271" Y="-5689.9956" Z="295.1432"/>
+<InfoNormRichtung vMax="13.8889" km="0.0105" pos="1"/>
+<NachNorm Nr="1133"/>
+<NachGegen Nr="1131"/>
+</StrElement>
+<StrElement Nr="1133" kr="-0.002894" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="197.2271" Y="-5689.9956" Z="295.1432"/>
+<b X="199.404" Y="-5687.9097" Z="294.6812"/>
+<InfoNormRichtung vMax="13.8889" km="0.0148" pos="1"/>
+<NachNorm Nr="1134"/>
+<NachGegen Nr="1132"/>
+</StrElement>
+<StrElement Nr="1134" kr="-0.002894" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="199.404" Y="-5687.9097" Z="294.6812"/>
+<b X="201.599" Y="-5685.8428" Z="294.2192"/>
+<InfoNormRichtung vMax="13.8889" km="0.0178" pos="1"/>
+<NachNorm Nr="1135"/>
+<NachGegen Nr="1133"/>
+</StrElement>
+<StrElement Nr="1135" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="201.599" Y="-5685.8428" Z="294.2192"/>
+<b X="204.088" Y="-5683.5425" Z="293.6998"/>
+<InfoNormRichtung vMax="13.8889" km="0.0208" pos="1"/>
+<NachNorm Nr="1124"/>
+<NachGegen Nr="1134"/>
+</StrElement>
+<Fahrstrasse FahrstrName="LZB: LZB-Bk 612 612 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1358.9149">
 <FahrstrStart Ref="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11000,7 +11100,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken N 609 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6009.4219">
+<Fahrstrasse FahrstrName="Üst Landrücken N 609 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6009.4233">
 <FahrstrStart Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11037,7 +11137,7 @@
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="48">
+<FahrstrRegister Ref="222">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="112">
@@ -11091,6 +11191,9 @@
 <FahrstrSignal Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="209" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Üst Landrücken N 609 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="5998.1138">
 <FahrstrStart Ref="37">
@@ -11147,7 +11250,7 @@
 <FahrstrRegister Ref="145">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="142">
+<FahrstrRegister Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="176">
@@ -11186,6 +11289,9 @@
 <FahrstrSignal Ref="37" FahrstrSignalZeile="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="209" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="LZB: Üst Landrücken N 609 -&gt; LZB-Bk 613 613" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="2143.0017">
 <FahrstrStart Ref="37">
@@ -11236,8 +11342,11 @@
 <FahrstrSignal Ref="37" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="209" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 609 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypLZB" Laenge="2142.6941">
+<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 609 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypLZB" Laenge="2142.6938">
 <FahrstrStart Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11289,6 +11398,9 @@
 <FahrstrSignal Ref="37" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="209" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="LZB: LZB-Bk 688 688 -&gt; LZB-Bk 686 686" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1694.3417">
 <FahrstrStart Ref="43">
@@ -11313,35 +11425,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 642 642 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1399.3853">
-<FahrstrStart Ref="46">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="70">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="22">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="68">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="166">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="71">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="46" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken N 639" FahrstrTyp="TypZug" Laenge="263.9063">
 <FahrstrStart Ref="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
@@ -11356,7 +11439,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="5997.9233">
+<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="5997.9229">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11405,7 +11488,7 @@
 <FahrstrRegister Ref="145">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="142">
+<FahrstrRegister Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="176">
@@ -11441,8 +11524,11 @@
 <FahrstrSignal Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="210" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6009.4219">
+<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6009.4229">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11479,7 +11565,7 @@
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="48">
+<FahrstrRegister Ref="222">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="112">
@@ -11536,8 +11622,11 @@
 <FahrstrSignal Ref="57" FahrstrSignalZeile="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="210" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 639 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypLZB" Laenge="2142.5034">
+<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 639 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypLZB" Laenge="2142.5032">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11580,6 +11669,9 @@
 <FahrstrSignal Ref="57" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="210" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="LZB: Üst Landrücken N 639 -&gt; LZB-Bk 613 613" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="2143.0015">
 <FahrstrStart Ref="57">
@@ -11633,6 +11725,9 @@
 <FahrstrSignal Ref="57" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="210" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="LZB: LZB-Bk 658 658 -&gt; LZB-Bk 656 656" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1689.6704">
 <FahrstrStart Ref="60">
@@ -11657,7 +11752,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 654" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="3609.3994">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 654" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="3609.3999">
 <FahrstrStart Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11676,7 +11771,7 @@
 <FahrstrRegister Ref="107">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="104">
+<FahrstrRegister Ref="216">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="101">
@@ -11701,7 +11796,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3619.4695">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3619.469">
 <FahrstrStart Ref="4">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11720,7 +11815,7 @@
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="13">
+<FahrstrRegister Ref="219">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="10">
@@ -11780,11 +11875,11 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 644 644 -&gt; LZB-Bk 642 642" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1902.3182">
+<Fahrstrasse FahrstrName="LZB: LZB-Bk 644 644 -&gt; LZB-Bk 642 642" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1904.3311">
 <FahrstrStart Ref="117">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="46">
+<FahrstrZiel Ref="220">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="199">
@@ -11796,7 +11891,7 @@
 <FahrstrRegister Ref="113">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="47">
+<FahrstrRegister Ref="221">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="20">
@@ -11832,7 +11927,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 653 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="2509.5007">
+<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 653 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="2509.5012">
 <FahrstrStart Ref="124">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11857,7 +11952,7 @@
 <FahrstrRegister Ref="9">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="11">
+<FahrstrAufloesung Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="127">
@@ -11875,6 +11970,12 @@
 <FahrstrSignal Ref="124" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="208" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="120" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -11910,7 +12011,7 @@
 <FahrstrRegister Ref="100">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="102">
+<FahrstrAufloesung Ref="214">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="127">
@@ -11931,34 +12032,17 @@
 <FahrstrSignal Ref="124" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="208" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="120" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 616 616 -&gt; LZB-Bk 614 614" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1243.6626">
-<FahrstrStart Ref="140">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="146">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="144">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="147">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="195">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="143">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="140" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 614 614 -&gt; LZB-Bk 612 612" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1897.5964">
+<Fahrstrasse FahrstrName="LZB: LZB-Bk 614 614 -&gt; LZB-Bk 612 612" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1897.5963">
 <FahrstrStart Ref="146">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12000,7 +12084,7 @@
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="48">
+<FahrstrRegister Ref="222">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="112">
@@ -12064,7 +12148,7 @@
 <FahrstrRegister Ref="145">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="142">
+<FahrstrRegister Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="176">
@@ -12111,7 +12195,7 @@
 <FahrstrRegister Ref="100">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="102">
+<FahrstrAufloesung Ref="214">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="137">
@@ -12129,11 +12213,17 @@
 <FahrstrSignal Ref="174" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="211" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="225" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="177" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 683 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="2520.5635">
+<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 683 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="2520.5637">
 <FahrstrStart Ref="174">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12164,7 +12254,7 @@
 <FahrstrRegister Ref="9">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="11">
+<FahrstrAufloesung Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="137">
@@ -12185,6 +12275,12 @@
 <FahrstrSignal Ref="174" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="211" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="225" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="177" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -12199,7 +12295,7 @@
 <FahrstrRegister Ref="107">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="104">
+<FahrstrRegister Ref="216">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="101">
@@ -12218,7 +12314,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 686 686 -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1732.3831">
+<Fahrstrasse FahrstrName="LZB: LZB-Bk 686 686 -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1732.3834">
 <FahrstrStart Ref="181">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12228,7 +12324,7 @@
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="13">
+<FahrstrRegister Ref="219">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="10">
@@ -12247,7 +12343,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6042.9116">
+<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6042.9121">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12275,7 +12371,7 @@
 <FahrstrRegister Ref="175">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="141">
+<FahrstrRegister Ref="227">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="144">
@@ -12332,7 +12428,7 @@
 <FahrstrWeiche Ref="152" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="140" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="226" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="146" FahrstrSignalZeile="1">
@@ -12344,11 +12440,17 @@
 <FahrstrSignal Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="212" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="223" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="190">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6083.8086">
+<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6083.8096">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12394,7 +12496,7 @@
 <FahrstrRegister Ref="113">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="47">
+<FahrstrRegister Ref="221">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="22">
@@ -12442,21 +12544,27 @@
 <FahrstrSignal Ref="117" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="46" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="184" FahrstrSignalZeile="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="212" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="190" FahrstrSignalSpalte="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 654 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1542.7383">
+<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 654 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1583.0194">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="140">
+<FahrstrZiel Ref="226">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="98">
@@ -12480,7 +12588,7 @@
 <FahrstrRegister Ref="175">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="141">
+<FahrstrRegister Ref="227">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="143">
@@ -12501,11 +12609,17 @@
 <FahrstrSignal Ref="184" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="212" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="223" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="190" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 654 -&gt; LZB-Bk 646 646" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1583.4045">
+<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 654 -&gt; LZB-Bk 646 646" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1583.4044">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12557,11 +12671,17 @@
 <FahrstrSignal Ref="184" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="212" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="223" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="190" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6073.5117">
+<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6073.5127">
 <FahrstrStart Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12601,7 +12721,7 @@
 <FahrstrRegister Ref="113">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="47">
+<FahrstrRegister Ref="221">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="22">
@@ -12646,17 +12766,23 @@
 <FahrstrSignal Ref="117" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="46" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="213" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="224" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6032.8027">
+<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6032.8022">
 <FahrstrStart Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12684,7 +12810,7 @@
 <FahrstrRegister Ref="175">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="141">
+<FahrstrRegister Ref="227">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="144">
@@ -12744,7 +12870,7 @@
 <FahrstrWeiche Ref="152" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="140" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="226" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="146" FahrstrSignalZeile="1">
@@ -12756,6 +12882,12 @@
 <FahrstrSignal Ref="187" FahrstrSignalZeile="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="213" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="191" FahrstrSignalSpalte="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -12803,15 +12935,21 @@
 <FahrstrSignal Ref="187" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="213" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="224" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="191" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 684 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1532.6285">
+<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 684 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1572.9097">
 <FahrstrStart Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="140">
+<FahrstrZiel Ref="226">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="7">
@@ -12835,7 +12973,7 @@
 <FahrstrRegister Ref="175">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="141">
+<FahrstrRegister Ref="227">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="143">
@@ -12859,9 +12997,67 @@
 <FahrstrSignal Ref="187" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="213" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="224" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="191" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="LZB: LZB-Bk 642 642 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1397.3723">
+<FahrstrStart Ref="220">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="166">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="LZB: LZB-Bk 616 616 -&gt; LZB-Bk 614 614" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1203.3812">
+<FahrstrStart Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="143">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="226" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
 </Fahrstrasse>
 </Strecke>
 </Zusi>

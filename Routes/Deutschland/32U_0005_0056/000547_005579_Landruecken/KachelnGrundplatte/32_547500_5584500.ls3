@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="0" V="500">
+<p X="-500" Y="-500.0001" Z="406.5239"/>
+<n X="0.1016" Y="0.0452" Z="0.9935"/>
+</Vertex>
+<Vertex U="0" V="500.9132">
+<p X="-500" Y="-490.8682" Z="406.3528"/>
+<n X="0.1004" Y="0.0364" Z="0.994"/>
+</Vertex>
+<Vertex U="4" V="500.7694">
+<p X="-460" Y="-492.3067" Z="399.8335"/>
+<n X="0.1041" Y="0.0186" Z="0.9944"/>
+</Vertex>
+<Vertex U="4" V="500">
+<p X="-460" Y="-500.0001" Z="399.9776"/>
+<n X="0.1051" Y="0.026" Z="0.994"/>
+</Vertex>
+<Vertex U="25.3955" V="500.0001">
+<p X="-246.0451" Y="-500.0001" Z="390.0318"/>
+<n X="0.0413" Y="0.0728" Z="0.9961"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="2;4;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>
