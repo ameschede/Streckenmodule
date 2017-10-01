@@ -5738,7 +5738,7 @@
 <p X="97.9271" Y="-125" Z="333.617"/>
 <n Z="1"/>
 </Vertex>
-<Vertex U="-651.2523" V="1" U2="-651.2523" V2="1">
+<Vertex U="-651.2524" V="1" U2="-651.2524" V2="1">
 <p X="97.897" Y="-125" Z="333.6171"/>
 <n Z="1"/>
 </Vertex>
@@ -5846,6 +5846,50 @@
 <Face i="11;14;12"/>
 <Face i="13;15;16"/>
 <Face i="13;16;14"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="8" Zwangshelligkeit="0.002" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\rail.dds"/>
+</Textur>
+<Vertex U="0.4308" V="0.0033">
+<p X="103.3656" Y="-124.9999" Z="333.7392"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43">
+<p X="103.3461" Y="-124.8339" Z="333.7413"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566">
+<p X="103.4156" Y="-124.8258" Z="333.7413"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="0.0035">
+<p X="103.4357" Y="-125.0001" Z="333.7391"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.5704">
+<p X="103.3809" Y="-124.8298" Z="333.5913"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.567">
+<p X="103.4005" Y="-124.9998" Z="333.5892"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.0026" V="0.5704">
+<p X="103.4003" Y="-125" Z="333.59"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.5704">
+<p X="103.3809" Y="-124.8298" Z="333.5913"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;3;0"/>
+<Face i="2;0;1"/>
+<Face i="3;2;4"/>
+<Face i="3;4;5"/>
+<Face i="0;6;7"/>
+<Face i="1;0;7"/>
 </SubSet>
 </Landschaft>
 </Zusi>
