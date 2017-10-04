@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="IC" Nummer="2277" Zuglauf="Hamburg-Altona - Fankfurt (Main) Hbf" BRAngabe="101" Prio="2500" Standortmodus="1" Bremsstellung="4" spAnfang="16.6667" FahrplanGruppe="Fahrtrichtung Süden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 73214 73214" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Celle_Uelzen\Unterluess_2017.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2017-06-06 07:21:00" Abf="2017-06-06 07:21:00" Betrst="Sbk 73214" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="73214"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2017-06-06 07:23:30" Betrst="Unterlüß">
+<FahrplanSignalEintrag FahrplanSignal="73P7"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2017-06-06 07:25:25" Betrst="Sbk 73202">
+<FahrplanSignalEintrag FahrplanSignal="73202"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\FV-Steuerwagen\Bpmbdzf296.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz207.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\101\101.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
