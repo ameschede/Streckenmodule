@@ -7306,11 +7306,29 @@
 <phi X="0.011263" Z="-0.52176"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1802" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
 <p X="-301.0756" Y="-486.3239" Z="112.4401"/>
 <phi X="0.052934" Z="-0.516588"/>
 <sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen600_Absperrschranke\Zeichen600_aufgestaendert_2m40.ls3"/>
+<p X="36.6994" Y="63.5248" Z="105.2627"/>
+<phi Z="1.031881"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Schilder\Schild_Grenze_Gleisanschluss.lod.ls3"/>
+<p X="72.7205" Y="251.2766" Z="104.9674"/>
+<phi Z="6.071435"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1588" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<p X="157.7749" Y="341.853" Z="110.5683"/>
+<phi Z="1.051735"/>
+<sk X="1.5" Z="1.5"/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="6" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
@@ -60004,6 +60022,50 @@
 <Face i="9;0;8"/>
 <Face i="10;0;9"/>
 <Face i="0;10;11"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="2"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\schutzplanke.dds"/>
+</Textur>
+<Vertex V="0.99" V2="0.99">
+<p X="43.1781" Y="73.5286" Z="105.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.9999" V="0.99" U2="-9.9999" V2="0.99">
+<p X="32.9139" Y="56.3634" Z="105.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.9999" V="0.76" U2="-9.9999" V2="0.76">
+<p X="32.9139" Y="56.3634" Z="106.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.76" V2="0.76">
+<p X="43.1781" Y="73.5286" Z="106.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.9999" V="0.75" U2="-9.9999" V2="0.75">
+<p X="32.8795" Y="56.3839" Z="106.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.75" V2="0.75">
+<p X="43.1437" Y="73.5491" Z="106.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.9999" V="0.57" U2="-9.9999" V2="0.57">
+<p X="32.8795" Y="56.3839" Z="105.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.57" V2="0.57">
+<p X="43.1437" Y="73.5491" Z="105.3"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
 </SubSet>
 </Landschaft>
 </Zusi>
