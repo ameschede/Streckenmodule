@@ -7,6 +7,5 @@ Ich werde mich bemühen, dass die hier zur Verfügung gestellten Module störung
 
 Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am besten auf den grünen Knopf und erhält dann eine zip-Datei mit allen aktuell in diesem Repository liegenden Streckenmodulen:
 
-* Unterlüß
 * Ersrode
 * Landrücken
