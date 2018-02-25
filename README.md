@@ -10,3 +10,4 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 * Ersrode
 * Landrücken
 * Sorsum
+* Güterglück Gkn
