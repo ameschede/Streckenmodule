@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\rail.dds"/>
+</Textur>
+<Vertex U="0.5162" V="13.1471">
+<p X="-125" Y="124.4517" Z="73.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.5085" V="13.1314">
+<p X="-124.4354" Y="125" Z="73.1477"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="13.1308">
+<p X="-124.3929" Y="125" Z="73.1491"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="13.1476">
+<p X="-125" Y="124.4162" Z="73.1513"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="13.1463">
+<p X="-125" Y="124.5131" Z="73.1477"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="13.1323">
+<p X="-124.4936" Y="125" Z="73.1459"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.8413" V="12.9701">
+<p X="-125" Y="124.4404" Z="73.0551"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.8161" V="12.9701">
+<p X="-124.4158" Y="125" Z="73.0618"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="13.0882">
+<p X="-124.4326" Y="125" Z="72.9976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="13.0725">
+<p X="-125" Y="124.4544" Z="72.9997"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.249" V="13.2495">
+<p X="-124.468" Y="125" Z="73.0835"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.2716" V="13.2495">
+<p X="-125" Y="124.4915" Z="73.0932"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="13.0725">
+<p X="-125" Y="124.4544" Z="72.9997"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="13.0882">
+<p X="-124.4326" Y="125" Z="72.9976"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;3"/>
+<Face i="0;1;3"/>
+<Face i="5;1;0"/>
+<Face i="4;5;0"/>
+<Face i="6;7;8"/>
+<Face i="6;8;9"/>
+<Face i="3;2;7"/>
+<Face i="3;7;6"/>
+<Face i="12;13;10"/>
+<Face i="12;10;11"/>
+<Face i="11;10;5"/>
+<Face i="11;5;4"/>
+</SubSet>
+</Landschaft>
+</Zusi>
