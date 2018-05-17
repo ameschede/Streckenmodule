@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF" Ce="FF000000" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Schild_Gandersheim.dds"/>
+</Textur>
+<Vertex U="0.8539" V="0.5942">
+<p Y="2" Z="2.925"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9305" V="0.5942">
+<p Y="-2" Z="2.925"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9305" V="0.7903">
+<p Y="-2" Z="-2.925"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.8539" V="0.7903">
+<p Y="2" Z="-2.925"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.6657" V="0.0099">
+<p X="-0.01" Y="-2" Z="2.925"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.01" V="0.0099">
+<p X="-0.01" Y="2" Z="2.925"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.01" V="0.9938">
+<p X="-0.01" Y="2" Z="-2.925"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.6657" V="0.9938">
+<p X="-0.01" Y="-2" Z="-2.925"/>
+<n X="-1"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="3;1;0"/>
+<Face i="7;6;5"/>
+<Face i="7;5;4"/>
+</SubSet>
+</Landschaft>
+</Zusi>
