@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="Nicht für QTW-DLL geeignet, sondern als Drop-In-Replaxement für ;Standardisolator gedacht.;">
+<AutorEintrag AutorID="2" AutorName="Andreas Brandtner"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorAufwand="0.02"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="15" SichtbarBis="50" Vorlade="1" LODbit="4">
+<Datei Dateiname="IsolatorTragseil_Absenkung.lod1.ls3"/>
+<p Y="1.1"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="15" SichtbarAb="50" SichtbarBis="150" Vorlade="1" LODbit="2">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod2.ls3"/>
+<p Y="1.1"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="1" SichtbarAb="150" SichtbarBis="500" Vorlade="1" LODbit="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod3.ls3"/>
+<p Y="1.1"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt AnkerTyp="2" AnkerKat="1">
+<p Y="1.1"/>
+<phi/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

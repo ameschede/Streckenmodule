@@ -7,9 +7,12 @@ Ich werde mich bemühen, dass die hier zur Verfügung gestellten Module störung
 
 Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am besten auf den grünen Knopf und erhält dann eine zip-Datei mit allen aktuell in diesem Repository liegenden Streckenmodulen:
 
-* Ersrode
 * Landrücken
+* Ersrode
 * Sorsum
 * Güterglück Gkn
 * Selmig
 * Orxhausen
+* Hamm Rbf
+
+Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
