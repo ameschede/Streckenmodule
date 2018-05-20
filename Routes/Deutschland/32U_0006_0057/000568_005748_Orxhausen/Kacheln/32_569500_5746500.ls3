@@ -190,12 +190,6 @@
 <phi Z="-1.170723"/>
 <sk X="1.0947" Y="1.0947" Z="1.0947"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="TERRAIN\DEUTSCHLAND\BRUECKEN\BETONBRUECKE_STRASSE750CM\EINZELTEILE\DOPPELPFEILER_RUND170CM_9MVERLAENGERUNG.LOD.LS3"/>
-<p X="-478.7573" Y="241.902" Z="139.9778"/>
-<phi Z="-0.55513"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_4.lod.ls3"/>
 <p X="-494.2747" Y="207.5098" Z="134.6219"/>
@@ -1131,6 +1125,12 @@
 <p X="-321.0453" Y="291.1256" Z="119.9854"/>
 <phi Z="1.225576"/>
 <sk X="0.9411" Y="0.9411" Z="0.9411"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Bruecken\Betonbruecke_Strasse750cm\Einzelteile\doppelpfeiler_rund170cm_9mverlaengerung.lod.ls3"/>
+<p X="-478.7573" Y="241.902" Z="139.9778"/>
+<phi Z="-0.55513"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
