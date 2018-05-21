@@ -24,6 +24,16 @@
 <MondTex Dateiname="_Setup\sky\moon.dds"/>
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
+<StreckenStandort StrInfo="Glückauf-Schranke Selmig">
+<p X="102.37" Y="364.29" Z="74.58"/>
+<lookat X="124.22" Y="376.43" Z="74.5"/>
+<up X="102.4" Y="364.3" Z="84.58"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Selmig Bahnhof">
+<p X="-396.63" Y="-457.17" Z="74.33"/>
+<lookat X="-378.27" Y="-417.71" Z="74.4"/>
+<up X="-396.64" Y="-457.19" Z="84.33"/>
+</StreckenStandort>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
 </ModulDateien>
@@ -323,7 +333,9 @@
 <StrElement Nr="3" spTrass="44.4445" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4888">
 <g X="-417.8758" Y="-476.5746" Z="71.3262"/>
 <b X="-411.7507" Y="-467.3376" Z="71.3449"/>
-<InfoGegenRichtung vMax="44.4445" km="144.34"/>
+<InfoGegenRichtung vMax="44.4445" km="144.34">
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: Version 1.0.0.9, (DLLs: ElementData 0.0.0.0) Durchgeführte Aktionen: Anpassung gemäß Vorlage Gr0 Anpassung gemäß Vorlage Nebenrot "/>
+</InfoGegenRichtung>
 <NachNorm Nr="1089"/>
 <NachGegen Nr="32"/>
 </StrElement>
@@ -433,7 +445,7 @@
 <SignalFrame>
 <p X="-0.35" Z="6.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69-V2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3.14" Z="0.6"/>
@@ -488,35 +500,36 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3987">
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7971">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="4019" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8049" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="3987" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="7971" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -4041,7 +4054,7 @@
 <SignalFrame>
 <p X="-0.35" Z="6.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69-V2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3.14" Z="0.6"/>
@@ -4096,35 +4109,36 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3987">
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7971">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3993" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="3989" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7977" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7973" MatrixGeschw="-1"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="4019" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8049" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="3987" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="7971" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -5880,7 +5894,7 @@
 <SignalFrame>
 <p X="-0.35" Z="6.2"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69-V2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
@@ -5961,71 +5975,90 @@
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="22.2222" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="2122317973" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244635941" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122317971">
+<MatrixEintrag Signalbild="4244635939">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="24"/>
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122318233" MatrixGeschw="2.7778">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244636457" MatrixGeschw="2.7778">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122318489" MatrixGeschw="5.5556">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244636969" MatrixGeschw="5.5556">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122319001" MatrixGeschw="8.3333">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244637993" MatrixGeschw="8.3333">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122317977" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244635945" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122322073" MatrixGeschw="13.8889">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244644137" MatrixGeschw="13.8889">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122326169" MatrixGeschw="16.6667">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244652329" MatrixGeschw="16.6667">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122334357" MatrixGeschw="19.4444">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244668709" MatrixGeschw="19.4444">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122350741" MatrixGeschw="22.2222">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244701477" MatrixGeschw="22.2222">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122383509" MatrixGeschw="25">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244767013" MatrixGeschw="25">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122449045" MatrixGeschw="27.7778">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4244898085" MatrixGeschw="27.7778">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122580117" MatrixGeschw="30.5556">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4245160229" MatrixGeschw="30.5556">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2122842261" MatrixGeschw="33.3333">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4245684517" MatrixGeschw="33.3333">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2123366549" MatrixGeschw="36.1111">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4246733093" MatrixGeschw="36.1111">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2124415125" MatrixGeschw="38.8889">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4248830245" MatrixGeschw="38.8889">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2126512277" MatrixGeschw="41.6667">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4253024549" MatrixGeschw="41.6667">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2139127957" MatrixGeschw="22.2222">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="4278255909" MatrixGeschw="22.2222">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="2122318003" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="4244636017" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="2122317971" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="4244635939" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -6517,7 +6550,7 @@
 <SignalFrame>
 <p X="-0.35" Z="6.2"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69-V2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
@@ -6593,72 +6626,90 @@
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="1048576149" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097152293" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048576147">
+<MatrixEintrag Signalbild="2097152291">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="24"/>
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048576409" MatrixGeschw="2.7778">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097152809" MatrixGeschw="2.7778">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048576665" MatrixGeschw="5.5556">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097153321" MatrixGeschw="5.5556">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048577177" MatrixGeschw="8.3333">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097154345" MatrixGeschw="8.3333">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048576153" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097152297" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048580249" MatrixGeschw="13.8889">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097160489" MatrixGeschw="13.8889">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048584345" MatrixGeschw="16.6667">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097168681" MatrixGeschw="16.6667">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048592533" MatrixGeschw="19.4444">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097185061" MatrixGeschw="19.4444">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048608917" MatrixGeschw="22.2222">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097217829" MatrixGeschw="22.2222">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048641685" MatrixGeschw="25">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097283365" MatrixGeschw="25">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048707221" MatrixGeschw="27.7778">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097414437" MatrixGeschw="27.7778">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1048838293" MatrixGeschw="30.5556">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2097676581" MatrixGeschw="30.5556">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1049100437" MatrixGeschw="33.3333">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2098200869" MatrixGeschw="33.3333">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1049624725" MatrixGeschw="36.1111">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2099249445" MatrixGeschw="36.1111">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1050673301" MatrixGeschw="38.8889">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2101346597" MatrixGeschw="38.8889">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1052770453" MatrixGeschw="41.6667">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2105540901" MatrixGeschw="41.6667">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1065353365" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="24"/>
+<MatrixEintrag Signalbild="2130706725" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="25"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 25"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="1048576179" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2097152369" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="24"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="1048576147" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2097152291" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -6910,11 +6961,13 @@
 <NachNorm Nr="663"/>
 <NachGegen Nr="661"/>
 </StrElement>
-<StrElement Nr="670" spTrass="44.4445" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5345">
+<StrElement Nr="670" spTrass="44.4444" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5345">
 <g X="73.6133" Y="277.1481" Z="71.901"/>
 <b X="80.0713" Y="288.58" Z="71.8501"/>
-<InfoNormRichtung vMax="44.4445" km="145.2442" pos="1"/>
-<InfoGegenRichtung vMax="44.4445" km="145.2573"/>
+<InfoNormRichtung vMax="44.4444" km="145.2442" pos="1"/>
+<InfoGegenRichtung vMax="44.4444" km="145.2573">
+<Ereignis Er="1" Wert="16.6667"/>
+</InfoGegenRichtung>
 <NachNorm Nr="659"/>
 <NachGegen Nr="682"/>
 </StrElement>
@@ -7957,7 +8010,7 @@
 <InfoNormRichtung vMax="-1" Reg="5033">
 <Signal NameBetriebsstelle="Bf Selmig Abzw" Stellwerk="Selmig Sf" Signalname="55\" SignalTyp="13" BoundingR="1">
 <p X="10" Y="53.3579" Z="72.6434"/>
-<phi Z="0.943606"/>
+<phi Z="0.943605"/>
 <HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
 <HsigBegriff FahrstrTyp="6"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
@@ -7991,6 +8044,7 @@
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001020A">
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
+<Ereignis Er="28"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -10680,7 +10734,7 @@
 <SignalFrame>
 <p X="-0.35" Z="6.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69-V2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.6" Z="4.7"/>
@@ -10772,613 +10826,614 @@
 <VsigBegriff VsigGeschw="38.8889"/>
 <VsigBegriff VsigGeschw="41.6667"/>
 <VsigBegriff VsigGeschw="-2"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859605" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719205" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859653" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719301" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859653" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719301" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859653" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719301" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859653" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719301" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859653" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719301" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859653" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719301" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859621" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="4227859589" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719237" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="8455719173" MatrixGeschw="-1">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859587">
+<MatrixEintrag Signalbild="8455719171">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861657" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723305" MatrixGeschw="2.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861705" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723401" MatrixGeschw="2.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861705" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723401" MatrixGeschw="2.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861705" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723401" MatrixGeschw="2.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861705" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723401" MatrixGeschw="2.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861705" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723401" MatrixGeschw="2.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861705" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723401" MatrixGeschw="2.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861673" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="4227861641" MatrixGeschw="2.7778">
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723337" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="8455723273" MatrixGeschw="2.7778">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863705" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727401" MatrixGeschw="5.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863753" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727497" MatrixGeschw="5.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863753" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727497" MatrixGeschw="5.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863753" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727497" MatrixGeschw="5.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863753" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727497" MatrixGeschw="5.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863753" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727497" MatrixGeschw="5.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863753" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727497" MatrixGeschw="5.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863721" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="4227863689" MatrixGeschw="5.5556">
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727433" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="8455727369" MatrixGeschw="5.5556">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867801" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735593" MatrixGeschw="8.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867849" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735689" MatrixGeschw="8.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867849" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735689" MatrixGeschw="8.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867849" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735689" MatrixGeschw="8.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867849" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735689" MatrixGeschw="8.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867849" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735689" MatrixGeschw="8.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867849" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735689" MatrixGeschw="8.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867817" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="4227867785" MatrixGeschw="8.3333">
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735625" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="8455735561" MatrixGeschw="8.3333">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859609" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719209" MatrixGeschw="11.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859657" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719305" MatrixGeschw="11.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859657" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719305" MatrixGeschw="11.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859657" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719305" MatrixGeschw="11.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859657" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719305" MatrixGeschw="11.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859657" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719305" MatrixGeschw="11.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859657" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719305" MatrixGeschw="11.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859625" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="4227859593" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719241" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="8455719177" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892377" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784745" MatrixGeschw="13.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892425" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784841" MatrixGeschw="13.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892425" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784841" MatrixGeschw="13.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892425" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784841" MatrixGeschw="13.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892425" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784841" MatrixGeschw="13.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892425" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784841" MatrixGeschw="13.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892425" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784841" MatrixGeschw="13.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892393" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="4227892361" MatrixGeschw="13.8889">
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784777" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="8455784713" MatrixGeschw="13.8889">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925145" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850281" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925193" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850377" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925193" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850377" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925193" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850377" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925193" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850377" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925193" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850377" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925193" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850377" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925161" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="4227925129" MatrixGeschw="16.6667">
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850313" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="8455850249" MatrixGeschw="16.6667">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990677" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981349" MatrixGeschw="19.4444">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990725" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981445" MatrixGeschw="19.4444">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990725" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981445" MatrixGeschw="19.4444">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990725" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981445" MatrixGeschw="19.4444">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990725" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981445" MatrixGeschw="19.4444">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990725" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981445" MatrixGeschw="19.4444">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990725" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981445" MatrixGeschw="19.4444">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990693" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="4227990661" MatrixGeschw="19.4444">
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981381" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="8455981317" MatrixGeschw="19.4444">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121749" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243493" MatrixGeschw="22.2222">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121797" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243589" MatrixGeschw="22.2222">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121797" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243589" MatrixGeschw="22.2222">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121797" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243589" MatrixGeschw="22.2222">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121797" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243589" MatrixGeschw="22.2222">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121797" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243589" MatrixGeschw="22.2222">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121797" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243589" MatrixGeschw="22.2222">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121765" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="4228121733" MatrixGeschw="22.2222">
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243525" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="8456243461" MatrixGeschw="22.2222">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383893" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767781" MatrixGeschw="25">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383941" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767877" MatrixGeschw="25">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383941" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767877" MatrixGeschw="25">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383941" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767877" MatrixGeschw="25">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383941" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767877" MatrixGeschw="25">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383941" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767877" MatrixGeschw="25">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383941" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767877" MatrixGeschw="25">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383909" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="4228383877" MatrixGeschw="25">
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767813" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="8456767749" MatrixGeschw="25">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908181" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816357" MatrixGeschw="27.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908229" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816453" MatrixGeschw="27.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908229" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816453" MatrixGeschw="27.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908229" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816453" MatrixGeschw="27.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908229" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816453" MatrixGeschw="27.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908229" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816453" MatrixGeschw="27.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908229" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816453" MatrixGeschw="27.7778">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908197" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="4228908165" MatrixGeschw="27.7778">
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816389" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="8457816325" MatrixGeschw="27.7778">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956757" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913509" MatrixGeschw="30.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956805" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913605" MatrixGeschw="30.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956805" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913605" MatrixGeschw="30.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956805" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913605" MatrixGeschw="30.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956805" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913605" MatrixGeschw="30.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956805" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913605" MatrixGeschw="30.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956805" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913605" MatrixGeschw="30.5556">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956773" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="4229956741" MatrixGeschw="30.5556">
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913541" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="8459913477" MatrixGeschw="30.5556">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053909" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107813" MatrixGeschw="33.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053957" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107909" MatrixGeschw="33.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053957" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107909" MatrixGeschw="33.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053957" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107909" MatrixGeschw="33.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053957" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107909" MatrixGeschw="33.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053957" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107909" MatrixGeschw="33.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053957" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107909" MatrixGeschw="33.3333">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053925" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="4232053893" MatrixGeschw="33.3333">
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107845" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="8464107781" MatrixGeschw="33.3333">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248213" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496421" MatrixGeschw="36.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248261" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496517" MatrixGeschw="36.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248261" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496517" MatrixGeschw="36.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248261" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496517" MatrixGeschw="36.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248261" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496517" MatrixGeschw="36.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248261" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496517" MatrixGeschw="36.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248261" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496517" MatrixGeschw="36.1111">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248229" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="4236248197" MatrixGeschw="36.1111">
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496453" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="8472496389" MatrixGeschw="36.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636821" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273637" MatrixGeschw="38.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636869" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273733" MatrixGeschw="38.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636869" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273733" MatrixGeschw="38.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636869" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273733" MatrixGeschw="38.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636869" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273733" MatrixGeschw="38.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636869" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273733" MatrixGeschw="38.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636869" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273733" MatrixGeschw="38.8889">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636837" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="4244636805" MatrixGeschw="38.8889">
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273669" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="8489273605" MatrixGeschw="38.8889">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414037" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828069" MatrixGeschw="41.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414085" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828165" MatrixGeschw="41.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414085" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828165" MatrixGeschw="41.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414085" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828165" MatrixGeschw="41.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414085" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828165" MatrixGeschw="41.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414085" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828165" MatrixGeschw="41.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414085" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828165" MatrixGeschw="41.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414053" MatrixGeschw="41.6667"/>
-<MatrixEintrag Signalbild="4261414021" MatrixGeschw="41.6667">
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828101" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="8522828037" MatrixGeschw="41.6667">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="4227859843" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455719697" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
-<MatrixEintrag Signalbild="4227860099" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="8455720209" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -11643,7 +11698,7 @@
 <SignalFrame>
 <p X="-0.35" Z="6.2"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69-V2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
@@ -11713,35 +11768,36 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="528482453" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="528482451">
+<MatrixEintrag Signalbild="1056964901" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="1056964899">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="528482713" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="528482969" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="528483481" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="528482457" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="528486553" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="528490649" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="528498837" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="528515221" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="528547989" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="528613525" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="528744597" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="529006741" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="529531029" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="530579605" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="532676757" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="1056965417" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="1056965929" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="1056966953" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="1056964905" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="1056973097" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="1056981289" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="1056997669" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="1057030437" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="1057095973" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="1057227045" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="1057489189" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="1058013477" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="1059062053" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="1061159205" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="1065353509" MatrixGeschw="41.6667"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="528482483" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="1056964977" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="528482451" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="1056964899" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -11765,7 +11821,7 @@
 <SignalFrame>
 <p X="-0.35" Z="6.2"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Esig69-V2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
@@ -11830,68 +11886,86 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16019">
+<MatrixEintrag Signalbild="32035">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16025" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32041" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16025" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32041" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16025" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32041" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16025" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32041" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16025" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32041" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16025" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32041" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
-<Ereignis Er="28" Wert="8"/>
+<MatrixEintrag Signalbild="32037" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="16051" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="32113" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="16019" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="32035" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -16831,57 +16905,27 @@
 <NachNorm Nr="101"/>
 <NachGegen Nr="100"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 65 -&gt; Sbk 67 67" FahrstrStrecke="1b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1800.1686">
-<FahrstrStart Ref="12">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bf Selmig Abzw A63" FahrstrTyp="TypZug" Laenge="1182.1">
+<FahrstrStart Ref="180">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="990">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+<FahrstrZiel Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="16">
+<FahrstrRegister Ref="144">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="174">
+<FahrstrAufloesung Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="286">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="993">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1064">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="991">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="1319">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="173">
+<FahrstrAufloesung Ref="66">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="15">
+</FahrstrAufloesung>
+<FahrstrSigHaltfall Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
-<FahrstrSignal Ref="208" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="222" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="230" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="12">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="142">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Sbk 53 53" FahrstrTyp="TypZug" Laenge="622.9285">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Sbk 53 53" FahrstrTyp="TypZug" Laenge="582.1">
 <FahrstrStart Ref="179">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16898,39 +16942,493 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Sbk 53 53 -&gt; Bf Selmig Abzw 55" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1169.0682">
-<FahrstrStart Ref="37">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 43 -&gt; Bf Selmig Abzw 45" FahrstrTyp="TypZug" Laenge="1104.7">
+<FahrstrStart Ref="145">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="40">
+<FahrstrZiel Ref="75">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="171">
+<FahrstrRegister Ref="32">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="195">
+<FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="41">
+<FahrstrRegister Ref="70">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="176">
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="156">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="78">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="194">
+<FahrstrTeilaufloesung Ref="27">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="170">
+<FahrstrSigHaltfall Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
-<FahrstrSigHaltfall Ref="164">
+<FahrstrSigHaltfall Ref="161">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
-<FahrstrSignal Ref="37">
+<FahrstrSignal Ref="204" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="145">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Abzw Hps 206" FahrstrStrecke="1b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3469">
+<FahrstrStart Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="1001">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="283">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="998">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2037">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2034">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1038">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1003">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="232" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="75" FahrstrSignalZeile="17">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="145">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda A103" FahrstrStrecke="174a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1621.3">
+<FahrstrStart Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="1008">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="293">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1296">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2010">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1009">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="1368">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="237" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="75" FahrstrSignalZeile="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="145" FahrstrSignalSpalte="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda B104" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1621.8">
+<FahrstrStart Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="1004">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="289">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1294">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2007">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1005">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="1371">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="131" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="240" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="75" FahrstrSignalZeile="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="145" FahrstrSignalSpalte="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda 005" FahrstrStrecke="174a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1600.6">
+<FahrstrStart Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="1518">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="132">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="130">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="278">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="976">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1094">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1522">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="2004">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="95" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="131" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="111" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="235" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="75" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 55 -&gt; Bft Hamm Rbf Hda B104" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1611.827">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda 006" FahrstrStrecke="173a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1632.5">
+<FahrstrStart Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="1523">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="281">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="979">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1097">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1526">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="2005">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="95" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="101" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="108" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="111" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="233" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="75" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 55 -&gt; Bft Hamm Rbf Hda B104" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1634.7">
 <FahrstrStart Ref="40">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17010,7 +17508,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 55 -&gt; Bft Hamm Rbf Hda 005" FahrstrStrecke="174a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1583.4591">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 55 -&gt; Bft Hamm Rbf Hda 005" FahrstrStrecke="174a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1613.4">
 <FahrstrStart Ref="40">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17074,6 +17572,12 @@
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="111" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrSignal Ref="210" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -17087,7 +17591,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 55 -&gt; Bft Hamm Rbf Hda 006" FahrstrStrecke="173a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1599.795">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 55 -&gt; Bft Hamm Rbf Hda 006" FahrstrStrecke="173a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1645.4">
 <FahrstrStart Ref="40">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17154,6 +17658,9 @@
 <FahrstrWeiche Ref="111" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrSignal Ref="210" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -17167,680 +17674,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw N75 -&gt; Abzw Hps 206" FahrstrStrecke="1b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3527.4175">
-<FahrstrStart Ref="59">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1001">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="159">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="63">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="86">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="34">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="283">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="998">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2037">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2034">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1038">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1003">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrTeilaufloesung Ref="62">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="33">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="88" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="212" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="232" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="59" FahrstrSignalZeile="17">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="142" FahrstrSignalSpalte="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw N75 -&gt; Bft Hamm Rbf Hda A103" FahrstrStrecke="174a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1637.502">
-<FahrstrStart Ref="59">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1008">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="159">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="63">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="86">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="140">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="118">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="293">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1296">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2010">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1009">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="1368">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="62">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="117">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="212" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="237" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="59" FahrstrSignalZeile="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="142" FahrstrSignalSpalte="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw N75 -&gt; Bft Hamm Rbf Hda B104" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1640.5986">
-<FahrstrStart Ref="59">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1004">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="159">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="63">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="86">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="140">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="126">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="289">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1294">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2007">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1005">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="1371">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="62">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="212" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="240" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="59" FahrstrSignalZeile="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="142" FahrstrSignalSpalte="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Abzw Hps 206" FahrstrStrecke="1b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3524.6873">
-<FahrstrStart Ref="75">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1001">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="79">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="34">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="283">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="998">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2037">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2034">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1038">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1003">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrTeilaufloesung Ref="78">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="33">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="161">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="81" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="88" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="232" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="75" FahrstrSignalZeile="17">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="145">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda A103" FahrstrStrecke="174a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1634.7717">
-<FahrstrStart Ref="75">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1008">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="79">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="140">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="118">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="293">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1296">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2010">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1009">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="1368">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="78">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="117">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="161">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="81" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="237" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="75" FahrstrSignalZeile="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="145" FahrstrSignalSpalte="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda B104" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1637.8685">
-<FahrstrStart Ref="75">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1004">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="79">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="140">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="126">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="289">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1294">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="2007">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1005">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="1371">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="78">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="161">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="81" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="240" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="75" FahrstrSignalZeile="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="145" FahrstrSignalSpalte="9">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda 005" FahrstrStrecke="174a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1609.6116">
-<FahrstrStart Ref="75">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1518">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="79">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="99">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="97">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="102">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="132">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="130">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="278">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="976">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1094">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1522">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="2004">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="78">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="128">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="161">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="95" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="131" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="235" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="75" FahrstrSignalErsatzsignal="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 45 -&gt; Bft Hamm Rbf Hda 006" FahrstrStrecke="173a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1625.9475">
-<FahrstrStart Ref="75">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="1523">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="79">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="99">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="97">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="102">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="112">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="115">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="281">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="979">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1097">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="1526">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="2005">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="78">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="114">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="161">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="95" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="101" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="108" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="111" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="233" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="75" FahrstrSignalErsatzsignal="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 55\ -&gt; Bft Hamm Rbf Hda 005" FahrstrStrecke="174a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1584.663">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 55\ -&gt; Bft Hamm Rbf Hda 005" FahrstrStrecke="174a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1614.1">
 <FahrstrStart Ref="104">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17895,11 +17729,11 @@
 <FahrstrSignal Ref="235" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="104" FahrstrSignalZeile="4">
+<FahrstrSignal Ref="104" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 55\ -&gt; Bft Hamm Rbf Hda 006" FahrstrStrecke="173a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1600.9952">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 55\ -&gt; Bft Hamm Rbf Hda 006" FahrstrStrecke="173a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1646.1">
 <FahrstrStart Ref="104">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17942,6 +17776,9 @@
 <FahrstrWeiche Ref="111" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrSignal Ref="216" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -17951,31 +17788,61 @@
 <FahrstrSignal Ref="233" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="104" FahrstrSignalZeile="4">
+<FahrstrSignal Ref="104" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bf Selmig Abzw A63" FahrstrTyp="TypZug" Laenge="1212.5162">
-<FahrstrStart Ref="180">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw 65 -&gt; Sbk 67 67" FahrstrStrecke="1b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1738.2">
+<FahrstrStart Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="142">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+<FahrstrZiel Ref="990">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="144">
+<FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="18">
+<FahrstrRegister Ref="174">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="66">
+</FahrstrRegister>
+<FahrstrRegister Ref="286">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="993">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1064">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="991">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="1319">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrSigHaltfall Ref="22">
+<FahrstrTeilaufloesung Ref="173">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="15">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
+<FahrstrSignal Ref="208" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="222" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="230" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw A63 -&gt; Bf Selmig Abzw 65" FahrstrTyp="TypZug" Laenge="1025.9235">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw A63 -&gt; Bf Selmig Abzw 65" FahrstrTyp="TypZug" Laenge="1067.6">
 <FahrstrStart Ref="142">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18025,7 +17892,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw A63 -&gt; Bf Selmig Abzw N75" FahrstrTyp="TypZug" Laenge="1031.7025">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw A63 -&gt; Bf Selmig Abzw N75" FahrstrTyp="TypZug" Laenge="1065.2">
 <FahrstrStart Ref="142">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18078,52 +17945,301 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bf Selmig Abzw 43 -&gt; Bf Selmig Abzw 45" FahrstrTyp="TypZug" Laenge="1073.5345">
-<FahrstrStart Ref="145">
+<Fahrstrasse FahrstrName="Bf Selmig Abzw N75 -&gt; Abzw Hps 206" FahrstrStrecke="1b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3472.3">
+<FahrstrStart Ref="59">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="75">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+<FahrstrZiel Ref="1001">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="32">
+<FahrstrRegister Ref="159">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="29">
+<FahrstrRegister Ref="63">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="70">
+<FahrstrRegister Ref="86">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="73">
+<FahrstrRegister Ref="83">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="89">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="76">
+<FahrstrRegister Ref="34">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="78">
+<FahrstrRegister Ref="283">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="27">
+</FahrstrRegister>
+<FahrstrRegister Ref="998">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2037">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2034">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1038">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1003">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="62">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="30">
+<FahrstrTeilaufloesung Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="158">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
-<FahrstrSigHaltfall Ref="161">
+<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrSignal Ref="204" FahrstrSignalZeile="1">
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="212" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="145">
+<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="135">
+<FahrstrSignal Ref="232" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="59" FahrstrSignalZeile="17">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="142" FahrstrSignalSpalte="9">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bf Selmig Abzw N75 -&gt; Bft Hamm Rbf Hda A103" FahrstrStrecke="174a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1624.5">
+<FahrstrStart Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="1008">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="293">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1296">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2010">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1009">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="1368">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="62">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="158">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="212" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="237" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="59" FahrstrSignalZeile="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="142" FahrstrSignalSpalte="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bf Selmig Abzw N75 -&gt; Bft Hamm Rbf Hda B104" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1625">
+<FahrstrStart Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="1004">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="289">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1294">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2007">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="1005">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="1371">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000416_005723_Hamm_Rbf\Hamm_Rbf_1989.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="62">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="158">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="131" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="212" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="224" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="240" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="59" FahrstrSignalZeile="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="142" FahrstrSignalSpalte="9">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 53 53 -&gt; Bf Selmig Abzw 55" FahrstrStrecke="173a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1169.6">
+<FahrstrStart Ref="37">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="41">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="176">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="194">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="170">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="164">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSignal Ref="37">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Selmig_1992.st3" NurInfo="1"/>
+</FahrstrSignal>
 </Fahrstrasse>
 </Strecke>
 </Zusi>
