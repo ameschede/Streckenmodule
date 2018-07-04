@@ -1,4 +1,4 @@
-# Streckenmodule für Zusi 3
+﻿# Streckenmodule für Zusi 3
 
 Dieses Repository enthält Streckenmodule, die nicht Teil des offiziellen Datenbestands von Zusi 3 sind, weil sie zumeist kleine selbstständige Teilnetze ohne Verbindung zum Bestandsnetz darstellen und nur wenige Minuten Fahrzeit erreichen.
 
@@ -14,5 +14,6 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 * Selmig
 * Orxhausen
 * Hamm Rbf
+* Parkstein-Hütten
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
