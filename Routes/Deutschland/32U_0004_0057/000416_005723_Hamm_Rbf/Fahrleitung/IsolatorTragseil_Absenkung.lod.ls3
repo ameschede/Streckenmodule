@@ -5,21 +5,15 @@
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorAufwand="0.02"/>
 </Info>
 <Landschaft>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="15" SichtbarBis="50" Vorlade="1" LODbit="4">
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="2" SichtbarBis="200" Vorlade="1" LODbit="6">
 <Datei Dateiname="IsolatorTragseil_Absenkung.lod1.ls3"/>
 <p Y="1.1"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="15" SichtbarAb="50" SichtbarBis="150" Vorlade="1" LODbit="2">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod2.ls3"/>
-<p Y="1.1"/>
-<phi/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte BoundingR="1" SichtbarAb="150" SichtbarBis="500" Vorlade="1" LODbit="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarAb="200" SichtbarBis="500" Vorlade="1" LODbit="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod3.ls3"/>
-<p Y="1.1"/>
+<p/>
 <phi/>
 <sk/>
 </Verknuepfte>
