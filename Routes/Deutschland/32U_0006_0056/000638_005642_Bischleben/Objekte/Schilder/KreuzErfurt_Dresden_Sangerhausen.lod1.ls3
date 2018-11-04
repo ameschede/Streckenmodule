@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF" Ce="FF000000" MeterProTex="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="KreuzErfurt_Dresden_Sangerhausen.dds"/>
+</Textur>
+<Vertex U="0.268" V="0.963">
+<p Y="3.5" Z="2.25"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.655" V="0.963">
+<p Y="-3.5" Z="2.25"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.655" V="0.986">
+<p Y="-3.5" Z="-2.25"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.268" V="0.986">
+<p Y="3.5" Z="-2.25"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.996" V="0.01">
+<p X="-0.01" Y="-3.5" Z="2.25"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.01" V="0.01">
+<p X="-0.01" Y="3.5" Z="2.25"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.01" V="0.632">
+<p X="-0.01" Y="3.5" Z="-2.25"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.996" V="0.632">
+<p X="-0.01" Y="-3.5" Z="-2.25"/>
+<n X="-1"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="3;1;0"/>
+<Face i="7;6;5"/>
+<Face i="7;5;4"/>
+</SubSet>
+</Landschaft>
+</Zusi>

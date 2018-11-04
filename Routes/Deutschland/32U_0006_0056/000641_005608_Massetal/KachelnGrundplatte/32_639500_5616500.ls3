@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="-180" V="820.6486">
+<p X="-299.9999" Y="-293.5147" Z="470.4164"/>
+<n X="-0.2873" Y="-0.92" Z="0.2667"/>
+</Vertex>
+<Vertex U="-180" V="820.6649">
+<p X="-299.9999" Y="-293.3516" Z="470.9787"/>
+<n X="-0.2517" Y="-0.816" Z="0.5204"/>
+</Vertex>
+<Vertex U="-171.5813" V="818">
+<p X="-215.8129" Y="-320" Z="469.7497"/>
+<n X="-0.2873" Y="-0.92" Z="0.2664"/>
+</Vertex>
+<Vertex U="-162" V="814.9856">
+<p X="-119.9999" Y="-350.1441" Z="468.9908"/>
+<n X="-0.1814" Y="-0.5992" Z="0.7798"/>
+</Vertex>
+<Vertex U="-156" V="813.2109">
+<p X="-59.9999" Y="-367.8911" Z="468.8684"/>
+<n X="-0.0566" Y="-0.2126" Z="0.9755"/>
+</Vertex>
+<Vertex U="-156" V="813.098">
+<p X="-59.9999" Y="-369.0201" Z="468.5156"/>
+<n X="-0.0859" Y="-0.2971" Z="0.951"/>
+</Vertex>
+<Vertex U="-148.7013" V="810.8017">
+<p X="12.9872" Y="-391.983" Z="467.9376"/>
+<n X="-0.0336" Y="-0.1402" Z="0.9896"/>
+</Vertex>
+<Vertex U="-132" V="805.7569">
+<p X="180.0001" Y="-442.4312" Z="465.8176"/>
+<n X="-0.0189" Y="-0.1038" Z="0.9944"/>
+</Vertex>
+<Vertex U="-138" V="807.5226">
+<p X="120.0001" Y="-424.7735" Z="466.5203"/>
+<n X="-0.004" Y="-0.0553" Z="0.9985"/>
+</Vertex>
+<Vertex U="-132" V="805.684">
+<p X="180.0001" Y="-443.1602" Z="465.7257"/>
+<n X="-0.0252" Y="-0.1251" Z="0.9918"/>
+</Vertex>
+<Vertex U="-114.4895" V="800.3184">
+<p X="355.1051" Y="-496.816" Z="463.4066"/>
+<n X="-0.0252" Y="-0.1251" Z="0.9918"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="1;3;2"/>
+<Face i="3;1;4"/>
+<Face i="5;3;4"/>
+<Face i="4;6;5"/>
+<Face i="8;4;7"/>
+<Face i="4;8;6"/>
+<Face i="9;8;7"/>
+<Face i="7;10;9"/>
+</SubSet>
+</Landschaft>
+</Zusi>

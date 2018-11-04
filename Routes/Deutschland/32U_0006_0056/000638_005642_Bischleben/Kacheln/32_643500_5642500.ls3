@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\soil02.dds"/>
+</Textur>
+<Vertex U="71.0213" V="-500">
+<p X="-500.0001" Y="210.2131" Z="319.3597"/>
+<n X="0.0015" Y="-0.0283" Z="0.9996"/>
+</Vertex>
+<Vertex U="70.7988" V="-502.5025">
+<p X="-474.9747" Y="207.9878" Z="319.2522"/>
+<n X="0.0019" Y="-0.0265" Z="0.9996"/>
+</Vertex>
+<Vertex U="64.1782" V="-500">
+<p X="-500.0001" Y="141.7823" Z="317.5456"/>
+<n X="-0.0072" Y="-0.0568" Z="0.9983"/>
+</Vertex>
+<Vertex U="88.6327" V="-500">
+<p X="-500.0001" Y="386.3271" Z="329.1884"/>
+<n X="-0.0012" Y="-0.0558" Z="0.9984"/>
+</Vertex>
+<Vertex U="90.5445" V="-505.1771">
+<p X="-448.2296" Y="405.4447" Z="330.2899"/>
+<n X="-0.0007" Y="-0.0557" Z="0.9984"/>
+</Vertex>
+<Vertex U="95.2474" V="-500">
+<p X="-500.0001" Y="452.4735" Z="330.1686"/>
+<n X="-0.0032" Y="-0.052" Z="0.9986"/>
+</Vertex>
+<Vertex U="100" V="-500">
+<p X="-500.0001" Y="499.9999" Z="331.7482"/>
+<n X="-0.0097" Y="-0.0448" Z="0.9987"/>
+</Vertex>
+<Vertex U="100" V="-506.3139">
+<p X="-436.8609" Y="500" Z="333.8023"/>
+<n X="-0.0145" Y="-0.0407" Z="0.9988"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="3;4;1"/>
+<Face i="0;3;1"/>
+<Face i="7;4;5"/>
+<Face i="6;7;5"/>
+<Face i="3;5;4"/>
+</SubSet>
+</Landschaft>
+</Zusi>

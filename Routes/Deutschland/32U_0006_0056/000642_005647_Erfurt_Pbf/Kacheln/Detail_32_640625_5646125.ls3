@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\rail.dds"/>
+</Textur>
+<Vertex U="0.5398" V="31.559">
+<p X="-125" Y="123.1155" Z="208.5415"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.5129" V="31.5151">
+<p X="-123.8745" Y="125" Z="208.5268"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="31.5148">
+<p X="-123.8427" Y="125" Z="208.5285"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="31.5595">
+<p X="-125" Y="123.0895" Z="208.5425"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="31.5571">
+<p X="-125" Y="123.2244" Z="208.5371"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="31.5156">
+<p X="-123.9243" Y="125" Z="208.5241"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.916" V="31.3797">
+<p X="-125" Y="123.1286" Z="208.4197"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.8304" V="31.3797">
+<p X="-123.8605" Y="125" Z="208.436"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="31.4664">
+<p X="-123.872" Y="125" Z="208.3766"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="31.4229">
+<p X="-125" Y="123.138" Z="208.3903"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.2628" V="31.6018">
+<p X="-123.9039" Y="125" Z="208.4668"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.3442" V="31.6018">
+<p X="-125" Y="123.2072" Z="208.5078"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="31.4229">
+<p X="-125" Y="123.138" Z="208.3903"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="31.4664">
+<p X="-123.872" Y="125" Z="208.3766"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;3;0"/>
+<Face i="2;0;1"/>
+<Face i="1;0;4"/>
+<Face i="1;4;5"/>
+<Face i="9;6;7"/>
+<Face i="8;9;7"/>
+<Face i="6;3;2"/>
+<Face i="7;6;2"/>
+<Face i="11;12;13"/>
+<Face i="10;11;13"/>
+<Face i="4;11;10"/>
+<Face i="5;4;10"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="-123.952" Y="125" Z="215.6053"/>
+<n X="-0.4809" Y="0.317" Z="-0.2476"/>
+</Vertex>
+<Vertex>
+<p X="-125" Y="123.4251" Z="215.6238"/>
+<n X="-0.5136" Y="0.339" Z="-0.2252"/>
+</Vertex>
+<Vertex>
+<p X="-125" Y="123.4292" Z="215.6251"/>
+<n X="-0.8326" Y="0.5538" Z="-0.0065"/>
+</Vertex>
+<Vertex>
+<p X="-123.9551" Y="125" Z="215.6068"/>
+<n X="-0.8326" Y="0.5538" Z="-0.0065"/>
+</Vertex>
+<Vertex>
+<p X="-123.9444" Y="125" Z="215.6016"/>
+<n X="0.4163" Y="-0.287" Z="-0.8627"/>
+</Vertex>
+<Vertex>
+<p X="-125" Y="123.413" Z="215.6201"/>
+<n X="0.4163" Y="-0.287" Z="-0.8627"/>
+</Vertex>
+<Vertex>
+<p X="-123.9444" Y="125" Z="215.6045"/>
+<n X="0.4163" Y="-0.2813" Z="-0.3749"/>
+</Vertex>
+<Vertex>
+<p X="-125" Y="123.413" Z="215.6227"/>
+<n X="0.4163" Y="-0.2818" Z="-0.4205"/>
+</Vertex>
+<Vertex>
+<p X="-123.9445" Y="125" Z="215.612"/>
+<n X="0.4163" Y="-0.2668" Z="0.8692"/>
+</Vertex>
+<Vertex>
+<p X="-125" Y="123.4132" Z="215.6305"/>
+<n X="0.4163" Y="-0.2668" Z="0.8692"/>
+</Vertex>
+<Vertex>
+<p X="-123.9474" Y="125" Z="215.6105"/>
+<n X="0.0645" Y="-0.0357" Z="0.6226"/>
+</Vertex>
+<Vertex>
+<p X="-125" Y="123.4173" Z="215.6291"/>
+<n X="0.0974" Y="-0.0572" Z="0.6456"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="0;2;3"/>
+<Face i="4;5;1"/>
+<Face i="4;1;0"/>
+<Face i="5;4;6"/>
+<Face i="5;6;7"/>
+<Face i="7;6;8"/>
+<Face i="7;8;9"/>
+<Face i="11;9;8"/>
+<Face i="10;11;8"/>
+<Face i="2;11;10"/>
+<Face i="3;2;10"/>
+</SubSet>
+</Landschaft>
+</Zusi>

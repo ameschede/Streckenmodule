@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Bruecken\Gelaender\gelaender01.dds"/>
+</Textur>
+<Vertex V="0.15" V2="0.15">
+<p X="-39" Y="0.01" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex>
+<p X="-39" Y="0.01" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex>
+<p X="-39" Y="-0.01" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.15" V2="0.15">
+<p X="-39" Y="-0.01" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.5" V="0.15" U2="-6.5" V2="0.15">
+<p Y="0.01" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.5" U2="-6.5">
+<p Y="0.01" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.5" U2="-6.5">
+<p Y="-0.01" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.5" V="0.15" U2="-6.5" V2="0.15">
+<p Y="-0.01" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13" V="0.15" U2="-13" V2="0.15">
+<p X="39" Y="0.01" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13" U2="-13">
+<p X="39" Y="0.01" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13" U2="-13">
+<p X="39" Y="-0.01" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13" V="0.15" U2="-13" V2="0.15">
+<p X="39" Y="-0.01" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+<Face i="4;8;9"/>
+<Face i="4;9;5"/>
+<Face i="5;9;10"/>
+<Face i="5;10;6"/>
+<Face i="6;10;11"/>
+<Face i="6;11;7"/>
+</SubSet>
+</Landschaft>
+</Zusi>

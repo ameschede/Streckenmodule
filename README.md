@@ -15,5 +15,13 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 * Orxhausen
 * Hamm Rbf
 * Parkstein-Hütten
+* Theuern
+* Massetal
+* Wolfsberg
+* Eischleben
+* Bischleben
+* Erfurt Pbf
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
+
+Die Module Theuern, Massetal, Wolfsberg, Eischleben, Bischleben, Erfurt Pbf bilden ein zusammenhängendes Netz mit 107 km Gesamt-Streckenlänge (davon 70 km nur provisorisch befahrbar wegen fehlender ETCS-Unterstützung in der Zusi-Hobbyversion).
