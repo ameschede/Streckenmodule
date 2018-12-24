@@ -68,6 +68,9 @@
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000711_006616_Pressath\Pressath_2017.st3" NurInfo="1"/>
 </ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="67" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000715_005513_Schwarzenbach_b_Pressath\Schwarzenbach_b_Pressath_2017.st3"/>
 <ReferenzElemente ReferenzNr="2" StrElement="67" StrNorm="1" Info="Parkstein-Hütten F"/>
 <ReferenzElemente ReferenzNr="3" StrElement="28" StrNorm="1" Info="Parkstein-Hütten A"/>
@@ -158,6 +161,7 @@
 <ReferenzElemente ReferenzNr="88" StrElement="989" RefTyp="2" Info="Register-Nr. 5025"/>
 <ReferenzElemente ReferenzNr="89" StrElement="1187" StrNorm="1" RefTyp="4" Info="Signal: Parkstein-Hütten 500 Hz (N2)"/>
 <ReferenzElemente ReferenzNr="90" StrElement="1188" StrNorm="1" RefTyp="4" Info="Signal: Parkstein-Hütten 500 Hz (N1)"/>
+<ReferenzElemente ReferenzNr="91" StrElement="28" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B55 SKL-Oberbau">
 <g X="-734.5865" Y="-589.5012" Z="418.5519"/>
 <b X="-810.2001" Y="-529.9836" Z="418.8451"/>
@@ -524,6 +528,9 @@
 <InfoNormRichtung vMax="33.3333" km="8.4533" pos="1" Reg="5002"/>
 <InfoGegenRichtung vMax="33.3333" km="8.5444" Reg="5002"/>
 <NachNorm Nr="29"/>
+<NachGegenModul Nr="10">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="29" spTrass="33.3333" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="1274.3079" Y="-1884.2382" Z="419.9724"/>
@@ -1147,7 +1154,7 @@
 <InfoNormRichtung vMax="33.3333" km="11.8987" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="11.9129"/>
 <NachNorm Nr="90"/>
-<NachGegen Nr="1141"/>
+<NachGegen Nr="1191"/>
 </StrElement>
 <StrElement Nr="90" Ueberh="0.0122" kr="-0.000174" spTrass="33.3333" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1489.252" Y="4.5232" Z="418.8741"/>
@@ -1345,7 +1352,6 @@
 <g X="-630.8966" Y="-671.1186" Z="418.1499"/>
 <b X="-593.2584" Y="-700.7448" Z="418.004"/>
 <InfoNormRichtung vMax="33.3333" km="10.8205" Reg="5005">
-<Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="10.7726" pos="1" Reg="5005"/>
@@ -1391,7 +1397,9 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="10.8217" Reg="5006"/>
+<InfoGegenRichtung vMax="-1" km="10.8217" Reg="5006">
+<Ereignis Er="1000002"/>
+</InfoGegenRichtung>
 <NachNorm Nr="116"/>
 <NachNorm Nr="117"/>
 <NachGegen Nr="114"/>
@@ -2409,7 +2417,6 @@
 <g X="-1376.691" Y="-84.0818" Z="419"/>
 <b X="-1427.394" Y="-44.1725" Z="418.9447"/>
 <InfoNormRichtung vMax="33.3333" km="11.7697" pos="1" Reg="5012">
-<Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="11.8342" Reg="5012"/>
@@ -2478,7 +2485,9 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="11.7685" pos="1" Reg="5014"/>
+<InfoGegenRichtung vMax="-1" km="11.7685" pos="1" Reg="5014">
+<Ereignis Er="1000002"/>
+</InfoGegenRichtung>
 <NachNorm Nr="194"/>
 <NachNorm Nr="195"/>
 <NachGegen Nr="191"/>
@@ -6258,49 +6267,49 @@
 <NachGegen Nr="599"/>
 </StrElement>
 <StrElement Nr="609" spTrass="27.7778" Fkt="2">
-<g X="-2368.3467" Y="1353.1144" Z="419.0783"/>
-<b X="-2349.3418" Y="1338.0732" Z="419.2778"/>
+<g X="-2368.3467" Y="1353.1144" Z="421.5"/>
+<b X="-2349.3418" Y="1338.0732" Z="421.5"/>
 <NachNorm Nr="617"/>
 </StrElement>
 <StrElement Nr="612" spTrass="27.7778" Anschluss="256" Fkt="2">
-<g X="-2310.9722" Y="1309.1257" Z="419.8055"/>
-<b X="-2291.9355" Y="1295.4514" Z="420.1151"/>
+<g X="-2310.9722" Y="1309.1257" Z="421.5"/>
+<b X="-2291.9355" Y="1295.4514" Z="421.5"/>
 <NachNorm Nr="613"/>
 <NachGegen Nr="618"/>
 </StrElement>
 <StrElement Nr="613" spTrass="27.7778" Anschluss="256" Fkt="2">
-<g X="-2291.9355" Y="1295.4514" Z="420.1151"/>
-<b X="-2272.0427" Y="1281.7689" Z="420.4663"/>
+<g X="-2291.9355" Y="1295.4514" Z="421.5"/>
+<b X="-2272.0427" Y="1281.7689" Z="421.5"/>
 <NachNorm Nr="621"/>
 <NachGegen Nr="612"/>
 </StrElement>
 <StrElement Nr="617" spTrass="27.7778" Anschluss="256" Fkt="2">
-<g X="-2349.3418" Y="1338.0732" Z="419.2778"/>
-<b X="-2330.4849" Y="1323.6222" Z="419.548"/>
+<g X="-2349.3418" Y="1338.0732" Z="421.5"/>
+<b X="-2330.4849" Y="1323.6222" Z="421.5"/>
 <NachNorm Nr="618"/>
 <NachGegen Nr="609"/>
 </StrElement>
 <StrElement Nr="618" spTrass="27.7778" Anschluss="256" Fkt="2">
-<g X="-2330.4849" Y="1323.6222" Z="419.548"/>
-<b X="-2310.9722" Y="1309.1257" Z="419.8055"/>
+<g X="-2330.4849" Y="1323.6222" Z="421.5"/>
+<b X="-2310.9722" Y="1309.1257" Z="421.5"/>
 <NachNorm Nr="612"/>
 <NachGegen Nr="617"/>
 </StrElement>
 <StrElement Nr="621" spTrass="27.7778" Anschluss="256" Fkt="2">
-<g X="-2272.0427" Y="1281.7689" Z="420.4663"/>
-<b X="-2251.5095" Y="1268.3696" Z="420.8005"/>
+<g X="-2272.0427" Y="1281.7689" Z="421.5"/>
+<b X="-2251.5095" Y="1268.3696" Z="421.5"/>
 <NachNorm Nr="622"/>
 <NachGegen Nr="613"/>
 </StrElement>
 <StrElement Nr="622" spTrass="27.7778" Anschluss="256" Fkt="2">
-<g X="-2251.5095" Y="1268.3696" Z="420.8005"/>
-<b X="-2231.1582" Y="1255.3535" Z="421.0201"/>
+<g X="-2251.5095" Y="1268.3696" Z="421.5"/>
+<b X="-2231.1582" Y="1255.3535" Z="421.5"/>
 <NachNorm Nr="623"/>
 <NachGegen Nr="621"/>
 </StrElement>
 <StrElement Nr="623" spTrass="27.7778" Anschluss="256" Fkt="2">
-<g X="-2231.1582" Y="1255.3535" Z="421.0201"/>
-<b X="-2190.5881" Y="1231.2545" Z="421.3507"/>
+<g X="-2231.1582" Y="1255.3535" Z="421.5"/>
+<b X="-2190.5881" Y="1231.2545" Z="421.5"/>
 <NachGegen Nr="622"/>
 </StrElement>
 <StrElement Nr="624" spTrass="27.7778" Fkt="2">
@@ -7399,11 +7408,44 @@
 </StrElement>
 <StrElement Nr="1141" spTrass="33.3333" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1431.3228" Y="-41.0799" Z="418.9402"/>
-<b X="-1478.0959" Y="-4.2627" Z="418.8868"/>
-<InfoNormRichtung vMax="33.3333" km="11.8342" pos="1">
+<b X="-1454.7094" Y="-22.6713" Z="418.9135"/>
+<InfoNormRichtung vMax="-1">
+<Ereignis Er="27" Beschr="Routes\Deutschland\32U_0007_0055\000715_005513_Schwarzenbach_b_Pressath\Schwarzenbach_b_Pressath_2017.st3" Wert="32"/>
 <Ereignis Er="40" Beschr="5051a"/>
+<Signal NameBetriebsstelle="Parkstein-Hütten" Stellwerk="Parkstein-Hütten Fdl" SignalTyp="1" BoundingR="10">
+<p X="-1454.7094" Y="-22.6713" Z="418.9135"/>
+<phi Z="2.474741"/>
+<SignalFrame>
+<p X="-0.02"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Achszaehler_einfach.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.3" Y="2.65" Z="-0.1"/>
+<phi Z="-3.141592"/>
+<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Gleisanschlussgehaeuse_flach.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1649356100" WeichenbaugruppeNr="1953195370" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="-3" Z="-0.1"/>
+<phi/>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Schluesselschalter\Aufschuettung_Beton.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1818780499" WeichenbaugruppeNr="1936942453" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="-3" Y="-3"/>
+<phi Z="-3.141592"/>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Schluesselschalter\Schluesselschalter_gruen_2.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1631985765" WeichenbaugruppeNr="1920234088" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="0.5"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Achszaehler_einfach.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="31" MatrixGeschw="-1"/>
+</Signal>
 </InfoNormRichtung>
-<NachNorm Nr="89"/>
+<NachNorm Nr="1191"/>
 <NachGegen Nr="192"/>
 </StrElement>
 <StrElement Nr="1142" spTrass="33.3333" Anschluss="256" Oberbau="B55 SKL-Oberbau">
@@ -7701,6 +7743,72 @@
 <NachNorm Nr="148"/>
 <NachGegen Nr="1186"/>
 </StrElement>
+<StrElement Nr="1191" spTrass="33.3333" Anschluss="256" Oberbau="B55 SKL-Oberbau">
+<g X="-1454.7094" Y="-22.6713" Z="418.9135"/>
+<b X="-1478.0959" Y="-4.2627" Z="418.8868"/>
+<InfoNormRichtung vMax="33.3333" km="11.8342" pos="1"/>
+<NachNorm Nr="89"/>
+<NachGegen Nr="1141"/>
+</StrElement>
+<Fahrstrasse FahrstrName="Parkstein-Hütten P2 -&gt; Weiden(Oberpf) G" FahrstrStrecke="5051b" RglGgl="1" FahrstrTyp="TypZug" Laenge="8876.7764">
+<FahrstrStart Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="41">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="3" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="46" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Parkstein-Hütten A" FahrstrTyp="TypZug" Laenge="1968.3036">
 <FahrstrStart Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
@@ -7734,6 +7842,65 @@
 <FahrstrAufloesung Ref="61">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
 </FahrstrAufloesung>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Parkstein-Hütten P1 -&gt; Weiden(Oberpf) G" FahrstrStrecke="5051b" RglGgl="1" FahrstrTyp="TypZug" Laenge="8876.9268">
+<FahrstrStart Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="41">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="6" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="3" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000722_005509_Weiden_West\Weiden_West_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="7" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="47" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="16" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Parkstein-Hütten N1 -&gt; Pressath A" FahrstrStrecke="5051a" RglGgl="1" FahrstrTyp="TypZug" Laenge="8120.0244">
 <FahrstrStart Ref="8">
@@ -8039,7 +8206,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Parkstein-Hütten F -&gt; Parkstein-Hütten P1" FahrstrTyp="TypZug" Laenge="1105.752">
+<Fahrstrasse FahrstrName="Parkstein-Hütten F -&gt; Parkstein-Hütten P1" FahrstrTyp="TypZug" Laenge="1105.7518">
 <FahrstrStart Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005510_Parkstein_Huetten\Parkstein_Huetten_2017.st3" NurInfo="1"/>
 </FahrstrStart>

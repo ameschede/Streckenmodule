@@ -1,15 +1,180 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
-<AutorEintrag AutorID="91" AutorName="Maik Feller"/>
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<lsb Dateiname="Detail_32_720375_5508125.lsb"/>
-<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10" MeshV="34" MeshI="90">
+<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\rail.dds"/>
 </Textur>
+<Vertex U="0.469" V="19.7436">
+<p X="-125" Y="0.2963" Z="419.8196"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="20.2656">
+<p X="-100.9728" Y="-9.8983" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="20.2656">
+<p X="-101.0001" Y="-9.9628" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="19.744">
+<p X="-125" Y="0.2419" Z="419.8197"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="19.7434">
+<p X="-125" Y="0.3181" Z="419.8196"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.5261" V="19.7308">
+<p X="-125" Y="1.9312" Z="419.8159"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="19.7306">
+<p X="-125" Y="1.9535" Z="419.8158"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="20.2656">
+<p X="-100.3839" Y="-8.5133" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="20.2656">
+<p X="-100.4113" Y="-8.5778" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="19.7312">
+<p X="-125" Y="1.8774" Z="419.816"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.6902" V="20.2656">
+<p X="-125" Y="0.2529" Z="419.7768"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="18.4433">
+<p X="-100.9865" Y="-9.9305" Z="419.8224"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="18.9652">
+<p X="-125" Y="0.28" Z="419.6696"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.1232" V="18.4433">
+<p X="-125" Y="0.2909" Z="419.7126"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="18.9652">
+<p X="-125" Y="0.28" Z="419.6696"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="18.4433">
+<p X="-100.9865" Y="-9.9305" Z="419.8224"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.8726" V="18.4433">
+<p X="-125" Y="1.9266" Z="419.7099"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="18.978">
+<p X="-125" Y="1.9154" Z="419.6659"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="18.4433">
+<p X="-100.3976" Y="-8.5455" Z="419.8224"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.3039" V="20.2656">
+<p X="-125" Y="1.8886" Z="419.772"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="18.4433">
+<p X="-100.3976" Y="-8.5455" Z="419.8224"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="18.978">
+<p X="-125" Y="1.9154" Z="419.6659"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="18.4433">
+<p X="-17.1228" Y="-45.5503" Z="420.5058"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="18.4433">
+<p X="-17.1501" Y="-45.6147" Z="420.5058"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="16.6209">
+<p X="-101.0001" Y="-9.9628" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="16.6209">
+<p X="-100.9728" Y="-9.8983" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="16.6209">
+<p X="-100.4113" Y="-8.5778" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="16.6209">
+<p X="-100.3839" Y="-8.5133" Z="419.9724"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="18.4433">
+<p X="-16.5339" Y="-44.1653" Z="420.5058"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="18.4433">
+<p X="-16.5613" Y="-44.2297" Z="420.5058"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="16.6209">
+<p X="-17.1365" Y="-45.5825" Z="420.3558"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="16.6209">
+<p X="-17.1365" Y="-45.5825" Z="420.3558"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="16.6209">
+<p X="-16.5476" Y="-44.1975" Z="420.3558"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="16.6209">
+<p X="-16.5476" Y="-44.1975" Z="420.3558"/>
+<n Z="1"/>
+</Vertex>
+<Face i="3;0;1"/>
+<Face i="2;3;1"/>
+<Face i="4;1;0"/>
+<Face i="6;7;5"/>
+<Face i="9;5;7"/>
+<Face i="8;9;7"/>
+<Face i="11;12;10"/>
+<Face i="11;10;2"/>
+<Face i="3;2;10"/>
+<Face i="14;15;13"/>
+<Face i="1;4;13"/>
+<Face i="1;13;15"/>
+<Face i="17;18;16"/>
+<Face i="7;6;16"/>
+<Face i="7;16;18"/>
+<Face i="20;21;19"/>
+<Face i="20;19;8"/>
+<Face i="9;8;19"/>
+<Face i="23;24;22"/>
+<Face i="25;22;24"/>
+<Face i="27;28;26"/>
+<Face i="29;26;28"/>
+<Face i="30;11;23"/>
+<Face i="24;23;11"/>
+<Face i="15;31;25"/>
+<Face i="22;25;31"/>
+<Face i="18;32;27"/>
+<Face i="28;27;32"/>
+<Face i="33;20;29"/>
+<Face i="26;29;20"/>
 </SubSet>
 </Landschaft>
 </Zusi>

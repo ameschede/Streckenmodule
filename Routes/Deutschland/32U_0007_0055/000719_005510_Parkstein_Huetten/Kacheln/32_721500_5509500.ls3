@@ -1,15 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
-<AutorEintrag AutorID="91" AutorName="Maik Feller"/>
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<lsb Dateiname="32_721500_5509500.lsb"/>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10" MeshV="3" MeshI="3">
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\terrain.dds"/>
 </Textur>
+<Vertex U="200" V="-41.0355">
+<p X="-499.9999" Y="89.6453" Z="460.6938"/>
+<n X="0.0091" Y="0.0035" Z="1"/>
+</Vertex>
+<Vertex U="200" V="-40">
+<p X="-499.9999" Y="100" Z="460.6809"/>
+<n X="0.0127" Y="0.0012" Z="0.9999"/>
+</Vertex>
+<Vertex U="200.4403" V="-40">
+<p X="-495.5971" Y="100" Z="460.6249"/>
+<n X="0.0127" Y="0.0012" Z="0.9999"/>
+</Vertex>
+<Face i="2;0;1"/>
 </SubSet>
 </Landschaft>
 </Zusi>

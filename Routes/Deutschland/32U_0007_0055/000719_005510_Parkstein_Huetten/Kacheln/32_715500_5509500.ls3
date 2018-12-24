@@ -1,15 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
-<AutorEintrag AutorID="91" AutorName="Maik Feller"/>
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<lsb Dateiname="32_715500_5509500.lsb"/>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10" MeshV="9" MeshI="24">
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\terrain.dds"/>
 </Textur>
+<Vertex U="-340" V="-40">
+<p X="100.0003" Y="100" Z="409.944"/>
+<n X="-0.0023" Y="-0.0095" Z="1"/>
+</Vertex>
+<Vertex U="-340" V="-20">
+<p X="100.0003" Y="300" Z="411.7144"/>
+<n X="-0.0016" Y="-0.0075" Z="1"/>
+</Vertex>
+<Vertex U="-320" V="-20">
+<p X="300.0003" Y="300" Z="412.2973"/>
+<n X="0.0022" Y="-0.0071" Z="1"/>
+</Vertex>
+<Vertex U="-320" V="-40">
+<p X="300.0003" Y="100" Z="410.2666"/>
+<n X="0.001" Y="-0.0075" Z="1"/>
+</Vertex>
+<Vertex U="-320">
+<p X="300.0003" Y="500" Z="413.2791"/>
+<n X="0.0043" Y="-0.0055" Z="1"/>
+</Vertex>
+<Vertex U="-340">
+<p X="100.0003" Y="500" Z="413.4849"/>
+<n X="0.0006" Y="-0.0086" Z="1"/>
+</Vertex>
+<Vertex U="-300" V="-40">
+<p X="500.0001" Y="100" Z="410.5893"/>
+<n X="0.0012" Y="-0.0024" Z="1"/>
+</Vertex>
+<Vertex U="-300" V="-20">
+<p X="500.0001" Y="299.9998" Z="411.0217"/>
+<n X="0.003" Y="-0.0041" Z="1"/>
+</Vertex>
+<Vertex U="-300" V="0">
+<p X="500.0001" Y="499.9998" Z="411.7529"/>
+<n X="0.0028" Y="-0.0054" Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;1;5"/>
+<Face i="1;4;2"/>
+<Face i="3;7;6"/>
+<Face i="7;3;2"/>
+<Face i="7;2;8"/>
+<Face i="4;8;2"/>
 </SubSet>
 </Landschaft>
 </Zusi>
