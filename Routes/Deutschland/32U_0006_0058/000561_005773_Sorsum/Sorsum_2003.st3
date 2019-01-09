@@ -1915,7 +1915,7 @@
 <g X="-574.9027" Y="-406.279" Z="168.2143"/>
 <b X="-567.1653" Y="-427.8208" Z="168.5002"/>
 <InfoNormRichtung vMax="-1" km="33.6021" pos="1">
-<Signal SignalTyp="14" BoundingR="25">
+<Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="GÜ Sig 205" SignalTyp="14" BoundingR="25">
 <p X="-567.1653" Y="-427.8208" Z="168.5002"/>
 <phi X="-0.0314" Y="-0.01249" Z="-1.225965"/>
 <SignalFrame>
@@ -1936,9 +1936,11 @@
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="38.8889"/>
+<VsigBegriff VsigGeschw="-2"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1">
 <Ereignis Er="2000" Wert="140"/>
 </MatrixEintrag>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
@@ -2873,6 +2875,7 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
+<HsigBegriff HsigGeschw="36.1111" FahrstrTyp="8"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="260046909" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="260046907">
@@ -2888,6 +2891,7 @@
 <MatrixEintrag Signalbild="262144061" MatrixGeschw="38.8889"/>
 <MatrixEintrag Signalbild="264241213" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="260046905" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="260046905" MatrixGeschw="36.1111"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="260046971" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
@@ -3067,7 +3071,7 @@
 <g X="-1771.228" Y="4458.4419" Z="105.6337"/>
 <b X="-1770.101" Y="4454.6045" Z="105.6836"/>
 <InfoNormRichtung vMax="-1" km="28.5906" pos="1">
-<Signal SignalTyp="14" BoundingR="25">
+<Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="GÜ Sig 167" SignalTyp="14" BoundingR="25">
 <p X="-1770.101" Y="4454.6045" Z="105.6836"/>
 <phi X="0.045204" Y="-0.017453" Z="-1.285123"/>
 <SignalFrame>
@@ -3233,7 +3237,7 @@
 </SignalFrame>
 <SignalFrame>
 <p X="1.0464" Y="2.5812" Z="-8.7696"/>
-<phi X="0.045204" Z="0.000002"/>
+<phi X="0.045379"/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
@@ -3283,6 +3287,15 @@
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <HsigBegriff FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="19.4444" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="22.2222" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="25" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="27.7778" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="30.5556" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="33.3333" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="36.1111" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="1061159013" MatrixGeschw="-1">
@@ -3290,6 +3303,34 @@
 </MatrixEintrag>
 <MatrixEintrag Signalbild="1061159011">
 <Ereignis Er="2000"/>
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1061167205" MatrixGeschw="19.4444">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1061175397" MatrixGeschw="22.2222">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1061191781" MatrixGeschw="25">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1061224549" MatrixGeschw="27.7778">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1061290085" MatrixGeschw="30.5556">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1061421157" MatrixGeschw="33.3333">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1061683301" MatrixGeschw="36.1111">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1062207589" MatrixGeschw="38.8889">
+<Ereignis Er="28" Wert="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1063256165" MatrixGeschw="41.6667">
+<Ereignis Er="28" Wert="23"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="1069547621" MatrixGeschw="-1">
 <Ereignis Er="28" Wert="23"/>
@@ -3836,7 +3877,7 @@
 <g X="-570.4784" Y="-404.6953" Z="168.2143"/>
 <b X="-562.7028" Y="-426.3428" Z="168.5017"/>
 <InfoNormRichtung vMax="-1" km="33.6021" pos="1">
-<Signal SignalTyp="14" BoundingR="25">
+<Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="GÜ Sig 255" SignalTyp="14" BoundingR="25">
 <p X="-562.7028" Y="-426.3428" Z="168.5017"/>
 <phi X="-0.0314" Y="-0.012495" Z="-1.225958"/>
 <SignalFrame>
@@ -3857,9 +3898,11 @@
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="38.8889"/>
+<VsigBegriff VsigGeschw="-2"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1">
 <Ereignis Er="2000" Wert="140"/>
 </MatrixEintrag>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
@@ -6554,7 +6597,9 @@
 <g X="-1602.047" Y="3804.4751" Z="114.0755"/>
 <b X="-1601.036" Y="3799.1543" Z="114.1362"/>
 <InfoNormRichtung vMax="77.7778" km="0.1819"/>
-<InfoGegenRichtung vMax="77.7778" km="0.1765" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="0.1765" pos="1">
+<Ereignis Er="3002"/>
+</InfoGegenRichtung>
 <NachNorm Nr="553"/>
 <NachGegen Nr="1649"/>
 </StrElement>
@@ -6564,7 +6609,6 @@
 <InfoNormRichtung vMax="77.7778" km="0.1438" Reg="5034"/>
 <InfoGegenRichtung vMax="77.7778" km="0.0942" pos="1" Reg="5034">
 <Ereignis Er="4"/>
-<Ereignis Er="3002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="447"/>
 <NachGegen Nr="562"/>
@@ -7159,6 +7203,7 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
+<HsigBegriff HsigGeschw="36.1111" FahrstrTyp="8"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="260046909" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="260046907">
@@ -7174,6 +7219,7 @@
 <MatrixEintrag Signalbild="262144061" MatrixGeschw="38.8889"/>
 <MatrixEintrag Signalbild="264241213" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="260046905" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="260046905" MatrixGeschw="36.1111"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="260046971" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
@@ -9496,6 +9542,7 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
+<HsigBegriff HsigGeschw="36.1111" FahrstrTyp="8"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="130023453" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="130023451">
@@ -9511,6 +9558,7 @@
 <MatrixEintrag Signalbild="131072029" MatrixGeschw="38.8889"/>
 <MatrixEintrag Signalbild="132120605" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="130023449" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="130023449" MatrixGeschw="36.1111"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="130023483" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
@@ -9604,6 +9652,7 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
+<HsigBegriff HsigGeschw="36.1111" FahrstrTyp="8"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="130023453" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="130023451">
@@ -9619,6 +9668,7 @@
 <MatrixEintrag Signalbild="131072029" MatrixGeschw="38.8889"/>
 <MatrixEintrag Signalbild="132120605" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="130023449" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="130023449" MatrixGeschw="36.1111"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="130023483" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
@@ -10940,7 +10990,7 @@
 <b X="15.0029" Y="-1995.609" Z="189.3827"/>
 <InfoNormRichtung vMax="69.4444" km="35.2921" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="35.2975">
-<Signal SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="GÜ Sig 256" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="13.0803" Y="-1990.5247" Z="189.3148"/>
 <phi X="0.028199" Y="0.012488" Z="1.932313"/>
 <SignalFrame>
@@ -10961,9 +11011,11 @@
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="38.8889"/>
+<VsigBegriff VsigGeschw="-2"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1">
 <Ereignis Er="2000" Wert="140"/>
 </MatrixEintrag>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
@@ -10982,7 +11034,7 @@
 <b X="19.3985" Y="-1993.9449" Z="189.3828"/>
 <InfoNormRichtung vMax="69.4444" km="35.2919" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="35.2976">
-<Signal SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="GÜ Sig 206" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="17.3958" Y="-1988.6489" Z="189.312"/>
 <phi X="0.028199" Y="0.012495" Z="1.932324"/>
 <SignalFrame>
@@ -11003,9 +11055,11 @@
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="38.8889"/>
+<VsigBegriff VsigGeschw="-2"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1">
 <Ereignis Er="2000" Wert="140"/>
 </MatrixEintrag>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
@@ -11024,7 +11078,7 @@
 <b X="-1308.663" Y="2502.0171" Z="130.7358"/>
 <InfoNormRichtung vMax="69.4444" km="30.5781" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="30.6014">
-<Signal SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="GÜ Sig 118" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-1313.8805" Y="2524.7744" Z="130.4443"/>
 <phi Y="0.012486" Z="1.796169"/>
 <SignalFrame>
@@ -11066,7 +11120,7 @@
 <b X="-1309.4489" Y="2484.4109" Z="130.9479"/>
 <InfoNormRichtung vMax="69.4444" km="30.5778" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="30.6185">
-<Signal SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="GÜ Sig 168" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-1318.535" Y="2524.04" Z="130.4402"/>
 <phi Y="0.012486" Z="1.796181"/>
 <SignalFrame>
@@ -16147,74 +16201,7 @@
 <NachNorm Nr="551"/>
 <NachGegen Nr="550"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Sbk 201 201 -&gt; Sbk 203 203" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1623.8488">
-<FahrstrStart Ref="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="6">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="111">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="114">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="80">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="7">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="208">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="46">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="19">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Sbk 203 203 -&gt; Üst Diekholzen 205" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1652.568">
-<FahrstrStart Ref="6">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="56">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="209">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="127">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="15">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="57">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="174">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="208">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="6">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="5">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Sorsum 117" FahrstrTyp="TypZug" Laenge="568.0264">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Sorsum 117" FahrstrTyp="TypZug" Laenge="569.5">
 <FahrstrStart Ref="99">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16228,7 +16215,102 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Sorsum 117 -&gt; Sbk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1731.0842">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Sorsum 167" FahrstrTyp="TypZug" Laenge="569.9">
+<FahrstrStart Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Sorsum 177" FahrstrStrecke="777a" RglGgl="1" FahrstrTyp="TypZug" Laenge="558.2">
+<FahrstrStart Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="154">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Diekholzen 206" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="2231.8999">
+<FahrstrStart Ref="108">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="143">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="93" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Diekholzen 256" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2232.6001">
+<FahrstrStart Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="134">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="131">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="132">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="96" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Abzw Sorsum 117 -&gt; Sbk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1742.9">
 <FahrstrStart Ref="9">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16269,174 +16351,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 254 254 -&gt; LZB-Bk 252 252" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1636.4385">
-<FahrstrStart Ref="13">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="79">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="128">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="210">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="81">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="113">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="126">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="13">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 255 -&gt; LZB-Bk 257 257" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1927.9656">
-<FahrstrStart Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="30">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="136">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="54">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="181">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="184">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="67">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="31">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="141">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="135">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="186">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="53" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="65" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="20" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="201" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="200" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="26" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 255 -&gt; LZB-Bk 207 207" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1928.3068">
-<FahrstrStart Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="136">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="54">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="61">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="63">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="86">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="129">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="135">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="119">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="177">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="53" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="59" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="62" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="20" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="201" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="200" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="26" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Sorsum 167" FahrstrTyp="TypZug" Laenge="568.4122">
-<FahrstrStart Ref="100">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="23">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="24">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="147">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Sorsum 167 -&gt; Sbk 251 251" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1763.884">
+<Fahrstrasse FahrstrName="Abzw Sorsum 167 -&gt; Sbk 251 251" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1742.7">
 <FahrstrStart Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16479,7 +16394,7 @@
 <FahrstrWeiche Ref="43" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="23" FahrstrSignalZeile="2">
+<FahrstrSignal Ref="23" FahrstrSignalZeile="11">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="199" FahrstrSignalSpalte="1">
@@ -16489,7 +16404,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Sorsum 167 -&gt; Sbk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1731.2427">
+<Fahrstrasse FahrstrName="Abzw Sorsum 167 -&gt; Sbk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1743">
 <FahrstrStart Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16535,318 +16450,14 @@
 <FahrstrWeiche Ref="47" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="23" FahrstrSignalZeile="2">
+<FahrstrSignal Ref="23" FahrstrSignalZeile="8">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="199" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="198" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 204 204 -&gt; LZB-Bk 202 202" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1640.7906">
-<FahrstrStart Ref="27">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="82">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="140">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="213">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="84">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="163">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="138">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="27">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Diekholzen 256" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2204.6318">
-<FahrstrStart Ref="109">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="85">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="98">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="134">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="131">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="18">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="87">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="120">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="132">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="96" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Diekholzen 206" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="2207.6748">
-<FahrstrStart Ref="108">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="95">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="146">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="143">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="90">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="183">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="120">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="144">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="93" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Sbk 251 251 -&gt; Sbk 253 253" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1590.1711">
-<FahrstrStart Ref="36">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="40">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="188">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="164">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="41">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="211">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="187">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="36">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="19">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Sbk 253 253 -&gt; Üst Diekholzen 255" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1656.2914">
-<FahrstrStart Ref="40">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="212">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="29">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="21">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="135">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="211">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="40">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="39">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 205 -&gt; LZB-Bk 207 207" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1931.6075">
-<FahrstrStart Ref="56">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="175">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="194">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="61">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="63">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="86">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="129">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="174">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="119">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="177">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="62" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="56" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="202" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="197" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="12" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 205 -&gt; LZB-Bk 257 257" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1931.3942">
-<FahrstrStart Ref="56">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="30">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="175">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="194">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="61">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="63">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="67">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="31">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="141">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="174">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="119">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="186">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="62" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="65" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="56" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="202" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="197" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="12" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Sorsum 177" FahrstrStrecke="777a" RglGgl="1" FahrstrTyp="TypZug" Laenge="562.9393">
-<FahrstrStart Ref="101">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="68">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="70">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="154">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Sorsum 177 -&gt; Sbk 251 251" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1780.4608">
+<Fahrstrasse FahrstrName="Abzw Sorsum 177 -&gt; Sbk 251 251" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1743.9">
 <FahrstrStart Ref="68">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16902,7 +16513,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Sorsum 177 -&gt; Sbk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1747.8195">
+<Fahrstrasse FahrstrName="Abzw Sorsum 177 -&gt; Sbk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1744.2">
 <FahrstrStart Ref="68">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16961,7 +16572,68 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 252 252 -&gt; Abzw Sorsum 168" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1574.6407">
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 202 202 -&gt; Abzw Sorsum 118" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1546">
+<FahrstrStart Ref="82">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="165">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="157">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="170">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="163">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="82" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 204 204 -&gt; LZB-Bk 202 202" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1670.5">
+<FahrstrStart Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="82">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="213">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="163">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 252 252 -&gt; Abzw Sorsum 168" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1546.6">
 <FahrstrStart Ref="79">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16996,13 +16668,394 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 202 202 -&gt; Abzw Sorsum 118" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1540.4788">
-<FahrstrStart Ref="82">
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 254 254 -&gt; LZB-Bk 252 252" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1670.6">
+<FahrstrStart Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="210">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="113">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 310 310 -&gt; Üst Diekholzen 206" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1650.9">
+<FahrstrStart Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="143">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="93" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 360 360 -&gt; Üst Diekholzen 256" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1650.7">
+<FahrstrStart Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="134">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="131">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="132">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="96" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 201 201 -&gt; Sbk 203 203" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1599.8">
+<FahrstrStart Ref="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="111">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="208">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="46">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 203 203 -&gt; Üst Diekholzen 205" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1684.8">
+<FahrstrStart Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="56">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="209">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="208">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 251 251 -&gt; Sbk 253 253" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1599.7">
+<FahrstrStart Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="164">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="41">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="211">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 253 253 -&gt; Üst Diekholzen 255" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1684.8">
+<FahrstrStart Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="212">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="29">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="211">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="39">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 205 -&gt; LZB-Bk 207 207" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1914.7">
+<FahrstrStart Ref="56">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="175">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="194">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="177">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="62" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="56" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="202" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="197" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="12" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 205 -&gt; LZB-Bk 257 257" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1914.5">
+<FahrstrStart Ref="56">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="30">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="175">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="194">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="141">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="62" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="65" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="56" FahrstrSignalZeile="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="202" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="197" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="12" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Diekholzen 206 -&gt; Abzw Sorsum 118" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4714.2002">
+<FahrstrStart Ref="88">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
 <FahrstrZiel Ref="71">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrZiel>
+<FahrstrRegister Ref="66">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="213">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="165">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -17021,14 +17074,387 @@
 <FahrstrAufloesung Ref="170">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="173">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="163">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="65" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="82" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrSignal Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="215" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Diekholzen 256 -&gt; Abzw Sorsum 168" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4742.6016">
+<Fahrstrasse FahrstrName="Üst Diekholzen 206 -&gt; Abzw Sorsum 168" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4715.2002">
+<FahrstrStart Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="66">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="176">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="210">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="190">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="157">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="170">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="113">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="65" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="62" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="79" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="88" FahrstrSignalZeile="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="92" FahrstrSignalSpalte="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 206 -&gt; LZB-Bk 204 204" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1497.7">
+<FahrstrStart Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="66">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="173">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="65" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="88" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="215" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="92" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 206 -&gt; LZB-Bk 254 254" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1497.9">
+<FahrstrStart Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="66">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="176">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="65" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="62" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="88" FahrstrSignalZeile="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="215" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="92" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 255 -&gt; LZB-Bk 257 257" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1914.3">
+<FahrstrStart Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="30">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="141">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="180">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="65" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="20" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="201" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="200" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="26" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 255 -&gt; LZB-Bk 207 207" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1914.6">
+<FahrstrStart Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="177">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="62" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="20" FahrstrSignalZeile="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="201" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="200" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="26" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Diekholzen 256 -&gt; Abzw Sorsum 168" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4715.3999">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17129,7 +17555,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Diekholzen 256 -&gt; Abzw Sorsum 118" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4712.7437">
+<Fahrstrasse FahrstrName="Üst Diekholzen 256 -&gt; Abzw Sorsum 118" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4714.5">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17223,14 +17649,11 @@
 <FahrstrVSignal Ref="206" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="214">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
 <FahrstrVSignal Ref="91" FahrstrSignalSpalte="14">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 256 -&gt; LZB-Bk 254 254" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1531.5238">
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 256 -&gt; LZB-Bk 254 254" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1498.1">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17282,14 +17705,14 @@
 <FahrstrVSignal Ref="206" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="214" FahrstrSignalSpalte="1">
+<FahrstrVSignal Ref="214" FahrstrSignalSpalte="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="91" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 256 -&gt; LZB-Bk 204 204" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1531.476">
+<Fahrstrasse FahrstrName="Anzeige: Üst Diekholzen 256 -&gt; LZB-Bk 204 204" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1498">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17338,396 +17761,18 @@
 <FahrstrWeiche Ref="53" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="85" FahrstrSignalZeile="11">
+<FahrstrSignal Ref="85" FahrstrSignalZeile="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="206" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="214" FahrstrSignalSpalte="1">
+<FahrstrVSignal Ref="214" FahrstrSignalSpalte="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="91" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Diekholzen 206 -&gt; Abzw Sorsum 118" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4708.7383">
-<FahrstrStart Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="71">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="66">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="185">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="182">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="55">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="137">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="22">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="140">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="213">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="84">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="165">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="189">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="73">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="157">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="170">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="183">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="173">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="138">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="163">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="65" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="53" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="27">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="82" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="215" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="92">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Diekholzen 206 -&gt; Abzw Sorsum 168" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4738.7236">
-<FahrstrStart Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="74">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="66">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="64">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="122">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="60">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="195">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="176">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="58">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="128">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="210">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="81">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="115">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="112">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="4">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="76">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="190">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="157">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="170">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="120">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="193">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="126">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="113">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="65" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="62" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="13">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="79" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="88" FahrstrSignalZeile="8">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="215">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="92" FahrstrSignalSpalte="14">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 206 -&gt; LZB-Bk 204 204" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1527.4702">
-<FahrstrStart Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="27">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="66">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="185">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="182">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="55">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="137">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="22">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="138">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="183">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="173">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="65" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="53" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="88" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="215" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="92" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Diekholzen 206 -&gt; LZB-Bk 254 254" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1527.6458">
-<FahrstrStart Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="13">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="66">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="64">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="122">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="60">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="195">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="176">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="58">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="126">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="120">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="193">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="65" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="62" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="88" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="207" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="215" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="92" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 310 310 -&gt; Üst Diekholzen 206" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypLZB" Laenge="1634.2919">
-<FahrstrStart Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="146">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="143">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="90">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="183">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="120">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="144">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="93" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 360 360 -&gt; Üst Diekholzen 256" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypLZB" Laenge="1631.0129">
-<FahrstrStart Ref="96">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="85">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="134">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="131">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="18">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="87">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="120">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="132">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="96" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
-</FahrstrSignal>
 </Fahrstrasse>
 </Strecke>
 </Zusi>
