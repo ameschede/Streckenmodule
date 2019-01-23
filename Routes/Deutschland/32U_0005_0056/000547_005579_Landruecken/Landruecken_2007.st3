@@ -274,6 +274,26 @@
 <ReferenzElemente ReferenzNr="250" StrElement="1210" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="251" StrElement="1210" StrNorm="1" RefTyp="2" Info="Register-Nr. 5065"/>
 <ReferenzElemente ReferenzNr="252" StrElement="1210" RefTyp="2" Info="Register-Nr. 5065"/>
+<ReferenzElemente ReferenzNr="253" StrElement="610" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="254" StrElement="584" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="255" StrElement="585" StrNorm="1" RefTyp="2" Info="Register-Nr. 3"/>
+<ReferenzElemente ReferenzNr="256" StrElement="574" StrNorm="1" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="257" StrElement="575" StrNorm="1" RefTyp="2" Info="Register-Nr. 5"/>
+<ReferenzElemente ReferenzNr="258" StrElement="503" RefTyp="2" Info="Register-Nr. 6"/>
+<ReferenzElemente ReferenzNr="259" StrElement="529" RefTyp="2" Info="Register-Nr. 7"/>
+<ReferenzElemente ReferenzNr="260" StrElement="528" RefTyp="2" Info="Register-Nr. 8"/>
+<ReferenzElemente ReferenzNr="261" StrElement="539" RefTyp="2" Info="Register-Nr. 9"/>
+<ReferenzElemente ReferenzNr="262" StrElement="538" RefTyp="2" Info="Register-Nr. 10"/>
+<ReferenzElemente ReferenzNr="263" StrElement="105" StrNorm="1" RefTyp="2" Info="Register-Nr. 7"/>
+<ReferenzElemente ReferenzNr="264" StrElement="106" StrNorm="1" RefTyp="2" Info="Register-Nr. 9"/>
+<ReferenzElemente ReferenzNr="265" StrElement="133" RefTyp="2" Info="Register-Nr. 5"/>
+<ReferenzElemente ReferenzNr="266" StrElement="134" RefTyp="2" Info="Register-Nr. 3"/>
+<ReferenzElemente ReferenzNr="267" StrElement="135" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="268" StrElement="216" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="269" StrElement="217" StrNorm="1" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="270" StrElement="289" RefTyp="2" Info="Register-Nr. 10"/>
+<ReferenzElemente ReferenzNr="271" StrElement="290" RefTyp="2" Info="Register-Nr. 8"/>
+<ReferenzElemente ReferenzNr="272" StrElement="291" RefTyp="2" Info="Register-Nr. 6"/>
 <StrElement Nr="2" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3323">
 <g X="-220.967" Y="-1986.8029" Z="327.6344"/>
 <b X="-215.2988" Y="-2035.97" Z="327.017"/>
@@ -1222,7 +1242,7 @@
 <StrElement Nr="105" Ueberh="-0.0025" kr="0.000008" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3033">
 <g X="-706.6917" Y="2580.239" Z="375.5236"/>
 <b X="-706.1653" Y="2555.9741" Z="375.4254"/>
-<InfoNormRichtung vMax="77.7778" km="253.7409" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="253.7409" pos="1" Reg="7"/>
 <InfoGegenRichtung vMax="77.7778" km="253.7651"/>
 <NachNorm Nr="106"/>
 <NachGegen Nr="270"/>
@@ -1230,7 +1250,7 @@
 <StrElement Nr="106" Ueberh="-0.0076" kr="0.000024" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3033">
 <g X="-706.1653" Y="2555.9741" Z="375.4254"/>
 <b X="-705.6295" Y="2531.709" Z="375.3267"/>
-<InfoNormRichtung vMax="77.7778" km="253.7651" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="253.7651" pos="1" Reg="9"/>
 <InfoGegenRichtung vMax="77.7778" km="253.7894"/>
 <NachNorm Nr="107"/>
 <NachGegen Nr="105"/>
@@ -1497,7 +1517,7 @@
 <g X="-722.4239" Y="3523.532" Z="379.3433"/>
 <b X="-723.4992" Y="3573.1741" Z="379.5443"/>
 <InfoNormRichtung vMax="77.7778" km="252.7973"/>
-<InfoGegenRichtung vMax="77.7778" km="252.7477" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="252.7477" pos="1" Reg="5"/>
 <NachNorm Nr="134"/>
 <NachGegen Nr="132"/>
 </StrElement>
@@ -1505,7 +1525,7 @@
 <g X="-723.4992" Y="3573.1741" Z="379.5443"/>
 <b X="-724.5745" Y="3622.8149" Z="379.7454"/>
 <InfoNormRichtung vMax="77.7778" km="252.7477"/>
-<InfoGegenRichtung vMax="77.7778" km="252.698" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="252.698" pos="1" Reg="3"/>
 <NachNorm Nr="135"/>
 <NachGegen Nr="133"/>
 </StrElement>
@@ -1513,7 +1533,7 @@
 <g X="-724.5745" Y="3622.8149" Z="379.7454"/>
 <b X="-725.6498" Y="3672.457" Z="379.9464"/>
 <InfoNormRichtung vMax="77.7778" km="252.698"/>
-<InfoGegenRichtung vMax="77.7778" km="252.6484" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="252.6484" pos="1" Reg="1"/>
 <NachNorm Nr="136"/>
 <NachGegen Nr="134"/>
 </StrElement>
@@ -2422,7 +2442,7 @@
 <StrElement Nr="216" Ueberh="-0.0025" kr="0.000008" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2829">
 <g X="-701.9929" Y="2580.3411" Z="375.5236"/>
 <b X="-701.4666" Y="2556.084" Z="375.4254"/>
-<InfoNormRichtung vMax="77.7778" km="253.7408" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="253.7408" pos="1" Reg="2"/>
 <InfoGegenRichtung vMax="77.7778" km="253.765"/>
 <NachNorm Nr="217"/>
 <NachGegen Nr="114"/>
@@ -2430,7 +2450,7 @@
 <StrElement Nr="217" Ueberh="-0.0076" kr="0.000024" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="-701.4666" Y="2556.084" Z="375.4254"/>
 <b X="-700.931" Y="2531.8269" Z="375.3275"/>
-<InfoNormRichtung vMax="77.7778" km="253.765" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="253.765" pos="1" Reg="4"/>
 <InfoGegenRichtung vMax="77.7778" km="253.7893"/>
 <NachNorm Nr="218"/>
 <NachGegen Nr="216"/>
@@ -3194,7 +3214,7 @@
 <g X="-726.9565" Y="3515.76" Z="379.3122"/>
 <b X="-728.0231" Y="3564.998" Z="379.5116"/>
 <InfoNormRichtung vMax="77.7778" km="252.8051"/>
-<InfoGegenRichtung vMax="77.7778" km="252.7559" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="252.7559" pos="1" Reg="10"/>
 <NachNorm Nr="290"/>
 <NachGegen Nr="288"/>
 </StrElement>
@@ -3202,7 +3222,7 @@
 <g X="-728.0231" Y="3564.998" Z="379.5116"/>
 <b X="-729.0897" Y="3614.2358" Z="379.711"/>
 <InfoNormRichtung vMax="77.7778" km="252.7559"/>
-<InfoGegenRichtung vMax="77.7778" km="252.7066" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="252.7066" pos="1" Reg="8"/>
 <NachNorm Nr="291"/>
 <NachGegen Nr="289"/>
 </StrElement>
@@ -3210,7 +3230,7 @@
 <g X="-729.0897" Y="3614.2358" Z="379.711"/>
 <b X="-730.1563" Y="3663.4729" Z="379.9104"/>
 <InfoNormRichtung vMax="77.7778" km="252.7066"/>
-<InfoGegenRichtung vMax="77.7778" km="252.6574" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="252.6574" pos="1" Reg="6"/>
 <NachNorm Nr="292"/>
 <NachGegen Nr="290"/>
 </StrElement>
@@ -5178,7 +5198,7 @@
 <g X="-521.5883" Y="620.8394" Z="360.3777"/>
 <b X="-515.8685" Y="571.2259" Z="359.7547"/>
 <InfoNormRichtung vMax="77.7778" km="255.71" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="255.76"/>
+<InfoGegenRichtung vMax="77.7778" km="255.76" Reg="6"/>
 <NachNorm Nr="504"/>
 <NachGegen Nr="502"/>
 </StrElement>
@@ -5593,7 +5613,7 @@
 <g X="-378.5964" Y="-619.4973" Z="344.8032"/>
 <b X="-372.8767" Y="-669.1108" Z="344.1802"/>
 <InfoNormRichtung vMax="77.7778" km="256.9587" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="257.0086"/>
+<InfoGegenRichtung vMax="77.7778" km="257.0086" Reg="8"/>
 <NachNorm Nr="529"/>
 <NachGegen Nr="527"/>
 </StrElement>
@@ -5601,7 +5621,7 @@
 <g X="-372.8767" Y="-669.1108" Z="344.1802"/>
 <b X="-367.1571" Y="-718.7241" Z="343.5573"/>
 <InfoNormRichtung vMax="77.7778" km="257.0086" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="257.0586"/>
+<InfoGegenRichtung vMax="77.7778" km="257.0586" Reg="7"/>
 <NachNorm Nr="716"/>
 <NachGegen Nr="528"/>
 </StrElement>
@@ -5757,7 +5777,7 @@
 <g X="-321.3997" Y="-1115.632" Z="338.5734"/>
 <b X="-315.68" Y="-1165.2458" Z="337.9504"/>
 <InfoNormRichtung vMax="77.7778" km="257.4581" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="257.5081"/>
+<InfoGegenRichtung vMax="77.7778" km="257.5081" Reg="10"/>
 <NachNorm Nr="539"/>
 <NachGegen Nr="537"/>
 </StrElement>
@@ -5765,7 +5785,7 @@
 <g X="-315.68" Y="-1165.2458" Z="337.9504"/>
 <b X="-309.9604" Y="-1214.859" Z="337.3275"/>
 <InfoNormRichtung vMax="77.7778" km="257.5081" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="257.558"/>
+<InfoGegenRichtung vMax="77.7778" km="257.558" Reg="9"/>
 <NachNorm Nr="540"/>
 <NachGegen Nr="538"/>
 </StrElement>
@@ -5973,7 +5993,7 @@
 <StrElement Nr="574" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-306.5477" Y="-1203.424" Z="337.4643"/>
 <b X="-312.2445" Y="-1154.0081" Z="338.0847"/>
-<InfoNormRichtung vMax="77.7778" km="257.5465"/>
+<InfoNormRichtung vMax="77.7778" km="257.5465" Reg="4"/>
 <InfoGegenRichtung vMax="77.7778" km="257.4968" pos="1"/>
 <NachNorm Nr="575"/>
 <NachGegen Nr="699"/>
@@ -5981,7 +6001,7 @@
 <StrElement Nr="575" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-312.2445" Y="-1154.0081" Z="338.0847"/>
 <b X="-317.9413" Y="-1104.593" Z="338.7053"/>
-<InfoNormRichtung vMax="77.7778" km="257.4968"/>
+<InfoNormRichtung vMax="77.7778" km="257.4968" Reg="5"/>
 <InfoGegenRichtung vMax="77.7778" km="257.447" pos="1"/>
 <NachNorm Nr="576"/>
 <NachGegen Nr="574"/>
@@ -6054,7 +6074,7 @@
 <StrElement Nr="584" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-363.516" Y="-709.2702" Z="343.6692"/>
 <b X="-369.2128" Y="-659.8549" Z="344.2897"/>
-<InfoNormRichtung vMax="77.7778" km="257.0491"/>
+<InfoNormRichtung vMax="77.7778" km="257.0491" Reg="2"/>
 <InfoGegenRichtung vMax="77.7778" km="256.9993" pos="1"/>
 <NachNorm Nr="585"/>
 <NachGegen Nr="583"/>
@@ -6062,7 +6082,7 @@
 <StrElement Nr="585" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-369.2128" Y="-659.8549" Z="344.2897"/>
 <b X="-374.9097" Y="-610.4396" Z="344.9102"/>
-<InfoNormRichtung vMax="77.7778" km="256.9993"/>
+<InfoNormRichtung vMax="77.7778" km="256.9993" Reg="3"/>
 <InfoGegenRichtung vMax="77.7778" km="256.9496" pos="1"/>
 <NachNorm Nr="586"/>
 <NachGegen Nr="584"/>
@@ -6301,7 +6321,7 @@
 <StrElement Nr="610" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-511.6336" Y="575.5288" Z="359.802"/>
 <b X="-517.3304" Y="624.9438" Z="360.4225"/>
-<InfoNormRichtung vMax="77.7778" km="255.7556"/>
+<InfoNormRichtung vMax="77.7778" km="255.7556" Reg="1"/>
 <InfoGegenRichtung vMax="77.7778" km="255.7059" pos="1"/>
 <NachNorm Nr="611"/>
 <NachGegen Nr="698"/>
@@ -10962,7 +10982,123 @@
 <NachNorm Nr="1146"/>
 <NachGegen Nr="1145"/>
 </StrElement>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 612 612 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1358.9149">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken N 609" FahrstrTyp="TypZug" Laenge="264.1">
+<FahrstrStart Ref="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="37">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken N 639" FahrstrTyp="TypZug" Laenge="263.9">
+<FahrstrStart Ref="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 654" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3629.3999">
+<FahrstrStart Ref="3">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="160">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="180">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="216">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="60" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="178" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3629.6001">
+<FahrstrStart Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="219">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="43" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="181" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 612 612 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1392.9">
 <FahrstrStart Ref="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10991,21 +11127,402 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken N 609" FahrstrTyp="TypZug" Laenge="264.0552">
-<FahrstrStart Ref="1">
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 613 613 -&gt; LZB-Bk 615 615" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2099.1001">
+<FahrstrStart Ref="165">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="37">
+<FahrstrZiel Ref="111">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="38">
+<FahrstrRegister Ref="69">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="52">
+<FahrstrRegister Ref="263">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="264">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="222">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="114">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="165" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken N 609 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6009.4233">
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 614 614 -&gt; LZB-Bk 612 612" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1897.6">
+<FahrstrStart Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="196">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="253">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="49">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="146" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 615 615 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1798.6">
+<FahrstrStart Ref="111">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="200">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="194">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="125">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="111" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 616 616 -&gt; LZB-Bk 614 614" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1202.9">
+<FahrstrStart Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="254">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="255">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="143">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="226" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 642 642 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1393.4">
+<FahrstrStart Ref="220">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="166">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 643 643 -&gt; LZB-Bk 645 645" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2098.6001">
+<FahrstrStart Ref="168">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="268">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="269">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="50">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="173">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="168" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 644 644 -&gt; LZB-Bk 642 642" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1898.3">
+<FahrstrStart Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="220">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="199">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="113">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="221">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="198">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="117" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 645 645 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1798.9">
+<FahrstrStart Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="151">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="197">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="148">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="145">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="176">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="171" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 646 646 -&gt; LZB-Bk 644 644" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1202.7">
+<FahrstrStart Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="259">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="260">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="198">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="121" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 656 656 -&gt; Üst Landrücken S 654" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1741.9">
+<FahrstrStart Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="216">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="178" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 658 658 -&gt; LZB-Bk 656 656" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1703">
+<FahrstrStart Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="160">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="180">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="60" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 686 686 -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1742.4">
+<FahrstrStart Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="219">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="181" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 688 688 -&gt; LZB-Bk 686 686" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1702.8">
+<FahrstrStart Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="43" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Landrücken N 609 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6020.8999">
 <FahrstrStart Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11033,10 +11550,25 @@
 <FahrstrRegister Ref="72">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="272">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="271">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="270">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="167">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="264">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="21">
@@ -11100,7 +11632,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken N 609 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="5998.1138">
+<Fahrstrasse FahrstrName="Üst Landrücken N 609 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6020.8999">
 <FahrstrStart Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11128,10 +11660,25 @@
 <FahrstrRegister Ref="28">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="265">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="170">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="268">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="269">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="50">
@@ -11198,7 +11745,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 609 -&gt; LZB-Bk 613 613" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2143.0017">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken N 609 -&gt; LZB-Bk 613 613" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2123.2">
 <FahrstrStart Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11226,6 +11773,15 @@
 <FahrstrRegister Ref="72">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="272">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="271">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="270">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="167">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -11251,7 +11807,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 609 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2142.6938">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken N 609 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2123.3">
 <FahrstrStart Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11279,6 +11835,15 @@
 <FahrstrRegister Ref="28">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="265">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="170">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -11300,51 +11865,14 @@
 <FahrstrWeiche Ref="79" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="37" FahrstrSignalZeile="11">
+<FahrstrSignal Ref="37" FahrstrSignalZeile="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="209" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 688 688 -&gt; LZB-Bk 686 686" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1694.3417">
-<FahrstrStart Ref="43">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="181">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="183">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="40">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="43" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken N 639" FahrstrTyp="TypZug" Laenge="263.9063">
-<FahrstrStart Ref="2">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="57">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="58">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="5997.9224">
+<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6020.7002">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11366,10 +11894,25 @@
 <FahrstrRegister Ref="28">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="265">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="170">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="268">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="269">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="50">
@@ -11433,7 +11976,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6009.4229">
+<Fahrstrasse FahrstrName="Üst Landrücken N 639 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6020.8999">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11461,10 +12004,25 @@
 <FahrstrRegister Ref="72">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="272">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="271">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="270">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="167">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="264">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="21">
@@ -11531,7 +12089,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 639 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2142.5032">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken N 639 -&gt; LZB-Bk 643 643" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2123.2">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11551,6 +12109,15 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="265">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="170">
@@ -11578,7 +12145,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken N 639 -&gt; LZB-Bk 613 613" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2143.0015">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken N 639 -&gt; LZB-Bk 613 613" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2123.3">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11606,6 +12173,15 @@
 <FahrstrRegister Ref="72">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="272">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="271">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="270">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="167">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -11627,212 +12203,14 @@
 <FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="57" FahrstrSignalZeile="11">
+<FahrstrSignal Ref="57" FahrstrSignalZeile="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="210" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 658 658 -&gt; LZB-Bk 656 656" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1689.6704">
-<FahrstrStart Ref="60">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="160">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="105">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="159">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="60" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 654" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3609.3999">
-<FahrstrStart Ref="3">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="184">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="61">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="160">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="107">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="216">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="101">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="186">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="96">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="159">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="105">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="60" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="178" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3619.469">
-<FahrstrStart Ref="4">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="187">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="44">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="183">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="219">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="189">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="5">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="40">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="43" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="181" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 615 615 -&gt; Üst Landrücken S 653" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1798.0546">
-<FahrstrStart Ref="111">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="115">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="200">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="119">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="194">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="123">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="125">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="127">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="114">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="111" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 644 644 -&gt; LZB-Bk 642 642" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1904.3311">
-<FahrstrStart Ref="117">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="220">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="199">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="116">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="113">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="221">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="198">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="117" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 646 646 -&gt; LZB-Bk 644 644" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1198.7031">
-<FahrstrStart Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="117">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="193">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="118">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="198">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="192">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="121" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 653 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2509.5012">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 653 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2501">
 <FahrstrStart Ref="124">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11891,7 +12269,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 653 -&gt; LZB-Bk 687 687" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2515.3735">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 653 -&gt; LZB-Bk 687 687" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2500.8999">
 <FahrstrStart Ref="124">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11943,7 +12321,7 @@
 <FahrstrWeiche Ref="235" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="124" FahrstrSignalZeile="11">
+<FahrstrSignal Ref="124" FahrstrSignalZeile="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="208" FahrstrSignalSpalte="1">
@@ -11956,311 +12334,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 614 614 -&gt; LZB-Bk 612 612" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1897.5963">
-<FahrstrStart Ref="146">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="196">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="150">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="172">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="18">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="49">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="195">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="146" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 613 613 -&gt; LZB-Bk 615 615" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2068.3684">
-<FahrstrStart Ref="165">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="111">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="69">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="21">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="222">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="112">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="114">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="67">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="165" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 643 643 -&gt; LZB-Bk 645 645" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2064.5432">
-<FahrstrStart Ref="168">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="171">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="25">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="50">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="19">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="173">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="23">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="168" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 645 645 -&gt; Üst Landrücken S 683" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1790.8746">
-<FahrstrStart Ref="171">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="174">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="151">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="197">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="148">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="145">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="228">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="176">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="137">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="171" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 683 -&gt; LZB-Bk 687 687" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2526.2778">
-<FahrstrStart Ref="174">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="99">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="252">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="231">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="236">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="248">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="97">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="185">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="100">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="214">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="137">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="247">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="229" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="235" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="174" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="211" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="225" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="177" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 683 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2520.5322">
-<FahrstrStart Ref="174">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="252">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="231">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="236">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="240">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="246">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="6">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="188">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="9">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="217">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="137">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="244">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="229" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="235" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="238" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="174" FahrstrSignalZeile="11">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="211" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="225" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="177" FahrstrSignalSpalte="17">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 656 656 -&gt; Üst Landrücken S 654" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1726.8904">
-<FahrstrStart Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="184">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="107">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="216">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="101">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="186">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="96">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="105">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="178" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 686 686 -&gt; Üst Landrücken S 684" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1732.3835">
-<FahrstrStart Ref="181">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="187">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="219">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="189">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="5">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="181" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6042.9116">
+<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6047.6001">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12288,10 +12362,22 @@
 <FahrstrRegister Ref="175">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="227">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="254">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="255">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="147">
@@ -12304,6 +12390,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="253">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="18">
@@ -12367,7 +12456,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6083.7798">
+<Fahrstrasse FahrstrName="Üst Landrücken S 654 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6048.3999">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12398,10 +12487,22 @@
 <FahrstrRegister Ref="126">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="261">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="262">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="122">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="259">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="260">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="118">
@@ -12414,6 +12515,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="113">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="221">
@@ -12480,7 +12584,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 654 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1583.0193">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 654 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1554.1">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12506,6 +12610,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="175">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="257">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="227">
@@ -12539,7 +12649,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 654 -&gt; LZB-Bk 646 646" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1583.3754">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 654 -&gt; LZB-Bk 646 646" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1554">
 <FahrstrStart Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12570,6 +12680,12 @@
 <FahrstrRegister Ref="126">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="261">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="262">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="122">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -12591,7 +12707,7 @@
 <FahrstrWeiche Ref="232" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="184" FahrstrSignalZeile="11">
+<FahrstrSignal Ref="184" FahrstrSignalZeile="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="212" FahrstrSignalSpalte="1">
@@ -12604,7 +12720,131 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6073.5127">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 683 -&gt; LZB-Bk 687 687" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2500.5">
+<FahrstrStart Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="252">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="231">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="236">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="248">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="214">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="247">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="229" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="235" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="174" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="211" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="225" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="177" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 683 -&gt; LZB-Bk 657 657" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2500.8">
+<FahrstrStart Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="252">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="231">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="236">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="240">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="246">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="9">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="217">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="244">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="229" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="235" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="238" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="174" FahrstrSignalZeile="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="211" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="225" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="177" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6048">
 <FahrstrStart Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12632,10 +12872,22 @@
 <FahrstrRegister Ref="126">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="261">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="262">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="122">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="259">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="260">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="118">
@@ -12648,6 +12900,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="113">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="221">
@@ -12711,7 +12966,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6032.771">
+<Fahrstrasse FahrstrName="Üst Landrücken S 684 -&gt; Üst Landrücken N 610" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6047.2998">
 <FahrstrStart Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12742,10 +12997,22 @@
 <FahrstrRegister Ref="175">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="227">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="254">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="255">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="147">
@@ -12758,6 +13025,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="253">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="18">
@@ -12824,7 +13094,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 684 -&gt; LZB-Bk 646 646" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1573.1074">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 684 -&gt; LZB-Bk 646 646" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1553.6">
 <FahrstrStart Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12850,6 +13120,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="261">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="262">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="122">
@@ -12883,7 +13159,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: Üst Landrücken S 684 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1572.8782">
+<Fahrstrasse FahrstrName="Anzeige: Üst Landrücken S 684 -&gt; LZB-Bk 616 616" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1553.8">
 <FahrstrStart Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -12914,6 +13190,12 @@
 <FahrstrRegister Ref="175">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="227">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -12935,7 +13217,7 @@
 <FahrstrWeiche Ref="229" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="187" FahrstrSignalZeile="11">
+<FahrstrSignal Ref="187" FahrstrSignalZeile="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="213" FahrstrSignalSpalte="1">
@@ -12947,58 +13229,6 @@
 <FahrstrVSignal Ref="191" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 642 642 -&gt; Üst Landrücken N 640" FahrstrStrecke="300b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1397.3723">
-<FahrstrStart Ref="220">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="70">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="22">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="68">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="166">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="71">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="220" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="LZB: LZB-Bk 616 616 -&gt; LZB-Bk 614 614" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1203.3812">
-<FahrstrStart Ref="226">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="146">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="144">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="147">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="195">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="143">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSignal Ref="226" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Landruecken_2007.st3" NurInfo="1"/>
-</FahrstrSignal>
 </Fahrstrasse>
 </Strecke>
 </Zusi>

@@ -1301,6 +1301,7 @@
 <InfoNormRichtung vMax="69.4444" km="59.5247" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="59.5327">
 <Ereignis Er="28" Beschr="300b"/>
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" Wert="224"/>
 </InfoGegenRichtung>
 <NachNorm Nr="74"/>
 <NachGegen Nr="72"/>
@@ -1780,7 +1781,9 @@
 <StrElement Nr="125" Ueberh="0.0078" kr="-0.000025" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2917">
 <g X="156.1916" Y="-499.6882" Z="149.3305"/>
 <b X="157.3155" Y="-474.0461" Z="149.2925"/>
-<InfoNormRichtung vMax="69.4444" km="60.7573"/>
+<InfoNormRichtung vMax="69.4444" km="60.7573">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" Wert="223"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="60.7316" pos="1"/>
 <NachNorm Nr="126"/>
 <NachGegen Nr="124"/>
@@ -1788,7 +1791,9 @@
 <StrElement Nr="126" Ueberh="0.0131" kr="-0.000042" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.291">
 <g X="157.3155" Y="-474.0461" Z="149.2925"/>
 <b X="158.4614" Y="-448.405" Z="149.2544"/>
-<InfoNormRichtung vMax="69.4444" km="60.7316"/>
+<InfoNormRichtung vMax="69.4444" km="60.7316">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" Wert="225"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="60.706" pos="1"/>
 <NachNorm Nr="127"/>
 <NachGegen Nr="125"/>
@@ -2769,6 +2774,7 @@
 <InfoNormRichtung vMax="69.4444" km="59.5248" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="59.5327">
 <Ereignis Er="39" Beschr="300b"/>
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" Wert="227"/>
 </InfoGegenRichtung>
 <NachNorm Nr="203"/>
 <NachGegen Nr="201"/>
@@ -3263,7 +3269,9 @@
 <StrElement Nr="255" Ueberh="0.0078" kr="-0.000025" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2986">
 <g X="160.8869" Y="-499.8977" Z="149.3303"/>
 <b X="162.0106" Y="-474.2616" Z="149.2925"/>
-<InfoNormRichtung vMax="69.4444" km="60.7571"/>
+<InfoNormRichtung vMax="69.4444" km="60.7571">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" Wert="226"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="60.7315" pos="1"/>
 <NachNorm Nr="256"/>
 <NachGegen Nr="254"/>
@@ -3271,7 +3279,9 @@
 <StrElement Nr="256" Ueberh="0.0131" kr="-0.000042" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2991">
 <g X="162.0106" Y="-474.2616" Z="149.2925"/>
 <b X="163.1562" Y="-448.6266" Z="149.2544"/>
-<InfoNormRichtung vMax="69.4444" km="60.7316"/>
+<InfoNormRichtung vMax="69.4444" km="60.7316">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" Wert="228"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="60.706" pos="1"/>
 <NachNorm Nr="257"/>
 <NachGegen Nr="255"/>
@@ -30475,6 +30485,9 @@
 <FahrstrRegister Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="329">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -30567,6 +30580,9 @@
 </FahrstrZiel>
 <FahrstrRegister Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="326">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -32674,11 +32690,20 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="326">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -32814,11 +32839,20 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="329">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -32954,6 +32988,12 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -33054,6 +33094,12 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -33156,11 +33202,20 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="329">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -33293,11 +33348,20 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="326">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -33433,6 +33497,12 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -33530,6 +33600,12 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -33638,11 +33714,20 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="326">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -33787,11 +33872,20 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="329">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -33936,6 +34030,12 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -34046,6 +34146,12 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -34150,11 +34256,20 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="329">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -34284,11 +34399,20 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="326">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -34421,6 +34545,12 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -34515,6 +34645,12 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -34623,11 +34759,20 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="16">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="326">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
@@ -34778,11 +34923,20 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="30">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="217">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="329">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000568_005748_Orxhausen\Orxhausen_1999.st3" NurInfo="1"/>

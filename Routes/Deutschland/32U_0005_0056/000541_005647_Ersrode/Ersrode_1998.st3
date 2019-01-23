@@ -219,6 +219,16 @@
 <ReferenzElemente ReferenzNr="185" StrElement="809" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="186" StrElement="809" StrNorm="1" RefTyp="2" Info="Register-Nr. 5057"/>
 <ReferenzElemente ReferenzNr="187" StrElement="809" RefTyp="2" Info="Register-Nr. 5057"/>
+<ReferenzElemente ReferenzNr="188" StrElement="466" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="189" StrElement="190" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="190" StrElement="40" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="191" StrElement="315" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="192" StrElement="1034" RefTyp="3" Info="Weiche "/>
+<ReferenzElemente ReferenzNr="193" StrElement="1034" StrNorm="1" RefTyp="2" Info="Register-Nr. 5058"/>
+<ReferenzElemente ReferenzNr="194" StrElement="1034" RefTyp="2" Info="Register-Nr. 5058"/>
+<ReferenzElemente ReferenzNr="195" StrElement="1222" RefTyp="3" Info="Weiche "/>
+<ReferenzElemente ReferenzNr="196" StrElement="1222" StrNorm="1" RefTyp="2" Info="Register-Nr. 5059"/>
+<ReferenzElemente ReferenzNr="197" StrElement="1222" RefTyp="2" Info="Register-Nr. 5059"/>
 <StrElement Nr="1" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-683.5847" Y="2148.1399" Z="350.1785"/>
 <b X="-692.6182" Y="2102.2629" Z="350.763"/>
@@ -740,7 +750,7 @@
 <g X="-761.451" Y="-2901.1079" Z="362.0486"/>
 <b X="-754.3887" Y="-2950.6067" Z="361.7883"/>
 <InfoNormRichtung vMax="69.4444" km="188.0981" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="188.1481"/>
+<InfoGegenRichtung vMax="69.4444" km="188.1481" Reg="2"/>
 <NachNorm Nr="41"/>
 <NachGegen Nr="39"/>
 </StrElement>
@@ -2426,7 +2436,7 @@
 <StrElement Nr="190" Ueberh="-0.0368" kr="0.000116" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2956">
 <g X="-925.163" Y="919.6433" Z="357.8454"/>
 <b X="-929.2556" Y="897.9016" Z="357.9339"/>
-<InfoNormRichtung vMax="69.4444" km="184.2509" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="184.2509" pos="1" Reg="2"/>
 <InfoGegenRichtung vMax="69.4444" km="184.273"/>
 <NachNorm Nr="191"/>
 <NachGegen Nr="795"/>
@@ -3617,7 +3627,7 @@
 <g X="-756.7981" Y="-2900.4441" Z="362.0486"/>
 <b X="-749.7357" Y="-2949.9431" Z="361.7883"/>
 <InfoNormRichtung vMax="69.4444" km="188.0965" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="188.1465"/>
+<InfoGegenRichtung vMax="69.4444" km="188.1465" Reg="1"/>
 <NachNorm Nr="316"/>
 <NachGegen Nr="314"/>
 </StrElement>
@@ -5304,7 +5314,7 @@
 <StrElement Nr="466" Ueberh="-0.0368" kr="0.000116" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3135">
 <g X="-920.5432" Y="918.7792" Z="357.8454"/>
 <b X="-924.6344" Y="897.0446" Z="357.9336"/>
-<InfoNormRichtung vMax="69.4444" km="184.2507" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="184.2507" pos="1" Reg="1"/>
 <InfoGegenRichtung vMax="69.4444" km="184.2729"/>
 <NachNorm Nr="467"/>
 <NachGegen Nr="794"/>
@@ -11222,6 +11232,8 @@
 <StrElement Nr="1034" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-508.648" Y="4576.3618" Z="327.4792"/>
 <b X="-508.223" Y="4566.1953" Z="328.2741"/>
+<InfoNormRichtung vMax="-1" Reg="5058"/>
+<InfoGegenRichtung vMax="-1" Reg="5058"/>
 <NachGegen Nr="1054"/>
 <NachGegen Nr="1056"/>
 </StrElement>
@@ -12474,7 +12486,8 @@
 <StrElement Nr="1222" spTrass="8.3333" Anschluss="256" Fkt="2">
 <g X="-713.1065" Y="-4232.2803" Z="345.6312"/>
 <b X="-724.2036" Y="-4240.354" Z="344.603"/>
-<InfoNormRichtung vMax="8.3333" km="0.0388" pos="1"/>
+<InfoNormRichtung vMax="8.3333" km="0.0388" pos="1" Reg="5059"/>
+<InfoGegenRichtung vMax="-1" Reg="5059"/>
 <NachNorm Nr="1223"/>
 <NachGegen Nr="1221"/>
 <NachGegen Nr="1413"/>
@@ -14576,6 +14589,9 @@
 <FahrstrRegister Ref="67">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="191">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -14657,6 +14673,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="97">
@@ -14780,6 +14799,9 @@
 <FahrstrRegister Ref="14">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="190">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="48">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -14867,6 +14889,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="190">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="48">
@@ -15128,6 +15153,9 @@
 <FahrstrRegister Ref="67">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="191">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -15250,6 +15278,9 @@
 <FahrstrRegister Ref="14">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="190">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="48">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -15292,6 +15323,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="50">
@@ -15389,6 +15423,9 @@
 <FahrstrRegister Ref="178">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="99">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -15484,6 +15521,9 @@
 <FahrstrRegister Ref="181">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="50">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -15541,6 +15581,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="188">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="99">
@@ -15859,6 +15902,9 @@
 <FahrstrRegister Ref="178">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="99">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -15955,6 +16001,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="50">
@@ -16055,6 +16104,9 @@
 <FahrstrRegister Ref="178">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="99">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -16112,6 +16164,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="50">

@@ -239,6 +239,18 @@
 <ReferenzElemente ReferenzNr="215" StrElement="851" RefTyp="4" Info="Signal:  "/>
 <ReferenzElemente ReferenzNr="216" StrElement="853" RefTyp="4" Info="Signal:  "/>
 <ReferenzElemente ReferenzNr="217" StrElement="855" RefTyp="4" Info="Signal:  "/>
+<ReferenzElemente ReferenzNr="218" StrElement="732" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="219" StrElement="13" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="220" StrElement="14" StrNorm="1" RefTyp="2" Info="Register-Nr. 3"/>
+<ReferenzElemente ReferenzNr="221" StrElement="470" StrNorm="1" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="222" StrElement="462" StrNorm="1" RefTyp="2" Info="Register-Nr. 5"/>
+<ReferenzElemente ReferenzNr="223" StrElement="463" StrNorm="1" RefTyp="2" Info="Register-Nr. 6"/>
+<ReferenzElemente ReferenzNr="224" StrElement="229" RefTyp="2" Info="Register-Nr. 6"/>
+<ReferenzElemente ReferenzNr="225" StrElement="230" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="226" StrElement="589" RefTyp="2" Info="Register-Nr. 3"/>
+<ReferenzElemente ReferenzNr="227" StrElement="590" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="228" StrElement="744" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="229" StrElement="745" StrNorm="1" RefTyp="2" Info="Register-Nr. 5"/>
 <StrElement Nr="1" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-1507.373" Y="3347.679" Z="119.8888"/>
 <b X="-1496.377" Y="3299.72" Z="120.5032"/>
@@ -361,7 +373,7 @@
 <StrElement Nr="13" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-1375.423" Y="2772.167" Z="127.2615"/>
 <b X="-1364.428" Y="2724.208" Z="127.8759"/>
-<InfoNormRichtung vMax="69.4444" km="30.3232" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="30.3232" pos="1" Reg="2"/>
 <InfoGegenRichtung vMax="69.4444" km="30.3724"/>
 <NachNorm Nr="14"/>
 <NachGegen Nr="12"/>
@@ -369,7 +381,7 @@
 <StrElement Nr="14" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-1364.428" Y="2724.208" Z="127.8759"/>
 <b X="-1353.432" Y="2676.249" Z="128.4903"/>
-<InfoNormRichtung vMax="69.4444" km="30.3724" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="30.3724" pos="1" Reg="3"/>
 <InfoGegenRichtung vMax="69.4444" km="30.4216"/>
 <NachNorm Nr="15"/>
 <NachGegen Nr="13"/>
@@ -2783,7 +2795,7 @@
 <StrElement Nr="229" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2942">
 <g X="-501.8349" Y="-591.722" Z="170.7027"/>
 <b X="-493.4984" Y="-614.1605" Z="171.0016"/>
-<InfoGegenRichtung vMax="77.7778" km="33.8253"/>
+<InfoGegenRichtung vMax="77.7778" km="33.8253" Reg="6"/>
 <NachNorm Nr="810"/>
 <NachGegen Nr="312"/>
 </StrElement>
@@ -2791,7 +2803,7 @@
 <g X="-485.1619" Y="-636.5989" Z="171.3005"/>
 <b X="-468.489" Y="-681.4759" Z="171.8983"/>
 <InfoNormRichtung vMax="77.7778" km="33.8492" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="33.8971"/>
+<InfoGegenRichtung vMax="77.7778" km="33.8971" Reg="4"/>
 <NachNorm Nr="231"/>
 <NachGegen Nr="810"/>
 </StrElement>
@@ -5238,7 +5250,7 @@
 <StrElement Nr="462" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-1375.2889" Y="2792.6101" Z="127.0131"/>
 <b X="-1364.184" Y="2744.178" Z="127.6336"/>
-<InfoNormRichtung vMax="69.4444" km="30.3033" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="30.3033" pos="1" Reg="5"/>
 <InfoGegenRichtung vMax="69.4444" km="30.353"/>
 <NachNorm Nr="463"/>
 <NachGegen Nr="730"/>
@@ -5246,7 +5258,7 @@
 <StrElement Nr="463" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-1364.184" Y="2744.178" Z="127.6336"/>
 <b X="-1353.08" Y="2695.7461" Z="128.254"/>
-<InfoNormRichtung vMax="69.4444" km="30.353" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="30.353" pos="1" Reg="6"/>
 <InfoGegenRichtung vMax="69.4444" km="30.4026"/>
 <NachNorm Nr="464"/>
 <NachGegen Nr="462"/>
@@ -5381,7 +5393,7 @@
 <StrElement Nr="470" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3251">
 <g X="-1286.455" Y="2405.1521" Z="131.9767"/>
 <b X="-1281.0052" Y="2381.3845" Z="132.2812"/>
-<InfoNormRichtung vMax="69.4444" km="30.7008" pos="1">
+<InfoNormRichtung vMax="69.4444" km="30.7008" pos="1" Reg="4">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-1277.5939" Y="2382.1667" Z="135.2812"/>
 <phi Z="-1.345406"/>
@@ -7111,7 +7123,7 @@
 <StrElement Nr="589" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2936">
 <g X="-506.2407" Y="-593.359" Z="170.7027"/>
 <b X="-498.1971" Y="-615.0091" Z="170.9911"/>
-<InfoGegenRichtung vMax="77.7778" km="33.8245"/>
+<InfoGegenRichtung vMax="77.7778" km="33.8245" Reg="3"/>
 <NachNorm Nr="809"/>
 <NachGegen Nr="143"/>
 </StrElement>
@@ -7119,7 +7131,7 @@
 <g X="-490.1535" Y="-636.6592" Z="171.2795"/>
 <b X="-474.0664" Y="-679.9592" Z="171.8563"/>
 <InfoNormRichtung vMax="77.7778" km="33.8476" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="33.8938"/>
+<InfoGegenRichtung vMax="77.7778" km="33.8938" Reg="1"/>
 <NachNorm Nr="591"/>
 <NachGegen Nr="809"/>
 </StrElement>
@@ -9082,7 +9094,7 @@
 <StrElement Nr="732" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2548">
 <g X="-1300.9574" Y="2447.3748" Z="131.4224"/>
 <b X="-1298.453" Y="2436.4519" Z="131.5623"/>
-<InfoNormRichtung vMax="69.4444" km="30.6565" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="30.6565" pos="1" Reg="1"/>
 <NachNorm Nr="20"/>
 <NachGegen Nr="19"/>
 </StrElement>
@@ -9444,7 +9456,7 @@
 <StrElement Nr="744" Ueberh="0.0314" kr="-0.0001" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3055">
 <g X="-615.6552" Y="-290.1368" Z="166.6775"/>
 <b X="-623.6104" Y="-266.9412" Z="166.3713"/>
-<InfoNormRichtung vMax="77.7778" km="33.479">
+<InfoNormRichtung vMax="77.7778" km="33.479" Reg="2">
 <Ereignis Er="28" Beschr="300b"/>
 </InfoNormRichtung>
 <NachNorm Nr="130"/>
@@ -9453,7 +9465,7 @@
 <StrElement Nr="745" Ueberh="0.0314" kr="-0.0001" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3008">
 <g X="-611.2125" Y="-288.6055" Z="166.6774"/>
 <b X="-619.1631" Y="-265.4229" Z="166.3713"/>
-<InfoNormRichtung vMax="77.7778" km="33.4791">
+<InfoNormRichtung vMax="77.7778" km="33.4791" Reg="5">
 <Ereignis Er="39" Beschr="300b"/>
 </InfoNormRichtung>
 <NachNorm Nr="304"/>
@@ -16329,6 +16341,12 @@
 <FahrstrRegister Ref="75">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="219">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="220">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -16374,6 +16392,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="222">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="223">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="37">
@@ -16427,6 +16451,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="219">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="220">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="3">
@@ -16485,6 +16515,12 @@
 <FahrstrRegister Ref="72">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="222">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -16539,6 +16575,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="219">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="220">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="3">
@@ -16611,6 +16653,9 @@
 <FahrstrZiel Ref="82">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrZiel>
+<FahrstrRegister Ref="229">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="140">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -16675,6 +16720,9 @@
 <FahrstrZiel Ref="79">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrZiel>
+<FahrstrRegister Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="128">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -16765,6 +16813,9 @@
 <FahrstrZiel Ref="6">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrZiel>
+<FahrstrRegister Ref="218">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="111">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -16833,6 +16884,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="221">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="164">
@@ -17041,7 +17095,16 @@
 <FahrstrRegister Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="229">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="140">
@@ -17139,7 +17202,16 @@
 <FahrstrRegister Ref="58">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="128">
@@ -17237,6 +17309,12 @@
 <FahrstrRegister Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="28">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -17294,6 +17372,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="226">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="14">
@@ -17482,7 +17566,16 @@
 <FahrstrRegister Ref="58">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="128">
@@ -17583,7 +17676,16 @@
 <FahrstrRegister Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="229">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="140">
@@ -17681,6 +17783,12 @@
 <FahrstrRegister Ref="58">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="14">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -17738,6 +17846,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="224">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="28">
