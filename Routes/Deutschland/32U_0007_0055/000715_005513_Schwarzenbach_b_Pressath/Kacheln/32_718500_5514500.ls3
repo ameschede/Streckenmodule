@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="7" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="300" V="100">
+<p X="-500.0001" Y="-499.9998" Z="478.3499"/>
+<n X="0.0041" Y="-0.0257" Z="0.9997"/>
+</Vertex>
+<Vertex U="300" V="140">
+<p X="-500.0001" Y="-100.0001" Z="463.6341"/>
+<n X="0.0072" Y="0.0147" Z="0.9999"/>
+</Vertex>
+<Vertex U="340" V="140">
+<p X="-100.0003" Y="-100.0001" Z="468.1168"/>
+<n X="0.0055" Y="0.0201" Z="0.9998"/>
+</Vertex>
+<Vertex U="340" V="100">
+<p X="-100.0003" Y="-500" Z="469.4482"/>
+<n X="0.0132" Y="-0.0299" Z="0.9995"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="3;0;2"/>
+</SubSet>
+</Landschaft>
+</Zusi>

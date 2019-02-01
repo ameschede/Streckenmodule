@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFCCCCCC" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="NSW_Trafoturm4.dds"/>
+</Textur>
+<Vertex U="0.412" V="1.135">
+<p X="-1.4" Y="-1.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.412" V="-0.128">
+<p X="-1.4" Y="-1.4" Z="8.85"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.013" V="-0.128">
+<p X="-1.4" Y="1.4" Z="8.85"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.013" V="1.135">
+<p X="-1.4" Y="1.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.013" V="-0.128">
+<p X="-1.4" Y="1.4"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.013" V="1.135">
+<p X="-1.4" Y="1.4" Z="8.85"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.995" V="0.997">
+<p X="-1.4" Y="-1.4" Z="8.85"/>
+<n X="-0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.508" V="0.997">
+<p X="-1.4" Y="1.4" Z="8.85"/>
+<n X="-0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.995" V="0.997">
+<p X="-1.4" Y="-1.4" Z="8.85"/>
+<n Y="-0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.508" V="0.997">
+<p X="-1.4" Y="1.4" Z="8.85"/>
+<n Y="0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.013" V="-0.128">
+<p X="-1.4" Y="-1.4" Z="8.85"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.013" V="1.135">
+<p X="-1.4" Y="-1.4"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.751" V="0.701">
+<p Z="9.785"/>
+<n X="-0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.751" V="0.701">
+<p Z="9.785"/>
+<n X="0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.751" V="0.701">
+<p Z="9.785"/>
+<n Y="-0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.751" V="0.701">
+<p Z="9.785"/>
+<n Y="0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.412" V="1.135">
+<p X="1.4" Y="1.4" Z="8.85"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.412" V="-0.128">
+<p X="1.4" Y="1.4"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.995" V="0.997">
+<p X="1.4" Y="1.4" Z="8.85"/>
+<n X="0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.508" V="0.997">
+<p X="1.4" Y="-1.4" Z="8.85"/>
+<n X="0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.508" V="0.997">
+<p X="1.4" Y="-1.4" Z="8.85"/>
+<n Y="-0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.995" V="0.997">
+<p X="1.4" Y="1.4" Z="8.85"/>
+<n Y="0.5554" Z="0.8316"/>
+</Vertex>
+<Vertex U="0.412" V="1.135">
+<p X="1.4" Y="-1.4"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.412" V="-0.128">
+<p X="1.4" Y="-1.4" Z="8.85"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.412" V="1.135">
+<p X="1.4" Y="-1.4" Z="8.85"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.412" V="-0.128">
+<p X="1.4" Y="-1.4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.013" V="-0.128">
+<p X="1.4" Y="1.4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.013" V="1.135">
+<p X="1.4" Y="1.4" Z="8.85"/>
+<n X="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="0;3;2"/>
+<Face i="4;17;16"/>
+<Face i="16;5;4"/>
+<Face i="7;12;6"/>
+<Face i="19;13;18"/>
+<Face i="20;8;14"/>
+<Face i="21;15;9"/>
+<Face i="10;23;22"/>
+<Face i="22;11;10"/>
+<Face i="26;25;24"/>
+<Face i="24;27;26"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-0.14" V="-0.14">
+<p X="1.4" Y="-1.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.14" V="0.14">
+<p X="-1.4" Y="-1.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.14" V="0.14">
+<p X="-1.4" Y="1.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.14" V="-0.14">
+<p X="1.4" Y="1.4"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="0;2;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>

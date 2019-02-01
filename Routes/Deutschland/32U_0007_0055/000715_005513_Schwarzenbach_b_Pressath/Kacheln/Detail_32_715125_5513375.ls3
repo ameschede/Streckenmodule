@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\rail.dds"/>
+</Textur>
+<Vertex U="0.4645" V="2.7754">
+<p X="-123.659" Y="-125" Z="415.7446"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.4606" V="2.82">
+<p X="-125" Y="-123.2214" Z="415.7547"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="2.8214">
+<p X="-125" Y="-123.1312" Z="415.755"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="2.7746">
+<p X="-123.5935" Y="-125" Z="415.7444"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="2.7757">
+<p X="-123.6811" Y="-125" Z="415.7447"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="2.8196">
+<p X="-125" Y="-123.2476" Z="415.7545"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.6761" V="3.1781">
+<p X="-123.6047" Y="-125" Z="415.7064"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.6635" V="3.1781">
+<p X="-125" Y="-123.1443" Z="415.7213"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="1.9466">
+<p X="-125" Y="-123.1894" Z="415.6048"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="1.9919">
+<p X="-123.6374" Y="-125" Z="415.5945"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.0968" V="1.589">
+<p X="-125" Y="-123.2025" Z="415.6385"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.109" V="1.589">
+<p X="-123.6485" Y="-125" Z="415.6326"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1.9919">
+<p X="-123.6374" Y="-125" Z="415.5945"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1.9466">
+<p X="-125" Y="-123.1894" Z="415.6048"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;3"/>
+<Face i="0;1;3"/>
+<Face i="5;1;0"/>
+<Face i="4;5;0"/>
+<Face i="6;7;8"/>
+<Face i="6;8;9"/>
+<Face i="3;2;7"/>
+<Face i="3;7;6"/>
+<Face i="12;13;10"/>
+<Face i="12;10;11"/>
+<Face i="11;10;5"/>
+<Face i="11;5;4"/>
+</SubSet>
+</Landschaft>
+</Zusi>

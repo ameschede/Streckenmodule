@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\maschendrahtzaun.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="-19.2711" Y="15.7126" Z="-1.3992"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-19.2711" Y="15.7126" Z="0.0008"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-19.3063" Y="15.6641" Z="0.0008"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="-19.3063" Y="15.6641" Z="-1.3992"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20" V="1" U2="-20" V2="1">
+<p X="13.228" Y="-7.7576" Z="-1.3992"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20" V="0.12" U2="-20" V2="0.12">
+<p X="13.228" Y="-7.7576" Z="0.0008"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20" V="0.12" U2="-20" V2="0.12">
+<p X="13.2357" Y="-7.7979" Z="0.0008"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20" V="1" U2="-20" V2="1">
+<p X="13.2357" Y="-7.7979" Z="-1.3992"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-24.6935" V="1" U2="-24.6935" V2="1">
+<p X="18.3331" Y="0.115" Z="-1.3064"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-24.6935" V="0.12" U2="-24.6935" V2="0.12">
+<p X="18.3331" Y="0.115" Z="0.0936"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-24.6935" V="0.12" U2="-24.6935" V2="0.12">
+<p X="18.3837" Y="0.0828" Z="0.0936"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-24.6935" V="1" U2="-24.6935" V2="1">
+<p X="18.3837" Y="0.0828" Z="-1.3064"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+<Face i="4;8;9"/>
+<Face i="4;9;5"/>
+<Face i="5;9;10"/>
+<Face i="5;10;6"/>
+<Face i="6;10;11"/>
+<Face i="6;11;7"/>
+</SubSet>
+</Landschaft>
+</Zusi>
