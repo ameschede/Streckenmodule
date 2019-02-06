@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="S" Nummer="33271" Zuglauf="Au (Sieg) - Köln-Ehrenfeld" Prio="2500" BremsstellungZug="5" MBrh="1.43" ReisendenDichte="0.2" FahrplanGruppe="S 12 nach Köln" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Üst Rosbach Hst F201" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Siegstrecke\Herchen_Rosbach_2018.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2018-06-07 20:24:00" Abf="2018-06-07 20:24:30" Betrst="Üst Rosbach Hst">
+<FahrplanSignalEintrag FahrplanSignal="F201"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 20:26:00" Abf="2018-06-07 20:27:00" Betrst="Schladern (Sieg)">
+<FahrplanSignalEintrag FahrplanSignal="P101"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 20:29:00" Abf="2018-06-07 20:30:00" Betrst="Dattenfeld Hp"/>
+<FahrplanEintrag Ank="2018-06-07 20:33:00" Abf="2018-06-07 20:34:00" Betrst="Herchen">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

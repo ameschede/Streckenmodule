@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="2" AutorName="Andreas Brandtner"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="15" SichtbarBis="100" Vorlade="1" LODbit="4">
+<Datei Dateiname="KSLA12_Flachmast_11m0.lod1.ls3"/>
+<p Y="3.25"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="15" SichtbarAb="100" SichtbarBis="400" Vorlade="1" LODbit="2">
+<Datei Dateiname="KSLA12_Flachmast_11m0.lod2.ls3"/>
+<p Y="3.25"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="15" SichtbarAb="400" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="KSLA12_Flachmast_11m0.lod3.ls3"/>
+<p Y="3.25"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Erster Anker des Mastes">
+<p/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1">
+<p X="0.05" Z="7.05"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Einzelteile\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1">
+<p X="-0.05" Z="7.05"/>
+<phi Z="3.141593"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Einzelteile\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Ausleger Re75-200">
+<p Y="-0.15" Z="10.3"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_2m" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_2m5" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_3m" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_3m6" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_4m2" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_5m" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Doppelauslegerhalterung.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Doppelauslegerhalterung_abgesenkt.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Bogenabzug-Haenger_1m.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Bogenabzug-Haenger_m65.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Mehrfachabzug.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Spannpunkt_Mehrfachabzug.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Ausleger Re250-330">
+<p Y="-0.15" Z="10.1"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m65" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_2m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_2m65" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_2m90" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m15" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m90" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_4m15" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_4m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_4m65" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_5m15" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_5m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_6m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Halterung_Doppelausleger-gruen.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Ausleger Re75-200">
+<p Y="0.15" Z="10.3"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_2m" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_2m5" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_3m" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_3m6" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_4m2" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_5m" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Doppelauslegerhalterung.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Doppelauslegerhalterung_abgesenkt.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Bogenabzug-Haenger_1m.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Bogenabzug-Haenger_m65.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Mehrfachabzug.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re75\Bogenabzug\Spannpunkt_Mehrfachabzug.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Ausleger Re250-330">
+<p Y="0.15" Z="10.1"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m65" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_2m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_2m65" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_2m90" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m15" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m90" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_4m15" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_4m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_4m65" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_5m15" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_5m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_6m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Halterung_Doppelausleger-gruen.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Mastfuß erweiterung">
+<p Z="0.5"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Flachmast_fusserweiterung.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Speiseleitung">
+<p Z="10.8"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-doppelt.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-einfach.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-IsolatorSenkrecht.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Endanker-doppelt.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Endanker-einfach.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Ausleger_LWL_1m.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_2-IsolatorSenkrecht_haengend.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-leer.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Speiseleitung">
+<p Z="10.8"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-doppelt.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-einfach.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-IsolatorSenkrecht.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Endanker-doppelt.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Endanker-einfach.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Ausleger_LWL_1m.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_2-IsolatorSenkrecht_haengend.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Arm-leer.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="1" AnkerKat="1" Beschreibung="Speiseleitung">
+<p Z="10.85"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Speiseleitungen\Speiseleitung_Isolator-senkrecht.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Anbauteile\Speiseleitung_Mastschalter.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14">
+<p X="-0.065" Z="3.15"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14">
+<p X="0.065" Z="3.15"/>
+<phi Z="3.141593"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

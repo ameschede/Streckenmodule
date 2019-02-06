@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="RE" Nummer="10924" Zuglauf="Siegen Hbf - Aachen Hbf" BRAngabe="146" Prio="2500" BremsstellungZug="5" MBrh="1.43" ReisendenDichte="0.3" FahrplanGruppe="RE 9 nach Aachen" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) P101" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Siegstrecke\Herchen_Rosbach_2018.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2018-06-07 16:48:00" Abf="2018-06-07 16:49:00" Betrst="Schladern (Sieg)">
+<FahrplanSignalEintrag FahrplanSignal="P101"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 16:54:00" Abf="2018-06-07 16:55:00" Betrst="Herchen">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpbzfa_765.5.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\TRAXX\145-146_0.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
