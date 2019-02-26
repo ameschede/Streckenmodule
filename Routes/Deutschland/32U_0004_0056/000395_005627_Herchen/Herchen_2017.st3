@@ -450,7 +450,7 @@
 <InfoGegenRichtung vMax="27.7778" km="49.61" Reg="5000">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
 <Signal NameBetriebsstelle="Herchen" Stellwerk="Herchen Hf" Signalname="P2" SignalTyp="9" BoundingR="10">
-<p X="839.057" Y="-1758.9039" Z="103.2218"/>
+<p X="839.3203" Y="-1758.76" Z="103.2218"/>
 <phi Z="-1.070679"/>
 <SignalFrame>
 <p/>
@@ -463,7 +463,7 @@
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Asig69.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p Y="2.25"/>
+<p Y="1.95"/>
 <phi/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
@@ -531,8 +531,8 @@
 <MatrixEintrag Signalbild="15657" MatrixGeschw="11.1111"/>
 <MatrixEintrag Signalbild="15657" MatrixGeschw="11.1111"/>
 <MatrixEintrag Signalbild="15657" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="15657" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="15657" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="15657" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="15657" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="15653" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="15653" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="15653" MatrixGeschw="-1"/>
@@ -548,13 +548,13 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="15715" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="39" Beschr="2651b"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
 <MatrixEintrag Signalbild="15779" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="6"/>
+<Ereignis Er="28" Beschr="2651b" Wert="6"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -4306,7 +4306,7 @@
 <g X="802.2386" Y="-1686.8341" Z="103.2217"/>
 <b X="799.841" Y="-1682.4467" Z="103.2217"/>
 <InfoNormRichtung vMax="27.7778" km="49.6809" pos="1">
-<Ereignis Er="1000010"/>
+<Ereignis Er="1000007"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="49.6859">
 <Ereignis Er="1000012"/>
@@ -5086,12 +5086,13 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="3939" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
+<Ereignis Er="39" Beschr="2651a"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
 <MatrixEintrag Signalbild="3875" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="400"/>
 <Ereignis Er="28" Wert="8"/>
 </MatrixEintrag>
 </Ersatzsignal>
@@ -5112,7 +5113,7 @@
 <b X="640.1731" Y="-1398.598" Z="103.2214"/>
 <InfoNormRichtung vMax="27.7778" km="50.0054" pos="1" Reg="5013">
 <Signal NameBetriebsstelle="Herchen" Stellwerk="Herchen Hf" Signalname="N1" SignalTyp="9" BoundingR="10">
-<p X="642.1475" Y="-1397.519" Z="103.2214"/>
+<p X="641.8842" Y="-1397.6628" Z="103.2214"/>
 <phi Z="2.070906"/>
 <SignalFrame>
 <p/>
@@ -5125,7 +5126,7 @@
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Asig69.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p Y="2.25"/>
+<p Y="1.95"/>
 <phi/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
@@ -5195,15 +5196,10 @@
 <MatrixEintrag Signalbild="3889" MatrixGeschw="6.9444">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="3939" MatrixGeschw="11.1111">
-<Ereignis Er="2000"/>
-</MatrixEintrag>
-</Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
 <MatrixEintrag Signalbild="4003" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="6"/>
+<Ereignis Er="28" Beschr="2651a" Wert="6"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -8096,7 +8092,24 @@
 <StrElement Nr="3427" spTrass="27.7778" Anschluss="256" Fkt="8" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="494.2813" Y="-266.0438" Z="103.9125"/>
 <b X="499.4922" Y="-246.9928" Z="103.9975"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal NameBetriebsstelle="Herchen" Stellwerk="Herchen Hf" Signalname="500 Hz (F1)" SignalTyp="14" BoundingR="3">
+<p X="494.2813" Y="-266.0438" Z="103.9125"/>
+<phi Y="0.004304" Z="-1.837788"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
+<VsigBegriff/>
+<VsigBegriff VsigGeschw="11.1111"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1">
+<Ereignis Er="500"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="196"/>
 <NachGegen Nr="3334"/>
 </StrElement>
@@ -8104,7 +8117,24 @@
 <g X="498.1397" Y="-267.099" Z="103.9126"/>
 <b X="503.3505" Y="-248.0481" Z="103.9976"/>
 <InfoNormRichtung vMax="33.3333" km="51.2138" pos="1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal NameBetriebsstelle="Herchen" Stellwerk="Herchen Hf" Signalname="500 Hz (F2)" SignalTyp="14" BoundingR="3">
+<p X="498.1397" Y="-267.099" Z="103.9126"/>
+<phi Y="0.004304" Z="-1.837785"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
+<VsigBegriff/>
+<VsigBegriff VsigGeschw="11.1111"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1">
+<Ereignis Er="500"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="18"/>
 <NachGegen Nr="3335"/>
 </StrElement>
@@ -8721,12 +8751,13 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="3505" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="450"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
 <MatrixEintrag Signalbild="3473" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="350"/>
 <Ereignis Er="28" Wert="8"/>
 </MatrixEintrag>
 </Ersatzsignal>
@@ -13468,7 +13499,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Herchen F1 -&gt; Herchen P1" FahrstrTyp="TypZug" Laenge="1499.0051">
+<Fahrstrasse FahrstrName="Herchen F1 -&gt; Herchen P1" FahrstrTyp="TypZug" Laenge="1499.005">
 <FahrstrStart Ref="259">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -13511,6 +13542,9 @@
 <FahrstrSignal Ref="259">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="342" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="316">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -13567,6 +13601,9 @@
 <FahrstrSignal Ref="259" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="342" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="316" FahrstrSignalSpalte="7">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -13608,6 +13645,9 @@
 <FahrstrSignal Ref="262">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="343" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="317">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>

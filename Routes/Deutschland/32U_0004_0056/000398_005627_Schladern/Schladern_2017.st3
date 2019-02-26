@@ -901,7 +901,7 @@
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
 <MatrixEintrag Signalbild="32547" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="450"/>
 <Ereignis Er="28" Wert="8"/>
 </MatrixEintrag>
 </Ersatzsignal>
@@ -3928,32 +3928,32 @@
 <MatrixEintrag Signalbild="65161" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="65177" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="65193" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="65177" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65225" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="65225" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65225" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="65225" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65225" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="65225" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65225" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="65225" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65225" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="65225" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65225" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="65225" MatrixGeschw="16.6667">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="65193" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="65193" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="65193" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="65193" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
 <MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
 <MatrixEintrag Signalbild="65193" MatrixGeschw="11.1111"/>
@@ -4277,7 +4277,7 @@
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010B0D">
 <MatrixEintrag Signalbild="65155" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="140"/>
 <Ereignis Er="28" Wert="9"/>
 </MatrixEintrag>
 </Ersatzsignal>
@@ -8718,35 +8718,7 @@
 <StrElement Nr="673" kr="0.00025" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="601.5262" Y="1356.4611" Z="131.7998"/>
 <b X="591.7899" Y="1358.7426" Z="131.7998"/>
-<InfoNormRichtung vMax="-1" km="58.1286">
-<Signal SignalTyp="1" BoundingR="10">
-<p X="592.292" Y="1360.8846" Z="132.2498"/>
-<phi Z="2.911417"/>
-<SignalFrame>
-<p/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Langsamfahrsignale\DB_95_Lf6_Tafel_Su.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-12.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.025" Y="0.0001" Z="-1.9"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Nebensignale\Betonpfosten.lod.ls3"/>
-</SignalFrame>
-<SignalFrame WeichenbaugruppeIndex="1147091253" WeichenbaugruppeNr="1699634242" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
-<p Z="0.3502"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Nebensignale\DB_Zuordnungspfeil-li.lod.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="15" MatrixGeschw="-1"/>
-</Signal>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="-1" km="58.1286"/>
 <InfoGegenRichtung vMax="33.3333" km="58.1186" pos="1"/>
 <NachNorm Nr="1754"/>
 <NachGegen Nr="2801"/>
@@ -12854,7 +12826,7 @@
 <b X="-96.089" Y="1518.0262" Z="130.4287"/>
 <InfoNormRichtung vMax="33.3333" km="57.4003" pos="1" Reg="5030">
 <Ereignis Er="6" Beschr="@sep=E 60@"/>
-<Signal NameBetriebsstelle="Schladern (Sieg)" Stellwerk="Schladern Sf" Signalname="A102" SignalTyp="1" BoundingR="25">
+<Signal NameBetriebsstelle="Schladern (Sieg)" Stellwerk="Schladern Sf" Signalname="A102" SignalTyp="1" BoundingR="10">
 <p X="-95.4075" Y="1521.0505" Z="129.8287"/>
 <phi Z="-0.221641"/>
 <SignalFrame>
@@ -12918,16 +12890,6 @@
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_2-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.18" Z="1.3"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Langsamfahrsignale\DB_95_Lf6_Tafel_Su.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.18" Z="1.3"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-9.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
 <p X="-15" Y="-3.1" Z="0.6"/>
 <phi/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
@@ -12941,6 +12903,16 @@
 <p X="3" Y="-3.1001" Z="0.6"/>
 <phi/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.2" Z="0.8"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Langsamfahrsignale\DB_95_Lf6_Tafel_Su.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.2" Z="0.8"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-8.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <HsigBegriff FahrstrTyp="6"/>
@@ -14052,7 +14024,7 @@
 <b X="870.7897" Y="1294.3091" Z="131.7998"/>
 <InfoNormRichtung vMax="22.2222" km="58.4029" pos="1">
 <Signal NameBetriebsstelle="Bksig" Stellwerk="Deko" SignalTyp="1" BoundingR="2">
-<p X="868.3551" Y="1292.6025" Z="133.4998"/>
+<p X="865.4286" Y="1293.262" Z="133.4998"/>
 <phi Z="-0.221601"/>
 <SignalFrame>
 <p/>
@@ -14990,8 +14962,8 @@
 <b X="586.9218" Y="1359.8831" Z="131.7998"/>
 <InfoNormRichtung vMax="36.1111" km="58.1186" Reg="5035">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
-<Signal NameBetriebsstelle="Schladern (Sieg)" Stellwerk="Schladern Sf" Signalname="P201" SignalTyp="9" BoundingR="10">
-<p X="587.4351" Y="1362.0737" Z="131.7998"/>
+<Signal NameBetriebsstelle="Schladern (Sieg)" Stellwerk="Schladern Sf" Signalname="P102" SignalTyp="9" BoundingR="10">
+<p X="587.3896" Y="1361.8792" Z="131.7998"/>
 <phi Z="2.91144"/>
 <SignalFrame>
 <p/>
@@ -15004,7 +14976,7 @@
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Asig69.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p Y="2.25"/>
+<p Y="1.95"/>
 <phi/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
@@ -15106,13 +15078,13 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="130403" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="39" Beschr="2651b"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
 <MatrixEintrag Signalbild="130467" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="6"/>
+<Ereignis Er="28" Beschr="2651b" Wert="6"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -15124,6 +15096,25 @@
 <StrElement Nr="1755" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="871.004" Y="1300.1025" Z="131.7998"/>
 <b X="872.9528" Y="1299.6633" Z="131.7998"/>
+<InfoNormRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="2">
+<p X="868.5669" Y="1298.3966" Z="133.0998"/>
+<phi Z="-0.221671"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Langsamfahrsignale\Lf7_60x60\Lf7_60x60_8.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.045" Z="-2.13"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Nebensignale\Betonpfosten.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
 <NachNorm Nr="1545"/>
 <NachGegen Nr="1756"/>
 </StrElement>
@@ -16389,13 +16380,13 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="65203" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="39" Beschr="2651a"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
 <MatrixEintrag Signalbild="65235" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="5"/>
+<Ereignis Er="28" Beschr="2651a" Wert="5"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -17762,7 +17753,7 @@
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010B01">
 <MatrixEintrag Signalbild="130179" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="350"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -18394,7 +18385,35 @@
 <StrElement Nr="2801" kr="0.00025" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="615.4819" Y="1353.1223" Z="131.7998"/>
 <b X="601.5262" Y="1356.4611" Z="131.7998"/>
-<InfoNormRichtung vMax="36.1111" km="58.1429"/>
+<InfoNormRichtung vMax="36.1111" km="58.1429">
+<Signal BoundingR="10">
+<p X="602.0265" Y="1358.5522" Z="132.2998"/>
+<phi Z="2.906767"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Langsamfahrsignale\DB_86_Lf6_Tafel_So.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-12.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.025" Z="-2.1"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Nebensignale\Betonpfosten.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.0002" Z="-0.4"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Nebensignale\DB_Zuordnungspfeil-li.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="943" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
 <Signal NameBetriebsstelle="Schladern (Sieg)" Stellwerk="Schladern Sf" Signalname="500 Hz (N102)" SignalTyp="14" BoundingR="3">
 <p X="615.4819" Y="1353.1223" Z="131.7998"/>
@@ -18571,60 +18590,60 @@
 </StrElement>
 <StrElement Nr="2833" spTrass="27.7778" Fkt="2">
 <g X="-2876.6956" Y="1450.5934" Z="114.526"/>
-<b X="-2870.5281" Y="1453.3928" Z="114.5633"/>
+<b X="-2870.5281" Y="1453.3929" Z="114.5633"/>
 <NachNorm Nr="2835"/>
 </StrElement>
 <StrElement Nr="2835" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
-<g X="-2870.5281" Y="1453.3928" Z="114.5633"/>
+<g X="-2870.5281" Y="1453.3929" Z="114.5633"/>
 <b X="-2858.125" Y="1458.8368" Z="114.6376"/>
 <NachNorm Nr="2836"/>
 <NachGegen Nr="2833"/>
 </StrElement>
 <StrElement Nr="2836" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
 <g X="-2858.125" Y="1458.8368" Z="114.6376"/>
-<b X="-2845.6531" Y="1464.1232" Z="114.7119"/>
+<b X="-2845.6531" Y="1464.123" Z="114.7119"/>
 <NachNorm Nr="2837"/>
 <NachGegen Nr="2835"/>
 </StrElement>
 <StrElement Nr="2837" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
-<g X="-2845.6531" Y="1464.1232" Z="114.7119"/>
-<b X="-2839.3843" Y="1466.6881" Z="114.749"/>
+<g X="-2845.6531" Y="1464.123" Z="114.7119"/>
+<b X="-2839.3843" Y="1466.688" Z="114.749"/>
 <NachGegen Nr="2836"/>
 </StrElement>
 <StrElement Nr="2838" spTrass="27.7778" Fkt="2">
-<g X="-3058.8972" Y="1358.4618" Z="113.4105"/>
-<b X="-3064.4851" Y="1354.5165" Z="113.3732"/>
+<g X="-3058.8975" Y="1358.4618" Z="113.4105"/>
+<b X="-3064.4854" Y="1354.5165" Z="113.3732"/>
 <NachNorm Nr="2839"/>
 </StrElement>
 <StrElement Nr="2839" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
-<g X="-3064.4851" Y="1354.5165" Z="113.3732"/>
+<g X="-3064.4854" Y="1354.5165" Z="113.3732"/>
 <b X="-3075.5593" Y="1346.486" Z="113.2987"/>
 <NachNorm Nr="2840"/>
 <NachGegen Nr="2838"/>
 </StrElement>
 <StrElement Nr="2840" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
 <g X="-3075.5593" Y="1346.486" Z="113.2987"/>
-<b X="-3080.7485" Y="1342.6284" Z="113.2635"/>
+<b X="-3080.7483" Y="1342.6284" Z="113.2635"/>
 <NachGegen Nr="2839"/>
 </StrElement>
 <StrElement Nr="2841" spTrass="27.7778" Fkt="2">
 <g X="-3074.353" Y="1334.0255" Z="113.2635"/>
-<b X="-3069.2151" Y="1337.8453" Z="113.2987"/>
+<b X="-3069.2151" Y="1337.8455" Z="113.2987"/>
 <NachNorm Nr="2842"/>
 </StrElement>
 <StrElement Nr="2842" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
-<g X="-3069.2151" Y="1337.8453" Z="113.2987"/>
-<b X="-3058.2471" Y="1345.7985" Z="113.3732"/>
+<g X="-3069.2151" Y="1337.8455" Z="113.2987"/>
+<b X="-3058.2468" Y="1345.7985" Z="113.3732"/>
 <NachNorm Nr="2843"/>
 <NachGegen Nr="2841"/>
 </StrElement>
 <StrElement Nr="2843" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
-<g X="-3058.2471" Y="1345.7985" Z="113.3732"/>
+<g X="-3058.2468" Y="1345.7985" Z="113.3732"/>
 <b X="-3052.7144" Y="1349.7045" Z="113.4105"/>
 <NachGegen Nr="2842"/>
 </StrElement>
 <StrElement Nr="2844" spTrass="27.7778" Fkt="2">
-<g X="-2412.6462" Y="1615.3584" Z="118.1321"/>
+<g X="-2412.6462" Y="1615.3583" Z="118.1321"/>
 <b X="-2274.843" Y="1661.9628" Z="118.9277"/>
 </StrElement>
 <StrElement Nr="2845" spTrass="27.7778" Fkt="2">
@@ -18649,18 +18668,18 @@
 </StrElement>
 <StrElement Nr="2860" spTrass="27.7778" Fkt="2">
 <g X="-1499.2882" Y="1836.0479" Z="122.4123"/>
-<b X="-1510.2499" Y="1837.9618" Z="122.3516"/>
+<b X="-1510.2498" Y="1837.9618" Z="122.3516"/>
 <NachNorm Nr="2861"/>
 </StrElement>
 <StrElement Nr="2861" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
-<g X="-1510.2499" Y="1837.9618" Z="122.3516"/>
+<g X="-1510.2498" Y="1837.9618" Z="122.3516"/>
 <b X="-1521.2352" Y="1839.7578" Z="122.291"/>
 <NachNorm Nr="2862"/>
 <NachGegen Nr="2860"/>
 </StrElement>
 <StrElement Nr="2862" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
 <g X="-1521.2352" Y="1839.7578" Z="122.291"/>
-<b X="-1532.2435" Y="1841.4259" Z="122.2303"/>
+<b X="-1532.2435" Y="1841.4258" Z="122.2303"/>
 <NachGegen Nr="2861"/>
 </StrElement>
 <StrElement Nr="2863" spTrass="27.7778" Fkt="2">
@@ -18669,7 +18688,7 @@
 </StrElement>
 <StrElement Nr="2864" spTrass="27.7778" Fkt="2">
 <g X="-2456.8916" Y="1614.6727" Z="118.3613"/>
-<b X="-2418.7681" Y="1627.5824" Z="118.3613"/>
+<b X="-2418.7681" Y="1627.5823" Z="118.3613"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Schladern (Sieg) P101 -&gt; Sbk 112 Sbk 112" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="2995.822">
 <FahrstrStart Ref="12">
@@ -18727,7 +18746,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) P201" FahrstrTyp="TypZug" Laenge="362.5908">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) P102" FahrstrTyp="TypZug" Laenge="362.5908">
 <FahrstrStart Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18859,7 +18878,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) F101 -&gt; Schladern (Sieg) P201" FahrstrTyp="TypZug" Laenge="832.9645">
+<Fahrstrasse FahrstrName="Schladern (Sieg) F101 -&gt; Schladern (Sieg) P102" FahrstrTyp="TypZug" Laenge="832.9645">
 <FahrstrStart Ref="34">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18917,16 +18936,16 @@
 <FahrstrSignal Ref="34" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="107" FahrstrSignalSpalte="5">
+<FahrstrVSignal Ref="107" FahrstrSignalSpalte="7">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="199" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="38" FahrstrSignalSpalte="5">
+<FahrstrVSignal Ref="38" FahrstrSignalSpalte="7">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="125" FahrstrSignalSpalte="5">
+<FahrstrVSignal Ref="125" FahrstrSignalSpalte="7">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
@@ -19266,7 +19285,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) P201 -&gt; Herchen F2" FahrstrStrecke="2651b" RglGgl="3" FahrstrTyp="TypZug" Laenge="7247.7964">
+<Fahrstrasse FahrstrName="Schladern (Sieg) P102 -&gt; Herchen F2" FahrstrStrecke="2651b" RglGgl="3" FahrstrTyp="TypZug" Laenge="7247.7964">
 <FahrstrStart Ref="90">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19334,7 +19353,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) P201 -&gt; Sbk 112 Sbk 112" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3182.012">
+<Fahrstrasse FahrstrName="Schladern (Sieg) P102 -&gt; Sbk 112 Sbk 112" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3182.012">
 <FahrstrStart Ref="90">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19562,7 +19581,7 @@
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="108" FahrstrSignalErsatzsignal="1">
+<FahrstrSignal Ref="108" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>

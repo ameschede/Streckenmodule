@@ -5440,12 +5440,6 @@
 <phi Z="-1.088503"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="12" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Vehicles\1970-79\Mercedes_O307\Mercedes_O307_DB_rot.lod.ls3"/>
-<p X="370.2169" Y="-180.9202" Z="131.2484"/>
-<phi Z="-1.052833"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteigbank\Drahtgittersitz_5-Sitzer.lod.ls3"/>
 <p X="275.3532" Y="-174.874" Z="132.5061"/>
@@ -5466,9 +5460,9 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Schilder\durchgang_verboten_pikt_verwittert.lod.ls3"/>
-<p X="365.5581" Y="-206.7496" Z="131.7109"/>
+<p X="365.4036" Y="-207.4352" Z="131.7966"/>
 <phi Z="2.919889"/>
-<sk/>
+<sk X="0.8" Y="0.8" Z="0.8"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Schilder\durchgang_verboten_pikt_verwittert.lod.ls3"/>
@@ -10820,7 +10814,7 @@
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="32" MeshI="36">
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="16" MeshI="36">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
@@ -10830,18 +10824,6 @@
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\cess.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="6">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\embankment.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="8" MeshI="18">
@@ -10961,30 +10943,6 @@
 <Datei Dateiname="Terrain\General\forest\Wald_rand.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10" MeshV="71">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="15" MeterProTex="10" MeterProTex2="10" MeshV="48">
-<RenderFlags TexVoreinstellung="2"/>
-<Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_rand.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10" MeshV="50">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="15" MeterProTex="10" MeterProTex2="10" MeshV="34">
-<RenderFlags TexVoreinstellung="2"/>
-<Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_rand.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10" MeshV="95" MeshI="267">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -11078,7 +11036,7 @@
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="144" MeshI="264">
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="72" MeshI="264">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
@@ -11090,28 +11048,19 @@
 <Datei Dateiname="PermanentWay\Default\cess.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="20">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="56" MeshI="126">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="120" MeshI="156">
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="51" MeshI="156">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="52" MeshI="78">
+<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="34" MeshI="78">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\cess.dds"/>
@@ -11126,25 +11075,13 @@
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="12">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="8">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\cess.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="8" MeshI="12">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="12" MeshI="12">
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="6" MeshI="12">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
@@ -11171,7 +11108,7 @@
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="54" MeshI="84">
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="27" MeshI="84">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
@@ -11183,7 +11120,7 @@
 <Datei Dateiname="PermanentWay\Default\cess.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="54" MeshI="132">
+<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="48" MeshI="132">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
@@ -11192,25 +11129,22 @@
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="150" MeshI="276">
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="75" MeshI="276">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="92" MeshI="138">
+<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="50" MeshI="138">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\cess.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="10">
-<RenderFlags TexVoreinstellung="3"/>
+<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="14" MeshI="30">
+<RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="14" MeshI="30">
@@ -11219,28 +11153,13 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="5">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="14" MeshI="30">
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="25" MeshI="72">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="31" MeshI="72">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="20" MeshI="36">
+<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="16" MeshI="36">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\cess.dds"/>
@@ -11309,13 +11228,13 @@
 <Datei Dateiname="Terrain\Deutschland\Strassen\MitBuergersteig\buergersteig2m.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="83" MeshI="129">
+<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="45" MeshI="129">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\sandsteinmauer02.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="222" MeshI="408">
+<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="146" MeshI="408">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_abschluss1.dds"/>
@@ -11414,7 +11333,7 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="11" MeshI="24">
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="10" MeshI="24">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
@@ -11474,7 +11393,7 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="FFFFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="7" MeshI="3">
+<SubSet Cd="FFFFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="3" MeshI="3">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
@@ -11528,7 +11447,7 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="26" MeshI="54">
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="20" MeshI="54">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Objekte\KSLA12_Bahnsteig\KSLA12_Rechtecksteinpflaster.dds"/>
@@ -11541,18 +11460,6 @@
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="4" MeshI="6">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="4">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="4">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
@@ -11714,7 +11621,7 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="4" MeshI="3">
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="3" MeshI="3">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
@@ -11732,18 +11639,12 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="3">
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="3" MeshI="3">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="4">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="4" MeshI="6">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -11754,12 +11655,6 @@
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Deutschland\Asphalt\ASPHALT-dunkelgrau.dds"/>
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
@@ -11838,12 +11733,6 @@
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Deutschland\Asphalt\ASPHALT-mittelgrau.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="2" MeshV="7">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\gravel05_2m.dds"/>
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="7" MeshI="15">
@@ -12068,25 +11957,13 @@
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="12">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Deutschland\Pflaster\Rechtecksteinpflaster\rechtecksteinpflaster03.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="20" MeshI="18">
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="10" MeshI="18">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Deutschland\Pflaster\Rechtecksteinpflaster\rechtecksteinpflaster03.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="16" MeshI="18">
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="12" MeshI="18">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
@@ -12266,7 +12143,7 @@
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="9" MeshI="6">
+<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
@@ -12284,7 +12161,7 @@
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="8" MeshI="6">
+<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
@@ -12944,18 +12821,6 @@
 <Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\mauer_beton2.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -13022,19 +12887,13 @@
 <Datei Dateiname="Terrain\Deutschland\Pflaster\Rechtecksteinpflaster\rechtecksteinpflaster01.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="25" MeshI="66">
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="19" MeshI="66">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Objekte\KSLA12_Bahnsteig\KSLA12_Rechtecksteinpflaster.dds"/>
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="36" MeshI="84">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="FFFFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeshV="4">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
@@ -13070,7 +12929,7 @@
 <Datei Dateiname="Terrain\Deutschland\Asphalt\ASPHALT-mittelgrau.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="FFFFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeshV="8" MeshI="12">
+<SubSet Cd="FFFFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeshV="6" MeshI="12">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Deutschland\Asphalt\ASPHALT-mittelgrau.dds"/>
@@ -13208,7 +13067,7 @@
 <Datei Dateiname="Terrain\Deutschland\Pflaster\Rechtecksteinpflaster\rechtecksteinpflaster03.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="FFFFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="11" MeshI="24">
+<SubSet Cd="FFFFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="10" MeshI="24">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
@@ -13415,7 +13274,7 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="8" MeshI="6">
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="5" MeshI="6">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
@@ -13433,12 +13292,6 @@
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton_weissgrau_Quadpflaster-grau_Leitlinie.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="5">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\embankment.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -13446,12 +13299,6 @@
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="3" MeshI="3">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\embankment.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="3">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
@@ -13808,15 +13655,6 @@
 <Datei Dateiname="Terrain\Deutschland\Strassen\Allein\waldweg_2m.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\terrain.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="Terrain\Deutschland\Strassen\Allein\waldweg_2m.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -14012,18 +13850,6 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="12">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\cess.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="3" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="6" MeshI="12">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -14072,19 +13898,13 @@
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="5">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\embankment.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="11" MeshI="27">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="5" MeshI="6">
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
@@ -14130,30 +13950,6 @@
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="24">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="8">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\cess.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="24">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="8">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\cess.dds"/>
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="10" MeshI="24">
@@ -14399,12 +14195,6 @@
 <Datei Dateiname="Terrain\Deutschland\Strassen\Allein\strasse_300cm.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="8">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\embankment.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="12" MeshI="30">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -14490,18 +14280,6 @@
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10" MeshV="8" MeshI="18">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\GELAENDER\gelaender.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10" MeshV="16">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="RailwayObjects\Deutschland\GELAENDER\gelaender.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10" MeshV="16">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="RailwayObjects\Deutschland\GELAENDER\gelaender.dds"/>
@@ -14832,12 +14610,6 @@
 </Textur>
 </SubSet>
 <SubSet Cd="FFFFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Deutschland\Asphalt\ASPHALT-hellgrau.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="FFFFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="7">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Deutschland\Asphalt\ASPHALT-hellgrau.dds"/>
@@ -15707,43 +15479,7 @@
 <Datei Dateiname="RailwayObjects\Deutschland\Kabelkanal\Deckel-innenliegend.dds"/>
 </Textur>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB90 SKL-Oberbau.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="8">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB90 SKL-Oberbau.dds"/>
-</Textur>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="6" MeshI="12">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="5">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB90 SKL-Oberbau.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="8">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
@@ -15777,15 +15513,6 @@
 </Textur>
 <Textur>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
-</Textur>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="4">
-<RenderFlags TexVoreinstellung="3"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
-</Textur>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB90 SKL-Oberbau.dds"/>
 </Textur>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10" MeshV="12" MeshI="21">
@@ -16044,6 +15771,42 @@
 <RenderFlags TexVoreinstellung="2"/>
 <Textur AnzahlMipMapLevel="3">
 <Datei Dateiname="Terrain\General\Forest\waldkronen.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton-hellgrau_Trittstufe.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton-hellgrau_Trittstufe.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton-hellgrau_Trittstufe.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton-hellgrau_Trittstufe.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton-hellgrau_Trittstufe.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="10" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteig\76cm\76cm_Beton-hellgrau_Trittstufe.dds"/>
 </Textur>
 </SubSet>
 </Landschaft>
