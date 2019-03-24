@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="95" AutorName="Tamás Szelesi" AutorEmail="szelesit@gmail.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="60" SichtbarBis="400" Vorlade="1" LODbit="4">
+<Datei Dateiname="KEIT12_Weco_Verwaltung.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="60" SichtbarAb="400" SichtbarBis="800" Vorlade="1" LODbit="2">
+<Datei Dateiname="KEIT12_Weco_Verwaltung.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="60" SichtbarAb="800" SichtbarBis="2600" Vorlade="1" LODbit="2">
+<Datei Dateiname="KEIT12_Weco_Verwaltung.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Verknuepfung">
+<p X="-24"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Schranke">
+<p X="-19.7" Y="-4"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="Routes\Deutschland\32U_0005_0061\000489_006071_Niebuell\Objekte\ANB_Az-Terminal\Schranke_4m.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Routes\Deutschland\32U_0005_0061\000489_006071_Niebuell\Objekte\ANB_Az-Terminal\Schranke_4m.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

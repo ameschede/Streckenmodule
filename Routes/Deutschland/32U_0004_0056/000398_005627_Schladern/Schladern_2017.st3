@@ -253,6 +253,12 @@
 <ReferenzElemente ReferenzNr="225" StrElement="889" StrNorm="1" RefTyp="4" Info="Signal: Sbk 113 zukünftig wegfallend"/>
 <ReferenzElemente ReferenzNr="226" StrElement="889" StrNorm="1" RefTyp="2" Info="Register-Nr. 5025"/>
 <ReferenzElemente ReferenzNr="227" StrElement="889" RefTyp="2" Info="Register-Nr. 5025"/>
+<ReferenzElemente ReferenzNr="228" StrElement="2865" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="229" StrElement="2866" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="230" StrElement="2867" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="231" StrElement="2868" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="232" StrElement="2869" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="233" StrElement="2870" RefTyp="4" Info="Reisende"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-3157.1433" Y="1278.449" Z="113.0156"/>
 <b X="-3149.5901" Y="1284.499" Z="113.0299"/>
@@ -954,10 +960,32 @@
 <g X="730.1617" Y="1331.839" Z="131.7998"/>
 <b X="815.4308" Y="1312.625" Z="131.7998"/>
 <InfoNormRichtung vMax="36.1111" km="58.2596" pos="1">
-<Ereignis Er="1000011" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000011"/>
+<Ereignis Er="6"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="730.1617" Y="1331.839" Z="131.7998"/>
+<phi/>
+<KoppelSignal ReferenzNr="231">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="36.1111" km="58.347">
-<Ereignis Er="1000008" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000008"/>
+<Ereignis Er="6"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="730.1617" Y="1331.839" Z="131.7998"/>
+<phi/>
+<KoppelSignal ReferenzNr="231">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="58"/>
 <NachGegen Nr="1580"/>
@@ -965,12 +993,6 @@
 <StrElement Nr="58" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="815.4308" Y="1312.625" Z="131.7998"/>
 <b X="829.3484" Y="1309.4889" Z="131.7998"/>
-<InfoNormRichtung vMax="-1" pos="1">
-<Ereignis Er="6" Beschr="@km=58,3@Schladern (Sieg)"/>
-</InfoNormRichtung>
-<InfoGegenRichtung vMax="36.1111" km="58.3613">
-<Ereignis Er="6" Beschr="@km=58,3@Schladern (Sieg)"/>
-</InfoGegenRichtung>
 <NachNorm Nr="1542"/>
 <NachGegen Nr="57"/>
 </StrElement>
@@ -985,10 +1007,32 @@
 <g X="735.9178" Y="1324.701" Z="131.7998"/>
 <b X="789.228" Y="1312.6879" Z="131.7998"/>
 <InfoNormRichtung vMax="33.3333" km="58.2667" pos="1">
-<Ereignis Er="1000008" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000008"/>
+<Ereignis Er="6"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="735.9178" Y="1324.701" Z="131.7998"/>
+<phi/>
+<KoppelSignal ReferenzNr="230">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="36.1111" km="58.3213">
-<Ereignis Er="1000011" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000011"/>
+<Ereignis Er="6"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="735.9178" Y="1324.701" Z="131.7998"/>
+<phi/>
+<KoppelSignal ReferenzNr="230">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="61"/>
 <NachGegen Nr="667"/>
@@ -996,12 +1040,6 @@
 <StrElement Nr="61" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="789.228" Y="1312.6879" Z="131.7998"/>
 <b X="840.2071" Y="1301.2003" Z="131.7998"/>
-<InfoNormRichtung vMax="-1" pos="1">
-<Ereignis Er="6" Beschr="@km=58,3@Schladern (Sieg)"/>
-</InfoNormRichtung>
-<InfoGegenRichtung vMax="36.1111" km="58.3736">
-<Ereignis Er="6" Beschr="@km=58,3@Schladern (Sieg)"/>
-</InfoGegenRichtung>
 <NachNorm Nr="2802"/>
 <NachGegen Nr="60"/>
 </StrElement>
@@ -5293,6 +5331,16 @@
 <b X="1913.205" Y="186.932" Z="135.6449"/>
 <InfoNormRichtung vMax="25" km="60.0732" pos="1">
 <Ereignis Er="1000011" Beschr="Üst Rosbach Hst"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="1906.3311" Y="194.4821" Z="135.6155"/>
+<phi/>
+<KoppelSignal ReferenzNr="233">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="60.0834"/>
 <NachNorm Nr="412"/>
@@ -5304,6 +5352,16 @@
 <InfoNormRichtung vMax="25" km="60.0834" pos="1"/>
 <InfoGegenRichtung vMax="27.7778" km="60.0936">
 <Ereignis Er="1000008" Beschr="Üst Rosbach Hst"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="1913.205" Y="186.932" Z="135.6449"/>
+<phi/>
+<KoppelSignal ReferenzNr="233">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="413"/>
 <NachGegen Nr="411"/>
@@ -6668,6 +6726,16 @@
 <InfoNormRichtung vMax="25" km="60.0944" pos="1"/>
 <InfoGegenRichtung vMax="27.7778" km="60.1046">
 <Ereignis Er="1000011" Beschr="Üst Rosbach Hst"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="1915.0201" Y="177.7269" Z="135.6673"/>
+<phi/>
+<KoppelSignal ReferenzNr="232">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="485"/>
 <NachGegen Nr="2110"/>
@@ -8692,10 +8760,10 @@
 <g X="676.2963" Y="1338.401" Z="131.7998"/>
 <b X="661.104" Y="1342.0516" Z="131.7998"/>
 <InfoNormRichtung vMax="-1" pos="1">
-<Ereignis Er="1000012" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000012"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="58.1899" pos="1">
-<Ereignis Er="1000007" Beschr="Schladern (Sieg)"/>
+<InfoGegenRichtung vMax="-1">
+<Ereignis Er="1000007"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1418"/>
 <NachGegen Nr="669"/>
@@ -11670,10 +11738,30 @@
 <InfoNormRichtung vMax="33.3333" km="55.0592" pos="1">
 <Ereignis Er="1000011" Beschr="Dattenfeld Hp"/>
 <Ereignis Er="6" Beschr="Dattenfeld Hp"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="-2381.686" Y="1635.0205" Z="117.567"/>
+<phi/>
+<KoppelSignal ReferenzNr="228">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="55.0642">
 <Ereignis Er="1000008" Beschr="Dattenfeld Hp"/>
 <Ereignis Er="6" Beschr="Dattenfeld Hp"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="-2381.686" Y="1635.0205" Z="117.567"/>
+<phi/>
+<KoppelSignal ReferenzNr="228">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="3"/>
 <NachGegen Nr="1065"/>
@@ -11684,10 +11772,30 @@
 <InfoNormRichtung vMax="33.3333" km="55.0612" pos="1">
 <Ereignis Er="1000008" Beschr="Dattenfeld Hp"/>
 <Ereignis Er="6" Beschr="Dattenfeld Hp"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="-2380.4055" Y="1631.2312" Z="117.5669"/>
+<phi/>
+<KoppelSignal ReferenzNr="229">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="55.0662">
 <Ereignis Er="1000011" Beschr="Dattenfeld Hp"/>
 <Ereignis Er="6" Beschr="Dattenfeld Hp"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="-2380.4055" Y="1631.2312" Z="117.5669"/>
+<phi/>
+<KoppelSignal ReferenzNr="229">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="735"/>
 <NachGegen Nr="1069"/>
@@ -14011,10 +14119,10 @@
 <g X="863.5785" Y="1295.934" Z="131.7998"/>
 <b X="866.2085" Y="1295.3413" Z="131.7998"/>
 <InfoNormRichtung vMax="33.3333" km="58.3976" pos="1">
-<Ereignis Er="1000009" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000009"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="36.1111" km="58.4003">
-<Ereignis Er="1000010" Beschr="Schladern (Sieg)"/>
+<InfoGegenRichtung vMax="-1">
+<Ereignis Er="1000010"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1416"/>
 <NachGegen Nr="73"/>
@@ -14842,6 +14950,9 @@
 <g X="661.104" Y="1342.0516" Z="131.7998"/>
 <b X="654.1983" Y="1343.7111" Z="131.7998"/>
 <InfoNormRichtung vMax="36.1111" km="58.1899"/>
+<InfoGegenRichtung vMax="-1" pos="1">
+<Ereignis Er="1000007"/>
+</InfoGegenRichtung>
 <NachNorm Nr="671"/>
 <NachGegen Nr="670"/>
 </StrElement>
@@ -14871,7 +14982,7 @@
 <b X="884.6187" Y="1291.193" Z="131.7998"/>
 <InfoNormRichtung vMax="22.2222" km="58.4129" pos="1"/>
 <InfoGegenRichtung vMax="36.1111" km="58.4191">
-<Ereignis Er="1000010" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000010"/>
 </InfoGegenRichtung>
 <NachNorm Nr="74"/>
 <NachGegen Nr="1474"/>
@@ -14906,7 +15017,7 @@
 <g X="879.7689" Y="1298.1274" Z="131.7998"/>
 <b X="886.7818" Y="1296.5472" Z="131.7998"/>
 <InfoGegenRichtung vMax="36.1111" km="58.4202">
-<Ereignis Er="1000007" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000007"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1543"/>
 <NachGegen Nr="1545"/>
@@ -14915,17 +15026,17 @@
 <g X="872.9528" Y="1299.6633" Z="131.7998"/>
 <b X="879.7689" Y="1298.1274" Z="131.7998"/>
 <InfoNormRichtung vMax="-1" km="58.406" pos="1">
-<Ereignis Er="1000012" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000012"/>
 </InfoNormRichtung>
+<InfoGegenRichtung vMax="-1">
+<Ereignis Er="1000007"/>
+</InfoGegenRichtung>
 <NachNorm Nr="1544"/>
 <NachGegen Nr="1755"/>
 </StrElement>
 <StrElement Nr="1580" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="687.5271" Y="1341.4464" Z="131.7998"/>
 <b X="730.1617" Y="1331.839" Z="131.7998"/>
-<InfoNormRichtung vMax="36.1111" km="58.2159" pos="1">
-<Ereignis Er="1000011" Beschr="Schladern (Sieg)"/>
-</InfoNormRichtung>
 <NachNorm Nr="57"/>
 <NachGegen Nr="1582"/>
 </StrElement>
@@ -14933,7 +15044,7 @@
 <g X="666.2098" Y="1346.2502" Z="131.7998"/>
 <b X="676.8684" Y="1343.8484" Z="131.7998"/>
 <InfoNormRichtung vMax="-1" km="58.1941" pos="1">
-<Ereignis Er="1000010" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000010"/>
 </InfoNormRichtung>
 <NachNorm Nr="1582"/>
 <NachGegen Nr="2796"/>
@@ -14941,8 +15052,11 @@
 <StrElement Nr="1582" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="676.8684" Y="1343.8484" Z="131.7998"/>
 <b X="687.5271" Y="1341.4464" Z="131.7998"/>
+<InfoNormRichtung vMax="-1" pos="1">
+<Ereignis Er="1000010"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="36.1111" km="58.2159">
-<Ereignis Er="1000009" Beschr="Schladern (Sieg)"/>
+<Ereignis Er="1000009"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1580"/>
 <NachGegen Nr="1581"/>
@@ -17766,6 +17880,16 @@
 <b X="1915.0201" Y="177.7269" Z="135.6673"/>
 <InfoNormRichtung vMax="25" km="60.0893" pos="1">
 <Ereignis Er="1000008" Beschr="Üst Rosbach Hst"/>
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
+<p X="1911.5126" Y="181.4503" Z="135.6534"/>
+<phi/>
+<KoppelSignal ReferenzNr="232">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</KoppelSignal>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="60.0944">
 <Signal NameBetriebsstelle="Üst Rosbach Hst" Stellwerk="Schladern Sf" Signalname="F202vw" SignalTyp="6" BoundingR="10">
@@ -18690,63 +18814,721 @@
 <g X="-2456.8916" Y="1614.6727" Z="118.3613"/>
 <b X="-2418.7681" Y="1627.5823" Z="118.3613"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Schladern (Sieg) P101 -&gt; Sbk 112 Sbk 112" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="2995.822">
-<FahrstrStart Ref="12">
+<StrElement Nr="2865" spTrass="27.7778" Fkt="2">
+<g X="-2416.5513" Y="1626.922" Z="118.1322"/>
+<b X="-2406.8254" Y="1629.979" Z="118.188"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="73">
+<p X="-2416.5513" Y="1626.922" Z="118.1322"/>
+<phi/>
+<SignalFrame>
+<p X="2.2485" Y="1.1005" Z="0.0136"/>
+<phi Z="1.528223"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-01b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-1.8982" Y="-0.25" Z="-0.0103"/>
+<phi Z="2.133201"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="19.2246" Y="6.6851" Z="0.1113"/>
+<phi Z="2.190696"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="36.1787" Y="11.7429" Z="0.2079"/>
+<phi Z="1.65635"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-01b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="10.5188" Y="2.7214" Z="0.0592"/>
+<phi Z="1.561553"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="21.2229" Y="8.3208" Z="0.1245"/>
+<phi Z="1.405774"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-01b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-5.8464" Y="-1.183" Z="-0.0323"/>
+<phi Z="1.832415"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-08a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-44.177" Y="-14.7108" Z="-0.2545"/>
+<phi Z="2.094055"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="7.5818" Y="1.725" Z="0.0423"/>
+<phi Z="2.314955"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="17.0425" Y="6.0497" Z="0.0988"/>
+<phi Z="1.623276"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.0894" Y="0.3547" Z="0.0011"/>
+<phi Z="1.726222"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-08a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-8.7993" Y="-3.7047" Z="-0.0521"/>
+<phi Z="2.012605"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-16.4922" Y="-5.4821" Z="-0.095"/>
+<phi Z="1.661257"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="47.9666" Y="16.4543" Z="0.2772"/>
+<phi Z="1.463736"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="53.6772" Y="18.8693" Z="0.311"/>
+<phi Z="1.85722"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-06b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="32.0002" Y="11.485" Z="0.1858"/>
+<phi Z="2.198383"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="13.7053" Y="4.7947" Z="0.0794"/>
+<phi Z="1.918316"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-06a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="67.9841" Y="23.0439" Z="0.3924"/>
+<phi Z="1.997146"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+</StrElement>
+<StrElement Nr="2866" spTrass="27.7778" Fkt="2">
+<g X="-2403.9844" Y="1619.5868" Z="118.1843"/>
+<b X="-2411.3154" Y="1617.2341" Z="118.1423"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="76">
+<p X="-2403.9844" Y="1619.5868" Z="118.1843"/>
+<phi/>
+<SignalFrame>
+<p X="-1.0078" Y="-0.0186" Z="-0.0053"/>
+<phi Z="-0.977689"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="62.9927" Y="20.4242" Z="0.3621"/>
+<phi Z="-1.292412"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\Travellers_2000_Man_young_3a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-38.178" Y="-13.1711" Z="-0.2209"/>
+<phi Z="-0.774121"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-3.6873" Y="-0.9089" Z="-0.0207"/>
+<phi Z="-1.555645"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-06a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-33.8452" Y="-11.348" Z="-0.1952"/>
+<phi Z="-1.105004"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-08b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-26.3877" Y="-8.1858" Z="-0.151"/>
+<phi Z="-1.129626"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="35.3652" Y="11.6704" Z="0.2037"/>
+<phi Z="-0.817703"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="7.3936" Y="2.5626" Z="0.0428"/>
+<phi Z="-1.433019"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-02b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="2.7998" Y="0.3506" Z="0.0151"/>
+<phi Z="-1.36487"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="57.7156" Y="20.1903" Z="0.3344"/>
+<phi Z="-1.370484"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-7.134" Y="-1.6125" Z="-0.0398"/>
+<phi Z="-0.838414"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="39.3503" Y="12.969" Z="0.2266"/>
+<phi Z="-1.58679"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-08b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="5.4094" Y="0.7988" Z="0.0294"/>
+<phi Z="-0.824838"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="67.7544" Y="21.6433" Z="0.3889"/>
+<phi Z="-0.972549"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-70.989" Y="-24.8752" Z="-0.4115"/>
+<phi Z="-1.333705"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-24.0959" Y="-8.3337" Z="-0.1394"/>
+<phi Z="-0.856044"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-06b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="10.3984" Y="3.1244" Z="0.0593"/>
+<phi Z="-1.101755"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="19.7905" Y="5.7699" Z="0.1126"/>
+<phi Z="-0.952725"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-c.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+</StrElement>
+<StrElement Nr="2867" spTrass="27.7778" Fkt="2">
+<g X="830.258" Y="1300.4952" Z="132.5598"/>
+<b X="819.0674" Y="1303.0531" Z="132.5598"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="140">
+<p X="830.258" Y="1300.4952" Z="132.5598"/>
+<phi/>
+<SignalFrame>
+<p X="4.9275" Y="-0.9647"/>
+<phi Z="-1.37628"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="2.624" Y="-2.3856"/>
+<phi Z="-1.33256"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-08b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-1.8362" Y="-0.6394"/>
+<phi Z="-1.982394"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-01a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-15.9298" Y="3.0885"/>
+<phi Z="-1.60821"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.2307" Y="-0.2206"/>
+<phi Z="-2.261953"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\Travellers_2000_Pram_1.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="27.8329" Y="-7.7197"/>
+<phi Z="-1.316013"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-4.9321" Y="0.228"/>
+<phi Z="-2.104211"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-25.225" Y="4.8867"/>
+<phi Z="-1.920662"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="8.6923" Y="-2.2828"/>
+<phi Z="-2.076159"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\Travellers_2000_Pram_1.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-8.1228" Y="0.4998"/>
+<phi Z="-2.287448"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-136.2881" Y="30.4614"/>
+<phi Z="-2.147786"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-44.7379" Y="8.7167"/>
+<phi Z="-1.549044"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-28.0554" Y="6.3088"/>
+<phi Z="-1.757865"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-114.3427" Y="24.0872"/>
+<phi Z="-2.201501"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-10a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-117.2475" Y="25.4673"/>
+<phi Z="-1.577891"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-11.6071" Y="1.7478"/>
+<phi Z="-1.679453"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-81.6929" Y="17.0273"/>
+<phi Z="-1.656636"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="14.2932" Y="-4.9352"/>
+<phi Z="-1.411789"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="6.2586" Y="-2.947"/>
+<phi Z="-2.254397"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="16.4767" Y="-5.316"/>
+<phi Z="-1.953382"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-73.2466" Y="14.9109"/>
+<phi Z="-1.472148"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-42.2175" Y="7.8683"/>
+<phi Z="-2.244936"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-21.2507" Y="3.9374"/>
+<phi Z="-1.323125"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-9.4123" Y="2.0371"/>
+<phi Z="-2.136847"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="31.8785" Y="-8.3207"/>
+<phi Z="-1.437422"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+</StrElement>
+<StrElement Nr="2868" spTrass="27.7778" Fkt="2">
+<g X="784.1329" Y="1323.0035" Z="132.5598"/>
+<b X="798.6353" Y="1319.5729" Z="132.5598"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="92">
+<p X="784.1329" Y="1323.0035" Z="132.5598"/>
+<phi/>
+<SignalFrame>
+<p X="-0.5428" Y="-0.1127"/>
+<phi Z="1.382474"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-39.0736" Y="9.6093"/>
+<phi Z="1.08096"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="47.0174" Y="-10.5369"/>
+<phi Z="1.141517"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-45.7098" Y="9.8066"/>
+<phi Z="1.599283"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="23.6492" Y="-4.2495"/>
+<phi Z="1.249243"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\Travellers_2000_Man_young_3a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-2.9041" Y="1.35"/>
+<phi Z="1.391513"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-02a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-9.8105" Y="2.5554"/>
+<phi Z="1.520633"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="81.5833" Y="-18.3442"/>
+<phi Z="0.976463"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-6.9713" Y="1.0244"/>
+<phi Z="1.821722"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="54.4269" Y="-11.1488"/>
+<phi Z="0.93178"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="15.2944" Y="-2.6735"/>
+<phi Z="1.724407"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="2.9531" Y="-0.337"/>
+<phi Z="1.821244"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\Travellers_2000_Pram_1.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-17.9979" Y="3.6025"/>
+<phi Z="1.811403"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-26.1284" Y="5.5608"/>
+<phi Z="0.916771"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-06b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="37.7231" Y="-7.171"/>
+<phi Z="1.157277"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-15.7377" Y="3.3213"/>
+<phi Z="1.020079"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-4.7725" Y="2.4285"/>
+<phi Z="0.991119"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="5.5783" Y="-0.3721"/>
+<phi Z="1.000079"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="43.3865" Y="-9.7336"/>
+<phi Z="1.18557"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="10.4185" Y="-2.7961"/>
+<phi Z="1.403408"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-30.3428" Y="8.0508"/>
+<phi Z="1.582647"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-01a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="30.0939" Y="-6.285"/>
+<phi Z="1.12356"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="89.0227" Y="-18.7191"/>
+<phi Z="0.855661"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-c.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+</StrElement>
+<StrElement Nr="2869" spTrass="27.7778" Fkt="2">
+<g X="1933.839" Y="154.3079" Z="136.7991"/>
+<b X="1931.1958" Y="156.9316" Z="136.7826"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="98">
+<p X="1933.839" Y="154.3079" Z="136.7991"/>
+<phi/>
+<SignalFrame>
+<p X="6.2622" Y="-4.8527" Z="-0.0356"/>
+<phi Z="-2.47472"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-33.5179" Y="33.6228" Z="-0.0976"/>
+<phi Z="-2.647362"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\Travellers_2000_Pram_1.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.0284" Y="-0.5366" Z="0.0319"/>
+<phi Z="-2.211496"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-4.0979" Y="3.787" Z="-0.0081"/>
+<phi Z="-2.223628"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="8.8187" Y="-8.5962" Z="0.0636"/>
+<phi Z="-2.488928"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-35.7223" Y="35.347" Z="-0.0662"/>
+<phi Z="-2.036082"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="52.2224" Y="-43.1519" Z="0.1529"/>
+<phi Z="-1.996209"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="13.0569" Y="-13.4828" Z="0.1505"/>
+<phi Z="-2.144153"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-39.611" Y="41.1695" Z="-0.1632"/>
+<phi Z="-2.300945"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-65.0021" Y="70.3869" Z="-0.1738"/>
+<phi Z="-2.937456"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="1.7273" Y="-1.6667" Z="0.01"/>
+<phi Z="-2.760934"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.4884" Y="1.4962" Z="-0.0662"/>
+<phi Z="-2.149142"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-10b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-5.8468" Y="5.9613" Z="-0.0464"/>
+<phi Z="-2.644826"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="3.5532" Y="-2.6194" Z="-0.0293"/>
+<phi Z="-1.947187"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-09a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="11.4484" Y="-10.6631" Z="0.0555"/>
+<phi Z="-2.268154"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-a.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+</StrElement>
+<StrElement Nr="2870" spTrass="27.7778" Fkt="2">
+<g X="1916.5363" Y="188.4627" Z="136.1203"/>
+<b X="1919.0922" Y="185.7971" Z="136.1283"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalFlags="64" SignalTyp="14" BoundingR="89">
+<p X="1916.5363" Y="188.4627" Z="136.1203"/>
+<phi/>
+<SignalFrame>
+<p X="6.8601" Y="-6.0024" Z="-0.047"/>
+<phi Z="0.518836"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.2878" Y="-0.8981" Z="0.0364"/>
+<phi Z="0.61378"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\man01-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="4.1609" Y="-2.7397" Z="-0.0821"/>
+<phi Z="1.150818"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="25.1825" Y="-25.5912" Z="0.1131"/>
+<phi Z="0.619983"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="48.9299" Y="-46.2399" Z="0.1598"/>
+<phi Z="0.616252"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="51.043" Y="-48.1518" Z="0.1746"/>
+<phi Z="0.478609"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-24.6445" Y="28.7788" Z="-0.1355"/>
+<phi Z="0.808352"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-1.6309" Y="1.6514" Z="-0.0005"/>
+<phi Z="1.191408"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-01a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="2.6816" Y="-1.351" Z="-0.0776"/>
+<phi Z="0.360159"/>
+<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="64.9523" Y="-59.4354" Z="0.2222"/>
+<phi Z="0.826898"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-04b.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="30.7867" Y="-30.5701" Z="0.1181"/>
+<phi Z="0.429342"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-01a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-12.0256" Y="13.6081" Z="-0.0667"/>
+<phi Z="0.335869"/>
+<Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-c.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-23.4115" Y="26.7214" Z="-0.0994"/>
+<phi Z="0.375013"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-2.7532" Y="3.4348" Z="-0.0375"/>
+<phi Z="1.130365"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03a.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="57.3934" Y="-54.0143" Z="0.2381"/>
+<phi Z="0.845349"/>
+<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-07b.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+</StrElement>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) N101" FahrstrTyp="TypZug" Laenge="394.8">
+<FahrstrStart Ref="207">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="27">
+<FahrstrZiel Ref="93">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="188">
+<FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="221">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="33">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="150">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="26">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="179">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="65">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="146">
+<FahrstrAufloesung Ref="180">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="149">
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) N102" FahrstrTyp="TypZug" Laenge="598">
+<FahrstrStart Ref="206">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="217">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="216">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) P101" FahrstrTyp="TypZug" Laenge="550.5">
+<FahrstrStart Ref="204">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="209">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrSigHaltfall Ref="186">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
-<FahrstrSigHaltfall Ref="171">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="31" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="12">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="198" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="34">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) P102" FahrstrTyp="TypZug" Laenge="362.5908">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) P102" FahrstrTyp="TypZug" Laenge="362.6">
 <FahrstrStart Ref="205">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18772,7 +19554,30 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Sbk 112 Sbk 112 -&gt; Herchen F1" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4071.9985">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Rosbach Hst F201" FahrstrTyp="TypZug" Laenge="2098.2">
+<FahrstrStart Ref="222">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="125">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="156">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrSigHaltfall Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSignal Ref="7" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 112 Sbk 112 -&gt; Herchen F1" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3983.8999">
 <FahrstrStart Ref="27">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18807,231 +19612,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) F101 -&gt; Schladern (Sieg) P101" FahrstrTyp="TypZug" Laenge="1018.9069">
-<FahrstrStart Ref="34">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="12">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="154">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="115">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="118">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="191">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="121">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="182">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="95">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="209">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="189">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="152">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrSigHaltfall Ref="186">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="116">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="34">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="107">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="199" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="125">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) F101 -&gt; Schladern (Sieg) P102" FahrstrTyp="TypZug" Laenge="832.9645">
-<FahrstrStart Ref="34">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="90">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="154">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="115">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="118">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="144">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="141">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="71">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="91">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="135">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="142">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="152">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrSigHaltfall Ref="183">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="116">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="34" FahrstrSignalZeile="7">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="107" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="199" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="38" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="125" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Rosbach Hst F202 -&gt; Schladern (Sieg) F101" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1035.2692">
-<FahrstrStart Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="34">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="167">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="164">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="215">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="23">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="109">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="36">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="189">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="142">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="165">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrSigHaltfall Ref="152">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="128">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="200" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="43">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Rosbach Hst F201" FahrstrTyp="TypZug" Laenge="2098.2471">
-<FahrstrStart Ref="222">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="125">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="127">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="156">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrSigHaltfall Ref="159">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrSignal Ref="7" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) A101 -&gt; Schladern (Sieg) N102" FahrstrTyp="TypZug" Laenge="990.4091">
+<Fahrstrasse FahrstrName="Schladern (Sieg) A101 -&gt; Schladern (Sieg) N102" FahrstrTyp="TypZug" Laenge="990.4">
 <FahrstrStart Ref="60">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19090,7 +19671,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) A102 -&gt; Schladern (Sieg) N101" FahrstrTyp="TypZug" Laenge="991.3461">
+<Fahrstrasse FahrstrName="Schladern (Sieg) A102 -&gt; Schladern (Sieg) N101" FahrstrTyp="TypZug" Laenge="991.3">
 <FahrstrStart Ref="63">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19152,7 +19733,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) A102 -&gt; Schladern (Sieg) N102" FahrstrTyp="TypZug" Laenge="990.5214">
+<Fahrstrasse FahrstrName="Schladern (Sieg) A102 -&gt; Schladern (Sieg) N102" FahrstrTyp="TypZug" Laenge="990.5">
 <FahrstrStart Ref="63">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19223,7 +19804,208 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) N102 -&gt; Üst Rosbach Hst A200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1136.2574">
+<Fahrstrasse FahrstrName="Schladern (Sieg) F101 -&gt; Schladern (Sieg) P101" FahrstrTyp="TypZug" Laenge="1018.9">
+<FahrstrStart Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="154">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="209">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="152">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="15" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="199" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="125">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schladern (Sieg) F101 -&gt; Schladern (Sieg) P102" FahrstrTyp="TypZug" Laenge="833">
+<FahrstrStart Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="154">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="141">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="152">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="34" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="107" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="199" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="38" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="125" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schladern (Sieg) N101 -&gt; Üst Rosbach Hst A200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1135.2">
+<FahrstrStart Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="108">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="190">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="153">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="213">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="210">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="180">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="15" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="138" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schladern (Sieg) N102 -&gt; Üst Rosbach Hst A200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1136.3">
 <FahrstrStart Ref="69">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19285,7 +20067,63 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) P102 -&gt; Herchen F2" FahrstrStrecke="2651b" RglGgl="3" FahrstrTyp="TypZug" Laenge="7247.7964">
+<Fahrstrasse FahrstrName="Schladern (Sieg) P101 -&gt; Sbk 112 Sbk 112" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="2995.8">
+<FahrstrStart Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="221">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="26">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="179">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="31" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="198" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schladern (Sieg) P102 -&gt; Herchen F2" FahrstrStrecke="2651b" RglGgl="3" FahrstrTyp="TypZug" Laenge="7159.7002">
 <FahrstrStart Ref="90">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19353,7 +20191,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) P102 -&gt; Sbk 112 Sbk 112" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3182.012">
+<Fahrstrasse FahrstrName="Schladern (Sieg) P102 -&gt; Sbk 112 Sbk 112" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3182">
 <FahrstrStart Ref="90">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19424,80 +20262,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Schladern (Sieg) N101 -&gt; Üst Rosbach Hst A200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1135.1852">
-<FahrstrStart Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="108">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="181">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="120">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="190">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="117">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="114">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="153">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="35">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="213">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="210">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="119">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="138" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="63">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) N101" FahrstrTyp="TypZug" Laenge="394.8364">
-<FahrstrStart Ref="207">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="94">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Rosbach Hst A200 -&gt; Sbk 113 Sbk 113" FahrstrStrecke="2651a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1814.4414">
+<Fahrstrasse FahrstrName="Üst Rosbach Hst A200 -&gt; Sbk 113 Sbk 113" FahrstrStrecke="2651a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1814.4">
 <FahrstrStart Ref="108">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19550,7 +20315,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Rosbach Hst A200 -&gt; Sbk 113 zukünftig wegfallend" FahrstrStrecke="2651a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1817.5591">
+<Fahrstrasse FahrstrName="Üst Rosbach Hst A200 -&gt; Sbk 113 zukünftig wegfallend" FahrstrStrecke="2651a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1817.6">
 <FahrstrStart Ref="108">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19585,59 +20350,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) P101" FahrstrTyp="TypZug" Laenge="550.5081">
-<FahrstrStart Ref="204">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="12">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="182">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="95">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="209">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrSigHaltfall Ref="186">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Schladern (Sieg) N102" FahrstrTyp="TypZug" Laenge="597.9672">
-<FahrstrStart Ref="206">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="69">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="217">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="185">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="92">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="70">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="139">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="216">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Rosbach Hst F201 -&gt; Schladern (Sieg) F101" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1032.7611">
+<Fahrstrasse FahrstrName="Üst Rosbach Hst F201 -&gt; Schladern (Sieg) F101" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1032.8">
 <FahrstrStart Ref="125">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -19693,6 +20406,65 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="47">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Rosbach Hst F202 -&gt; Schladern (Sieg) F101" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1035.3">
+<FahrstrStart Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="167">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="164">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="215">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="165">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="152">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="200" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="43">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000398_005627_Schladern\Schladern_2017.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>

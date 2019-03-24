@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="EZ" Nummer="51476" Zuglauf="Gremberg Gsf - Nürnberg Rbf Einf" Prio="2500" Standortmodus="1" BremsstellungZug="2" spAnfang="13.8889" MBrh="0.61" FahrplanGruppe="Güterzüge" Rekursionstiefe="5" FahrstrName="Eitorf A1 -&gt; Eitorf N1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Siegstrecke\Eitorf_Rosbach_2018.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2018-06-07 13:25:00" Abf="2018-06-07 13:25:30" Betrst="Eitorf" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2018-06-07 13:31:00" Betrst="Herchen">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 13:37:00" Abf="2018-06-07 13:38:00" Betrst="Schladern (Sieg)" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="N102"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2018-06-07 13:41:00" Betrst="Üst Rosbach Hst">
+<FahrplanSignalEintrag FahrplanSignal="A200"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2018-06-07 13:42:00" Betrst="Sbk 113" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 113"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\TRAXX\TRAXX_AC1.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\H-Wagen\Habbiins14\Habbiins14.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\H-Wagen\Habbiins14\Habbiins14.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\H-Wagen\Habbiins14\Habbiins14.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\H-Wagen\Habbiins14\Habbiins14.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSlmas53\SSlmas53.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSlmas53\SSlmas53.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="15">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="14">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sggnss80\Sggnss80_RCA.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

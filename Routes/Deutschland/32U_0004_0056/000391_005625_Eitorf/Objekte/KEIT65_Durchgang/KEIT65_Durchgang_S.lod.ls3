@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="95" AutorName="Tamás Szelesi" AutorEmail="szelesit@gmail.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="90" SichtbarBis="290" Vorlade="1" LODbit="4">
+<Datei Dateiname="KEIT65_Durchgang_S.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="90" SichtbarAb="290" SichtbarBis="800" Vorlade="1" LODbit="2">
+<Datei Dateiname="KEIT65_Durchgang_S.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="90" SichtbarAb="800" SichtbarBis="3600" Vorlade="1" LODbit="2">
+<Datei Dateiname="KEIT65_Durchgang_S.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Gleisschild_Anbau.lod.ls3">
+<p X="-1.7" Y="-4.67" Z="-0.7"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Beschilderung" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="KEIT03_EG">
+<p X="7" Y="-7.15" Z="0.76"/>
+<phi/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

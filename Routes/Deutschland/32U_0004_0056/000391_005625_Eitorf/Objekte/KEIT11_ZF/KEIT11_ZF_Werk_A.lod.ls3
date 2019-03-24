@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="95" AutorName="Tamás Szelesi" AutorEmail="szelesit@gmail.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="80" SichtbarBis="400" Vorlade="1" LODbit="4">
+<Datei Dateiname="KEIT11_ZF_Werk_A.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="80" SichtbarAb="400" SichtbarBis="3600" Vorlade="1" LODbit="2">
+<Datei Dateiname="KEIT11_ZF_Werk_A.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="NUL">
+<p/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Bruecke">
+<p X="-54" Y="-13.2" Z="3.31"/>
+<phi/>
+<Datei Dateiname="KEIT11_ZF_Werk_Bruecke.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Verknuepfung">
+<p X="-59.5"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Schranke">
+<p X="-54" Y="-5.7"/>
+<phi Z="-1.570796"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

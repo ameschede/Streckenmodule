@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="95" AutorName="Tamás Szelesi" AutorEmail="szelesit@gmail.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="250" SichtbarBis="480" Vorlade="1" LODbit="4">
+<Datei Dateiname="KEIT16_Parkplatz_Bogenstr.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="250" SichtbarAb="480" SichtbarBis="3600" Vorlade="1" LODbit="2">
+<Datei Dateiname="KEIT16_Parkplatz_Bogenstr.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Veknuepfung">
+<p X="-141"/>
+<phi/>
+<Datei Dateiname="KEIT12_WECO\KEIT12_Weco_Verwaltung.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Veknuepfung">
+<p X="-106" Y="-25.249"/>
+<phi/>
+<Datei Dateiname="KEIT12_WECO\KEIT12_Weco_Buero.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Veknuepfung">
+<p X="-15" Y="-23"/>
+<phi/>
+<Datei Dateiname="KEIT13_Umspannungswerk\KEIT13_Umspannungswerk.lod.ls" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

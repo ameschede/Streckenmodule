@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="95" AutorName="Tamás Szelesi"/>
+</Info>
+<Landschaft>
+<lsb Dateiname="KEIT07_Wollenwerk_Lager_C.lod1.lsb"/>
+<SubSet Cd="FFFFFFFF" MeshV="204" MeshI="339">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="KEIT07_Wollenwerk_Lager_C.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="16" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="6" MeshI="12">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10" MeshV="6" MeshI="12">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\gravel02.dds"/>
+</Textur>
+</SubSet>
+</Landschaft>
+</Zusi>
