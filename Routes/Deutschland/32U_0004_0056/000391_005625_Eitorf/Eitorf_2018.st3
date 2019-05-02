@@ -26,6 +26,9 @@
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000395_005627_Herchen\Herchen_2017.st3" NurInfo="1"/>
 </ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="212" StrElement="3041" StrNorm="1" Info="Eitorf P2"/>
 <ReferenzElemente ReferenzNr="213" StrElement="3004" StrNorm="1" Info="Eitorf N2"/>
 <ReferenzElemente ReferenzNr="214" StrElement="2978" StrNorm="1" Info="Eitorf N1"/>
@@ -321,6 +324,18 @@
 <ReferenzElemente ReferenzNr="298" StrElement="3092" StrNorm="1" RefTyp="4" Info="Bü km 0,000"/>
 <ReferenzElemente ReferenzNr="299" StrElement="3146" RefTyp="4" Info="Reisende"/>
 <ReferenzElemente ReferenzNr="300" StrElement="3147" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="301" StrElement="125" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3"/>
+<ReferenzElemente ReferenzNr="302" StrElement="154" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3"/>
+<ReferenzElemente ReferenzNr="303" StrElement="79" RefTyp="4" Info="Signal: Eitorf 500 Hz (P1)"/>
+<ReferenzElemente ReferenzNr="304" StrElement="125" StrNorm="1" RefTyp="2" Info="Register-Nr. 5004"/>
+<ReferenzElemente ReferenzNr="305" StrElement="125" RefTyp="2" Info="Register-Nr. 5004"/>
+<ReferenzElemente ReferenzNr="306" StrElement="3148" RefTyp="4" Info="Signal: Eitorf 500 Hz (P2)"/>
+<ReferenzElemente ReferenzNr="307" StrElement="3154" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="308" StrElement="3154" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="309" StrElement="3154" StrNorm="1" RefTyp="2" Info="Register-Nr. 5043"/>
+<ReferenzElemente ReferenzNr="310" StrElement="3154" RefTyp="2" Info="Register-Nr. 5043"/>
+<ReferenzElemente ReferenzNr="311" StrElement="887" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="312" StrElement="3141" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
 <StrElement Nr="1" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="2679.574" Y="-251.2029" Z="96.5276"/>
 <b X="2724.8889" Y="-266.3069" Z="96.7507"/>
@@ -345,17 +360,17 @@
 <g X="-412.875" Y="775.7903" Z="88.42"/>
 <b X="-395.7581" Y="770.0811" Z="88.42"/>
 <InfoNormRichtung vMax="33.3333" km="43.0951" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.1131"/>
+<InfoGegenRichtung vMax="38.8889" km="43.1132"/>
 <NachNorm Nr="4"/>
 <NachGegen Nr="79"/>
 </StrElement>
 <StrElement Nr="4" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-395.7581" Y="770.0811" Z="88.42"/>
 <b X="-381.5287" Y="765.3351" Z="88.4255"/>
-<InfoNormRichtung vMax="33.3333" km="43.1131" pos="1">
+<InfoNormRichtung vMax="33.3333" km="43.1132" pos="1">
 <Ereignis Er="1000009"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.1281">
+<InfoGegenRichtung vMax="38.8889" km="43.1282">
 <Ereignis Er="1000010"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1831"/>
@@ -385,27 +400,27 @@
 <StrElement Nr="6" spTrass="38.8889" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-156.718" Y="690.3525" Z="88.456"/>
 <b X="-152.9235" Y="689.0869" Z="88.4538"/>
-<InfoNormRichtung vMax="33.3333" km="43.3651" pos="1">
+<InfoNormRichtung vMax="33.3333" km="43.3652" pos="1">
 <Ereignis Er="1000002"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.3691"/>
+<InfoGegenRichtung vMax="38.8889" km="43.3692"/>
 <NachNorm Nr="1099"/>
 <NachGegen Nr="62"/>
 </StrElement>
 <StrElement Nr="7" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-100.9456" Y="671.7514" Z="88.423"/>
 <b X="-62.792" Y="659.0265" Z="88.4326"/>
-<InfoNormRichtung vMax="33.3333" km="43.4239" pos="1">
+<InfoNormRichtung vMax="33.3333" km="43.424" pos="1">
 <Ereignis Er="39" Beschr="2651a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.4641"/>
+<InfoGegenRichtung vMax="38.8889" km="43.4642"/>
 <NachNorm Nr="8"/>
 <NachGegen Nr="3138"/>
 </StrElement>
 <StrElement Nr="8" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-62.792" Y="659.0265" Z="88.4326"/>
 <b X="31.1341" Y="627.7005" Z="88.4563"/>
-<InfoNormRichtung vMax="33.3333" km="43.4641" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="43.4642" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="43.5632"/>
 <NachNorm Nr="9"/>
 <NachGegen Nr="7"/>
@@ -550,14 +565,14 @@
 <g X="574.178" Y="446.5857" Z="88.6318"/>
 <b X="580.955" Y="444.3254" Z="88.644"/>
 <InfoNormRichtung vMax="33.3333" km="44.1356" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.1427"/>
+<InfoGegenRichtung vMax="33.3333" km="44.1428"/>
 <NachNorm Nr="18"/>
 <NachGegen Nr="16"/>
 </StrElement>
 <StrElement Nr="18" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="580.955" Y="444.3254" Z="88.644"/>
 <b X="587.7312" Y="442.0655" Z="88.6626"/>
-<InfoNormRichtung vMax="33.3333" km="44.1427" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="44.1428" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="44.1499"/>
 <NachNorm Nr="19"/>
 <NachGegen Nr="17"/>
@@ -566,22 +581,22 @@
 <g X="587.7312" Y="442.0655" Z="88.6626"/>
 <b X="594.6902" Y="439.7445" Z="88.685"/>
 <InfoNormRichtung vMax="33.3333" km="44.1499" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.1572"/>
+<InfoGegenRichtung vMax="33.3333" km="44.1573"/>
 <NachNorm Nr="20"/>
 <NachGegen Nr="18"/>
 </StrElement>
 <StrElement Nr="20" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="594.6902" Y="439.7445" Z="88.685"/>
 <b X="688.6163" Y="408.4185" Z="88.9875"/>
-<InfoNormRichtung vMax="33.3333" km="44.1572" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.2562"/>
+<InfoNormRichtung vMax="33.3333" km="44.1573" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="44.2563"/>
 <NachNorm Nr="21"/>
 <NachGegen Nr="19"/>
 </StrElement>
 <StrElement Nr="21" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="688.6163" Y="408.4185" Z="88.9875"/>
 <b X="782.5424" Y="377.0925" Z="89.29"/>
-<InfoNormRichtung vMax="33.3333" km="44.2562" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="44.2563" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="44.3553"/>
 <NachNorm Nr="22"/>
 <NachGegen Nr="20"/>
@@ -950,7 +965,7 @@
 <g X="-239.5587" Y="722.1991" Z="88.4798"/>
 <b X="-234.1724" Y="720.4026" Z="88.4819"/>
 <InfoNormRichtung vMax="33.3333" km="43.2765" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.2821"/>
+<InfoGegenRichtung vMax="38.8889" km="43.2822"/>
 <NachNorm Nr="56"/>
 <NachGegen Nr="45"/>
 </StrElement>
@@ -970,14 +985,14 @@
 <g X="-234.4064" Y="720.4341" Z="88.4818"/>
 <b X="-228.5245" Y="718.3437" Z="88.484"/>
 <InfoNormRichtung vMax="33.3333" km="43.2818" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="43.288"/>
+<InfoGegenRichtung vMax="33.3333" km="43.2881"/>
 <NachNorm Nr="49"/>
 <NachGegen Nr="47"/>
 </StrElement>
 <StrElement Nr="49" kr="-0.002" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-228.5245" Y="718.3437" Z="88.484"/>
 <b X="-222.6694" Y="716.1802" Z="88.4863"/>
-<InfoNormRichtung vMax="33.3333" km="43.288" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="43.2881" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="43.2943"/>
 <NachNorm Nr="50"/>
 <NachGegen Nr="48"/>
@@ -986,14 +1001,14 @@
 <g X="-222.6694" Y="716.1802" Z="88.4863"/>
 <b X="-216.8416" Y="713.9435" Z="88.4886"/>
 <InfoNormRichtung vMax="33.3333" km="43.2943" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="43.3005"/>
+<InfoGegenRichtung vMax="33.3333" km="43.3006"/>
 <NachNorm Nr="51"/>
 <NachGegen Nr="49"/>
 </StrElement>
 <StrElement Nr="51" kr="-0.002" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-216.8416" Y="713.9435" Z="88.4886"/>
 <b X="-211.0421" Y="711.6345" Z="88.4886"/>
-<InfoNormRichtung vMax="33.3333" km="43.3005" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="43.3006" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="43.3068"/>
 <NachNorm Nr="52"/>
 <NachGegen Nr="50"/>
@@ -1012,7 +1027,7 @@
 <g X="-205.2719" Y="709.2531" Z="88.4851"/>
 <b X="-201.854" Y="707.8026" Z="88.483"/>
 <InfoNormRichtung vMax="33.3333" km="43.313" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="43.3167">
+<InfoGegenRichtung vMax="33.3333" km="43.3168">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="59"/>
@@ -1031,7 +1046,7 @@
 <StrElement Nr="55" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-222.5062" Y="716.5115" Z="88.4864"/>
 <b X="-216.5754" Y="714.5333" Z="88.4886"/>
-<InfoNormRichtung vMax="33.3333" km="43.2944" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="43.2945" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="43.3007"/>
 <NachNorm Nr="58"/>
 <NachGegen Nr="56"/>
@@ -1039,15 +1054,15 @@
 <StrElement Nr="56" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-234.1724" Y="720.4026" Z="88.4819"/>
 <b X="-222.5062" Y="716.5115" Z="88.4864"/>
-<InfoNormRichtung vMax="33.3333" km="43.2821" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.2944"/>
+<InfoNormRichtung vMax="33.3333" km="43.2822" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="43.2945"/>
 <NachNorm Nr="55"/>
 <NachGegen Nr="46"/>
 </StrElement>
 <StrElement Nr="57" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-210.6481" Y="712.5563" Z="88.4886"/>
 <b X="-204.727" Y="710.5814" Z="88.4851"/>
-<InfoNormRichtung vMax="33.3333" km="43.3069" pos="1">
+<InfoNormRichtung vMax="33.3333" km="43.307" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="43.3132"/>
@@ -1058,14 +1073,14 @@
 <g X="-216.5754" Y="714.5333" Z="88.4886"/>
 <b X="-210.6481" Y="712.5563" Z="88.4886"/>
 <InfoNormRichtung vMax="33.3333" km="43.3007" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.3069"/>
+<InfoGegenRichtung vMax="38.8889" km="43.307"/>
 <NachNorm Nr="57"/>
 <NachGegen Nr="55"/>
 </StrElement>
 <StrElement Nr="59" spTrass="38.8889" Anschluss="257" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-201.854" Y="707.8025" Z="88.483"/>
 <b X="-195.561" Y="705.1287" Z="88.4792"/>
-<InfoNormRichtung vMax="33.3333" km="43.3167" pos="1" Reg="5001">
+<InfoNormRichtung vMax="33.3333" km="43.3168" pos="1" Reg="5001">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="43.3236" Reg="5001">
@@ -1140,14 +1155,13 @@
 <g X="-214.3361" Y="709.57" Z="88.49"/>
 <b X="-196.176" Y="703.513" Z="88.4793"/>
 <InfoNormRichtung vMax="33.3333" km="43.3044" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.3235"/>
 <NachNorm Nr="71"/>
 <NachGegen Nr="60"/>
 </StrElement>
 <StrElement Nr="62" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-156.718" Y="690.3525" Z="88.456"/>
 <b X="-157.8564" Y="690.7322" Z="88.4566"/>
-<InfoNormRichtung vMax="38.8889" km="43.3651" Reg="5003">
+<InfoNormRichtung vMax="38.8889" km="43.3652" Reg="5003">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="17" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-156.718" Y="690.3525" Z="88.456"/>
 <phi Y="-0.00056" Z="-3.463524"/>
@@ -1193,7 +1207,7 @@
 <MatrixEintrag Signalbild="125" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="43.3639" pos="1" Reg="5003"/>
+<InfoGegenRichtung vMax="33.3333" km="43.364" pos="1" Reg="5003"/>
 <NachNorm Nr="63"/>
 <NachNorm Nr="64"/>
 <NachGegen Nr="6"/>
@@ -1201,7 +1215,7 @@
 <StrElement Nr="63" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-157.8564" Y="690.7322" Z="88.4566"/>
 <b X="-163.2426" Y="692.5287" Z="88.4598"/>
-<InfoNormRichtung vMax="38.8889" km="43.3639"/>
+<InfoNormRichtung vMax="38.8889" km="43.364"/>
 <InfoGegenRichtung vMax="33.3333" km="43.3583" pos="1"/>
 <NachNorm Nr="73"/>
 <NachGegen Nr="62"/>
@@ -1209,7 +1223,7 @@
 <StrElement Nr="64" kr="-0.002" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-157.8564" Y="690.7322" Z="88.4566"/>
 <b X="-163.0086" Y="692.4972" Z="88.4597"/>
-<InfoNormRichtung vMax="33.3333" km="43.3639">
+<InfoNormRichtung vMax="33.3333" km="43.364">
 <Ereignis Er="1" Wert="16.6667"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="43.3585" pos="1">
@@ -1222,14 +1236,14 @@
 <g X="-163.0086" Y="692.4972" Z="88.4597"/>
 <b X="-168.8905" Y="694.5875" Z="88.4632"/>
 <InfoNormRichtung vMax="33.3333" km="43.3585"/>
-<InfoGegenRichtung vMax="33.3333" km="43.3522" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="43.3523" pos="1"/>
 <NachNorm Nr="66"/>
 <NachGegen Nr="64"/>
 </StrElement>
 <StrElement Nr="66" kr="-0.002" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-168.8905" Y="694.5875" Z="88.4632"/>
 <b X="-174.7457" Y="696.751" Z="88.4667"/>
-<InfoNormRichtung vMax="33.3333" km="43.3522"/>
+<InfoNormRichtung vMax="33.3333" km="43.3523"/>
 <InfoGegenRichtung vMax="33.3333" km="43.346" pos="1"/>
 <NachNorm Nr="67"/>
 <NachGegen Nr="65"/>
@@ -1274,7 +1288,7 @@
 <g X="-192.6881" Y="702.3497" Z="88.4772"/>
 <b X="-196.1752" Y="703.5128" Z="88.4793"/>
 <InfoNormRichtung vMax="38.8889" km="43.3272"/>
-<InfoGegenRichtung vMax="33.3333" km="43.3235" pos="1">
+<InfoGegenRichtung vMax="33.3333" km="43.3236" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="61"/>
@@ -1350,7 +1364,7 @@
 <StrElement Nr="78" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-567.9463" Y="833.4611" Z="88.42"/>
 <b X="-503.3479" Y="811.8196" Z="88.42"/>
-<InfoNormRichtung vMax="33.3333" km="42.9297" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.9298" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="42.9979"/>
 <NachNorm Nr="1091"/>
 <NachGegen Nr="1830"/>
@@ -1358,7 +1372,7 @@
 <StrElement Nr="79" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-484.6609" Y="799.7277" Z="88.42"/>
 <b X="-412.875" Y="775.7903" Z="88.42"/>
-<InfoNormRichtung vMax="33.3333" km="43.0194" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="43.0195" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="43.0951">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="500 Hz (P1)" SignalTyp="14" BoundingR="3">
 <p X="-484.6609" Y="799.7277" Z="88.42"/>
@@ -1397,7 +1411,7 @@
 <MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.0194">
+<InfoGegenRichtung vMax="38.8889" km="43.0195">
 <Ereignis Er="1000011"/>
 <Ereignis Er="6"/>
 <Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
@@ -1440,24 +1454,24 @@
 <StrElement Nr="83" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-155.4519" Y="694.147" Z="88.4559"/>
 <b X="-151.6574" Y="692.8814" Z="88.4537"/>
-<InfoGegenRichtung vMax="38.8889" km="43.3691"/>
+<InfoGegenRichtung vMax="38.8889" km="43.3692"/>
 <NachNorm Nr="2976"/>
 <NachGegen Nr="1098"/>
 </StrElement>
 <StrElement Nr="84" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-99.6819" Y="675.5467" Z="88.423"/>
 <b X="-61.5259" Y="662.821" Z="88.4326"/>
-<InfoNormRichtung vMax="33.3333" km="43.4239" pos="1">
+<InfoNormRichtung vMax="33.3333" km="43.424" pos="1">
 <Ereignis Er="28" Beschr="2651a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.4641"/>
+<InfoGegenRichtung vMax="38.8889" km="43.4642"/>
 <NachNorm Nr="85"/>
 <NachGegen Nr="3139"/>
 </StrElement>
 <StrElement Nr="85" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-61.5259" Y="662.821" Z="88.4326"/>
 <b X="-14.5629" Y="647.158" Z="88.4445"/>
-<InfoGegenRichtung vMax="38.8889" km="43.5136"/>
+<InfoGegenRichtung vMax="38.8889" km="43.5137"/>
 <NachNorm Nr="3042"/>
 <NachGegen Nr="84"/>
 </StrElement>
@@ -1578,7 +1592,7 @@
 <g X="408.1041" Y="506.191" Z="88.572"/>
 <b X="502.0301" Y="474.865" Z="88.6039"/>
 <InfoNormRichtung vMax="33.3333" km="43.9592" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.0582"/>
+<InfoGegenRichtung vMax="33.3333" km="44.0583"/>
 <NachNorm Nr="92"/>
 <NachGegen Nr="90"/>
 </StrElement>
@@ -1601,14 +1615,14 @@
 <g X="575.4417" Y="450.3809" Z="88.6318"/>
 <b X="582.2188" Y="448.1206" Z="88.644"/>
 <InfoNormRichtung vMax="33.3333" km="44.1356" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.1427"/>
+<InfoGegenRichtung vMax="33.3333" km="44.1428"/>
 <NachNorm Nr="95"/>
 <NachGegen Nr="93"/>
 </StrElement>
 <StrElement Nr="95" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="582.2188" Y="448.1206" Z="88.644"/>
 <b X="588.9948" Y="445.8607" Z="88.6626"/>
-<InfoNormRichtung vMax="33.3333" km="44.1427" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="44.1428" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="44.1499"/>
 <NachNorm Nr="96"/>
 <NachGegen Nr="94"/>
@@ -1617,22 +1631,22 @@
 <g X="588.9948" Y="445.8607" Z="88.6626"/>
 <b X="595.9561" Y="443.539" Z="88.685"/>
 <InfoNormRichtung vMax="33.3333" km="44.1499" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.1572"/>
+<InfoGegenRichtung vMax="33.3333" km="44.1573"/>
 <NachNorm Nr="97"/>
 <NachGegen Nr="95"/>
 </StrElement>
 <StrElement Nr="97" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="595.9561" Y="443.539" Z="88.685"/>
 <b X="689.8821" Y="412.213" Z="88.9875"/>
-<InfoNormRichtung vMax="33.3333" km="44.1572" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.2562"/>
+<InfoNormRichtung vMax="33.3333" km="44.1573" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="44.2563"/>
 <NachNorm Nr="98"/>
 <NachGegen Nr="96"/>
 </StrElement>
 <StrElement Nr="98" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="689.8821" Y="412.213" Z="88.9875"/>
 <b X="783.8081" Y="380.887" Z="89.29"/>
-<InfoNormRichtung vMax="33.3333" km="44.2562" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="44.2563" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="44.3553"/>
 <NachNorm Nr="99"/>
 <NachGegen Nr="97"/>
@@ -1925,14 +1939,17 @@
 <StrElement Nr="125" spTrass="27.7778" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-3226.0979" Y="901.5701" Z="87.7011"/>
 <b X="-3132.7971" Y="917.5983" Z="87.6114"/>
-<InfoNormRichtung vMax="33.3333" km="40.1946" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="40.2892"/>
+<InfoNormRichtung vMax="33.3333" km="40.1946" pos="1" Reg="5004"/>
+<InfoGegenRichtung vMax="33.3333" km="40.2893" Reg="5004"/>
 <NachNorm Nr="126"/>
+<NachGegenModul Nr="10">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="126" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-3132.7971" Y="917.5983" Z="87.6114"/>
 <b X="-3039.4973" Y="933.6265" Z="87.5217"/>
-<InfoNormRichtung vMax="33.3333" km="40.2892" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="40.2893" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="40.3839"/>
 <NachNorm Nr="127"/>
 <NachGegen Nr="125"/>
@@ -1959,7 +1976,7 @@
 <MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="40.3942"/>
+<InfoGegenRichtung vMax="33.3333" km="40.3943"/>
 <NachNorm Nr="3015"/>
 <NachGegen Nr="126"/>
 </StrElement>
@@ -1989,14 +2006,14 @@
 <g X="-2666.2939" Y="997.7393" Z="87.1629"/>
 <b X="-2572.9929" Y="1013.768" Z="87.0732"/>
 <InfoNormRichtung vMax="33.3333" km="40.7626" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="40.8572"/>
+<InfoGegenRichtung vMax="33.3333" km="40.8573"/>
 <NachNorm Nr="132"/>
 <NachGegen Nr="130"/>
 </StrElement>
 <StrElement Nr="132" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2572.9929" Y="1013.768" Z="87.0732"/>
 <b X="-2479.6919" Y="1029.7961" Z="86.9835"/>
-<InfoNormRichtung vMax="33.3333" km="40.8572" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="40.8573" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="40.9519"/>
 <NachNorm Nr="133"/>
 <NachGegen Nr="131"/>
@@ -2004,7 +2021,7 @@
 <StrElement Nr="133" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2479.6919" Y="1029.7961" Z="86.9835"/>
 <b X="-2433.042" Y="1037.8101" Z="86.9386"/>
-<InfoGegenRichtung vMax="33.3333" km="40.9992"/>
+<InfoGegenRichtung vMax="33.3333" km="40.9993"/>
 <NachNorm Nr="3020"/>
 <NachGegen Nr="132"/>
 </StrElement>
@@ -2020,14 +2037,14 @@
 <g X="-2309.6299" Y="1059.0109" Z="86.82"/>
 <b X="-2293.0911" Y="1061.8521" Z="86.82"/>
 <InfoNormRichtung vMax="33.3333" km="41.1245" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.1412"/>
+<InfoGegenRichtung vMax="33.3333" km="41.1413"/>
 <NachNorm Nr="136"/>
 <NachGegen Nr="134"/>
 </StrElement>
 <StrElement Nr="136" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2293.0911" Y="1061.8521" Z="86.82"/>
 <b X="-2199.79" Y="1077.88" Z="86.82"/>
-<InfoNormRichtung vMax="33.3333" km="41.1412" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.1413" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="41.2359"/>
 <NachNorm Nr="137"/>
 <NachGegen Nr="135"/>
@@ -2061,14 +2078,14 @@
 <MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="41.3714"/>
+<InfoGegenRichtung vMax="33.3333" km="41.3715"/>
 <NachNorm Nr="3025"/>
 <NachGegen Nr="137"/>
 </StrElement>
 <StrElement Nr="139" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2013.189" Y="1109.937" Z="86.82"/>
 <b X="-1919.8879" Y="1125.9648" Z="86.82"/>
-<InfoNormRichtung vMax="33.3333" km="41.4252" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.4253" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="41.5199"/>
 <NachNorm Nr="821"/>
 <NachGegen Nr="3025"/>
@@ -2091,7 +2108,7 @@
 <StrElement Nr="142" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2107.167" Y="1097.85" Z="86.82"/>
 <b X="-2200.468" Y="1081.822" Z="86.82"/>
-<InfoNormRichtung vMax="38.8889" km="41.3285"/>
+<InfoNormRichtung vMax="38.8889" km="41.3286"/>
 <InfoGegenRichtung vMax="33.3333" km="41.2339" pos="1"/>
 <NachNorm Nr="143"/>
 <NachGegen Nr="3026"/>
@@ -2108,14 +2125,14 @@
 <g X="-2293.769" Y="1065.7939" Z="86.82"/>
 <b X="-2387.0691" Y="1049.766" Z="86.8938"/>
 <InfoNormRichtung vMax="38.8889" km="41.1392"/>
-<InfoGegenRichtung vMax="33.3333" km="41.0445" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.0446" pos="1"/>
 <NachNorm Nr="145"/>
 <NachGegen Nr="143"/>
 </StrElement>
 <StrElement Nr="145" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2387.0691" Y="1049.766" Z="86.8938"/>
 <b X="-2433.7197" Y="1041.752" Z="86.9387"/>
-<InfoNormRichtung vMax="38.8889" km="41.0445">
+<InfoNormRichtung vMax="38.8889" km="41.0446">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" SignalTyp="1" BoundingR="10">
 <p X="-2434.2446" Y="1044.8074" Z="88.6887"/>
 <phi Z="-2.971467"/>
@@ -2155,14 +2172,14 @@
 <g X="-2573.6699" Y="1017.709" Z="87.0732"/>
 <b X="-2666.9709" Y="1001.681" Z="87.1629"/>
 <InfoNormRichtung vMax="38.8889" km="40.8552"/>
-<InfoGegenRichtung vMax="33.3333" km="40.7605" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="40.7606" pos="1"/>
 <NachNorm Nr="148"/>
 <NachGegen Nr="146"/>
 </StrElement>
 <StrElement Nr="148" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2666.9709" Y="1001.681" Z="87.1629"/>
 <b X="-2760.2722" Y="985.6527" Z="87.2526"/>
-<InfoNormRichtung vMax="38.8889" km="40.7605"/>
+<InfoNormRichtung vMax="38.8889" km="40.7606"/>
 <InfoGegenRichtung vMax="33.3333" km="40.6659" pos="1"/>
 <NachNorm Nr="149"/>
 <NachGegen Nr="147"/>
@@ -2208,14 +2225,17 @@
 <g X="-3133.4741" Y="921.5397" Z="87.6114"/>
 <b X="-3226.7749" Y="905.5115" Z="87.7011"/>
 <InfoNormRichtung vMax="38.8889" km="40.2872"/>
-<InfoGegenRichtung vMax="33.3333" km="40.1925" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="40.1926" pos="1"/>
 <NachGegen Nr="153"/>
+<NachNormModul Nr="11">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="821" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1919.8879" Y="1125.9648" Z="86.82"/>
 <b X="-1887.6208" Y="1131.511" Z="86.8588"/>
 <InfoNormRichtung vMax="33.3333" km="41.5199" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.5526"/>
+<InfoGegenRichtung vMax="33.3333" km="41.5527"/>
 <NachNorm Nr="823"/>
 <NachGegen Nr="139"/>
 </StrElement>
@@ -2223,24 +2243,25 @@
 <g X="-1121.813" Y="1040.8409" Z="87.3772"/>
 <b X="-1125.5092" Y="1042.3701" Z="87.3673"/>
 <InfoNormRichtung vMax="38.8889" km="42.3381">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" Wert="251"/>
 <Ereignis Er="1000002"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.3341" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.3341" pos="1"/>
 <NachNorm Nr="1096"/>
 <NachGegen Nr="998"/>
 </StrElement>
 <StrElement Nr="823" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1887.6208" Y="1131.511" Z="86.8588"/>
 <b X="-1862.5861" Y="1135.814" Z="86.8942"/>
-<InfoNormRichtung vMax="33.3333" km="41.5526" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.578"/>
+<InfoNormRichtung vMax="33.3333" km="41.5527" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.5781"/>
 <NachNorm Nr="824"/>
 <NachGegen Nr="821"/>
 </StrElement>
 <StrElement Nr="824" Ueberh="0.0037" kr="-0.00005" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1862.5861" Y="1135.814" Z="86.8942"/>
 <b X="-1853.019" Y="1137.4572" Z="86.9077"/>
-<InfoNormRichtung vMax="33.3333" km="41.578" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.5781" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="41.5878"/>
 <NachNorm Nr="825"/>
 <NachGegen Nr="823"/>
@@ -2280,7 +2301,7 @@
 <StrElement Nr="829" Ueberh="0.0404" kr="-0.000547" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1814.722" Y="1143.843" Z="86.9619"/>
 <b X="-1809.927" Y="1144.5951" Z="86.9687"/>
-<InfoNormRichtung vMax="33.3333" km="41.6266" pos="1" Reg="5007">
+<InfoNormRichtung vMax="33.3333" km="41.6266" pos="1" Reg="5005">
 <Ereignis Er="6" Beschr="@sep=E 60@"/>
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="A1" SignalTyp="7" BoundingR="10">
 <p X="-1809.4403" Y="1141.493" Z="86.3687"/>
@@ -2382,7 +2403,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="41.6314" Reg="5007"/>
+<InfoGegenRichtung vMax="33.3333" km="41.6315" Reg="5005"/>
 <NachNorm Nr="2984"/>
 <NachGegen Nr="828"/>
 </StrElement>
@@ -2390,14 +2411,14 @@
 <g X="-1805.132" Y="1145.347" Z="86.9755"/>
 <b X="-1796.3719" Y="1146.6711" Z="86.9878"/>
 <InfoNormRichtung vMax="33.3333" km="41.6363" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.6451"/>
+<InfoGegenRichtung vMax="33.3333" km="41.6452"/>
 <NachNorm Nr="831"/>
 <NachGegen Nr="2984"/>
 </StrElement>
 <StrElement Nr="831" Ueberh="0.0511" kr="-0.000692" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1796.3719" Y="1146.6711" Z="86.9878"/>
 <b X="-1795.5341" Y="1146.795" Z="86.9886"/>
-<InfoNormRichtung vMax="33.3333" km="41.6451" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.6452" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="41.646"/>
 <NachNorm Nr="832"/>
 <NachGegen Nr="830"/>
@@ -2438,22 +2459,22 @@
 <g X="-1765.786" Y="1150.825" Z="86.9951"/>
 <b X="-1755.2509" Y="1152.062" Z="86.9951"/>
 <InfoNormRichtung vMax="33.3333" km="41.676" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.6866"/>
+<InfoGegenRichtung vMax="33.3333" km="41.6867"/>
 <NachNorm Nr="837"/>
 <NachGegen Nr="835"/>
 </StrElement>
 <StrElement Nr="837" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1755.2509" Y="1152.062" Z="86.9951"/>
 <b X="-1744.705" Y="1153.198" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.6866" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.6972"/>
+<InfoNormRichtung vMax="33.3333" km="41.6867" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.6973"/>
 <NachNorm Nr="838"/>
 <NachGegen Nr="836"/>
 </StrElement>
 <StrElement Nr="838" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1744.705" Y="1153.198" Z="86.9951"/>
 <b X="-1734.149" Y="1154.235" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.6972" pos="1">
+<InfoNormRichtung vMax="33.3333" km="41.6973" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 41,7" SignalTyp="1" BoundingR="10">
 <p X="-1733.8362" Y="1151.0503" Z="88.6951"/>
 <phi Z="0.097923"/>
@@ -2497,22 +2518,22 @@
 <MatrixEintrag Signalbild="127" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="41.7078"/>
+<InfoGegenRichtung vMax="33.3333" km="41.7079"/>
 <NachNorm Nr="839"/>
 <NachGegen Nr="837"/>
 </StrElement>
 <StrElement Nr="839" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1734.149" Y="1154.235" Z="86.9951"/>
 <b X="-1723.5831" Y="1155.1711" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.7078" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.7184"/>
+<InfoNormRichtung vMax="33.3333" km="41.7079" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.7185"/>
 <NachNorm Nr="840"/>
 <NachGegen Nr="838"/>
 </StrElement>
 <StrElement Nr="840" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1723.5831" Y="1155.1711" Z="86.9951"/>
 <b X="-1713.0092" Y="1156.007" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.7184" pos="1">
+<InfoNormRichtung vMax="33.3333" km="41.7185" pos="1">
 <Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" Wert="4"/>
 <Signal NameBetriebsstelle="BÜ km 41,729" Stellwerk="BÜ km 41,729" Signalname="BÜ km 41,729" SignalTyp="14" BoundingR="1">
 <p X="-1718.63" Y="1155.5601" Z="87"/>
@@ -2527,7 +2548,7 @@
 <MatrixEintrag MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="41.729">
+<InfoGegenRichtung vMax="33.3333" km="41.7291">
 <Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" Wert="3"/>
 <Signal NameBetriebsstelle="BÜ km 41,729" Stellwerk="BÜ km 41,729" Signalname="BÜ km 41,729" SignalTyp="14" BoundingR="1">
 <p X="-1718.63" Y="1155.5601" Z="87"/>
@@ -2663,46 +2684,46 @@
 <g X="-1617.6219" Y="1159.0031" Z="86.9951"/>
 <b X="-1607.016" Y="1158.833" Z="86.9951"/>
 <InfoNormRichtung vMax="33.3333" km="41.8245" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.8351"/>
+<InfoGegenRichtung vMax="33.3333" km="41.8352"/>
 <NachNorm Nr="851"/>
 <NachGegen Nr="849"/>
 </StrElement>
 <StrElement Nr="851" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1607.016" Y="1158.833" Z="86.9951"/>
 <b X="-1596.4128" Y="1158.5612" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.8351" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.8457"/>
+<InfoNormRichtung vMax="33.3333" km="41.8352" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.8458"/>
 <NachNorm Nr="852"/>
 <NachGegen Nr="850"/>
 </StrElement>
 <StrElement Nr="852" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1596.4128" Y="1158.5612" Z="86.9951"/>
 <b X="-1585.812" Y="1158.189" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.8457" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.8563"/>
+<InfoNormRichtung vMax="33.3333" km="41.8458" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.8564"/>
 <NachNorm Nr="853"/>
 <NachGegen Nr="851"/>
 </StrElement>
 <StrElement Nr="853" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1585.812" Y="1158.189" Z="86.9951"/>
 <b X="-1575.2159" Y="1157.717" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.8563" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.8669"/>
+<InfoNormRichtung vMax="33.3333" km="41.8564" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.867"/>
 <NachNorm Nr="854"/>
 <NachGegen Nr="852"/>
 </StrElement>
 <StrElement Nr="854" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1575.2159" Y="1157.717" Z="86.9951"/>
 <b X="-1564.6239" Y="1157.144" Z="86.995"/>
-<InfoNormRichtung vMax="33.3333" km="41.8669" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.8775"/>
+<InfoNormRichtung vMax="33.3333" km="41.867" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.8776"/>
 <NachNorm Nr="855"/>
 <NachGegen Nr="853"/>
 </StrElement>
 <StrElement Nr="855" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1564.6239" Y="1157.144" Z="86.995"/>
 <b X="-1554.0389" Y="1156.4698" Z="86.995"/>
-<InfoNormRichtung vMax="33.3333" km="41.8775" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.8776" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="41.8882"/>
 <NachNorm Nr="856"/>
 <NachGegen Nr="854"/>
@@ -2793,39 +2814,39 @@
 <g X="-1469.6812" Y="1147.47" Z="86.995"/>
 <b X="-1459.1919" Y="1145.895" Z="86.995"/>
 <InfoNormRichtung vMax="33.3333" km="41.973" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.9836"/>
+<InfoGegenRichtung vMax="33.3333" km="41.9837"/>
 <NachNorm Nr="865"/>
 <NachGegen Nr="863"/>
 </StrElement>
 <StrElement Nr="865" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1459.1919" Y="1145.895" Z="86.995"/>
 <b X="-1448.7181" Y="1144.2209" Z="86.995"/>
-<InfoNormRichtung vMax="33.3333" km="41.9836" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="41.9942"/>
+<InfoNormRichtung vMax="33.3333" km="41.9837" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.9943"/>
 <NachNorm Nr="866"/>
 <NachGegen Nr="864"/>
 </StrElement>
 <StrElement Nr="866" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1448.7181" Y="1144.2209" Z="86.995"/>
 <b X="-1438.26" Y="1142.447" Z="86.995"/>
-<InfoNormRichtung vMax="33.3333" km="41.9942" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.0048"/>
+<InfoNormRichtung vMax="33.3333" km="41.9943" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.0049"/>
 <NachNorm Nr="867"/>
 <NachGegen Nr="865"/>
 </StrElement>
 <StrElement Nr="867" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1438.26" Y="1142.447" Z="86.995"/>
 <b X="-1427.8199" Y="1140.574" Z="86.995"/>
-<InfoNormRichtung vMax="33.3333" km="42.0048" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.0154"/>
+<InfoNormRichtung vMax="33.3333" km="42.0049" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.0155"/>
 <NachNorm Nr="868"/>
 <NachGegen Nr="866"/>
 </StrElement>
 <StrElement Nr="868" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1427.8199" Y="1140.574" Z="86.995"/>
 <b X="-1417.3979" Y="1138.6021" Z="86.995"/>
-<InfoNormRichtung vMax="33.3333" km="42.0154" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.026">
+<InfoNormRichtung vMax="33.3333" km="42.0155" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.0261">
 <Ereignis Er="22"/>
 </InfoGegenRichtung>
 <NachNorm Nr="869"/>
@@ -2834,8 +2855,8 @@
 <StrElement Nr="869" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1417.3979" Y="1138.6021" Z="86.995"/>
 <b X="-1408.089" Y="1136.7542" Z="86.9952"/>
-<InfoNormRichtung vMax="33.3333" km="42.026" pos="1" Reg="5008"/>
-<InfoGegenRichtung vMax="33.3333" km="42.0355" Reg="5008">
+<InfoNormRichtung vMax="33.3333" km="42.0261" pos="1" Reg="5006"/>
+<InfoGegenRichtung vMax="33.3333" km="42.0356" Reg="5006">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-1418.0404" Y="1135.3654" Z="85.995"/>
 <phi Z="2.945632"/>
@@ -2857,7 +2878,7 @@
 <StrElement Nr="870" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1408.089" Y="1136.7542" Z="86.9952"/>
 <b X="-1406.995" Y="1136.531" Z="86.9959"/>
-<InfoNormRichtung vMax="33.3333" km="42.0355" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.0356" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="42.0367"/>
 <NachNorm Nr="871"/>
 <NachGegen Nr="869"/>
@@ -2966,7 +2987,7 @@
 <g X="-1324.575" Y="1116.428" Z="87.0424"/>
 <b X="-1314.387" Y="1113.4771" Z="87.0482"/>
 <InfoNormRichtung vMax="33.3333" km="42.1215" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.1321"/>
+<InfoGegenRichtung vMax="33.3333" km="42.1322"/>
 <NachNorm Nr="880"/>
 <NachGegen Nr="878"/>
 </StrElement>
@@ -2974,38 +2995,38 @@
 <g X="-1314.387" Y="1113.4771" Z="87.0482"/>
 <b X="-1304.2271" Y="1110.429" Z="87.054"/>
 <InfoNormRichtung vMax="33.3333" km="42.1321" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.1427"/>
+<InfoGegenRichtung vMax="33.3333" km="42.1428"/>
 <NachNorm Nr="881"/>
 <NachGegen Nr="879"/>
 </StrElement>
 <StrElement Nr="881" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1304.2271" Y="1110.429" Z="87.054"/>
 <b X="-1294.097" Y="1107.285" Z="87.0598"/>
-<InfoNormRichtung vMax="33.3333" km="42.1427" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.1533"/>
+<InfoNormRichtung vMax="33.3333" km="42.1428" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.1534"/>
 <NachNorm Nr="882"/>
 <NachGegen Nr="880"/>
 </StrElement>
 <StrElement Nr="882" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1294.097" Y="1107.285" Z="87.0598"/>
 <b X="-1283.9969" Y="1104.0439" Z="87.0656"/>
-<InfoNormRichtung vMax="33.3333" km="42.1533" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.1639"/>
+<InfoNormRichtung vMax="33.3333" km="42.1534" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.164"/>
 <NachNorm Nr="883"/>
 <NachGegen Nr="881"/>
 </StrElement>
 <StrElement Nr="883" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1283.9969" Y="1104.0439" Z="87.0656"/>
 <b X="-1273.928" Y="1100.708" Z="87.0714"/>
-<InfoNormRichtung vMax="33.3333" km="42.1639" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="42.1745"/>
+<InfoNormRichtung vMax="33.3333" km="42.164" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.1746"/>
 <NachNorm Nr="884"/>
 <NachGegen Nr="882"/>
 </StrElement>
 <StrElement Nr="884" Ueberh="0.0661" kr="-0.000895" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1273.928" Y="1100.708" Z="87.0714"/>
 <b X="-1263.892" Y="1097.277" Z="87.0772"/>
-<InfoNormRichtung vMax="33.3333" km="42.1745" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.1746" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="42.1852"/>
 <NachNorm Nr="885"/>
 <NachGegen Nr="883"/>
@@ -3029,7 +3050,7 @@
 <StrElement Nr="887" Ueberh="-0.0034" kr="0.000046" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1162.7719" Y="1057.787" Z="87.2679"/>
 <b X="-1170.989" Y="1061.1851" Z="87.246"/>
-<InfoNormRichtung vMax="38.8889" km="42.2937">
+<InfoNormRichtung vMax="38.8889" km="42.2938" Reg="1">
 <Ereignis Er="28" Beschr="2651b"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-1170.1483" Y="1063.2181" Z="87.546"/>
@@ -3054,30 +3075,30 @@
 <MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.2848" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.2849" pos="1"/>
 <NachNorm Nr="888"/>
 <NachGegen Nr="3140"/>
 </StrElement>
 <StrElement Nr="888" Ueberh="-0.007" kr="0.000095" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1170.989" Y="1061.1851" Z="87.246"/>
 <b X="-1171.7419" Y="1061.496" Z="87.244"/>
-<InfoNormRichtung vMax="33.3333" km="42.2848"/>
-<InfoGegenRichtung vMax="33.3333" km="42.284" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.2849"/>
+<InfoGegenRichtung vMax="33.3333" km="42.2841" pos="1"/>
 <NachNorm Nr="889"/>
 <NachGegen Nr="887"/>
 </StrElement>
 <StrElement Nr="889" Ueberh="-0.0108" kr="0.000147" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1171.7419" Y="1061.496" Z="87.244"/>
 <b X="-1180.233" Y="1064.999" Z="87.2214"/>
-<InfoNormRichtung vMax="33.3333" km="42.284"/>
-<InfoGegenRichtung vMax="33.3333" km="42.2748" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.2841"/>
+<InfoGegenRichtung vMax="33.3333" km="42.2749" pos="1"/>
 <NachNorm Nr="890"/>
 <NachGegen Nr="888"/>
 </StrElement>
 <StrElement Nr="890" Ueberh="-0.0145" kr="0.000196" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1180.233" Y="1064.999" Z="87.2214"/>
 <b X="-1180.7148" Y="1065.197" Z="87.2201"/>
-<InfoNormRichtung vMax="33.3333" km="42.2748"/>
+<InfoNormRichtung vMax="33.3333" km="42.2749"/>
 <InfoGegenRichtung vMax="33.3333" km="42.2743" pos="1"/>
 <NachNorm Nr="891"/>
 <NachGegen Nr="889"/>
@@ -3086,14 +3107,14 @@
 <g X="-1180.7148" Y="1065.197" Z="87.2201"/>
 <b X="-1189.485" Y="1068.7939" Z="87.1968"/>
 <InfoNormRichtung vMax="33.3333" km="42.2743"/>
-<InfoGegenRichtung vMax="33.3333" km="42.2648" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.2649" pos="1"/>
 <NachNorm Nr="892"/>
 <NachGegen Nr="890"/>
 </StrElement>
 <StrElement Nr="892" Ueberh="-0.0256" kr="0.000347" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1189.485" Y="1068.7939" Z="87.1968"/>
 <b X="-1198.687" Y="1072.5378" Z="87.1724"/>
-<InfoNormRichtung vMax="33.3333" km="42.2648"/>
+<InfoNormRichtung vMax="33.3333" km="42.2649"/>
 <InfoGegenRichtung vMax="33.3333" km="42.2549" pos="1"/>
 <NachNorm Nr="893"/>
 <NachGegen Nr="891"/>
@@ -3101,8 +3122,6 @@
 <StrElement Nr="893" Ueberh="-0.0331" kr="0.000448" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1198.687" Y="1072.5378" Z="87.1724"/>
 <b X="-1207.693" Y="1076.161" Z="87.1485"/>
-<InfoNormRichtung vMax="33.3333" km="42.2549"/>
-<InfoGegenRichtung vMax="33.3333" km="42.2452" pos="1"/>
 <NachNorm Nr="894"/>
 <NachGegen Nr="892"/>
 </StrElement>
@@ -3125,7 +3144,7 @@
 <StrElement Nr="896" Ueberh="-0.0551" kr="0.000746" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1225.7581" Y="1083.2668" Z="87.1046"/>
 <b X="-1230.2915" Y="1085" Z="87.0995"/>
-<InfoGegenRichtung vMax="33.3333" km="42.2209" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.221" pos="1"/>
 <NachNorm Nr="2982"/>
 <NachGegen Nr="895"/>
 </StrElement>
@@ -3140,10 +3159,10 @@
 <StrElement Nr="898" spTrass="38.8889" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1099.7679" Y="1036.049" Z="87.4318"/>
 <b X="-1123.7791" Y="1045.983" Z="87.3679"/>
-<InfoNormRichtung vMax="38.8889" km="42.3604" Reg="5009">
+<InfoNormRichtung vMax="38.8889" km="42.3604" Reg="5007">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.3344" pos="1" Reg="5009"/>
+<InfoGegenRichtung vMax="33.3333" km="42.3344" pos="1" Reg="5007"/>
 <NachNorm Nr="3141"/>
 <NachGegen Nr="976"/>
 </StrElement>
@@ -3151,14 +3170,14 @@
 <g X="-1920.566" Y="1129.9069" Z="86.82"/>
 <b X="-1915.6888" Y="1130.745" Z="86.82"/>
 <InfoNormRichtung vMax="33.3333" km="41.5179" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="41.5228"/>
+<InfoGegenRichtung vMax="38.8889" km="41.5229"/>
 <NachNorm Nr="900"/>
 <NachGegen Nr="140"/>
 </StrElement>
 <StrElement Nr="900" spTrass="27.7778" Anschluss="256" Fkt="8" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1915.6888" Y="1130.745" Z="86.82"/>
 <b X="-1875.097" Y="1137.722" Z="86.8774"/>
-<InfoNormRichtung vMax="33.3333" km="41.5228" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.5229" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="41.564"/>
 <NachNorm Nr="962"/>
 <NachGegen Nr="899"/>
@@ -3177,14 +3196,14 @@
 <InfoNormRichtung vMax="38.8889" km="42.3059">
 <Ereignis Er="39" Beschr="2651b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.2957" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.2958" pos="1"/>
 <NachNorm Nr="903"/>
 <NachGegen Nr="901"/>
 </StrElement>
 <StrElement Nr="903" Ueberh="-0.009" kr="0.000122" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1159.504" Y="1060.762" Z="87.2718"/>
 <b X="-1168.856" Y="1064.6208" Z="87.2479"/>
-<InfoNormRichtung vMax="38.8889" km="42.2957"/>
+<InfoNormRichtung vMax="38.8889" km="42.2958"/>
 <InfoGegenRichtung vMax="33.3333" km="42.2856" pos="1"/>
 <NachNorm Nr="904"/>
 <NachGegen Nr="902"/>
@@ -3225,15 +3244,15 @@
 <g X="-1206.356" Y="1079.824" Z="87.1483"/>
 <b X="-1215.77" Y="1083.5291" Z="87.1235"/>
 <InfoNormRichtung vMax="38.8889" km="42.2452"/>
-<InfoGegenRichtung vMax="33.3333" km="42.235" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.2351" pos="1"/>
 <NachNorm Nr="909"/>
 <NachGegen Nr="907"/>
 </StrElement>
 <StrElement Nr="909" Ueberh="-0.0451" kr="0.000608" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1215.77" Y="1083.5291" Z="87.1235"/>
 <b X="-1225.205" Y="1087.179" Z="87.1032"/>
-<InfoNormRichtung vMax="38.8889" km="42.235"/>
-<InfoGegenRichtung vMax="33.3333" km="42.2249" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="42.2351"/>
+<InfoGegenRichtung vMax="33.3333" km="42.225" pos="1"/>
 <NachNorm Nr="910"/>
 <NachGegen Nr="908"/>
 </StrElement>
@@ -3272,14 +3291,14 @@
 <g X="-1263.8669" Y="1101.312" Z="87.0766"/>
 <b X="-1274.1082" Y="1104.799" Z="87.0706"/>
 <InfoNormRichtung vMax="38.8889" km="42.1838"/>
-<InfoGegenRichtung vMax="33.3333" km="42.1729" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.173" pos="1"/>
 <NachNorm Nr="915"/>
 <NachGegen Nr="913"/>
 </StrElement>
 <StrElement Nr="915" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1274.1082" Y="1104.799" Z="87.0706"/>
 <b X="-1284.382" Y="1108.187" Z="87.0647"/>
-<InfoNormRichtung vMax="38.8889" km="42.1729"/>
+<InfoNormRichtung vMax="38.8889" km="42.173"/>
 <InfoGegenRichtung vMax="33.3333" km="42.1621" pos="1"/>
 <NachNorm Nr="916"/>
 <NachGegen Nr="914"/>
@@ -3312,15 +3331,15 @@
 <g X="-1315.394" Y="1117.754" Z="87.047"/>
 <b X="-1325.791" Y="1120.7419" Z="87.0411"/>
 <InfoNormRichtung vMax="38.8889" km="42.1297"/>
-<InfoGegenRichtung vMax="33.3333" km="42.1188" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.1189" pos="1"/>
 <NachNorm Nr="920"/>
 <NachGegen Nr="918"/>
 </StrElement>
 <StrElement Nr="920" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1325.791" Y="1120.7419" Z="87.0411"/>
 <b X="-1336.217" Y="1123.631" Z="87.0352"/>
-<InfoNormRichtung vMax="38.8889" km="42.1188"/>
-<InfoGegenRichtung vMax="33.3333" km="42.108" pos="1">
+<InfoNormRichtung vMax="38.8889" km="42.1189"/>
+<InfoGegenRichtung vMax="33.3333" km="42.1081" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" SignalTyp="1" BoundingR="10">
 <p X="-1325.791" Y="1120.7419" Z="87.0411"/>
 <phi Z="-0.270316"/>
@@ -3345,7 +3364,7 @@
 <StrElement Nr="921" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1336.217" Y="1123.631" Z="87.0352"/>
 <b X="-1346.67" Y="1126.418" Z="87.0293"/>
-<InfoNormRichtung vMax="38.8889" km="42.108"/>
+<InfoNormRichtung vMax="38.8889" km="42.1081"/>
 <InfoGegenRichtung vMax="33.3333" km="42.0972" pos="1"/>
 <NachNorm Nr="922"/>
 <NachGegen Nr="920"/>
@@ -3378,14 +3397,14 @@
 <g X="-1378.183" Y="1134.174" Z="87.0116"/>
 <b X="-1388.7358" Y="1136.557" Z="87.0056"/>
 <InfoNormRichtung vMax="38.8889" km="42.0648"/>
-<InfoGegenRichtung vMax="33.3333" km="42.0539" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.054" pos="1"/>
 <NachNorm Nr="926"/>
 <NachGegen Nr="924"/>
 </StrElement>
 <StrElement Nr="926" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1388.7358" Y="1136.557" Z="87.0056"/>
 <b X="-1399.311" Y="1138.837" Z="86.9998"/>
-<InfoNormRichtung vMax="38.8889" km="42.0539"/>
+<InfoNormRichtung vMax="38.8889" km="42.054"/>
 <InfoGegenRichtung vMax="33.3333" km="42.0431" pos="1"/>
 <NachNorm Nr="927"/>
 <NachGegen Nr="925"/>
@@ -3438,22 +3457,22 @@
 <g X="-1431.162" Y="1145.064" Z="86.995"/>
 <b X="-1441.8171" Y="1146.934" Z="86.995"/>
 <InfoNormRichtung vMax="38.8889" km="42.0107"/>
-<InfoGegenRichtung vMax="33.3333" km="41.9998" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.9999" pos="1"/>
 <NachNorm Nr="931"/>
 <NachGegen Nr="929"/>
 </StrElement>
 <StrElement Nr="931" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1441.8171" Y="1146.934" Z="86.995"/>
 <b X="-1452.4899" Y="1148.701" Z="86.995"/>
-<InfoNormRichtung vMax="38.8889" km="41.9998"/>
-<InfoGegenRichtung vMax="33.3333" km="41.989" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="41.9999"/>
+<InfoGegenRichtung vMax="33.3333" km="41.9891" pos="1"/>
 <NachNorm Nr="932"/>
 <NachGegen Nr="930"/>
 </StrElement>
 <StrElement Nr="932" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1452.4899" Y="1148.701" Z="86.995"/>
 <b X="-1463.1801" Y="1150.3658" Z="86.995"/>
-<InfoNormRichtung vMax="38.8889" km="41.989"/>
+<InfoNormRichtung vMax="38.8889" km="41.9891"/>
 <InfoGegenRichtung vMax="33.3333" km="41.9782" pos="1"/>
 <NachNorm Nr="933"/>
 <NachGegen Nr="931"/>
@@ -3504,14 +3523,14 @@
 <g X="-1495.337" Y="1154.739" Z="86.995"/>
 <b X="-1506.083" Y="1155.99" Z="86.995"/>
 <InfoNormRichtung vMax="38.8889" km="41.9458"/>
-<InfoGegenRichtung vMax="33.3333" km="41.9349" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.935" pos="1"/>
 <NachNorm Nr="937"/>
 <NachGegen Nr="935"/>
 </StrElement>
 <StrElement Nr="937" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1506.083" Y="1155.99" Z="86.995"/>
 <b X="-1516.84" Y="1157.136" Z="86.995"/>
-<InfoNormRichtung vMax="38.8889" km="41.9349"/>
+<InfoNormRichtung vMax="38.8889" km="41.935"/>
 <InfoGegenRichtung vMax="33.3333" km="41.9241" pos="1"/>
 <NachNorm Nr="938"/>
 <NachGegen Nr="936"/>
@@ -3544,22 +3563,22 @@
 <g X="-1549.172" Y="1159.953" Z="86.995"/>
 <b X="-1559.9648" Y="1160.684" Z="86.995"/>
 <InfoNormRichtung vMax="38.8889" km="41.8917"/>
-<InfoGegenRichtung vMax="33.3333" km="41.8808" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.8809" pos="1"/>
 <NachNorm Nr="942"/>
 <NachGegen Nr="940"/>
 </StrElement>
 <StrElement Nr="942" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1559.9648" Y="1160.684" Z="86.995"/>
 <b X="-1570.7651" Y="1161.3112" Z="86.995"/>
-<InfoNormRichtung vMax="38.8889" km="41.8808"/>
-<InfoGegenRichtung vMax="33.3333" km="41.87" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="41.8809"/>
+<InfoGegenRichtung vMax="33.3333" km="41.8701" pos="1"/>
 <NachNorm Nr="943"/>
 <NachGegen Nr="941"/>
 </StrElement>
 <StrElement Nr="943" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1570.7651" Y="1161.3112" Z="86.995"/>
 <b X="-1581.571" Y="1161.833" Z="86.9951"/>
-<InfoNormRichtung vMax="38.8889" km="41.87"/>
+<InfoNormRichtung vMax="38.8889" km="41.8701"/>
 <InfoGegenRichtung vMax="33.3333" km="41.8592" pos="1"/>
 <NachNorm Nr="944"/>
 <NachGegen Nr="942"/>
@@ -3600,14 +3619,14 @@
 <g X="-1614.0109" Y="1162.775" Z="86.9951"/>
 <b X="-1624.8289" Y="1162.88" Z="86.9951"/>
 <InfoNormRichtung vMax="38.8889" km="41.8268"/>
-<InfoGegenRichtung vMax="33.3333" km="41.8159" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.816" pos="1"/>
 <NachNorm Nr="949"/>
 <NachGegen Nr="947"/>
 </StrElement>
 <StrElement Nr="949" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1624.8289" Y="1162.88" Z="86.9951"/>
 <b X="-1635.6469" Y="1162.88" Z="86.9951"/>
-<InfoNormRichtung vMax="38.8889" km="41.8159"/>
+<InfoNormRichtung vMax="38.8889" km="41.816"/>
 <InfoGegenRichtung vMax="33.3333" km="41.8051" pos="1"/>
 <NachNorm Nr="950"/>
 <NachGegen Nr="948"/>
@@ -3640,22 +3659,22 @@
 <g X="-1668.095" Y="1162.255" Z="86.9951"/>
 <b X="-1678.9049" Y="1161.839" Z="86.9951"/>
 <InfoNormRichtung vMax="38.8889" km="41.7727"/>
-<InfoGegenRichtung vMax="33.3333" km="41.7618" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.7619" pos="1"/>
 <NachNorm Nr="954"/>
 <NachGegen Nr="952"/>
 </StrElement>
 <StrElement Nr="954" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1678.9049" Y="1161.839" Z="86.9951"/>
 <b X="-1689.7111" Y="1161.317" Z="86.9951"/>
-<InfoNormRichtung vMax="38.8889" km="41.7618"/>
-<InfoGegenRichtung vMax="33.3333" km="41.751" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="41.7619"/>
+<InfoGegenRichtung vMax="33.3333" km="41.7511" pos="1"/>
 <NachNorm Nr="955"/>
 <NachGegen Nr="953"/>
 </StrElement>
 <StrElement Nr="955" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1689.7111" Y="1161.317" Z="86.9951"/>
 <b X="-1700.511" Y="1160.692" Z="86.9951"/>
-<InfoNormRichtung vMax="38.8889" km="41.751"/>
+<InfoNormRichtung vMax="38.8889" km="41.7511"/>
 <InfoGegenRichtung vMax="33.3333" km="41.7402" pos="1"/>
 <NachNorm Nr="956"/>
 <NachGegen Nr="954"/>
@@ -3751,15 +3770,15 @@
 <g X="-1722.0909" Y="1159.1281" Z="86.9951"/>
 <b X="-1732.868" Y="1158.1899" Z="86.9951"/>
 <InfoNormRichtung vMax="38.8889" km="41.7186"/>
-<InfoGegenRichtung vMax="33.3333" km="41.7077" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="41.7078" pos="1"/>
 <NachNorm Nr="959"/>
 <NachGegen Nr="957"/>
 </StrElement>
 <StrElement Nr="959" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1732.868" Y="1158.1899" Z="86.9951"/>
 <b X="-1743.6359" Y="1157.149" Z="86.9951"/>
-<InfoNormRichtung vMax="38.8889" km="41.7077"/>
-<InfoGegenRichtung vMax="33.3333" km="41.6969" pos="1">
+<InfoNormRichtung vMax="38.8889" km="41.7078"/>
+<InfoGegenRichtung vMax="33.3333" km="41.697" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 41,7" SignalTyp="1" BoundingR="10">
 <p X="-1735.1572" Y="1161.0833" Z="88.6951"/>
 <phi Z="0.096368"/>
@@ -3809,7 +3828,7 @@
 <StrElement Nr="960" Ueberh="-0.0661" kr="0.000892" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1743.6359" Y="1157.149" Z="86.9951"/>
 <b X="-1754.394" Y="1156.0031" Z="86.9951"/>
-<InfoNormRichtung vMax="38.8889" km="41.6969"/>
+<InfoNormRichtung vMax="38.8889" km="41.697"/>
 <InfoGegenRichtung vMax="33.3333" km="41.6861" pos="1"/>
 <NachNorm Nr="961"/>
 <NachGegen Nr="959"/>
@@ -3826,22 +3845,22 @@
 <g X="-1875.097" Y="1137.722" Z="86.8774"/>
 <b X="-1865.127" Y="1139.434" Z="86.8916"/>
 <InfoNormRichtung vMax="33.3333" km="41.564" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="41.5741"/>
+<InfoGegenRichtung vMax="38.8889" km="41.5742"/>
 <NachNorm Nr="963"/>
 <NachGegen Nr="900"/>
 </StrElement>
 <StrElement Nr="963" Ueberh="0.009" kr="-0.000122" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1865.127" Y="1139.434" Z="86.8916"/>
 <b X="-1855.1549" Y="1141.1379" Z="86.9057"/>
-<InfoNormRichtung vMax="33.3333" km="41.5741" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="41.5842"/>
+<InfoNormRichtung vMax="33.3333" km="41.5742" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="41.5843"/>
 <NachNorm Nr="964"/>
 <NachGegen Nr="962"/>
 </StrElement>
 <StrElement Nr="964" Ueberh="0.015" kr="-0.000203" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1855.1549" Y="1141.1379" Z="86.9057"/>
 <b X="-1845.1801" Y="1142.826" Z="86.9197"/>
-<InfoNormRichtung vMax="33.3333" km="41.5842" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.5843" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="41.5944"/>
 <NachNorm Nr="965"/>
 <NachGegen Nr="963"/>
@@ -3873,7 +3892,7 @@
 <StrElement Nr="968" Ueberh="0.0391" kr="-0.000527" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1815.2271" Y="1147.709" Z="86.9621"/>
 <b X="-1810.2275" Y="1148.479" Z="86.9691"/>
-<InfoNormRichtung vMax="33.3333" km="41.6247" pos="1" Reg="5010">
+<InfoNormRichtung vMax="33.3333" km="41.6247" pos="1" Reg="5008">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="A2" SignalTyp="7" BoundingR="10">
 <p X="-1810.7056" Y="1151.5824" Z="86.3691"/>
 <phi Z="0.152818"/>
@@ -3974,30 +3993,29 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="41.6298" Reg="5010"/>
+<InfoGegenRichtung vMax="38.8889" km="41.6298" Reg="5008"/>
 <NachNorm Nr="2985"/>
 <NachGegen Nr="967"/>
 </StrElement>
 <StrElement Nr="969" Ueberh="0.0445" kr="-0.000601" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1805.228" Y="1149.249" Z="86.9762"/>
 <b X="-1797.025" Y="1150.47" Z="86.9877"/>
-<InfoNormRichtung vMax="33.3333" km="41.6348" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="41.6431"/>
+<InfoNormRichtung vMax="33.3333" km="41.6349" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="41.6432"/>
 <NachNorm Nr="970"/>
 <NachGegen Nr="2985"/>
 </StrElement>
 <StrElement Nr="970" Ueberh="0.0476" kr="-0.000641" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1797.025" Y="1150.47" Z="86.9877"/>
 <b X="-1795.2209" Y="1150.7321" Z="86.9889"/>
-<InfoNormRichtung vMax="33.3333" km="41.6431" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="41.6449"/>
+<InfoNormRichtung vMax="33.3333" km="41.6432" pos="1"/>
 <NachNorm Nr="971"/>
 <NachGegen Nr="969"/>
 </StrElement>
 <StrElement Nr="971" Ueberh="0.0492" kr="-0.000663" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1795.2209" Y="1150.7321" Z="86.9889"/>
 <b X="-1791.6169" Y="1151.25" Z="86.993"/>
-<InfoNormRichtung vMax="33.3333" km="41.6449" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.645" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="41.6486"/>
 <NachNorm Nr="972"/>
 <NachGegen Nr="970"/>
@@ -4006,14 +4024,14 @@
 <g X="-1791.6169" Y="1151.25" Z="86.993"/>
 <b X="-1786.2061" Y="1152.011" Z="86.9951"/>
 <InfoNormRichtung vMax="33.3333" km="41.6486" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="41.654"/>
+<InfoGegenRichtung vMax="38.8889" km="41.6541"/>
 <NachNorm Nr="973"/>
 <NachGegen Nr="971"/>
 </StrElement>
 <StrElement Nr="973" Ueberh="0.0538" kr="-0.000726" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1786.2061" Y="1152.011" Z="86.9951"/>
 <b X="-1785.205" Y="1152.149" Z="86.9951"/>
-<InfoNormRichtung vMax="33.3333" km="41.654" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.6541" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="41.6551"/>
 <NachNorm Nr="974"/>
 <NachGegen Nr="972"/>
@@ -4034,11 +4052,12 @@
 <NachNorm Nr="961"/>
 <NachGegen Nr="974"/>
 </StrElement>
-<StrElement Nr="976" spTrass="27.7778" Anschluss="1" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
+<StrElement Nr="976" spTrass="27.7778" Anschluss="1" Fkt="8" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1099.7679" Y="1036.049" Z="87.4318"/>
 <b X="-1076.811" Y="1026.551" Z="87.4929"/>
 <InfoNormRichtung vMax="33.3333" km="42.3604" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.3852">
+<InfoGegenRichtung vMax="38.8889" km="42.3853">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" Wert="252"/>
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="989"/>
@@ -4047,7 +4066,7 @@
 <StrElement Nr="977" spTrass="27.7778" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1038.375" Y="1010.6489" Z="87.5953"/>
 <b X="-1034.6788" Y="1009.1199" Z="87.6051"/>
-<InfoGegenRichtung vMax="38.8889" km="42.4308"/>
+<InfoGegenRichtung vMax="38.8889" km="42.4309"/>
 <NachNorm Nr="1095"/>
 <NachGegen Nr="980"/>
 </StrElement>
@@ -4069,7 +4088,7 @@
 <StrElement Nr="980" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1038.375" Y="1010.6489" Z="87.5953"/>
 <b X="-1039.484" Y="1011.108" Z="87.5924"/>
-<InfoNormRichtung vMax="38.8889" km="42.4268" Reg="5011">
+<InfoNormRichtung vMax="38.8889" km="42.4268" Reg="5009">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="2" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1038.375" Y="1010.6489" Z="87.5953"/>
 <phi Y="0.00246" Z="2.749312"/>
@@ -4110,7 +4129,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.4256" pos="1" Reg="5011"/>
+<InfoGegenRichtung vMax="33.3333" km="42.4257" pos="1" Reg="5009"/>
 <NachNorm Nr="981"/>
 <NachNorm Nr="982"/>
 <NachGegen Nr="977"/>
@@ -4118,15 +4137,15 @@
 <StrElement Nr="981" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1039.484" Y="1011.108" Z="87.5924"/>
 <b X="-1044.731" Y="1013.278" Z="87.5784"/>
-<InfoNormRichtung vMax="38.8889" km="42.4256"/>
-<InfoGegenRichtung vMax="33.3333" km="42.4199" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="42.4257"/>
+<InfoGegenRichtung vMax="33.3333" km="42.42" pos="1"/>
 <NachNorm Nr="991"/>
 <NachGegen Nr="980"/>
 </StrElement>
 <StrElement Nr="982" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1039.484" Y="1011.108" Z="87.5924"/>
 <b X="-1044.533" Y="1013.1489" Z="87.579"/>
-<InfoNormRichtung vMax="38.8889" km="42.4256">
+<InfoNormRichtung vMax="38.8889" km="42.4257">
 <Ereignis Er="1" Wert="16.6667"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="42.4202" pos="1">
@@ -4139,14 +4158,14 @@
 <g X="-1044.533" Y="1013.1489" Z="87.579"/>
 <b X="-1050.347" Y="1015.422" Z="87.5636"/>
 <InfoNormRichtung vMax="38.8889" km="42.4202"/>
-<InfoGegenRichtung vMax="33.3333" km="42.4139" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.414" pos="1"/>
 <NachNorm Nr="984"/>
 <NachGegen Nr="982"/>
 </StrElement>
 <StrElement Nr="984" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1050.347" Y="1015.422" Z="87.5636"/>
 <b X="-1056.1879" Y="1017.6229" Z="87.5482"/>
-<InfoNormRichtung vMax="38.8889" km="42.4139"/>
+<InfoNormRichtung vMax="38.8889" km="42.414"/>
 <InfoGegenRichtung vMax="33.3333" km="42.4077" pos="1"/>
 <NachNorm Nr="985"/>
 <NachGegen Nr="983"/>
@@ -4155,15 +4174,15 @@
 <g X="-1056.1879" Y="1017.6229" Z="87.5482"/>
 <b X="-1062.057" Y="1019.75" Z="87.5329"/>
 <InfoNormRichtung vMax="38.8889" km="42.4077"/>
-<InfoGegenRichtung vMax="33.3333" km="42.4014" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.4015" pos="1"/>
 <NachNorm Nr="986"/>
 <NachGegen Nr="984"/>
 </StrElement>
 <StrElement Nr="986" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1062.057" Y="1019.75" Z="87.5329"/>
 <b X="-1067.951" Y="1021.804" Z="87.5175"/>
-<InfoNormRichtung vMax="38.8889" km="42.4014"/>
-<InfoGegenRichtung vMax="33.3333" km="42.3952" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="42.4015"/>
+<InfoGegenRichtung vMax="38.8889" km="42.3952" pos="1"/>
 <NachNorm Nr="987"/>
 <NachGegen Nr="985"/>
 </StrElement>
@@ -4173,7 +4192,7 @@
 <InfoNormRichtung vMax="38.8889" km="42.3952">
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.389" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.389" pos="1"/>
 <NachNorm Nr="988"/>
 <NachGegen Nr="986"/>
 </StrElement>
@@ -4181,17 +4200,17 @@
 <g X="-1073.8708" Y="1023.784" Z="87.5022"/>
 <b X="-1077.4041" Y="1024.927" Z="87.4931"/>
 <InfoNormRichtung vMax="38.8889" km="42.389"/>
-<InfoGegenRichtung vMax="33.3333" km="42.3852" pos="1">
+<InfoGegenRichtung vMax="38.8889" km="42.3853" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
-<NachNorm Nr="994"/>
+<NachNorm Nr="3158"/>
 <NachGegen Nr="987"/>
 </StrElement>
 <StrElement Nr="989" spTrass="27.7778" Anschluss="257" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1073.413" Y="1025.145" Z="87.502"/>
 <b X="-1076.809" Y="1026.55" Z="87.4929"/>
 <InfoNormRichtung vMax="38.8889" km="42.3889"/>
-<InfoGegenRichtung vMax="33.3333" km="42.3852" pos="1">
+<InfoGegenRichtung vMax="33.3333" km="42.3853" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="976"/>
@@ -4200,7 +4219,7 @@
 <StrElement Nr="990" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1056.094" Y="1017.9799" Z="87.5481"/>
 <b X="-1061.871" Y="1020.37" Z="87.5327"/>
-<InfoNormRichtung vMax="38.8889" km="42.4076"/>
+<InfoNormRichtung vMax="38.8889" km="42.4077"/>
 <InfoGegenRichtung vMax="33.3333" km="42.4014" pos="1"/>
 <NachNorm Nr="993"/>
 <NachGegen Nr="991"/>
@@ -4208,15 +4227,15 @@
 <StrElement Nr="991" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1044.731" Y="1013.278" Z="87.5784"/>
 <b X="-1056.094" Y="1017.9799" Z="87.5481"/>
-<InfoNormRichtung vMax="38.8889" km="42.4199"/>
-<InfoGegenRichtung vMax="33.3333" km="42.4076" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="42.42"/>
+<InfoGegenRichtung vMax="33.3333" km="42.4077" pos="1"/>
 <NachNorm Nr="990"/>
 <NachGegen Nr="981"/>
 </StrElement>
 <StrElement Nr="992" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1067.645" Y="1022.759" Z="87.5173"/>
 <b X="-1073.413" Y="1025.145" Z="87.502"/>
-<InfoNormRichtung vMax="38.8889" km="42.3951">
+<InfoNormRichtung vMax="38.8889" km="42.3952">
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="42.3889" pos="1"/>
@@ -4227,23 +4246,11 @@
 <g X="-1061.871" Y="1020.37" Z="87.5327"/>
 <b X="-1067.645" Y="1022.759" Z="87.5173"/>
 <InfoNormRichtung vMax="38.8889" km="42.4014"/>
-<InfoGegenRichtung vMax="33.3333" km="42.3951" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.3952" pos="1"/>
 <NachNorm Nr="992"/>
 <NachGegen Nr="990"/>
 </StrElement>
-<StrElement Nr="994" spTrass="27.7778" Anschluss="257" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
-<g X="-1077.4041" Y="1024.927" Z="87.4931"/>
-<b X="-1082.7841" Y="1026.562" Z="87.4794"/>
-<InfoNormRichtung vMax="38.8889" km="42.3852" Reg="5012">
-<Ereignis Er="4"/>
-</InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.3796" pos="1" Reg="5012">
-<Ereignis Er="4"/>
-</InfoGegenRichtung>
-<NachNorm Nr="1006"/>
-<NachGegen Nr="988"/>
-</StrElement>
-<StrElement Nr="995" spTrass="27.7778" Anschluss="256" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
+<StrElement Nr="995" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1083.377" Y="1024.939" Z="87.4796"/>
 <b X="-1065.5024" Y="1017.5442" Z="87.5272"/>
 <InfoGegenRichtung vMax="38.8889" km="42.3988"/>
@@ -4253,15 +4260,15 @@
 <StrElement Nr="996" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1011.879" Y="995.3603" Z="87.67"/>
 <b X="-1001.7199" Y="991.1576" Z="87.7029"/>
-<InfoNormRichtung vMax="33.3333" km="42.4568" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.4678"/>
+<InfoNormRichtung vMax="33.3333" km="42.4569" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.4679"/>
 <NachNorm Nr="997"/>
 <NachGegen Nr="1093"/>
 </StrElement>
 <StrElement Nr="997" spTrass="27.7778" Anschluss="257" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1001.7199" Y="991.1576" Z="87.7029"/>
 <b X="-920.064" Y="957.3762" Z="87.9678"/>
-<InfoNormRichtung vMax="33.3333" km="42.4678" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.4679" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="42.5562"/>
 <NachNorm Nr="1048"/>
 <NachGegen Nr="996"/>
@@ -4269,7 +4276,7 @@
 <StrElement Nr="998" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1121.813" Y="1040.8409" Z="87.3772"/>
 <b X="-1120.7039" Y="1040.382" Z="87.3802"/>
-<InfoNormRichtung vMax="33.3333" km="42.3381" pos="1" Reg="5013">
+<InfoNormRichtung vMax="38.8889" km="42.3381" pos="1" Reg="5010">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="1" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1121.813" Y="1040.8409" Z="87.3772"/>
 <phi Y="-0.00246" Z="-0.392294"/>
@@ -4315,7 +4322,7 @@
 <MatrixEintrag Signalbild="125" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="42.3393" Reg="5013"/>
+<InfoGegenRichtung vMax="38.8889" km="42.3393" Reg="5010"/>
 <NachNorm Nr="999"/>
 <NachNorm Nr="1000"/>
 <NachGegen Nr="822"/>
@@ -4331,7 +4338,7 @@
 <StrElement Nr="1000" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1120.7039" Y="1040.382" Z="87.3802"/>
 <b X="-1115.655" Y="1038.3409" Z="87.3936"/>
-<InfoNormRichtung vMax="33.3333" km="42.3393" pos="1">
+<InfoNormRichtung vMax="38.8889" km="42.3393" pos="1">
 <Ereignis Er="1" Wert="16.6667"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="42.3447">
@@ -4343,15 +4350,15 @@
 <StrElement Nr="1001" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1115.655" Y="1038.3409" Z="87.3936"/>
 <b X="-1109.8409" Y="1036.068" Z="87.4089"/>
-<InfoNormRichtung vMax="33.3333" km="42.3447" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.3509"/>
+<InfoNormRichtung vMax="38.8889" km="42.3447" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.351"/>
 <NachNorm Nr="1002"/>
 <NachGegen Nr="1000"/>
 </StrElement>
 <StrElement Nr="1002" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1109.8409" Y="1036.068" Z="87.4089"/>
 <b X="-1104" Y="1033.8669" Z="87.4243"/>
-<InfoNormRichtung vMax="33.3333" km="42.3509" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="42.351" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="42.3572"/>
 <NachNorm Nr="1003"/>
 <NachGegen Nr="1001"/>
@@ -4359,15 +4366,15 @@
 <StrElement Nr="1003" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1104" Y="1033.8669" Z="87.4243"/>
 <b X="-1098.131" Y="1031.74" Z="87.4396"/>
-<InfoNormRichtung vMax="33.3333" km="42.3572" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.3634"/>
+<InfoNormRichtung vMax="38.8889" km="42.3572" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.3635"/>
 <NachNorm Nr="1004"/>
 <NachGegen Nr="1002"/>
 </StrElement>
 <StrElement Nr="1004" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1098.131" Y="1031.74" Z="87.4396"/>
 <b X="-1092.2371" Y="1029.686" Z="87.4549"/>
-<InfoNormRichtung vMax="33.3333" km="42.3634" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="42.3635" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="42.3697"/>
 <NachNorm Nr="1005"/>
 <NachGegen Nr="1003"/>
@@ -4375,7 +4382,7 @@
 <StrElement Nr="1005" kr="0.002" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1092.2371" Y="1029.686" Z="87.4549"/>
 <b X="-1086.3171" Y="1027.705" Z="87.4703"/>
-<InfoNormRichtung vMax="33.3333" km="42.3697" pos="1">
+<InfoNormRichtung vMax="38.8889" km="42.3697" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="42.3759"/>
@@ -4385,11 +4392,11 @@
 <StrElement Nr="1006" kr="0.002" spTrass="27.7778" Anschluss="257" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1086.3171" Y="1027.705" Z="87.4703"/>
 <b X="-1082.7841" Y="1026.562" Z="87.4794"/>
-<InfoNormRichtung vMax="33.3333" km="42.3759" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.3796">
+<InfoNormRichtung vMax="38.8889" km="42.3759" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.3797">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
-<NachNorm Nr="994"/>
+<NachNorm Nr="3157"/>
 <NachGegen Nr="1005"/>
 </StrElement>
 <StrElement Nr="1007" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
@@ -4463,7 +4470,7 @@
 <StrElement Nr="1015" Ueberh="0.014" kr="-0.000417" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-724.6223" Y="886.0125" Z="88.4199"/>
 <b X="-738.9641" Y="890.9645" Z="88.4199"/>
-<InfoNormRichtung vMax="38.8889" km="42.7645" Reg="5014">
+<InfoNormRichtung vMax="38.8889" km="42.7645" Reg="5011">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="P2" SignalTyp="9" BoundingR="10">
 <p X="-737.9393" Y="893.9326" Z="87.8199"/>
@@ -4562,24 +4569,24 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.7493" pos="1" Reg="5014"/>
+<InfoGegenRichtung vMax="33.3333" km="42.7493" pos="1" Reg="5011"/>
 <NachNorm Nr="1016"/>
 <NachGegen Nr="1014"/>
 </StrElement>
 <StrElement Nr="1016" Ueberh="0.014" kr="-0.000417" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-738.9641" Y="890.9645" Z="88.4199"/>
 <b X="-753.2742" Y="896.0071" Z="88.4199"/>
-<InfoNormRichtung vMax="38.8889" km="42.7493" Reg="5015">
+<InfoNormRichtung vMax="38.8889" km="42.7493" Reg="5012">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.7341" pos="1" Reg="5015"/>
+<InfoGegenRichtung vMax="33.3333" km="42.7342" pos="1" Reg="5012"/>
 <NachNorm Nr="1017"/>
 <NachGegen Nr="1015"/>
 </StrElement>
 <StrElement Nr="1017" Ueberh="0.014" kr="-0.000417" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-753.2742" Y="896.0071" Z="88.4199"/>
 <b X="-767.5521" Y="901.14" Z="88.4185"/>
-<InfoNormRichtung vMax="38.8889" km="42.7341"/>
+<InfoNormRichtung vMax="38.8889" km="42.7342"/>
 <InfoGegenRichtung vMax="33.3333" km="42.719" pos="1"/>
 <NachNorm Nr="1018"/>
 <NachGegen Nr="1016"/>
@@ -4647,22 +4654,22 @@
 <g X="-785.8437" Y="907.8654" Z="88.3929"/>
 <b X="-794.8795" Y="911.2502" Z="88.3676"/>
 <InfoNormRichtung vMax="38.8889" km="42.6995"/>
-<InfoGegenRichtung vMax="33.3333" km="42.6898" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.6899" pos="1"/>
 <NachNorm Nr="1021"/>
 <NachGegen Nr="1019"/>
 </StrElement>
 <StrElement Nr="1021" Ueberh="0.014" kr="-0.000417" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-794.8795" Y="911.2502" Z="88.3676"/>
 <b X="-796.0092" Y="911.6761" Z="88.364"/>
-<InfoNormRichtung vMax="38.8889" km="42.6898"/>
-<InfoGegenRichtung vMax="33.3333" km="42.6886" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="42.6899"/>
+<InfoGegenRichtung vMax="33.3333" km="42.6887" pos="1"/>
 <NachNorm Nr="1022"/>
 <NachGegen Nr="1020"/>
 </StrElement>
 <StrElement Nr="1022" Ueberh="0.014" kr="-0.000417" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-796.0092" Y="911.6761" Z="88.364"/>
 <b X="-803.9019" Y="914.6711" Z="88.3387"/>
-<InfoNormRichtung vMax="38.8889" km="42.6886"/>
+<InfoNormRichtung vMax="38.8889" km="42.6887"/>
 <InfoGegenRichtung vMax="33.3333" km="42.6802" pos="1"/>
 <NachNorm Nr="1023"/>
 <NachGegen Nr="1021"/>
@@ -4707,14 +4714,14 @@
 <g X="-810.1873" Y="917.0789" Z="88.3185"/>
 <b X="-812.9102" Y="918.1283" Z="88.3098"/>
 <InfoNormRichtung vMax="38.8889" km="42.6735"/>
-<InfoGegenRichtung vMax="33.3333" km="42.6705" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.6706" pos="1"/>
 <NachNorm Nr="1025"/>
 <NachGegen Nr="1023"/>
 </StrElement>
 <StrElement Nr="1025" Ueberh="0.014" kr="-0.000417" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-812.9102" Y="918.1281" Z="88.3098"/>
 <b X="-824.3308" Y="922.5711" Z="88.273"/>
-<InfoNormRichtung vMax="38.8889" km="42.6705"/>
+<InfoNormRichtung vMax="38.8889" km="42.6706"/>
 <InfoGegenRichtung vMax="33.3333" km="42.6583" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 42,6" SignalTyp="1" BoundingR="10">
 <p X="-814.5822" Y="922.1051" Z="90.0098"/>
@@ -4774,30 +4781,30 @@
 <g X="-838.4395" Y="928.1527" Z="88.2275"/>
 <b X="-852.5125" Y="933.8235" Z="88.1821"/>
 <InfoNormRichtung vMax="38.8889" km="42.6431"/>
-<InfoGegenRichtung vMax="33.3333" km="42.6279" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.628" pos="1"/>
 <NachNorm Nr="1029"/>
 <NachGegen Nr="1026"/>
 </StrElement>
 <StrElement Nr="1028" Ueberh="-0.0035" kr="0.000104" spTrass="27.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-879.332" Y="944.8549" Z="88.0951"/>
 <b X="-865.9304" Y="939.3188" Z="88.1386"/>
-<InfoNormRichtung vMax="33.3333" km="42.5989" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.6134"/>
+<InfoNormRichtung vMax="33.3333" km="42.599" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.6135"/>
 <NachNorm Nr="1029"/>
 <NachGegen Nr="1030"/>
 </StrElement>
 <StrElement Nr="1029" Ueberh="-0.0105" kr="0.000312" spTrass="27.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-865.9304" Y="939.3188" Z="88.1386"/>
 <b X="-852.5122" Y="933.8232" Z="88.1821"/>
-<InfoNormRichtung vMax="33.3333" km="42.6134" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.6279"/>
+<InfoNormRichtung vMax="33.3333" km="42.6135" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="42.628"/>
 <NachNorm Nr="1027"/>
 <NachGegen Nr="1028"/>
 </StrElement>
 <StrElement Nr="1030" spTrass="27.7778" Anschluss="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-879.332" Y="944.8549" Z="88.0951"/>
 <b X="-909.3311" Y="957.2651" Z="87.9977"/>
-<InfoNormRichtung vMax="38.8889" km="42.5989"/>
+<InfoNormRichtung vMax="38.8889" km="42.599"/>
 <InfoGegenRichtung vMax="33.3333" km="42.5665" pos="1"/>
 <NachNorm Nr="1012"/>
 <NachGegen Nr="1028"/>
@@ -4805,7 +4812,7 @@
 <StrElement Nr="1031" Ueberh="-0.0026" kr="0.000069" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-644.5096" Y="853.0373" Z="88.4199"/>
 <b X="-628.2329" Y="847.6026" Z="88.42"/>
-<InfoNormRichtung vMax="33.3333" km="42.8509" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.851" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="42.8681"/>
 <NachNorm Nr="3030"/>
 <NachGegen Nr="1032"/>
@@ -4814,7 +4821,7 @@
 <g X="-660.7732" Y="858.5108" Z="88.4199"/>
 <b X="-644.5096" Y="853.0373" Z="88.4199"/>
 <InfoNormRichtung vMax="33.3333" km="42.8338" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.8509"/>
+<InfoGegenRichtung vMax="38.8889" km="42.851"/>
 <NachNorm Nr="1031"/>
 <NachGegen Nr="1049"/>
 </StrElement>
@@ -4828,7 +4835,7 @@
 <StrElement Nr="1034" Ueberh="0.0105" kr="-0.000278" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-731.3467" Y="883.2393" Z="88.4199"/>
 <b X="-740.7407" Y="886.6674" Z="88.4199"/>
-<InfoNormRichtung vMax="38.8889" km="42.759" Reg="5016">
+<InfoNormRichtung vMax="38.8889" km="42.759" Reg="5013">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="P1" SignalTyp="9" BoundingR="10">
 <p X="-739.9694" Y="888.781" Z="88.4199"/>
 <phi Z="2.791691"/>
@@ -4939,14 +4946,14 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.749" pos="1" Reg="5016"/>
+<InfoGegenRichtung vMax="33.3333" km="42.749" pos="1" Reg="5013"/>
 <NachNorm Nr="2973"/>
 <NachGegen Nr="2990"/>
 </StrElement>
 <StrElement Nr="1035" Ueberh="0.0105" kr="-0.000278" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-748.296" Y="889.4244" Z="88.4199"/>
 <b X="-765.2142" Y="895.6945" Z="88.4199"/>
-<InfoNormRichtung vMax="38.8889" km="42.7409"/>
+<InfoNormRichtung vMax="38.8889" km="42.741"/>
 <InfoGegenRichtung vMax="33.3333" km="42.7229" pos="1"/>
 <NachNorm Nr="1036"/>
 <NachGegen Nr="2973"/>
@@ -5014,14 +5021,14 @@
 <g X="-787.5912" Y="904.1363" Z="88.3921"/>
 <b X="-796.6031" Y="907.5842" Z="88.3669"/>
 <InfoNormRichtung vMax="38.8889" km="42.699"/>
-<InfoGegenRichtung vMax="33.3333" km="42.6893" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.6894" pos="1"/>
 <NachNorm Nr="1039"/>
 <NachGegen Nr="1037"/>
 </StrElement>
 <StrElement Nr="1039" Ueberh="0.0105" kr="-0.000278" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-796.6031" Y="907.5842" Z="88.3669"/>
 <b X="-798.9551" Y="908.4886" Z="88.3593"/>
-<InfoNormRichtung vMax="38.8889" km="42.6893"/>
+<InfoNormRichtung vMax="38.8889" km="42.6894"/>
 <InfoGegenRichtung vMax="33.3333" km="42.6868" pos="1"/>
 <NachNorm Nr="1040"/>
 <NachGegen Nr="1038"/>
@@ -5052,7 +5059,7 @@
 <MatrixEintrag MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.67" pos="1">
+<InfoGegenRichtung vMax="33.3333" km="42.6701" pos="1">
 <Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" Wert="11"/>
 <Signal NameBetriebsstelle="BÜ km 42,680" Stellwerk="BÜ km 42,680" Signalname="BÜ km 42,680" SignalTyp="14" BoundingR="1">
 <p X="-810.19" Y="912.84" Z="88.32"/>
@@ -5073,7 +5080,7 @@
 <StrElement Nr="1042" Ueberh="0.0105" kr="-0.000278" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-814.5992" Y="914.5523" Z="88.309"/>
 <b X="-815.7769" Y="915.0123" Z="88.3052"/>
-<InfoNormRichtung vMax="38.8889" km="42.67"/>
+<InfoNormRichtung vMax="38.8889" km="42.6701"/>
 <InfoGegenRichtung vMax="33.3333" km="42.6688" pos="1"/>
 <NachNorm Nr="1043"/>
 <NachGegen Nr="1041"/>
@@ -5082,7 +5089,7 @@
 <g X="-815.7769" Y="915.0123" Z="88.3052"/>
 <b X="-832.5661" Y="921.6202" Z="88.2512"/>
 <InfoNormRichtung vMax="38.8889" km="42.6688"/>
-<InfoGegenRichtung vMax="33.3333" km="42.6507" pos="1">
+<InfoGegenRichtung vMax="33.3333" km="42.6508" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 42,6" SignalTyp="1" BoundingR="10">
 <p X="-817.8794" Y="912.4009" Z="90.0052"/>
 <phi Z="-0.374958"/>
@@ -5132,7 +5139,7 @@
 <StrElement Nr="1044" Ueberh="0.0105" kr="-0.000278" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-832.5661" Y="921.6202" Z="88.2512"/>
 <b X="-849.3218" Y="928.3122" Z="88.1971"/>
-<InfoNormRichtung vMax="38.8889" km="42.6507"/>
+<InfoNormRichtung vMax="38.8889" km="42.6508"/>
 <InfoGegenRichtung vMax="33.3333" km="42.6327" pos="1"/>
 <NachNorm Nr="1045"/>
 <NachGegen Nr="1043"/>
@@ -5141,14 +5148,14 @@
 <g X="-849.3218" Y="928.3122" Z="88.1971"/>
 <b X="-866.0438" Y="935.088" Z="88.143"/>
 <InfoNormRichtung vMax="38.8889" km="42.6327"/>
-<InfoGegenRichtung vMax="33.3333" km="42.6146" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="42.6147" pos="1"/>
 <NachNorm Nr="1047"/>
 <NachGegen Nr="1044"/>
 </StrElement>
 <StrElement Nr="1046" Ueberh="-0.0026" kr="0.000069" spTrass="27.7778" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-897.7791" Y="948.1568" Z="88.0402"/>
 <b X="-881.9199" Y="941.6032" Z="88.0915"/>
-<InfoNormRichtung vMax="33.3333" km="42.5803" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.5804" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="42.5975"/>
 <NachNorm Nr="1047"/>
 <NachGegen Nr="1048"/>
@@ -5157,14 +5164,14 @@
 <g X="-881.9199" Y="941.6032" Z="88.0915"/>
 <b X="-866.045" Y="935.0874" Z="88.143"/>
 <InfoNormRichtung vMax="33.3333" km="42.5975" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="42.6146"/>
+<InfoGegenRichtung vMax="38.8889" km="42.6147"/>
 <NachNorm Nr="1045"/>
 <NachGegen Nr="1046"/>
 </StrElement>
 <StrElement Nr="1048" spTrass="27.7778" Anschluss="1" Fkt="8" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-897.7791" Y="948.1568" Z="88.0402"/>
 <b X="-920.064" Y="957.3762" Z="87.9678"/>
-<InfoNormRichtung vMax="38.8889" km="42.5803"/>
+<InfoNormRichtung vMax="38.8889" km="42.5804"/>
 <InfoGegenRichtung vMax="33.3333" km="42.5562" pos="1"/>
 <NachNorm Nr="997"/>
 <NachGegen Nr="1046"/>
@@ -5188,7 +5195,7 @@
 <StrElement Nr="1051" Ueberh="-0.0105" kr="0.000278" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-714.364" Y="877.1379" Z="88.4199"/>
 <b X="-712.6683" Y="876.534" Z="88.4199"/>
-<InfoNormRichtung vMax="33.3333" km="42.777" pos="1" Reg="5017">
+<InfoNormRichtung vMax="33.3333" km="42.7771" pos="1" Reg="5014">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="7" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-714.364" Y="877.1379" Z="88.4199"/>
 <phi Y="-0.000001" Z="-0.342387"/>
@@ -5229,7 +5236,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="42.7788" Reg="5017"/>
+<InfoGegenRichtung vMax="38.8889" km="42.7789" Reg="5014"/>
 <NachNorm Nr="1052"/>
 <NachNorm Nr="1054"/>
 <NachGegen Nr="1033"/>
@@ -5237,7 +5244,7 @@
 <StrElement Nr="1052" Ueberh="-0.0105" kr="0.000278" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-712.6683" Y="876.534" Z="88.4199"/>
 <b X="-700.7336" Y="872.3105" Z="88.4199"/>
-<InfoNormRichtung vMax="33.3333" km="42.7788" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="42.7789" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="42.7915"/>
 <NachNorm Nr="1058"/>
 <NachGegen Nr="1051"/>
@@ -5329,7 +5336,7 @@
 <StrElement Nr="1062" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Drahthoehe="5.5">
 <g X="-672.647" Y="859.1664" Z="88.4199"/>
 <b X="-671.0214" Y="858.3935" Z="88.4199"/>
-<InfoNormRichtung vMax="-1" km="42.8223" pos="1" Reg="5018">
+<InfoNormRichtung vMax="-1" km="42.8223" pos="1" Reg="5015">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="21" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-672.647" Y="859.1664" Z="88.4199"/>
 <phi Z="-0.443823"/>
@@ -5370,7 +5377,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="42.8242" Reg="5018"/>
+<InfoGegenRichtung vMax="-1" km="42.8242" Reg="5015"/>
 <NachNorm Nr="1063"/>
 <NachNorm Nr="1065"/>
 <NachGegen Nr="1061"/>
@@ -5525,10 +5532,10 @@
 <StrElement Nr="1080" spTrass="38.8889" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-240.697" Y="722.5788" Z="88.4793"/>
 <b X="-244.4915" Y="723.8444" Z="88.4778"/>
-<InfoNormRichtung vMax="38.8889" km="43.2753" Reg="5019">
+<InfoNormRichtung vMax="38.8889" km="43.2753" Reg="5016">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="43.2713" pos="1" Reg="5019"/>
+<InfoGegenRichtung vMax="33.3333" km="43.2713" pos="1" Reg="5016"/>
 <NachNorm Nr="1097"/>
 <NachGegen Nr="45"/>
 </StrElement>
@@ -5575,17 +5582,17 @@
 <StrElement Nr="1086" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-366.7599" Y="765.141" Z="88.4306"/>
 <b X="-361.0869" Y="763.1874" Z="88.4328"/>
-<InfoNormRichtung vMax="33.3333" km="43.1422" pos="1" Reg="5020">
+<InfoNormRichtung vMax="33.3333" km="43.1422" pos="1" Reg="5017">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.1482" Reg="5020"/>
+<InfoGegenRichtung vMax="38.8889" km="43.1482" Reg="5017"/>
 <NachNorm Nr="1084"/>
 <NachGegen Nr="2970"/>
 </StrElement>
 <StrElement Nr="1087" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-426.7891" Y="785.8132" Z="88.42"/>
 <b X="-393.6254" Y="774.3926" Z="88.4202"/>
-<InfoNormRichtung vMax="33.3333" km="43.0787" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="43.0788" pos="1"/>
 <InfoGegenRichtung vMax="38.8889" km="43.1138"/>
 <NachNorm Nr="1828"/>
 <NachGegen Nr="1088"/>
@@ -5593,16 +5600,16 @@
 <StrElement Nr="1088" Ueberh="0.0035" kr="-0.000043" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-442.0129" Y="791.0519" Z="88.42"/>
 <b X="-426.7891" Y="785.8132" Z="88.42"/>
-<InfoNormRichtung vMax="33.3333" km="43.0626" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.0787"/>
+<InfoNormRichtung vMax="33.3333" km="43.0627" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="43.0788"/>
 <NachNorm Nr="1087"/>
 <NachGegen Nr="1089"/>
 </StrElement>
 <StrElement Nr="1089" Ueberh="0.0035" kr="-0.000129" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-457.244" Y="796.2696" Z="88.42"/>
 <b X="-442.0129" Y="791.0519" Z="88.42"/>
-<InfoNormRichtung vMax="33.3333" km="43.0465" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.0626"/>
+<InfoNormRichtung vMax="33.3333" km="43.0466" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="43.0627"/>
 <NachNorm Nr="1088"/>
 <NachGegen Nr="1090"/>
 </StrElement>
@@ -5610,7 +5617,7 @@
 <g X="-472.8233" Y="801.5624" Z="88.42"/>
 <b X="-457.2419" Y="796.2695" Z="88.42"/>
 <InfoNormRichtung vMax="33.3333" km="43.0301" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="43.0465"/>
+<InfoGegenRichtung vMax="38.8889" km="43.0466"/>
 <NachNorm Nr="1089"/>
 <NachGegen Nr="3148"/>
 </StrElement>
@@ -5644,10 +5651,10 @@
 <StrElement Nr="1095" spTrass="27.7778" Anschluss="256" Fkt="8" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1034.6788" Y="1009.1199" Z="87.6051"/>
 <b X="-1029.1346" Y="1006.8264" Z="87.6199"/>
-<InfoNormRichtung vMax="33.3333" km="42.4308" pos="1" Reg="5021">
+<InfoNormRichtung vMax="33.3333" km="42.4309" pos="1" Reg="5018">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="42.4368" Reg="5021">
+<InfoGegenRichtung vMax="38.8889" km="42.4369" Reg="5018">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="Zs6" BoundingR="10">
 <p X="-1033.3715" Y="1012.1502" Z="91.2037"/>
 <phi Z="2.749344"/>
@@ -5661,9 +5668,13 @@
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Zusatzsignale\Lichtsignale_5x7Matrix\Symbole\Zs6.lod.ls3"/>
 </SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
+<HsigBegriff HsigGeschw="16.6667" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="16.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="1" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1">
 <Ereignis Er="28" Wert="1"/>
 </MatrixEintrag>
 </Signal>
@@ -5674,8 +5685,8 @@
 <StrElement Nr="1096" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1125.5092" Y="1042.3701" Z="87.3673"/>
 <b X="-1153.535" Y="1053.9655" Z="87.2925"/>
-<InfoNormRichtung vMax="38.8889" km="42.3341" Reg="5022"/>
-<InfoGegenRichtung vMax="33.3333" km="42.3037" pos="1" Reg="5022">
+<InfoNormRichtung vMax="38.8889" km="42.3341" Reg="5019"/>
+<InfoGegenRichtung vMax="38.8889" km="42.3038" pos="1" Reg="5019">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="W1" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1126.1782" Y="1040.7531" Z="87.3673"/>
 <phi Z="-0.39229"/>
@@ -5722,7 +5733,7 @@
 <StrElement Nr="1097" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-244.4915" Y="723.8444" Z="88.4778"/>
 <b X="-256.1027" Y="727.7172" Z="88.4734"/>
-<InfoGegenRichtung vMax="33.3333" km="43.259" pos="1">
+<InfoGegenRichtung vMax="33.3333" km="43.2591" pos="1">
 <Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" Wert="17"/>
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 43,272" SignalTyp="14" BoundingR="1">
 <p X="-250.21" Y="725.75" Z="88.48"/>
@@ -5750,8 +5761,8 @@
 <StrElement Nr="1099" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-152.9235" Y="689.0869" Z="88.4538"/>
 <b X="-110.4343" Y="674.9161" Z="88.4286"/>
-<InfoNormRichtung vMax="33.3333" km="43.3691" pos="1" Reg="5023"/>
-<InfoGegenRichtung vMax="38.8889" km="43.4139" Reg="5023">
+<InfoNormRichtung vMax="33.3333" km="43.3692" pos="1" Reg="5020"/>
+<InfoGegenRichtung vMax="38.8889" km="43.414" Reg="5020">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="1II" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-152.3698" Y="690.747" Z="88.4538"/>
 <phi Z="2.819677"/>
@@ -5916,7 +5927,7 @@
 <StrElement Nr="1603" spTrass="27.7778" Fkt="2" Oberbau="B70 SKL-Oberbau">
 <g X="-810.8709" Y="911.0351" Z="88.238"/>
 <b X="-807.9294" Y="918.7829" Z="88.238"/>
-<InfoNormRichtung vMax="-1" Reg="5041">
+<InfoNormRichtung vMax="-1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 42,680" SignalTyp="4" BoundingR="10">
 <p X="-810.8709" Y="911.0351" Z="88.2443"/>
 <phi Z="1.207955"/>
@@ -5957,7 +5968,7 @@
 <MatrixEintrag Signalbild="725" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5041">
+<InfoGegenRichtung vMax="-1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 42,680" SignalFlags="8" SignalTyp="4" BoundingR="10">
 <p X="-807.9294" Y="918.7829" Z="88.1959"/>
 <phi Z="-1.93364"/>
@@ -6032,7 +6043,7 @@
 <InfoNormRichtung vMax="33.3333" km="42.9216" pos="1">
 <Ereignis Er="1000010"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="42.9297">
+<InfoGegenRichtung vMax="38.8889" km="42.9298">
 <Ereignis Er="1000009"/>
 </InfoGegenRichtung>
 <NachNorm Nr="78"/>
@@ -6041,7 +6052,7 @@
 <StrElement Nr="1831" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-381.5287" Y="765.3351" Z="88.4255"/>
 <b X="-354.492" Y="756.3174" Z="88.436"/>
-<InfoGegenRichtung vMax="38.8889">
+<InfoGegenRichtung vMax="38.8889" km="43.1567">
 <Ereignis Er="1000010"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2971"/>
@@ -6050,7 +6061,7 @@
 <StrElement Nr="1832" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-595.4473" Y="836.67" Z="88.42"/>
 <b X="-580.1632" Y="831.5735" Z="88.42"/>
-<InfoNormRichtung vMax="-1" pos="1">
+<InfoNormRichtung vMax="-1" km="42.9027" pos="1">
 <Ereignis Er="1000007"/>
 </InfoNormRichtung>
 <NachNorm Nr="3137"/>
@@ -6529,7 +6540,7 @@
 <StrElement Nr="2970" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-375.2695" Y="768.0714" Z="88.4273"/>
 <b X="-366.7599" Y="765.141" Z="88.4306"/>
-<InfoNormRichtung vMax="33.3333" km="43.1332" pos="1" Reg="5053">
+<InfoNormRichtung vMax="33.3333" km="43.1332" pos="1" Reg="5021">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="N2" SignalTyp="9" BoundingR="10">
 <p X="-367.4926" Y="763.0136" Z="88.4306"/>
@@ -6625,19 +6636,15 @@
 <MatrixEintrag Signalbild="15627" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="15651" MatrixGeschw="6.9444"/>
 <MatrixEintrag Signalbild="16139" MatrixGeschw="-1"/>
-<Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="15687" MatrixGeschw="11.1111">
-<Ereignis Er="28" Wert="9"/>
-</MatrixEintrag>
-</Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
 <MatrixEintrag Signalbild="15751" MatrixGeschw="11.1111">
 <Ereignis Er="28" Wert="6"/>
+<Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.1422" Reg="5053">
+<InfoGegenRichtung vMax="38.8889" km="43.1422" Reg="5021">
 <Ereignis Er="1000007"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1086"/>
@@ -6646,7 +6653,7 @@
 <StrElement Nr="2971" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-354.492" Y="756.3174" Z="88.436"/>
 <b X="-348.8003" Y="754.4189" Z="88.4381"/>
-<InfoNormRichtung vMax="33.3333" km="43.1566" pos="1" Reg="5054">
+<InfoNormRichtung vMax="33.3333" km="43.1567" pos="1" Reg="5022">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="N1" SignalTyp="9" BoundingR="10">
 <p X="-349.7938" Y="751.4402" Z="87.8382"/>
 <phi Z="-0.321939"/>
@@ -6745,35 +6752,35 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.1626" Reg="5054"/>
+<InfoGegenRichtung vMax="38.8889" km="43.1627" Reg="5022"/>
 <NachNorm Nr="2972"/>
 <NachGegen Nr="1831"/>
 </StrElement>
 <StrElement Nr="2972" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-348.8003" Y="754.4189" Z="88.4381"/>
 <b X="-327.4554" Y="747.2996" Z="88.4464"/>
-<InfoNormRichtung vMax="33.3333" km="43.1626" pos="1" Reg="5055">
+<InfoNormRichtung vMax="33.3333" km="43.1627" pos="1" Reg="5023">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.1851" Reg="5055"/>
+<InfoGegenRichtung vMax="38.8889" km="43.1852" Reg="5023"/>
 <NachNorm Nr="5"/>
 <NachGegen Nr="2971"/>
 </StrElement>
 <StrElement Nr="2973" Ueberh="0.0105" kr="-0.000278" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-740.7407" Y="886.6674" Z="88.4199"/>
 <b X="-748.296" Y="889.4244" Z="88.4199"/>
-<InfoNormRichtung vMax="38.8889" km="42.749" Reg="5056">
+<InfoNormRichtung vMax="38.8889" km="42.749" Reg="5024">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.7409" pos="1" Reg="5056"/>
+<InfoGegenRichtung vMax="33.3333" km="42.741" pos="1" Reg="5024"/>
 <NachNorm Nr="1035"/>
 <NachGegen Nr="1034"/>
 </StrElement>
 <StrElement Nr="2974" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="282.8618" Y="547.9615" Z="88.5296"/>
 <b X="314.1781" Y="537.517" Z="88.5402"/>
-<InfoNormRichtung vMax="33.3333" km="43.8272" pos="1" Reg="5057"/>
-<InfoGegenRichtung vMax="33.3333" km="43.8602" Reg="5057">
+<InfoNormRichtung vMax="33.3333" km="43.8272" pos="1" Reg="5025"/>
+<InfoGegenRichtung vMax="33.3333" km="43.8602" Reg="5025">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="F1" SignalTyp="7" BoundingR="10">
 <p X="283.8552" Y="550.9402" Z="87.9296"/>
 <phi Z="2.819677"/>
@@ -7481,12 +7488,12 @@
 <StrElement Nr="2975" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="281.5957" Y="544.1671" Z="88.5296"/>
 <b X="312.9122" Y="533.7225" Z="88.5402"/>
-<InfoNormRichtung vMax="33.3333" km="43.8272" pos="1" Reg="5058"/>
-<InfoGegenRichtung vMax="33.3333" km="43.8602" Reg="5058">
+<InfoNormRichtung vMax="33.3333" km="43.8272" pos="1" Reg="5026"/>
+<InfoGegenRichtung vMax="33.3333" km="43.8602" Reg="5026">
 <Ereignis Er="6" Beschr="@sep=E 60@"/>
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="F2" SignalTyp="7" BoundingR="10">
 <p X="280.6023" Y="541.1884" Z="87.9296"/>
-<phi Z="2.819677"/>
+<phi Z="2.819675"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -7523,17 +7530,17 @@
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Lichtsignale_Einheitsbauform_69\Schaltkasten69-einfach.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.2001" Z="3.3"/>
+<p X="-0.2" Z="3.3"/>
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.2001" Y="0.03" Z="3.3"/>
+<p X="-0.2" Y="0.03" Z="3.3"/>
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_F.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.2001" Y="-0.06" Z="3.3"/>
+<p X="-0.2" Y="-0.06" Z="3.3"/>
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_2.lod.ls3"/>
 </SignalFrame>
@@ -7831,6 +7838,27 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="16025" MatrixGeschw="16.6667">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="16073" MatrixGeschw="16.6667">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="16073" MatrixGeschw="16.6667">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="16073" MatrixGeschw="16.6667">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="16073" MatrixGeschw="16.6667">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="16073" MatrixGeschw="16.6667">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="16073" MatrixGeschw="16.6667">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
 <MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
@@ -7840,14 +7868,9 @@
 <MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="16041" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="16009" MatrixGeschw="16.6667">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
 <MatrixEintrag Signalbild="16037" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="16021" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
@@ -8160,7 +8183,7 @@
 <Ereignis Er="17" Wert="400"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010B07">
 <MatrixEintrag Signalbild="16003" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
@@ -8175,8 +8198,8 @@
 <StrElement Nr="2976" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-151.6574" Y="692.8814" Z="88.4537"/>
 <b X="-109.1682" Y="678.7106" Z="88.4286"/>
-<InfoNormRichtung vMax="33.3333" km="43.3691" pos="1" Reg="5059"/>
-<InfoGegenRichtung vMax="38.8889" km="43.4139" Reg="5059">
+<InfoNormRichtung vMax="33.3333" km="43.3692" pos="1" Reg="5027"/>
+<InfoGegenRichtung vMax="38.8889" km="43.414" Reg="5027">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="2II" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-151.1037" Y="694.5415" Z="88.4537"/>
 <phi Z="2.819677"/>
@@ -8228,8 +8251,8 @@
 <StrElement Nr="2977" spTrass="27.7778" Anschluss="256" Fkt="8" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-971.9867" Y="983.1849" Z="87.7944"/>
 <b X="-918.5349" Y="961.0726" Z="87.9678"/>
-<InfoNormRichtung vMax="33.3333" km="42.4987" pos="1" Reg="5060"/>
-<InfoGegenRichtung vMax="38.8889" km="42.5565" Reg="5060">
+<InfoNormRichtung vMax="33.3333" km="42.4987" pos="1" Reg="5028"/>
+<InfoGegenRichtung vMax="38.8889" km="42.5565" Reg="5028">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="2I" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-971.3177" Y="984.8018" Z="87.7944"/>
 <phi Z="2.749343"/>
@@ -8276,18 +8299,18 @@
 <StrElement Nr="2978" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1053.4899" Y="1012.5746" Z="87.5592"/>
 <b X="-1050.559" Y="1011.3621" Z="87.567"/>
-<InfoNormRichtung vMax="33.3333" km="42.4118" pos="1" Reg="5061"/>
-<InfoGegenRichtung vMax="38.8889" km="42.415" Reg="5061"/>
+<InfoNormRichtung vMax="33.3333" km="42.4118" pos="1" Reg="5029"/>
+<InfoGegenRichtung vMax="38.8889" km="42.415" Reg="5029"/>
 <NachNorm Nr="2979"/>
 <NachGegen Nr="2981"/>
 </StrElement>
 <StrElement Nr="2979" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1050.559" Y="1011.3621" Z="87.567"/>
 <b X="-1047.6279" Y="1010.1496" Z="87.5748"/>
-<InfoNormRichtung vMax="33.3333" km="42.415" pos="1" Reg="5062">
+<InfoNormRichtung vMax="33.3333" km="42.415" pos="1" Reg="5030">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="42.4182" Reg="5062"/>
+<InfoGegenRichtung vMax="38.8889" km="42.4182" Reg="5030"/>
 <NachNorm Nr="1093"/>
 <NachGegen Nr="2978"/>
 </StrElement>
@@ -8300,8 +8323,8 @@
 <StrElement Nr="2981" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1056.4929" Y="1013.817" Z="87.5512"/>
 <b X="-1053.4899" Y="1012.5746" Z="87.5592"/>
-<InfoNormRichtung vMax="33.3333" km="42.4086" pos="1" Reg="5063"/>
-<InfoGegenRichtung vMax="38.8889" km="42.4118" Reg="5063">
+<InfoNormRichtung vMax="33.3333" km="42.4086" pos="1" Reg="5031"/>
+<InfoGegenRichtung vMax="38.8889" km="42.4118" Reg="5031">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="1I" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1055.8239" Y="1015.4341" Z="87.5512"/>
 <phi Z="2.749312"/>
@@ -8348,7 +8371,7 @@
 <StrElement Nr="2982" Ueberh="-0.0551" kr="0.000746" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1230.2915" Y="1085" Z="87.0995"/>
 <b X="-1234.825" Y="1086.7332" Z="87.0945"/>
-<InfoNormRichtung vMax="33.3333" km="42.2209"/>
+<InfoNormRichtung vMax="33.3333" km="42.221"/>
 <InfoGegenRichtung vMax="33.3333" km="42.2161" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="N1v" SignalTyp="6" BoundingR="10">
 <p X="-1231.4128" Y="1082.067" Z="86.4995"/>
@@ -8530,20 +8553,20 @@
 <StrElement Nr="2984" Ueberh="0.0404" kr="-0.000547" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1809.927" Y="1144.5951" Z="86.9687"/>
 <b X="-1805.132" Y="1145.347" Z="86.9755"/>
-<InfoNormRichtung vMax="33.3333" km="41.6314" pos="1" Reg="5064">
+<InfoNormRichtung vMax="33.3333" km="41.6315" pos="1" Reg="5032">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="41.6363" Reg="5064"/>
+<InfoGegenRichtung vMax="33.3333" km="41.6363" Reg="5032"/>
 <NachNorm Nr="830"/>
 <NachGegen Nr="829"/>
 </StrElement>
 <StrElement Nr="2985" Ueberh="0.0391" kr="-0.000527" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1810.2275" Y="1148.479" Z="86.9691"/>
 <b X="-1805.228" Y="1149.249" Z="86.9762"/>
-<InfoNormRichtung vMax="33.3333" km="41.6298" pos="1" Reg="5065">
+<InfoNormRichtung vMax="33.3333" km="41.6298" pos="1" Reg="5033">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="41.6348" Reg="5065"/>
+<InfoGegenRichtung vMax="38.8889" km="41.6349" Reg="5033"/>
 <NachNorm Nr="969"/>
 <NachGegen Nr="968"/>
 </StrElement>
@@ -8776,7 +8799,7 @@
 <g X="1339.2827" Y="195.6263" Z="91.079"/>
 <b X="1347.3641" Y="192.931" Z="91.105"/>
 <InfoNormRichtung vMax="33.3333" km="44.9408" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.9493">
+<InfoGegenRichtung vMax="33.3333" km="44.9494">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" SignalTyp="1" BoundingR="10">
 <p X="1339.2827" Y="195.6263" Z="91.079"/>
 <phi Z="2.819674"/>
@@ -8802,7 +8825,7 @@
 <g X="1410.4297" Y="171.8975" Z="91.3081"/>
 <b X="1441.29" Y="161.605" Z="91.4075"/>
 <InfoNormRichtung vMax="33.3333" km="45.0158" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="45.0483">
+<InfoGegenRichtung vMax="33.3333" km="45.0484">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" SignalTyp="1" BoundingR="10">
 <p X="1410.4297" Y="171.8975" Z="91.3081"/>
 <phi Z="2.819675"/>
@@ -8854,7 +8877,7 @@
 <g X="1338.0167" Y="191.832" Z="91.079"/>
 <b X="1346.099" Y="189.1365" Z="91.105"/>
 <InfoNormRichtung vMax="33.3333" km="44.9408" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="44.9493">
+<InfoGegenRichtung vMax="33.3333" km="44.9494">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" SignalTyp="1" BoundingR="10">
 <p X="1338.0167" Y="191.832" Z="91.079"/>
 <phi Z="2.819681"/>
@@ -8880,7 +8903,7 @@
 <g X="1409.1637" Y="168.1033" Z="91.3081"/>
 <b X="1440.0251" Y="157.8105" Z="91.4075"/>
 <InfoNormRichtung vMax="33.3333" km="45.0158" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="45.0483">
+<InfoGegenRichtung vMax="33.3333" km="45.0484">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" SignalTyp="1" BoundingR="10">
 <p X="1409.1637" Y="168.1033" Z="91.3081"/>
 <phi Z="2.819677"/>
@@ -8931,8 +8954,8 @@
 <StrElement Nr="3004" spTrass="27.7778" Anschluss="256" Fkt="8" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1029.1346" Y="1006.8264" Z="87.6199"/>
 <b X="-1010.3339" Y="999.049" Z="87.67"/>
-<InfoNormRichtung vMax="33.3333" km="42.4368" pos="1" Reg="5066"/>
-<InfoGegenRichtung vMax="38.8889" km="42.4572" Reg="5066"/>
+<InfoNormRichtung vMax="33.3333" km="42.4369" pos="1" Reg="5034"/>
+<InfoGegenRichtung vMax="38.8889" km="42.4572" Reg="5034"/>
 <NachNorm Nr="978"/>
 <NachGegen Nr="1095"/>
 </StrElement>
@@ -8945,7 +8968,7 @@
 <StrElement Nr="3006" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2798.6511" Y="979.0595" Z="87.2895"/>
 <b X="-2837.03" Y="972.4663" Z="87.3264"/>
-<InfoNormRichtung vMax="38.8889" km="40.6269"/>
+<InfoNormRichtung vMax="38.8889" km="40.627"/>
 <NachNorm Nr="150"/>
 <NachGegen Nr="3009"/>
 </StrElement>
@@ -8958,7 +8981,7 @@
 <StrElement Nr="3008" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2782.9194" Y="977.704" Z="87.275"/>
 <b X="-2759.594" Y="981.7111" Z="87.2526"/>
-<InfoNormRichtung vMax="33.3333" km="40.6442" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="40.6443" pos="1"/>
 <NachNorm Nr="130"/>
 <NachGegen Nr="3012"/>
 </StrElement>
@@ -9151,28 +9174,28 @@
 </MatrixEintrag>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="40.6442"/>
+<InfoGegenRichtung vMax="33.3333" km="40.6443"/>
 <NachNorm Nr="3008"/>
 <NachGegen Nr="3011"/>
 </StrElement>
 <StrElement Nr="3013" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2881.4756" Y="960.7731" Z="87.3698"/>
 <b X="-2852.895" Y="965.6829" Z="87.3423"/>
-<InfoNormRichtung vMax="33.3333" km="40.5442" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="40.5443" pos="1"/>
 <NachNorm Nr="129"/>
 <NachGegen Nr="3023"/>
 </StrElement>
 <StrElement Nr="3014" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2955.3928" Y="948.0749" Z="87.4408"/>
 <b X="-2946.196" Y="949.6547" Z="87.432"/>
-<InfoNormRichtung vMax="33.3333" km="40.4692" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="40.4693" pos="1"/>
 <NachNorm Nr="128"/>
 <NachGegen Nr="3015"/>
 </StrElement>
 <StrElement Nr="3015" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-3029.3103" Y="935.3766" Z="87.5119"/>
 <b X="-2955.3928" Y="948.0749" Z="87.4408"/>
-<InfoNormRichtung vMax="33.3333" km="40.3942" pos="1">
+<InfoNormRichtung vMax="33.3333" km="40.3943" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="A1vB" SignalTyp="1" BoundingR="10">
 <p X="-2955.3928" Y="948.0749" Z="87.4408"/>
 <phi Z="0.170129"/>
@@ -9374,39 +9397,14 @@
 <StrElement Nr="3024" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2930.0161" Y="952.4344" Z="87.4164"/>
 <b X="-2913.8357" Y="955.2139" Z="87.4009"/>
-<InfoGegenRichtung vMax="33.3333" km="40.5114">
-<Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" SignalTyp="14" BoundingR="25">
-<p X="-2930.0161" Y="952.4344" Z="87.4164"/>
-<phi Z="-2.971463"/>
-<SignalFrame>
-<p X="-10"/>
-<phi/>
-<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p/>
-<phi/>
-<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="3"/>
-<phi/>
-<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="7" MatrixGeschw="-1">
-<Ereignis Er="2000" Wert="120"/>
-</MatrixEintrag>
-</Signal>
-</InfoGegenRichtung>
+<InfoGegenRichtung vMax="33.3333" km="40.5114"/>
 <NachNorm Nr="3023"/>
 <NachGegen Nr="128"/>
 </StrElement>
 <StrElement Nr="3025" spTrass="27.7778" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2066.2158" Y="1100.8276" Z="86.82"/>
 <b X="-2013.189" Y="1109.937" Z="86.82"/>
-<InfoNormRichtung vMax="33.3333" km="41.3714" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="41.3715" pos="1"/>
 <NachNorm Nr="139"/>
 <NachGegen Nr="138"/>
 </StrElement>
@@ -9414,7 +9412,7 @@
 <g X="-2066.5356" Y="1104.8306" Z="86.82"/>
 <b X="-2107.167" Y="1097.85" Z="86.82"/>
 <InfoNormRichtung vMax="38.8889" km="41.3698"/>
-<InfoGegenRichtung vMax="33.3333" km="41.3285" pos="1">
+<InfoGegenRichtung vMax="33.3333" km="41.3286" pos="1">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="500 Hz (A2)" SignalTyp="14" BoundingR="3">
 <p X="-2066.5356" Y="1104.8306" Z="86.82"/>
 <phi Z="0.170142"/>
@@ -9488,7 +9486,7 @@
 <StrElement Nr="3029" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-613.0126" Y="848.5592" Z="88.42"/>
 <b X="-575.6525" Y="836.0429" Z="88.42"/>
-<InfoNormRichtung vMax="-1" pos="1">
+<InfoNormRichtung vMax="-1" km="42.8822" pos="1">
 <Ereignis Er="1000010"/>
 </InfoNormRichtung>
 <NachNorm Nr="1830"/>
@@ -9515,7 +9513,7 @@
 <MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="42.9026"/>
+<InfoGegenRichtung vMax="38.8889" km="42.9027"/>
 <NachNorm Nr="1832"/>
 <NachGegen Nr="1031"/>
 </StrElement>
@@ -9686,7 +9684,7 @@
 <StrElement Nr="3037" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-260.8462" Y="729.2993" Z="88.4715"/>
 <b X="-277.2009" Y="734.7542" Z="88.4653"/>
-<InfoNormRichtung vMax="38.8889" km="43.254">
+<InfoNormRichtung vMax="38.8889" km="43.2541">
 <Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" Wert="18"/>
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 43,272" SignalTyp="14" BoundingR="1">
 <p X="-250.21" Y="725.75" Z="88.48"/>
@@ -9715,7 +9713,7 @@
 <StrElement Nr="3039" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-263.3908" Y="725.9316" Z="88.4711"/>
 <b X="-258.6477" Y="724.3495" Z="88.4729"/>
-<InfoNormRichtung vMax="33.3333" km="43.2527" pos="1" Reg="5067">
+<InfoNormRichtung vMax="33.3333" km="43.2527" pos="1" Reg="5035">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 43,2" SignalTyp="1" BoundingR="10">
 <p X="-259.6602" Y="721.3141" Z="90.1729"/>
 <phi Z="-0.321938"/>
@@ -9759,7 +9757,7 @@
 <MatrixEintrag Signalbild="127" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" Reg="5067"/>
+<InfoGegenRichtung vMax="38.8889" km="43.2577" Reg="5035"/>
 <NachNorm Nr="3040"/>
 <NachGegen Nr="3038"/>
 </StrElement>
@@ -9787,8 +9785,8 @@
 <StrElement Nr="3041" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-256.1027" Y="727.7172" Z="88.4734"/>
 <b X="-260.8462" Y="729.2993" Z="88.4715"/>
-<InfoNormRichtung vMax="38.8889" km="43.259" Reg="5068"/>
-<InfoGegenRichtung vMax="33.3333" km="43.254" pos="1" Reg="5068">
+<InfoNormRichtung vMax="38.8889" km="43.2591" Reg="5036"/>
+<InfoGegenRichtung vMax="33.3333" km="43.2541" pos="1" Reg="5036">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="BÜ km 43,2" SignalTyp="1" BoundingR="10">
 <p X="-255.0269" Y="730.9426" Z="90.1734"/>
 <phi Z="-0.321936"/>
@@ -9838,7 +9836,7 @@
 <StrElement Nr="3042" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-14.5629" Y="647.158" Z="88.4445"/>
 <b X="-2.8222" Y="643.2422" Z="88.4474"/>
-<InfoNormRichtung vMax="33.3333" km="43.5136" pos="1" Reg="5069">
+<InfoNormRichtung vMax="33.3333" km="43.5137" pos="1" Reg="5037">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="Ra10" SignalTyp="1" BoundingR="10">
 <p X="-1.7781" Y="646.3726" Z="88.4474"/>
 <phi Z="-0.321914"/>
@@ -9854,7 +9852,7 @@
 <MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.526" Reg="5069"/>
+<InfoGegenRichtung vMax="38.8889" km="43.5261" Reg="5037"/>
 <NachNorm Nr="3044"/>
 <NachGegen Nr="85"/>
 </StrElement>
@@ -9886,45 +9884,45 @@
 <StrElement Nr="3138" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-110.4343" Y="674.9161" Z="88.4286"/>
 <b X="-100.9456" Y="671.7514" Z="88.423"/>
-<InfoNormRichtung vMax="33.3333" km="43.4139" pos="1" Reg="5070">
+<InfoNormRichtung vMax="33.3333" km="43.414" pos="1" Reg="5038">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.4239" Reg="5070"/>
+<InfoGegenRichtung vMax="38.8889" km="43.424" Reg="5038"/>
 <NachNorm Nr="7"/>
 <NachGegen Nr="1099"/>
 </StrElement>
 <StrElement Nr="3139" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-109.1682" Y="678.7106" Z="88.4286"/>
 <b X="-99.6819" Y="675.5467" Z="88.423"/>
-<InfoNormRichtung vMax="33.3333" km="43.4139" pos="1" Reg="5071">
+<InfoNormRichtung vMax="33.3333" km="43.414" pos="1" Reg="5039">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="43.4239" Reg="5071"/>
+<InfoGegenRichtung vMax="38.8889" km="43.424" Reg="5039"/>
 <NachNorm Nr="84"/>
 <NachGegen Nr="2976"/>
 </StrElement>
 <StrElement Nr="3140" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1153.535" Y="1053.9655" Z="87.2925"/>
 <b X="-1162.7719" Y="1057.787" Z="87.2679"/>
-<InfoNormRichtung vMax="38.8889" km="42.3037" Reg="5072">
+<InfoNormRichtung vMax="38.8889" km="42.3038" Reg="5040">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="42.2937" pos="1" Reg="5072"/>
+<InfoGegenRichtung vMax="38.8889" km="42.2938" pos="1" Reg="5040"/>
 <NachNorm Nr="887"/>
 <NachGegen Nr="1096"/>
 </StrElement>
 <StrElement Nr="3141" spTrass="38.8889" Anschluss="256" Fkt="16" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-1123.7791" Y="1045.983" Z="87.3679"/>
 <b X="-1147.79" Y="1055.917" Z="87.3039"/>
-<InfoNormRichtung vMax="38.8889" km="42.3344"/>
+<InfoNormRichtung vMax="38.8889" km="42.3344" Reg="2"/>
 <NachNorm Nr="901"/>
 <NachGegen Nr="898"/>
 </StrElement>
 <StrElement Nr="3142" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="272.1094" Y="547.3309" Z="88.5264"/>
 <b X="281.5957" Y="544.1671" Z="88.5296"/>
-<InfoNormRichtung vMax="33.3333" km="43.8172" pos="1" Reg="5073"/>
-<InfoGegenRichtung vMax="33.3333" km="43.8272" Reg="5073">
+<InfoNormRichtung vMax="33.3333" km="43.8172" pos="1" Reg="5041"/>
+<InfoGegenRichtung vMax="33.3333" km="43.8272" Reg="5041">
 <Ereignis Er="3"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2975"/>
@@ -9933,8 +9931,8 @@
 <StrElement Nr="3143" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="273.3754" Y="551.1254" Z="88.5264"/>
 <b X="282.8618" Y="547.9615" Z="88.5296"/>
-<InfoNormRichtung vMax="33.3333" km="43.8172" pos="1" Reg="5074"/>
-<InfoGegenRichtung vMax="33.3333" km="43.8272" Reg="5074">
+<InfoNormRichtung vMax="33.3333" km="43.8172" pos="1" Reg="5042"/>
+<InfoGegenRichtung vMax="33.3333" km="43.8272" Reg="5042">
 <Ereignis Er="3"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2974"/>
@@ -10179,7 +10177,7 @@
 <g X="-483.0157" Y="804.9987" Z="88.42"/>
 <b X="-472.8253" Y="801.5625" Z="88.42"/>
 <InfoNormRichtung vMax="33.3333" km="43.0193" pos="1"/>
-<InfoGegenRichtung vMax="38.8889">
+<InfoGegenRichtung vMax="38.8889" km="43.0301">
 <Signal NameBetriebsstelle="Eitorf" Stellwerk="Eitorf Ef" Signalname="500 Hz (P2)" SignalTyp="14" BoundingR="3">
 <p X="-483.0157" Y="804.9987" Z="88.42"/>
 <phi X="-0.0026" Z="2.816365"/>
@@ -10203,7 +10201,7 @@
 <StrElement Nr="3149" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="256.3" Y="556.8204" Z="88.5206"/>
 <b X="273.3754" Y="551.1254" Z="88.5264"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="-1" km="43.8172">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="257.3125" Y="559.856" Z="90.2206"/>
 <phi Z="2.819675"/>
@@ -10233,7 +10231,7 @@
 <StrElement Nr="3150" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="255.034" Y="553.0259" Z="88.5206"/>
 <b X="272.1094" Y="547.3309" Z="88.5264"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="-1" km="43.8172">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="255.7301" Y="555.1129" Z="88.9"/>
 <phi Z="2.819672"/>
@@ -10260,9 +10258,30 @@
 <NachNorm Nr="3142"/>
 <NachGegen Nr="3034"/>
 </StrElement>
-<StrElement Nr="3151" spTrass="27.7778" Fkt="2">
-<g X="1643.4845" Y="97.2817" Z="91.5758"/>
-<b X="1662.4572" Y="90.954" Z="91.5758"/>
+<StrElement Nr="3154" spTrass="5.5556" Anschluss="256" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
+<g X="-1079.8174" Y="1025.6548" Z="87.4869"/>
+<b X="-1081.3008" Y="1026.1084" Z="87.4832"/>
+<InfoNormRichtung vMax="-1" km="42.3828" Reg="5043">
+<Ereignis Er="4"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="42.3812" pos="1" Reg="5043">
+<Ereignis Er="4"/>
+</InfoGegenRichtung>
+<NachNorm Nr="3157"/>
+<NachGegen Nr="3158"/>
+</StrElement>
+<StrElement Nr="3157" spTrass="5.5556" Anschluss="257" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
+<g X="-1081.3008" Y="1026.1084" Z="87.4832"/>
+<b X="-1082.7841" Y="1026.562" Z="87.4794"/>
+<InfoNormRichtung vMax="38.8889" km="42.3812"/>
+<NachNorm Nr="1006"/>
+<NachGegen Nr="3154"/>
+</StrElement>
+<StrElement Nr="3158" spTrass="27.7778" Anschluss="256" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
+<g X="-1077.4041" Y="1024.927" Z="87.4931"/>
+<b X="-1079.8174" Y="1025.6548" Z="87.4869"/>
+<NachNorm Nr="3154"/>
+<NachGegen Nr="988"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Eitorf A1" FahrstrTyp="TypZug" Laenge="1342.2">
 <FahrstrStart Ref="294">
@@ -10277,7 +10296,7 @@
 <FahrstrAufloesung Ref="255">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="232">
+<FahrstrAufloesung Ref="308">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrSigHaltfall Ref="258">
@@ -10405,7 +10424,7 @@
 <FahrstrAufloesung Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="231">
+<FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrSigHaltfall Ref="235">
@@ -10517,7 +10536,7 @@
 <FahrstrRegister Ref="119">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="234">
+<FahrstrRegister Ref="310">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="118">
@@ -10547,7 +10566,7 @@
 <FahrstrAufloesung Ref="221">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="232">
+<FahrstrTeilaufloesung Ref="308">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="244">
@@ -10584,7 +10603,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Eitorf A2 -&gt; Eitorf N2" FahrstrTyp="TypZug" Laenge="1512.4001">
+<Fahrstrasse FahrstrName="Eitorf A2 -&gt; Eitorf N2" FahrstrTyp="TypZug" Laenge="1512.4">
 <FahrstrStart Ref="41">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10692,7 +10711,7 @@
 <FahrstrAufloesung Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="231">
+<FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="238">
@@ -10843,7 +10862,7 @@
 <FahrstrAufloesung Ref="228">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="231">
+<FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="222">
@@ -11034,7 +11053,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Eitorf N2 -&gt; Herchen A1" FahrstrStrecke="2651a" RglGgl="2" FahrstrTyp="TypZug" Laenge="5774.8994">
+<Fahrstrasse FahrstrName="Eitorf N2 -&gt; Herchen A1" FahrstrStrecke="2651a" RglGgl="2" FahrstrTyp="TypZug" Laenge="5774.8999">
 <FahrstrStart Ref="290">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -11114,6 +11133,297 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="87" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Eitorf P1 -&gt; Bft Merten F202" FahrstrStrecke="2651b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4011.3">
+<FahrstrStart Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="251">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="254">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="204">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="251">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="277">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="311">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="260">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="213">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="108">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="250">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="43" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="12" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="3" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="288" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="303" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Eitorf P2 -&gt; Bft Merten F201" FahrstrStrecke="2651b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4006.7">
+<FahrstrStart Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="236">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="202">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="265">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="246">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="252">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="229">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="312">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="82">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="228">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="235">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="42" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="10" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="6" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="94" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="306" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="82">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Eitorf P2 -&gt; Bft Merten F202" FahrstrStrecke="2651b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4011.3999">
+<FahrstrStart Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="236">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="202">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="265">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="246">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="309">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="251">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="277">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="311">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="260">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="213">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="108">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="307">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="235">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="42" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="43" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="10" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="48" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="3" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="44" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="94" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="306" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="82" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="83" FahrstrSignalSpalte="7">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000391_005625_Eitorf\Eitorf_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>

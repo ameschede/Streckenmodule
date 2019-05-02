@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="S" Nummer="33320" Zuglauf="Düren - Au (Sieg)" Prio="2500" BremsstellungZug="5" spAnfang="27.7778" MBrh="1.39" ReisendenDichte="0.2" FahrplanGruppe="S 19 nach Au (Sieg)" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Blankenberg A101" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Siegstrecke\Blankenberg_Rosbach_2018.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2018-06-07 16:40:00" Abf="2018-06-07 16:40:00" Betrst="Bft Blankenberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A101"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 16:43:00" Abf="2018-06-07 16:44:00" Betrst="Bft Merten"/>
+<FahrplanEintrag Ank="2018-06-07 16:47:00" Abf="2018-06-07 16:48:00" Betrst="Eitorf">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 16:52:00" Abf="2018-06-07 16:53:00" Betrst="Herchen">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 16:57:00" Abf="2018-06-07 16:57:30" Betrst="Dattenfeld Hp"/>
+<FahrplanEintrag Ank="2018-06-07 17:01:00" Abf="2018-06-07 17:02:00" Betrst="Schladern (Sieg)">
+<FahrplanSignalEintrag FahrplanSignal="N102"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 17:04:00" Abf="2018-06-07 17:04:30" Betrst="Üst Rosbach Hst"/>
+<FahrplanEintrag Ank="2018-06-07 17:06:00" Abf="2018-06-07 17:06:00" Betrst="Sbk 113" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 113"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_MW.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\422_423_430\422_423_430_EW.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

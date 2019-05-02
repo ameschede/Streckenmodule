@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="95" AutorName="Tamás Szelesi" AutorEmail="szelesit@gmail.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\DB_Ra12.lod.ls3"/>
+<p X="-123.9481" Y="-120.1498" Z="78.9643"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<lsb Dateiname="Detail_32_383125_5625625.lsb"/>
+<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10" MeshV="40" MeshI="108">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\rail.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10" MeshV="11" MeshI="27">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\rail.dds"/>
+</Textur>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10" MeshV="43" MeshI="114">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10" MeshV="52" MeshI="180">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10" MeshV="37" MeshI="126">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10" MeshV="52" MeshI="180">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10" MeshV="52" MeshI="180">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10" MeshV="46" MeshI="162">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+</Landschaft>
+</Zusi>

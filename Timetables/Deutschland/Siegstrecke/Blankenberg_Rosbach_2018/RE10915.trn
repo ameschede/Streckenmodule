@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="RE" Nummer="10915" Zuglauf="Aachen Hbf - Siegen Hbf" Prio="2500" BremsstellungZug="5" spAnfang="27.7778" MBrh="1.38" ReisendenDichte="0.3" FahrplanGruppe="RE 9 nach Siegen" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Blankenberg A101" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Siegstrecke\Blankenberg_Rosbach_2018.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2018-06-07 13:53:00" Abf="2018-06-07 13:53:00" Betrst="Bft Blankenberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A101"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2018-06-07 13:56:00" Betrst="Bft Merten">
+<FahrplanSignalEintrag FahrplanSignal="N200"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 13:58:00" Abf="2018-06-07 13:59:00" Betrst="Eitorf">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 14:03:00" Abf="2018-06-07 14:04:00" Betrst="Herchen">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2018-06-07 14:09:00" Abf="2018-06-07 14:10:00" Betrst="Schladern (Sieg)">
+<FahrplanSignalEintrag FahrplanSignal="N102"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2018-06-07 14:12:00" Betrst="Üst Rosbach Hst">
+<FahrplanSignalEintrag FahrplanSignal="A200"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2018-06-07 14:13:00" Betrst="Sbk 113" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 113"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+<ZugdatenIndusiRechner BRH="200" BRA="8" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittellaufwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittelantriebswagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="2" EigeneZugart="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+<ZugdatenIndusiRechner BRH="200" BRA="8" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+<ZugdatenIndusiRechner BRH="200" BRA="8" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittellaufwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittelantriebswagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="2" EigeneZugart="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+<ZugdatenIndusiRechner BRH="200" BRA="8" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

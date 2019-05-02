@@ -25,6 +25,7 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 * Herchen
 * Schladern
 * Eitorf
+* Blankenberg
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -32,4 +33,4 @@ Die Module Theuern, Massetal, Wolfsberg, Eischleben, Bischleben, Erfurt Pbf bild
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
 
-Die Module Eitorf, Herchen und Schladern bilden ein zusammenhängendes Netz mit 21,9 km Gesamt-Streckenlänge. Hierzu existiert ein Fahrplan des Jahres 2018 im Timetables-Verzeichnis.
+Die Module Blankenberg, Eitorf, Herchen und Schladern bilden ein zusammenhängendes Netz mit 29 km Gesamt-Streckenlänge. Hierzu existiert ein Fahrplan des Jahres 2018 im Timetables-Verzeichnis.

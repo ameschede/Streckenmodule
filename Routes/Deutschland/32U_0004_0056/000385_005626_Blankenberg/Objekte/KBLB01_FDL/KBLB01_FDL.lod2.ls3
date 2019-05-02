@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="95" AutorName="Tamás Szelesi"/>
+</Info>
+<Landschaft>
+<lsb Dateiname="KBLB01_FDL.lod2.lsb"/>
+<SubSet Cd="FFFFFFFF" MeshV="229" MeshI="372">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="KBLB01_FDL.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="16" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="33" MeshI="57">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="4" MeshI="6">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Pflaster\Rasengittersteine\Rasengittersteine01.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="13" MeshI="33">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Pflaster\Rechtecksteinpflaster\Klinkerpflaster02_rot.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10" MeshV="8" MeshI="12">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\gravel04.dds"/>
+</Textur>
+</SubSet>
+</Landschaft>
+</Zusi>
