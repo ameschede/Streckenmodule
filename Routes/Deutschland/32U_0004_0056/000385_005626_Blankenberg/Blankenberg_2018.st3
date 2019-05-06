@@ -1763,7 +1763,9 @@
 <StrElement Nr="130" kr="0.000833" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="1037.0229" Y="-341.3293" Z="86.1992"/>
 <b X="1027.0811" Y="-333.0154" Z="86.1517"/>
-<InfoNormRichtung vMax="27.7778" km="38.2568"/>
+<InfoNormRichtung vMax="27.7778" km="38.2568">
+<Ereignis Er="50" Beschr="1" Wert="85"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="38.2438" pos="1"/>
 <NachNorm Nr="131"/>
 <NachGegen Nr="129"/>
@@ -14307,7 +14309,7 @@
 </Signal>
 </InfoGegenRichtung>
 </StrElement>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Blankenberg A101" FahrstrTyp="TypZug" Laenge="1334.0">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Blankenberg A101" FahrstrTyp="TypZug" Laenge="1334">
 <FahrstrStart Ref="221">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -14497,6 +14499,9 @@
 <FahrstrSignal Ref="88" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="86">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -14799,7 +14804,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Blankenberg R101 -&gt; Bft Merten N200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="2493.0">
+<Fahrstrasse FahrstrName="Bft Blankenberg R101 -&gt; Bft Merten N200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="2493">
 <FahrstrStart Ref="127">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -14864,7 +14869,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Blankenberg R102 -&gt; Bft Merten N200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="2492.0">
+<Fahrstrasse FahrstrName="Bft Blankenberg R102 -&gt; Bft Merten N200" FahrstrStrecke="2651a" RglGgl="1" FahrstrTyp="TypZug" Laenge="2492">
 <FahrstrStart Ref="130">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -15118,7 +15123,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Merten F201 -&gt; Bft Merten S211 -&gt; Bft Blankenberg U100" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="2625.1">
+<Fahrstrasse FahrstrName="Bft Merten F201 -&gt; Bft Merten S211 -&gt; Bft Blankenberg U100" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="2625.1001">
 <FahrstrStart Ref="74">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -15194,6 +15199,9 @@
 <FahrstrSignal Ref="74">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="86">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -15213,7 +15221,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Merten F202 -&gt; Bft Blankenberg U100" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="2621.9">
+<Fahrstrasse FahrstrName="Bft Merten F202 -&gt; Bft Blankenberg U100" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="2621.8999">
 <FahrstrStart Ref="24">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -15456,7 +15464,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Merten S211 -&gt; Bft Blankenberg U100" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="2222.1">
+<Fahrstrasse FahrstrName="Bft Merten S211 -&gt; Bft Blankenberg U100" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="2222.1001">
 <FahrstrStart Ref="88">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -15505,13 +15513,13 @@
 <FahrstrSignal Ref="88" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="86">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="87">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="74" FahrstrSignalSpalte="1">
