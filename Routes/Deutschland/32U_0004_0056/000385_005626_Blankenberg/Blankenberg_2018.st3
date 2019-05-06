@@ -1763,7 +1763,9 @@
 <StrElement Nr="130" kr="0.000833" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="1037.0229" Y="-341.3293" Z="86.1992"/>
 <b X="1027.0811" Y="-333.0154" Z="86.1517"/>
-<InfoNormRichtung vMax="27.7778" km="38.2568"/>
+<InfoNormRichtung vMax="27.7778" km="38.2568">
+<Ereignis Er="50" Beschr="1" Wert="85"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="38.2438" pos="1"/>
 <NachNorm Nr="131"/>
 <NachGegen Nr="129"/>
@@ -14497,6 +14499,9 @@
 <FahrstrSignal Ref="88" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="86">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -15065,59 +15070,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Merten F201 -&gt; Bft Merten S211" FahrstrTyp="TypZug" Laenge="403.1">
-<FahrstrStart Ref="74">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="88">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="78">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="80">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="83">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="249">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="277">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="89">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="194">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="82">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="77">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrSigHaltfall Ref="109">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrSignal Ref="74" FahrstrSignalZeile="2">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="275" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="274" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="73" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="16" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
 <Fahrstrasse FahrstrName="Bft Merten F201 -&gt; Bft Merten S211 -&gt; Bft Blankenberg U100" FahrstrStrecke="2651b" RglGgl="1" FahrstrTyp="TypZug" Laenge="2625.1">
 <FahrstrStart Ref="74">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
@@ -15194,6 +15146,9 @@
 <FahrstrSignal Ref="74">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="86">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
@@ -15210,6 +15165,59 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Merten F201 -&gt; Bft Merten S211" FahrstrTyp="TypZug" Laenge="403.1">
+<FahrstrStart Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="249">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="277">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="194">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="82">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSignal Ref="74" FahrstrSignalZeile="2">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="275" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="274" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="73" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="16" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
@@ -15505,13 +15513,13 @@
 <FahrstrSignal Ref="88" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="86">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="87">
-<Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="85" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0056\000385_005626_Blankenberg\Blankenberg_2018.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="74" FahrstrSignalSpalte="1">
