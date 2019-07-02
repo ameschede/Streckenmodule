@@ -142,12 +142,6 @@
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Zusatzsignale\Zs_Einzeln-Mast.lod.ls3"/>
-<p X="-433.2331" Y="-118.1353" Z="152.473"/>
-<phi Z="-1.614101"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Prellbock\gleisabschluss_kurz.ls3"/>
 <p X="-424.1331" Y="-149.0063" Z="152.5181"/>
@@ -4456,6 +4450,12 @@
 <phi Y="0.001481" Z="1.527495"/>
 <sk/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Mast4m62-Gleisfeld-GA4m5-5m0.lod.ls3"/>
+<p X="-433.2331" Y="-118.1353" Z="152.473"/>
+<phi Z="-1.614101"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -6628,7 +6628,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.02" V="0.55">
 <p X="-434.5381" Y="-74.5164" Z="152.1085"/>
@@ -8632,7 +8632,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Textur>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weichenschwellen_Holz.dds"/>
@@ -9174,7 +9174,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116" V="-407.0626" V2="-407.0626">
 <p X="-411.5287" Y="474.4981" Z="151.4441"/>
@@ -39871,6 +39871,30 @@
 </Vertex>
 <Face i="1;2;0"/>
 <Face i="3;0;2"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="-300" V="-37.6144">
+<p X="-123.8561" Y="-499.9998" Z="158.6215"/>
+<n X="0.0005" Y="-0.0389" Z="0.9992"/>
+</Vertex>
+<Vertex U="-298.9952" V="-35.1371">
+<p X="-148.629" Y="-489.9517" Z="159.0261"/>
+<n X="0.0005" Y="-0.0389" Z="0.9992"/>
+</Vertex>
+<Vertex U="-298.3302" V="-38.2108">
+<p X="-117.8918" Y="-483.3021" Z="159.2692"/>
+<n X="0.0005" Y="-0.0389" Z="0.9992"/>
+</Vertex>
+<Vertex U="-299.0821" V="-40">
+<p X="-100" Y="-490.8206" Z="158.9287"/>
+<n X="0.0024" Y="-0.0396" Z="0.9992"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="2;3;0"/>
 </SubSet>
 </Landschaft>
 </Zusi>

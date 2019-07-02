@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -77,7 +77,7 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="17" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="RailwayObjects\Deutschland\Tunnel\2gleisig\Tunnel_2gl_Beton-SFS\Tunnel_Beton-SFS SteileStirn.lod.ls3"/>
+<Datei Dateiname="RailwayObjects\Deutschland\Tunnel\2gleisig\Tunnel_2gl_Beton-SFS\Tunnel_Beton-SFS_SteileStirn.lod.ls3"/>
 <p X="54.8838" Y="-311.5125" Z="164.0133"/>
 <phi Y="0.003375" Z="-1.759789"/>
 <sk/>
@@ -2740,7 +2740,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116" V="0.0003" U2="-0.0001" V2="0.0003">
 <p X="176.0405" Y="313.3638" Z="167.4939"/>
@@ -3165,7 +3165,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116">
 <p X="46.8264" Y="-362.1526" Z="163.6906"/>
@@ -3973,7 +3973,7 @@
 <p X="161.9983" Y="266.033" Z="166.3449"/>
 <n X="-0.0022" Y="-0.0114" Z="0.9999"/>
 </Vertex>
-<Vertex U="0.9998" V="0">
+<Vertex U="0.9998">
 <p X="171.2278" Y="314.2847" Z="166.9159"/>
 <n X="-0.0022" Y="-0.0114" Z="0.9999"/>
 </Vertex>
@@ -8703,9 +8703,9 @@
 <Textur>
 <Datei Dateiname="Terrain\Deutschland\Strassen\Allein\strasse_300cm.dds"/>
 </Textur>
-<Vertex V="0.075" V2="0.075">
-<p X="152.3351" Y="319.2869" Z="169.3257"/>
-<n Z="1"/>
+<Vertex U="-0.0061" V="0.0753" U2="-0.0061" V2="0.0753">
+<p X="152.3164" Y="319.2256" Z="169.3257"/>
+<n X="0.0093" Y="0.0346" Z="0.9994"/>
 </Vertex>
 <Vertex U="-5.2039" V="0.075" U2="-5.2039" V2="0.075">
 <p X="138.8506" Y="269.0596" Z="171.1896"/>
@@ -8715,9 +8715,9 @@
 <p X="135.3736" Y="269.9932" Z="171.1896"/>
 <n Z="1"/>
 </Vertex>
-<Vertex V="0.925" V2="0.925">
-<p X="148.8581" Y="320.2205" Z="169.3257"/>
-<n Z="1"/>
+<Vertex U="0.0062" V="0.925" U2="0.0062" V2="0.925">
+<p X="148.8762" Y="320.2862" Z="169.3257"/>
+<n X="0.0105" Y="0.0342" Z="0.9994"/>
 </Vertex>
 <Vertex U="-6.2045" V="0.075" U2="-6.2045" V2="0.075">
 <p X="136.2577" Y="259.4014" Z="171.523"/>
@@ -10868,19 +10868,19 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
 </Textur>
-<Vertex U="280.3305" V="-52.6698">
+<Vertex U="280.2187" V="-57.6422">
 <p X="26.6975" Y="303.3052" Z="173.5011"/>
 <n X="0.0341" Y="0.0435" Z="0.9985"/>
 </Vertex>
-<Vertex U="284.6728" V="-51.676">
+<Vertex U="278.9978" V="-53.3582">
 <p X="16.7599" Y="346.7276" Z="171.9496"/>
 <n X="0.0341" Y="0.0435" Z="0.9985"/>
 </Vertex>
-<Vertex U="282.8966" V="-61.2812">
+<Vertex U="288.6832" V="-54.6265">
 <p X="112.812" Y="328.9658" Z="169.441"/>
 <n X="0.0341" Y="0.0435" Z="0.9985"/>
 </Vertex>
-<Vertex U="281.5229" V="-61.4282">
+<Vertex U="288.9024" V="-55.9905">
 <p X="114.2824" Y="315.2295" Z="170.1184"/>
 <n X="0.0314" Y="0.0526" Z="0.9981"/>
 </Vertex>
@@ -10892,19 +10892,19 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\Brachland-2.dds"/>
 </Textur>
-<Vertex U="279.1151" V="-44.1523">
+<Vertex U="281.6084" V="-50.5686">
 <p X="-58.4769" Y="291.1514" Z="176.1429"/>
 <n X="0.0216" Y="0.0461" Z="0.9987"/>
 </Vertex>
-<Vertex U="286.428" V="-42.7052">
+<Vertex U="279.7785" V="-43.342">
 <p X="-72.9485" Y="364.2803" Z="173.0836"/>
 <n X="0.0216" Y="0.0461" Z="0.9987"/>
 </Vertex>
-<Vertex U="284.6727" V="-51.676">
+<Vertex U="288.8294" V="-44.6229">
 <p X="16.7598" Y="346.7271" Z="171.9496"/>
 <n X="0.0216" Y="0.0461" Z="0.9987"/>
 </Vertex>
-<Vertex U="280.3305" V="-52.6697">
+<Vertex U="290.0501" V="-48.9068">
 <p X="26.6974" Y="303.305" Z="173.5011"/>
 <n X="0.0251" Y="0.0414" Z="0.9988"/>
 </Vertex>

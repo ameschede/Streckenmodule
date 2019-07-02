@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+</Textur>
+<Vertex U="38.7731">
+<p X="499.9998" Y="200.3955" Z="343.2728"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="38.697" V="0.0794">
+<p X="499.9998" Y="192.6057" Z="336.4191"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="40.1032">
+<p X="477.3753" Y="331.553" Z="324.2137"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="38.6571" V="0.12">
+<p X="499.9998" Y="188.6289" Z="332.936"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="40.1032" V="0.12">
+<p X="475.3609" Y="331.4644" Z="312.2137"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="40.7043">
+<p X="482.3943" Y="391.4837" Z="298.5176"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="40.7043" V="0.12">
+<p X="480.5484" Y="393.4063" Z="286.5176"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="40.8804">
+<p X="499.9998" Y="392.2386" Z="297.7015"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="40.8971" V="0.1088">
+<p X="499.9998" Y="394.0533" Z="286.7461"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="40.8971" V="0.12">
+<p X="499.9998" Y="394.2403" Z="285.6239"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="1;3;4"/>
+<Face i="2;1;4"/>
+<Face i="4;5;2"/>
+<Face i="5;4;6"/>
+<Face i="5;6;8"/>
+<Face i="7;5;8"/>
+<Face i="8;6;9"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="15" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="2"/>
+<Textur>
+<Datei Dateiname="Terrain\General\forest\Wald_rand.dds"/>
+</Textur>
+<Vertex U="128.9104" V="0.022">
+<p X="499.9998" Y="188.6289" Z="346.936"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="128.9104" V="0.234">
+<p X="499.9998" Y="188.6289" Z="337.4042"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="133.733" V="0.022">
+<p X="475.3609" Y="331.4644" Z="326.2137"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="128.9104" V="0.3333">
+<p X="499.9998" Y="188.6289" Z="332.936"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="133.733" V="0.3333">
+<p X="475.3609" Y="331.4644" Z="312.2137"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="135.7372" V="0.022">
+<p X="480.5484" Y="393.4063" Z="300.5176"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="135.7372" V="0.3333">
+<p X="480.5484" Y="393.4063" Z="286.5176"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="136.3803" V="0.022">
+<p X="499.9998" Y="394.2403" Z="299.6239"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="136.3803" V="0.3042">
+<p X="499.9998" Y="394.2403" Z="286.9331"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="136.3803" V="0.3333">
+<p X="499.9998" Y="394.2403" Z="285.6239"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="3;4;2"/>
+<Face i="3;2;1"/>
+<Face i="4;5;2"/>
+<Face i="5;4;6"/>
+<Face i="7;5;6"/>
+<Face i="7;6;8"/>
+<Face i="8;6;9"/>
+</SubSet>
+</Landschaft>
+</Zusi>

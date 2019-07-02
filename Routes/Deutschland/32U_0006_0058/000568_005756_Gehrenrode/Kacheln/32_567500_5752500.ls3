@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\110kV_Bahnstrommast86\Tragmast30000_T25.lod.ls3"/>
+<p X="282.2867" Y="-213.2329" Z="180.7275"/>
+<phi Z="-1.799555"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\110kV_Bahnstrommast86\Tragmast30000_T25.lod.ls3"/>
+<p X="392.2033" Y="257.8169" Z="187.0418"/>
+<phi Z="-1.799555"/>
+<sk/>
+</Verknuepfte>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\soil02.dds"/>
+</Textur>
+<Vertex U="-362.4852">
+<p X="500" Y="-124.8521" Z="170.0438"/>
+<n X="-0.0068" Y="-0.04" Z="0.9992"/>
+</Vertex>
+<Vertex U="-359.4947" V="2.1042">
+<p X="478.9585" Y="-94.9475" Z="171.0981"/>
+<n X="-0.0068" Y="-0.04" Z="0.9992"/>
+</Vertex>
+<Vertex U="-357.129">
+<p X="500" Y="-71.2903" Z="172.1868"/>
+<n X="-0.0068" Y="-0.04" Z="0.9992"/>
+</Vertex>
+<Face i="2;0;1"/>
+</SubSet>
+</Landschaft>
+</Zusi>

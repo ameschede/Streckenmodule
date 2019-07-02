@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -159,12 +159,6 @@
 <p X="-374.353" Y="290.8122" Z="150.34"/>
 <phi Z="-1.6141"/>
 <sk Y="0.85"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Zusatzsignale\Zs_Einzeln-Mast.lod.ls3"/>
-<p X="-375.3918" Y="216.9908" Z="150.4852"/>
-<phi Z="1.527493"/>
-<sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Prellbock\gleisabschluss_kurz.ls3"/>
@@ -6964,6 +6958,12 @@
 <phi Z="-0.494994"/>
 <sk/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Mast4m62-Gleisfeld-GA4m5-5m0.lod.ls3"/>
+<p X="-375.3918" Y="216.9908" Z="150.4852"/>
+<phi Z="1.527493"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -7696,7 +7696,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.1" V="0.55">
 <p X="-378.367" Y="221.7724" Z="150.1855"/>
@@ -8508,7 +8508,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Textur>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weichenschwellen_Holz.dds"/>
@@ -8911,7 +8911,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Textur>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weichenschwellen_Beton.dds"/>
@@ -8982,7 +8982,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB55 SKL-Oberbau_alt.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB55_SKL-Oberbau_alt.dds"/>
 </Textur>
 <Vertex U="0.812" V="78.346" V2="78.346">
 <p X="500" Y="229.8116" Z="130.653"/>
@@ -9467,7 +9467,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116" V="-153.8668" V2="-153.8668">
 <p X="-376.4527" Y="283.9643" Z="150.2433"/>
@@ -21342,7 +21342,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116">
 <p X="-361.3583" Y="449.8228" Z="149.9967"/>
@@ -24304,7 +24304,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.02" V="0.7">
 <p X="-362.1633" Y="450.8779" Z="149.8452"/>
@@ -24846,7 +24846,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.02" V="0.7">
 <p X="-375.218" Y="292.8209" Z="150.0801"/>
@@ -25388,7 +25388,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.02" V="0.7">
 <p X="-362.5311" Y="442.3909" Z="149.8578"/>
@@ -25564,7 +25564,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116">
 <p X="-372.9144" Y="291.701" Z="150.2316"/>
@@ -43899,7 +43899,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="-13.3706" V="-10">
 <p X="500" Y="162.9412" Z="151.5831"/>

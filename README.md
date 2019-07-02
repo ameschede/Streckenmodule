@@ -16,7 +16,11 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 * Hamm Rbf
 * Parkstein-Hütten
 * Schwarzenbach bei Pressath
+* Gehrenrode
+* Almstedt
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
+
+Die Module Sorsum, Almstedt, Gehrenrode und Orxhausen bilden ein zusammenhängendes Netz mit 38,7 km Gesamt-Streckenlänge.
