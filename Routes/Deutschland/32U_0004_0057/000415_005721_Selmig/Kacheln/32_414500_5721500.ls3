@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -1144,22 +1144,10 @@
 <phi Z="1.560248"/>
 <sk X="1.0388" Y="1.0388" Z="1.0388"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\MastKompKs6m4.lod.ls3"/>
-<p X="491.3588" Y="-373.5164" Z="72.4119"/>
-<phi Z="0.98527"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastlampe_11m_Ausleger_Neon.lod.ls3"/>
 <p X="478.2657" Y="-335.2214" Z="71.8265"/>
 <phi Z="2.524463"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\MastKompKs6m4.lod.ls3"/>
-<p X="480.2183" Y="-345.3632" Z="72.2378"/>
-<phi Z="0.953666"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
@@ -2536,13 +2524,61 @@
 <phi Z="2.313152"/>
 <sk X="0.9913" Y="0.9913" Z="0.9913"/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Mast_8m.lod.ls3"/>
+<p X="491.3588" Y="-373.5164" Z="71.9873"/>
+<phi Z="0.98527"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Kamera.lod.ls3"/>
+<p X="491.3588" Y="-373.5164" Z="79.9873"/>
+<phi Y="-0.349066" Z="4.722456"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Korb.lod.ls3"/>
+<p X="491.3588" Y="-373.5164" Z="78.5"/>
+<phi Z="5.697659"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Korb.lod.ls3"/>
+<p X="491.3588" Y="-373.5164" Z="78.5"/>
+<phi Z="2.556066"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Mast_8m.lod.ls3"/>
+<p X="480.2183" Y="-345.3632" Z="72.2378"/>
+<phi Z="0.953666"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Kamera.lod.ls3"/>
+<p X="480.2183" Y="-345.3632" Z="80.2378"/>
+<phi Y="-0.523599" Z="4.239247"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Korb.lod.ls3"/>
+<p X="480.2183" Y="-345.3632" Z="78.5"/>
+<phi Z="2.524462"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="156" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Korb.lod.ls3"/>
+<p X="480.2183" Y="-345.3632" Z="78.5"/>
+<phi Z="5.666054"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB55 SKL-Oberbau_alt.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB55_SKL-Oberbau_alt.dds"/>
 </Textur>
 <Vertex U="0.8116" V="540.2476" V2="540.2476">
 <p X="370.777" Y="-500" Z="72.9023"/>
@@ -3022,7 +3058,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116" V="178.3653" V2="178.3653">
 <p X="396.2192" Y="-500" Z="72.1372"/>
@@ -4092,7 +4128,7 @@
 <p X="376.863" Y="-500" Z="72.3013"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2365.0689">
+<Vertex U="1" V="2365.0688">
 <p X="377.5754" Y="-499.0724" Z="72.2939"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
@@ -4104,7 +4140,7 @@
 <p X="375.9713" Y="-500" Z="72.3047"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
-<Vertex V="2365.0689">
+<Vertex V="2365.0688">
 <p X="376.9874" Y="-498.6348" Z="72.2939"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
@@ -4156,11 +4192,11 @@
 <p X="426.7653" Y="-431.5853" Z="71.7751"/>
 <n X="0.0028" Y="0.0038" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2485.6668">
+<Vertex U="1" V="2485.6667">
 <p X="430.2557" Y="-428.0429" Z="71.7577"/>
 <n X="0.0021" Y="0.0029" Z="1"/>
 </Vertex>
-<Vertex V="2485.6668">
+<Vertex V="2485.6667">
 <p X="429.6629" Y="-427.6119" Z="71.7577"/>
 <n X="0.0021" Y="0.0029" Z="1"/>
 </Vertex>
@@ -4180,11 +4216,11 @@
 <p X="436.0937" Y="-418.714" Z="71.7393"/>
 <n X="0.0006" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2515.5749">
+<Vertex U="1" V="2515.575">
 <p X="443.0668" Y="-410.2048" Z="71.7291"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex V="2515.5749">
+<Vertex V="2515.575">
 <p X="442.4689" Y="-409.7808" Z="71.7291"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
@@ -4196,11 +4232,11 @@
 <p X="448.7915" Y="-400.8079" Z="71.7189"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2545.4826">
+<Vertex U="1" V="2545.4827">
 <p X="455.6631" Y="-392.2141" Z="71.7087"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex V="2545.4826">
+<Vertex V="2545.4827">
 <p X="455.0602" Y="-391.7973" Z="71.7087"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
@@ -4212,7 +4248,7 @@
 <p X="461.2742" Y="-382.7497" Z="71.6985"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2359.3815">
+<Vertex U="1" V="2359.3816">
 <p X="363.6717" Y="-500" Z="72.3511"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
@@ -4228,7 +4264,7 @@
 <p X="374.4312" Y="-486.7706" Z="72.2433"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
-<Vertex V="2360.1259">
+<Vertex V="2360.126">
 <p X="364.5854" Y="-500" Z="72.3476"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
@@ -4240,19 +4276,19 @@
 <p X="380.2885" Y="-478.9004" Z="72.1812"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2413.7452">
+<Vertex U="1" V="2413.7451">
 <p X="387.4557" Y="-468.0346" Z="72.099"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
-<Vertex V="2413.7452">
+<Vertex V="2413.7451">
 <p X="388.0443" Y="-468.4714" Z="72.099"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2431.4806">
+<Vertex U="1" V="2431.4807">
 <p X="395.1844" Y="-457.595" Z="72.0168"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
-<Vertex V="2431.4806">
+<Vertex V="2431.4807">
 <p X="395.7745" Y="-458.0298" Z="72.0168"/>
 <n X="0.0038" Y="0.0051" Z="1"/>
 </Vertex>
@@ -4336,19 +4372,19 @@
 <p X="443.0071" Y="-391.3112" Z="71.7147"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2560.8847">
+<Vertex U="1" V="2560.8848">
 <p X="449.6533" Y="-380.1313" Z="71.7026"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex V="2560.8847">
+<Vertex V="2560.8848">
 <p X="450.2621" Y="-380.5395" Z="71.7026"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2578.6202">
+<Vertex U="1" V="2578.6201">
 <p X="456.8628" Y="-369.3266" Z="71.6905"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex V="2578.6202">
+<Vertex V="2578.6201">
 <p X="457.473" Y="-369.7328" Z="71.6905"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
@@ -4360,11 +4396,11 @@
 <p X="464.6632" Y="-358.9061" Z="71.6784"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2641.0185">
+<Vertex U="1" V="2641.0186">
 <p X="482.1535" Y="-331.2234" Z="71.6479"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex V="2641.0185">
+<Vertex V="2641.0186">
 <p X="482.7644" Y="-331.6286" Z="71.6479"/>
 <n X="0.0005" Y="0.0008" Z="1"/>
 </Vertex>
@@ -4404,7 +4440,7 @@
 <p X="500" Y="-304.0924" Z="71.6023"/>
 <n X="0.0013" Y="0.0021" Z="1"/>
 </Vertex>
-<Vertex U="0.2014" V="2684.1391">
+<Vertex U="0.2014" V="2684.1392">
 <p X="500" Y="-305.1717" Z="71.6049"/>
 <n X="0.0013" Y="0.002" Z="1"/>
 </Vertex>

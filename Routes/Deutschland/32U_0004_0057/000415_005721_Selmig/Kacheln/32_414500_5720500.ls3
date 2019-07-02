@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -4121,12 +4121,6 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\MastKompKs6m4.lod.ls3"/>
-<p X="82.4903" Y="15.6326" Z="70.5154"/>
-<phi Z="0.985272"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Bausatz\Lichtmast_DIN_EN40_6m.lod.ls3"/>
 <p X="77.1489" Y="41.9451" Z="71.2978"/>
 <phi Z="-2.156325"/>
@@ -7522,6 +7516,30 @@
 <phi Z="0.985212"/>
 <sk/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Mast_8m.lod.ls3"/>
+<p X="82.4903" Y="15.6326" Z="70.5154"/>
+<phi Z="0.985272"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Kamera.lod.ls3"/>
+<p X="82.4903" Y="15.6326" Z="78.5154"/>
+<phi Y="-0.174533" Z="4.542471"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Korb.lod.ls3"/>
+<p X="82.4903" Y="15.6326" Z="77.0623"/>
+<phi Z="2.556068"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="640" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnuebergaenge\Kamera\Bue_Kamera_Anbauteil_Korb.lod.ls3"/>
+<p X="82.4903" Y="15.6326" Z="77.0623"/>
+<phi Z="5.69766"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="6" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -7830,7 +7848,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="6" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.02" V="0.55">
 <p X="-20.7992" Y="-126.7533" Z="70.8787"/>
@@ -8176,7 +8194,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weiche_Holzschwellen_K-Oberbau.dds"/>
 </Textur>
 <Textur>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Texturen\Weichenschwellen_Holz.dds"/>
@@ -8292,7 +8310,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB55 SKL-Oberbau_alt.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB55_SKL-Oberbau_alt.dds"/>
 </Textur>
 <Vertex U="0.8116" V="178.3333" V2="178.3333">
 <p X="-132.5821" Y="-500" Z="77.8907"/>
@@ -10205,7 +10223,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB70 SKL-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB70_SKL-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116">
 <p X="80.7907" Y="24.3096" Z="71.1762"/>
@@ -11912,7 +11930,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen Holz K-Oberbau.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_Holz_K-Oberbau.dds"/>
 </Textur>
 <Vertex U="0.8116">
 <p X="1.1627" Y="-90.3365" Z="71.0377"/>
@@ -26191,7 +26209,7 @@
 <Datei Dateiname="PermanentWay\Default\ballast.dds"/>
 </Textur>
 <Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen BetonB55 SKL-Oberbau_alt.dds"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonB55_SKL-Oberbau_alt.dds"/>
 </Textur>
 <Vertex U="0.812">
 <p X="-144.1262" Y="-330.4785" Z="78.384"/>
