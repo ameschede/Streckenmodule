@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -423,6 +423,7 @@
 <InfoNormRichtung vMax="77.7778" km="47.7171" pos="1"/>
 <InfoGegenRichtung vMax="77.7778" km="47.7649">
 <Ereignis Er="28" Beschr="300b"/>
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="400"/>
 </InfoGegenRichtung>
 <NachNorm Nr="17"/>
 <NachGegen Nr="15"/>
@@ -430,7 +431,7 @@
 <StrElement Nr="17" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3084">
 <g X="-765.7086" Y="4179.6172" Z="195.2256"/>
 <b X="-759.9058" Y="4169.1147" Z="195.3754"/>
-<InfoNormRichtung vMax="-1" Reg="5000">
+<InfoNormRichtung vMax="-1" Reg="5001">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="401" SignalTyp="10" BoundingR="10">
 <p X="-762.6454" Y="4167.6011" Z="195.3754"/>
@@ -538,17 +539,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="47.7769" Reg="5000"/>
+<InfoGegenRichtung vMax="77.7778" km="47.7769" Reg="5001"/>
 <NachNorm Nr="912"/>
 <NachGegen Nr="16"/>
 </StrElement>
 <StrElement Nr="18" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3166">
 <g X="-742.5885" Y="4137.772" Z="195.8225"/>
 <b X="-735.3348" Y="4124.644" Z="196.0098"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5001">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5002">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="47.8277" Reg="5001"/>
+<InfoGegenRichtung vMax="77.7778" km="47.8277" Reg="5002"/>
 <NachNorm Nr="948"/>
 <NachGegen Nr="947"/>
 </StrElement>
@@ -1103,8 +1104,8 @@
 <StrElement Nr="70" Ueberh="-0.0593" kr="0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2885">
 <g X="812.0634" Y="-4159.48" Z="179.7559"/>
 <b X="812.8506" Y="-4138.3389" Z="180.0028"/>
-<InfoNormRichtung vMax="77.7778" km="56.3568" Reg="5002"/>
-<InfoGegenRichtung vMax="77.7778" km="56.3357" pos="1" Reg="5002">
+<InfoNormRichtung vMax="77.7778" km="56.3568" Reg="5003"/>
+<InfoGegenRichtung vMax="77.7778" km="56.3357" pos="1" Reg="5003">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300a"/>
 </InfoGegenRichtung>
@@ -1438,10 +1439,10 @@
 <StrElement Nr="112" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2859">
 <g X="703.1591" Y="-2553.4971" Z="197.4572"/>
 <b X="707.6368" Y="-2599.0559" Z="197.0573"/>
-<InfoNormRichtung vMax="77.7778" km="54.7457" pos="1" Reg="5003">
+<InfoNormRichtung vMax="77.7778" km="54.7457" pos="1" Reg="5004">
 <Ereignis Er="6" Beschr="Üst Gehrenrode"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.7915" Reg="5003">
+<InfoGegenRichtung vMax="77.7778" km="54.7915" Reg="5004">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="789"/>
@@ -1498,8 +1499,8 @@
 <StrElement Nr="119" Ueberh="0.0257" kr="-0.000085" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2756">
 <g X="-307.4268" Y="3349.7949" Z="207.062"/>
 <b X="-297.8515" Y="3332.2371" Z="207.3118"/>
-<InfoNormRichtung vMax="69.4444" km="48.7129" pos="1" Reg="5004"/>
-<InfoGegenRichtung vMax="69.4444" km="48.7329" Reg="5004">
+<InfoNormRichtung vMax="69.4444" km="48.7129" pos="1" Reg="5005"/>
+<InfoGegenRichtung vMax="69.4444" km="48.7329" Reg="5005">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="120"/>
@@ -1524,8 +1525,8 @@
 <StrElement Nr="122" Ueberh="0.0375" kr="-0.000124" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2753">
 <g X="-278.8021" Y="3297.064" Z="207.8112"/>
 <b X="-269.3372" Y="3279.4451" Z="208.0609"/>
-<InfoNormRichtung vMax="69.4444" km="48.7729" pos="1" Reg="5005"/>
-<InfoGegenRichtung vMax="69.4444" km="48.7929" Reg="5005">
+<InfoNormRichtung vMax="69.4444" km="48.7729" pos="1" Reg="5006"/>
+<InfoGegenRichtung vMax="69.4444" km="48.7929" Reg="5006">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="452" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-281.4449" Y="3295.6443" Z="207.8112"/>
@@ -2117,7 +2118,7 @@
 <StrElement Nr="186" Ueberh="0.0593" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2973">
 <g X="131.247" Y="2310.0471" Z="214.8484"/>
 <b X="134.0764" Y="2300.4558" Z="214.8082"/>
-<InfoNormRichtung vMax="-1" Reg="5006">
+<InfoNormRichtung vMax="-1" Reg="5007">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 403"/>
 <Signal NameBetriebsstelle="LZB-Bk 403" Stellwerk="ESTW-A Lamspringe" Signalname="403" SignalTyp="12" BoundingR="1">
@@ -2153,7 +2154,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="49.8536" Reg="5006"/>
+<InfoGegenRichtung vMax="77.7778" km="49.8536" Reg="5007"/>
 <NachNorm Nr="919"/>
 <NachGegen Nr="185"/>
 </StrElement>
@@ -2170,10 +2171,10 @@
 <StrElement Nr="188" Ueberh="0.0593" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2979">
 <g X="143.1195" Y="2269.4939" Z="214.6785"/>
 <b X="148.9296" Y="2249.1799" Z="214.5936"/>
-<InfoNormRichtung vMax="77.7778" km="49.8859" pos="1" Reg="5007">
+<InfoNormRichtung vMax="77.7778" km="49.8859" pos="1" Reg="5008">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="49.907" Reg="5007"/>
+<InfoGegenRichtung vMax="77.7778" km="49.907" Reg="5008"/>
 <NachNorm Nr="189"/>
 <NachGegen Nr="187"/>
 </StrElement>
@@ -2841,8 +2842,8 @@
 <StrElement Nr="272" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3064">
 <g X="362.6128" Y="959.4983" Z="216.7374"/>
 <b X="367.3077" Y="911.7293" Z="217.0241"/>
-<InfoNormRichtung vMax="-1" Reg="5008"/>
-<InfoGegenRichtung vMax="77.7778" km="51.2643" Reg="5008">
+<InfoNormRichtung vMax="-1" Reg="5009"/>
+<InfoGegenRichtung vMax="77.7778" km="51.2643" Reg="5009">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -3019,7 +3020,7 @@
 <StrElement Nr="295" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2937">
 <g X="435.5707" Y="217.1763" Z="215.2865"/>
 <b X="437.8204" Y="194.287" Z="215.1555"/>
-<InfoNormRichtung vMax="-1" Reg="5009">
+<InfoNormRichtung vMax="-1" Reg="5010">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 455"/>
 <Signal NameBetriebsstelle="LZB-Bk 455" Stellwerk="ESTW-A Lamspringe" Signalname="455" SignalTyp="12" BoundingR="1">
@@ -3055,17 +3056,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="51.9852" Reg="5009"/>
+<InfoGegenRichtung vMax="77.7778" km="51.9852" Reg="5010"/>
 <NachNorm Nr="917"/>
 <NachGegen Nr="294"/>
 </StrElement>
 <StrElement Nr="296" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2935">
 <g X="440.4346" Y="167.6881" Z="215.0033"/>
 <b X="442.8799" Y="142.8084" Z="214.8609"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5010">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5011">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="52.0369" Reg="5010"/>
+<InfoGegenRichtung vMax="77.7778" km="52.0369" Reg="5011"/>
 <NachNorm Nr="941"/>
 <NachGegen Nr="917"/>
 </StrElement>
@@ -3434,8 +3435,8 @@
 <StrElement Nr="324" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2871">
 <g X="557.1672" Y="-1020.027" Z="205.44"/>
 <b X="562.0311" Y="-1069.515" Z="204.9645"/>
-<InfoNormRichtung vMax="77.7778" km="53.2053" pos="1" Reg="5011"/>
-<InfoGegenRichtung vMax="77.7778" km="53.255" Reg="5011">
+<InfoNormRichtung vMax="77.7778" km="53.2053" pos="1" Reg="5012"/>
+<InfoGegenRichtung vMax="77.7778" km="53.255" Reg="5012">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -3705,7 +3706,7 @@
 <StrElement Nr="350" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2986">
 <g X="654.4445" Y="-2009.79" Z="200.8663"/>
 <b X="654.6401" Y="-2011.7804" Z="200.8639"/>
-<InfoNormRichtung vMax="-1" Reg="5012">
+<InfoNormRichtung vMax="-1" Reg="5013">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="457" SignalTyp="10" BoundingR="10">
 <p X="657.7551" Y="-2011.4742" Z="200.8639"/>
@@ -3813,7 +3814,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.2019" Reg="5012"/>
+<InfoGegenRichtung vMax="77.7778" km="54.2019" Reg="5013"/>
 <NachNorm Nr="906"/>
 <NachGegen Nr="349"/>
 </StrElement>
@@ -3900,10 +3901,10 @@
 <StrElement Nr="361" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.283">
 <g X="688.4914" Y="-2356.2068" Z="199.1846"/>
 <b X="687.5134" Y="-2346.2551" Z="199.2719"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5013">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5014">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.5379" pos="1" Reg="5013"/>
+<InfoGegenRichtung vMax="77.7778" km="54.5379" pos="1" Reg="5014"/>
 <NachNorm Nr="939"/>
 <NachGegen Nr="637"/>
 </StrElement>
@@ -3958,8 +3959,8 @@
 <StrElement Nr="368" Ueberh="0.0257" kr="-0.000085" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3381">
 <g X="-303.2864" Y="3352.02" Z="207.062"/>
 <b X="-293.7068" Y="3334.4529" Z="207.3141"/>
-<InfoNormRichtung vMax="69.4444" km="48.7129" pos="1" Reg="5014"/>
-<InfoGegenRichtung vMax="69.4444" km="48.7329" Reg="5014">
+<InfoNormRichtung vMax="69.4444" km="48.7129" pos="1" Reg="5015"/>
+<InfoGegenRichtung vMax="69.4444" km="48.7329" Reg="5015">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="369"/>
@@ -3984,8 +3985,8 @@
 <StrElement Nr="371" Ueberh="0.0375" kr="-0.000124" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3387">
 <g X="-274.6487" Y="3299.2639" Z="207.8112"/>
 <b X="-265.1795" Y="3281.6372" Z="208.0633"/>
-<InfoNormRichtung vMax="69.4444" km="48.7729" pos="1" Reg="5015"/>
-<InfoGegenRichtung vMax="69.4444" km="48.7929" Reg="5015">
+<InfoNormRichtung vMax="69.4444" km="48.7729" pos="1" Reg="5016"/>
+<InfoGegenRichtung vMax="69.4444" km="48.7929" Reg="5016">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="402" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-272.0059" Y="3300.6836" Z="207.8112"/>
@@ -4589,7 +4590,7 @@
 <StrElement Nr="434" Ueberh="0.0593" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2975">
 <g X="135.7514" Y="2311.386" Z="214.8484"/>
 <b X="138.5809" Y="2301.7947" Z="214.8083"/>
-<InfoNormRichtung vMax="-1" Reg="5016">
+<InfoNormRichtung vMax="-1" Reg="5017">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 453"/>
 <Signal NameBetriebsstelle="LZB-Bk 453" Stellwerk="ESTW-A Lamspringe" Signalname="453" SignalTyp="12" BoundingR="1">
@@ -4625,7 +4626,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="49.8537" Reg="5016"/>
+<InfoGegenRichtung vMax="77.7778" km="49.8537" Reg="5017"/>
 <NachNorm Nr="920"/>
 <NachGegen Nr="433"/>
 </StrElement>
@@ -4642,10 +4643,10 @@
 <StrElement Nr="436" Ueberh="0.0593" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2977">
 <g X="147.6348" Y="2270.7949" Z="214.6785"/>
 <b X="153.4503" Y="2250.4629" Z="214.5936"/>
-<InfoNormRichtung vMax="77.7778" km="49.8859" pos="1" Reg="5017">
+<InfoNormRichtung vMax="77.7778" km="49.8859" pos="1" Reg="5018">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="49.907" Reg="5017"/>
+<InfoGegenRichtung vMax="77.7778" km="49.907" Reg="5018"/>
 <NachNorm Nr="437"/>
 <NachGegen Nr="435"/>
 </StrElement>
@@ -5382,14 +5383,16 @@
 <g X="-796.3639" Y="4244.8179" Z="194.3279"/>
 <b X="-772.4244" Y="4201.4912" Z="194.946"/>
 <InfoNormRichtung vMax="77.7778" km="47.693" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="47.7425"/>
+<InfoGegenRichtung vMax="77.7778" km="47.7425">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="401"/>
+</InfoGegenRichtung>
 <NachNorm Nr="525"/>
 <NachGegen Nr="523"/>
 </StrElement>
 <StrElement Nr="525" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3083">
 <g X="-772.4244" Y="4201.4912" Z="194.946"/>
 <b X="-755.9828" Y="4171.7339" Z="195.3705"/>
-<InfoNormRichtung vMax="-1" Reg="5018">
+<InfoNormRichtung vMax="-1" Reg="5019">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="451" SignalTyp="10" BoundingR="10">
 <p X="-753.2431" Y="4173.2476" Z="195.3705"/>
@@ -5497,7 +5500,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="47.7765" Reg="5018">
+<InfoGegenRichtung vMax="77.7778" km="47.7765" Reg="5019">
 <Ereignis Er="39" Beschr="300b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="913"/>
@@ -5506,10 +5509,10 @@
 <StrElement Nr="526" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3137">
 <g X="-748.485" Y="4158.1641" Z="195.5641"/>
 <b X="-731.56" Y="4127.5317" Z="196.001"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5019">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5020">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="47.827" Reg="5019"/>
+<InfoGegenRichtung vMax="77.7778" km="47.827" Reg="5020"/>
 <NachNorm Nr="949"/>
 <NachGegen Nr="946"/>
 </StrElement>
@@ -5556,8 +5559,8 @@
 <StrElement Nr="532" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3123">
 <g X="-604.8484" Y="3898.199" Z="199.2725"/>
 <b X="-580.9089" Y="3854.8721" Z="199.8906"/>
-<InfoNormRichtung vMax="77.7778" km="48.089" pos="1" Reg="5020"/>
-<InfoGegenRichtung vMax="77.7778" km="48.1385" Reg="5020">
+<InfoNormRichtung vMax="77.7778" km="48.089" pos="1" Reg="5021"/>
+<InfoGegenRichtung vMax="77.7778" km="48.1385" Reg="5021">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -5567,7 +5570,7 @@
 <StrElement Nr="533" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3186">
 <g X="-549.5622" Y="3798.1377" Z="200.7"/>
 <b X="-550.157" Y="3799.2151" Z="200.6846"/>
-<InfoNormRichtung vMax="-1" km="48.2033" pos="1" Reg="5021">
+<InfoNormRichtung vMax="-1" km="48.2033" pos="1" Reg="5022">
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="402" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-549.5622" Y="3798.1377" Z="200.7"/>
 <phi Y="0.012486" Z="-4.20761"/>
@@ -5648,7 +5651,7 @@
 <MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="48.2021" pos="1" Reg="5021">
+<InfoGegenRichtung vMax="-1" km="48.2021" pos="1" Reg="5022">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-548.6976" Y="3800.2947" Z="200.6816"/>
 <phi Y="0.012486" Z="2.075575"/>
@@ -5847,11 +5850,11 @@
 <StrElement Nr="552" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3067">
 <g X="-435.8577" Y="3582.6282" Z="203.7418"/>
 <b X="-430.7801" Y="3573.4382" Z="203.8729"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5022">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5023">
 <Ereignis Er="6" Beschr="@tunnel=Riesberg Tunnel@"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="48.4575" Reg="5022"/>
+<InfoGegenRichtung vMax="77.7778" km="48.4575" Reg="5023"/>
 <NachNorm Nr="889"/>
 <NachGegen Nr="603"/>
 </StrElement>
@@ -5876,7 +5879,7 @@
 <StrElement Nr="555" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3205">
 <g X="-626.988" Y="3928.5498" Z="198.8071"/>
 <b X="-626.3931" Y="3927.4731" Z="198.8225"/>
-<InfoNormRichtung vMax="-1" km="48.0518" pos="1" Reg="5023">
+<InfoNormRichtung vMax="-1" km="48.0518" pos="1" Reg="5024">
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="401" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-626.988" Y="3928.5498" Z="198.8071"/>
 <phi Y="-0.012486" Z="-1.066017"/>
@@ -5957,7 +5960,7 @@
 <MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="48.053" Reg="5023">
+<InfoGegenRichtung vMax="-1" km="48.053" Reg="5024">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-627.8526" Y="3926.3931" Z="198.8255"/>
 <phi Y="-0.012486" Z="-1.066017"/>
@@ -6148,10 +6151,10 @@
 <StrElement Nr="573" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3097">
 <g X="-473.7339" Y="3660.8977" Z="202.6577"/>
 <b X="-459.2266" Y="3634.6416" Z="203.0323"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5024">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5025">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="48.3902" Reg="5024"/>
+<InfoGegenRichtung vMax="77.7778" km="48.3902" Reg="5025"/>
 <NachNorm Nr="945"/>
 <NachGegen Nr="587"/>
 </StrElement>
@@ -6194,7 +6197,7 @@
 <StrElement Nr="578" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3202">
 <g X="-505.0806" Y="3717.6321" Z="201.8484"/>
 <b X="-504.4857" Y="3716.5547" Z="201.8638"/>
-<InfoNormRichtung vMax="-1" km="48.2953" pos="1" Reg="5025">
+<InfoNormRichtung vMax="-1" km="48.2953" pos="1" Reg="5026">
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="403" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-505.0806" Y="3717.6321" Z="201.8484"/>
 <phi Y="-0.012486" Z="-1.066017"/>
@@ -6270,7 +6273,7 @@
 <MatrixEintrag Signalbild="30581" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="48.2966" Reg="5025">
+<InfoGegenRichtung vMax="-1" km="48.2966" Reg="5026">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-503.0263" Y="3717.636" Z="201.8607"/>
 <phi Y="0.012486" Z="2.075576"/>
@@ -6518,7 +6521,7 @@
 <StrElement Nr="603" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3116">
 <g X="-435.8578" Y="3582.6282" Z="203.7418"/>
 <b X="-436.4526" Y="3583.7051" Z="203.7265"/>
-<InfoNormRichtung vMax="-1" km="48.447" Reg="5026">
+<InfoNormRichtung vMax="-1" km="48.447" Reg="5027">
 <Signal NameBetriebsstelle="Üst Netze" Stellwerk="ESTW-A Lamspringe" Signalname="404" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-435.8578" Y="3582.6282" Z="203.7418"/>
 <phi Y="0.012486" Z="-4.20761"/>
@@ -6594,7 +6597,7 @@
 <MatrixEintrag Signalbild="30581" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="48.4458" pos="1" Reg="5026">
+<InfoGegenRichtung vMax="-1" km="48.4458" pos="1" Reg="5027">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-437.912" Y="3582.624" Z="203.7294"/>
 <phi Y="-0.012486" Z="-1.066017"/>
@@ -6785,10 +6788,10 @@
 <StrElement Nr="621" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2848">
 <g X="727.1674" Y="-2749.7209" Z="195.731"/>
 <b X="728.1455" Y="-2759.6726" Z="195.6437"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5027">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5028">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.9533" Reg="5027"/>
+<InfoGegenRichtung vMax="77.7778" km="54.9533" Reg="5028"/>
 <NachNorm Nr="937"/>
 <NachGegen Nr="814"/>
 </StrElement>
@@ -6827,20 +6830,20 @@
 <StrElement Nr="626" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2924">
 <g X="754.7244" Y="-3030.104" Z="193.2703"/>
 <b X="753.7463" Y="-3020.1523" Z="193.3576"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5028">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5029">
 <Ereignis Er="3" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="55.2151" pos="1" Reg="5028"/>
+<InfoGegenRichtung vMax="77.7778" km="55.2151" pos="1" Reg="5029"/>
 <NachNorm Nr="932"/>
 <NachGegen Nr="627"/>
 </StrElement>
 <StrElement Nr="627" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2897">
 <g X="754.7244" Y="-3030.104" Z="193.2703"/>
 <b X="759.3172" Y="-3076.8337" Z="192.8602"/>
-<InfoNormRichtung vMax="77.7778" km="55.2251" pos="1" Reg="5029">
+<InfoNormRichtung vMax="77.7778" km="55.2251" pos="1" Reg="5030">
 <Ereignis Er="28" Beschr="300a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="55.272" Reg="5029">
+<InfoGegenRichtung vMax="77.7778" km="55.272" Reg="5030">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="408" SignalTyp="10" BoundingR="10">
 <p X="757.8394" Y="-3029.7976" Z="193.2703"/>
@@ -7025,7 +7028,7 @@
 <StrElement Nr="637" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.283">
 <g X="688.4915" Y="-2356.207" Z="199.1846"/>
 <b X="688.6118" Y="-2357.4309" Z="199.1738"/>
-<InfoNormRichtung vMax="-1" km="54.5479" pos="1" Reg="5030">
+<InfoNormRichtung vMax="-1" km="54.5479" pos="1" Reg="5031">
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="411" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="688.4915" Y="-2356.207" Z="199.1846"/>
 <phi Y="0.008734" Z="-1.472828"/>
@@ -7101,7 +7104,7 @@
 <MatrixEintrag Signalbild="30581" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="54.5491" Reg="5030">
+<InfoGegenRichtung vMax="-1" km="54.5491" Reg="5031">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="690.3797" Y="-2357.0164" Z="199.1759"/>
 <phi Y="-0.008734" Z="1.668765"/>
@@ -7340,8 +7343,8 @@
 <StrElement Nr="661" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3056">
 <g X="357.8542" Y="959.8635" Z="216.7324"/>
 <b X="362.598" Y="911.5969" Z="217.022"/>
-<InfoNormRichtung vMax="-1" Reg="5031"/>
-<InfoGegenRichtung vMax="77.7778" km="51.2639" Reg="5031">
+<InfoNormRichtung vMax="-1" Reg="5032"/>
+<InfoGegenRichtung vMax="77.7778" km="51.2639" Reg="5032">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -7519,10 +7522,10 @@
 <StrElement Nr="685" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2928">
 <g X="435.4164" Y="170.6938" Z="215.0231"/>
 <b X="437.8617" Y="145.8141" Z="214.8807"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5032">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5033">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="52.0333" Reg="5032"/>
+<InfoGegenRichtung vMax="77.7778" km="52.0333" Reg="5033"/>
 <NachNorm Nr="940"/>
 <NachGegen Nr="918"/>
 </StrElement>
@@ -7891,8 +7894,8 @@
 <StrElement Nr="713" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2942">
 <g X="551.7598" Y="-1013.061" Z="205.5114"/>
 <b X="556.6074" Y="-1062.384" Z="205.0374"/>
-<InfoNormRichtung vMax="77.7778" km="53.1978" pos="1" Reg="5033"/>
-<InfoGegenRichtung vMax="77.7778" km="53.2474" Reg="5033">
+<InfoNormRichtung vMax="77.7778" km="53.1978" pos="1" Reg="5034"/>
+<InfoGegenRichtung vMax="77.7778" km="53.2474" Reg="5034">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -8162,7 +8165,7 @@
 <StrElement Nr="739" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2987">
 <g X="648.7126" Y="-1999.5229" Z="200.8791"/>
 <b X="649.9597" Y="-2012.2118" Z="200.8639"/>
-<InfoNormRichtung vMax="-1" Reg="5034">
+<InfoNormRichtung vMax="-1" Reg="5035">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="407" SignalTyp="10" BoundingR="10">
 <p X="646.8448" Y="-2012.5179" Z="200.8639"/>
@@ -8270,17 +8273,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.2018" Reg="5034"/>
+<InfoGegenRichtung vMax="77.7778" km="54.2018" Reg="5035"/>
 <NachNorm Nr="907"/>
 <NachGegen Nr="738"/>
 </StrElement>
 <StrElement Nr="740" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.299">
 <g X="653.5602" Y="-2048.8459" Z="200.82"/>
 <b X="654.5383" Y="-2058.7981" Z="200.8081"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5035">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5036">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.2486" Reg="5035"/>
+<InfoGegenRichtung vMax="77.7778" km="54.2486" Reg="5036"/>
 <NachNorm Nr="936"/>
 <NachGegen Nr="934"/>
 </StrElement>
@@ -8384,7 +8387,7 @@
 <StrElement Nr="753" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.286">
 <g X="698.6814" Y="-2507.938" Z="197.857"/>
 <b X="698.5611" Y="-2506.7141" Z="197.8677"/>
-<InfoNormRichtung vMax="-1" km="54.6999" pos="1" Reg="5036">
+<InfoNormRichtung vMax="-1" km="54.6999" pos="1" Reg="5037">
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="412" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="698.6814" Y="-2507.938" Z="197.857"/>
 <phi Y="-0.008734" Z="-4.61442"/>
@@ -8460,7 +8463,7 @@
 <MatrixEintrag Signalbild="30581" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="54.6987" pos="1" Reg="5036">
+<InfoGegenRichtung vMax="-1" km="54.6987" pos="1" Reg="5037">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="696.7932" Y="-2507.1289" Z="197.8656"/>
 <phi Y="0.008734" Z="-1.472827"/>
@@ -8651,11 +8654,11 @@
 <StrElement Nr="771" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2882">
 <g X="713.9767" Y="-2663.563" Z="196.4912"/>
 <b X="718.5215" Y="-2709.8049" Z="196.0854"/>
-<InfoNormRichtung vMax="77.7778" km="54.8563" pos="1" Reg="5037">
+<InfoNormRichtung vMax="77.7778" km="54.8563" pos="1" Reg="5038">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.9028" Reg="5037"/>
+<InfoGegenRichtung vMax="77.7778" km="54.9028" Reg="5038"/>
 <NachNorm Nr="772"/>
 <NachGegen Nr="798"/>
 </StrElement>
@@ -8710,7 +8713,7 @@
 <StrElement Nr="778" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.292">
 <g X="750.335" Y="-3033.4968" Z="193.2446"/>
 <b X="750.0416" Y="-3030.5115" Z="193.2708"/>
-<InfoNormRichtung vMax="-1" Reg="5038">
+<InfoNormRichtung vMax="-1" Reg="5039">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="458" SignalTyp="10" BoundingR="10">
 <p X="746.9266" Y="-3030.8174" Z="193.2708"/>
@@ -8818,7 +8821,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="55.225" pos="1" Reg="5038"/>
+<InfoGegenRichtung vMax="77.7778" km="55.225" pos="1" Reg="5039"/>
 <NachNorm Nr="905"/>
 <NachGegen Nr="779"/>
 </StrElement>
@@ -8906,7 +8909,7 @@
 <StrElement Nr="789" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2843">
 <g X="707.6368" Y="-2599.0559" Z="197.0573"/>
 <b X="707.757" Y="-2600.28" Z="197.0466"/>
-<InfoNormRichtung vMax="-1" km="54.7915" pos="1" Reg="5039">
+<InfoNormRichtung vMax="-1" km="54.7915" pos="1" Reg="5040">
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="413" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="707.6368" Y="-2599.0559" Z="197.0573"/>
 <phi Y="0.008735" Z="-1.472828"/>
@@ -8987,7 +8990,7 @@
 <MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="54.7927" Reg="5039">
+<InfoGegenRichtung vMax="-1" km="54.7927" Reg="5040">
 <Ereignis Er="6" Beschr="Üst Gehrenrode"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="705.9893" Y="-2600.6951" Z="197.0444"/>
@@ -9203,20 +9206,20 @@
 <StrElement Nr="810" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2844">
 <g X="703.4968" Y="-2508.8811" Z="197.8447"/>
 <b X="707.8294" Y="-2552.9651" Z="197.4578"/>
-<InfoNormRichtung vMax="77.7778" km="54.7013" pos="1" Reg="5040">
+<InfoNormRichtung vMax="77.7778" km="54.7013" pos="1" Reg="5041">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.7456" Reg="5040"/>
+<InfoGegenRichtung vMax="77.7778" km="54.7456" Reg="5041"/>
 <NachNorm Nr="811"/>
 <NachGegen Nr="809"/>
 </StrElement>
 <StrElement Nr="811" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2852">
 <g X="707.8294" Y="-2552.9651" Z="197.4578"/>
 <b X="712.162" Y="-2597.0481" Z="197.0709"/>
-<InfoNormRichtung vMax="77.7778" km="54.7456" pos="1" Reg="5041">
+<InfoNormRichtung vMax="77.7778" km="54.7456" pos="1" Reg="5042">
 <Ereignis Er="6" Beschr="Üst Gehrenrode"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="54.7899" Reg="5041">
+<InfoGegenRichtung vMax="77.7778" km="54.7899" Reg="5042">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="812"/>
@@ -9243,7 +9246,7 @@
 <StrElement Nr="814" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2841">
 <g X="727.1675" Y="-2749.7209" Z="195.731"/>
 <b X="727.0472" Y="-2748.4971" Z="195.7418"/>
-<InfoNormRichtung vMax="-1" km="54.9433" pos="1" Reg="5042">
+<InfoNormRichtung vMax="-1" km="54.9433" pos="1" Reg="5043">
 <Signal NameBetriebsstelle="Üst Gehrenrode" Stellwerk="ESTW-A Lamspringe" Signalname="414" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="727.1675" Y="-2749.7209" Z="195.731"/>
 <phi Y="-0.008734" Z="-4.61442"/>
@@ -9324,7 +9327,7 @@
 <MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="54.9421" pos="1" Reg="5042">
+<InfoGegenRichtung vMax="-1" km="54.9421" pos="1" Reg="5043">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="728.8151" Y="-2748.082" Z="195.7438"/>
 <phi Y="-0.008734" Z="1.668765"/>
@@ -9885,8 +9888,8 @@
 <StrElement Nr="861" Ueberh="-0.0593" kr="0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2925">
 <g X="816.7589" Y="-4159.665" Z="179.7559"/>
 <b X="817.5469" Y="-4138.5039" Z="180.0028"/>
-<InfoNormRichtung vMax="77.7778" km="56.3568" Reg="5043"/>
-<InfoGegenRichtung vMax="77.7778" km="56.3357" pos="1" Reg="5043">
+<InfoNormRichtung vMax="77.7778" km="56.3568" Reg="5044"/>
+<InfoGegenRichtung vMax="77.7778" km="56.3357" pos="1" Reg="5044">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300a"/>
 </InfoGegenRichtung>
@@ -10215,30 +10218,30 @@
 <StrElement Nr="905" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2919">
 <g X="750.0416" Y="-3030.5115" Z="193.2708"/>
 <b X="749.0635" Y="-3020.5598" Z="193.3581"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5044">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5045">
 <Ereignis Er="3" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5044"/>
+<InfoGegenRichtung vMax="-1" Reg="5045"/>
 <NachNorm Nr="933"/>
 <NachGegen Nr="778"/>
 </StrElement>
 <StrElement Nr="906" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2986">
 <g X="654.6401" Y="-2011.7804" Z="200.8639"/>
 <b X="655.6182" Y="-2021.7325" Z="200.852"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5045">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5046">
 <Ereignis Er="3" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5045"/>
+<InfoGegenRichtung vMax="-1" Reg="5046"/>
 <NachNorm Nr="935"/>
 <NachGegen Nr="350"/>
 </StrElement>
 <StrElement Nr="907" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2988">
 <g X="649.9597" Y="-2012.2118" Z="200.8639"/>
 <b X="650.9378" Y="-2022.1639" Z="200.852"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5046">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5047">
 <Ereignis Er="3" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5046"/>
+<InfoGegenRichtung vMax="-1" Reg="5047"/>
 <NachNorm Nr="934"/>
 <NachGegen Nr="739"/>
 </StrElement>
@@ -10463,20 +10466,20 @@
 <StrElement Nr="912" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3086">
 <g X="-759.9058" Y="4169.1147" Z="195.3754"/>
 <b X="-755.0702" Y="4160.3628" Z="195.5002"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5047">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5048">
 <Ereignis Er="3" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" Reg="5048"/>
 <NachNorm Nr="947"/>
 <NachGegen Nr="17"/>
 </StrElement>
 <StrElement Nr="913" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3094">
 <g X="-755.9828" Y="4171.7339" Z="195.3705"/>
 <b X="-751.1469" Y="4162.9819" Z="195.4954"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5048">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5049">
 <Ereignis Er="3" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5048"/>
+<InfoGegenRichtung vMax="-1" Reg="5049"/>
 <NachNorm Nr="946"/>
 <NachGegen Nr="525"/>
 </StrElement>
@@ -10503,7 +10506,7 @@
 <StrElement Nr="916" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2937">
 <g X="430.5688" Y="220.0169" Z="215.3054"/>
 <b X="433.1119" Y="194.142" Z="215.1573"/>
-<InfoNormRichtung vMax="-1" Reg="5049">
+<InfoNormRichtung vMax="-1" Reg="5050">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 405"/>
 <Signal NameBetriebsstelle="LZB-Bk 405" Stellwerk="ESTW-A Lamspringe" Signalname="405" SignalTyp="12" BoundingR="1">
@@ -10539,7 +10542,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5049"/>
+<InfoGegenRichtung vMax="-1" Reg="5050"/>
 <NachNorm Nr="918"/>
 <NachGegen Nr="683"/>
 </StrElement>
@@ -10578,8 +10581,8 @@
 <StrElement Nr="921" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2881">
 <g X="562.4224" Y="-1073.4956" Z="204.9262"/>
 <b X="566.895" Y="-1119.004" Z="204.489"/>
-<InfoNormRichtung vMax="77.7778" km="53.259" pos="1" Reg="5050"/>
-<InfoGegenRichtung vMax="-1" Reg="5050">
+<InfoNormRichtung vMax="77.7778" km="53.259" pos="1" Reg="5051"/>
+<InfoGegenRichtung vMax="-1" Reg="5051">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 406"/>
 <Signal NameBetriebsstelle="LZB-Bk 406" Stellwerk="ESTW-A Lamspringe" Signalname="406" SignalTyp="12" BoundingR="1">
@@ -10621,8 +10624,8 @@
 <StrElement Nr="922" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2945">
 <g X="557.7811" Y="-1074.3259" Z="204.9227"/>
 <b X="561.4551" Y="-1111.707" Z="204.5635"/>
-<InfoNormRichtung vMax="77.7778" km="53.2594" pos="1" Reg="5051"/>
-<InfoGegenRichtung vMax="-1" Reg="5051">
+<InfoNormRichtung vMax="77.7778" km="53.2594" pos="1" Reg="5052"/>
+<InfoGegenRichtung vMax="-1" Reg="5052">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 456"/>
 <Signal NameBetriebsstelle="LZB-Bk 456" Stellwerk="ESTW-A Lamspringe" Signalname="456" SignalTyp="12" BoundingR="1">
@@ -10664,8 +10667,8 @@
 <StrElement Nr="923" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3064">
 <g X="362.598" Y="911.5969" Z="217.022"/>
 <b X="367.1289" Y="865.4965" Z="217.2988"/>
-<InfoNormRichtung vMax="77.7778" km="51.2639" pos="1" Reg="5052"/>
-<InfoGegenRichtung vMax="-1" Reg="5052">
+<InfoNormRichtung vMax="77.7778" km="51.2639" pos="1" Reg="5053"/>
+<InfoGegenRichtung vMax="-1" Reg="5053">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 454"/>
 <Signal NameBetriebsstelle="LZB-Bk 454" Stellwerk="ESTW-A Lamspringe" Signalname="454" SignalTyp="12" BoundingR="1">
@@ -10707,8 +10710,8 @@
 <StrElement Nr="924" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3056">
 <g X="367.3077" Y="911.7293" Z="217.0241"/>
 <b X="371.8064" Y="865.9564" Z="217.2988"/>
-<InfoNormRichtung vMax="77.7778" km="51.2642" pos="1" Reg="5053"/>
-<InfoGegenRichtung vMax="-1" Reg="5053">
+<InfoNormRichtung vMax="77.7778" km="51.2642" pos="1" Reg="5054"/>
+<InfoGegenRichtung vMax="-1" Reg="5054">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 404"/>
 <Signal NameBetriebsstelle="LZB-Bk 404" Stellwerk="ESTW-A Lamspringe" Signalname="404" SignalTyp="12" BoundingR="1">
@@ -10771,8 +10774,8 @@
 <StrElement Nr="928" Ueberh="-0.0593" kr="0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2942">
 <g X="818.7097" Y="-4101.3486" Z="180.4362"/>
 <b X="818.8594" Y="-4096.1748" Z="180.4966"/>
-<InfoNormRichtung vMax="77.7778" km="56.2985" Reg="5054"/>
-<InfoGegenRichtung vMax="-1" Reg="5054">
+<InfoNormRichtung vMax="77.7778" km="56.2985" Reg="5055"/>
+<InfoGegenRichtung vMax="-1" Reg="5055">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 561"/>
 <Signal NameBetriebsstelle="LZB-Bk 561" Stellwerk="ESTW-A Orxhausen" Signalname="561" SignalTyp="12" BoundingR="1">
@@ -10814,8 +10817,8 @@
 <StrElement Nr="929" Ueberh="-0.0593" kr="0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2879">
 <g X="814.0129" Y="-4101.2036" Z="180.4364"/>
 <b X="814.1619" Y="-4096.0488" Z="180.4966"/>
-<InfoNormRichtung vMax="77.7778" km="56.2985" Reg="5055"/>
-<InfoGegenRichtung vMax="-1" Reg="5055">
+<InfoNormRichtung vMax="77.7778" km="56.2985" Reg="5056"/>
+<InfoGegenRichtung vMax="-1" Reg="5056">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 511"/>
 <Signal NameBetriebsstelle="LZB-Bk 511" Stellwerk="ESTW-A Orxhausen" Signalname="511" SignalTyp="12" BoundingR="1">
@@ -10881,20 +10884,20 @@
 <StrElement Nr="932" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2926">
 <g X="753.7463" Y="-3020.1523" Z="193.3576"/>
 <b X="750.1315" Y="-2983.374" Z="193.6804"/>
-<InfoNormRichtung vMax="77.7778" km="55.2151" Reg="5056">
+<InfoNormRichtung vMax="77.7778" km="55.2151" Reg="5057">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5056"/>
+<InfoGegenRichtung vMax="-1" Reg="5057"/>
 <NachNorm Nr="625"/>
 <NachGegen Nr="626"/>
 </StrElement>
 <StrElement Nr="933" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.291">
 <g X="749.0635" Y="-3020.5598" Z="193.3581"/>
 <b X="745.7903" Y="-2987.2549" Z="193.6504"/>
-<InfoNormRichtung vMax="77.7778" km="55.215" Reg="5057">
+<InfoNormRichtung vMax="77.7778" km="55.215" Reg="5058">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5057"/>
+<InfoGegenRichtung vMax="-1" Reg="5058"/>
 <NachNorm Nr="777"/>
 <NachGegen Nr="905"/>
 </StrElement>
@@ -10908,10 +10911,10 @@
 <StrElement Nr="935" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2986">
 <g X="655.6182" Y="-2021.7325" Z="200.852"/>
 <b X="659.3083" Y="-2059.2781" Z="200.8069"/>
-<InfoNormRichtung vMax="77.7778" km="54.2118" pos="1" Reg="5058">
+<InfoNormRichtung vMax="77.7778" km="54.2118" pos="1" Reg="5059">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5058"/>
+<InfoGegenRichtung vMax="-1" Reg="5059"/>
 <NachNorm Nr="351"/>
 <NachGegen Nr="906"/>
 </StrElement>
@@ -10934,8 +10937,8 @@
 <StrElement Nr="938" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.288">
 <g X="688.9609" Y="-2409.0354" Z="198.725"/>
 <b X="692.3413" Y="-2443.4309" Z="198.4231"/>
-<InfoNormRichtung vMax="77.7778" km="54.6005" pos="1" Reg="5059"/>
-<InfoGegenRichtung vMax="-1" Reg="5059">
+<InfoNormRichtung vMax="77.7778" km="54.6005" pos="1" Reg="5060"/>
+<InfoGegenRichtung vMax="-1" Reg="5060">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="762"/>
@@ -10967,8 +10970,8 @@
 <StrElement Nr="942" Ueberh="0.0336" kr="-0.000111" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3384">
 <g X="-279.404" Y="3308.0659" Z="207.6863"/>
 <b X="-274.6487" Y="3299.2639" Z="207.8112"/>
-<InfoNormRichtung vMax="69.4444" km="48.7629" pos="1" Reg="5060"/>
-<InfoGegenRichtung vMax="69.4444" Reg="5060">
+<InfoNormRichtung vMax="69.4444" km="48.7629" pos="1" Reg="5061"/>
+<InfoGegenRichtung vMax="69.4444" Reg="5061">
 <Ereignis Er="3" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="371"/>
@@ -10977,8 +10980,8 @@
 <StrElement Nr="943" Ueberh="0.0336" kr="-0.000111" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2754">
 <g X="-283.5553" Y="3305.8621" Z="207.6863"/>
 <b X="-278.8021" Y="3297.064" Z="207.8112"/>
-<InfoNormRichtung vMax="69.4444" km="48.7629" pos="1" Reg="5061"/>
-<InfoGegenRichtung vMax="69.4444" Reg="5061">
+<InfoNormRichtung vMax="69.4444" km="48.7629" pos="1" Reg="5062"/>
+<InfoGegenRichtung vMax="69.4444" Reg="5062">
 <Ereignis Er="3" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="122"/>
@@ -10987,8 +10990,8 @@
 <StrElement Nr="944" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3204">
 <g X="-630.7653" Y="3935.3865" Z="198.7096"/>
 <b X="-626.9881" Y="3928.5498" Z="198.8071"/>
-<InfoNormRichtung vMax="77.7778" km="48.0439" pos="1" Reg="5062"/>
-<InfoGegenRichtung vMax="-1" Reg="5062">
+<InfoNormRichtung vMax="77.7778" km="48.0439" pos="1" Reg="5063"/>
+<InfoGegenRichtung vMax="-1" Reg="5063">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="555"/>
@@ -23598,6 +23601,9 @@
 <FahrstrRegister Ref="52">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="401">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="136">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -23686,6 +23692,9 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="400">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="139">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
@@ -23776,6 +23785,9 @@
 <FahrstrRegister Ref="52">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="401">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="136">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -23843,6 +23855,9 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="400">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="139">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
@@ -24292,6 +24307,9 @@
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="400">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="139">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -24380,6 +24398,9 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="52">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="401">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="136">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
@@ -24470,6 +24491,9 @@
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="400">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="139">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -24537,6 +24561,9 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="52">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Gehrenrode_2002.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="401">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="136">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
