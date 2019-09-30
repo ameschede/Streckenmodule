@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="ER" Nummer="53204" Zuglauf="Erfurt Gbf - Arnstadt Hbf" Prio="2500" Standortmodus="1" BremsstellungZug="2" spAnfang="8.3333" MBrh="0.6" FahrplanGruppe="3) Erfurt - Neudietendorf" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Erfurt Pbf 01N295" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\VDE8\Erfurt-Theuern_2019_4-10Uhr.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2019-05-02 05:27:00" Abf="2019-05-02 05:27:00" Betrst="Bft Erfurt Pbf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="01N295"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 05:34:00" Betrst="Erfurt-Bischleb">
+<FahrplanSignalEintrag FahrplanSignal="N723"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 05:40:00" Betrst="Neudietendorf">
+<FahrplanSignalEintrag FahrplanSignal="N863"/>
+<FahrplanSignalEintrag FahrplanSignal="N862"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Dieselloks\Gravita\Gravita10BB.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Gueterwagen\R-Wagen\Rnoos644\Rnoos644.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="8"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\gartenzaun.dds"/>
+</Textur>
+<Vertex V="0.48" V2="0.48">
+<p X="-20.2136" Y="0.03" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.03" V2="0.03">
+<p X="-20.2136" Y="0.03" Z="1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.03" V2="0.03">
+<p X="-20.2136" Y="-0.03" Z="1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.48" V2="0.48">
+<p X="-20.2136" Y="-0.03" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20.2136" V="0.48" U2="-20.2136" V2="0.48">
+<p X="20.2136" Y="0.03" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20.2136" V="0.03" U2="-20.2136" V2="0.03">
+<p X="20.2136" Y="0.03" Z="1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20.2136" V="0.03" U2="-20.2136" V2="0.03">
+<p X="20.2136" Y="-0.03" Z="1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-20.2136" V="0.48" U2="-20.2136" V2="0.48">
+<p X="20.2136" Y="-0.03" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>
