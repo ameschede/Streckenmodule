@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="RE" Nummer="3906" Zuglauf="Kassel-Wilhelmshöhe - Hagen Hbf" Prio="2500" BremsstellungZug="5" MBrh="1.42" ReisendenDichte="0.5" FahrplanGruppe="1) Kassel - Hofgeismar - Warburg" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Kassel-Wilhelmshöhe P508" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Paderborn_Kassel\Hessentag2015.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Paderborn_Kassel\Hessentag2015\RE3906.timetable.xml"/>
+<FahrplanEintrag Ank="2015-05-30 07:56:00" Abf="2015-05-30 08:00:00" Betrst="Kassel-Wilhelmshöhe">
+<FahrplanSignalEintrag FahrplanSignal="P508"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2015-05-30 08:03:00" Betrst="Abzw Ksl Rbf Berg">
+<FahrplanSignalEintrag FahrplanSignal="184"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2015-05-30 08:04:00" Betrst="Obervellmar">
+<FahrplanSignalEintrag FahrplanSignal="C"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2015-05-30 08:06:00" Betrst="Mönchehof">
+<FahrplanSignalEintrag FahrplanSignal="G"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2015-05-30 08:08:00" Betrst="Immenhausen">
+<FahrplanSignalEintrag FahrplanSignal="D"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2015-05-30 08:11:00" Betrst="Grebenstein">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2015-05-30 08:17:00" Abf="2015-05-30 08:18:00" Betrst="Hofgeismar">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2015-05-30 08:21:00" Betrst="Hümme">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2015-05-30 08:31:00" Betrst="Liebenau">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2015-05-30 08:35:00" Abf="2015-05-30 08:38:00" Betrst="Warburg">
+<FahrplanSignalEintrag FahrplanSignal="S3"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\612\612_5.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\612\612_0.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\612\612_5.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\612\612_0.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\612\612_5.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\612\612_0.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="RE" Nummer="10747" Zuglauf="Warburg (Westf) - Kassel-Wilhelmshöhe" BR="612" Masse="324000" spMax="44.4444" Bremsh="1.5" MBrh="1.41" Laenge="155.25" kmStart="147.9837" BremsstellungZug="5" GNTSpalte="1">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel\Hessentag2015.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel\Hessentag2015\RE10747.trn" NurInfo="1"/>
+<FplZeile FplLaufweg="29.8917">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+<FplvMax vMax="33.3333"/>
+</FplZeile>
+<FplZeile FplLaufweg="31.8917">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="0.014"/>
+</FplZeile>
+<FplZeile FplLaufweg="121.0838">
+<FplName FplNameText="Warburg"/>
+<Fplkm km="148.1048"/>
+<FplAnk Ank="2015-05-30 19:19:00"/>
+<FplAbf Abf="2015-05-30 19:30:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="196.2807">
+<Fplkm km="148.18" FplSprung="1" FplkmNeu="292.9452"/>
+</FplZeile>
+<FplZeile FplLaufweg="411.9123">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="293.1605"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="630.5893" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+<FplvMax vMax="27.7778"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="632.5893" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="293.3907"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="689.4807" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="293.438"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="712.0277" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="293.4605"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="748.2742" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="293.4968"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="767.0277" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="293.4605"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1195.7634" FahrstrStrecke="2550a">
+<Fplkm km="293.9442"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2320.0344" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="295.0984"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4085.4077" FahrstrStrecke="2550a">
+<FplName FplNameText="Sbk 21"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="296.877"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="6217.5234" FahrstrStrecke="2550a">
+<FplName FplNameText="Haueda Hp"/>
+<Fplkm km="299.0101"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="6227.856" FahrstrStrecke="2550a">
+<FplName FplNameText="Haueda Hp"/>
+<Fplkm km="299.0212"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="6520.3579" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="36.1111"/>
+<Fplkm km="299.3003"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="6613.7881" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="299.3937"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="7844.4722" FahrstrStrecke="2550a">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="300.6393"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="7848.2305" FahrstrStrecke="2550a">
+<FplNameRechts FplNameText="E 60"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="300.6394"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="8512.8037">
+<FplName FplNameText="Liebenau"/>
+<Fplkm km="301.3043"/>
+<FplAnk Ank="2015-05-30 19:36:00"/>
+<FplAbf Abf="2015-05-30 19:37:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="8854.5664">
+<FplNameRechts FplNameText="A 60"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="301.6465"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9078.8789" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="301.8708"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="9121.5264" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="301.9128"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="9122.7266" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="301.9183"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9136.1357" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="301.928"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9149.4814" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="301.928"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="13500.2852" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="306.3239"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="13504.3125" FahrstrStrecke="2550a">
+<FplNameRechts FplNameText="E 60"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="306.3224"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="13598.8398">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="306.4033"/>
+</FplZeile>
+<FplZeile FplLaufweg="14114.4346">
+<FplName FplNameText="Lamerden"/>
+<Fplkm km="306.9315"/>
+<FplAbf Abf="2015-05-30 19:41:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="14862.2461">
+<FplNameRechts FplNameText="A 50"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="307.6799"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="14869.8457" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="36.1111"/>
+<Fplkm km="307.6799"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="14870.8408" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="307.6926"/>
+<FplvMaxGNT vMax="36.1111"/>
+<Fplkm km="307.6799"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="14893.9238" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="36.1111"/>
+<Fplkm km="307.6996"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="14983.2432" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="307.8012"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="14997.2861" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="307.8083"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="14997.9512" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="307.815"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="15190.1973" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="308.0087"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="15202.0596" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<Fplkm km="308.0087"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="16889.2637" FahrstrStrecke="2550a">
+<FplName FplNameText="Eberschütz Hp"/>
+<Fplkm km="309.708"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="16891.6328" FahrstrStrecke="2550a">
+<FplName FplNameText="Eberschütz Hp"/>
+<Fplkm km="309.708"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="16924.2051" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="309.7428"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="17694.1289" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<Fplkm km="310.4844"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="17901.6055" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<Fplkm km="310.6909"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="18945.4941" FahrstrStrecke="2550a">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="311.7733"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="18948.6133" FahrstrStrecke="2550a">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="311.7485"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="19292.25" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="312.0939"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="19344.2422" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="25"/>
+<Fplkm km="312.0939"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="19396.2344" FahrstrStrecke="2550a">
+<FplNameRechts FplNameText="E 50"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="312.1979"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="19398.0254" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="312.1979"/>
+</FplZeile>
+<FplZeile FplLaufweg="19402.0527">
+<FplvMaxGNT vMax="25"/>
+<Fplkm km="312.1979"/>
+</FplZeile>
+<FplZeile FplLaufweg="20318.7383">
+<FplName FplNameText="Hümme"/>
+<Fplkm km="313.1245"/>
+<FplAbf Abf="2015-05-30 19:44:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="20480.3906">
+<FplNameRechts FplNameText="A 60"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="313.3072"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="20487.9004" FahrstrStrecke="2550a">
+<Fplkm km="313.3129" FplSprung="1" FplkmNeu="313.2224"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="20702.5254" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="313.5307"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="20733.9609" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="313.4649"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="20923.6113" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="313.7247"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="20970.6445" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="313.7996"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="21019.666" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<Fplkm km="313.7996"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="21027.334" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="313.7572"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="22684.4609" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="41.6667"/>
+<Fplkm km="315.5041"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="22757.4863" FahrstrStrecke="2550a">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="315.6263"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="23940.918" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="9"/>
+<Fplkm km="316.6715"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="24855.793" FahrstrStrecke="2550a">
+<FplNameRechts FplNameText="E 60"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="317.6811"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="24950.5762" FahrstrStrecke="2550a">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="317.6811"/>
+<FplSignaltyp FplSignaltypNr="5"/>
+</FplZeile>
+<FplZeile FplLaufweg="25072.8965">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="317.8982"/>
+</FplZeile>
+<FplZeile FplLaufweg="25109.4375">
+<FplvMaxGNT vMax="41.6666"/>
+<Fplkm km="317.8982"/>
+</FplZeile>
+<FplZeile FplLaufweg="25791.5703">
+<FplName FplNameText="Hofgeismar"/>
+<Fplkm km="318.6165"/>
+<FplAnk Ank="2015-05-30 19:48:00"/>
+<FplAbf Abf="2015-05-30 19:54:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="26079.6816">
+<FplNameRechts FplNameText="A 60"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="318.9046"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="26113.2305" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="318.9046"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="26208.0137" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="318.9046"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="26257.9473" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="319.0829"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="26375.1582" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="319.2"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="26401.2598" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="319.1601"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="26422.1582" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="29195.2598" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="321.9766"/>
+<FplIcon FplIconNr="22"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="29816.6426" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="322.6584"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="30447.6172" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="4"/>
+<Fplkm km="323.2767"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="30459.1602" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="323.2767"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="30674.8789" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="323.4952"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="30820.7109" FahrstrStrecke="2550a">
+<FplNameRechts FplNameText="E 50"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="323.6494"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="30915.8145" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="323.6494"/>
+</FplZeile>
+<FplZeile FplLaufweg="31396.5176">
+<FplvMax vMax="25"/>
+<Fplkm km="324.2042"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="31812.6191">
+<FplName FplNameText="Grebenstein"/>
+<Fplkm km="324.64"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplAbf Abf="2015-05-30 19:59:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="31881.6094">
+<FplvMaxGNT vMax="27.7777"/>
+<Fplkm km="324.7015"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="32016.0254">
+<FplNameRechts FplNameText="A 50"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="32120.8066" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="324.9508"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="32174.5039" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="325.0046"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="32182.0039" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="325.0046"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="32218.8613" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="324.955"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="32473.9688" FahrstrStrecke="2550a">
+<Fplkm km="325.2099"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="33471.3594" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="326.298"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="33558.5195" FahrstrStrecke="2550a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="326.3217"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="34276.7109" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="327.1044"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="34284.1992" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="327.1044"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="35443.2539" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="328.2715"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="35539.8867" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="328.2776"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="36386.207">
+<FplName FplNameText="Immenhausen"/>
+<Fplkm km="329.2169"/>
+<FplAbf Abf="2015-05-30 20:02:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="36420.4844">
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="329.2514"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="36533.4648" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="329.2692"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="36765.8867" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="329.5977"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="36778.1523" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="329.5977"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="36890.9805" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="329.7027"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="38668.9844" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="331.5003"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="38686.5586" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<Fplkm km="331.5003"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="39477.7383" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="4"/>
+<Fplkm km="332.3095"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="39500.7383" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<Fplkm km="332.3095"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="39550.8086" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="332.3821"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="39645.8047" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="332.3807"/>
+</FplZeile>
+<FplZeile FplLaufweg="40690.2305">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="333.506"/>
+<FplName FplNameText="Mönchehof"/>
+<FplAbf Abf="2015-05-30 20:04:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="40699.3984">
+<FplNameRechts FplNameText="A 50"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="333.5272"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="40795.5391" FahrstrStrecke="2550a">
+<Fplkm km="333.5283"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="40934.0508" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="333.7622"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="40961.2734" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="333.694"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="40974.6406" FahrstrStrecke="2550a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="333.8029"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="40983.3555" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="41375.6641" FahrstrStrecke="2550a">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="334.2039"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="42579.5586" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="38.8888"/>
+<Fplkm km="335.4005"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="43881.1328" FahrstrStrecke="2550a">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="336.707"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="43938.7188" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="336.774"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="43975.0859">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="336.8018"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="44038.0898" FahrstrStrecke="2550a">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="336.774"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="44871.8867">
+<FplvMaxGNT vMax="27.7777"/>
+<Fplkm km="337.6933"/>
+<FplvMax vMax="27.7778"/>
+<Fplkm km="337.7057"/>
+</FplZeile>
+<FplZeile FplLaufweg="44884.2773">
+<FplName FplNameText="Obervellmar"/>
+<Fplkm km="337.7183"/>
+<FplAbf Abf="2015-05-30 20:06:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="44890.668">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="337.7246"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="44965.4102" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="4"/>
+<Fplkm km="337.7993"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="44970.9766" FahrstrStrecke="3913a">
+<FplvMaxGNT vMax="27.7777"/>
+<Fplkm km="337.7993"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="45009.4844" FahrstrStrecke="3913a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="337.7299"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="45263.5586" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="338.0975"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="45355.957" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="338.0467"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="45989.918" FahrstrStrecke="3913a">
+<Fplkm km="339.2"/>
+<FplName FplNameText="Abzw Ksl Rbf Berg"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<FplAbf Abf="2015-05-30 20:07:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="46133.7656" FahrstrStrecke="3913a">
+<FplvMax vMax="11.1111"/>
+<Fplkm km="339.2"/>
+<FplName FplNameText="Abzw Ksl Rbf Berg"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<FplAbf Abf="2015-05-30 20:07:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="46368.8398" FahrstrStrecke="3913a">
+<Fplkm km="339.2036"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="46433.6602" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="339.2684"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="47127.2109" FahrstrStrecke="3913a">
+<Fplkm km="339.9612"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="47129.5234" FahrstrStrecke="3913a">
+<Fplkm km="339.9635"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="47379.5273" FahrstrStrecke="3913a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="340.2134"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="49012.1094">
+<FplName FplNameText="Kassel Rbf"/>
+<Fplkm km="341.8248"/>
+</FplZeile>
+<FplZeile FplLaufweg="49302.9375">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="342.1295"/>
+<FplSignaltyp FplSignaltypNr="8"/>
+</FplZeile>
+<FplZeile FplLaufweg="49966.6836">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="342.813"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplLaufweg="50223.6094">
+<FplName FplNameText="Bft Ksl Rbf Süd"/>
+<Fplkm km="343.0269"/>
+</FplZeile>
+<FplZeile FplLaufweg="50314.3594">
+<FplName FplNameText="Zsig = Esig"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="343.1176"/>
+</FplZeile>
+<FplZeile FplLaufweg="50823.3711">
+<Fplkm km="343.6114" FplSprung="1" FplkmNeu="3.2654"/>
+</FplZeile>
+<FplZeile FplLaufweg="51294.4102">
+<FplName FplNameText="Kassel-Wilhelmshöhe"/>
+<Fplkm km="3.7365"/>
+<FplAnk Ank="2015-05-30 20:16:00"/>
+<FplAbf Abf="2015-05-30 20:20:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="51705.3984">
+<FplSignaltyp FplSignaltypNr="8"/>
+<Fplkm km="4.1449"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>
