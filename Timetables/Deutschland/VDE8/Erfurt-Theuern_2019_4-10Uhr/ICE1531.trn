@@ -15,8 +15,10 @@
 <FahrplanSignalEintrag FahrplanSignal="01ZV2"/>
 </FahrplanEintrag>
 <FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
-<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="2">
 <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Endwagen.rv.fzg"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="9" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ZugsicherungHS="2" Lufthahn="2" ETCSStoerschalter="2"/>
 </FahrzeugInfo>
 <FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Stromrichterwagen.rv.fzg"/>

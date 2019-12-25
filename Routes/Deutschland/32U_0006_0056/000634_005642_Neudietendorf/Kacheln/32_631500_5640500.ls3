@@ -10,13 +10,13 @@
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="217" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="219" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_631875_5640625.ls3"/>
 <p X="375" Y="125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="186" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="185" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_631875_5640875.ls3"/>
 <p X="375" Y="375"/>
 <phi/>
@@ -420,7 +420,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005687_Harleshausen\Objekte\Harleshausen_11_Wohnhaeuser\Harles_11_Gartenhaus_3.lod.ls3"/>
-<p X="355.4334" Y="206.1487" Z="261.0054"/>
+<p X="355.4334" Y="206.1487" Z="261"/>
 <phi Z="3.320032"/>
 <sk/>
 </Verknuepfte>
@@ -1521,6 +1521,18 @@
 <p X="362.3558" Y="223.6071" Z="260.2962"/>
 <phi Z="-2.718246"/>
 <sk X="1.0361" Y="1.0361" Z="1.0361"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Signals\Deutschland\Balise\Eurobalise_S21_Festdaten.lod.ls3"/>
+<p X="240.5668" Y="204.9816" Z="261.5702"/>
+<phi Y="-0.005273" Z="-2.923873"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Signals\Deutschland\Balise\Eurobalise_S21_Festdaten.lod.ls3"/>
+<p X="237.4431" Y="204.2906" Z="261.5891"/>
+<phi Y="-0.005273" Z="-2.923873"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
@@ -6325,9 +6337,9 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\gravel06_3m.dds"/>
 </Textur>
-<Vertex U="-432.9278" V="718.423">
-<p X="344.731" Y="201.2167" Z="260.5619"/>
-<n X="0.026" Y="-0.1174" Z="0.9927"/>
+<Vertex U="-433.0666" V="718.654">
+<p X="344.7315" Y="201.2169" Z="261.0618"/>
+<n X="0.0005" Y="-0.0022" Z="1"/>
 </Vertex>
 <Vertex U="-431.7942" V="719.791">
 <p X="340.6272" Y="204.6175" Z="261.0715"/>
@@ -6337,9 +6349,9 @@
 <p X="352.344" Y="207.2094" Z="261.0715"/>
 <n X="0.026" Y="-0.1174" Z="0.9927"/>
 </Vertex>
-<Vertex U="-435.138" V="714.6244">
-<p X="356.127" Y="194.5861" Z="259.8218"/>
-<n X="0.0088" Y="-0.0959" Z="0.9954"/>
+<Vertex U="-435.4848" V="715.2138">
+<p X="356.1277" Y="194.5865" Z="261.0217"/>
+<n X="0.007" Y="-0.0018" Z="1"/>
 </Vertex>
 <Vertex U="-427.3008" V="716.6882">
 <p X="349.9356" Y="218.0978" Z="261.0714"/>
@@ -6369,8 +6381,16 @@
 <p X="382.5645" Y="200.6955" Z="260.8987"/>
 <n X="0.0027" Y="0.0099" Z="0.9999"/>
 </Vertex>
+<Vertex U="-433.4716" V="717.9601">
+<p X="346.8179" Y="200.0033" Z="260.9263"/>
+<n X="0.0367" Y="-0.0483" Z="0.9982"/>
+</Vertex>
+<Vertex U="-434.1023" V="716.8798">
+<p X="350.0664" Y="198.1133" Z="260.7153"/>
+<n X="0.0367" Y="-0.0483" Z="0.9982"/>
+</Vertex>
 <Face i="1;2;0"/>
-<Face i="2;3;0"/>
+<Face i="2;11;0"/>
 <Face i="6;4;5"/>
 <Face i="4;6;2"/>
 <Face i="2;6;3"/>
@@ -6378,6 +6398,8 @@
 <Face i="7;6;8"/>
 <Face i="8;6;9"/>
 <Face i="10;9;6"/>
+<Face i="12;11;2"/>
+<Face i="3;12;2"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
