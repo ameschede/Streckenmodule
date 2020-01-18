@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -508,7 +508,7 @@
 <phi Z="5.687499"/>
 <sk X="1.0307" Y="1.0307" Z="1.0307"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
 <p X="-497.8302" Y="492.1752" Z="79.0125"/>
 <phi Z="-0.542338"/>
@@ -586,7 +586,7 @@
 <phi Z="4.212953"/>
 <sk X="0.9784" Y="0.9784" Z="0.9784"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush03-1m5.lod.ls3"/>
 <p X="-493.8242" Y="-399.7702" Z="75.699"/>
 <phi Z="1.498955"/>
@@ -639,6 +639,18 @@
 <p X="-444.6778" Y="-460.6125" Z="75.5065"/>
 <phi Z="1.51686"/>
 <sk X="1.0094" Y="1.0094" Z="1.0094"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Wechselsprecher\Ws-Saeule_ANT.lod.ls3"/>
+<p X="-437.9659" Y="-438.0683" Z="76.1098"/>
+<phi Z="2.645109"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="921" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Lautsprecher\Lautsprecher_rund_doppelt_aufgestaendert.lod.ls3"/>
+<p X="-481.126" Y="-419.9697" Z="76.0394"/>
+<phi Z="2.645115"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
