@@ -23,9 +23,10 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Ahlshausen
 * Neudietendorf
 * Sudheim
+* Edesheim
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
 
-Die Module Sorsum, Almstedt, Gehrenrode, Orxhausen und Ahlshausen bilden ein zusammenhängendes Netz mit 48,6 km Gesamt-Streckenlänge.
+Die Module Sorsum, Almstedt, Gehrenrode, Orxhausen, Ahlshausen, Edesheim und Sudheim bilden ein zusammenhängendes Netz mit 69,7 km Gesamt-Streckenlänge.
