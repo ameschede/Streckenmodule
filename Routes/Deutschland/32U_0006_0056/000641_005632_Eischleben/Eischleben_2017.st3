@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.2" MinVersion="A.2">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -33486,10 +33486,40 @@
 <NachGegen Nr="5904"/>
 </StrElement>
 <StrElement Nr="5906" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau">
-<g X="-2123.8496" Y="1605.7627" Z="287.0089"/>
+<g X="-2140.9165" Y="1604.6869" Z="286.8305"/>
 <b X="-2117.6384" Y="1606.1547" Z="287.0699"/>
 <InfoNormRichtung vMax="27.7778" km="1.9224" pos="1"/>
-<InfoGegenRichtung vMax="27.7778" km="1.9286"/>
+<InfoGegenRichtung vMax="27.7778" km="1.9286">
+<Signal SignalTyp="1" BoundingR="3">
+<p X="-2141.1116" Y="1607.7808" Z="288.5805"/>
+<phi Z="-3.078622"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Langsamfahrsignale\DB_95_Lf6_Tafel_Su.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-6-alternativ.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="-1.75"/>
+<phi/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.025" Z="-2.1"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Nebensignale\Betonpfosten.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="15" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="5907"/>
 <NachGegen Nr="7147"/>
 </StrElement>
@@ -42270,12 +42300,12 @@
 </StrElement>
 <StrElement Nr="7147" spTrass="27.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2142.9124" Y="1604.561" Z="286.8096"/>
-<b X="-2123.8496" Y="1605.7627" Z="287.0089"/>
+<b X="-2140.9165" Y="1604.6869" Z="286.8305"/>
 <InfoNormRichtung vMax="27.7778" km="1.8833" pos="1"/>
 <InfoGegenRichtung vMax="-1">
 <Signal NameBetriebsstelle="Arnstadt Hbf" Stellwerk="Steuerbereich 80 Arnstadt" Signalname="80Vg" SignalTyp="6" BoundingR="10">
-<p X="-2143.0806" Y="1607.2307" Z="286.8096"/>
-<phi Z="-3.078639"/>
+<p X="-2143.0808" Y="1607.2307" Z="286.8096"/>
+<phi Z="-3.078618"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -42294,7 +42324,7 @@
 <SignalFrame>
 <p Y="-0.4" Z="0.125"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKompSEL-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.095" Z="4.1"/>
@@ -42305,11 +42335,6 @@
 <p X="-1.095" Z="4.1"/>
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="2.675"/>
-<phi/>
-<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
@@ -42330,46 +42355,24 @@
 <VsigBegriff VsigGeschw="38.8889"/>
 <VsigBegriff VsigGeschw="41.6667"/>
 <VsigBegriff VsigGeschw="-2"/>
-<MatrixEintrag Signalbild="6291507" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="6291513" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6291573" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6291637" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6291765" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6292021" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6292533" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6293557" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6295605" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6299701" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6307893" MatrixGeschw="-1">
-<Ereignis Er="1000"/>
-</MatrixEintrag>
-<MatrixEintrag Signalbild="6324277" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="6357045" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="6422581" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="6553653" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="6815797" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="7340085" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="6291505" MatrixGeschw="-1">
-<Ereignis Er="2000"/>
-</MatrixEintrag>
+<MatrixEintrag Signalbild="2097203" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2097209" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2097269" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2097333" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2097461" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2097717" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2098229" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2099253" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2101301" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2105397" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2113589" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2129973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2162741" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2228277" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2359349" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2621493" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="3145781" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2097201" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="5906"/>
