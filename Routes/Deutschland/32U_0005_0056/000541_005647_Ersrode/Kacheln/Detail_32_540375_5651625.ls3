@@ -7,72 +7,6 @@
 <SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Vertex>
-<p X="67.7532" Y="43.7363" Z="325.2798"/>
-<n X="-0.9996" Y="-0.0288" Z="0.0005"/>
-</Vertex>
-<Vertex>
-<p X="69.3483" Y="-11.6436" Z="326.267"/>
-<n X="-0.9996" Y="-0.0288" Z="0.0005"/>
-</Vertex>
-<Vertex>
-<p X="69.3594" Y="-11.6436" Z="326.2734"/>
-<n X="0.4998" Y="0.0298" Z="0.8656"/>
-</Vertex>
-<Vertex>
-<p X="67.7643" Y="43.7363" Z="325.2862"/>
-<n X="0.4998" Y="0.0298" Z="0.8656"/>
-</Vertex>
-<Vertex>
-<p X="69.3594" Y="-11.6436" Z="326.2606"/>
-<n X="0.4998" Y="-0.001" Z="-0.8661"/>
-</Vertex>
-<Vertex>
-<p X="67.7643" Y="43.7363" Z="325.2734"/>
-<n X="0.4998" Y="-0.001" Z="-0.8661"/>
-</Vertex>
-<Face i="2;0;1"/>
-<Face i="0;2;3"/>
-<Face i="4;3;2"/>
-<Face i="3;4;5"/>
-<Face i="1;5;4"/>
-<Face i="5;1;0"/>
-</SubSet>
-<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Vertex>
-<p X="58.2459" Y="42.7061" Z="325.5767"/>
-<n X="-0.9993" Y="-0.0366" Z="0.0003"/>
-</Vertex>
-<Vertex>
-<p X="60.2797" Y="-12.752" Z="325.967"/>
-<n X="-0.9993" Y="-0.0366" Z="0.0003"/>
-</Vertex>
-<Vertex>
-<p X="60.2908" Y="-12.7515" Z="325.9734"/>
-<n X="0.4997" Y="0.0244" Z="0.8659"/>
-</Vertex>
-<Vertex>
-<p X="58.257" Y="42.7065" Z="325.5831"/>
-<n X="0.4997" Y="0.0244" Z="0.8659"/>
-</Vertex>
-<Vertex>
-<p X="60.2908" Y="-12.7515" Z="325.9606"/>
-<n X="0.4997" Y="0.0122" Z="-0.8661"/>
-</Vertex>
-<Vertex>
-<p X="58.257" Y="42.7065" Z="325.5703"/>
-<n X="0.4997" Y="0.0122" Z="-0.8661"/>
-</Vertex>
-<Face i="2;0;1"/>
-<Face i="0;2;3"/>
-<Face i="4;3;2"/>
-<Face i="3;4;5"/>
-<Face i="1;5;4"/>
-<Face i="5;1;0"/>
-</SubSet>
-<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Vertex>
 <p X="59.3713" Y="33.7769" Z="325.364"/>
 <n X="-0.9922" Y="-0.124" Z="0.0114"/>
 </Vertex>
@@ -2051,39 +1985,6 @@
 <Face i="89;90;91"/>
 <Face i="87;91;90"/>
 <Face i="91;87;86"/>
-</SubSet>
-<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Vertex>
-<p X="80.0391" Y="-61.8872" Z="326.6085"/>
-<n X="-0.9781" Y="-0.2081" Z="0.0014"/>
-</Vertex>
-<Vertex>
-<p X="69.3485" Y="-11.645" Z="326.267"/>
-<n X="-0.9781" Y="-0.2081" Z="0.0014"/>
-</Vertex>
-<Vertex>
-<p X="69.3593" Y="-11.6431" Z="326.2606"/>
-<n X="0.4891" Y="0.0982" Z="-0.8667"/>
-</Vertex>
-<Vertex>
-<p X="80.05" Y="-61.8853" Z="326.6021"/>
-<n X="0.4891" Y="0.0982" Z="-0.8667"/>
-</Vertex>
-<Vertex>
-<p X="69.3593" Y="-11.6426" Z="326.2734"/>
-<n X="0.4891" Y="0.1099" Z="0.8653"/>
-</Vertex>
-<Vertex>
-<p X="80.05" Y="-61.8848" Z="326.6149"/>
-<n X="0.4891" Y="0.1099" Z="0.8653"/>
-</Vertex>
-<Face i="2;0;1"/>
-<Face i="0;2;3"/>
-<Face i="4;3;2"/>
-<Face i="3;4;5"/>
-<Face i="1;5;4"/>
-<Face i="5;1;0"/>
 </SubSet>
 <SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -4680,6 +4581,105 @@
 <Face i="15;18;16"/>
 <Face i="20;17;19"/>
 <Face i="17;20;18"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="69.3483" Y="-11.644" Z="326.2671"/>
+<n X="-0.9993" Y="-0.037" Z="0.0007"/>
+</Vertex>
+<Vertex>
+<p X="67.3106" Y="43.3394" Z="325.2798"/>
+<n X="-0.9993" Y="-0.037" Z="0.0007"/>
+</Vertex>
+<Vertex>
+<p X="67.3217" Y="43.3398" Z="325.2734"/>
+<n X="0.4997" Y="0.003" Z="-0.8662"/>
+</Vertex>
+<Vertex>
+<p X="69.3594" Y="-11.6436" Z="326.2607"/>
+<n X="0.4997" Y="0.003" Z="-0.8662"/>
+</Vertex>
+<Vertex>
+<p X="67.3217" Y="43.3403" Z="325.2862"/>
+<n X="0.4997" Y="0.0341" Z="0.8655"/>
+</Vertex>
+<Vertex>
+<p X="69.3594" Y="-11.6431" Z="326.2735"/>
+<n X="0.4997" Y="0.0341" Z="0.8655"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="1;5;4"/>
+<Face i="5;1;0"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="60.9637" Y="-12.3223" Z="325.9671"/>
+<n X="-0.9988" Y="-0.0493" Z="0.0003"/>
+</Vertex>
+<Vertex>
+<p X="58.2459" Y="42.7061" Z="325.5767"/>
+<n X="-0.9988" Y="-0.0493" Z="0.0003"/>
+</Vertex>
+<Vertex>
+<p X="58.257" Y="42.7065" Z="325.5703"/>
+<n X="0.4994" Y="0.0185" Z="-0.8662"/>
+</Vertex>
+<Vertex>
+<p X="60.9748" Y="-12.3218" Z="325.9607"/>
+<n X="0.4994" Y="0.0185" Z="-0.8662"/>
+</Vertex>
+<Vertex>
+<p X="58.257" Y="42.7065" Z="325.5831"/>
+<n X="0.4994" Y="0.0308" Z="0.8658"/>
+</Vertex>
+<Vertex>
+<p X="60.9748" Y="-12.3218" Z="325.9735"/>
+<n X="0.4994" Y="0.0308" Z="0.8658"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="1;5;4"/>
+<Face i="5;1;0"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="79.5726" Y="-61.9072" Z="326.6085"/>
+<n X="-0.9799" Y="-0.1993" Z="0.0014"/>
+</Vertex>
+<Vertex>
+<p X="69.3485" Y="-11.645" Z="326.2671"/>
+<n X="-0.9799" Y="-0.1993" Z="0.0014"/>
+</Vertex>
+<Vertex>
+<p X="69.3593" Y="-11.6431" Z="326.2607"/>
+<n X="0.49" Y="0.0938" Z="-0.8667"/>
+</Vertex>
+<Vertex>
+<p X="79.5835" Y="-61.9053" Z="326.6021"/>
+<n X="0.49" Y="0.0938" Z="-0.8667"/>
+</Vertex>
+<Vertex>
+<p X="69.3593" Y="-11.6426" Z="326.2735"/>
+<n X="0.49" Y="0.1055" Z="0.8653"/>
+</Vertex>
+<Vertex>
+<p X="79.5835" Y="-61.9048" Z="326.6149"/>
+<n X="0.49" Y="0.1055" Z="0.8653"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="1;5;4"/>
+<Face i="5;1;0"/>
 </SubSet>
 </Landschaft>
 </Zusi>
