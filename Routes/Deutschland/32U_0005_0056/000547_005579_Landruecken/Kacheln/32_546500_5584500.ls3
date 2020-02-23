@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
@@ -6,11 +6,11 @@
 <Landschaft>
 <Verknuepfte BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Zugfunk\GSMR-S8k-einseitig-20m.lod.ls3"/>
-<p X="-258.9587" Y="-473.2534" Z="385.4293"/>
+<p X="-258.9587" Y="-473.2534" Z="385"/>
 <phi Z="9.390191"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="180" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_546375_5584125.ls3"/>
 <p X="-125" Y="-375"/>
 <phi/>
@@ -18,25 +18,13 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Betonmast_d190-l7m5.lod.ls3"/>
-<p X="-248.4224" Y="-480.8972" Z="385.3998"/>
+<p X="-248.1569" Y="-480.9063" Z="385.3998"/>
 <phi Z="-1.604454"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Betonmast_d190-l7m5.lod.ls3"/>
 <p X="-243.2467" Y="-481.4227" Z="385.3984"/>
-<phi Z="1.537284"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_4m15\Ausleger_4m15-standard_k.lod.ls3"/>
-<p X="-247.9247" Y="-480.9143" Z="385.3997"/>
-<phi Z="-1.604454"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m65\Ausleger_3m65-standard_l.lod.ls3"/>
-<p X="-243.2448" Y="-481.4227" Z="385.3983"/>
 <phi Z="1.537284"/>
 <sk/>
 </Verknuepfte>
@@ -52,13 +40,13 @@
 <phi Z="-1.605081"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\sycamore\sycamore01-08m.lod.ls3"/>
 <p X="-223.7987" Y="-495.2554" Z="395.0971"/>
 <phi Z="0.237507"/>
 <sk X="0.9713" Y="0.9713" Z="0.9713"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
 <p X="-217.4095" Y="-484.3228" Z="395.6657"/>
 <phi Z="1.880119"/>
@@ -94,7 +82,7 @@
 <phi Z="-2.715507"/>
 <sk X="1.0793" Y="1.0793" Z="1.0793"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
 <p X="-204.9953" Y="-481.8159" Z="401.4763"/>
 <phi Z="-1.343884"/>
@@ -222,20 +210,44 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Fernsprecher\F-Kasten-weiss_oHaube.lod.ls3"/>
-<p X="-252.0504" Y="-487.8801" Z="384.7884"/>
+<p X="-253.362" Y="-484.8901" Z="384.8105"/>
 <phi Z="-1.605082"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Fernsprecher\F-Kasten-weiss_oHaube.lod.ls3"/>
-<p X="-240.232" Y="-488.2523" Z="384.5948"/>
+<p X="-239.4511" Y="-485.3341" Z="384.6146"/>
 <phi Z="-1.605085"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000547_005579_Landruecken\Objekte\Schilder\Landrueckentunnel_Schild.lod.ls3"/>
-<p X="-252.7674" Y="-478.458" Z="385.2827"/>
+<p X="-254.1111" Y="-479.0674" Z="385.2827"/>
 <phi Z="1.536511"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Schalthaeuser\Waschbetohaus_Tbraun.lod.ls3"/>
+<p X="-257.1541" Y="-466.2124" Z="385"/>
+<phi Z="1.535206"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="5083" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Schaltschrank\KVz82A.lod.ls3"/>
+<p X="-256.9258" Y="-474.2295" Z="384.9007"/>
+<phi Z="-1.605268"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m90\Ausleger_3m90-standard_k.lod.ls3"/>
+<p X="-247.9247" Y="-480.9143" Z="385.3997"/>
+<phi Z="-1.604454"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Re250-330\Ausleger_3m90\Ausleger_3m90-standard_l.lod.ls3"/>
+<p X="-243.2448" Y="-481.4227" Z="385.3983"/>
+<phi Z="1.537284"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
