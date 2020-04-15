@@ -43,6 +43,9 @@
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005731_Edesheim\Edesheim_2007.st3" NurInfo="1"/>
 </ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="1" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="2" StrElement="1" StrNorm="1" RefTyp="2" Info="Register-Nr. 5001"/>
 <ReferenzElemente ReferenzNr="3" StrElement="1" RefTyp="2" Info="Register-Nr. 5001"/>
@@ -183,6 +186,16 @@
 <ReferenzElemente ReferenzNr="138" StrElement="2959" RefTyp="3" Info="Weiche "/>
 <ReferenzElemente ReferenzNr="139" StrElement="2959" StrNorm="1" RefTyp="2" Info="Register-Nr. 5040"/>
 <ReferenzElemente ReferenzNr="140" StrElement="2959" RefTyp="2" Info="Register-Nr. 5040"/>
+<ReferenzElemente ReferenzNr="141" StrElement="3" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3"/>
+<ReferenzElemente ReferenzNr="142" StrElement="308" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3"/>
+<ReferenzElemente ReferenzNr="143" StrElement="379" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3"/>
+<ReferenzElemente ReferenzNr="144" StrElement="864" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3"/>
+<ReferenzElemente ReferenzNr="145" StrElement="5" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="146" StrElement="5" StrNorm="1" RefTyp="2" Info="Register-Nr. 5003"/>
+<ReferenzElemente ReferenzNr="147" StrElement="5" RefTyp="2" Info="Register-Nr. 5003"/>
+<ReferenzElemente ReferenzNr="148" StrElement="294" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="149" StrElement="294" StrNorm="1" RefTyp="2" Info="Register-Nr. 5013"/>
+<ReferenzElemente ReferenzNr="150" StrElement="294" RefTyp="2" Info="Register-Nr. 5013"/>
 <StrElement Nr="1" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2947">
 <g X="180.6275" Y="451.9596" Z="120.3068"/>
 <b X="171.8691" Y="406.8668" Z="120.399"/>
@@ -211,6 +224,9 @@
 <InfoNormRichtung vMax="77.7778" km="85.2412" pos="1"/>
 <InfoGegenRichtung vMax="77.7778" km="85.251"/>
 <NachGegen Nr="4"/>
+<NachNormModul Nr="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="4" Ueberh="-0.002" kr="0.000007" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2989">
 <g X="-1015.008" Y="-2346.2241" Z="125.2333"/>
@@ -223,8 +239,11 @@
 <StrElement Nr="5" Ueberh="-0.0059" kr="0.00002" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2989">
 <g X="-1002.403" Y="-2330.2859" Z="125.2585"/>
 <b X="-989.8025" Y="-2314.345" Z="125.2835"/>
-<InfoNormRichtung vMax="77.7778" km="85.2208"/>
-<InfoGegenRichtung vMax="77.7778" km="85.2005" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="85.2208" Reg="5003">
+<Ereignis Er="4"/>
+<Ereignis Er="28" Beschr="300b"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="77.7778" km="85.2005" pos="1" Reg="5003"/>
 <NachNorm Nr="6"/>
 <NachGegen Nr="4"/>
 </StrElement>
@@ -813,7 +832,7 @@
 <StrElement Nr="78" Ueberh="0.0592" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.289">
 <g X="-354.7256" Y="-1333.568" Z="124.7855"/>
 <b X="-356.5143" Y="-1337.1458" Z="124.7972"/>
-<InfoNormRichtung vMax="-1" Reg="5003">
+<InfoNormRichtung vMax="-1" Reg="5004">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 201"/>
 <Signal NameBetriebsstelle="LZB-Bk 201" Stellwerk="Nörten-Hardenberg Nhf" Signalname="201" SignalTyp="12" BoundingR="1">
@@ -849,18 +868,18 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="84.0332" Reg="5003"/>
+<InfoGegenRichtung vMax="77.7778" km="84.0332" Reg="5004"/>
 <NachNorm Nr="963"/>
 <NachGegen Nr="77"/>
 </StrElement>
 <StrElement Nr="79" Ueberh="0.0592" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2926">
 <g X="-364.154" Y="-1352.427" Z="124.8474"/>
 <b X="-373.6604" Y="-1371.248" Z="124.9093"/>
-<InfoNormRichtung vMax="77.7778" km="84.0503" pos="1" Reg="5004">
+<InfoNormRichtung vMax="77.7778" km="84.0503" pos="1" Reg="5005">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="84.0714" Reg="5004"/>
+<InfoGegenRichtung vMax="77.7778" km="84.0714" Reg="5005"/>
 <NachNorm Nr="80"/>
 <NachGegen Nr="963"/>
 </StrElement>
@@ -1262,8 +1281,8 @@
 <StrElement Nr="130" Ueberh="0.0256" kr="-0.000085" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2934">
 <g X="91.6533" Y="-5.1086" Z="121.2414"/>
 <b X="87.6668" Y="-25.0338" Z="121.2823"/>
-<InfoNormRichtung vMax="77.7778" km="82.6229" pos="1" Reg="5005"/>
-<InfoGegenRichtung vMax="77.7778" km="82.6432" Reg="5005">
+<InfoNormRichtung vMax="77.7778" km="82.6229" pos="1" Reg="5006"/>
+<InfoGegenRichtung vMax="77.7778" km="82.6432" Reg="5006">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="131"/>
@@ -1561,7 +1580,7 @@
 <StrElement Nr="161" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
 <g X="287.2086" Y="976.0465" Z="119.8196"/>
 <b X="277.7946" Y="927.5779" Z="119.7084"/>
-<InfoNormRichtung vMax="77.7778" km="81.6224" pos="1" Reg="5006">
+<InfoNormRichtung vMax="77.7778" km="81.6224" pos="1" Reg="5007">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="161" SignalTyp="10" BoundingR="10">
 <p X="280.8672" Y="926.9811" Z="119.7084"/>
@@ -1669,7 +1688,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="81.6702" Reg="5006"/>
+<InfoGegenRichtung vMax="77.7778" km="81.6702" Reg="5007"/>
 <NachNorm Nr="855"/>
 <NachGegen Nr="160"/>
 </StrElement>
@@ -1684,10 +1703,10 @@
 <StrElement Nr="164" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2972">
 <g X="268.9526" Y="882.0543" Z="119.6125"/>
 <b X="264.2903" Y="858.0501" Z="119.5762"/>
-<InfoNormRichtung vMax="77.7778" km="81.7181" pos="1" Reg="5007">
+<InfoNormRichtung vMax="77.7778" km="81.7181" pos="1" Reg="5008">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="81.7426" Reg="5007"/>
+<InfoGegenRichtung vMax="77.7778" km="81.7426" Reg="5008"/>
 <NachNorm Nr="165"/>
 <NachGegen Nr="163"/>
 </StrElement>
@@ -1742,8 +1761,8 @@
 <StrElement Nr="171" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2948">
 <g X="223.3124" Y="647.0737" Z="119.9061"/>
 <b X="214.1844" Y="600.0776" Z="120.0022"/>
-<InfoNormRichtung vMax="77.7778" km="81.9575" pos="1" Reg="5008"/>
-<InfoGegenRichtung vMax="77.7778" km="82.0054" Reg="5008">
+<InfoNormRichtung vMax="77.7778" km="81.9575" pos="1" Reg="5009"/>
+<InfoGegenRichtung vMax="77.7778" km="82.0054" Reg="5009">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="732"/>
@@ -1800,8 +1819,8 @@
 <StrElement Nr="178" Ueberh="0.0256" kr="-0.000085" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="96.2561" Y="-6.0599" Z="121.2414"/>
 <b X="92.2678" Y="-25.9942" Z="121.2824"/>
-<InfoNormRichtung vMax="77.7778" km="82.6229" pos="1" Reg="5009"/>
-<InfoGegenRichtung vMax="77.7778" km="82.6432" Reg="5009">
+<InfoNormRichtung vMax="77.7778" km="82.6229" pos="1" Reg="5010"/>
+<InfoGegenRichtung vMax="77.7778" km="82.6432" Reg="5010">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="179"/>
@@ -2363,7 +2382,7 @@
 <StrElement Nr="246" Ueberh="0.0592" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2869">
 <g X="-350.5153" Y="-1335.661" Z="124.7855"/>
 <b X="-352.304" Y="-1339.2386" Z="124.7972"/>
-<InfoNormRichtung vMax="-1" Reg="5010">
+<InfoNormRichtung vMax="-1" Reg="5011">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 251"/>
 <Signal NameBetriebsstelle="LZB-Bk 251" Stellwerk="Nörten-Hardenberg Nhf" Signalname="251" SignalTyp="12" BoundingR="1">
@@ -2399,18 +2418,18 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="84.0333" Reg="5010"/>
+<InfoGegenRichtung vMax="77.7778" km="84.0333" Reg="5011"/>
 <NachNorm Nr="962"/>
 <NachGegen Nr="245"/>
 </StrElement>
 <StrElement Nr="247" Ueberh="0.0592" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2907">
 <g X="-359.9525" Y="-1354.5378" Z="124.8474"/>
 <b X="-369.4676" Y="-1373.376" Z="124.9093"/>
-<InfoNormRichtung vMax="77.7778" km="84.0503" pos="1" Reg="5011">
+<InfoNormRichtung vMax="77.7778" km="84.0503" pos="1" Reg="5012">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="84.0715" Reg="5011"/>
+<InfoGegenRichtung vMax="77.7778" km="84.0715" Reg="5012"/>
 <NachNorm Nr="248"/>
 <NachGegen Nr="962"/>
 </StrElement>
@@ -2772,8 +2791,11 @@
 <StrElement Nr="294" Ueberh="-0.0059" kr="0.00002" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
 <g X="-998.711" Y="-2333.1941" Z="125.2585"/>
 <b X="-986.1046" Y="-2317.2461" Z="125.2835"/>
-<InfoNormRichtung vMax="77.7778" km="85.2208"/>
-<InfoGegenRichtung vMax="77.7778" km="85.2005" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="85.2208" Reg="5013">
+<Ereignis Er="4"/>
+<Ereignis Er="39" Beschr="300b"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="77.7778" km="85.2005" pos="1" Reg="5013"/>
 <NachNorm Nr="295"/>
 <NachGegen Nr="293"/>
 </StrElement>
@@ -2878,6 +2900,9 @@
 <InfoNormRichtung vMax="77.7778" km="85.2412" pos="1"/>
 <InfoGegenRichtung vMax="77.7778" km="85.251"/>
 <NachGegen Nr="293"/>
+<NachNormModul Nr="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="309" spTrass="44.4445" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="495.854" Y="754.0106" Z="121.689"/>
@@ -2897,8 +2922,8 @@
 <StrElement Nr="311" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="461.2936" Y="661.5978" Z="121.7419"/>
 <b X="444.0134" Y="615.3915" Z="121.7684"/>
-<InfoNormRichtung vMax="44.4445" km="90.5375" pos="1" Reg="5012"/>
-<InfoGegenRichtung vMax="44.4445" km="90.5869" Reg="5012">
+<InfoNormRichtung vMax="44.4445" km="90.5375" pos="1" Reg="5014"/>
+<InfoGegenRichtung vMax="44.4445" km="90.5869" Reg="5014">
 <Signal NameBetriebsstelle="Northeim/Han Gbf" Stellwerk="Northeim Nf" Signalname="H" SignalTyp="7" BoundingR="10">
 <p X="458.3525" Y="662.6977" Z="121.1419"/>
 <phi Z="1.212921"/>
@@ -3674,7 +3699,7 @@
 <StrElement Nr="320" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="305.7718" Y="245.7405" Z="121.98"/>
 <b X="304.7209" Y="242.9306" Z="121.9816"/>
-<InfoNormRichtung vMax="-1" Reg="5013">
+<InfoNormRichtung vMax="-1" Reg="5015">
 <Ereignis Er="6" Beschr="@icon=0@@signal=0@Sbk 31"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="Sbk 31" Stellwerk="Northeim Nf" Signalname="31" SignalTyp="10" BoundingR="10">
@@ -3746,7 +3771,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4444" km="90.9845" Reg="5013"/>
+<InfoGegenRichtung vMax="44.4444" km="90.9845" Reg="5015"/>
 <NachNorm Nr="857"/>
 <NachGegen Nr="319"/>
 </StrElement>
@@ -3761,11 +3786,11 @@
 <StrElement Nr="323" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4945">
 <g X="291.2866" Y="207.0077" Z="122.0059"/>
 <b X="288.4916" Y="199.5341" Z="122.0162"/>
-<InfoNormRichtung vMax="44.4444" km="91.0229" pos="1" Reg="5014">
+<InfoNormRichtung vMax="44.4444" km="91.0229" pos="1" Reg="5016">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="30a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4444" km="91.0308" Reg="5014"/>
+<InfoGegenRichtung vMax="44.4444" km="91.0308" Reg="5016"/>
 <NachNorm Nr="324"/>
 <NachGegen Nr="322"/>
 </StrElement>
@@ -4146,7 +4171,7 @@
 <StrElement Nr="355" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4935">
 <g X="-195.354" Y="-1094.245" Z="123.8717"/>
 <b X="-201.1337" Y="-1109.6995" Z="123.907"/>
-<InfoNormRichtung vMax="-1" Reg="5015">
+<InfoNormRichtung vMax="-1" Reg="5017">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@@signal=0@Sbk 33"/>
 <Signal NameBetriebsstelle="Sbk 33" Stellwerk="Northeim Nf" Signalname="33" SignalTyp="10" BoundingR="10">
@@ -4218,18 +4243,18 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4444" km="92.4287" Reg="5015"/>
+<InfoGegenRichtung vMax="44.4444" km="92.4287" Reg="5017"/>
 <NachNorm Nr="863"/>
 <NachGegen Nr="354"/>
 </StrElement>
 <StrElement Nr="356" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="-212.6342" Y="-1140.451" Z="123.9772"/>
 <b X="-219.6399" Y="-1159.1838" Z="124.02"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5016">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5018">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="30a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4444" km="92.4815" Reg="5016"/>
+<InfoGegenRichtung vMax="44.4444" km="92.4815" Reg="5018"/>
 <NachNorm Nr="965"/>
 <NachGegen Nr="863"/>
 </StrElement>
@@ -4468,6 +4493,9 @@
 <InfoNormRichtung vMax="44.4445" km="93.3494" pos="1"/>
 <InfoGegenRichtung vMax="44.4445" km="93.3988"/>
 <NachGegen Nr="967"/>
+<NachNormModul Nr="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="380" spTrass="44.4445" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="499.5999" Y="752.6104" Z="121.689"/>
@@ -4487,8 +4515,8 @@
 <StrElement Nr="382" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="465.0396" Y="660.1976" Z="121.7419"/>
 <b X="447.7594" Y="613.9912" Z="121.7684"/>
-<InfoNormRichtung vMax="44.4444" km="90.5375" pos="1" Reg="5017"/>
-<InfoGegenRichtung vMax="44.4444" km="90.5869" Reg="5017">
+<InfoNormRichtung vMax="44.4444" km="90.5375" pos="1" Reg="5019"/>
+<InfoGegenRichtung vMax="44.4444" km="90.5869" Reg="5019">
 <Ereignis Er="6" Beschr="@signal=0@Esig Northeim (Han)"/>
 <Signal NameBetriebsstelle="Northeim/Han Gbf" Stellwerk="Northeim Nf" Signalname="F" SignalTyp="7" BoundingR="10">
 <p X="467.9807" Y="659.0977" Z="121.1419"/>
@@ -5492,8 +5520,8 @@
 <StrElement Nr="421" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4945">
 <g X="-157.0471" Y="-1003.232" Z="123.6725"/>
 <b X="-160.3301" Y="-1012.0109" Z="123.6846"/>
-<InfoNormRichtung vMax="44.4444" km="92.3135" pos="1" Reg="5018"/>
-<InfoGegenRichtung vMax="44.4444" km="92.3228" Reg="5018">
+<InfoNormRichtung vMax="44.4444" km="92.3135" pos="1" Reg="5020"/>
+<InfoGegenRichtung vMax="44.4444" km="92.3228" Reg="5020">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="30b"/>
 </InfoGegenRichtung>
@@ -7377,10 +7405,10 @@
 <StrElement Nr="730" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2931">
 <g X="138.7666" Y="211.7853" Z="120.796"/>
 <b X="129.2354" Y="162.7132" Z="120.8963"/>
-<InfoNormRichtung vMax="77.7778" km="82.4009" pos="1" Reg="5019">
+<InfoNormRichtung vMax="77.7778" km="82.4009" pos="1" Reg="5021">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="82.4509" Reg="5019"/>
+<InfoGegenRichtung vMax="77.7778" km="82.4509" Reg="5021"/>
 <NachNorm Nr="731"/>
 <NachGegen Nr="833"/>
 </StrElement>
@@ -7395,7 +7423,7 @@
 <StrElement Nr="732" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="214.1844" Y="600.0776" Z="120.0022"/>
 <b X="213.9499" Y="598.8701" Z="120.0047"/>
-<InfoNormRichtung vMax="-1" km="82.0054" pos="1" Reg="5020">
+<InfoNormRichtung vMax="-1" km="82.0054" pos="1" Reg="5022">
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="121" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="214.1844" Y="600.0776" Z="120.0022"/>
 <phi Y="-0.002007" Z="-1.762638"/>
@@ -7466,7 +7494,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="82.0066" Reg="5020">
+<InfoGegenRichtung vMax="-1" km="82.0066" Reg="5022">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="733"/>
@@ -7848,7 +7876,7 @@
 <StrElement Nr="773" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="278.1886" Y="954.2578" Z="119.7676"/>
 <b X="273.2313" Y="928.7349" Z="119.7091"/>
-<InfoNormRichtung vMax="-1" Reg="5021">
+<InfoNormRichtung vMax="-1" Reg="5023">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="111" SignalTyp="10" BoundingR="10">
 <p X="270.1587" Y="929.3317" Z="119.7091"/>
@@ -7956,7 +7984,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="81.6714" Reg="5021"/>
+<InfoGegenRichtung vMax="77.7778" km="81.6714" Reg="5023"/>
 <NachNorm Nr="856"/>
 <NachGegen Nr="772"/>
 </StrElement>
@@ -7971,10 +7999,10 @@
 <StrElement Nr="775" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.299">
 <g X="266.4397" Y="893.7681" Z="119.6289"/>
 <b X="259.6763" Y="858.9465" Z="119.5762"/>
-<InfoNormRichtung vMax="77.7778" km="81.7071" pos="1" Reg="5022">
+<InfoNormRichtung vMax="77.7778" km="81.7071" pos="1" Reg="5024">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="81.7426" Reg="5022"/>
+<InfoGegenRichtung vMax="77.7778" km="81.7426" Reg="5024"/>
 <NachNorm Nr="776"/>
 <NachGegen Nr="774"/>
 </StrElement>
@@ -8052,8 +8080,8 @@
 <StrElement Nr="785" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
 <g X="202.453" Y="564.3291" Z="120.0771"/>
 <b X="199.2117" Y="547.641" Z="120.1112"/>
-<InfoNormRichtung vMax="-1" Reg="5023"/>
-<InfoGegenRichtung vMax="77.7778" km="82.0596" Reg="5023">
+<InfoNormRichtung vMax="-1" Reg="5025"/>
+<InfoGegenRichtung vMax="77.7778" km="82.0596" Reg="5025">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="3101"/>
@@ -8062,7 +8090,7 @@
 <StrElement Nr="786" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2948">
 <g X="180.6275" Y="451.9596" Z="120.3068"/>
 <b X="180.862" Y="453.167" Z="120.3044"/>
-<InfoNormRichtung vMax="-1" km="82.1572" pos="1" Reg="5024">
+<InfoNormRichtung vMax="-1" km="82.1572" pos="1" Reg="5026">
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="122" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="180.6275" Y="451.9596" Z="120.3068"/>
 <phi Y="0.002007" Z="-4.90423"/>
@@ -8133,7 +8161,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="82.1559" pos="1" Reg="5024"/>
+<InfoGegenRichtung vMax="-1" km="82.1559" pos="1" Reg="5026"/>
 <NachNorm Nr="787"/>
 <NachNorm Nr="796"/>
 <NachGegen Nr="1"/>
@@ -8281,10 +8309,10 @@
 <StrElement Nr="804" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
 <g X="150.7522" Y="298.1456" Z="120.6213"/>
 <b X="141.8367" Y="252.2435" Z="120.7151"/>
-<InfoNormRichtung vMax="77.7778" km="82.3139" pos="1" Reg="5025">
+<InfoNormRichtung vMax="77.7778" km="82.3139" pos="1" Reg="5027">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="82.3606" Reg="5025"/>
+<InfoGegenRichtung vMax="77.7778" km="82.3606" Reg="5027"/>
 <NachNorm Nr="805"/>
 <NachGegen Nr="817"/>
 </StrElement>
@@ -8317,7 +8345,7 @@
 <StrElement Nr="808" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2924">
 <g X="163.1108" Y="361.774" Z="120.4912"/>
 <b X="162.8763" Y="360.5666" Z="120.4937"/>
-<InfoNormRichtung vMax="-1" km="82.249" pos="1" Reg="5026">
+<InfoNormRichtung vMax="-1" km="82.249" pos="1" Reg="5028">
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="123" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="163.1108" Y="361.774" Z="120.4912"/>
 <phi Y="-0.002007" Z="-1.762638"/>
@@ -8388,7 +8416,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="82.2503" Reg="5026"/>
+<InfoGegenRichtung vMax="-1" km="82.2503" Reg="5028"/>
 <NachNorm Nr="809"/>
 <NachNorm Nr="818"/>
 <NachGegen Nr="2"/>
@@ -8544,10 +8572,10 @@
 <StrElement Nr="827" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2924">
 <g X="201.8259" Y="536.4492" Z="120.1323"/>
 <b X="193.3758" Y="492.9433" Z="120.2212"/>
-<InfoNormRichtung vMax="77.7778" km="82.0702" pos="1" Reg="5027">
+<InfoNormRichtung vMax="77.7778" km="82.0702" pos="1" Reg="5029">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="82.1145" Reg="5027"/>
+<InfoGegenRichtung vMax="77.7778" km="82.1145" Reg="5029"/>
 <NachNorm Nr="828"/>
 <NachGegen Nr="741"/>
 </StrElement>
@@ -8590,8 +8618,8 @@
 <StrElement Nr="832" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2948">
 <g X="159.5752" Y="318.9196" Z="120.577"/>
 <b X="151.1251" Y="275.4137" Z="120.6659"/>
-<InfoNormRichtung vMax="77.7778" km="82.2918" pos="1" Reg="5028"/>
-<InfoGegenRichtung vMax="77.7778" km="82.3361" Reg="5028">
+<InfoNormRichtung vMax="77.7778" km="82.2918" pos="1" Reg="5030"/>
+<InfoGegenRichtung vMax="77.7778" km="82.3361" Reg="5030">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="842"/>
@@ -8600,7 +8628,7 @@
 <StrElement Nr="833" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
 <g X="138.7666" Y="211.7853" Z="120.796"/>
 <b X="139.0011" Y="212.9927" Z="120.7935"/>
-<InfoNormRichtung vMax="-1" km="82.4009" pos="1" Reg="5029">
+<InfoNormRichtung vMax="-1" km="82.4009" pos="1" Reg="5031">
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="124" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="138.7666" Y="211.7853" Z="120.796"/>
 <phi Y="0.002007" Z="-4.90423"/>
@@ -8671,7 +8699,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="82.3997" pos="1" Reg="5029">
+<InfoGegenRichtung vMax="-1" km="82.3997" pos="1" Reg="5031">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="834"/>
@@ -9035,8 +9063,8 @@
 <StrElement Nr="853" Ueberh="0.0296" kr="-0.000098" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2917">
 <g X="88.6383" Y="-43.9612" Z="121.319"/>
 <b X="88.2424" Y="-45.921" Z="121.323"/>
-<InfoNormRichtung vMax="77.7778" km="82.6616" pos="1" Reg="5030"/>
-<InfoGegenRichtung vMax="-1" Reg="5030">
+<InfoNormRichtung vMax="77.7778" km="82.6616" pos="1" Reg="5032"/>
+<InfoGegenRichtung vMax="-1" Reg="5032">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="112" SignalTyp="10" BoundingR="10">
 <p X="91.7063" Y="-44.581" Z="121.319"/>
@@ -9150,8 +9178,8 @@
 <StrElement Nr="854" Ueberh="0.0296" kr="-0.000098" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2912">
 <g X="84.0373" Y="-43.0008" Z="121.319"/>
 <b X="83.6433" Y="-44.9514" Z="121.323"/>
-<InfoNormRichtung vMax="77.7778" km="82.6616" pos="1" Reg="5031"/>
-<InfoGegenRichtung vMax="-1" Reg="5031">
+<InfoNormRichtung vMax="77.7778" km="82.6616" pos="1" Reg="5033"/>
+<InfoGegenRichtung vMax="-1" Reg="5033">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Sudheim" Stellwerk="Edesheim Ef" Signalname="162" SignalTyp="10" BoundingR="10">
 <p X="80.9693" Y="-42.3811" Z="121.319"/>
@@ -9307,8 +9335,8 @@
 <StrElement Nr="862" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4941">
 <g X="-174.6776" Y="-1050.3756" Z="123.7682"/>
 <b X="-191.6075" Y="-1095.645" Z="123.8717"/>
-<InfoNormRichtung vMax="44.4444" km="92.3638" pos="1" Reg="5032"/>
-<InfoGegenRichtung vMax="-1" Reg="5032">
+<InfoNormRichtung vMax="44.4444" km="92.3638" pos="1" Reg="5034"/>
+<InfoGegenRichtung vMax="-1" Reg="5034">
 <Ereignis Er="6" Beschr="@icon=0@@signal=0@Sbk 32"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="Sbk 32" Stellwerk="Nörten-Hardenberg Nhf" Signalname="32" SignalTyp="10" BoundingR="10">
@@ -9479,6 +9507,9 @@
 </Signal>
 </InfoGegenRichtung>
 <NachGegen Nr="450"/>
+<NachNormModul Nr="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="865" spTrass="27.7778" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-122.7948" Y="989.4521" Z="125.4302"/>
@@ -14720,8 +14751,8 @@
 <StrElement Nr="1693" kr="0.002348" spTrass="16.6667" Anschluss="258" Fkt="2">
 <g X="356.6543" Y="359.2917" Z="130.4937"/>
 <b X="358.3587" Y="357.4628" Z="130.475"/>
-<InfoNormRichtung vMax="16.6667" km="0.1554" pos="1" Reg="5033"/>
-<InfoGegenRichtung vMax="-1" Reg="5033"/>
+<InfoNormRichtung vMax="16.6667" km="0.1554" pos="1" Reg="5035"/>
+<InfoGegenRichtung vMax="-1" Reg="5035"/>
 <NachNorm Nr="1694"/>
 <NachNorm Nr="3002"/>
 <NachGegen Nr="1692"/>
@@ -14778,8 +14809,8 @@
 <StrElement Nr="1701" kr="0.002348" spTrass="16.6667" Anschluss="256" Fkt="2">
 <g X="370.7448" Y="344.7895" Z="129.9838"/>
 <b X="374.6857" Y="340.9711" Z="129.7342"/>
-<InfoNormRichtung vMax="16.6667" km="0.1756" pos="1" Reg="5034"/>
-<InfoGegenRichtung vMax="-1" Reg="5034"/>
+<InfoNormRichtung vMax="16.6667" km="0.1756" pos="1" Reg="5036"/>
+<InfoGegenRichtung vMax="-1" Reg="5036"/>
 <NachNorm Nr="1702"/>
 <NachGegen Nr="1700"/>
 <NachGegen Nr="3002"/>
@@ -15193,8 +15224,8 @@
 <StrElement Nr="1761" kr="0.003072" spTrass="13.8889" Anschluss="256" Fkt="2">
 <g X="324.131" Y="400.1499" Z="130.0548"/>
 <b X="326.526" Y="396.6414" Z="130.1203"/>
-<InfoNormRichtung vMax="13.8889" km="0.103" pos="1" Reg="5035"/>
-<InfoGegenRichtung vMax="-1" Reg="5035"/>
+<InfoNormRichtung vMax="13.8889" km="0.103" pos="1" Reg="5037"/>
+<InfoGegenRichtung vMax="-1" Reg="5037"/>
 <NachNorm Nr="1762"/>
 <NachNorm Nr="3005"/>
 <NachGegen Nr="1760"/>
@@ -15230,8 +15261,8 @@
 <StrElement Nr="1766" kr="0.003072" spTrass="13.8889" Anschluss="768" Fkt="2">
 <g X="336.9841" Y="382.3779" Z="130.3752"/>
 <b X="339.6099" Y="379.0387" Z="130.4183"/>
-<InfoNormRichtung vMax="13.8889" km="0.125" pos="1" Reg="5036"/>
-<InfoGegenRichtung vMax="-1" Reg="5036"/>
+<InfoNormRichtung vMax="13.8889" km="0.125" pos="1" Reg="5038"/>
+<InfoGegenRichtung vMax="-1" Reg="5038"/>
 <NachNorm Nr="1767"/>
 <NachGegen Nr="1765"/>
 <NachGegen Nr="3005"/>
@@ -21232,8 +21263,8 @@
 <StrElement Nr="2860" kr="0.003072" spTrass="13.8889" Anschluss="256" Fkt="2">
 <g X="319.3611" Y="396.9392" Z="130.0548"/>
 <b X="321.7983" Y="393.3687" Z="130.1203"/>
-<InfoNormRichtung vMax="-1" Reg="5037"/>
-<InfoGegenRichtung vMax="-1" Reg="5037"/>
+<InfoNormRichtung vMax="-1" Reg="5039"/>
+<InfoGegenRichtung vMax="-1" Reg="5039"/>
 <NachNorm Nr="2939"/>
 <NachNorm Nr="3004"/>
 <NachGegen Nr="2859"/>
@@ -21706,8 +21737,8 @@
 <StrElement Nr="2945" kr="0.003072" spTrass="13.8889" Anschluss="768" Fkt="2">
 <g X="337.8297" Y="372.0921" Z="130.4523"/>
 <b X="340.5895" Y="368.7647" Z="130.4772"/>
-<InfoNormRichtung vMax="-1" Reg="5038"/>
-<InfoGegenRichtung vMax="-1" Reg="5038"/>
+<InfoNormRichtung vMax="-1" Reg="5040"/>
+<InfoGegenRichtung vMax="-1" Reg="5040"/>
 <NachNorm Nr="2946"/>
 <NachGegen Nr="2944"/>
 <NachGegen Nr="3004"/>
@@ -21757,8 +21788,8 @@
 <StrElement Nr="2953" kr="0.002348" spTrass="16.6667" Anschluss="258" Fkt="2">
 <g X="355.9022" Y="351.6869" Z="130.4437"/>
 <b X="357.6512" Y="349.8537" Z="130.4"/>
-<InfoNormRichtung vMax="-1" Reg="5039"/>
-<InfoGegenRichtung vMax="-1" Reg="5039"/>
+<InfoNormRichtung vMax="-1" Reg="5041"/>
+<InfoGegenRichtung vMax="-1" Reg="5041"/>
 <NachNorm Nr="2954"/>
 <NachNorm Nr="3003"/>
 <NachGegen Nr="2952"/>
@@ -21796,8 +21827,8 @@
 <StrElement Nr="2959" kr="0.002348" spTrass="16.6667" Anschluss="256" Fkt="2">
 <g X="366.7238" Y="340.6793" Z="129.9838"/>
 <b X="370.7113" Y="336.8159" Z="129.7342"/>
-<InfoNormRichtung vMax="-1" Reg="5040"/>
-<InfoGegenRichtung vMax="-1" Reg="5040"/>
+<InfoNormRichtung vMax="-1" Reg="5042"/>
+<InfoGegenRichtung vMax="-1" Reg="5042"/>
 <NachNorm Nr="2960"/>
 <NachGegen Nr="2958"/>
 <NachGegen Nr="3003"/>
@@ -24933,6 +24964,64 @@
 <NachNorm Nr="3426"/>
 <NachGegen Nr="3456"/>
 </StrElement>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 201 201 -&gt; LZB-Bk 203 203" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2265.5">
+<FahrstrStart Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="762">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="440">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="442">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="7" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: LZB-Bk 251 251 -&gt; LZB-Bk 253 253" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2265.8999">
+<FahrstrStart Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="474">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="758">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="475">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="477">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="28" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Sbk 31 31 -&gt; Sbk 33 33" FahrstrStrecke="30a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1444.1">
 <FahrstrStart Ref="37">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
@@ -24977,6 +25066,258 @@
 </FahrstrSignal>
 <FahrstrVSignal Ref="102">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 33 33 -&gt; Sbk 35 35" FahrstrStrecke="30a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1981">
+<FahrstrStart Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="243">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="244">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="383">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="47">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="723">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSignal Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Sudheim 111 -&gt; Nörten-Hardenbg B" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6613.1001">
+<FahrstrStart Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="762">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="440">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="443">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="446">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="449">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="325">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="454">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="442">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="451">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="73" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="79" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="7" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="112" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="111" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005731_Edesheim\Edesheim_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Sudheim 111 -&gt; Nörten-Hardenbg BB" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6613.1001">
+<FahrstrStart Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="26">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="94">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="29">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="758">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="475">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="478">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="481">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="484">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="322">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="489">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="477">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="486">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="73" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="79" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="28" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="474">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="64" FahrstrSignalZeile="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="112" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="6" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005731_Edesheim\Edesheim_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Anzeige: Üst Sudheim 111 -&gt; LZB-Bk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2361.2">
@@ -25454,6 +25795,229 @@
 </FahrstrVSignal>
 <FahrstrVSignal Ref="92" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Sudheim 161 -&gt; Nörten-Hardenbg BB" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6612.7002">
+<FahrstrStart Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="62">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="26">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="94">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="29">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="758">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="475">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="478">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="481">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="484">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="322">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="489">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="82">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="477">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="486">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="61" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="88" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="28" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="474">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="109" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="108" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005731_Edesheim\Edesheim_2007.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Sudheim 161 -&gt; Nörten-Hardenbg B" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6613">
+<FahrstrStart Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="62">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="762">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="440">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="443">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="446">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="449">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="325">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="454">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="442">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="451">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="61" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="73" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="79" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="7" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="16" FahrstrSignalZeile="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="109" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="12" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005731_Edesheim\Edesheim_2007.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Anzeige: Üst Sudheim 161 -&gt; LZB-Bk 251 251" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2362.2">

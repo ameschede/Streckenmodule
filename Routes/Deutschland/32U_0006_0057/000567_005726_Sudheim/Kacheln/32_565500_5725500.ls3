@@ -472,7 +472,7 @@
 <phi Z="-2.152223"/>
 <sk X="0.9649" Y="0.9649" Z="0.9649"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_4.lod.ls3"/>
 <p X="-450.9001" Y="200.556" Z="229.2678"/>
 <phi Z="-3.580048"/>
@@ -484,7 +484,7 @@
 <phi Z="-3.507739"/>
 <sk X="1.0689" Y="1.0689" Z="1.0689"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_2.lod.ls3"/>
 <p X="-471.8242" Y="191.4615" Z="231.0554"/>
 <phi Z="-1.48634"/>
@@ -1178,7 +1178,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="-2.2578" V="19.2274">
 <p X="-422.7391" Y="274.2238" Z="217.6178"/>
@@ -1558,11 +1558,11 @@
 <p X="-500.0001" Y="498.1969" Z="174.8094"/>
 <n X="0.0355" Y="0.0941" Z="0.9942"/>
 </Vertex>
-<Vertex U="0" V="200">
+<Vertex V="200">
 <p X="-500.0001" Y="500" Z="174.7697"/>
 <n X="0.0349" Y="0.0933" Z="0.9943"/>
 </Vertex>
-<Vertex U="0" V="184.1473">
+<Vertex V="184.1473">
 <p X="-341.4724" Y="500" Z="169.6101"/>
 <n X="0.0224" Y="0.0633" Z="0.9977"/>
 </Vertex>

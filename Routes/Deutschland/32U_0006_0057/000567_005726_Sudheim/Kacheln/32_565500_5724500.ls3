@@ -250,19 +250,19 @@
 <phi Z="3.042154"/>
 <sk X="1.0244" Y="1.0244" Z="1.0244"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="15" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000444_005689_Wennemen\Objekte\Wennemen_17_Bergheimstr\Wennemen_17_WHaus_11.lod.ls3"/>
 <p X="88.3971" Y="-429.5881" Z="138.3612"/>
 <phi Z="-3.129878"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="15" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005704_Froendenberg\Objekte\Froendenberg_21_Frohnhsn\Froendenberg_21_WH_4\Froendenberg_21_WH_4a.lod.ls3"/>
 <p X="68.399" Y="-429.8224" Z="138.0289"/>
 <phi Z="-3.129878"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="18" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="17" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000444_005689_Wennemen\Objekte\Wennemen_17_Bergheimstr\Wennemen_17_WHaus_15.lod.ls3"/>
 <p X="48.4011" Y="-430.0567" Z="137.7109"/>
 <phi Z="-3.129878"/>
@@ -1000,7 +1000,7 @@
 <phi Z="-0.804818"/>
 <sk X="1.0962" Y="1.0962" Z="1.0962"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_2.lod.ls3"/>
 <p X="281.9959" Y="26.7428" Z="139.6685"/>
 <phi Z="-1.695785"/>
@@ -1090,7 +1090,7 @@
 <phi Z="2.493761"/>
 <sk X="1.01" Y="1.01" Z="1.01"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_4.lod.ls3"/>
 <p X="279.4642" Y="69.3805" Z="131.5666"/>
 <phi Z="2.863748"/>
@@ -1222,7 +1222,7 @@
 <phi Z="2.54111"/>
 <sk X="0.9191" Y="0.9191" Z="0.9191"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_1.lod.ls3"/>
 <p X="120.7925" Y="275.3052" Z="133.731"/>
 <phi Z="1.730743"/>
@@ -2260,8 +2260,8 @@
 <p X="-167.1249" Y="15.1569" Z="165.546"/>
 <n X="0.0467" Y="-0.0325" Z="0.9984"/>
 </Vertex>
-<Vertex U="-182.6262" V="169.1418">
-<p X="-191.4176" Y="-326.262" Z="150.2455"/>
+<Vertex U="-182.5946" V="168.8617">
+<p X="-188.6169" Y="-325.9463" Z="150.2613"/>
 <n X="-0.0006" Y="-0.0447" Z="0.999"/>
 </Vertex>
 <Vertex U="-178.3671" V="174.36">
@@ -2276,8 +2276,8 @@
 <p X="-322.8489" Y="-157.2518" Z="157.6547"/>
 <n X="-0.1913" Y="-0.1336" Z="0.9724"/>
 </Vertex>
-<Vertex U="-172.6547" V="181.5678">
-<p X="-315.6782" Y="-226.5467" Z="152.5043"/>
+<Vertex U="-172.5348" V="181.5802">
+<p X="-315.8019" Y="-225.3506" Z="152.5932"/>
 <n X="-0.0723" Y="-0.0814" Z="0.9941"/>
 </Vertex>
 <Face i="2;0;1"/>
@@ -2394,6 +2394,65 @@
 <n X="0.0136" Y="-0.0011" Z="0.9999"/>
 </Vertex>
 <Face i="0;1;2"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
+</Textur>
+<Vertex U="500" V="-22.8007">
+<p X="-271.9927" Y="-500.0001" Z="135.8171"/>
+<n X="0.0374" Y="0.0324" Z="0.9987"/>
+</Vertex>
+<Vertex U="500.339" V="-23.1806">
+<p X="-268.1942" Y="-496.6099" Z="135.5633"/>
+<n X="0.0365" Y="0.0339" Z="0.9988"/>
+</Vertex>
+<Vertex U="500" V="-24.0273">
+<p X="-259.7269" Y="-500.0001" Z="135.3691"/>
+<n X="0.0428" Y="0.0231" Z="0.9987"/>
+</Vertex>
+<Vertex U="500" V="-14.6943">
+<p X="-353.0573" Y="-500.0001" Z="138.6081"/>
+<n X="0.0422" Y="0.0233" Z="0.9986"/>
+</Vertex>
+<Vertex U="503.9828" V="-14.6045">
+<p X="-353.9554" Y="-460.1715" Z="137.1932"/>
+<n X="0.0344" Y="0.0363" Z="0.9988"/>
+</Vertex>
+<Vertex U="500" V="-11.6027">
+<p X="-383.9726" Y="-500.0001" Z="141.554"/>
+<n X="0.0613" Y="0.0368" Z="0.997"/>
+</Vertex>
+<Vertex U="500" V="-4.4433">
+<p X="-455.5669" Y="-500.0001" Z="145.5547"/>
+<n X="0.0769" Y="0.0511" Z="0.9954"/>
+</Vertex>
+<Vertex U="505.8708" V="-0.3992">
+<p X="-496.0077" Y="-441.2925" Z="143.8592"/>
+<n X="0.0557" Y="0.0671" Z="0.9962"/>
+</Vertex>
+<Vertex U="500" V="-1.5792">
+<p X="-484.2078" Y="-500.0001" Z="147.3417"/>
+<n X="0.06" Y="0.0701" Z="0.9957"/>
+</Vertex>
+<Vertex U="500">
+<p X="-500" Y="-500.0001" Z="147.7874"/>
+<n X="0.0459" Y="0.0674" Z="0.9965"/>
+</Vertex>
+<Vertex U="504.3887">
+<p X="-500" Y="-456.1128" Z="144.9351"/>
+<n X="0.0506" Y="0.0667" Z="0.9964"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="4;1;0"/>
+<Face i="4;0;3"/>
+<Face i="5;4;3"/>
+<Face i="6;7;4"/>
+<Face i="5;6;4"/>
+<Face i="8;7;6"/>
+<Face i="10;7;8"/>
+<Face i="9;10;8"/>
 </SubSet>
 </Landschaft>
 </Zusi>
