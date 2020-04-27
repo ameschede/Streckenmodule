@@ -1462,5 +1462,83 @@
 <Face i="52;51;44"/>
 <Face i="52;44;43"/>
 </SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex U="-22.1515" V="0.9444" U2="-22.1515" V2="0.9444">
+<p X="-95.432" Y="125" Z="99.9732"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-18.6187" V="0.2206" U2="-18.6187" V2="0.2206">
+<p X="-125" Y="105.667" Z="99.7883"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-18.6192" U2="-18.6192">
+<p X="-125" Y="105.6749" Z="99.7883"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-22.1472" U2="-22.1472">
+<p X="-95.4838" Y="125" Z="99.973"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-22.1518" V="1" U2="-22.1518" V2="1">
+<p X="-95.429" Y="125" Z="99.9732"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-18.6172" V="1" U2="-18.6172" V2="1">
+<p X="-125" Y="105.6391" Z="99.7882"/>
+<n Z="1"/>
+</Vertex>
+<Face i="3;0;1"/>
+<Face i="2;3;1"/>
+<Face i="0;4;5"/>
+<Face i="1;0;5"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex U="-13.027" V="0.5957" U2="-13.027" V2="0.5957">
+<p X="-125" Y="100.8726" Z="99.7745"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.0281" U2="-13.0281">
+<p X="-125" Y="100.8939" Z="99.7746"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-14.8245" U2="-14.8245">
+<p X="-109.9712" Y="110.7335" Z="99.8686"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-14.8245" V="1" U2="-14.8245" V2="1">
+<p X="-109.9548" Y="110.7084" Z="99.8686"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.0262" V="1" U2="-13.0262" V2="1">
+<p X="-125" Y="100.858" Z="99.7745"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-17.4317" V="0.5865" U2="-17.4317" V2="0.5865">
+<p X="-88.1495" Y="125" Z="100.0051"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-17.429" U2="-17.429">
+<p X="-88.1816" Y="125" Z="100.0049"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-17.4336" V="1" U2="-17.4336" V2="1">
+<p X="-88.127" Y="125" Z="100.0052"/>
+<n Z="1"/>
+</Vertex>
+<Face i="3;0;1"/>
+<Face i="3;1;2"/>
+<Face i="0;3;4"/>
+<Face i="5;2;6"/>
+<Face i="5;7;3"/>
+<Face i="2;5;3"/>
+</SubSet>
 </Landschaft>
 </Zusi>

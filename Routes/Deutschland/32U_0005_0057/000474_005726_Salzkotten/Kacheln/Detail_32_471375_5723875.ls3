@@ -876,5 +876,73 @@
 <Face i="23;22;15"/>
 <Face i="23;15;14"/>
 </SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex U="-18.1393" V="0.1894" U2="-18.1393" V2="0.1894">
+<p X="-125" Y="123.5468" Z="101.7618"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-17.8738" V="0.1333" U2="-17.8738" V2="0.1333">
+<p X="-122.7776" Y="124.9999" Z="101.7579"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-17.8732" U2="-17.8732">
+<p X="-122.7703" Y="124.9999" Z="101.7579"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-18.1397" U2="-18.1397">
+<p X="-125" Y="123.5399" Z="101.7618"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-18.1377" V="1" U2="-18.1377" V2="1">
+<p X="-125" Y="123.5759" Z="101.7618"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-17.8778" V="1" U2="-17.8778" V2="1">
+<p X="-122.8252" Y="124.9999" Z="101.7579"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;3"/>
+<Face i="0;1;3"/>
+<Face i="5;1;0"/>
+<Face i="4;5;0"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex U="-13.5935" V="0.3885" U2="-13.5935" V2="0.3885">
+<p X="-125" Y="118.7722" Z="101.7656"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-12.4555" V="0.1518" U2="-12.4555" V2="0.1518">
+<p X="-115.4751" Y="124.9999" Z="101.7489"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-12.4548" U2="-12.4548">
+<p X="-115.4666" Y="124.9999" Z="101.7488"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.5942" U2="-13.5942">
+<p X="-125" Y="118.7583" Z="101.7656"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.5923" V="1" U2="-13.5923" V2="1">
+<p X="-125" Y="118.7943" Z="101.7656"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-12.4593" V="1" U2="-12.4593" V2="1">
+<p X="-115.5217" Y="124.9999" Z="101.7489"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;3"/>
+<Face i="0;1;3"/>
+<Face i="5;1;0"/>
+<Face i="4;5;0"/>
+</SubSet>
 </Landschaft>
 </Zusi>

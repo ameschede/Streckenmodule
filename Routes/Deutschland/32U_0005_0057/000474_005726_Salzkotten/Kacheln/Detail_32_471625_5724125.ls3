@@ -4,25 +4,25 @@
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
-<Verknuepfte Flags="16" BoundingR="3071" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\DB_Ra12.lod.ls3"/>
 <p X="-98.6616" Y="56.662" Z="101.4041"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="3092" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\DB_Ra12.lod.ls3"/>
 <p X="-117.7209" Y="45.876" Z="101.4363"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="3026" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\DB_Ra12.lod.ls3"/>
 <p X="-57.0986" Y="74.8759" Z="101.3383"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="3053" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\DB_Ra12.lod.ls3"/>
 <p X="-78.1697" Y="59.214" Z="101.3623"/>
 <phi/>
@@ -13706,6 +13706,253 @@
 <Face i="380;379;378"/>
 <Face i="380;374;373"/>
 <Face i="379;380;373"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex U="-71.5555" V="0.6083" U2="-71.5555" V2="0.6083">
+<p X="9.0337" Y="125" Z="101.0865"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-71.5527" U2="-71.5527">
+<p X="9.0671" Y="125" Z="101.0865"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-73.3766" U2="-73.3766">
+<p X="-6.1917" Y="115.0094" Z="101.1133"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-73.3766" V="1" U2="-73.3766" V2="1">
+<p X="-6.2083" Y="115.0346" Z="101.1133"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-71.5573" V="1" U2="-71.5573" V2="1">
+<p X="9.0122" Y="125" Z="101.0865"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-76.6258" U2="-76.6258">
+<p X="-33.3757" Y="97.2112" Z="101.1611"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-76.6258" V="1" U2="-76.6258" V2="1">
+<p X="-33.3923" Y="97.2363" Z="101.1611"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-78.0258" U2="-78.0258">
+<p X="-45.0886" Y="89.5425" Z="101.1817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-78.0258" V="1" U2="-78.0258" V2="1">
+<p X="-45.1052" Y="89.5676" Z="101.1817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-82.6752" U2="-82.6752">
+<p X="-83.9868" Y="64.0754" Z="101.2501"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-82.6752" V="1" U2="-82.6752" V2="1">
+<p X="-84.0034" Y="64.1006" Z="101.2501"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-86.5046" U2="-86.5046">
+<p X="-116.0252" Y="43.0989" Z="101.3064"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-86.5046" V="1" U2="-86.5046" V2="1">
+<p X="-116.0418" Y="43.124" Z="101.3064"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-86.8722" U2="-86.8722">
+<p X="-119.1018" Y="41.0845" Z="101.3118"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-86.8722" V="1" U2="-86.8722" V2="1">
+<p X="-119.1184" Y="41.1096" Z="101.3118"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-87.4964" U2="-87.4964">
+<p X="-124.3237" Y="37.6653" Z="101.321"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-87.4964" V="1" U2="-87.4964" V2="1">
+<p X="-124.3403" Y="37.6904" Z="101.321"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="0;3;4"/>
+<Face i="6;2;5"/>
+<Face i="2;6;3"/>
+<Face i="8;5;7"/>
+<Face i="5;8;6"/>
+<Face i="10;7;9"/>
+<Face i="7;10;8"/>
+<Face i="12;9;11"/>
+<Face i="9;12;10"/>
+<Face i="14;11;13"/>
+<Face i="11;14;12"/>
+<Face i="16;13;15"/>
+<Face i="13;16;14"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex U="-76.1834" V="0.9155" U2="-76.1834" V2="0.9155">
+<p X="16.3167" Y="125" Z="101.0775"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-76.1792" U2="-76.1792">
+<p X="16.3669" Y="125" Z="101.0775"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-76.5964" U2="-76.5964">
+<p X="12.8762" Y="122.7145" Z="101.0836"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-76.5964" V="1" U2="-76.5964" V2="1">
+<p X="12.8596" Y="122.7396" Z="101.0836"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-76.1838" V="1" U2="-76.1838" V2="1">
+<p X="16.312" Y="125" Z="101.0775"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-80.1857" U2="-80.1857">
+<p X="-17.1526" Y="103.0535" Z="101.1364"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-80.1857" V="1" U2="-80.1857" V2="1">
+<p X="-17.1692" Y="103.0786" Z="101.1364"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-83.7751" U2="-83.7751">
+<p X="-47.1826" Y="83.3915" Z="101.1892"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-83.7751" V="1" U2="-83.7751" V2="1">
+<p X="-47.1992" Y="83.4166" Z="101.1892"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-87.3644" U2="-87.3644">
+<p X="-77.2117" Y="63.73" Z="101.242"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-87.3644" V="1" U2="-87.3644" V2="1">
+<p X="-77.2283" Y="63.7551" Z="101.242"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-87.732" U2="-87.732">
+<p X="-80.2876" Y="61.7166" Z="101.2474"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-87.732" V="1" U2="-87.732" V2="1">
+<p X="-80.3042" Y="61.7417" Z="101.2474"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-88.3562" U2="-88.3562">
+<p X="-85.5098" Y="58.2964" Z="101.2566"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-88.3562" V="1" U2="-88.3562" V2="1">
+<p X="-85.5264" Y="58.3215" Z="101.2566"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="0;3;4"/>
+<Face i="6;2;5"/>
+<Face i="2;6;3"/>
+<Face i="8;5;7"/>
+<Face i="5;8;6"/>
+<Face i="10;7;9"/>
+<Face i="7;10;8"/>
+<Face i="12;9;11"/>
+<Face i="9;12;10"/>
+<Face i="14;11;13"/>
+<Face i="11;14;12"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex>
+<p X="-90.7368" Y="54.8744" Z="101.2658"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.6252" U2="-0.6252">
+<p X="-95.9678" Y="51.4495" Z="101.275"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.6252" V="1" U2="-0.6252" V2="1">
+<p X="-95.9844" Y="51.4746" Z="101.275"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="-90.7534" Y="54.8995" Z="101.2658"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.855" U2="-1.855">
+<p X="-106.2566" Y="44.7134" Z="101.2931"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.855" V="1" U2="-1.855" V2="1">
+<p X="-106.2732" Y="44.7385" Z="101.2931"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.4228" U2="-2.4228">
+<p X="-111.0066" Y="41.6024" Z="101.3014"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.4228" V="1" U2="-2.4228" V2="1">
+<p X="-111.0232" Y="41.6276" Z="101.3014"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.5428" U2="-2.5428">
+<p X="-112.0108" Y="40.9456" Z="101.3032"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.5428" V="1" U2="-2.5428" V2="1">
+<p X="-112.0274" Y="40.9707" Z="101.3032"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.3735" U2="-3.3735">
+<p X="-118.9607" Y="36.3954" Z="101.3154"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.3735" V="1" U2="-3.3735" V2="1">
+<p X="-118.9773" Y="36.4205" Z="101.3154"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.0951" V="0.158" U2="-4.0951" V2="0.158">
+<p X="-125" Y="32.447" Z="101.326"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.0954" U2="-4.0954">
+<p X="-125" Y="32.4413" Z="101.326"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.0934" V="1" U2="-4.0934" V2="1">
+<p X="-125" Y="32.4773" Z="101.326"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="5;1;4"/>
+<Face i="1;5;2"/>
+<Face i="7;4;6"/>
+<Face i="4;7;5"/>
+<Face i="9;6;8"/>
+<Face i="6;9;7"/>
+<Face i="11;8;10"/>
+<Face i="8;11;9"/>
+<Face i="12;10;13"/>
+<Face i="10;12;14"/>
+<Face i="10;14;11"/>
 </SubSet>
 </Landschaft>
 </Zusi>

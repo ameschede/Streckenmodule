@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben-3.dds"/>
+</Textur>
+<Vertex U="-233.3333" V="41.2343">
+<p X="262.9701" Y="500.0001" Z="200.9184"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-233.3333" V="33.3333">
+<p X="500" Y="500.0001" Z="204.5109"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-250.1036" V="33.3333">
+<p X="500.0001" Y="-3.1084" Z="218.7975"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-262.4365" V="60.4334">
+<p X="-313.0006" Y="-373.0948" Z="216.9817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-233.3333" V="66.6667">
+<p X="-500.0001" Y="500.0001" Z="191.0809"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-253.0782" V="66.6667">
+<p X="-500.0001" Y="-92.3462" Z="207.0174"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="11.2381">
+<p X="-500.0001" Y="-92.3462" Z="207.0174"/>
+<n Z="1"/>
+</Vertex>
+<Vertex>
+<p X="-313.0006" Y="-373.0948" Z="216.9817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.4333">
+<p X="-313.7217" Y="-375.6201" Z="203.9817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="11.2081" V="0.3003">
+<p X="-500.0001" Y="-94.8467" Z="198.0336"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="11.1697" V="0.4333">
+<p X="-500.0001" Y="-95.9541" Z="194.0781"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="432.7398">
+<p X="500" Y="-3.1084" Z="218.7975"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="432.7528" V="0.1888">
+<p X="500" Y="-4.0654" Z="213.1334"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="462.498">
+<p X="-313.0006" Y="-373.0948" Z="216.9817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="432.7379" V="0.4333">
+<p X="500" Y="-5.3057" Z="205.7976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="462.498" V="0.4333">
+<p X="-313.7217" Y="-375.6201" Z="203.9817"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;3;0"/>
+<Face i="1;2;0"/>
+<Face i="4;0;3"/>
+<Face i="5;4;3"/>
+<Face i="9;6;7"/>
+<Face i="8;9;7"/>
+<Face i="9;8;10"/>
+<Face i="12;13;11"/>
+<Face i="14;15;13"/>
+<Face i="14;13;12"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="15" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="2"/>
+<Textur>
+<Datei Dateiname="Terrain\General\forest\Wald_rand.dds"/>
+</Textur>
+<Vertex U="11.1697" V="0.6887">
+<p X="-500.0001" Y="-95.9541" Z="212.0781"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.6887">
+<p X="-313.7217" Y="-375.6201" Z="221.9817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-313.7217" Y="-375.6201" Z="203.9817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="11.1697" V="0.9048">
+<p X="-500.0001" Y="-95.9541" Z="199.5832"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="11.1697" V="1">
+<p X="-500.0001" Y="-95.9541" Z="194.0781"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="432.7379" V="0.6887">
+<p X="500" Y="-5.3057" Z="223.7976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="432.7379" V="0.8244">
+<p X="500" Y="-5.3057" Z="215.9522"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="462.498" V="0.6887">
+<p X="-313.7217" Y="-375.6201" Z="221.9817"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="432.7379" V="1">
+<p X="500" Y="-5.3057" Z="205.7976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="462.498" V="1">
+<p X="-313.7217" Y="-375.6201" Z="203.9817"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="0;2;3"/>
+<Face i="3;2;4"/>
+<Face i="6;7;5"/>
+<Face i="9;7;6"/>
+<Face i="8;9;6"/>
+</SubSet>
+</Landschaft>
+</Zusi>
