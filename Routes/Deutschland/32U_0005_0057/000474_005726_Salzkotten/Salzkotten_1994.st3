@@ -8326,6 +8326,7 @@
 <g X="-1086.194" Y="-916.8748" Z="100.9295"/>
 <b X="-1097.0701" Y="-923.9957" Z="100.8615"/>
 <InfoNormRichtung vMax="44.4444" km="140.455" pos="1" Reg="5014">
+<Ereignis Er="58"/>
 <Signal NameBetriebsstelle="Salzkotten" Stellwerk="Salzkotten Sf" Signalname="A721" SignalTyp="7" BoundingR="5">
 <p X="-1095.3556" Y="-926.6144" Z="100.8615"/>
 <phi Z="-2.561899"/>
@@ -15214,7 +15215,9 @@
 <StrElement Nr="1258" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4909">
 <g X="-2694.1421" Y="-1969.6519" Z="101.7974"/>
 <b X="-2734.374" Y="-1995.993" Z="101.8681"/>
-<InfoNormRichtung vMax="44.4444" km="142.3769" pos="1"/>
+<InfoNormRichtung vMax="44.4444" km="142.3769" pos="1">
+<Ereignis Er="58" Beschr="999" Wert="27.7778"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="44.4444" km="142.425"/>
 <NachNorm Nr="1259"/>
 <NachGegen Nr="1257"/>
@@ -17141,11 +17144,13 @@
 <NachNorm Nr="1381"/>
 <NachGegen Nr="1379"/>
 </StrElement>
-<StrElement Nr="1381" spTrass="44.4445" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5435">
+<StrElement Nr="1381" spTrass="44.4444" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5435">
 <g X="-1331.129" Y="-1072.4611" Z="99.4477"/>
 <b X="-1334.512" Y="-1074.6761" Z="99.4404"/>
-<InfoNormRichtung vMax="44.4445" km="140.7452" pos="1"/>
-<InfoGegenRichtung vMax="44.4445" km="140.7492"/>
+<InfoNormRichtung vMax="44.4444" km="140.7452" pos="1"/>
+<InfoGegenRichtung vMax="44.4444" km="140.7492">
+<Ereignis Er="58" Beschr="999" Wert="27.7778"/>
+</InfoGegenRichtung>
 <NachNorm Nr="1382"/>
 <NachGegen Nr="1380"/>
 </StrElement>
@@ -19113,6 +19118,7 @@
 <b X="-2920.8718" Y="-2113.3174" Z="102.1922"/>
 <InfoNormRichtung vMax="-1" Reg="5066"/>
 <InfoGegenRichtung vMax="44.4444" km="142.6686" Reg="5066">
+<Ereignis Er="58"/>
 <Signal NameBetriebsstelle="Salzkotten" Stellwerk="Salzkotten Sf" Signalname="F762" SignalTyp="7" BoundingR="5">
 <p X="-2920.9187" Y="-2109.595" Z="101.5893"/>
 <phi Z="0.579702"/>
