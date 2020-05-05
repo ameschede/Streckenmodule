@@ -440,5 +440,39 @@
 <Face i="31;24;23"/>
 <Face i="32;31;23"/>
 </SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex U="-56.8165" V="0.7878" U2="-56.8165" V2="0.7878">
+<p X="125" Y="-118.6004" Z="108.0528"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-56.0795" V="0.6384" U2="-56.0795" V2="0.6384">
+<p X="121.3443" Y="-125" Z="108.0589"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-56.0784" U2="-56.0784">
+<p X="121.3223" Y="-125" Z="108.0589"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-56.8206" U2="-56.8206">
+<p X="125" Y="-118.5527" Z="108.0528"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-56.8154" V="1" U2="-56.8154" V2="1">
+<p X="125" Y="-118.6133" Z="108.0528"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-56.0801" V="1" U2="-56.0801" V2="1">
+<p X="121.3568" Y="-125" Z="108.0589"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;3;0"/>
+<Face i="2;0;1"/>
+<Face i="1;0;4"/>
+<Face i="1;4;5"/>
+</SubSet>
 </Landschaft>
 </Zusi>

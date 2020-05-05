@@ -2326,5 +2326,83 @@
 <Face i="3;0;2"/>
 <Face i="0;3;4"/>
 </SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex>
+<p X="96.9359" Y="-114.0877" Z="107.5615"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.6" U2="-3.6">
+<p X="114.7734" Y="-82.8175" Z="107.6129"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.6" V="1" U2="-3.6" V2="1">
+<p X="114.7995" Y="-82.8324" Z="107.6129"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="96.962" Y="-114.1026" Z="107.5615"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-5.6618" V="0.418" U2="-5.6618" V2="0.418">
+<p X="125" Y="-64.9149" Z="107.6424"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-5.664" U2="-5.664">
+<p X="125" Y="-64.8897" Z="107.6424"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-5.6587" V="1" U2="-5.6587" V2="1">
+<p X="125" Y="-64.9502" Z="107.6423"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;1;5"/>
+<Face i="1;4;6"/>
+<Face i="1;6;2"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
+</Textur>
+<Vertex>
+<p X="93.462" Y="-112.1056" Z="107.5615"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.6" U2="-3.6">
+<p X="111.2996" Y="-80.8356" Z="107.6129"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.6" V="1" U2="-3.6" V2="1">
+<p X="111.3256" Y="-80.8505" Z="107.6129"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="93.488" Y="-112.1205" Z="107.5615"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.3621" V="0.5599" U2="-6.3621" V2="0.5599">
+<p X="125" Y="-56.8518" Z="107.6524"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.365" U2="-6.365">
+<p X="125" Y="-56.8179" Z="107.6524"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.3598" V="1" U2="-6.3598" V2="1">
+<p X="125" Y="-56.8784" Z="107.6524"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;1;5"/>
+<Face i="1;4;6"/>
+<Face i="1;6;2"/>
+</SubSet>
 </Landschaft>
 </Zusi>
