@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.3">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Strecke Himmelsmodell="2">
@@ -886,7 +886,9 @@
 <StrElement Nr="80" Ueberh="0.0592" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2911">
 <g X="-373.6604" Y="-1371.248" Z="124.9093"/>
 <b X="-383.2445" Y="-1390.0291" Z="124.9711"/>
-<InfoNormRichtung vMax="77.7778" km="84.0714" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="84.0714" pos="1">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" Wert="822"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="84.0925"/>
 <NachNorm Nr="81"/>
 <NachGegen Nr="79"/>
@@ -1307,6 +1309,7 @@
 <g X="79.5775" Y="-64.8605" Z="121.3637"/>
 <b X="75.4641" Y="-84.7598" Z="121.4047"/>
 <InfoNormRichtung vMax="77.7778" km="82.6838" pos="1">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" Wert="821"/>
 <Ereignis Er="39" Beschr="300a"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="82.7041"/>
@@ -1316,7 +1319,9 @@
 <StrElement Nr="134" Ueberh="0.0414" kr="-0.000137" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3081">
 <g X="75.4641" Y="-84.7598" Z="121.4047"/>
 <b X="71.2979" Y="-104.6481" Z="121.4453"/>
-<InfoNormRichtung vMax="77.7778" km="82.7042" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="82.7042" pos="1">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" Wert="823"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="82.7246"/>
 <NachNorm Nr="135"/>
 <NachGegen Nr="133"/>
@@ -1845,6 +1850,7 @@
 <g X="84.1746" Y="-65.8392" Z="121.3637"/>
 <b X="80.0592" Y="-85.7477" Z="121.4048"/>
 <InfoNormRichtung vMax="77.7778" km="82.6838" pos="1">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" Wert="824"/>
 <Ereignis Er="28" Beschr="300a"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="82.7042"/>
@@ -1854,7 +1860,9 @@
 <StrElement Nr="182" Ueberh="0.0414" kr="-0.000137" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3094">
 <g X="80.0592" Y="-85.7477" Z="121.4048"/>
 <b X="75.891" Y="-105.6451" Z="121.4453"/>
-<InfoNormRichtung vMax="77.7778" km="82.7043" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="82.7043" pos="1">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" Wert="826"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="82.7246"/>
 <NachNorm Nr="183"/>
 <NachGegen Nr="181"/>
@@ -2436,7 +2444,9 @@
 <StrElement Nr="248" Ueberh="0.0592" kr="-0.000196" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2894">
 <g X="-369.4676" Y="-1373.376" Z="124.9093"/>
 <b X="-379.0606" Y="-1392.174" Z="124.9711"/>
-<InfoNormRichtung vMax="77.7778" km="84.0714" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="84.0714" pos="1">
+<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" Wert="825"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="84.0926"/>
 <NachNorm Nr="249"/>
 <NachGegen Nr="247"/>
@@ -24974,6 +24984,9 @@
 <FahrstrRegister Ref="11">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="822">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="147">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -25002,6 +25015,9 @@
 </FahrstrZiel>
 <FahrstrRegister Ref="32">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="825">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="150">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
@@ -25131,11 +25147,20 @@
 <FahrstrRegister Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="821">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="823">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="822">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="147">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
@@ -25244,11 +25269,20 @@
 <FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="824">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="826">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="32">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="825">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="150">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
@@ -25354,6 +25388,12 @@
 <FahrstrRegister Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="821">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="823">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -25424,6 +25464,12 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="824">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="826">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
@@ -25831,11 +25877,20 @@
 <FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="824">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="826">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="32">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="825">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="150">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
@@ -25944,11 +25999,20 @@
 <FahrstrRegister Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="821">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="823">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="822">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="147">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
@@ -26054,6 +26118,12 @@
 <FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="824">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="826">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -26124,6 +26194,12 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="821">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="823">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000567_005726_Sudheim\Sudheim_1993.st3" NurInfo="1"/>

@@ -28,25 +28,25 @@
 <phi Z="-1.06602"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="181" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567125_5760125.ls3"/>
 <p X="-375" Y="-375"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="190" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567375_5760125.ls3"/>
 <p X="-125" Y="-375"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="186" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567125_5760375.ls3"/>
 <p X="-375" Y="-125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="191" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567125_5760625.ls3"/>
 <p X="-375" Y="125"/>
 <phi/>
@@ -838,7 +838,7 @@
 <phi Z="0.69764"/>
 <sk X="0.962" Y="0.962" Z="0.962"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush01-03m.lod.ls3"/>
 <p X="-433.6616" Y="17.1299" Z="191.0975"/>
 <phi Z="1.884838"/>
@@ -2146,7 +2146,7 @@
 <phi Z="-3.004109"/>
 <sk X="1.0919" Y="1.0919" Z="1.0919"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_3.lod.ls3"/>
 <p X="-416.046" Y="211.4629" Z="206.6164"/>
 <phi Z="-0.190726"/>
@@ -2386,7 +2386,7 @@
 <phi Z="-0.655958"/>
 <sk X="1.0108" Y="1.0108" Z="1.0108"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_1.lod.ls3"/>
 <p X="13.7206" Y="289.0767" Z="210.5643"/>
 <phi Z="1.248845"/>
@@ -2470,13 +2470,13 @@
 <phi Z="0.637061"/>
 <sk X="0.9582" Y="0.9582" Z="0.9582"/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="181" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567125_5760875.ls3"/>
 <p X="-375" Y="375"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="181" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567375_5760375.ls3"/>
 <p X="-125" Y="-125"/>
 <phi/>
@@ -2830,7 +2830,7 @@
 <phi Z="-1.066038"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4227" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000568_005756_Gehrenrode\Hektometertafeln\Hekto_47_8.ls3"/>
 <p X="-257.4674" Y="-341.5698" Z="198.0093"/>
 <phi Z="2.075555"/>
@@ -8540,7 +8540,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex>
 <p X="-412.5156" Y="217.4961" Z="218.9332"/>
@@ -8924,7 +8924,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="28.4292">
 <p X="85.7898" Y="-500.0001" Z="241.3802"/>
@@ -11412,58 +11412,6 @@
 <Face i="5;0;4"/>
 <Face i="6;0;5"/>
 <Face i="7;0;6"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
-</Textur>
-<Vertex U="-406.0974" V="-303.8131">
-<p X="-499.9993" Y="429.1124" Z="203.236"/>
-<n X="0.0297" Y="-0.139" Z="0.9898"/>
-</Vertex>
-<Vertex U="-400.0051" V="-302.4496">
-<p X="-455.211" Y="472.6006" Z="208"/>
-<n X="0.0297" Y="-0.139" Z="0.9898"/>
-</Vertex>
-<Vertex U="-399.0986" V="-304.0932">
-<p X="-438.8851" Y="463.3365" Z="206.2096"/>
-<n X="0.0297" Y="-0.139" Z="0.9898"/>
-</Vertex>
-<Vertex U="-400.1739" V="-301.133">
-<p X="-463.5335" Y="482.9388" Z="209"/>
-<n X="-0.0069" Y="-0.1018" Z="0.9948"/>
-</Vertex>
-<Vertex U="-406.0973" V="-303.813">
-<p X="-499.9993" Y="429.1136" Z="203.2362"/>
-<n X="0.0297" Y="-0.139" Z="0.9898"/>
-</Vertex>
-<Vertex U="-400.2312" V="-300.1087">
-<p X="-469.3807" Y="491.3692" Z="210"/>
-<n X="0.0084" Y="-0.1121" Z="0.9937"/>
-</Vertex>
-<Vertex U="-403.2293" V="-299.1405">
-<p X="-499.9983" Y="483.9398" Z="208.0633"/>
-<n X="0.002" Y="-0.0895" Z="0.9948"/>
-</Vertex>
-<Vertex U="-406.0973" V="-303.813">
-<p X="-499.9988" Y="429.1145" Z="203.2363"/>
-<n X="0.0297" Y="-0.139" Z="0.9898"/>
-</Vertex>
-<Vertex U="-402.3891" V="-297.7718">
-<p X="-499.9986" Y="500.0001" Z="208.7337"/>
-<n X="-0.0188" Y="-0.0709" Z="0.9959"/>
-</Vertex>
-<Vertex U="-400.3575" V="-299.0186">
-<p X="-476.161" Y="499.9993" Z="210"/>
-<n X="-0.0063" Y="-0.0952" Z="0.9946"/>
-</Vertex>
-<Face i="2;0;1"/>
-<Face i="1;0;3"/>
-<Face i="3;4;5"/>
-<Face i="5;7;6"/>
-<Face i="9;5;6"/>
-<Face i="8;9;6"/>
 </SubSet>
 </Landschaft>
 </Zusi>

@@ -22,19 +22,19 @@
 <phi Z="7.677485"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="183" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567125_5725375.ls3"/>
 <p X="-375" Y="-125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="203" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567125_5725625.ls3"/>
 <p X="-375" Y="125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="158" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="157" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_567125_5725875.ls3"/>
 <p X="-375" Y="375"/>
 <phi/>
@@ -736,7 +736,7 @@
 <phi Z="0.934548"/>
 <sk X="0.9715" Y="0.9715" Z="0.9715"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush01-03m.lod.ls3"/>
 <p X="-499.6583" Y="-15.2572" Z="121.3785"/>
 <phi Z="-2.475591"/>
@@ -910,7 +910,7 @@
 <phi Z="-1.042369"/>
 <sk X="1.026" Y="1.026" Z="1.026"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush03-5m.lod.ls3"/>
 <p X="-457.8902" Y="216.0342" Z="120.5752"/>
 <phi Z="-2.605552"/>
@@ -2020,7 +2020,7 @@
 <phi Z="0.639901"/>
 <sk X="1.088" Y="1.088" Z="1.088"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="11" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="10" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\Chestnut\Chestnut01-15m.lod.ls3"/>
 <p X="-397.3458" Y="-387.9927" Z="124.6466"/>
 <phi Z="3.253908"/>
@@ -3316,7 +3316,7 @@
 <phi Z="-3.082604"/>
 <sk X="0.9775" Y="0.9775" Z="0.9775"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="10" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="9" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\Chestnut\Chestnut01-15m.lod.ls3"/>
 <p X="46.4906" Y="-206.1268" Z="132.3894"/>
 <phi Z="-4.597917"/>
@@ -3340,7 +3340,7 @@
 <phi Z="-0.595833"/>
 <sk X="0.9497" Y="0.9497" Z="0.9497"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="12" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="11" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\Chestnut\Chestnut01-15m.lod.ls3"/>
 <p X="-24.0414" Y="-259.1491" Z="132.483"/>
 <phi Z="-2.345493"/>
@@ -3477,6 +3477,12 @@
 <p X="169.1435" Y="-490.34" Z="138.5805"/>
 <phi Z="-0.49256"/>
 <sk X="0.9651" Y="0.9651" Z="0.9651"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Objekte\Noerten01_Stellwerk\Noerten01_LSW-Abschluss_5m_2m.lod.ls3"/>
+<p X="-462.5612" Y="207.3654" Z="121.8201"/>
+<phi Y="-0.002008" Z="-1.815263"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
@@ -4760,7 +4766,7 @@
 <Textur>
 <Datei Dateiname="PermanentWay\Default\cess.dds"/>
 </Textur>
-<Vertex U="0.3397" V="1099.6822">
+<Vertex U="0.3397" V="1099.6823">
 <p X="-289.1364" Y="500" Z="121.5647"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
@@ -4804,11 +4810,11 @@
 <p X="-352.1544" Y="330.7823" Z="121.7978"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1413.3288">
+<Vertex U="1" V="1413.3289">
 <p X="-370.1211" Y="284.8327" Z="121.8615"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex V="1413.3288">
+<Vertex V="1413.3289">
 <p X="-369.4346" Y="284.576" Z="121.8615"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
@@ -4828,11 +4834,11 @@
 <p X="-403.995" Y="192.1631" Z="121.9889"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1615.2331">
+<Vertex U="1" V="1615.2332">
 <p X="-421.9618" Y="146.2135" Z="122.0526"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex V="1615.2331">
+<Vertex V="1615.2332">
 <p X="-421.2752" Y="145.9567" Z="122.0526"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
@@ -4844,11 +4850,11 @@
 <p X="-438.5554" Y="99.7504" Z="122.1164"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1749.836">
+<Vertex U="1" V="1749.8361">
 <p X="-456.5222" Y="53.8008" Z="122.1801"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex V="1749.836">
+<Vertex V="1749.8361">
 <p X="-455.8356" Y="53.544" Z="122.1801"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
@@ -4896,7 +4902,7 @@
 <p X="-291.7588" Y="466.2025" Z="121.6067"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex V="1094.8963">
+<Vertex V="1094.8962">
 <p X="-279.1194" Y="500" Z="121.5601"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
@@ -4964,11 +4970,11 @@
 <p X="-430.0004" Y="96.5514" Z="122.1163"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1749.836">
+<Vertex U="1" V="1749.8361">
 <p X="-446.594" Y="50.0884" Z="122.1801"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex V="1749.836">
+<Vertex V="1749.8361">
 <p X="-447.2806" Y="50.3451" Z="122.1801"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
@@ -4980,11 +4986,11 @@
 <p X="-464.5608" Y="4.1387" Z="122.2438"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1884.4389">
+<Vertex U="1" V="1884.4388">
 <p X="-481.1544" Y="-42.3244" Z="122.3075"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex V="1884.4389">
+<Vertex V="1884.4388">
 <p X="-481.841" Y="-42.0677" Z="122.3075"/>
 <n X="0.0005" Y="0.0012" Z="1"/>
 </Vertex>
@@ -6124,11 +6130,11 @@
 <p X="-477.883" Y="193.5166" Z="120.9784"/>
 <n X="-0.0569" Y="0.0163" Z="0.9982"/>
 </Vertex>
-<Vertex U="1" V="1086.1186">
+<Vertex U="1" V="1086.1187">
 <p X="-484.1707" Y="173.3725" Z="120.9533"/>
 <n X="-0.0569" Y="0.0165" Z="0.9982"/>
 </Vertex>
-<Vertex V="1086.1186">
+<Vertex V="1086.1187">
 <p X="-483.0683" Y="173.0903" Z="121.0207"/>
 <n X="-0.0569" Y="0.0165" Z="0.9982"/>
 </Vertex>
@@ -6140,11 +6146,11 @@
 <p X="-488.3379" Y="152.6854" Z="121.0631"/>
 <n X="-0.0568" Y="0.0167" Z="0.9982"/>
 </Vertex>
-<Vertex U="1" V="1143.6496">
+<Vertex U="1" V="1143.6497">
 <p X="-494.7919" Y="132.5941" Z="121.038"/>
 <n X="-0.0567" Y="0.017" Z="0.9982"/>
 </Vertex>
-<Vertex V="1143.6496">
+<Vertex V="1143.6497">
 <p X="-493.6918" Y="132.3027" Z="121.1054"/>
 <n X="-0.0567" Y="0.017" Z="0.9982"/>
 </Vertex>
@@ -6312,11 +6318,11 @@
 <p X="-468.1729" Y="191.0737" Z="121.2932"/>
 <n X="-0.0569" Y="0.0163" Z="0.9982"/>
 </Vertex>
-<Vertex U="1" V="1086.6253">
+<Vertex U="1" V="1086.6252">
 <p X="-472.2659" Y="170.3249" Z="121.4029"/>
 <n X="-0.0569" Y="0.0165" Z="0.9982"/>
 </Vertex>
-<Vertex V="1086.6253">
+<Vertex V="1086.6252">
 <p X="-473.3683" Y="170.6072" Z="121.3355"/>
 <n X="-0.0568" Y="0.0165" Z="0.9982"/>
 </Vertex>
@@ -10095,7 +10101,7 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
-<Vertex U="-92.5284" V="0">
+<Vertex U="-92.5284">
 <p X="-500" Y="-425.2845" Z="123"/>
 <n Z="1"/>
 </Vertex>

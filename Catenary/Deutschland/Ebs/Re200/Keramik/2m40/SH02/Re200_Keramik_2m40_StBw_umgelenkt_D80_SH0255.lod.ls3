@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="81" AutorName="Fabian Schöpflin" AutorBeschreibung="Grundmodell"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorBeschreibung="Variante 2m40"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="4" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="Re200_Keramik_2m40_StBw_umgelenkt_D80_SH0255.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="4" SichtbarAb="250" SichtbarBis="500" Vorlade="1" LODbit="2">
+<Datei Dateiname="Re200_Keramik_2m40_StBw_umgelenkt_D80_SH0255.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="4" SichtbarAb="500" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="Re200_Keramik_2m40_StBw_umgelenkt_D80_SH0255.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Mast">
+<p Y="-2.4" Z="5.7105"/>
+<phi Z="1.570796"/>
+</Ankerpunkt>
+<Ankerpunkt Beschreibung="Hängesäule Ø80">
+<p Y="-2.44" Z="5.02"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Haengesaeulen\Tunnel\Aluminium" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Haengesaeulen\Tunnel\Stahl" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="1" AnkerKat="1" Beschreibung="Fahrdraht">
+<p Y="0.4" Z="5.5"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="2" AnkerKat="1" Beschreibung="Tragseil">
+<p Y="0.4" Z="5.755"/>
+<phi/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

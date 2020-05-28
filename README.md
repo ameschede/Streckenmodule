@@ -24,9 +24,10 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Neudietendorf
 * Sudheim
 * Edesheim
+* Nörten-Hardenberg
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
 
-Die Module Sorsum, Almstedt, Gehrenrode, Orxhausen, Ahlshausen, Edesheim und Sudheim bilden ein zusammenhängendes Netz mit 69,7 km Gesamt-Streckenlänge.
+Die Module Sorsum, Almstedt, Gehrenrode, Orxhausen, Ahlshausen, Edesheim, Sudheim und Nörten-Hardenberg bilden ein zusammenhängendes Netz mit 91,6 km Gesamt-Streckenlänge.
