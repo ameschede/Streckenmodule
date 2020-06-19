@@ -21,7 +21,6 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Gehrenrode
 * Almstedt
 * Ahlshausen
-* Neudietendorf
 * Sudheim
 * Edesheim
 * Nörten-Hardenberg
