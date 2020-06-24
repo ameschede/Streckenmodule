@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="KT" Nummer="40009" Zuglauf="Taulov - Gallarate" Prio="2500" Standortmodus="1" BremsstellungZug="2" spAnfang="11.1111" MBrh="0.68" spZugNiedriger="27.7778" FahrplanGruppe="Fahrtrichtung Süden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Göttingen Gbf Nord A512" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr\KT40009.timetable.xml"/>
+<FahrplanEintrag Ank="2016-04-28 09:24:00" Abf="2016-04-28 09:24:00" Betrst="Bft Göttingen Gbf Nord" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A512"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:26:00" Betrst="Bft Göttingen Gbf Nord">
+<FahrplanSignalEintrag FahrplanSignal="L312"/>
+<FahrplanSignalEintrag FahrplanSignal="S308"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:27:13" Betrst="Bft Göttingen Gbf">
+<FahrplanSignalEintrag FahrplanSignal="S112"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 105II"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 103II"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 102II"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 101II"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:28:06" Betrst="Bft Göttingen Pbf">
+<FahrplanSignalEintrag FahrplanSignal="N6"/>
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+<FahrplanSignalEintrag FahrplanSignal="N5"/>
+<FahrplanSignalEintrag FahrplanSignal="N7"/>
+<FahrplanSignalEintrag FahrplanSignal="N8"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:29:28" Betrst="Abzw Grone">
+<FahrplanSignalEintrag FahrplanSignal="42"/>
+<FahrplanSignalEintrag FahrplanSignal="142"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:30:29" Betrst="Rosdorf">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:32:48" Betrst="Obernjesa" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\TRAXX\145-146_0.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

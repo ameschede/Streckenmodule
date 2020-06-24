@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="ICE" Nummer="91" Zuglauf="Hamburg-Altona - Wien Hbf" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="16.6667" MBrh="1.87" ReisendenDichte="0.55" FahrplanGruppe="Fahrtrichtung Süden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Göttingen Gbf Nord A512" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr\ICE91.timetable.xml"/>
+<FahrplanEintrag Ank="2016-04-28 09:32:00" Abf="2016-04-28 09:32:00" Betrst="Bft Göttingen Gbf Nord" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A512"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:34:00" Betrst="Bft Göttingen Gbf">
+<FahrplanSignalEintrag FahrplanSignal="S112"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2016-04-28 09:35:00" Abf="2016-04-28 09:37:00" Betrst="Bft Göttingen Pbf">
+<FahrplanSignalEintrag FahrplanSignal="N8"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:39:00" Betrst="Abzw Grone">
+<FahrplanSignalEintrag FahrplanSignal="42"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:40:00" Betrst="Rosdorf">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 09:43:00" Betrst="Obernjesa" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Stromrichterwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Fahrmotorwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Mittelwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Fahrmotorwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Stromrichterwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Stromrichterwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Fahrmotorwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Stromrichterwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="7" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE-T\ICE-T_Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

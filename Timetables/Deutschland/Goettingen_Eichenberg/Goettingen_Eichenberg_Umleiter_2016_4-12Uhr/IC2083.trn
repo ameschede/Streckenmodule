@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="IC" Nummer="2083" Zuglauf="Hamburg-Altona - Freilassing" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="16.6667" MBrh="1.87" ReisendenDichte="0.6" FahrplanGruppe="Fahrtrichtung Süden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Göttingen Gbf Nord A512" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr\IC2083.timetable.xml"/>
+<FahrplanEintrag Ank="2016-04-28 10:00:00" Abf="2016-04-28 10:00:00" Betrst="Bft Göttingen Gbf Nord" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A512"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 10:02:00" Betrst="Bft Göttingen Gbf">
+<FahrplanSignalEintrag FahrplanSignal="S112"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2016-04-28 10:03:00" Abf="2016-04-28 10:05:00" Betrst="Bft Göttingen Pbf">
+<FahrplanSignalEintrag FahrplanSignal="N8"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 10:07:00" Betrst="Abzw Grone">
+<FahrplanSignalEintrag FahrplanSignal="42"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 10:08:00" Betrst="Rosdorf">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 10:11:00" Betrst="Obernjesa" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\101\101.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Reisezugwagen\BRD\Interregio\ARkimbz262.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="5" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

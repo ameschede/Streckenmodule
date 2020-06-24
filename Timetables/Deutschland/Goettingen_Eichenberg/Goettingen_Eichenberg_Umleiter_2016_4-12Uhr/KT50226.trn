@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="KT" Nummer="50226" Zuglauf="Kornwestheim Rbf - Maschen Rbf Msof" Prio="2500" Standortmodus="1" BremsstellungZug="2" spAnfang="11.1111" MBrh="0.68" FahrplanGruppe="Fahrtrichtung Norden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Obernjesa A" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr\KT50226.timetable.xml"/>
+<FahrplanEintrag Ank="2016-04-28 04:07:00" Abf="2016-04-28 04:07:00" Betrst="Obernjesa">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 04:09:00" Betrst="Obernjesa">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 04:11:51" Betrst="Rosdorf">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 04:13:49" Betrst="Abzw Grone">
+<FahrplanSignalEintrag FahrplanSignal="41"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 04:14:42" Betrst="Bft Göttingen Pbf">
+<FahrplanSignalEintrag FahrplanSignal="R4"/>
+<FahrplanSignalEintrag FahrplanSignal="R12"/>
+<FahrplanSignalEintrag FahrplanSignal="R5"/>
+<FahrplanSignalEintrag FahrplanSignal="R6"/>
+<FahrplanSignalEintrag FahrplanSignal="R7"/>
+<FahrplanSignalEintrag FahrplanSignal="P8"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 04:17:00" Betrst="Bft Göttingen Gbf">
+<FahrplanSignalEintrag FahrplanSignal="T111"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 101I"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 102I"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 103I"/>
+<FahrplanSignalEintrag FahrplanSignal="Ls 105I"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 04:18:00" Betrst="Bft Göttingen Gbf Nord">
+<FahrplanSignalEintrag FahrplanSignal="P311"/>
+<FahrplanSignalEintrag FahrplanSignal="P308"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 04:19:00" Betrst="Sbk 556" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="556"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneBremsstellung="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\TRAXX\TRAXX_AC1.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\L-Wagen\Lbgjs599\Lbgjs599.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

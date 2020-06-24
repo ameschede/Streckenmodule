@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="ME" Nummer="82814" Zuglauf="Bft Göttingen Pbf - Uelzen" BRAngabe="146" Prio="2500" BremsstellungZug="5" MBrh="1.87" Dekozug="1" ReisendenDichte="0.5" FahrplanGruppe="Deko Göttingen" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Göttingen Pbf R6" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr\ME82814.timetable.xml"/>
+<FahrplanEintrag Ank="2016-04-28 11:00:00" Abf="2016-04-28 11:07:00" Betrst="Bft Göttingen Pbf">
+<FahrplanSignalEintrag FahrplanSignal="R6"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 11:08:00" Betrst="Bft Göttingen Gbf">
+<FahrplanSignalEintrag FahrplanSignal="T111"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 11:09:00" Betrst="Bft Göttingen Gbf Nord">
+<FahrplanSignalEintrag FahrplanSignal="P311"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 11:10:00" Betrst="Sbk 556" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="556"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpbzfa_766.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Reisezugwagen\Doppelstockwagen\DBpza_780.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\TRAXX\TRAXX_AC2.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

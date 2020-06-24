@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="CAN" Nummer="24113" Zuglauf="Bft Göttingen Pbf - Fulda" Prio="2500" BremsstellungZug="5" MBrh="1.87" ReisendenDichte="0.2" FahrplanGruppe="Fahrtrichtung Süden" Rekursionstiefe="6" FahrstrName="Aufgleispunkt -&gt; Bft Göttingen Pbf N5" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Goettingen_Eichenberg\Goettingen_Eichenberg_Umleiter_2016_4-12Uhr\CAN24113.timetable.xml"/>
+<FahrplanEintrag Ank="2016-04-28 06:53:00" Abf="2016-04-28 07:03:00" Betrst="Bft Göttingen Pbf">
+<FahrplanSignalEintrag FahrplanSignal="N5"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 07:05:00" Betrst="Abzw Grone">
+<FahrplanSignalEintrag FahrplanSignal="142"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 07:06:00" Betrst="Rosdorf">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2016-04-28 07:08:00" Betrst="Obernjesa" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\FLIRT\FLIRT1_Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\FLIRT\FLIRT1_Mittelwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\FLIRT\FLIRT1_Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
