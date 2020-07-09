@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.3">
+<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Strecke Himmelsmodell="2">
@@ -33572,7 +33572,7 @@
 <StrElement Nr="2514" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.533">
 <g X="-375.5766" Y="1437.658" Z="132.0998"/>
 <b X="-377.2858" Y="1420.7441" Z="132.1285"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5170">
+<InfoNormRichtung vMax="-1" km="97.4375" pos="1" Reg="5170">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="44.4444" km="97.4545" Reg="5170">
@@ -33592,27 +33592,26 @@
 <StrElement Nr="2516" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="-385.4451" Y="1340" Z="132.2654"/>
 <b X="-390.3794" Y="1291.17" Z="132.3481"/>
-<InfoNormRichtung vMax="44.4445" km="97.5356" pos="1"/>
-<InfoGegenRichtung vMax="44.4445" km="97.5847"/>
+<InfoNormRichtung vMax="44.4445" km="97.5357" pos="1"/>
+<InfoGegenRichtung vMax="44.4445" km="97.5848"/>
 <NachNorm Nr="2517"/>
 <NachGegen Nr="2515"/>
 </StrElement>
 <StrElement Nr="2517" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4937">
 <g X="-390.3794" Y="1291.17" Z="132.3481"/>
 <b X="-393.5967" Y="1259.3323" Z="132.4021"/>
-<InfoNormRichtung vMax="-1">
+<InfoNormRichtung vMax="-1" km="97.5848" pos="1">
 <Ereignis Er="1000007"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4445" km="97.6167"/>
+<InfoGegenRichtung vMax="44.4445" km="97.6168"/>
 <NachNorm Nr="2658"/>
 <NachGegen Nr="2516"/>
 </StrElement>
-<StrElement Nr="2518" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4829">
+<StrElement Nr="2518" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4829">
 <g X="-395.3137" Y="1242.3409" Z="132.4309"/>
-<b X="-397.8038" Y="1217.699" Z="132.4727"/>
-<InfoNormRichtung vMax="44.4445" km="97.6338" pos="1"/>
-<InfoGegenRichtung vMax="44.4445" km="97.6586"/>
-<NachNorm Nr="2519"/>
+<b X="-395.9672" Y="1235.8739" Z="132.4419"/>
+<InfoGegenRichtung vMax="44.4444" km="97.6403"/>
+<NachNorm Nr="7128"/>
 <NachGegen Nr="2658"/>
 </StrElement>
 <StrElement Nr="2519" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4758">
@@ -33621,7 +33620,7 @@
 <InfoNormRichtung vMax="44.4445" km="97.6586" pos="1"/>
 <InfoGegenRichtung vMax="44.4445" km="97.6748"/>
 <NachNorm Nr="2520"/>
-<NachGegen Nr="2518"/>
+<NachGegen Nr="7128"/>
 </StrElement>
 <StrElement Nr="2520" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4795">
 <g X="-399.4393" Y="1201.514" Z="132.4912"/>
@@ -35250,6 +35249,7 @@
 <HsigBegriff HsigGeschw="36.1111" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="2.7778"/>
@@ -35960,6 +35960,60 @@
 <MatrixEintrag Signalbild="559651519202117" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="560751030829893" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="558552007574277" MatrixGeschw="41.6667">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="558551974019843">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs7" ErsatzsigID="00000002">
@@ -38589,7 +38643,7 @@
 <NachNorm Nr="1004"/>
 <NachGegen Nr="1003"/>
 </StrElement>
-<StrElement Nr="2594" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4936">
+<StrElement Nr="2594" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="-650.2292" Y="-1099.3462" Z="135.2899"/>
 <b X="-650.4384" Y="-1101.3352" Z="135.2973"/>
 <InfoNormRichtung vMax="-1" Reg="5208"/>
@@ -38674,6 +38728,7 @@
 <HsigBegriff HsigGeschw="36.1111" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="2.7778"/>
@@ -39288,6 +39343,60 @@
 <MatrixEintrag Signalbild="1023410869" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="1023410869" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="1023410741" MatrixGeschw="41.6667">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1006633523">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs7" ErsatzsigID="00000002">
@@ -43224,7 +43333,7 @@
 <g X="-377.2858" Y="1420.7441" Z="132.1285"/>
 <b X="-380.5109" Y="1388.829" Z="132.1826"/>
 <InfoNormRichtung vMax="44.4444" km="97.4545" pos="1" Reg="5226"/>
-<InfoGegenRichtung vMax="-1" Reg="5226">
+<InfoGegenRichtung vMax="-1" km="97.4866" Reg="5226">
 <Signal NameBetriebsstelle="Nörten-Hardenbg" Stellwerk="Nörten-Hardenberg Nhf" Signalname="P002" SignalTyp="9" BoundingR="10">
 <p X="-375.1865" Y="1420.4871" Z="140.8964"/>
 <phi Z="1.470084"/>
@@ -44060,8 +44169,8 @@
 <StrElement Nr="2658" spTrass="44.4445" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="-393.5967" Y="1259.3323" Z="132.4021"/>
 <b X="-395.3137" Y="1242.3409" Z="132.4309"/>
-<InfoNormRichtung vMax="44.4445" km="97.6167" pos="1"/>
-<InfoGegenRichtung vMax="-1">
+<InfoNormRichtung vMax="44.4445" km="97.6168" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="97.6338">
 <Ereignis Er="1000012"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2518"/>
@@ -71695,6 +71804,14 @@
 <MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
+</StrElement>
+<StrElement Nr="7128" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4829">
+<g X="-395.9672" Y="1235.8739" Z="132.4419"/>
+<b X="-397.8038" Y="1217.699" Z="132.4727"/>
+<InfoNormRichtung vMax="44.4444" km="97.6403" pos="1"/>
+<InfoGegenRichtung vMax="-1"/>
+<NachNorm Nr="2519"/>
+<NachGegen Nr="2518"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Anzeige: LZB-Bk 202 202 -&gt; Üst Sudheim 112" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2594.6001">
 <FahrstrStart Ref="756">
