@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="ICE" Nummer="1638" Zuglauf="Erfurt - Frankfurt (M)" Prio="2500" Standortmodus="3" StartVorschubweg="210" BremsstellungZug="5" MBrh="1.87" spZugNiedriger="83.3333" ReisendenDichte="0.8" FahrplanGruppe="3) Erfurt - Neudietendorf" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Erfurt Pbf Ls 01L8001X -&gt; Bft Erfurt Pbf 01N1" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\VDE8\Erfurt-Theuern_2019_4-10Uhr.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2019-05-02 07:45:00" Abf="2019-05-02 07:51:00" Betrst="Bft Erfurt Pbf">
+<FahrplanSignalEintrag FahrplanSignal="01N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 07:55:00" Betrst="Erfurt-Bischleb">
+<FahrplanSignalEintrag FahrplanSignal="N721"/>
+<FahrplanSignalEintrag FahrplanSignal="N723"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 07:58:00" Betrst="Neudietendorf">
+<FahrplanSignalEintrag FahrplanSignal="N831"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="2" EigeneZugart="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Endwagen.rv.fzg"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRH="200" BRA="7" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+<ZugdatenETCS BRH="200" ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ZugsicherungHS="2" Lufthahn="2" ETCSStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Trafowagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Stromrichterwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Speisewagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Mittelwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Stromrichterwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Trafowagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" DotraModus="1" SASchaltung="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\ICE3\ICE3_Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

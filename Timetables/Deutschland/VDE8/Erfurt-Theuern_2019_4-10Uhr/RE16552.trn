@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="RE" Nummer="16552" Zuglauf="Erfurt Hbf - Nordhausen" Prio="2500" Standortmodus="1" BremsstellungZug="3" FahrplanGruppe="5) Deko Erfurt" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Erfurt Pbf 01ZV1" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\VDE8\Erfurt-Theuern_2019_4-10Uhr.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2019-05-02 05:50:00" Abf="2019-05-02 05:59:00" Betrst="Bft Erfurt Pbf">
+<FahrplanSignalEintrag FahrplanSignal="01ZV1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" FahrzeugZusatzinfo="642 049">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\DesiroClassic\DesiroClassic_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\DesiroClassic\DesiroClassic_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" FahrzeugZusatzinfo="642 049">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\DesiroClassic\DesiroClassic_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\DesiroClassic\DesiroClassic_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

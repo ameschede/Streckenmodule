@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="Tfzf (D)" Nummer="83026" Zuglauf="Coburg - Erfurt Gbf" Prio="2500" Standortmodus="1" BremsstellungZug="4" FahrplanGruppe="2) Theuern - Erfurt" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Theuern 33A" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\VDE8\Erfurt-Theuern_2019_4-10Uhr.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2019-05-02 09:29:00" Abf="2019-05-02 09:29:00" Betrst="Theuern">
+<FahrplanSignalEintrag FahrplanSignal="33A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 09:30:00" Betrst="Theuern" ErsatzsignalzeilePlus1="1">
+<FahrplanSignalEintrag FahrplanSignal="33ZR1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 09:35:00" Betrst="Üst Massetal">
+<FahrplanSignalEintrag FahrplanSignal="35363"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 09:35:00" Betrst="Üst Massetal">
+<FahrplanSignalEintrag FahrplanSignal="35165"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2019-05-02 09:41:00" Abf="2019-05-02 09:47:00" Betrst="Ilmenau-Wolfsbg" FplEintrag="3" ErsatzsignalzeilePlus1="1">
+<FahrplanSignalEintrag FahrplanSignal="37N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 09:55:00" Betrst="Eischleben" ErsatzsignalzeilePlus1="1">
+<FahrplanSignalEintrag FahrplanSignal="39N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 10:02:00" Betrst="Bft Erfurt Pbf">
+<FahrplanSignalEintrag FahrplanSignal="01ZV8"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="8" IDNeben="1" EigeneZugart="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektroloks\Vectron\Vectron_E.rv.fzg"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="9" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ZugsicherungHS="2" Lufthahn="2" ETCSStoerschalter="2"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

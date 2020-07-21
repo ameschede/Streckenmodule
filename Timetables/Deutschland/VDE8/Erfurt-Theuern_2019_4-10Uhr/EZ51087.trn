@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="EZ" Nummer="51087" Zuglauf="Seddin West Ausf - Mannheim Rbf" Prio="2500" BremsstellungZug="1" MBrh="0.6" FahrplanGruppe="3) Erfurt - Neudietendorf" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Erfurt Pbf 01N9" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\VDE8\Erfurt-Theuern_2019_4-10Uhr.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2019-05-02 06:21:00" Abf="2019-05-02 06:21:00" Betrst="Bft Erfurt Pbf">
+<FahrplanSignalEintrag FahrplanSignal="01N9"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 06:30:00" Betrst="Erfurt-Bischleb">
+<FahrplanSignalEintrag FahrplanSignal="N723"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 06:36:00" Betrst="Neudietendorf">
+<FahrplanSignalEintrag FahrplanSignal="N831"/>
+<FahrplanSignalEintrag FahrplanSignal="N797"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\TRAXX\TRAXX_AC1.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSlmas53\SSlmas53.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\H-Wagen\Habbiins14\Habbiins14.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="20">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="20">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="20">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="20">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="20">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

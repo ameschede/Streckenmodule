@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="RB" Nummer="74544" Zuglauf="Erfurt Hbf - Eisenach" Prio="2500" Standortmodus="1" BremsstellungZug="5" MBrh="1.94" ReisendenDichte="0.4" FahrplanGruppe="3) Erfurt - Neudietendorf" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Erfurt Pbf 01N13" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\VDE8\Erfurt-Theuern_2019_4-10Uhr.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2019-05-02 06:20:00" Abf="2019-05-02 06:25:00" Betrst="Bft Erfurt Pbf">
+<FahrplanSignalEintrag FahrplanSignal="01N13"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2019-05-02 06:29:00" Betrst="Erfurt-Bischleb">
+<FahrplanSignalEintrag FahrplanSignal="N721"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2019-05-02 06:33:00" Abf="2019-05-02 06:34:00" Betrst="Neudietendorf">
+<FahrplanSignalEintrag FahrplanSignal="T771"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+<ZugdatenIndusiRechner BRH="200" BRA="8" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" DotraModus="1" SASchaltung="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittellaufwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittelantriebswagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittellaufwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" EigeneZugart="1" DotraModus="1" SASchaltung="3" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+<ZugdatenIndusiRechner BRH="200" BRA="8" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

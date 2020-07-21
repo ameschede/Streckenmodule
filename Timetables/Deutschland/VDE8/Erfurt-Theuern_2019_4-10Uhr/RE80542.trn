@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="RE" Nummer="80542" Zuglauf="Erfurt Hbf - Magdeburg Hbf" Prio="2500" Standortmodus="1" BremsstellungZug="5" ReisendenDichte="0.1" FahrplanGruppe="5) Deko Erfurt" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Erfurt Pbf 01ZV5" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\VDE8\Erfurt-Theuern_2019_4-10Uhr.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2019-05-02 04:50:00" Abf="2019-05-02 05:06:00" Betrst="Bft Erfurt Pbf">
+<FahrplanSignalEintrag FahrplanSignal="01ZV5"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\LINT\LINT41_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\LINT\LINT41_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\LINT\LINT41_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\LINT\LINT41_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
