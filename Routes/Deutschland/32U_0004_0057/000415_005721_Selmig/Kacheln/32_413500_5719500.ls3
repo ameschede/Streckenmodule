@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -28,25 +28,25 @@
 <phi Z="3.830616"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="131" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="128" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_413375_5719375.ls3"/>
 <p X="-125" Y="-125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="185" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_413625_5719375.ls3"/>
 <p X="125" Y="-125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="178" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_413625_5719625.ls3"/>
 <p X="125" Y="125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="184" SichtbarBis="140" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="140" Vorlade="1">
 <Datei Dateiname="Detail_32_413875_5719625.ls3"/>
 <p X="375" Y="125"/>
 <phi/>
@@ -70,7 +70,7 @@
 <phi Z="3.272492"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="13" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000490_005701_Marsberg\Objekte\Marsberg13_Wohnhaeuser_Ost\Mars13_WHaus_c1.lod.ls3"/>
 <p X="97.0669" Y="-417.6406" Z="71.2881"/>
 <phi Z="-1.416989"/>
@@ -358,7 +358,7 @@
 <phi Z="-3.684424"/>
 <sk X="0.8904" Y="0.8904" Z="0.8904"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
 <p X="479.32" Y="-56.5037" Z="73.6694"/>
 <phi Z="-1.597158"/>
@@ -1246,7 +1246,7 @@
 <phi Z="-0.046283"/>
 <sk X="1.0353" Y="1.0353" Z="1.0353"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="9" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\Scotch_Pine\Scotch_Pine13m.lod.ls3"/>
 <p X="349.6637" Y="150.2141" Z="71.5209"/>
 <phi Z="0.056365"/>
@@ -1610,36 +1610,6 @@
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
 <p X="164.1351" Y="-8.1128" Z="79.5564"/>
 <phi X="-0.003351" Z="2.116282"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
-<p X="305.957" Y="93.0156" Z="80.1409"/>
-<phi X="-0.001843" Z="-0.871836"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
-<p X="306.1713" Y="92.7375" Z="79.2509"/>
-<phi X="-0.006853" Z="-0.881812"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
-<p X="58.7915" Y="-85.5111" Z="81.2017"/>
-<phi X="-0.003581" Z="-1.087672"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
-<p X="312.8427" Y="84.4565" Z="80.3714"/>
-<phi X="-0.001308" Z="-0.999482"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
-<p X="312.6263" Y="84.7332" Z="79.482"/>
-<phi X="-0.006626" Z="-0.989525"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
@@ -2246,6 +2216,36 @@
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Hektometertafeln\Hekto_143_0.ls3"/>
 <p X="260.0664" Y="58.358" Z="76.5918"/>
 <phi Z="0.632033"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<p X="312.8425" Y="84.4565" Z="80.3645"/>
+<phi X="0.002131" Z="-0.999537"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<p X="312.6263" Y="84.7332" Z="79.482"/>
+<phi X="-0.006626" Z="-0.989525"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<p X="59.635" Y="-85.0687" Z="81.1983"/>
+<phi X="-0.003581" Z="-1.087672"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<p X="305.9572" Y="93.0155" Z="80.1337"/>
+<phi X="0.001728" Z="-0.871765"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1846" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<p X="306.1713" Y="92.7375" Z="79.2509"/>
+<phi X="-0.006853" Z="-0.881812"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
