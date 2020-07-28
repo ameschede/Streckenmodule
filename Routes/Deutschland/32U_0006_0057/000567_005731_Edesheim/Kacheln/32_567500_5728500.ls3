@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -1636,12 +1636,6 @@
 <phi Z="1.573303"/>
 <sk X="1.0359" Y="1.0359" Z="1.0359"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush03-5m.lod.ls3"/>
-<p X="0.7916" Y="-468.022" Z="118.4017"/>
-<phi Z="1.13572"/>
-<sk X="1.0958" Y="1.0958" Z="1.0958"/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush01-03m.lod.ls3"/>
 <p X="5.4326" Y="-457.396" Z="117.844"/>
@@ -1866,39 +1860,15 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
-<p X="8.8322" Y="-403.1404" Z="119.5548"/>
-<phi Z="-1.657495"/>
-<sk X="0.9728" Y="0.9728" Z="0.9728"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
-<p X="16.9119" Y="-326.9844" Z="120.7444"/>
+<p X="17.5915" Y="-327.0882" Z="120.418"/>
 <phi Z="0.544178"/>
 <sk X="0.9794" Y="0.9794" Z="0.9794"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush01-03m.lod.ls3"/>
-<p X="17.6681" Y="-316.5642" Z="121.0336"/>
-<phi Z="2.415168"/>
-<sk X="0.9344" Y="0.9344" Z="0.9344"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-03m.lod.ls3"/>
 <p X="18.8492" Y="-307.9058" Z="120.9977"/>
 <phi Z="1.923321"/>
 <sk X="0.925" Y="0.925" Z="0.925"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
-<p X="20.4472" Y="-297.5017" Z="120.8615"/>
-<phi Z="2.296824"/>
-<sk X="0.9053" Y="0.9053" Z="0.9053"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
-<p X="23.763" Y="-289.4888" Z="119.6545"/>
-<phi Z="2.731997"/>
-<sk X="0.9899" Y="0.9899" Z="0.9899"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush04-3m.lod.ls3"/>
@@ -6819,6 +6789,36 @@
 <p X="43.5505" Y="329.5952" Z="122.6225"/>
 <phi Y="-0.002497" Z="-1.572704"/>
 <sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
+<p X="-3.1471" Y="-467.4204" Z="120.4813"/>
+<phi Z="1.13572"/>
+<sk X="1.0958" Y="1.0958" Z="1.0958"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-08m.lod.ls3"/>
+<p X="5.9593" Y="-402.7016" Z="120.9305"/>
+<phi Z="-1.657495"/>
+<sk X="0.9728" Y="0.9728" Z="0.9728"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-08m.lod.ls3"/>
+<p X="17.6681" Y="-316.5642" Z="121.0336"/>
+<phi Z="2.415168"/>
+<sk X="0.9344" Y="0.9344" Z="0.9344"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
+<p X="20.4472" Y="-297.5017" Z="120.8615"/>
+<phi Z="2.296824"/>
+<sk X="0.9053" Y="0.9053" Z="0.9053"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
+<p X="23.763" Y="-289.4888" Z="119.6545"/>
+<phi Z="2.731997"/>
+<sk X="0.9899" Y="0.9899" Z="0.9899"/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>

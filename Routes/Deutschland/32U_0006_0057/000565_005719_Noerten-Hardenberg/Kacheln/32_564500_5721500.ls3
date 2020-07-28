@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -8026,11 +8026,23 @@
 <phi Z="-1.510249"/>
 <sk X="0.9432" Y="0.9432" Z="0.9432"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="2267" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush03-1m5.lod.ls3"/>
 <p X="216.6378" Y="-250.804" Z="131.0368"/>
 <phi Z="-3.313149"/>
 <sk X="1.0437" Y="1.0437" Z="1.0437"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Prellbock\prellbock_stahlprofil1_rost.lod.ls3"/>
+<p X="213.307" Y="-268.8337" Z="130.6783"/>
+<phi Y="0.001445" Z="-1.780063"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2251" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Prellbock\signalscheiben\sh0-scheibe.lod.ls3"/>
+<p X="214.2761" Y="-268.1216" Z="131.9796"/>
+<phi Y="0.001445" Z="-1.780063"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>

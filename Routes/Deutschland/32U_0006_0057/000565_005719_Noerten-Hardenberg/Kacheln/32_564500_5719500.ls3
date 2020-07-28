@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -46644,6 +46644,30 @@
 <Face i="11;4;12"/>
 <Face i="13;12;4"/>
 <Face i="13;4;14"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
+</Textur>
+<Vertex U="155.0127" V="119.4706">
+<p X="22.1178" Y="120.0508" Z="132.1986"/>
+<n X="-0.5128" Y="0.056" Z="0.8567"/>
+</Vertex>
+<Vertex U="155.0351" V="119.6844">
+<p X="21.2625" Y="120.1402" Z="131.6808"/>
+<n X="-0.5128" Y="0.056" Z="0.8567"/>
+</Vertex>
+<Vertex U="159.4933" V="118.9503">
+<p X="24.1989" Y="137.9732" Z="132.2728"/>
+<n X="-0.5128" Y="0.056" Z="0.8567"/>
+</Vertex>
+<Vertex U="155.0074" V="119.4208">
+<p X="22.3167" Y="120.0297" Z="132.2588"/>
+<n X="-0.2868" Y="0.0293" Z="0.9576"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="0;2;3"/>
 </SubSet>
 </Landschaft>
 </Zusi>

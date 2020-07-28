@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.3">
+<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Strecke Himmelsmodell="2">
@@ -24,6 +24,9 @@
 </SkyDome>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
+</ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="10" RefTyp="4" Info="Signal: Abzw Sorsum Zs6 168"/>
 <ReferenzElemente ReferenzNr="2" StrElement="19" StrNorm="1" RefTyp="4" Info="Signal: Sbk 201 201"/>
@@ -265,6 +268,7 @@
 <ReferenzElemente ReferenzNr="238" StrElement="1670" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 <ReferenzElemente ReferenzNr="239" StrElement="1707" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 <ReferenzElemente ReferenzNr="240" StrElement="1716" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
+<ReferenzElemente ReferenzNr="241" StrElement="661" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <StrElement Nr="1" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-1507.373" Y="3347.679" Z="119.8888"/>
 <b X="-1496.377" Y="3299.72" Z="120.5032"/>
@@ -433,7 +437,7 @@
 <StrElement Nr="19" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2548">
 <g X="-1309.4489" Y="2484.4109" Z="130.9479"/>
 <b X="-1300.9574" Y="2447.3748" Z="131.4224"/>
-<InfoNormRichtung vMax="69.4444" km="30.6185" pos="1" Reg="5000">
+<InfoNormRichtung vMax="69.4444" km="30.6185" pos="1" Reg="5001">
 <Ereignis Er="6"/>
 <Signal NameBetriebsstelle="Sbk 201" Stellwerk="ESTW-A Diekholzen" Signalname="201" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-1303.8815" Y="2446.7043" Z="131.4224"/>
@@ -515,18 +519,18 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="30.6565" Reg="5000"/>
+<InfoGegenRichtung vMax="69.4444" km="30.6565" Reg="5001"/>
 <NachNorm Nr="732"/>
 <NachGegen Nr="855"/>
 </StrElement>
 <StrElement Nr="20" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2575">
 <g X="-1298.453" Y="2436.4519" Z="131.5623"/>
 <b X="-1287.457" Y="2388.4919" Z="132.1767"/>
-<InfoNormRichtung vMax="69.4444" km="30.6677" pos="1" Reg="5001">
+<InfoNormRichtung vMax="69.4444" km="30.6677" pos="1" Reg="5002">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="30.7169" Reg="5001"/>
+<InfoGegenRichtung vMax="69.4444" km="30.7169" Reg="5002"/>
 <NachNorm Nr="21"/>
 <NachGegen Nr="732"/>
 </StrElement>
@@ -815,8 +819,8 @@
 <StrElement Nr="42" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2584">
 <g X="-1056.545" Y="1381.347" Z="145.0789"/>
 <b X="-1054.2073" Y="1371.1494" Z="145.2095"/>
-<InfoNormRichtung vMax="69.4444" km="31.7502" pos="1" Reg="5002"/>
-<InfoGegenRichtung vMax="69.4444" km="31.7607" Reg="5002">
+<InfoNormRichtung vMax="69.4444" km="31.7502" pos="1" Reg="5003"/>
+<InfoGegenRichtung vMax="69.4444" km="31.7607" Reg="5003">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -897,7 +901,7 @@
 <StrElement Nr="52" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-946.5875" Y="901.7534" Z="151.2228"/>
 <b X="-943.4591" Y="888.1085" Z="151.3976"/>
-<InfoNormRichtung vMax="69.4444" km="32.2423" pos="1" Reg="5003">
+<InfoNormRichtung vMax="69.4444" km="32.2423" pos="1" Reg="5004">
 <Ereignis Er="6"/>
 <Signal NameBetriebsstelle="Sbk 203" Stellwerk="ESTW-A Diekholzen" Signalname="203" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-946.3832" Y="887.4381" Z="151.3976"/>
@@ -979,7 +983,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="32.2563" Reg="5003"/>
+<InfoGegenRichtung vMax="69.4444" km="32.2563" Reg="5004"/>
 <NachNorm Nr="740"/>
 <NachGegen Nr="51"/>
 </StrElement>
@@ -1007,11 +1011,11 @@
 <StrElement Nr="54" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2861">
 <g X="-296.4382" Y="-1158.062" Z="178.2249"/>
 <b X="-294.2073" Y="-1164.067" Z="178.3049"/>
-<InfoNormRichtung vMax="77.7778" km="34.4039" pos="1" Reg="5004">
+<InfoNormRichtung vMax="77.7778" km="34.4039" pos="1" Reg="5005">
 <Ereignis Er="6" Beschr="Üst Diekholzen"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="34.4103" Reg="5004">
+<InfoGegenRichtung vMax="77.7778" km="34.4103" Reg="5005">
 <Ereignis Er="6" Beschr="Üst Diekholzen"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -1021,8 +1025,8 @@
 <StrElement Nr="55" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3036">
 <g X="-1857.7729" Y="4716.0498" Z="102.4498"/>
 <b X="-1849.901" Y="4692.6431" Z="102.7095"/>
-<InfoNormRichtung vMax="77.7778" km="28.3188" pos="1" Reg="5005"/>
-<InfoGegenRichtung vMax="77.7778" km="28.3435" Reg="5005"/>
+<InfoNormRichtung vMax="77.7778" km="28.3188" pos="1" Reg="5006"/>
+<InfoGegenRichtung vMax="77.7778" km="28.3435" Reg="5006"/>
 <NachNorm Nr="56"/>
 </StrElement>
 <StrElement Nr="56" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.299">
@@ -1259,7 +1263,7 @@
 <StrElement Nr="81" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3064">
 <g X="-1697.7729" Y="4171.229" Z="109.3341"/>
 <b X="-1691.4669" Y="4145.8042" Z="109.6611"/>
-<InfoNormRichtung vMax="77.7778" km="28.8868" pos="1" Reg="5006">
+<InfoNormRichtung vMax="77.7778" km="28.8868" pos="1" Reg="5007">
 <Ereignis Er="6" Beschr="@signal=0@Bksig"/>
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="117" SignalTyp="10" BoundingR="10">
 <p X="-1694.5048" Y="4145.0508" Z="109.6611"/>
@@ -1341,7 +1345,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="28.913" Reg="5006">
+<InfoGegenRichtung vMax="77.7778" km="28.913" Reg="5007">
 <Ereignis Er="28" Beschr="300b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="722"/>
@@ -1406,8 +1410,8 @@
 <StrElement Nr="90" Ueberh="-0.0425" kr="0.000134" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3001">
 <g X="-1680.778" Y="4101.769" Z="110.2268"/>
 <b X="-1685.9611" Y="4123.2729" Z="109.9508"/>
-<InfoNormRichtung vMax="77.7778" km="28.9583" Reg="5007"/>
-<InfoGegenRichtung vMax="77.7778" km="28.9362" pos="1" Reg="5007">
+<InfoNormRichtung vMax="77.7778" km="28.9583" Reg="5008"/>
+<InfoGegenRichtung vMax="77.7778" km="28.9362" pos="1" Reg="5008">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="722"/>
@@ -1849,8 +1853,8 @@
 <StrElement Nr="130" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3019">
 <g X="-633.1049" Y="-238.9883" Z="166.0027"/>
 <b X="-623.6104" Y="-266.9412" Z="166.3713"/>
-<InfoNormRichtung vMax="77.7778" km="33.425" pos="1" Reg="5008"/>
-<InfoGegenRichtung vMax="77.7778" km="33.4545" Reg="5008">
+<InfoNormRichtung vMax="77.7778" km="33.425" pos="1" Reg="5009"/>
+<InfoGegenRichtung vMax="77.7778" km="33.4545" Reg="5009">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="744"/>
@@ -1859,7 +1863,7 @@
 <StrElement Nr="131" Ueberh="0.0314" kr="-0.0001" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3032">
 <g X="-614.0334" Y="-294.866" Z="166.7399"/>
 <b X="-615.6552" Y="-290.1368" Z="166.6775"/>
-<InfoNormRichtung vMax="-1" km="33.484" Reg="5009">
+<InfoNormRichtung vMax="-1" km="33.484" Reg="5010">
 <Ereignis Er="6" Beschr="LZB-Bk 254"/>
 <Signal NameBetriebsstelle="LZB-Bk 254" Stellwerk="ESTW-A Diekholzen" Signalname="254" SignalTyp="12" BoundingR="1">
 <p X="-619.2498" Y="-291.3696" Z="169.6775"/>
@@ -1901,7 +1905,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="33.479" pos="1" Reg="5009"/>
+<InfoGegenRichtung vMax="77.7778" km="33.479" pos="1" Reg="5010"/>
 <NachNorm Nr="744"/>
 <NachGegen Nr="132"/>
 </StrElement>
@@ -2221,7 +2225,7 @@
 <StrElement Nr="168" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2733">
 <g X="214.817" Y="-2484.1211" Z="195.9739"/>
 <b X="226.6701" Y="-2510.9431" Z="196.34"/>
-<InfoNormRichtung vMax="69.4444" km="35.8254" pos="1" Reg="5010">
+<InfoNormRichtung vMax="69.4444" km="35.8254" pos="1" Reg="5011">
 <Ereignis Er="6" Beschr="LZB-Bk 207"/>
 <Signal NameBetriebsstelle="LZB-Bk 207" Stellwerk="ESTW-A Diekholzen" Signalname="207" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="223.4688" Y="-2512.3577" Z="199.34"/>
@@ -2256,7 +2260,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="35.8547" Reg="5010"/>
+<InfoGegenRichtung vMax="69.4444" km="35.8547" Reg="5011"/>
 <NachNorm Nr="169"/>
 <NachGegen Nr="167"/>
 </StrElement>
@@ -2274,10 +2278,10 @@
 <StrElement Nr="170" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2642">
 <g X="238.6018" Y="-2537.731" Z="196.7062"/>
 <b X="250.6119" Y="-2564.4829" Z="197.0723"/>
-<InfoNormRichtung vMax="69.4444" km="35.8841" pos="1" Reg="5011">
+<InfoNormRichtung vMax="69.4444" km="35.8841" pos="1" Reg="5012">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="35.9134" Reg="5011"/>
+<InfoGegenRichtung vMax="69.4444" km="35.9134" Reg="5012"/>
 <NachNorm Nr="171"/>
 <NachGegen Nr="169"/>
 </StrElement>
@@ -2497,8 +2501,8 @@
 <StrElement Nr="200" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2841">
 <g X="545.0746" Y="-3163.6252" Z="204.1621"/>
 <b X="548.2557" Y="-3169.5811" Z="204.1732"/>
-<InfoNormRichtung vMax="69.4444" km="36.5811" pos="1" Reg="5012"/>
-<InfoGegenRichtung vMax="69.4444" km="36.5878" Reg="5012">
+<InfoNormRichtung vMax="69.4444" km="36.5811" pos="1" Reg="5013"/>
+<InfoGegenRichtung vMax="69.4444" km="36.5878" Reg="5013">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -2822,7 +2826,7 @@
 <StrElement Nr="231" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2935">
 <g X="-468.489" Y="-681.4759" Z="171.8983"/>
 <b X="-453.5146" Y="-721.7806" Z="172.4352"/>
-<InfoNormRichtung vMax="-1" km="33.8971" pos="1" Reg="5013">
+<InfoNormRichtung vMax="-1" km="33.8971" pos="1" Reg="5014">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="255" SignalTyp="10" BoundingR="10">
 <p X="-450.5806" Y="-720.6906" Z="172.4352"/>
@@ -2930,7 +2934,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="33.9401" Reg="5013">
+<InfoGegenRichtung vMax="77.7778" km="33.9401" Reg="5014">
 <Ereignis Er="39" Beschr="300b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="746"/>
@@ -2939,10 +2943,10 @@
 <StrElement Nr="232" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2916">
 <g X="-451.816" Y="-726.3527" Z="172.4961"/>
 <b X="-435.1431" Y="-771.2296" Z="173.0939"/>
-<InfoNormRichtung vMax="77.7778" km="33.945" pos="1" Reg="5014">
+<InfoNormRichtung vMax="77.7778" km="33.945" pos="1" Reg="5015">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="33.9929" Reg="5014"/>
+<InfoGegenRichtung vMax="77.7778" km="33.9929" Reg="5015"/>
 <NachNorm Nr="233"/>
 <NachGegen Nr="746"/>
 </StrElement>
@@ -2983,8 +2987,8 @@
 <StrElement Nr="237" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3084">
 <g X="-1853.321" Y="4717.562" Z="102.4497"/>
 <b X="-1845.443" Y="4694.1392" Z="102.7094"/>
-<InfoNormRichtung vMax="77.7778" km="28.3188" pos="1" Reg="5015"/>
-<InfoGegenRichtung vMax="77.7778" km="28.3435" Reg="5015"/>
+<InfoNormRichtung vMax="77.7778" km="28.3188" pos="1" Reg="5016"/>
+<InfoGegenRichtung vMax="77.7778" km="28.3435" Reg="5016"/>
 <NachNorm Nr="238"/>
 </StrElement>
 <StrElement Nr="238" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3003">
@@ -3234,7 +3238,7 @@
 <StrElement Nr="263" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3052">
 <g X="-1693.212" Y="4172.3711" Z="109.3341"/>
 <b X="-1686.9019" Y="4146.9302" Z="109.6611"/>
-<InfoNormRichtung vMax="77.7778" km="28.8872" pos="1" Reg="5016">
+<InfoNormRichtung vMax="77.7778" km="28.8872" pos="1" Reg="5017">
 <Ereignis Er="6" Beschr="@signal=0@Bksig 167 @icon=26@, ohne Ne 4"/>
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="167" SignalTyp="10" BoundingR="10">
 <p X="-1689.6591" Y="4147.3242" Z="118.4307"/>
@@ -3374,7 +3378,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="28.9134" Reg="5016">
+<InfoGegenRichtung vMax="77.7778" km="28.9134" Reg="5017">
 <Ereignis Er="39" Beschr="300b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="721"/>
@@ -3809,8 +3813,8 @@
 <StrElement Nr="304" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2996">
 <g X="-628.6532" Y="-237.4832" Z="166.0025"/>
 <b X="-619.1631" Y="-265.4229" Z="166.3713"/>
-<InfoNormRichtung vMax="77.7778" km="33.425" pos="1" Reg="5017"/>
-<InfoGegenRichtung vMax="77.7778" km="33.4546" Reg="5017">
+<InfoNormRichtung vMax="77.7778" km="33.425" pos="1" Reg="5018"/>
+<InfoGegenRichtung vMax="77.7778" km="33.4546" Reg="5018">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="745"/>
@@ -3819,7 +3823,7 @@
 <StrElement Nr="305" Ueberh="0.0314" kr="-0.0001" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2993">
 <g X="-609.5905" Y="-293.3347" Z="166.7399"/>
 <b X="-611.2125" Y="-288.6055" Z="166.6774"/>
-<InfoNormRichtung vMax="-1" km="33.4841" Reg="5018">
+<InfoNormRichtung vMax="-1" km="33.4841" Reg="5019">
 <Ereignis Er="6" Beschr="LZB-Bk 204"/>
 <Signal NameBetriebsstelle="LZB-Bk 204" Stellwerk="ESTW-A Diekholzen" Signalname="204" SignalTyp="12" BoundingR="1">
 <p X="-607.618" Y="-287.3727" Z="169.6774"/>
@@ -3861,7 +3865,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="33.4791" pos="1" Reg="5018"/>
+<InfoGegenRichtung vMax="77.7778" km="33.4791" pos="1" Reg="5019"/>
 <NachNorm Nr="745"/>
 <NachGegen Nr="306"/>
 </StrElement>
@@ -4142,7 +4146,7 @@
 <StrElement Nr="337" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3338">
 <g X="219.118" Y="-2482.228" Z="195.9739"/>
 <b X="230.9655" Y="-2509.0371" Z="196.34"/>
-<InfoNormRichtung vMax="69.4444" km="35.8252" pos="1" Reg="5019">
+<InfoNormRichtung vMax="69.4444" km="35.8252" pos="1" Reg="5020">
 <Ereignis Er="6" Beschr="LZB-Bk 257"/>
 <Signal NameBetriebsstelle="LZB-Bk 257" Stellwerk="ESTW-A Diekholzen" Signalname="257" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="234.1668" Y="-2507.6226" Z="199.34"/>
@@ -4177,7 +4181,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="35.8545" Reg="5019"/>
+<InfoGegenRichtung vMax="69.4444" km="35.8545" Reg="5020"/>
 <NachNorm Nr="338"/>
 <NachGegen Nr="336"/>
 </StrElement>
@@ -4195,10 +4199,10 @@
 <StrElement Nr="339" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3288">
 <g X="242.8916" Y="-2535.812" Z="196.7062"/>
 <b X="254.8961" Y="-2562.552" Z="197.0723"/>
-<InfoNormRichtung vMax="69.4444" km="35.8838" pos="1" Reg="5020">
+<InfoNormRichtung vMax="69.4444" km="35.8838" pos="1" Reg="5021">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="35.9131" Reg="5020"/>
+<InfoGegenRichtung vMax="69.4444" km="35.9131" Reg="5021"/>
 <NachNorm Nr="340"/>
 <NachGegen Nr="338"/>
 </StrElement>
@@ -4411,8 +4415,8 @@
 <StrElement Nr="369" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2833">
 <g X="549.5043" Y="-3161.9438" Z="204.1631"/>
 <b X="552.4001" Y="-3167.366" Z="204.1732"/>
-<InfoNormRichtung vMax="69.4444" km="36.5815" pos="1" Reg="5021"/>
-<InfoGegenRichtung vMax="69.4444" km="36.5877" Reg="5021">
+<InfoNormRichtung vMax="69.4444" km="36.5815" pos="1" Reg="5022"/>
+<InfoGegenRichtung vMax="69.4444" km="36.5877" Reg="5022">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -4681,8 +4685,8 @@
 <StrElement Nr="403" Ueberh="-0.0425" kr="0.000134" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2959">
 <g X="-1676.2089" Y="4102.8701" Z="110.2285"/>
 <b X="-1681.394" Y="4124.3809" Z="109.9508"/>
-<InfoNormRichtung vMax="77.7778" km="28.9588" Reg="5022"/>
-<InfoGegenRichtung vMax="77.7778" km="28.9366" pos="1" Reg="5022">
+<InfoNormRichtung vMax="77.7778" km="28.9588" Reg="5023"/>
+<InfoGegenRichtung vMax="77.7778" km="28.9366" pos="1" Reg="5023">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="721"/>
@@ -4730,8 +4734,8 @@
 <StrElement Nr="409" Ueberh="0.0031" kr="-0.00001" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2878">
 <g X="857.938" Y="-3708.563" Z="199.1184"/>
 <b X="845.1273" Y="-3687.5149" Z="199.4262"/>
-<InfoNormRichtung vMax="77.7778" km="37.2095" Reg="5023"/>
-<InfoGegenRichtung vMax="77.7778" km="37.1849" pos="1" Reg="5023"/>
+<InfoNormRichtung vMax="77.7778" km="37.2095" Reg="5024"/>
+<InfoGegenRichtung vMax="77.7778" km="37.1849" pos="1" Reg="5024"/>
 <NachNorm Nr="410"/>
 <NachGegenModul Nr="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
@@ -4772,8 +4776,8 @@
 <StrElement Nr="415" Ueberh="0.0031" kr="-0.00001" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2802">
 <g X="861.9526" Y="-3706.1189" Z="199.1184"/>
 <b X="849.1449" Y="-3685.0762" Z="199.4262"/>
-<InfoNormRichtung vMax="77.7778" km="37.2095" Reg="5024"/>
-<InfoGegenRichtung vMax="77.7778" km="37.1849" pos="1" Reg="5024"/>
+<InfoNormRichtung vMax="77.7778" km="37.2095" Reg="5025"/>
+<InfoGegenRichtung vMax="77.7778" km="37.1849" pos="1" Reg="5025"/>
 <NachNorm Nr="416"/>
 <NachGegenModul Nr="4">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" NurInfo="1"/>
@@ -4838,8 +4842,8 @@
 <StrElement Nr="424" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2915">
 <g X="-1667.3389" Y="4102.707" Z="110.2568"/>
 <b X="-1677.411" Y="4146.6411" Z="109.694"/>
-<InfoNormRichtung vMax="36.1111" km="0.4878" pos="1" Reg="5025"/>
-<InfoGegenRichtung vMax="36.1111" km="0.5329" Reg="5025">
+<InfoNormRichtung vMax="36.1111" km="0.4878" pos="1" Reg="5026"/>
+<InfoGegenRichtung vMax="36.1111" km="0.5329" Reg="5026">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="425"/>
@@ -4913,10 +4917,10 @@
 <StrElement Nr="433" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.311">
 <g X="-1597.066" Y="3759.9182" Z="114.6212"/>
 <b X="-1598.1833" Y="3764.791" Z="114.5588"/>
-<InfoNormRichtung vMax="-1" km="29.3108" Reg="5026">
+<InfoNormRichtung vMax="-1" km="29.3108" Reg="5027">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="29.3058" pos="1" Reg="5026"/>
+<InfoGegenRichtung vMax="77.7778" km="29.3058" pos="1" Reg="5027"/>
 <NachNorm Nr="757"/>
 <NachGegen Nr="434"/>
 </StrElement>
@@ -4933,7 +4937,7 @@
 <StrElement Nr="435" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2916">
 <g X="-1566.2469" Y="3625.4954" Z="116.3433"/>
 <b X="-1566.7609" Y="3627.739" Z="116.3145"/>
-<InfoNormRichtung vMax="-1" km="29.4487" Reg="5027">
+<InfoNormRichtung vMax="-1" km="29.4487" Reg="5028">
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="151" SignalFlags="3" SignalTyp="2" BoundingR="95">
 <p X="-1566.2469" Y="3625.4954" Z="116.3433"/>
 <phi Y="0.012486" Z="-4.487011"/>
@@ -5024,7 +5028,7 @@
 <MatrixEintrag Signalbild="245237" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="29.4464" pos="1" Reg="5027"/>
+<InfoGegenRichtung vMax="-1" km="29.4464" pos="1" Reg="5028"/>
 <NachNorm Nr="436"/>
 <NachNorm Nr="438"/>
 <NachGegen Nr="227"/>
@@ -5135,10 +5139,10 @@
 <StrElement Nr="448" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-1530.748" Y="3470.6631" Z="118.3268"/>
 <b X="-1519.644" Y="3422.231" Z="118.9473"/>
-<InfoNormRichtung vMax="69.4444" km="29.6076" pos="1" Reg="5028">
+<InfoNormRichtung vMax="69.4444" km="29.6076" pos="1" Reg="5029">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="29.6573" Reg="5028"/>
+<InfoGegenRichtung vMax="69.4444" km="29.6573" Reg="5029"/>
 <NachNorm Nr="449"/>
 <NachGegen Nr="514"/>
 </StrElement>
@@ -5304,7 +5308,7 @@
 <StrElement Nr="469" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3323">
 <g X="-1297.559" Y="2453.584" Z="131.3562"/>
 <b X="-1296.4417" Y="2448.7107" Z="131.4186"/>
-<InfoNormRichtung vMax="69.4444" km="30.6511" pos="1" Reg="5029">
+<InfoNormRichtung vMax="69.4444" km="30.6511" pos="1" Reg="5030">
 <Ereignis Er="6"/>
 <Signal NameBetriebsstelle="Sbk 251" Stellwerk="ESTW-A Diekholzen" Signalname="251" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-1293.5176" Y="2449.3811" Z="131.4186"/>
@@ -5386,7 +5390,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="30.6561" Reg="5029"/>
+<InfoGegenRichtung vMax="69.4444" km="30.6561" Reg="5030"/>
 <NachNorm Nr="733"/>
 <NachGegen Nr="468"/>
 </StrElement>
@@ -5675,8 +5679,8 @@
 <StrElement Nr="491" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3291">
 <g X="-1053.266" Y="1388.073" Z="145.0062"/>
 <b X="-1049.6825" Y="1372.4442" Z="145.2064"/>
-<InfoNormRichtung vMax="69.4444" km="31.7444" pos="1" Reg="5030"/>
-<InfoGegenRichtung vMax="69.4444" km="31.7604" Reg="5030">
+<InfoNormRichtung vMax="69.4444" km="31.7444" pos="1" Reg="5031"/>
+<InfoGegenRichtung vMax="69.4444" km="31.7604" Reg="5031">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -5757,7 +5761,7 @@
 <StrElement Nr="501" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-942.2233" Y="903.75" Z="151.2107"/>
 <b X="-938.9832" Y="889.6178" Z="151.3917"/>
-<InfoNormRichtung vMax="69.4444" km="32.2413" pos="1" Reg="5031">
+<InfoNormRichtung vMax="69.4444" km="32.2413" pos="1" Reg="5032">
 <Ereignis Er="6"/>
 <Signal NameBetriebsstelle="Sbk 253" Stellwerk="ESTW-A Diekholzen" Signalname="253" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-936.0591" Y="890.2882" Z="151.3917"/>
@@ -5839,7 +5843,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="32.2558" Reg="5031"/>
+<InfoGegenRichtung vMax="69.4444" km="32.2558" Reg="5032"/>
 <NachNorm Nr="741"/>
 <NachGegen Nr="500"/>
 </StrElement>
@@ -5867,7 +5871,7 @@
 <StrElement Nr="503" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3229">
 <g X="-1551.8231" Y="3562.584" Z="117.1492"/>
 <b X="-1551.309" Y="3560.3398" Z="117.178"/>
-<InfoNormRichtung vMax="69.4444" km="29.5133" pos="1" Reg="5032">
+<InfoNormRichtung vMax="69.4444" km="29.5133" pos="1" Reg="5033">
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="152" SignalFlags="3" SignalTyp="2" BoundingR="95" Zwangshelligkeit="0.07">
 <p X="-1551.8231" Y="3562.584" Z="117.1492"/>
 <phi Y="-0.012486" Z="-1.345418"/>
@@ -5948,7 +5952,7 @@
 <MatrixEintrag Signalbild="48629" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="29.5156" Reg="5032"/>
+<InfoGegenRichtung vMax="69.4444" km="29.5156" Reg="5033"/>
 <NachNorm Nr="504"/>
 <NachNorm Nr="506"/>
 <NachGegen Nr="754"/>
@@ -6271,7 +6275,7 @@
 <StrElement Nr="528" spTrass="27.7778" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-1507.373" Y="3347.679" Z="119.8888"/>
 <b X="-1507.8868" Y="3349.9231" Z="119.8601"/>
-<InfoNormRichtung vMax="69.4444" km="29.7327" Reg="5033">
+<InfoNormRichtung vMax="69.4444" km="29.7327" Reg="5034">
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="153" SignalFlags="3" SignalTyp="2" BoundingR="95" Zwangshelligkeit="0.07">
 <p X="-1507.373" Y="3347.679" Z="119.8888"/>
 <phi Y="0.012486" Z="-4.487011"/>
@@ -6352,7 +6356,7 @@
 <MatrixEintrag Signalbild="48629" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="29.7304" pos="1" Reg="5033">
+<InfoGegenRichtung vMax="69.4444" km="29.7304" pos="1" Reg="5034">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="529"/>
@@ -6603,8 +6607,8 @@
 <StrElement Nr="552" spTrass="77.7778" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2936">
 <g X="-1594.8361" Y="3766.5063" Z="114.5511"/>
 <b X="-1585.582" Y="3717.781" Z="115.1703"/>
-<InfoNormRichtung vMax="77.7778" km="0.1438" Reg="5034"/>
-<InfoGegenRichtung vMax="77.7778" km="0.0942" pos="1" Reg="5034">
+<InfoNormRichtung vMax="77.7778" km="0.1438" Reg="5035"/>
+<InfoGegenRichtung vMax="77.7778" km="0.0942" pos="1" Reg="5035">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="447"/>
@@ -6613,7 +6617,7 @@
 <StrElement Nr="553" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3034">
 <g X="-1601.036" Y="3799.1543" Z="114.1362"/>
 <b X="-1600.7" Y="3797.386" Z="114.1587"/>
-<InfoNormRichtung vMax="-1" km="0.1771" pos="1" Reg="5035">
+<InfoNormRichtung vMax="-1" km="0.1771" pos="1" Reg="5036">
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="150" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-1601.036" Y="3799.1543" Z="114.1362"/>
 <phi Y="-0.012485" Z="-1.383116"/>
@@ -6649,7 +6653,7 @@
 <MatrixEintrag Signalbild="27" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="0.1753" pos="1" Reg="5035"/>
+<InfoGegenRichtung vMax="-1" km="0.1753" pos="1" Reg="5036"/>
 <NachNorm Nr="554"/>
 <NachNorm Nr="556"/>
 <NachGegen Nr="551"/>
@@ -6859,7 +6863,7 @@
 <StrElement Nr="575" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2961">
 <g X="-368.4512" Y="-950.7371" Z="175.485"/>
 <b X="-367.6495" Y="-952.8951" Z="175.5137"/>
-<InfoNormRichtung vMax="-1" km="34.1844" pos="1" Reg="5036">
+<InfoNormRichtung vMax="-1" km="34.1844" pos="1" Reg="5037">
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="201" SignalFlags="3" SignalTyp="2" BoundingR="95">
 <p X="-368.4512" Y="-950.7371" Z="175.485"/>
 <phi Y="-0.012486" Z="-1.215074"/>
@@ -6950,7 +6954,7 @@
 <MatrixEintrag Signalbild="245237" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="34.1867" Reg="5036">
+<InfoGegenRichtung vMax="-1" km="34.1867" Reg="5037">
 <Ereignis Er="4"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-365.7784" Y="-952.7629" Z="175.5204"/>
@@ -7124,7 +7128,7 @@
 <StrElement Nr="591" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2936">
 <g X="-474.0664" Y="-679.9592" Z="171.8563"/>
 <b X="-457.9792" Y="-723.2593" Z="172.4331"/>
-<InfoNormRichtung vMax="77.7778" km="33.8938" pos="1" Reg="5037">
+<InfoNormRichtung vMax="77.7778" km="33.8938" pos="1" Reg="5038">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="205" SignalTyp="10" BoundingR="10">
 <p X="-460.9132" Y="-724.3494" Z="172.4331"/>
@@ -7232,7 +7236,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="33.94" Reg="5037">
+<InfoGegenRichtung vMax="77.7778" km="33.94" Reg="5038">
 <Ereignis Er="28" Beschr="300b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="592"/>
@@ -7241,10 +7245,10 @@
 <StrElement Nr="592" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2924">
 <g X="-457.9792" Y="-723.2593" Z="172.4331"/>
 <b X="-441.8921" Y="-766.5594" Z="173.0098"/>
-<InfoNormRichtung vMax="77.7778" km="33.94" pos="1" Reg="5038">
+<InfoNormRichtung vMax="77.7778" km="33.94" pos="1" Reg="5039">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="33.9862" Reg="5038"/>
+<InfoGegenRichtung vMax="77.7778" km="33.9862" Reg="5039"/>
 <NachNorm Nr="593"/>
 <NachGegen Nr="591"/>
 </StrElement>
@@ -7306,7 +7310,7 @@
 <StrElement Nr="600" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2861">
 <g X="-296.4382" Y="-1158.062" Z="178.2249"/>
 <b X="-297.2399" Y="-1155.9041" Z="178.1962"/>
-<InfoNormRichtung vMax="-1" km="34.4039" Reg="5039">
+<InfoNormRichtung vMax="-1" km="34.4039" Reg="5040">
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="202" SignalFlags="3" SignalTyp="2" BoundingR="95">
 <p X="-296.4382" Y="-1158.062" Z="178.2249"/>
 <phi Y="0.012486" Z="-4.356667"/>
@@ -7397,7 +7401,7 @@
 <MatrixEintrag Signalbild="245237" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="34.4016" pos="1" Reg="5039">
+<InfoGegenRichtung vMax="-1" km="34.4016" pos="1" Reg="5040">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-299.1111" Y="-1156.0361" Z="178.1895"/>
 <phi Y="-0.012486" Z="-1.215074"/>
@@ -7558,10 +7562,10 @@
 <StrElement Nr="614" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2936">
 <g X="-245.1881" Y="-1296.007" Z="180.0624"/>
 <b X="-237.1004" Y="-1317.776" Z="180.3523"/>
-<InfoNormRichtung vMax="-1" km="34.5511" pos="1" Reg="5040">
+<InfoNormRichtung vMax="-1" km="34.5511" pos="1" Reg="5041">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="34.5743" Reg="5040"/>
+<InfoGegenRichtung vMax="77.7778" km="34.5743" Reg="5041"/>
 <NachNorm Nr="760"/>
 <NachGegen Nr="613"/>
 </StrElement>
@@ -7664,7 +7668,7 @@
 <StrElement Nr="627" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2861">
 <g X="-294.2073" Y="-1164.067" Z="178.3049"/>
 <b X="-293.4056" Y="-1166.225" Z="178.3336"/>
-<InfoNormRichtung vMax="-1" km="34.4103" pos="1" Reg="5041">
+<InfoNormRichtung vMax="-1" km="34.4103" pos="1" Reg="5042">
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="203" SignalFlags="3" SignalTyp="2" BoundingR="95">
 <p X="-294.2073" Y="-1164.067" Z="178.3049"/>
 <phi Y="-0.012486" Z="-1.215074"/>
@@ -7755,7 +7759,7 @@
 <MatrixEintrag Signalbild="245237" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="34.4126" Reg="5041">
+<InfoGegenRichtung vMax="-1" km="34.4126" Reg="5042">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-294.742" Y="-1167.7964" Z="178.3462"/>
 <phi Y="-0.012486" Z="-1.215074"/>
@@ -7932,19 +7936,19 @@
 <StrElement Nr="643" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2984">
 <g X="-305.841" Y="-1119.2581" Z="177.7298"/>
 <b X="-290.9577" Y="-1159.318" Z="178.2634"/>
-<InfoNormRichtung vMax="77.7778" km="34.3642" pos="1" Reg="5042">
+<InfoNormRichtung vMax="77.7778" km="34.3642" pos="1" Reg="5043">
 <Ereignis Er="6" Beschr="Üst Diekholzen"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="34.407" Reg="5042"/>
+<InfoGegenRichtung vMax="77.7778" km="34.407" Reg="5043"/>
 <NachNorm Nr="644"/>
 <NachGegen Nr="642"/>
 </StrElement>
 <StrElement Nr="644" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3113">
 <g X="-290.9577" Y="-1159.318" Z="178.2634"/>
 <b X="-276.0745" Y="-1199.3781" Z="178.797"/>
-<InfoNormRichtung vMax="77.7778" km="34.407" pos="1" Reg="5043"/>
-<InfoGegenRichtung vMax="77.7778" km="34.4497" Reg="5043">
+<InfoNormRichtung vMax="77.7778" km="34.407" pos="1" Reg="5044"/>
+<InfoGegenRichtung vMax="77.7778" km="34.4497" Reg="5044">
 <Ereignis Er="6" Beschr="Üst Diekholzen"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -7970,7 +7974,7 @@
 <StrElement Nr="647" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2896">
 <g X="-213.4642" Y="-1367.899" Z="181.0419"/>
 <b X="-214.2659" Y="-1365.7408" Z="181.0131"/>
-<InfoNormRichtung vMax="-1" km="34.6295" Reg="5044">
+<InfoNormRichtung vMax="-1" km="34.6295" Reg="5045">
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="204" SignalFlags="3" SignalTyp="2" BoundingR="95">
 <p X="-213.4642" Y="-1367.899" Z="181.0419"/>
 <phi Y="0.012486" Z="-4.356667"/>
@@ -8061,7 +8065,7 @@
 <MatrixEintrag Signalbild="245237" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="34.6272" pos="1" Reg="5044">
+<InfoGegenRichtung vMax="-1" km="34.6272" pos="1" Reg="5045">
 <Ereignis Er="4"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-212.9296" Y="-1364.1697" Z="181.0006"/>
@@ -8223,9 +8227,12 @@
 <StrElement Nr="661" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2936">
 <g X="-1766.8849" Y="4699.728" Z="102.8279"/>
 <b X="-1769.4041" Y="4745.978" Z="102.2672"/>
-<InfoNormRichtung vMax="36.1111" km="1.0945" pos="1" Reg="5045"/>
-<InfoGegenRichtung vMax="36.1111" km="1.1408" Reg="5045"/>
+<InfoNormRichtung vMax="36.1111" km="1.0945" pos="1" Reg="5046"/>
+<InfoGegenRichtung vMax="36.1111" km="1.1408" Reg="5046"/>
 <NachGegen Nr="660"/>
+<NachNormModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="662" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.295">
 <g X="-1717.696" Y="4322.376" Z="107.4445"/>
@@ -8702,8 +8709,8 @@
 <StrElement Nr="724" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2933">
 <g X="-1678.193" Y="4150.0522" Z="109.6503"/>
 <b X="-1687.4821" Y="4190.5752" Z="109.1313"/>
-<InfoNormRichtung vMax="-1" Reg="5046"/>
-<InfoGegenRichtung vMax="-1" Reg="5046">
+<InfoNormRichtung vMax="-1" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" Reg="5047">
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="177" SignalTyp="10" BoundingR="10">
 <p X="-1681.2438" Y="4149.353" Z="109.6503"/>
 <phi Z="-1.34546"/>
@@ -8784,6 +8791,7 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="36.1111" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="524288029" MatrixGeschw="-1">
 <Ereignis Er="28" Wert="23"/>
@@ -8801,6 +8809,9 @@
 <MatrixEintrag Signalbild="525336605" MatrixGeschw="38.8889"/>
 <MatrixEintrag Signalbild="526385181" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="533200925" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="524288027">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="524288059" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
@@ -8864,8 +8875,8 @@
 <StrElement Nr="730" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-1384.2701" Y="2831.7839" Z="126.5112"/>
 <b X="-1375.2889" Y="2792.6101" Z="127.0131"/>
-<InfoNormRichtung vMax="69.4444" km="30.2631" pos="1" Reg="5047"/>
-<InfoGegenRichtung vMax="69.4444" km="30.3033" Reg="5047">
+<InfoNormRichtung vMax="69.4444" km="30.2631" pos="1" Reg="5048"/>
+<InfoGegenRichtung vMax="69.4444" km="30.3033" Reg="5048">
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="118" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-1381.3459" Y="2832.4543" Z="126.5112"/>
 <phi Z="1.796167"/>
@@ -8969,8 +8980,8 @@
 <StrElement Nr="731" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-1388.9236" Y="2831.0498" Z="126.5072"/>
 <b X="-1386.4189" Y="2820.126" Z="126.6471"/>
-<InfoNormRichtung vMax="69.4444" km="30.2628" pos="1" Reg="5048"/>
-<InfoGegenRichtung vMax="69.4444" km="30.274" Reg="5048">
+<InfoNormRichtung vMax="69.4444" km="30.2628" pos="1" Reg="5049"/>
+<InfoGegenRichtung vMax="69.4444" km="30.274" Reg="5049">
 <Signal NameBetriebsstelle="Abzw Sorsum" Stellwerk="ESTW-A Escherde" Signalname="168" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-1391.8477" Y="2830.3794" Z="126.5072"/>
 <phi Z="1.796183"/>
@@ -9093,11 +9104,11 @@
 <StrElement Nr="733" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3309">
 <g X="-1296.4417" Y="2448.7107" Z="131.4186"/>
 <b X="-1286.455" Y="2405.1521" Z="131.9767"/>
-<InfoNormRichtung vMax="69.4444" km="30.6561" pos="1" Reg="5049">
+<InfoNormRichtung vMax="69.4444" km="30.6561" pos="1" Reg="5050">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="30.7008" Reg="5049"/>
+<InfoGegenRichtung vMax="69.4444" km="30.7008" Reg="5050"/>
 <NachNorm Nr="470"/>
 <NachGegen Nr="469"/>
 </StrElement>
@@ -9322,8 +9333,8 @@
 <StrElement Nr="738" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2943">
 <g X="-1043.3154" Y="1323.6406" Z="145.8182"/>
 <b X="-1034.554" Y="1285.428" Z="146.3077"/>
-<InfoNormRichtung vMax="69.4444" km="31.8095" pos="1" Reg="5050"/>
-<InfoGegenRichtung vMax="69.4444" km="31.8487" Reg="5050">
+<InfoNormRichtung vMax="69.4444" km="31.8095" pos="1" Reg="5051"/>
+<InfoGegenRichtung vMax="69.4444" km="31.8487" Reg="5051">
 <Ereignis Er="6" Beschr="LZB-Bk 252"/>
 <Signal NameBetriebsstelle="LZB-Bk 252" Stellwerk="ESTW-A Diekholzen" Signalname="252" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-1046.7269" Y="1322.8584" Z="148.8182"/>
@@ -9364,8 +9375,8 @@
 <StrElement Nr="739" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3776">
 <g X="-1038.8092" Y="1325.0215" Z="145.8139"/>
 <b X="-1031.057" Y="1291.208" Z="146.2471"/>
-<InfoNormRichtung vMax="69.4444" km="31.809" pos="1" Reg="5051"/>
-<InfoGegenRichtung vMax="69.4444" km="31.8437" Reg="5051">
+<InfoNormRichtung vMax="69.4444" km="31.809" pos="1" Reg="5052"/>
+<InfoGegenRichtung vMax="69.4444" km="31.8437" Reg="5052">
 <Ereignis Er="6" Beschr="LZB-Bk 202"/>
 <Signal NameBetriebsstelle="LZB-Bk 202" Stellwerk="ESTW-A Diekholzen" Signalname="202" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-1035.3978" Y="1325.8036" Z="148.8139"/>
@@ -9463,8 +9474,8 @@
 <StrElement Nr="747" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-96.823" Y="-1695.3456" Z="185.3819"/>
 <b X="-83.4334" Y="-1731.385" Z="185.8619"/>
-<InfoNormRichtung vMax="69.4444" km="34.9771" pos="1" Reg="5052"/>
-<InfoGegenRichtung vMax="69.4444" km="35.0155" Reg="5052">
+<InfoNormRichtung vMax="69.4444" km="34.9771" pos="1" Reg="5053"/>
+<InfoGegenRichtung vMax="69.4444" km="35.0155" Reg="5053">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="256" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-99.6352" Y="-1696.3904" Z="185.3819"/>
@@ -9573,8 +9584,8 @@
 <StrElement Nr="748" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-92.506" Y="-1693.4692" Z="185.3786"/>
 <b X="-80.4002" Y="-1726.053" Z="185.8127"/>
-<InfoNormRichtung vMax="69.4444" km="34.9769" pos="1" Reg="5053"/>
-<InfoGegenRichtung vMax="69.4444" km="35.0117" Reg="5053">
+<InfoNormRichtung vMax="69.4444" km="34.9769" pos="1" Reg="5054"/>
+<InfoGegenRichtung vMax="69.4444" km="35.0117" Reg="5054">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Diekholzen" Stellwerk="ESTW-A Diekholzen" Signalname="206" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-89.6939" Y="-1692.4246" Z="185.3786"/>
@@ -9887,8 +9898,8 @@
 <StrElement Nr="751" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2851">
 <g X="571.559" Y="-3203.0286" Z="204.2305"/>
 <b X="580.1843" Y="-3218.9861" Z="204.2305"/>
-<InfoNormRichtung vMax="69.4444" km="36.6282" pos="1" Reg="5054"/>
-<InfoGegenRichtung vMax="69.4444" km="36.6463" Reg="5054">
+<InfoNormRichtung vMax="69.4444" km="36.6282" pos="1" Reg="5055"/>
+<InfoGegenRichtung vMax="69.4444" km="36.6463" Reg="5055">
 <Ereignis Er="6" Beschr="LZB-Bk 310"/>
 <Signal NameBetriebsstelle="LZB-Bk 310" Stellwerk="ESTW-A Almstedt" Signalname="310" SignalTyp="12" BoundingR="1">
 <p X="574.913" Y="-3201.355" Z="207.4805"/>
@@ -9929,8 +9940,8 @@
 <StrElement Nr="752" Ueberh="-0.0314" kr="0.0001" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2851">
 <g X="567.1268" Y="-3204.7107" Z="204.2305"/>
 <b X="576.053" Y="-3221.2251" Z="204.2305"/>
-<InfoNormRichtung vMax="69.4444" km="36.6277" pos="1" Reg="5055"/>
-<InfoGegenRichtung vMax="69.4444" km="36.6465" Reg="5055">
+<InfoNormRichtung vMax="69.4444" km="36.6277" pos="1" Reg="5056"/>
+<InfoGegenRichtung vMax="69.4444" km="36.6465" Reg="5056">
 <Ereignis Er="6" Beschr="LZB-Bk 360"/>
 <Signal NameBetriebsstelle="LZB-Bk 360" Stellwerk="ESTW-A Almstedt" Signalname="360" SignalTyp="12" BoundingR="1">
 <p X="563.651" Y="-3207.4558" Z="207.4805"/>
@@ -10019,8 +10030,8 @@
 <StrElement Nr="758" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2625">
 <g X="-1543.7451" Y="3506.3196" Z="117.8566"/>
 <b X="-1538.6459" Y="3484.0801" Z="118.1415"/>
-<InfoNormRichtung vMax="69.4444" km="29.5694" pos="1" Reg="5056"/>
-<InfoGegenRichtung vMax="69.4444" km="29.5922" Reg="5056">
+<InfoNormRichtung vMax="69.4444" km="29.5694" pos="1" Reg="5057"/>
+<InfoGegenRichtung vMax="69.4444" km="29.5922" Reg="5057">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="527"/>
@@ -10029,8 +10040,8 @@
 <StrElement Nr="759" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2936">
 <g X="-353.4128" Y="-1004.7098" Z="176.1822"/>
 <b X="-345.3692" Y="-1026.36" Z="176.4705"/>
-<InfoNormRichtung vMax="77.7778" km="34.2403" pos="1" Reg="5057"/>
-<InfoGegenRichtung vMax="-1" km="34.2634" Reg="5057">
+<InfoNormRichtung vMax="77.7778" km="34.2403" pos="1" Reg="5058"/>
+<InfoGegenRichtung vMax="-1" km="34.2634" Reg="5058">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="599"/>
@@ -10588,10 +10599,10 @@
 <StrElement Nr="824" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-931.9724" Y="838.0083" Z="152.0394"/>
 <b X="-924.5959" Y="805.8347" Z="152.4516"/>
-<InfoNormRichtung vMax="69.4444" km="32.3077" pos="1" Reg="5058">
+<InfoNormRichtung vMax="69.4444" km="32.3077" pos="1" Reg="5059">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="32.3407" Reg="5058"/>
+<InfoGegenRichtung vMax="69.4444" km="32.3407" Reg="5059"/>
 <NachNorm Nr="92"/>
 <NachGegen Nr="53"/>
 </StrElement>
@@ -10641,10 +10652,10 @@
 <StrElement Nr="828" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-927.3926" Y="839.0641" Z="152.0393"/>
 <b X="-920.0148" Y="806.885" Z="152.4516"/>
-<InfoNormRichtung vMax="69.4444" km="32.3077" pos="1" Reg="5059">
+<InfoNormRichtung vMax="69.4444" km="32.3077" pos="1" Reg="5060">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="32.3407" Reg="5059"/>
+<InfoGegenRichtung vMax="69.4444" km="32.3407" Reg="5060"/>
 <NachNorm Nr="266"/>
 <NachGegen Nr="502"/>
 </StrElement>
@@ -16904,6 +16915,65 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Abzw Sorsum 118 -&gt; Abzw Himmelsthür 364" FahrstrStrecke="777b" RglGgl="1" FahrstrTyp="TypZug" Laenge="3901.8">
+<FahrstrStart Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="155">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="170">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="43" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="33" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="50" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="71" FahrstrSignalZeile="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="204" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="78" FahrstrSignalSpalte="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Abzw Sorsum 167 -&gt; Sbk 251 251" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1742.7">
 <FahrstrStart Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
@@ -17022,6 +17092,71 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Abzw Sorsum 168 -&gt; Abzw Himmelsthür 364" FahrstrStrecke="777b" RglGgl="1" FahrstrTyp="TypZug" Laenge="3901.5">
+<FahrstrStart Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="155">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="170">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="47" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="43" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="33" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="50" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="74" FahrstrSignalZeile="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="205" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="77" FahrstrSignalSpalte="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Abzw Sorsum 177 -&gt; Sbk 251 251" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1743.9">
 <FahrstrStart Ref="68">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
@@ -17082,6 +17217,12 @@
 </FahrstrSignal>
 <FahrstrVSignal Ref="203" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="46" FahrstrSignalSpalte="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="3" FahrstrSignalSpalte="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Abzw Sorsum 177 -&gt; Sbk 201 201" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1744.2">
@@ -17147,6 +17288,12 @@
 </FahrstrSignal>
 <FahrstrVSignal Ref="203" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="46" FahrstrSignalSpalte="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="3" FahrstrSignalSpalte="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Anzeige: LZB-Bk 202 202 -&gt; Abzw Sorsum 118" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="1546">

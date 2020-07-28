@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -624,7 +624,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
-<p X="-41.0867" Y="307.9363" Z="118.929"/>
+<p X="-43.4961" Y="308.3976" Z="120.2747"/>
 <phi Z="1.152671"/>
 <sk X="0.9279" Y="0.9279" Z="0.9279"/>
 </Verknuepfte>
@@ -784,12 +784,6 @@
 <phi Z="-1.772698"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush03-5m.lod.ls3"/>
-<p X="-31.8359" Y="352.3477" Z="118.5994"/>
-<phi Z="0.534613"/>
-<sk X="1.0641" Y="1.0641" Z="1.0641"/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-03m.lod.ls3"/>
 <p X="-31.098" Y="361.4089" Z="119.1068"/>
@@ -808,35 +802,17 @@
 <phi Z="1.261523"/>
 <sk X="1.0487" Y="1.0487" Z="1.0487"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush04-3m.lod.ls3"/>
-<p X="-28.5571" Y="390.4219" Z="120.6079"/>
-<phi Z="1.605112"/>
-<sk X="0.9009" Y="0.9009" Z="0.9009"/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush04-3m.lod.ls3"/>
 <p X="-25.0204" Y="403.7507" Z="120.0389"/>
 <phi Z="2.319763"/>
 <sk X="1.0056" Y="1.0056" Z="1.0056"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush05-03m.lod.ls3"/>
-<p X="-22.6182" Y="410.2629" Z="119.48"/>
-<phi Z="1.010542"/>
-<sk X="1.0575" Y="1.0575" Z="1.0575"/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush04-3m.lod.ls3"/>
 <p X="-19.4461" Y="422.2749" Z="119.0663"/>
 <phi Z="1.034565"/>
 <sk X="0.9313" Y="0.9313" Z="0.9313"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
-<p X="-19.3616" Y="431.0356" Z="119.8576"/>
-<phi Z="0.835858"/>
-<sk X="0.9879" Y="0.9879" Z="0.9879"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush01-03m.lod.ls3"/>
@@ -1200,21 +1176,9 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
-<p X="-11.6322" Y="464.2456" Z="118.9416"/>
+<p X="-13.3059" Y="464.5609" Z="119.7851"/>
 <phi Z="1.950331"/>
 <sk X="1.026" Y="1.026" Z="1.026"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush04-3m.lod.ls3"/>
-<p X="-9.6866" Y="473.0854" Z="118.6832"/>
-<phi Z="1.088227"/>
-<sk X="0.9016" Y="0.9016" Z="0.9016"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush03-5m.lod.ls3"/>
-<p X="-7.1474" Y="482.4089" Z="118.1724"/>
-<phi Z="-0.12906"/>
-<sk X="1.0384" Y="1.0384" Z="1.0384"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush03-5m.lod.ls3"/>
@@ -1449,6 +1413,42 @@
 <p X="0.8426" Y="323.2766" Z="120.0991"/>
 <phi Z="-0.199486"/>
 <sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-08m.lod.ls3"/>
+<p X="-34.4769" Y="352.8452" Z="120.0437"/>
+<phi Z="0.534613"/>
+<sk X="1.0641" Y="1.0641" Z="1.0641"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
+<p X="-22.6182" Y="410.2629" Z="119.48"/>
+<phi Z="1.010542"/>
+<sk X="1.0575" Y="1.0575" Z="1.0575"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
+<p X="-28.5571" Y="390.4219" Z="120.6079"/>
+<phi Z="1.605112"/>
+<sk X="0.9009" Y="0.9009" Z="0.9009"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-08m.lod.ls3"/>
+<p X="-19.3616" Y="431.0356" Z="119.8576"/>
+<phi Z="0.835858"/>
+<sk X="0.9879" Y="0.9879" Z="0.9879"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush04-07m.lod.ls3"/>
+<p X="-9.6866" Y="473.0854" Z="118.6832"/>
+<phi Z="1.088227"/>
+<sk X="0.9016" Y="0.9016" Z="0.9016"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-08m.lod.ls3"/>
+<p X="-11.4775" Y="483.2246" Z="120.3916"/>
+<phi Z="-0.12906"/>
+<sk X="1.0384" Y="1.0384" Z="1.0384"/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>

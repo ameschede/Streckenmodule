@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -672,7 +672,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
-<p X="-475.7348" Y="-199.1787" Z="139.889"/>
+<p X="-475.7348" Y="-199.1787" Z="139.8251"/>
 <phi Z="0.291365"/>
 <sk X="0.9041" Y="0.9041" Z="0.9041"/>
 </Verknuepfte>
@@ -5864,9 +5864,9 @@
 <p X="-500.0001" Y="-184.1065" Z="139.8323"/>
 <n X="-0.0218" Y="0.0116" Z="0.9997"/>
 </Vertex>
-<Vertex U="-469.972" V="99.2935">
-<p X="-492.9349" Y="-199.7198" Z="140.1683"/>
-<n X="-0.0218" Y="0.0116" Z="0.9997"/>
+<Vertex U="-469.9574" V="99.2389">
+<p X="-491.7276" Y="-199.3076" Z="139.9932"/>
+<n X="0.002" Y="0.0117" Z="0.9999"/>
 </Vertex>
 <Vertex U="-470.0739" V="100">
 <p X="-499.9998" Y="-200.7383" Z="140.0261"/>
@@ -9155,10 +9155,15 @@
 <p X="-500" Y="-206.4614" Z="140.1766"/>
 <n X="0.0066" Y="0.0263" Z="0.9996"/>
 </Vertex>
+<Vertex U="-469.9308" V="99.1728">
+<p X="-491.7276" Y="-199.3081" Z="139.9932"/>
+<n X="0.0108" Y="-0.0397" Z="0.9992"/>
+</Vertex>
 <Face i="0;1;2"/>
-<Face i="2;3;0"/>
+<Face i="2;6;0"/>
 <Face i="3;2;4"/>
 <Face i="5;3;4"/>
+<Face i="3;6;2"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>

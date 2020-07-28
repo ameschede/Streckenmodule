@@ -15589,11 +15589,13 @@
 <NachNorm Nr="1133"/>
 <NachGegen Nr="1132"/>
 </StrElement>
-<StrElement Nr="1143" spTrass="44.4445" Anschluss="256" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5194">
+<StrElement Nr="1143" spTrass="44.4444" Anschluss="256" Oberbau="B90 SKL-Oberbau" Volt="2" Drahthoehe="5.5194">
 <g X="-373.5559" Y="1457.6561" Z="132.0659"/>
 <b X="-375.5767" Y="1437.658" Z="132.0998"/>
-<InfoNormRichtung vMax="44.4445" km="97.4174" pos="1"/>
-<InfoGegenRichtung vMax="44.4445" km="97.4375"/>
+<InfoNormRichtung vMax="44.4444" km="97.4174" pos="1"/>
+<InfoGegenRichtung vMax="44.4444" km="97.4375">
+<Ereignis Er="57" Wert="186"/>
+</InfoGegenRichtung>
 <NachNorm Nr="2514"/>
 <NachGegen Nr="1152"/>
 </StrElement>
@@ -22250,7 +22252,7 @@
 <g X="-565.3659" Y="-468.9326" Z="133.0487"/>
 <b X="-570.1356" Y="-510.6607" Z="133.1746"/>
 <InfoNormRichtung vMax="-1" Reg="5117">
-<Signal NameBetriebsstelle="Nörten-Hardenbg" Stellwerk="Nörten-Hardenberg Nhf" Signalname="N058" SignalTyp="9" BoundingR="10">
+<Signal NameBetriebsstelle="Nörten-Hardenbg" Stellwerk="Nörten-Hardenberg Nhf" Signalname="N058" ZufallsWert="0.99" SignalTyp="9" BoundingR="10">
 <p X="-572.3711" Y="-510.4052" Z="133.1746"/>
 <phi Z="-1.684608"/>
 <SignalFrame>
@@ -32358,7 +32360,7 @@
 <NachNorm Nr="2470"/>
 <NachGegen Nr="2468"/>
 </StrElement>
-<StrElement Nr="2470" kr="-0.000196" spTrass="44.4444" Anschluss="256" Oberbau="Holz K-Oberbau">
+<StrElement Nr="2470" kr="-0.000196" spTrass="44.4444" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
 <g X="-286.693" Y="2231.166" Z="130.6783"/>
 <b X="-285.7207" Y="2235.6909" Z="130.685"/>
 <InfoNormRichtung vMax="44.4444" km="88.0046"/>
@@ -33610,7 +33612,9 @@
 <StrElement Nr="2518" spTrass="44.4444" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4829">
 <g X="-395.3137" Y="1242.3409" Z="132.4309"/>
 <b X="-395.9672" Y="1235.8739" Z="132.4419"/>
-<InfoGegenRichtung vMax="44.4444" km="97.6403"/>
+<InfoGegenRichtung vMax="44.4444" km="97.6403">
+<Ereignis Er="57" Wert="-186"/>
+</InfoGegenRichtung>
 <NachNorm Nr="7128"/>
 <NachGegen Nr="2658"/>
 </StrElement>
@@ -41358,12 +41362,12 @@
 <NachNorm Nr="2480"/>
 <NachGegen Nr="2479"/>
 </StrElement>
-<StrElement Nr="2606" spTrass="44.4445" Anschluss="256" Oberbau="Holz K-Oberbau">
+<StrElement Nr="2606" spTrass="44.4444" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-489.3633" Y="195.9814" Z="131.7192"/>
 <b X="-491.6161" Y="176.2723" Z="131.7"/>
-<InfoNormRichtung vMax="44.4445" km="98.6842" pos="1" Reg="5217"/>
+<InfoNormRichtung vMax="44.4444" km="98.6842" pos="1" Reg="5217"/>
 <InfoGegenRichtung vMax="-1" Reg="5217">
-<Signal NameBetriebsstelle="Nörten-Hardenbg" Stellwerk="Nörten-Hardenberg Nhf" Signalname="S058" SignalTyp="8" BoundingR="10">
+<Signal NameBetriebsstelle="Nörten-Hardenbg" Stellwerk="Nörten-Hardenberg Nhf" Signalname="S058" ZufallsWert="0.99" SignalTyp="8" BoundingR="10">
 <p X="-486.2436" Y="195.6248" Z="131.1192"/>
 <phi Z="1.456989"/>
 <SignalFrame>
@@ -73058,7 +73062,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Nörten-Hardenbg A -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" Laenge="2476.7">
+<Fahrstrasse FahrstrName="Nörten-Hardenbg A -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" ZufallsWert="0.99" Laenge="2476.7">
 <FahrstrStart Ref="171">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -73887,7 +73891,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Nörten-Hardenbg AA -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" Laenge="2475.3999">
+<Fahrstrasse FahrstrName="Nörten-Hardenbg AA -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" ZufallsWert="0.99" Laenge="2475.3999">
 <FahrstrStart Ref="190">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -76078,7 +76082,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Nörten-Hardenbg B -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" Laenge="2474.8999">
+<Fahrstrasse FahrstrName="Nörten-Hardenbg B -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" ZufallsWert="0.99" Laenge="2474.8999">
 <FahrstrStart Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -77089,7 +77093,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Nörten-Hardenbg BB -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" Laenge="2474.5">
+<Fahrstrasse FahrstrName="Nörten-Hardenbg BB -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" ZufallsWert="0.99" Laenge="2474.5">
 <FahrstrStart Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -77708,7 +77712,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Nörten-Hardenbg F -&gt; Nörten-Hardenbg S058" FahrstrTyp="TypZug" Laenge="1305.5">
+<Fahrstrasse FahrstrName="Nörten-Hardenbg F -&gt; Nörten-Hardenbg S058" FahrstrTyp="TypZug" ZufallsWert="0.99" Laenge="1305.5">
 <FahrstrStart Ref="335">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -79163,7 +79167,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Nörten-Hardenbg FF -&gt; Nörten-Hardenbg S058" FahrstrTyp="TypZug" Laenge="1305.7">
+<Fahrstrasse FahrstrName="Nörten-Hardenbg FF -&gt; Nörten-Hardenbg S058" FahrstrTyp="TypZug" ZufallsWert="0.99" Laenge="1305.7">
 <FahrstrStart Ref="338">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -83818,7 +83822,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Nörten-Hardenbg R002 -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" Laenge="1425.6">
+<Fahrstrasse FahrstrName="Nörten-Hardenbg R002 -&gt; Nörten-Hardenbg N058" FahrstrTyp="TypZug" ZufallsWert="0.99" Laenge="1425.6">
 <FahrstrStart Ref="310">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
 </FahrstrStart>
