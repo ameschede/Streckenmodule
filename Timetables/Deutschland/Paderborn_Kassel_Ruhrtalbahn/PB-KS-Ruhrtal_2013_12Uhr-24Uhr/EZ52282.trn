@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="EZ" Nummer="52282" Zuglauf="(f) Kassel Rbf - Seelze Ost" Prio="2500" Standortmodus="2" BremsstellungZug="2" FahrplanGruppe="Knoten Kassel" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Kassel Rbf Ls 9" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\EZ52282.timetable.xml"/>
+<FahrplanEintrag Ank="2013-08-21 21:30:00" Abf="2013-08-21 22:22:00" Betrst="Kassel Rbf">
+<FahrplanSignalEintrag FahrplanSignal="Ls 9"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 22:25:00" Betrst="Abzw V-Niedervellmar Hp">
+<FahrplanSignalEintrag FahrplanSignal="188"/>
+<FahrplanSignalEintrag FahrplanSignal="186"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 22:27:00" Betrst="F-Ihringshausen">
+<FahrplanSignalEintrag FahrplanSignal="F174"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 22:30:00" Betrst="Sbk 136" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 136"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\151.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSlmas53\SSlmas53.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSlmas53\SSlmas53.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSlmas53\SSlmas53.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\K-Wagen\Kds54\Kds54.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Sggmrs715\Sggmrs715-AWagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Sggmrs715\Sggmrs715-BWagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\OO-Wagen\OOtz50\OOtz50.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\R-Wagen\Rlmms58\Rlmms58.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="5" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="5" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="5" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="5" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="5" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="5" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSys55\SSys55.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSys55\SSys55.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

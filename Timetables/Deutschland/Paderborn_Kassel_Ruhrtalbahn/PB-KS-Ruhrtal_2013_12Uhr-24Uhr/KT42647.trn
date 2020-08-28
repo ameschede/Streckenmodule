@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="KT" Nummer="42647" Zuglauf="(f) Maschen Rbf Mswf - Rekingen" Prio="2300" Standortmodus="1" BremsstellungZug="2" spAnfang="22.2222" MBrh="0.85" spZugNiedriger="30.5556" FahrplanGruppe="Himmighausen - Kassel" Rekursionstiefe="6" FahrstrName="Aufgleispunkt -&gt; Himmighausen B" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\KT42647.timetable.xml"/>
+<FahrplanEintrag Ank="2013-08-21 17:49:00" Abf="2013-08-21 17:49:00" Betrst="Himmighausen" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 17:55:00" Betrst="Langeland">
+<FahrplanSignalEintrag FahrplanSignal="G"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 17:59:00" Betrst="Altenbeken">
+<FahrplanSignalEintrag FahrplanSignal="Z"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:01:00" Betrst="Buke">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:10:00" Betrst="Willebadessen">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:15:00" Betrst="Bonenburg">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:22:00" Betrst="Warburg">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:28:00" Betrst="Liebenau">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:32:00" Betrst="Lamerden">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:36:00" Betrst="Hümme">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:40:00" Betrst="Hofgeismar">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:43:00" Betrst="Grebenstein">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:47:00" Betrst="Immenhausen">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:49:00" Betrst="Mönchehof">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:52:00" Betrst="Obervellmar">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:53:00" Betrst="Abzw Ksl Rbf Berg">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 18:59:00" Betrst="Kassel-Wilhelmshöhe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="N607"/>
+<FahrplanSignalEintrag FahrplanSignal="N605"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1" SASchaltung="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektroloks\TRAXX\145-146_0.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Sgnss60\Sgnss60.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

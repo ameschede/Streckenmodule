@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Zug Gattung="GC" Nummer="60802" Zuglauf="(f) Heringen - Hamburg Hohe Schaar" Prio="2300" Standortmodus="1" BremsstellungZug="2" spAnfang="11.1111" MBrh="0.41" spZugNiedriger="22.2222" FahrplanGruppe="Kassel-Paderborn" Rekursionstiefe="5" FahrstrName="Warburg F -&gt; Warburg S4" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\GC60802.timetable.xml"/>
+<FahrplanEintrag Ank="2013-08-21 12:00:00" Abf="2013-08-21 12:00:00" Betrst="Warburg">
+<FahrplanSignalEintrag FahrplanSignal="S4"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:10:00" Betrst="Bonenburg">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:20:00" Betrst="Willebadessen">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:30:00" Betrst="Neuenheerse">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:37:00" Betrst="Buke">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:40:00" Betrst="Altenbeken">
+<FahrplanSignalEintrag FahrplanSignal="X"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:42:00" Betrst="Langeland">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:46:00" Betrst="Himmighausen">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2013-08-21 12:48:00" Betrst="Himmighausen" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="P1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Elektroloks\BRD\151\151.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\F-Wagen\Fal-NE\Ba_Ruhrkohle\Fal-NE.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
