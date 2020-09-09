@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Strecke Himmelsmodell="2">
@@ -23,10 +23,10 @@
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
 <ModulDateien>
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </ModulDateien>
-<ReferenzElemente ReferenzNr="1" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3"/>
-<ReferenzElemente ReferenzNr="2" StrElement="123" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3"/>
+<ReferenzElemente ReferenzNr="1" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
+<ReferenzElemente ReferenzNr="2" StrElement="123" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <ReferenzElemente ReferenzNr="3" StrElement="36" StrNorm="1" RefTyp="4" Info="Signal: Bft Gütergl Gkn 500 Hz (113)"/>
 <ReferenzElemente ReferenzNr="4" StrElement="45" StrNorm="1" RefTyp="4" Info="Signal: Bft Gütergl Gkn 113"/>
 <ReferenzElemente ReferenzNr="5" StrElement="45" StrNorm="1" RefTyp="2" Info="Register-Nr. 5000"/>
@@ -127,6 +127,8 @@
 <ReferenzElemente ReferenzNr="100" StrElement="399" Info="Bft Gütergl Gkn 118"/>
 <ReferenzElemente ReferenzNr="101" StrElement="458" Info="Bft Gütergl Gkn 120"/>
 <ReferenzElemente ReferenzNr="102" StrElement="453" Info="Bft Gütergl Gkn 112"/>
+<ReferenzElemente ReferenzNr="103" StrElement="167" StrNorm="1" RefTyp="4" Info="Signal: Bft Gütergl Gkn 111"/>
+<ReferenzElemente ReferenzNr="104" StrElement="177" StrNorm="1" RefTyp="4" Info="Signal: Bft Gütergl Gkn v111"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4949">
 <g X="-2093.531" Y="743.3562" Z="73.1291"/>
 <b X="-2062.688" Y="706.7032" Z="73.1263"/>
@@ -134,7 +136,7 @@
 <InfoGegenRichtung vMax="33.3333" km="23.0479"/>
 <NachNorm Nr="2"/>
 <NachGegenModul Nr="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </NachGegenModul>
 </StrElement>
 <StrElement Nr="2" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
@@ -548,14 +550,16 @@
 <g X="-662.075" Y="-564.0952" Z="74.6024"/>
 <b X="-628.6597" Y="-582.1978" Z="74.625"/>
 <InfoNormRichtung vMax="33.3333" km="24.9641" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="25.0021"/>
+<InfoGegenRichtung vMax="33.3333" km="25.0021">
+<Ereignis Er="28" Beschr="120b"/>
+</InfoGegenRichtung>
 <NachNorm Nr="45"/>
 <NachGegen Nr="43"/>
 </StrElement>
 <StrElement Nr="45" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4963">
 <g X="-628.6597" Y="-582.1978" Z="74.625"/>
 <b X="-626.0219" Y="-583.6268" Z="74.6276"/>
-<InfoNormRichtung vMax="-1" Reg="5000">
+<InfoNormRichtung vMax="-1" Reg="5001">
 <Ereignis Er="6" Beschr="@signal=0@Esig Güterglück, &lt;Esig&gt;"/>
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="113" SignalTyp="7" BoundingR="10">
 <p X="-627.5462" Y="-586.4405" Z="74.1276"/>
@@ -764,7 +768,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.0098" Reg="5000">
+<InfoGegenRichtung vMax="33.3333" km="25.0098" Reg="5001">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="497"/>
@@ -789,10 +793,10 @@
 <StrElement Nr="48" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4962">
 <g X="-615.0988" Y="-589.5443" Z="74.6455"/>
 <b X="-580.0406" Y="-608.5368" Z="74.7254"/>
-<InfoNormRichtung vMax="33.3333" km="25.0175" pos="1" Reg="5001">
+<InfoNormRichtung vMax="33.3333" km="25.0175" pos="1" Reg="5002">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.0574" Reg="5001"/>
+<InfoGegenRichtung vMax="33.3333" km="25.0574" Reg="5002"/>
 <NachNorm Nr="49"/>
 <NachGegen Nr="47"/>
 </StrElement>
@@ -886,7 +890,7 @@
 <StrElement Nr="60" kr="0.000077" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4943">
 <g X="-328.8374" Y="-745.1632" Z="75.3004"/>
 <b X="-321.8074" Y="-748.9814" Z="75.3202"/>
-<InfoNormRichtung vMax="-1" Reg="5002">
+<InfoNormRichtung vMax="-1" Reg="5003">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="Rs 1" SignalTyp="5" BoundingR="10">
 <p X="-322.8812" Y="-750.9586" Z="75.3202"/>
 <phi Y="0.034907" Z="-0.49755"/>
@@ -902,7 +906,7 @@
 <MatrixEintrag Signalbild="1" MatrixGeschw="6.9444"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.3706" Reg="5002"/>
+<InfoGegenRichtung vMax="33.3333" km="25.3706" Reg="5003"/>
 <NachNorm Nr="502"/>
 <NachGegen Nr="59"/>
 </StrElement>
@@ -1490,7 +1494,7 @@
 <InfoGegenRichtung vMax="33.3333" km="23.0479"/>
 <NachNorm Nr="124"/>
 <NachGegenModul Nr="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </NachGegenModul>
 </StrElement>
 <StrElement Nr="124" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
@@ -1691,19 +1695,55 @@
 </StrElement>
 <StrElement Nr="149" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4946">
 <g X="-1595.158" Y="157.7028" Z="72.9141"/>
-<b X="-1565.949" Y="122.9918" Z="73.024"/>
-<InfoNormRichtung vMax="33.3333" km="23.769" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="23.8144"/>
-<NachNorm Nr="150"/>
+<b X="-1585.1798" Y="145.8451" Z="72.9516"/>
+<InfoNormRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-1586.4675" Y="147.3754" Z="72.9516"/>
+<phi Z="-0.871263"/>
+<SignalFrame>
+<p Y="3.1" Z="2.4"/>
+<phi Z="0.349066"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="0.8"/>
+<phi Z="0.349066"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_3.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="33.3333" km="23.7845"/>
+<NachNorm Nr="1032"/>
 <NachGegen Nr="148"/>
 </StrElement>
 <StrElement Nr="150" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4937">
 <g X="-1565.949" Y="122.9918" Z="73.024"/>
-<b X="-1535.106" Y="86.3388" Z="73.1401"/>
-<InfoNormRichtung vMax="33.3333" km="23.8144" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="23.8623"/>
-<NachNorm Nr="151"/>
-<NachGegen Nr="149"/>
+<b X="-1536.8905" Y="88.4594" Z="73.1334"/>
+<InfoNormRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-1536.8905" Y="88.4594" Z="73.1334"/>
+<phi Z="-0.871267"/>
+<SignalFrame>
+<p Y="3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="0.8"/>
+<phi Z="0.349066"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_2.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="33.3333" km="23.8595"/>
+<NachNorm Nr="1031"/>
+<NachGegen Nr="1032"/>
 </StrElement>
 <StrElement Nr="151" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.6662">
 <g X="-1535.106" Y="86.3388" Z="73.1401"/>
@@ -1711,14 +1751,32 @@
 <InfoNormRichtung vMax="33.3333" km="23.8623" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="23.9102"/>
 <NachNorm Nr="152"/>
-<NachGegen Nr="150"/>
+<NachGegen Nr="1031"/>
 </StrElement>
 <StrElement Nr="152" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4956">
 <g X="-1504.2629" Y="49.6858" Z="73.2561"/>
-<b X="-1473.42" Y="13.0328" Z="73.3722"/>
-<InfoNormRichtung vMax="33.3333" km="23.9102" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="23.9581"/>
-<NachNorm Nr="153"/>
+<b X="-1488.6012" Y="31.0738" Z="73.3151"/>
+<InfoNormRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-1488.6012" Y="31.0738" Z="73.3151"/>
+<phi Z="-0.871266"/>
+<SignalFrame>
+<p Y="3.1" Z="2.4"/>
+<phi Z="0.349066"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="0.8"/>
+<phi Z="0.349066"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_1.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="33.3333" km="23.9345"/>
+<NachNorm Nr="1030"/>
 <NachGegen Nr="151"/>
 </StrElement>
 <StrElement Nr="153" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4949">
@@ -1729,7 +1787,7 @@
 <Ereignis Er="13"/>
 </InfoGegenRichtung>
 <NachNorm Nr="175"/>
-<NachGegen Nr="152"/>
+<NachGegen Nr="1030"/>
 </StrElement>
 <StrElement Nr="154" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
 <g X="-1029.2061" Y="-360.3709" Z="74.0115"/>
@@ -1831,17 +1889,75 @@
 <g X="-660.0508" Y="-560.3583" Z="74.6024"/>
 <b X="-626.6357" Y="-578.4607" Z="74.625"/>
 <InfoNormRichtung vMax="33.3333" km="24.9641" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="25.0021"/>
+<InfoGegenRichtung vMax="33.3333" km="25.0021">
+<Ereignis Er="39" Beschr="120b"/>
+</InfoGegenRichtung>
 <NachNorm Nr="167"/>
 <NachGegen Nr="165"/>
 </StrElement>
 <StrElement Nr="167" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4964">
 <g X="-626.6357" Y="-578.4607" Z="74.625"/>
 <b X="-623.9979" Y="-579.8897" Z="74.6276"/>
-<InfoNormRichtung vMax="-1" Reg="5003">
+<InfoNormRichtung vMax="-1" Reg="5004">
 <Ereignis Er="6" Beschr="@signal=0@Esig Güterglück, &lt;Esig&gt;"/>
+<Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="111" SignalTyp="11" BoundingR="10">
+<p X="-622.4736" Y="-577.076" Z="74.1276"/>
+<phi Z="-0.49649"/>
+<SignalFrame>
+<p Z="4.5"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\DR_HL_Betonmast_5-70m.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.11" Z="4.95"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\Lod\DR_HL_rot.lod1.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="4.5"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_Hl_Zs1.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.11" Z="4.95"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_HL_Laterne_gross_WSSB.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="4.05"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\DR_HL_Schirm_klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="4.05"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\DR_HL_Buehne_WSSB.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\Mastschild_ws-rt-ws_gross-schmal.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.2" Z="0.5"/>
+<phi/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff FahrstrTyp="4"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="251">
+<Ereignis Er="23"/>
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<Ersatzsignal ErsatzsigBezeichnung="Zs1">
+<MatrixEintrag Signalbild="255" MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+</Ersatzsignal>
+</Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.0098" Reg="5003">
+<InfoGegenRichtung vMax="33.3333" km="25.0098" Reg="5004">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="498"/>
@@ -1922,6 +2038,72 @@
 <StrElement Nr="177" Ueberh="-0.0104" kr="0.000146" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4947">
 <g X="-1428.7209" Y="-40.0831" Z="73.5403"/>
 <b X="-1424.2083" Y="-45.4343" Z="73.5576"/>
+<InfoNormRichtung vMax="-1">
+<Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="v111" SignalTyp="6" BoundingR="10">
+<p X="-1421.762" Y="-43.3713" Z="73.0576"/>
+<phi Z="-0.870202"/>
+<SignalFrame>
+<p Z="4.5"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\DR_HL_Betonmast_5-70m.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="4.05"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\DR_HL_Buehne_WSSB.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.11" Z="4.95"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\Lod\DR_HL_gelb.lod1.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.11" Z="4.95"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\Lod\DR_HL_gelb_blink.lod1.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.11" Z="4.95"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_HL_Laterne_gross_WSSB.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="4.05"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\DR_HL_Schirm_klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.2" Z="0.5"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\Sondersignale\Landschaften\DR_So3a-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.2" Z="0.5"/>
+<phi/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
+<VsigBegriff VsigGeschw="-1"/>
+<VsigBegriff/>
+<VsigBegriff VsigGeschw="11.1111"/>
+<VsigBegriff VsigGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2039" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2039" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="2043" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="2043" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<Ersatzsignal>
+<MatrixEintrag Signalbild="2047">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+</Ersatzsignal>
+</Signal>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="24.0369"/>
 <NachNorm Nr="500"/>
 <NachGegen Nr="176"/>
@@ -2401,7 +2583,7 @@
 <StrElement Nr="237" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4952">
 <g X="-304.8941" Y="-758.1674" Z="75.3677"/>
 <b X="-303.839" Y="-758.739" Z="75.3707"/>
-<InfoNormRichtung vMax="-1" km="25.3706" pos="1" Reg="5004">
+<InfoNormRichtung vMax="-1" km="25.3706" pos="1" Reg="5005">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="1" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-304.8941" Y="-758.1674" Z="75.3677"/>
 <phi Y="-0.00247" Z="-0.4965"/>
@@ -2442,7 +2624,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="25.3718" Reg="5004">
+<InfoGegenRichtung vMax="-1" km="25.3718" Reg="5005">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="238"/>
@@ -2632,7 +2814,7 @@
 <StrElement Nr="259" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4949">
 <g X="-299.2991" Y="-755.7931" Z="75.377"/>
 <b X="-289.1876" Y="-761.2709" Z="75.4054"/>
-<InfoNormRichtung vMax="-1" Reg="5005">
+<InfoNormRichtung vMax="-1" Reg="5006">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="Rs 2" SignalTyp="5" BoundingR="10">
 <p X="-290.2593" Y="-763.2494" Z="75.4054"/>
 <phi Y="0.034907" Z="-0.496482"/>
@@ -2648,7 +2830,7 @@
 <MatrixEintrag Signalbild="1" MatrixGeschw="6.9444"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.4187" Reg="5005">
+<InfoGegenRichtung vMax="33.3333" km="25.4187" Reg="5006">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="503"/>
@@ -2657,7 +2839,7 @@
 <StrElement Nr="260" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4933">
 <g X="-215.6976" Y="-801.0836" Z="75.6118"/>
 <b X="-216.7527" Y="-800.512" Z="75.6089"/>
-<InfoNormRichtung vMax="-1" km="25.4695" pos="1" Reg="5006">
+<InfoNormRichtung vMax="-1" km="25.4695" pos="1" Reg="5007">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="2" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-215.6976" Y="-801.0836" Z="75.6118"/>
 <phi Y="0.002469" Z="-3.638074"/>
@@ -2698,7 +2880,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="25.4683" pos="1" Reg="5006"/>
+<InfoGegenRichtung vMax="-1" km="25.4683" pos="1" Reg="5007"/>
 <NachNorm Nr="261"/>
 <NachNorm Nr="262"/>
 <NachGegen Nr="174"/>
@@ -2838,7 +3020,7 @@
 <StrElement Nr="276" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.493">
 <g X="-206.9921" Y="-805.7998" Z="75.6363"/>
 <b X="-205.937" Y="-806.3714" Z="75.6393"/>
-<InfoNormRichtung vMax="-1" km="25.4794" pos="1" Reg="5007">
+<InfoNormRichtung vMax="-1" km="25.4794" pos="1" Reg="5008">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="3" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-206.9921" Y="-805.7998" Z="75.6363"/>
 <phi Y="-0.002094" Z="-0.496482"/>
@@ -2879,7 +3061,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="25.4806" Reg="5007"/>
+<InfoGegenRichtung vMax="-1" km="25.4806" Reg="5008"/>
 <NachNorm Nr="277"/>
 <NachNorm Nr="278"/>
 <NachGegen Nr="174"/>
@@ -3035,10 +3217,10 @@
 <StrElement Nr="294" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.7447">
 <g X="15.8459" Y="-926.5207" Z="76.0401"/>
 <b X="33.4312" Y="-936.0474" Z="76.0703"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5008">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5009">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.7828" Reg="5008"/>
+<InfoGegenRichtung vMax="33.3333" km="25.7828" Reg="5009"/>
 <NachNorm Nr="455"/>
 <NachGegen Nr="293"/>
 </StrElement>
@@ -3185,7 +3367,7 @@
 <StrElement Nr="310" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.7447">
 <g X="543.3174" Y="-1212.274" Z="76.2808"/>
 <b X="561.3423" Y="-1222.0389" Z="76.2805"/>
-<InfoNormRichtung vMax="-1" Reg="5009">
+<InfoNormRichtung vMax="-1" Reg="5010">
 <Ereignis Er="6" Beschr="@signal=0@Avsig @icon=7@, Zsig"/>
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="123" SignalTyp="8" BoundingR="10">
 <p X="560.2705" Y="-1224.0173" Z="76.2805"/>
@@ -3382,7 +3564,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5009"/>
+<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5010"/>
 <NachNorm Nr="493"/>
 <NachGegen Nr="309"/>
 </StrElement>
@@ -3445,7 +3627,7 @@
 <StrElement Nr="318" kr="0.002" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9447">
 <g X="-134.0947" Y="-840.1165" Z="75.7787"/>
 <b X="-135.1736" Y="-839.5912" Z="75.7769"/>
-<InfoNormRichtung vMax="-1" km="25.5598" pos="1" Reg="5010">
+<InfoNormRichtung vMax="-1" km="25.5598" pos="1" Reg="5011">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="4" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-134.0947" Y="-840.1165" Z="75.7787"/>
 <phi Y="0.00151" Z="-3.595869"/>
@@ -3476,7 +3658,7 @@
 <MatrixEintrag Signalbild="11" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="25.5586" pos="1" Reg="5010"/>
+<InfoGegenRichtung vMax="-1" km="25.5586" pos="1" Reg="5011"/>
 <NachNorm Nr="319"/>
 <NachNorm Nr="321"/>
 <NachGegen Nr="313"/>
@@ -3625,10 +3807,10 @@
 <StrElement Nr="335" spTrass="33.3333" Anschluss="257" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9448">
 <g X="12.5686" Y="-919.0638" Z="76.0304"/>
 <b X="35.6492" Y="-931.5676" Z="76.07"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5011">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5012">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.7733" Reg="5011"/>
+<InfoGegenRichtung vMax="33.3333" km="25.7733" Reg="5012"/>
 <NachNorm Nr="456"/>
 <NachGegen Nr="334"/>
 </StrElement>
@@ -3783,7 +3965,7 @@
 <StrElement Nr="352" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9448">
 <g X="548.4325" Y="-1209.364" Z="76.2807"/>
 <b X="581.4048" Y="-1227.2267" Z="76.2801"/>
-<InfoNormRichtung vMax="-1" Reg="5012">
+<InfoNormRichtung vMax="-1" Reg="5013">
 <Ereignis Er="6" Beschr="@signal=0@Avsig @icon=7@, Zsig"/>
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="121" SignalTyp="8" BoundingR="10">
 <p X="580.3332" Y="-1229.205" Z="76.2801"/>
@@ -3980,14 +4162,14 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5012"/>
+<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5013"/>
 <NachNorm Nr="494"/>
 <NachGegen Nr="351"/>
 </StrElement>
 <StrElement Nr="353" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9447">
 <g X="-106.4446" Y="-854.5894" Z="75.8259"/>
 <b X="-105.3895" Y="-855.161" Z="75.8277"/>
-<InfoNormRichtung vMax="-1" km="25.591" pos="1" Reg="5013">
+<InfoNormRichtung vMax="-1" km="25.591" pos="1" Reg="5014">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="5" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-106.4446" Y="-854.5894" Z="75.8259"/>
 <phi Y="-0.001511" Z="-0.496481"/>
@@ -4028,7 +4210,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="25.5922" Reg="5013"/>
+<InfoGegenRichtung vMax="-1" km="25.5922" Reg="5014"/>
 <NachNorm Nr="354"/>
 <NachNorm Nr="355"/>
 <NachGegen Nr="311"/>
@@ -4160,7 +4342,7 @@
 <StrElement Nr="368" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9448">
 <g X="-56.0751" Y="-878.5679" Z="75.91"/>
 <b X="-54.9762" Y="-879.0499" Z="75.9118"/>
-<InfoNormRichtung vMax="-1" km="25.6467" pos="1" Reg="5014">
+<InfoNormRichtung vMax="-1" km="25.6467" pos="1" Reg="5015">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="6" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-56.0751" Y="-878.5679" Z="75.91"/>
 <phi Y="-0.001506" Z="-0.41334"/>
@@ -4201,7 +4383,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="25.6479" Reg="5014"/>
+<InfoGegenRichtung vMax="-1" km="25.6479" Reg="5015"/>
 <NachNorm Nr="369"/>
 <NachNorm Nr="370"/>
 <NachGegen Nr="367"/>
@@ -4333,10 +4515,10 @@
 <StrElement Nr="383" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9447">
 <g X="24.8716" Y="-920.4559" Z="76.0477"/>
 <b X="56.9647" Y="-937.8423" Z="76.1029"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5015">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5016">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.7875" Reg="5015"/>
+<InfoGegenRichtung vMax="33.3333" km="25.7875" Reg="5016"/>
 <NachNorm Nr="457"/>
 <NachGegen Nr="382"/>
 </StrElement>
@@ -4483,7 +4665,7 @@
 <StrElement Nr="399" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9447">
 <g X="548.2469" Y="-1203.991" Z="76.2808"/>
 <b X="583.4174" Y="-1223.0444" Z="76.2802"/>
-<InfoNormRichtung vMax="-1" Reg="5016">
+<InfoNormRichtung vMax="-1" Reg="5017">
 <Ereignis Er="6" Beschr="@signal=0@Avsig @icon=7@, Zsig"/>
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="119" SignalTyp="8" BoundingR="10">
 <p X="582.3456" Y="-1225.0229" Z="76.2802"/>
@@ -4685,7 +4867,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5016"/>
+<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5017"/>
 <NachNorm Nr="495"/>
 <NachGegen Nr="398"/>
 </StrElement>
@@ -4764,10 +4946,10 @@
 <StrElement Nr="435" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.7448">
 <g X="-91.0349" Y="-874.0299" Z="75.8603"/>
 <b X="-63.3384" Y="-889.035" Z="75.9079"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5017">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5018">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.6619" Reg="5017"/>
+<InfoGegenRichtung vMax="33.3333" km="25.6619" Reg="5018"/>
 <NachNorm Nr="454"/>
 <NachGegen Nr="434"/>
 </StrElement>
@@ -4928,7 +5110,7 @@
 <StrElement Nr="453" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.7447">
 <g X="542.7481" Y="-1217.395" Z="76.2808"/>
 <b X="559.4539" Y="-1226.4458" Z="76.2805"/>
-<InfoNormRichtung vMax="-1" Reg="5018">
+<InfoNormRichtung vMax="-1" Reg="5019">
 <Ereignis Er="6" Beschr="@signal=0@Avsig @icon=7@, Zsig"/>
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="125" SignalTyp="8" BoundingR="10">
 <p X="557.9296" Y="-1229.2594" Z="75.7805"/>
@@ -5125,18 +5307,18 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5018"/>
+<InfoGegenRichtung vMax="33.3333" km="26.3827" Reg="5019"/>
 <NachNorm Nr="492"/>
 <NachGegen Nr="452"/>
 </StrElement>
 <StrElement Nr="454" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.7448">
 <g X="-63.3384" Y="-889.035" Z="75.9079"/>
 <b X="-48.7827" Y="-896.9209" Z="75.9329"/>
-<InfoNormRichtung vMax="33.3333" km="25.6138" pos="1" Reg="5019"/>
-<InfoGegenRichtung vMax="-1" Reg="5019">
+<InfoNormRichtung vMax="33.3333" km="25.6138" pos="1" Reg="5020"/>
+<InfoGegenRichtung vMax="-1" Reg="5020">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="112" SignalTyp="9" BoundingR="10">
 <p X="-62.2666" Y="-887.0566" Z="75.9079"/>
-<phi Z="2.645086"/>
+<phi Z="2.645087"/>
 <SignalFrame>
 <p Z="6"/>
 <phi/>
@@ -5247,6 +5429,13 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="486377" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
+</MatrixEintrag>
+</Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
+<MatrixEintrag Signalbild="485865" MatrixGeschw="11.1111">
+<Ereignis Er="28"/>
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="100"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000003">
@@ -5263,11 +5452,11 @@
 <StrElement Nr="455" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.7447">
 <g X="33.4312" Y="-936.0474" Z="76.0703"/>
 <b X="59.8018" Y="-950.3334" Z="76.1156"/>
-<InfoNormRichtung vMax="33.3333" km="25.7328" pos="1" Reg="5020"/>
-<InfoGegenRichtung vMax="-1" Reg="5020">
+<InfoNormRichtung vMax="33.3333" km="25.7328" pos="1" Reg="5021"/>
+<InfoGegenRichtung vMax="-1" Reg="5021">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="114" SignalTyp="9" BoundingR="10">
 <p X="34.5029" Y="-934.0691" Z="76.0703"/>
-<phi Z="2.645115"/>
+<phi Z="2.645114"/>
 <SignalFrame>
 <p Z="6"/>
 <phi/>
@@ -5380,6 +5569,13 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
+<MatrixEintrag Signalbild="485865" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="15"/>
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="100"/>
+</MatrixEintrag>
+</Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000003">
 <MatrixEintrag Signalbild="518633" MatrixGeschw="11.1111">
 <Ereignis Er="28" Wert="15"/>
@@ -5394,7 +5590,7 @@
 <StrElement Nr="456" spTrass="33.3333" Anschluss="257" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9448">
 <g X="53.7889" Y="-941.3947" Z="76.1012"/>
 <b X="35.6492" Y="-931.5676" Z="76.07"/>
-<InfoNormRichtung vMax="-1" Reg="5021">
+<InfoNormRichtung vMax="-1" Reg="5022">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="116" SignalTyp="9" BoundingR="10">
 <p X="36.721" Y="-929.5893" Z="76.07"/>
 <phi Z="2.645109"/>
@@ -5510,6 +5706,13 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
+<MatrixEintrag Signalbild="485865" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="15"/>
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="100"/>
+</MatrixEintrag>
+</Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000003">
 <MatrixEintrag Signalbild="518633" MatrixGeschw="11.1111">
 <Ereignis Er="28" Wert="15"/>
@@ -5518,15 +5721,15 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.7264" pos="1" Reg="5021"/>
+<InfoGegenRichtung vMax="33.3333" km="25.7264" pos="1" Reg="5022"/>
 <NachNorm Nr="335"/>
 <NachGegen Nr="336"/>
 </StrElement>
 <StrElement Nr="457" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9447">
 <g X="56.9647" Y="-937.8423" Z="76.1029"/>
 <b X="68.4863" Y="-944.0839" Z="76.1227"/>
-<InfoNormRichtung vMax="33.3333" km="25.7379" pos="1" Reg="5022"/>
-<InfoGegenRichtung vMax="-1" Reg="5022">
+<InfoNormRichtung vMax="33.3333" km="25.7379" pos="1" Reg="5023"/>
+<InfoGegenRichtung vMax="-1" Reg="5023">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="118" SignalTyp="9" BoundingR="10">
 <p X="58.0364" Y="-935.864" Z="76.1029"/>
 <phi Z="2.645118"/>
@@ -5647,6 +5850,13 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
+<MatrixEintrag Signalbild="973289" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="16"/>
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="100"/>
+</MatrixEintrag>
+</Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000003">
 <MatrixEintrag Signalbild="1038825" MatrixGeschw="11.1111">
 <Ereignis Er="28" Wert="16"/>
@@ -5661,7 +5871,7 @@
 <StrElement Nr="458" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9448">
 <g X="553.1266" Y="-1201.6293" Z="76.2807"/>
 <b X="586.099" Y="-1219.4919" Z="76.2801"/>
-<InfoNormRichtung vMax="-1" Reg="5023">
+<InfoNormRichtung vMax="-1" Reg="5024">
 <Ereignis Er="6" Beschr="@signal=0@Avsig @icon=7@, Zsig"/>
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="117" SignalTyp="8" BoundingR="10">
 <p X="585.0273" Y="-1221.4703" Z="76.2801"/>
@@ -5858,7 +6068,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="26.3828" Reg="5023"/>
+<InfoGegenRichtung vMax="33.3333" km="26.3828" Reg="5024"/>
 <NachNorm Nr="496"/>
 <NachGegen Nr="774"/>
 </StrElement>
@@ -5993,10 +6203,10 @@
 <StrElement Nr="473" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9443">
 <g X="103.9858" Y="-958.3112" Z="76.1801"/>
 <b X="115.4163" Y="-964.5035" Z="76.1997"/>
-<InfoNormRichtung vMax="33.3333" km="25.8255" pos="1" Reg="5024">
+<InfoNormRichtung vMax="33.3333" km="25.8255" pos="1" Reg="5025">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="25.8385" Reg="5024"/>
+<InfoGegenRichtung vMax="33.3333" km="25.8385" Reg="5025"/>
 <NachNorm Nr="491"/>
 <NachGegen Nr="474"/>
 </StrElement>
@@ -6115,8 +6325,8 @@
 <StrElement Nr="491" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.943">
 <g X="115.4163" Y="-964.5035" Z="76.1997"/>
 <b X="144.8168" Y="-980.4311" Z="76.2502"/>
-<InfoNormRichtung vMax="33.3333" km="25.8385" pos="1" Reg="5025"/>
-<InfoGegenRichtung vMax="33.3333" km="25.872" Reg="5025">
+<InfoNormRichtung vMax="33.3333" km="25.8385" pos="1" Reg="5026"/>
+<InfoGegenRichtung vMax="33.3333" km="25.872" Reg="5026">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="120" SignalTyp="9" BoundingR="10">
 <p X="116.9406" Y="-961.6898" Z="75.6997"/>
 <phi Z="2.645108"/>
@@ -6235,6 +6445,13 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="973801" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
+</MatrixEintrag>
+</Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
+<MatrixEintrag Signalbild="973289" MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="16"/>
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="100"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000003">
@@ -6413,8 +6630,8 @@
 <StrElement Nr="504" kr="-0.000077" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5309">
 <g X="-441.1686" Y="-683.7929" Z="75.0419"/>
 <b X="-432.9408" Y="-688.2615" Z="75.0607"/>
-<InfoNormRichtung vMax="33.3333" km="25.1974" pos="1" Reg="5026"/>
-<InfoGegenRichtung vMax="-1" Reg="5026">
+<InfoNormRichtung vMax="33.3333" km="25.1974" pos="1" Reg="5027"/>
+<InfoGegenRichtung vMax="-1" Reg="5027">
 <Signal NameBetriebsstelle="Bft Gütergl Gkn" Stellwerk="Güterglück B1" Signalname="Ra10 Ri Lübs" SignalTyp="5" BoundingR="10">
 <p X="-440.0948" Y="-681.8157" Z="73.6419"/>
 <phi Z="2.644058"/>
@@ -9881,7 +10098,28 @@
 <NachNorm Nr="1002"/>
 <NachGegen Nr="1028"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 125" FahrstrTyp="TypZug" Laenge="1332.5345">
+<StrElement Nr="1030" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4956">
+<g X="-1488.6012" Y="31.0738" Z="73.3151"/>
+<b X="-1473.42" Y="13.0328" Z="73.3722"/>
+<InfoNormRichtung vMax="33.3333" km="23.9345" pos="1"/>
+<NachNorm Nr="153"/>
+<NachGegen Nr="152"/>
+</StrElement>
+<StrElement Nr="1031" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4937">
+<g X="-1536.8905" Y="88.4594" Z="73.1334"/>
+<b X="-1535.106" Y="86.3388" Z="73.1401"/>
+<InfoNormRichtung vMax="33.3333" km="23.8595" pos="1"/>
+<NachNorm Nr="151"/>
+<NachGegen Nr="150"/>
+</StrElement>
+<StrElement Nr="1032" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4946">
+<g X="-1585.1798" Y="145.8451" Z="72.9516"/>
+<b X="-1565.949" Y="122.9918" Z="73.024"/>
+<InfoNormRichtung vMax="33.3333" km="23.7845" pos="1"/>
+<NachNorm Nr="150"/>
+<NachGegen Nr="149"/>
+</StrElement>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 125" FahrstrTyp="TypZug" Laenge="1348.5347">
 <FahrstrStart Ref="4">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9928,7 +10166,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 123" FahrstrTyp="TypZug" Laenge="1330.7452">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 123" FahrstrTyp="TypZug" Laenge="1348.2452">
 <FahrstrStart Ref="4">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9987,7 +10225,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 121" FahrstrTyp="TypZug" Laenge="1334.0166">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 121" FahrstrTyp="TypZug" Laenge="1368.5166">
 <FahrstrStart Ref="4">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10058,7 +10296,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 117" FahrstrTyp="TypZug" Laenge="1334.7877">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 117" FahrstrTyp="TypZug" Laenge="1369.2878">
 <FahrstrStart Ref="4">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10135,7 +10373,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 119" FahrstrTyp="TypZug" Laenge="1331.4388">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 113 -&gt; Bft Gütergl Gkn 119" FahrstrTyp="TypZug" Laenge="1368.4388">
 <FahrstrStart Ref="4">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10212,7 +10450,207 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 114" FahrstrTyp="TypZug" Laenge="570.4096">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 111 -&gt; Bft Gütergl Gkn 123" FahrstrTyp="TypZug" Laenge="1348.1056">
+<FahrstrStart Ref="103">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="103" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 111 -&gt; Bft Gütergl Gkn 121" FahrstrTyp="TypZug" Laenge="1368.3771">
+<FahrstrStart Ref="103">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="29">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="56">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="103" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 111 -&gt; Bft Gütergl Gkn 117" FahrstrTyp="TypZug" Laenge="1369.1482">
+<FahrstrStart Ref="103">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="29">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="37" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="103" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 111 -&gt; Bft Gütergl Gkn 119" FahrstrTyp="TypZug" Laenge="1368.2992">
+<FahrstrStart Ref="103">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="41">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="29">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="37" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="103" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 114" FahrstrTyp="TypZug" Laenge="579.9011">
 <FahrstrStart Ref="98">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10229,7 +10667,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 116" FahrstrTyp="TypZug" Laenge="600.0655">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 116" FahrstrTyp="TypZug" Laenge="583.1962">
 <FahrstrStart Ref="99">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10246,7 +10684,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 118" FahrstrTyp="TypZug" Laenge="585.6391">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 118" FahrstrTyp="TypZug" Laenge="558.7428">
 <FahrstrStart Ref="100">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10263,7 +10701,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 112" FahrstrTyp="TypZug" Laenge="691.765">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 112" FahrstrTyp="TypZug" Laenge="689.3197">
 <FahrstrStart Ref="102">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10277,12 +10715,62 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 114 -&gt; Bk Lübs(Magb) Hp A" FahrstrTyp="TypZug" Laenge="3324.0063">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 112 -&gt; Prödel G\" FahrstrStrecke="120b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5344.562">
+<FahrstrStart Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="94">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="9">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="11" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="48" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 114 -&gt; Bk Lübs(Magb) Hp A" FahrstrStrecke="120b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3299.9192">
 <FahrstrStart Ref="51">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="39">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrZiel Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10299,17 +10787,17 @@
 <FahrstrRegister Ref="82">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="41">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="80">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrSigHaltfall Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="20" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10324,12 +10812,74 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 116 -&gt; Bk Lübs(Magb) Hp A" FahrstrTyp="TypZug" Laenge="3314.6213">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 114 -&gt; Prödel G\" FahrstrStrecke="120b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5452.1909">
+<FahrstrStart Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="9">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="11" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="51" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 116 -&gt; Bk Lübs(Magb) Hp A" FahrstrStrecke="120b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3299.8953">
 <FahrstrStart Ref="54">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="39">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrZiel Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="88">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10352,17 +10902,17 @@
 <FahrstrRegister Ref="82">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="41">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="80">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrSigHaltfall Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="34" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10383,12 +10933,86 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 118 -&gt; Bk Lübs(Magb) Hp A" FahrstrTyp="TypZug" Laenge="3328.9705">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 116 -&gt; Prödel G\" FahrstrStrecke="120b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5452.167">
+<FahrstrStart Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="9">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="11" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="54" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 118 -&gt; Bk Lübs(Magb) Hp A" FahrstrStrecke="120b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3321.771">
 <FahrstrStart Ref="57">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="39">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrZiel Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="91">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10414,17 +11038,17 @@
 <FahrstrRegister Ref="82">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="41">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="80">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrSigHaltfall Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="37" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10448,7 +11072,87 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 120" FahrstrTyp="TypZug" Laenge="501.8766">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 118 -&gt; Prödel G\" FahrstrStrecke="120b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5474.043">
+<FahrstrStart Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="39">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="9">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="37" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="11" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="57" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 120" FahrstrTyp="TypZug" Laenge="497.8142">
 <FahrstrStart Ref="101">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -10465,12 +11169,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bft Gütergl Gkn 120 -&gt; Bk Lübs(Magb) Hp A" FahrstrTyp="TypZug" Laenge="3413.5818">
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 120 -&gt; Bk Lübs(Magb) Hp A" FahrstrStrecke="120b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3386.0486">
 <FahrstrStart Ref="64">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="39">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrZiel Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10496,17 +11200,17 @@
 <FahrstrRegister Ref="82">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="41">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="80">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="42">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel_Luebs\Proedel_Luebs_2015.st3" NurInfo="1"/>
+<FahrstrSigHaltfall Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="37" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
@@ -10529,6 +11233,86 @@
 <FahrstrVSignal Ref="75" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bft Gütergl Gkn 120 -&gt; Prödel G\" FahrstrStrecke="120b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5538.3203">
+<FahrstrStart Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="39">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="9">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="37" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="11" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="64" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000704_005766_Gueterglueck_Gkn\Gueterglueck_Gkn_2015.st3" NurInfo="1"/>
+</FahrstrSignal>
 </Fahrstrasse>
 </Strecke>
 </Zusi>
