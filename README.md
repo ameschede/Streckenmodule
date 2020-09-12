@@ -11,22 +11,12 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 
 * Landrücken
 * Ersrode
-* Sorsum
 * Güterglück Gkn
 * Selmig
-* Orxhausen
 * Hamm Rbf
 * Parkstein-Hütten
 * Schwarzenbach bei Pressath
-* Gehrenrode
-* Almstedt
-* Ahlshausen
-* Sudheim
-* Edesheim
-* Nörten-Hardenberg
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
-
-Die Module Sorsum, Almstedt, Gehrenrode, Orxhausen, Ahlshausen, Edesheim, Sudheim und Nörten-Hardenberg bilden ein zusammenhängendes Netz mit 91,6 km Gesamt-Streckenlänge.
