@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="9" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_1.lod.ls3"/>
+<p X="493.7583" Y="101.9607" Z="203.196"/>
+<phi Z="-2.040012"/>
+<sk X="1.0655" Y="1.0655" Z="1.0655"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_2.lod.ls3"/>
+<p X="483.146" Y="98.4172" Z="202.2082"/>
+<phi Z="-3.497654"/>
+<sk X="0.9417" Y="0.9417" Z="0.9417"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_4.lod.ls3"/>
+<p X="473.4644" Y="93.9932" Z="201.4036"/>
+<phi Z="-3.628037"/>
+<sk X="1.0746" Y="1.0746" Z="1.0746"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_1.lod.ls3"/>
+<p X="460.1743" Y="89.7727" Z="200.1489"/>
+<phi Z="-3.071909"/>
+<sk X="0.913" Y="0.913" Z="0.913"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6195" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Forest\Trees\Foresttree_1.lod.ls3"/>
+<p X="450.0522" Y="88.1238" Z="199.0663"/>
+<phi Z="-2.886377"/>
+<sk X="1.0626" Y="1.0626" Z="1.0626"/>
+</Verknuepfte>
+<lsb Dateiname="32_555500_5776500.lsb"/>
+<SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10" MeshV="10" MeshI="24">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="15" MeterProTex="10" MeterProTex2="10" MeshV="10" MeshI="24">
+<RenderFlags TexVoreinstellung="2"/>
+<Textur>
+<Datei Dateiname="Terrain\General\forest\Wald_rand.dds"/>
+</Textur>
+</SubSet>
+</Landschaft>
+</Zusi>
