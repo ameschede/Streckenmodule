@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\soil01.dds"/>
+</Textur>
+<Vertex U="-100" V="-251.0803">
+<p X="10.8032" Y="-500" Z="82.4528"/>
+<n X="-0.0081" Y="-0.0051" Z="1"/>
+</Vertex>
+<Vertex U="-87.5816" V="-238.3146">
+<p X="-116.854" Y="-375.8165" Z="82.0502"/>
+<n X="-0.0081" Y="-0.0051" Z="1"/>
+</Vertex>
+<Vertex U="-79.7373" V="-263.8338">
+<p X="138.3379" Y="-297.3728" Z="84.5213"/>
+<n X="-0.0081" Y="-0.0051" Z="1"/>
+</Vertex>
+<Vertex U="-100" V="-267.9597">
+<p X="179.5967" Y="-500" Z="83.8226"/>
+<n X="-0.0081" Y="-0.0051" Z="1"/>
+</Vertex>
+<Vertex U="-100" V="-210.1692">
+<p X="-398.3082" Y="-499.9999" Z="78.9446"/>
+<n X="0.0042" Y="-0.0087" Z="0.9999"/>
+</Vertex>
+<Vertex U="-100" V="-208.4254">
+<p X="-415.7462" Y="-499.9999" Z="79.0366"/>
+<n X="0.0053" Y="-0.0113" Z="0.9999"/>
+</Vertex>
+<Vertex U="-97.2879" V="-212.4677">
+<p X="-375.3226" Y="-472.8788" Z="79.1288"/>
+<n X="0.0053" Y="-0.0113" Z="0.9999"/>
+</Vertex>
+<Vertex U="-100" V="-231.4677">
+<p X="-185.323" Y="-500" Z="81.2002"/>
+<n X="-0.0068" Y="-0.0037" Z="1"/>
+</Vertex>
+<Vertex U="-93.8835" V="-219.3214">
+<p X="-306.7861" Y="-438.8346" Z="80.6277"/>
+<n X="-0.0064" Y="-0.0033" Z="1"/>
+</Vertex>
+<Vertex U="-100" V="-224.3444">
+<p X="-256.5557" Y="-499.9999" Z="80.559"/>
+<n X="-0.0066" Y="-0.0038" Z="1"/>
+</Vertex>
+<Vertex U="-100" V="-221.4014">
+<p X="-285.9861" Y="-500" Z="80.3688"/>
+<n X="-0.0064" Y="-0.0036" Z="1"/>
+</Vertex>
+<Vertex U="-100" V="-213.6611">
+<p X="-363.3889" Y="-500" Z="79.0599"/>
+<n X="0.0049" Y="-0.0111" Z="0.9999"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="0;2;3"/>
+<Face i="5;6;4"/>
+<Face i="1;0;7"/>
+<Face i="8;1;7"/>
+<Face i="9;8;7"/>
+<Face i="10;8;9"/>
+<Face i="8;10;11"/>
+<Face i="6;8;11"/>
+<Face i="11;4;6"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
+</Textur>
+<Vertex U="-81.4411" V="-200">
+<p X="-499.9999" Y="-314.4111" Z="80.6628"/>
+<n X="0.0055" Y="-0.008" Z="1"/>
+</Vertex>
+<Vertex U="-79.7851" V="-200.6708">
+<p X="-493.2915" Y="-297.8513" Z="80.7589"/>
+<n X="0.0055" Y="-0.008" Z="1"/>
+</Vertex>
+<Vertex U="-93.4294" V="-202.0776">
+<p X="-479.224" Y="-434.294" Z="79.5854"/>
+<n X="0.0055" Y="-0.008" Z="1"/>
+</Vertex>
+<Vertex U="-94.1131" V="-200">
+<p X="-499.9999" Y="-441.1306" Z="79.645"/>
+<n X="0.0055" Y="-0.008" Z="1"/>
+</Vertex>
+<Vertex U="-80.5404" V="-200">
+<p X="-499.9999" Y="-305.404" Z="80.7203"/>
+<n X="0.0047" Y="-0.0085" Z="0.9999"/>
+</Vertex>
+<Vertex U="-76.0862" V="-200">
+<p X="-499.9999" Y="-260.8617" Z="80.8365"/>
+<n X="0.0038" Y="-0.0086" Z="0.9999"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="4;1;0"/>
+<Face i="4;5;1"/>
+</SubSet>
+</Landschaft>
+</Zusi>

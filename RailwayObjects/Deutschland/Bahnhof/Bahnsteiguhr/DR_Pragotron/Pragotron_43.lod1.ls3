@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+	<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Pragotron_43.dds"/>
+</Textur>
+<Vertex U="0.4947" V="0.179">
+<p X="0.06" Y="-0.0095" Z="-0.048"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.5027" V="0.179">
+<p X="0.06" Y="0.0095" Z="-0.048"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.5014" V="0.167">
+<p X="0.06" Y="0.007" Z="0.178"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.4961" V="0.167">
+<p X="0.06" Y="-0.007" Z="0.178"/>
+<n X="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="0;3;2"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Pragotron_43.dds"/>
+</Textur>
+<Vertex U="0.4947" V="0.179">
+<p X="0.055" Y="-0.012" Z="-0.03"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.5027" V="0.179">
+<p X="0.055" Y="0.012" Z="-0.03"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.5014" V="0.167">
+<p X="0.055" Y="0.0095" Z="0.12"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.4961" V="0.167">
+<p X="0.055" Y="-0.0095" Z="0.12"/>
+<n X="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="0;3;2"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF" Nachtumschaltung="0.4">
+<RenderFlags TexVoreinstellung="5"/>
+<Textur>
+<Datei Dateiname="Pragotron_43.dds"/>
+</Textur>
+<Textur>
+<Datei Dateiname="Pragotron_43_Nacht.dds"/>
+</Textur>
+<Vertex U="0.447" V="0.013" U2="0.447" V2="0.013">
+<p Y="-0.215" Z="0.215"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.447" V="0.013" U2="0.447" V2="0.013">
+<p Y="-0.215" Z="-0.215"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.447" V="0.013" U2="0.447" V2="0.013">
+<p Y="-0.215" Z="-0.215"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.447" V="0.013" U2="0.447" V2="0.013">
+<p Y="-0.215" Z="0.215"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.553" V="0.013" U2="0.553" V2="0.013">
+<p Y="0.215" Z="0.215"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.553" V="0.013" U2="0.553" V2="0.013">
+<p Y="0.215" Z="-0.215"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.553" V="0.013" U2="0.553" V2="0.013">
+<p Y="0.215" Z="-0.215"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.553" V="0.013" U2="0.553" V2="0.013">
+<p Y="0.215" Z="0.215"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.447" V="0.013" U2="0.447" V2="0.013">
+<p Y="-0.215" Z="-0.215"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.553" V="0.013" U2="0.553" V2="0.013">
+<p Y="0.215" Z="-0.215"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.553" V="0.013" U2="0.553" V2="0.013">
+<p Y="0.215" Z="0.215"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.447" V="0.013" U2="0.447" V2="0.013">
+<p Y="-0.215" Z="0.215"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.039" V="0.036" U2="0.039" V2="0.036">
+<p X="0.05" Y="-0.1998" Z="0.1999"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.038" V="0.961" U2="0.038" V2="0.961">
+<p X="0.05" Y="-0.1998" Z="-0.2003"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.965" V="0.964" U2="0.965" V2="0.964">
+<p X="0.05" Y="0.1983" Z="-0.2003"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.964" V="0.036" U2="0.964" V2="0.036">
+<p X="0.05" Y="0.1983" Z="0.1999"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.266" V="0.018" U2="0.266" V2="0.018">
+<p X="0.05" Y="-0.1998" Z="0.1999"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.434" V="0.018" U2="0.434" V2="0.018">
+<p X="0.05" Y="0.1983" Z="0.1999"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.434" V="0.018" U2="0.434" V2="0.018">
+<p X="0.05" Y="0.1983" Z="-0.2003"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.266" V="0.018" U2="0.266" V2="0.018">
+<p X="0.05" Y="-0.1998" Z="-0.2003"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.434" V="0.018" U2="0.434" V2="0.018">
+<p X="0.05" Y="0.1983" Z="0.1999"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.434" V="0.018" U2="0.434" V2="0.018">
+<p X="0.05" Y="0.1983" Z="-0.2003"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.266" V="0.018" U2="0.266" V2="0.018">
+<p X="0.05" Y="-0.1998" Z="-0.2003"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.266" V="0.018" U2="0.266" V2="0.018">
+<p X="0.05" Y="-0.1998" Z="0.1999"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.447" V="0.027" U2="0.447" V2="0.027">
+<p X="0.07" Y="-0.215" Z="-0.215"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.447" V="0.027" U2="0.447" V2="0.027">
+<p X="0.07" Y="-0.215" Z="0.215"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.553" V="0.027" U2="0.553" V2="0.027">
+<p X="0.07" Y="0.215" Z="0.215"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.553" V="0.027" U2="0.553" V2="0.027">
+<p X="0.07" Y="0.215" Z="-0.215"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.627" V="0.017" U2="0.627" V2="0.017">
+<p X="0.07" Y="0.215" Z="-0.215"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.627" V="0.017" U2="0.627" V2="0.017">
+<p X="0.07" Y="0.215" Z="0.215"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.608" V="0.017" U2="0.608" V2="0.017">
+<p X="0.07" Y="0.1983" Z="0.1999"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.608" V="0.017" U2="0.608" V2="0.017">
+<p X="0.07" Y="0.1983" Z="-0.2003"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.26" V="0.017" U2="0.26" V2="0.017">
+<p X="0.07" Y="-0.1998" Z="0.1999"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.242" V="0.017" U2="0.242" V2="0.017">
+<p X="0.07" Y="-0.215" Z="0.215"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.242" V="0.017" U2="0.242" V2="0.017">
+<p X="0.07" Y="-0.215" Z="-0.215"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.26" V="0.017" U2="0.26" V2="0.017">
+<p X="0.07" Y="-0.1998" Z="-0.2003"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.553" V="0.027" U2="0.553" V2="0.027">
+<p X="0.07" Y="0.215" Z="-0.215"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.447" V="0.027" U2="0.447" V2="0.027">
+<p X="0.07" Y="-0.215" Z="-0.215"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.447" V="0.027" U2="0.447" V2="0.027">
+<p X="0.07" Y="-0.215" Z="0.215"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.553" V="0.027" U2="0.553" V2="0.027">
+<p X="0.07" Y="0.215" Z="0.215"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.434" V="0.025" U2="0.434" V2="0.025">
+<p X="0.07" Y="0.1983" Z="0.1999"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.266" V="0.025" U2="0.266" V2="0.025">
+<p X="0.07" Y="-0.1998" Z="0.1999"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.266" V="0.025" U2="0.266" V2="0.025">
+<p X="0.07" Y="-0.1998" Z="-0.2003"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.434" V="0.025" U2="0.434" V2="0.025">
+<p X="0.07" Y="0.1983" Z="-0.2003"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.434" V="0.025" U2="0.434" V2="0.025">
+<p X="0.07" Y="0.1983" Z="-0.2003"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.434" V="0.025" U2="0.434" V2="0.025">
+<p X="0.07" Y="0.1983" Z="0.1999"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.266" V="0.025" U2="0.266" V2="0.025">
+<p X="0.07" Y="-0.1998" Z="0.1999"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.266" V="0.025" U2="0.266" V2="0.025">
+<p X="0.07" Y="-0.1998" Z="-0.2003"/>
+<n Y="1"/>
+</Vertex>
+<Face i="0;25;24"/>
+<Face i="24;1;0"/>
+<Face i="4;3;2"/>
+<Face i="2;5;4"/>
+<Face i="26;7;6"/>
+<Face i="6;27;26"/>
+<Face i="30;29;28"/>
+<Face i="31;30;28"/>
+<Face i="34;33;32"/>
+<Face i="35;31;28"/>
+<Face i="34;32;35"/>
+<Face i="34;35;28"/>
+<Face i="8;37;36"/>
+<Face i="36;9;8"/>
+<Face i="38;11;10"/>
+<Face i="10;39;38"/>
+<Face i="14;13;12"/>
+<Face i="12;15;14"/>
+<Face i="30;32;33"/>
+<Face i="33;29;30"/>
+<Face i="16;41;40"/>
+<Face i="40;17;16"/>
+<Face i="18;43;42"/>
+<Face i="42;19;18"/>
+<Face i="20;45;44"/>
+<Face i="44;21;20"/>
+<Face i="22;47;46"/>
+<Face i="46;23;22"/>
+</SubSet>
+<Ankerpunkt AnkerTyp="13" Beschreibung="Befestigung">
+<p X="0.035" Y="-0.215"/>
+<phi Z="-1.570796"/>
+</Ankerpunkt>
+<Animation AniBeschreibung="Zeitlich kontinuierlich (loop)" AniID="1" AniLoopen="1">
+<AniNrs AniNr="1"/>
+<AniNrs AniNr="0"/>
+</Animation>
+<MeshAnimation AniIndex="1" AniNr="1">
+<AniPunkt>
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.25">
+<p/>
+<q X="-0.707107" W="0.707107"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.5">
+<p/>
+<q X="-1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.75">
+<p/>
+<q X="-0.707107" W="-0.707107"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="-1"/>
+</AniPunkt>
+</MeshAnimation>
+<MeshAnimation AniGeschw="0.0003">
+<AniPunkt>
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.25">
+<p/>
+<q X="-0.707107" W="0.707107"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.5">
+<p/>
+<q X="-1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.75">
+<p/>
+<q X="-0.707107" W="-0.707107"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="-1"/>
+</AniPunkt>
+</MeshAnimation>
+</Landschaft>
+</Zusi>

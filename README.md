@@ -16,7 +16,11 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Hamm Rbf
 * Parkstein-Hütten
 * Schwarzenbach bei Pressath
+* Prödel
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
+
+Die Module Prödel und Güterglück Gkn bilden ein zusammenhängendes Netz mit 10 km Gesamt-Streckenlänge.
+
