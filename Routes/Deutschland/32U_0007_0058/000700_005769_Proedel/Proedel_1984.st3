@@ -212,6 +212,9 @@
 <ReferenzElemente ReferenzNr="157" StrElement="1174" RefTyp="4" Info="Reisende"/>
 <ReferenzElemente ReferenzNr="158" StrElement="95" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
 <ReferenzElemente ReferenzNr="159" StrElement="577" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
+<ReferenzElemente ReferenzNr="160" StrElement="368" StrNorm="1" RefTyp="4" Info="Signal: Prödel Ra 10 Ri Güterglück"/>
+<ReferenzElemente ReferenzNr="161" StrElement="368" StrNorm="1" RefTyp="2" Info="Register-Nr. 5012"/>
+<ReferenzElemente ReferenzNr="162" StrElement="368" RefTyp="2" Info="Register-Nr. 5012"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.7436">
 <g X="-715.7124" Y="748.5742" Z="64.1432"/>
 <b X="-676.6797" Y="721.2596" Z="64.4246"/>
@@ -3458,7 +3461,7 @@
 <StrElement Nr="368" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4932">
 <g X="42.7765" Y="-41.35" Z="67.788"/>
 <b X="52.4336" Y="-52.8277" Z="67.8344"/>
-<InfoNormRichtung vMax="-1">
+<InfoNormRichtung vMax="-1" Reg="5012">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Ra 10 Ri Güterglück" SignalTyp="5" BoundingR="10">
 <p X="49.985" Y="-54.8879" Z="67.8344"/>
 <phi Z="-0.871331"/>
@@ -3472,7 +3475,7 @@
 <MatrixEintrag Signalbild="1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="20.1202"/>
+<InfoGegenRichtung vMax="33.3333" km="20.1202" Reg="5012"/>
 <NachNorm Nr="1170"/>
 <NachGegen Nr="367"/>
 </StrElement>
@@ -3495,10 +3498,10 @@
 <StrElement Nr="371" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4941">
 <g X="138.0945" Y="-154.6383" Z="68.2464"/>
 <b X="169.3191" Y="-191.7497" Z="68.3965"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5012">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5013">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="20.3018" Reg="5012"/>
+<InfoGegenRichtung vMax="33.3333" km="20.3018" Reg="5013"/>
 <NachNorm Nr="718"/>
 <NachGegen Nr="370"/>
 </StrElement>
@@ -3897,7 +3900,7 @@
 <StrElement Nr="407" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.5028">
 <g X="-61.1044" Y="82.1159" Z="67.2788"/>
 <b X="-60.3318" Y="81.1977" Z="67.2837"/>
-<InfoNormRichtung vMax="-1" km="19.9439" pos="1" Reg="5013">
+<InfoNormRichtung vMax="-1" km="19.9439" pos="1" Reg="5014">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="15" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-61.1044" Y="82.1159" Z="67.2788"/>
 <phi Y="-0.003334" Z="-0.871331"/>
@@ -3943,7 +3946,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.9451" Reg="5013"/>
+<InfoGegenRichtung vMax="-1" km="19.9451" Reg="5014"/>
 <NachNorm Nr="408"/>
 <NachNorm Nr="409"/>
 <NachGegen Nr="11"/>
@@ -4085,10 +4088,10 @@
 <StrElement Nr="423" kr="-0.000959" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9436">
 <g X="-534.8251" Y="611.5536" Z="65.3605"/>
 <b X="-527.8001" Y="605.6713" Z="65.394"/>
-<InfoNormRichtung vMax="33.3333" km="19.2316" pos="1" Reg="5014">
+<InfoNormRichtung vMax="33.3333" km="19.2316" pos="1" Reg="5015">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="19.2408" Reg="5014"/>
+<InfoGegenRichtung vMax="33.3333" km="19.2408" Reg="5015"/>
 <NachNorm Nr="424"/>
 <NachGegen Nr="422"/>
 </StrElement>
@@ -4378,7 +4381,7 @@
 <StrElement Nr="457" kr="0.000786" spTrass="27.7778" Fkt="4" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.9436">
 <g X="-599.4583" Y="661.3685" Z="65.0008"/>
 <b X="-600.4326" Y="662.069" Z="64.994"/>
-<InfoNormRichtung vMax="-1" km="19.1495" pos="1" Reg="5015">
+<InfoNormRichtung vMax="-1" km="19.1495" pos="1" Reg="5016">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="4" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-599.4583" Y="661.3685" Z="65.0008"/>
 <phi Y="0.005735" Z="2.51785"/>
@@ -4424,7 +4427,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.1483" pos="1" Reg="5015"/>
+<InfoGegenRichtung vMax="-1" km="19.1483" pos="1" Reg="5016"/>
 <NachNorm Nr="458"/>
 <NachNorm Nr="459"/>
 <NachGegen Nr="452"/>
@@ -4556,7 +4559,7 @@
 <StrElement Nr="472" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.7435">
 <g X="-676.6797" Y="721.2596" Z="64.4246"/>
 <b X="-675.6965" Y="720.5716" Z="64.4317"/>
-<InfoNormRichtung vMax="-1" km="19.0519" pos="1" Reg="5016">
+<InfoNormRichtung vMax="-1" km="19.0519" pos="1" Reg="5017">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="3" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-676.6797" Y="721.2596" Z="64.4246"/>
 <phi Y="-0.005906" Z="-0.610585"/>
@@ -4602,7 +4605,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.0531" Reg="5016"/>
+<InfoGegenRichtung vMax="-1" km="19.0531" Reg="5017"/>
 <NachNorm Nr="473"/>
 <NachNorm Nr="474"/>
 <NachGegen Nr="1"/>
@@ -4790,7 +4793,7 @@
 <StrElement Nr="496" kr="-0.000786" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9247">
 <g X="-581.9545" Y="648.5452" Z="65.1263"/>
 <b X="-580.9929" Y="647.8274" Z="65.1326"/>
-<InfoNormRichtung vMax="-1" km="19.1712" pos="1" Reg="5017">
+<InfoNormRichtung vMax="-1" km="19.1712" pos="1" Reg="5018">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="5" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-581.9545" Y="648.5452" Z="65.1263"/>
 <phi Y="-0.004014" Z="-0.640803"/>
@@ -4836,7 +4839,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.1724" Reg="5017"/>
+<InfoGegenRichtung vMax="-1" km="19.1724" Reg="5018"/>
 <NachNorm Nr="497"/>
 <NachNorm Nr="498"/>
 <NachGegen Nr="454"/>
@@ -5100,7 +5103,7 @@
 <StrElement Nr="528" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-386.9861" Y="455.4567" Z="65.9855"/>
 <b X="-386.2135" Y="454.5385" Z="65.9878"/>
-<InfoNormRichtung vMax="-1" km="19.4481" pos="1" Reg="5018">
+<InfoNormRichtung vMax="-1" km="19.4481" pos="1" Reg="5019">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="7" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-386.9861" Y="455.4567" Z="65.9855"/>
 <phi Y="-0.002095" Z="-0.87133"/>
@@ -5136,7 +5139,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.4493" Reg="5018"/>
+<InfoGegenRichtung vMax="-1" km="19.4493" Reg="5019"/>
 <NachNorm Nr="529"/>
 <NachNorm Nr="531"/>
 <NachGegen Nr="520"/>
@@ -5421,7 +5424,7 @@
 <StrElement Nr="562" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.492">
 <g X="-793.2556" Y="808.5723" Z="63.6918"/>
 <b X="-792.2726" Y="807.8843" Z="63.6968"/>
-<InfoNormRichtung vMax="-1" km="18.9063" pos="1" Reg="5019">
+<InfoNormRichtung vMax="-1" km="18.9063" pos="1" Reg="5020">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="1" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-793.2556" Y="808.5723" Z="63.6918"/>
 <phi Y="-0.004184" Z="-0.610601"/>
@@ -5467,7 +5470,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="18.9075" Reg="5019">
+<InfoGegenRichtung vMax="-1" km="18.9075" Reg="5020">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="563"/>
@@ -5601,8 +5604,8 @@
 <StrElement Nr="577" spTrass="33.3333" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2357.802" Y="1897.692" Z="58.9747"/>
 <b X="-2343.092" Y="1887.3979" Z="59.0195"/>
-<InfoNormRichtung vMax="33.3333" km="17" pos="1" Reg="5020"/>
-<InfoGegenRichtung vMax="33.3333" km="17.018" Reg="5020"/>
+<InfoNormRichtung vMax="33.3333" km="17" pos="1" Reg="5021"/>
+<InfoGegenRichtung vMax="33.3333" km="17.018" Reg="5021"/>
 <NachNorm Nr="578"/>
 <NachGegenModul Nr="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
@@ -6114,7 +6117,7 @@
 <StrElement Nr="625" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="-1048.328" Y="981.3354" Z="62.6058"/>
 <b X="-1005.7684" Y="951.5526" Z="62.7357"/>
-<InfoNormRichtung vMax="-1" Reg="5021">
+<InfoNormRichtung vMax="-1" Reg="5022">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="A" SignalTyp="7" BoundingR="10">
 <p X="-1007.6031" Y="948.9308" Z="62.2357"/>
 <phi Z="-0.610585"/>
@@ -6853,7 +6856,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="18.6502" Reg="5021">
+<InfoGegenRichtung vMax="33.3333" km="18.6502" Reg="5022">
 <Ereignis Er="28" Beschr="120b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="715"/>
@@ -6917,7 +6920,7 @@
 <StrElement Nr="636" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.745">
 <g X="-715.7123" Y="748.5742" Z="64.1432"/>
 <b X="-716.6954" Y="749.2622" Z="64.1361"/>
-<InfoNormRichtung vMax="-1" km="19.0042" pos="1" Reg="5022">
+<InfoNormRichtung vMax="-1" km="19.0042" pos="1" Reg="5023">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="2" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-715.7123" Y="748.5742" Z="64.1432"/>
 <phi Y="0.005201" Z="-3.752177"/>
@@ -6963,7 +6966,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.003" pos="1" Reg="5022"/>
+<InfoGegenRichtung vMax="-1" km="19.003" pos="1" Reg="5023"/>
 <NachNorm Nr="637"/>
 <NachNorm Nr="638"/>
 <NachGegen Nr="1"/>
@@ -7089,7 +7092,7 @@
 <StrElement Nr="651" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-199.8354" Y="233.0231" Z="66.6047"/>
 <b X="-199.0628" Y="232.1049" Z="66.6074"/>
-<InfoNormRichtung vMax="-1" km="19.7391" pos="1" Reg="5023">
+<InfoNormRichtung vMax="-1" km="19.7391" pos="1" Reg="5024">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="11" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-199.8354" Y="233.0231" Z="66.6047"/>
 <phi Y="-0.002229" Z="-0.87133"/>
@@ -7125,7 +7128,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.7403" Reg="5023">
+<InfoGegenRichtung vMax="-1" km="19.7403" Reg="5024">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="652"/>
@@ -7293,7 +7296,7 @@
 <StrElement Nr="668" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9488">
 <g X="-158.4453" Y="190.8189" Z="66.736"/>
 <b X="-159.2179" Y="191.7371" Z="66.7334"/>
-<InfoNormRichtung vMax="-1" km="19.798" pos="1" Reg="5024">
+<InfoNormRichtung vMax="-1" km="19.798" pos="1" Reg="5025">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="12" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-158.4453" Y="190.8189" Z="66.736"/>
 <phi Y="0.002229" Z="-4.012924"/>
@@ -7329,7 +7332,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="19.7968" pos="1" Reg="5024"/>
+<InfoGegenRichtung vMax="-1" km="19.7968" pos="1" Reg="5025"/>
 <NachNorm Nr="669"/>
 <NachNorm Nr="672"/>
 <NachGegen Nr="688"/>
@@ -7499,7 +7502,7 @@
 <StrElement Nr="683" kr="0.002" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9524">
 <g X="-143.5707" Y="173.633" Z="66.7919"/>
 <b X="-140.8705" Y="170.6819" Z="66.8042"/>
-<InfoNormRichtung vMax="-1" Reg="5025">
+<InfoNormRichtung vMax="-1" Reg="5026">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="E" SignalTyp="9" BoundingR="10">
 <p X="-142.7149" Y="168.9943" Z="66.8042"/>
 <phi Z="-0.829766"/>
@@ -7623,7 +7626,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="19.8225" Reg="5025"/>
+<InfoGegenRichtung vMax="33.3333" km="19.8225" Reg="5026"/>
 <NachNorm Nr="710"/>
 <NachGegen Nr="682"/>
 </StrElement>
@@ -7678,10 +7681,10 @@
 <StrElement Nr="691" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.7588">
 <g X="-740.9346" Y="771.9569" Z="63.959"/>
 <b X="-733.1856" Y="766.5342" Z="64.002"/>
-<InfoNormRichtung vMax="33.3333" km="18.9702" pos="1" Reg="5026">
+<InfoNormRichtung vMax="33.3333" km="18.9702" pos="1" Reg="5027">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="18.9796" Reg="5026"/>
+<InfoGegenRichtung vMax="33.3333" km="18.9796" Reg="5027"/>
 <NachNorm Nr="692"/>
 <NachGegen Nr="690"/>
 </StrElement>
@@ -7728,8 +7731,8 @@
 <StrElement Nr="697" kr="0.000132" spTrass="33.3333" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4868">
 <g X="-30.2639" Y="53.6381" Z="67.4174"/>
 <b X="-16.748" Y="37.5488" Z="67.4825"/>
-<InfoNormRichtung vMax="33.3333" km="19.9855" pos="1" Reg="5027"/>
-<InfoGegenRichtung vMax="33.3333" km="20.0065" Reg="5027">
+<InfoNormRichtung vMax="33.3333" km="19.9855" pos="1" Reg="5028"/>
+<InfoGegenRichtung vMax="33.3333" km="20.0065" Reg="5028">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="360"/>
@@ -7746,7 +7749,7 @@
 <StrElement Nr="699" spTrass="33.3333" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.7448">
 <g X="-125.1203" Y="158.2007" Z="66.8765"/>
 <b X="-117.0722" Y="148.6353" Z="66.927"/>
-<InfoNormRichtung vMax="33.3333" km="19.8444" pos="1" Reg="5028">
+<InfoNormRichtung vMax="33.3333" km="19.8444" pos="1" Reg="5029">
 <Ereignis Er="3" Wert="1"/>
 <Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="148"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
@@ -7762,7 +7765,7 @@
 <MatrixEintrag MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="19.857" Reg="5028">
+<InfoGegenRichtung vMax="33.3333" km="19.857" Reg="5029">
 <Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="147"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-121.71" Y="154.15" Z="66.9"/>
@@ -7810,8 +7813,8 @@
 <StrElement Nr="706" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4935">
 <g X="1556.9581" Y="-1834.6938" Z="73.1179"/>
 <b X="1561.567" Y="-1840.171" Z="73.1235"/>
-<InfoNormRichtung vMax="33.3333" km="22.4523" pos="1" Reg="5029"/>
-<InfoGegenRichtung vMax="-1" Reg="5029">
+<InfoNormRichtung vMax="33.3333" km="22.4523" pos="1" Reg="5030"/>
+<InfoGegenRichtung vMax="-1" Reg="5030">
 <Signal NameBetriebsstelle="Bk Lübs(Magb) Hp" Stellwerk="Bk Lübs" Signalname="A" SignalTyp="10" BoundingR="10">
 <p X="1559.4066" Y="-1832.6337" Z="72.6179"/>
 <phi Z="2.270329"/>
@@ -7972,10 +7975,10 @@
 <StrElement Nr="708" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="172.1686" Y="-189.0474" Z="68.3958"/>
 <b X="200.5997" Y="-222.8342" Z="68.5325"/>
-<InfoNormRichtung vMax="33.3333" km="20.3016" pos="1" Reg="5030">
+<InfoNormRichtung vMax="33.3333" km="20.3016" pos="1" Reg="5031">
 <Ereignis Er="28" Beschr="120a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5030">
+<InfoGegenRichtung vMax="-1" Reg="5031">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="G" SignalTyp="7" BoundingR="10">
 <p X="174.6171" Y="-186.987" Z="67.8958"/>
 <phi Z="2.270326"/>
@@ -8824,8 +8827,8 @@
 <StrElement Nr="712" Ueberh="0.0626" kr="-0.000899" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.7381">
 <g X="-543.6365" Y="630.6317" Z="65.292"/>
 <b X="-540.8891" Y="628.4437" Z="65.3047"/>
-<InfoNormRichtung vMax="33.3333" km="19.2127" pos="1" Reg="5031"/>
-<InfoGegenRichtung vMax="-1" Reg="5031">
+<InfoNormRichtung vMax="33.3333" km="19.2127" pos="1" Reg="5032"/>
+<InfoGegenRichtung vMax="-1" Reg="5032">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="B" SignalTyp="9" BoundingR="10">
 <p X="-541.6429" Y="633.1349" Z="64.792"/>
 <phi Z="2.469056"/>
@@ -8921,8 +8924,8 @@
 <StrElement Nr="713" Ueberh="0.0661" kr="-0.000955" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.7564">
 <g X="-532.9926" Y="615.8737" Z="65.3556"/>
 <b X="-524.993" Y="609.1909" Z="65.3935"/>
-<InfoNormRichtung vMax="33.3333" km="19.2303" pos="1" Reg="5032"/>
-<InfoGegenRichtung vMax="-1" Reg="5032">
+<InfoNormRichtung vMax="33.3333" km="19.2303" pos="1" Reg="5033"/>
+<InfoGegenRichtung vMax="-1" Reg="5033">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="C" SignalTyp="9" BoundingR="10">
 <p X="-531.5501" Y="617.6005" Z="65.3556"/>
 <phi Z="2.445643"/>
@@ -9052,8 +9055,8 @@
 <StrElement Nr="714" kr="-0.000959" spTrass="33.3333" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9435">
 <g X="-524.756" Y="603.0765" Z="65.4086"/>
 <b X="-520.8271" Y="599.7276" Z="65.4274"/>
-<InfoNormRichtung vMax="33.3333" km="19.2448" pos="1" Reg="5033"/>
-<InfoGegenRichtung vMax="-1" Reg="5033">
+<InfoNormRichtung vMax="33.3333" km="19.2448" pos="1" Reg="5034"/>
+<InfoGegenRichtung vMax="-1" Reg="5034">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="D" SignalTyp="9" BoundingR="10">
 <p X="-523.2964" Y="604.7888" Z="65.4086"/>
 <phi Z="2.435724"/>
@@ -9183,8 +9186,8 @@
 <StrElement Nr="715" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4942">
 <g X="-1005.7684" Y="951.5526" Z="62.7357"/>
 <b X="-995.6365" Y="944.4622" Z="62.7666"/>
-<InfoNormRichtung vMax="33.3333" km="18.6502" pos="1" Reg="5034"/>
-<InfoGegenRichtung vMax="-1" Reg="5034">
+<InfoNormRichtung vMax="33.3333" km="18.6502" pos="1" Reg="5035"/>
+<InfoGegenRichtung vMax="-1" Reg="5035">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="626"/>
@@ -9233,7 +9236,7 @@
 <StrElement Nr="717" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4939">
 <g X="-1032.496" Y="975.4442" Z="62.6467"/>
 <b X="-1003.3182" Y="955.0257" Z="62.7357"/>
-<InfoNormRichtung vMax="-1" Reg="5035">
+<InfoNormRichtung vMax="-1" Reg="5036">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Pn" Signalname="A\" SignalTyp="13" BoundingR="1">
 <p X="10" Y="955.0257" Z="62.7357"/>
 <phi Z="-0.610589"/>
@@ -9263,7 +9266,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="18.6502" Reg="5035">
+<InfoGegenRichtung vMax="33.3333" km="18.6502" Reg="5036">
 <Ereignis Er="39" Beschr="120b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="144"/>
@@ -9272,10 +9275,10 @@
 <StrElement Nr="718" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="169.3191" Y="-191.7497" Z="68.3965"/>
 <b X="201.6398" Y="-230.1638" Z="68.5519"/>
-<InfoNormRichtung vMax="33.3333" km="20.3018" pos="1" Reg="5036">
+<InfoNormRichtung vMax="33.3333" km="20.3018" pos="1" Reg="5037">
 <Ereignis Er="39" Beschr="120a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5036">
+<InfoGegenRichtung vMax="-1" Reg="5037">
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="G\" SignalTyp="13" BoundingR="1">
 <p X="10" Y="-191.7497" Z="68.3965"/>
 <phi Z="2.270262"/>
@@ -9405,8 +9408,8 @@
 <StrElement Nr="725" spTrass="33.3333" Anschluss="257" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9436">
 <g X="-190.9206" Y="229.4167" Z="66.6236"/>
 <b X="-175.0955" Y="210.6081" Z="66.6784"/>
-<InfoNormRichtung vMax="33.3333" km="19.7476" pos="1" Reg="5037"/>
-<InfoGegenRichtung vMax="-1" Reg="5037">
+<InfoNormRichtung vMax="33.3333" km="19.7476" pos="1" Reg="5038"/>
+<InfoGegenRichtung vMax="-1" Reg="5038">
 <Ereignis Er="6"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -9471,8 +9474,8 @@
 <StrElement Nr="734" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="1524.0204" Y="-1795.5518" Z="73.0775"/>
 <b X="1529.916" Y="-1802.5579" Z="73.0847"/>
-<InfoNormRichtung vMax="33.3333" km="22.4012" pos="1" Reg="5038"/>
-<InfoGegenRichtung vMax="-1" Reg="5038">
+<InfoNormRichtung vMax="33.3333" km="22.4012" pos="1" Reg="5039"/>
+<InfoGegenRichtung vMax="-1" Reg="5039">
 <Ereignis Er="4"/>
 <Ereignis Er="3" Wert="1"/>
 </InfoGegenRichtung>
@@ -13060,6 +13063,304 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Prödel B -&gt; Gommern I" FahrstrStrecke="120b" RglGgl="2" FahrstrTyp="TypZug" Laenge="5335.3999">
+<FahrstrStart Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="108">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="259">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="255">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="244">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="133" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Prödel C -&gt; Gommern Il" FahrstrStrecke="120b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5352.6001">
+<FahrstrStart Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="255">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="229">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="25" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="41" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="64" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Prödel C -&gt; Gommern I" FahrstrStrecke="120b" RglGgl="2" FahrstrTyp="TypZug" Laenge="5352.7002">
+<FahrstrStart Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="259">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="255">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="244">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="25" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="41" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="64" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="139" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="57" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Prödel D -&gt; Gommern Il" FahrstrStrecke="120b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5366.7998">
+<FahrstrStart Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="30">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="255">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="229">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="28" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="22" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="25" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="41" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="67" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Prödel D -&gt; Gommern I" FahrstrStrecke="120b" RglGgl="2" FahrstrTyp="TypZug" Laenge="5367">
+<FahrstrStart Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="30">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="259">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="255">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="244">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="28" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="22" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="25" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="41" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="34" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="67" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="140" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="57" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Prödel E -&gt; Bk Lübs(Magb) Hp B" FahrstrStrecke="120a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2149.3999">
 <FahrstrStart Ref="50">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
@@ -13071,6 +13372,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="161">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="101">
@@ -13195,6 +13499,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="161">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="101">
@@ -13605,6 +13912,9 @@
 <FahrstrRegister Ref="102">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -13656,6 +13966,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="162">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="21">
@@ -13712,6 +14025,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="162">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="21">
