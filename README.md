@@ -16,6 +16,9 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Hamm Rbf
 * Parkstein-Hütten
 * Schwarzenbach bei Pressath
+* Escherde
+* Emmerke
+* Hildesheim Gbf
 * Prödel
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).

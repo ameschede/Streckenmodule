@@ -272,6 +272,7 @@
 <ReferenzElemente ReferenzNr="220" StrElement="109" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
 <ReferenzElemente ReferenzNr="221" StrElement="330" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
 <ReferenzElemente ReferenzNr="222" StrElement="716" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
+<ReferenzElemente ReferenzNr="223" StrElement="996" RefTyp="5" Info="Auflösepunkt"/>
 <StrElement Nr="1" spTrass="38.8889" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="1827.6851" Y="-5.1172" Z="87.375"/>
 <b X="1787.9041" Y="10.1478" Z="87.5293"/>
@@ -391,7 +392,7 @@
 <g X="547.7502" Y="188.3436" Z="90.9808"/>
 <b X="498.151" Y="188.3148" Z="91.0949"/>
 <InfoNormRichtung vMax="38.8889" km="44.4002" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="179"/>
+<Ereignis Er="1000027" Wert="179" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Abzw Himmelsthür" Stellwerk="Hildesheim Hbf Hmf" Signalname="BÜ 44,438 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="512.4" Y="188.32" Z="91.06"/>
 <phi/>
@@ -406,7 +407,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="44.4498">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="178"/>
+<Ereignis Er="1000027" Wert="178" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Abzw Himmelsthür" Stellwerk="Hildesheim Hbf Hmf" Signalname="BÜ 44,438 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="512.4" Y="188.32" Z="91.06"/>
 <phi Z="3.141593"/>
@@ -1553,7 +1554,7 @@
 <g X="1220.9255" Y="179.8662" Z="89.4046"/>
 <b X="1215.3459" Y="180.4661" Z="89.4199"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="161"/>
+<Ereignis Er="1000027" Wert="161" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1218.95" Y="180.08" Z="89.41"/>
 <phi/>
@@ -1568,7 +1569,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="43.739">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="160"/>
+<Ereignis Er="1000027" Wert="160" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1218.95" Y="180.08" Z="89.41"/>
 <phi Z="3.141593"/>
@@ -2254,7 +2255,7 @@
 <g X="-1664.6218" Y="413.0015" Z="87"/>
 <b X="-1657.3226" Y="409.7142" Z="87"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="203"/>
+<Ereignis Er="1000027" Wert="203" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 46,639 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-1660.89" Y="411.32" Z="87"/>
 <phi/>
@@ -2269,7 +2270,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="46.6366" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="202"/>
+<Ereignis Er="1000027" Wert="202" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 46,639 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-1660.89" Y="411.32" Z="87"/>
 <phi Z="3.141593"/>
@@ -2666,7 +2667,7 @@
 <g X="-989.2683" Y="218.5795" Z="88.8257"/>
 <b X="-1004.625" Y="220.9281" Z="88.7743"/>
 <InfoNormRichtung vMax="38.8889" km="45.9391" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="185"/>
+<Ereignis Er="1000027" Wert="185" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 45,95 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-1000.92" Y="220.36" Z="88.79"/>
 <phi/>
@@ -2681,7 +2682,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="45.9546">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="184"/>
+<Ereignis Er="1000027" Wert="184" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 45,95 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-1000.92" Y="220.36" Z="88.79"/>
 <phi Z="3.141593"/>
@@ -3754,7 +3755,7 @@
 <g X="1467.3374" Y="124.7873" Z="88.7151"/>
 <b X="1456.9694" Y="127.9409" Z="88.7446"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="173"/>
+<Ereignis Er="1000027" Wert="173" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Himmelsthür 1 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1462.47" Y="126.27" Z="88.73"/>
 <phi/>
@@ -3769,7 +3770,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="43.495">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="172"/>
+<Ereignis Er="1000027" Wert="172" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Himmelsthür 1 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1462.47" Y="126.27" Z="88.73"/>
 <phi Z="3.141593"/>
@@ -4024,7 +4025,7 @@
 <g X="1220.863" Y="175.8863" Z="89.4036"/>
 <b X="1214.8973" Y="176.527" Z="89.42"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="163"/>
+<Ereignis Er="1000027" Wert="163" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1218.5601" Y="176.13" Z="89.41"/>
 <phi/>
@@ -4039,7 +4040,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="43.739">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="162"/>
+<Ereignis Er="1000027" Wert="162" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1218.5601" Y="176.13" Z="89.41"/>
 <phi Z="3.141593"/>
@@ -5400,7 +5401,7 @@
 <g X="553.0552" Y="184.3472" Z="90.9686"/>
 <b X="504.0459" Y="184.3187" Z="91.0814"/>
 <InfoNormRichtung vMax="38.8889" km="44.3949" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="181"/>
+<Ereignis Er="1000027" Wert="181" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Abzw Himmelsthür" Stellwerk="Hildesheim Hbf Hmf" Signalname="BÜ 44,438 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="508.93" Y="184.32" Z="91.07"/>
 <phi/>
@@ -5415,7 +5416,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="44.4439">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="180"/>
+<Ereignis Er="1000027" Wert="180" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Abzw Himmelsthür" Stellwerk="Hildesheim Hbf Hmf" Signalname="BÜ 44,438 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="508.93" Y="184.32" Z="91.07"/>
 <phi Z="3.141593"/>
@@ -6180,7 +6181,7 @@
 <Ereignis Er="4"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="36.1111" km="3.3834" Reg="5019">
-<Ereignis Er="50" Beschr="17" Wert="3"/>
+<Ereignis Er="50" Wert="3" Beschr="17"/>
 </InfoGegenRichtung>
 <NachNorm Nr="970"/>
 <NachGegen Nr="422"/>
@@ -8273,6 +8274,9 @@
 <StrElement Nr="673" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2955">
 <g X="-309.1843" Y="187.8467" Z="91.0482"/>
 <b X="-331.5119" Y="187.8337" Z="90.976"/>
+<InfoNormRichtung vMax="-1" pos="1">
+<Ereignis Er="6" Beschr="Abzw Himmelsthür"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="45.2795"/>
 <NachNorm Nr="866"/>
 <NachGegen Nr="345"/>
@@ -8281,9 +8285,7 @@
 <g X="-353.8394" Y="187.8208" Z="90.9038"/>
 <b X="-400.4945" Y="187.7937" Z="90.753"/>
 <InfoNormRichtung vMax="38.8889" km="45.3018" pos="1"/>
-<InfoGegenRichtung vMax="38.8889" km="45.3465">
-<Ereignis Er="6" Beschr="Abzw Himmelsthür"/>
-</InfoGegenRichtung>
+<InfoGegenRichtung vMax="38.8889" km="45.3465"/>
 <NachNorm Nr="981"/>
 <NachGegen Nr="866"/>
 </StrElement>
@@ -8405,7 +8407,7 @@
 <g X="-2033.3831" Y="580.4325" Z="86.9559"/>
 <b X="-2042.6569" Y="584.7757" Z="86.9509"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="191"/>
+<Ereignis Er="1000027" Wert="191" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2037.0699" Y="582.16" Z="86.95"/>
 <phi/>
@@ -8420,7 +8422,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="47.0598">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="190"/>
+<Ereignis Er="1000027" Wert="190" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2037.0699" Y="582.16" Z="86.95"/>
 <phi Z="3.141593"/>
@@ -9357,7 +9359,7 @@
 <g X="-2055.7993" Y="565.1344" Z="86.9482"/>
 <b X="-2066.3296" Y="570.0684" Z="86.9237"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="193"/>
+<Ereignis Er="1000027" Wert="193" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2061.3501" Y="567.73" Z="86.94"/>
 <phi/>
@@ -9372,7 +9374,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="47.0732">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="192"/>
+<Ereignis Er="1000027" Wert="192" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2061.3501" Y="567.73" Z="86.94"/>
 <phi Z="3.141593"/>
@@ -11948,7 +11950,7 @@
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="20A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="20A"/>
 </MatrixEintrag>
 <MatrixEintrag>
 <Ereignis Er="23"/>
@@ -11958,7 +11960,7 @@
 </MatrixEintrag>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="101020A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="101020A"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000020A">
 <MatrixEintrag MatrixGeschw="11.1111">
@@ -12612,7 +12614,7 @@
 <g X="-2043.8567" Y="573.7929" Z="86.9536"/>
 <b X="-2053.5579" Y="578.3382" Z="86.9421"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="195"/>
+<Ereignis Er="1000027" Wert="195" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2047.9399" Y="575.7" Z="86.95"/>
 <phi/>
@@ -12627,7 +12629,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="47.0669">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="194"/>
+<Ereignis Er="1000027" Wert="194" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2047.9399" Y="575.7" Z="86.95"/>
 <phi Z="3.141593"/>
@@ -13102,7 +13104,7 @@
 <g X="-995.4828" Y="215.474" Z="88.8069"/>
 <b X="-1005.714" Y="217.0501" Z="88.7727"/>
 <InfoNormRichtung vMax="38.8889" km="45.9447" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="187"/>
+<Ereignis Er="1000027" Wert="187" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 45,95 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-998.98" Y="216.01" Z="88.8"/>
 <phi/>
@@ -13117,7 +13119,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="186"/>
+<Ereignis Er="1000027" Wert="186" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 45,95 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-998.98" Y="216.01" Z="88.8"/>
 <phi Z="3.141593"/>
@@ -13203,7 +13205,6 @@
 <g X="1214.8973" Y="176.527" Z="89.42"/>
 <b X="1210.0861" Y="177.0259" Z="89.4332"/>
 <InfoNormRichtung vMax="-1" Reg="5043">
-<Ereignis Er="4"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="1224.3829" Y="175.5489" Z="89.4213"/>
 <phi Z="-0.10294"/>
@@ -13222,7 +13223,9 @@
 <MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5043"/>
+<InfoGegenRichtung vMax="-1" Reg="5043">
+<Ereignis Er="4"/>
+</InfoGegenRichtung>
 <NachNorm Nr="252"/>
 <NachGegen Nr="251"/>
 </StrElement>
@@ -13518,7 +13521,7 @@
 <g X="1469.9146" Y="128.162" Z="88.711"/>
 <b X="1459.7651" Y="131.2593" Z="88.7399"/>
 <InfoNormRichtung vMax="38.8889" km="43.4816" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="175"/>
+<Ereignis Er="1000027" Wert="175" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Himmelsthür 1 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1465.8101" Y="129.41" Z="88.72"/>
 <phi/>
@@ -13533,7 +13536,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="174"/>
+<Ereignis Er="1000027" Wert="174" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Bk Himmelsthür" Stellwerk="Bk Himmelsthür" Signalname="Himmelsthür 1 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1465.8101" Y="129.41" Z="88.72"/>
 <phi Z="3.141593"/>
@@ -15544,7 +15547,7 @@
 <g X="-2038.6523" Y="576.8802" Z="86.9548"/>
 <b X="-2048.2029" Y="581.3531" Z="86.9482"/>
 <InfoNormRichtung vMax="38.8889" km="47.0529" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="197"/>
+<Ereignis Er="1000027" Wert="197" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2042.74" Y="578.79" Z="86.95"/>
 <phi/>
@@ -15559,7 +15562,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="196"/>
+<Ereignis Er="1000027" Wert="196" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2042.74" Y="578.79" Z="86.95"/>
 <phi Z="3.141593"/>
@@ -15587,7 +15590,7 @@
 <g X="-2028.2471" Y="582.9962" Z="86.9571"/>
 <b X="-2037.5142" Y="587.3363" Z="86.9536"/>
 <InfoNormRichtung vMax="38.8889" km="47.0954" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="199"/>
+<Ereignis Er="1000027" Wert="199" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2032.4" Y="584.94" Z="86.96"/>
 <phi/>
@@ -15602,7 +15605,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="198"/>
+<Ereignis Er="1000027" Wert="198" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 47,053 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-2032.4" Y="584.94" Z="86.96"/>
 <phi Z="3.141593"/>
@@ -15630,7 +15633,7 @@
 <g X="-1666.1038" Y="408.7735" Z="87.0329"/>
 <b X="-1659.5916" Y="405.8424" Z="87.0525"/>
 <InfoNormRichtung vMax="38.8889" km="46.6444">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="205"/>
+<Ereignis Er="1000027" Wert="205" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 46,639 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-1662.28" Y="407.05" Z="87.04"/>
 <phi/>
@@ -15645,7 +15648,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" Wert="204"/>
+<Ereignis Er="1000027" Wert="204" Beschr="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3"/>
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="BÜ km 46,639 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-1662.28" Y="407.05" Z="87.04"/>
 <phi Z="3.141593"/>
@@ -24713,6 +24716,9 @@
 <FahrstrRegister Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="146">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -24796,7 +24802,13 @@
 <FahrstrAufloesung Ref="490">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="503">
+<FahrstrAufloesung Ref="567">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="561">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="564">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="509">
@@ -24806,6 +24818,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="515">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="570">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="146">
@@ -24882,7 +24897,13 @@
 <FahrstrAufloesung Ref="490">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="503">
+<FahrstrAufloesung Ref="567">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="561">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="564">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="509">
@@ -24892,6 +24913,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="515">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="570">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="140">
@@ -24913,7 +24937,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Himmelsthür 335 -&gt; Emmerke 3A" FahrstrStrecke="60b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1195.9001">
+<Fahrstrasse FahrstrName="Abzw Himmelsthür 335 -&gt; Emmerke 3A" FahrstrStrecke="60b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1195.9">
 <FahrstrStart Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25220,7 +25244,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Himmelsthür 364 -&gt; Bk Himmelsthür B" FahrstrStrecke="60a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1901.4001">
+<Fahrstrasse FahrstrName="Abzw Himmelsthür 364 -&gt; Bk Himmelsthür B" FahrstrStrecke="60a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1901.4">
 <FahrstrStart Ref="43">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25248,6 +25272,9 @@
 <FahrstrRegister Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="110">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -25328,7 +25355,13 @@
 <FahrstrAufloesung Ref="490">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="503">
+<FahrstrAufloesung Ref="567">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="561">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="564">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="509">
@@ -25338,6 +25371,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="515">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="570">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="110">
@@ -25399,11 +25435,14 @@
 <FahrstrSignal Ref="83">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="556">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="526">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bk Himmelsthür B -&gt; Hildesheim Gbf A" FahrstrStrecke="60a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1251.4001">
+<Fahrstrasse FahrstrName="Bk Himmelsthür B -&gt; Hildesheim Gbf A" FahrstrStrecke="60a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1251.4">
 <FahrstrStart Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25425,7 +25464,13 @@
 <FahrstrAufloesung Ref="490">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="503">
+<FahrstrAufloesung Ref="567">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="561">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="564">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="509">
@@ -25437,7 +25482,16 @@
 <FahrstrAufloesung Ref="515">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
+<FahrstrAufloesung Ref="570">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="223">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
 <FahrstrSigHaltfall Ref="459">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="557">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrSignal Ref="162" FahrstrSignalZeile="1">
@@ -25503,7 +25557,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Emmerke 3A -&gt; Emmerke N301" FahrstrTyp="TypZug" Laenge="1287.9001">
+<Fahrstrasse FahrstrName="Emmerke 3A -&gt; Emmerke N301" FahrstrTyp="TypZug" Laenge="1287.9">
 <FahrstrStart Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25602,6 +25656,12 @@
 <FahrstrRegister Ref="49">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="380">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="377">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="116">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -25726,6 +25786,12 @@
 <FahrstrRegister Ref="49">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="380">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="377">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="116">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -25963,7 +26029,128 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Emmerke P301 -&gt; Abzw Himmelsthür 334" FahrstrStrecke="60a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1050.4001">
+<Fahrstrasse FahrstrName="Emmerke N303 -&gt; Abzw Rössing 41\" FahrstrStrecke="60b" RglGgl="3" FahrstrTyp="TypZug" Laenge="1767.1">
+<FahrstrStart Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="368">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="239">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="381">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="380">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="90" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="87" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="84" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="48" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Emmerke N303 -&gt; Abzw Rössing 41" FahrstrStrecke="60b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1768.5">
+<FahrstrStart Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="368">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="85">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="111">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="378">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="108">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="231">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="377">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="234">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="90" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="87" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="81" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="48" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="157" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="208" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="18" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Emmerke P301 -&gt; Abzw Himmelsthür 334" FahrstrStrecke="60a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1050.4">
 <FahrstrStart Ref="73">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -26121,6 +26308,9 @@
 <FahrstrSignal Ref="64" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="104" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Emmerke P303 -&gt; Abzw Himmelsthür 334\" FahrstrStrecke="60a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1033.7">
 <FahrstrStart Ref="64">
