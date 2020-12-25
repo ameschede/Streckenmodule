@@ -1644,7 +1644,7 @@
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="710" Wert="500"/>
+<Ereignis Er="32" Wert="500" Beschr="710"/>
 </MatrixEintrag>
 <MatrixEintrag>
 <Ereignis Er="23"/>
@@ -1657,12 +1657,12 @@
 </MatrixEintrag>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="10710" Wert="500"/>
+<Ereignis Er="32" Wert="500" Beschr="10710"/>
 <Ereignis Er="28" Wert="1"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="2" MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="710" Wert="500"/>
+<Ereignis Er="32" Wert="500" Beschr="710"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000710">
 <MatrixEintrag MatrixGeschw="11.1111">
@@ -2294,7 +2294,7 @@
 <g X="-118.1877" Y="159.3197" Z="66.8911"/>
 <b X="-103.2177" Y="141.4716" Z="66.9853"/>
 <InfoNormRichtung vMax="33.3333" km="19.8481" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="144"/>
+<Ereignis Er="1000027" Wert="144" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-115.41" Y="156.01" Z="66.91"/>
 <phi/>
@@ -2309,7 +2309,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="19.8713">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="143"/>
+<Ereignis Er="1000027" Wert="143" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-115.41" Y="156.01" Z="66.91"/>
 <phi Z="3.141593"/>
@@ -2943,7 +2943,7 @@
 <Ereignis Er="1000011"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="19.7293">
-<Ereignis Er="35" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="131"/>
+<Ereignis Er="35" Wert="131" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1172"/>
 <NachGegen Nr="330"/>
@@ -6124,7 +6124,7 @@
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_Gittermast-10m.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_Schmalmast-10m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.15" Z="9.7"/>
@@ -6134,7 +6134,7 @@
 <SignalFrame>
 <p Y="-0.15" Z="7.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP1-el.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP2-el.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="0.045" Z="10"/>
@@ -6147,19 +6147,19 @@
 <Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\HP2-normal.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p/>
+<p Y="0.045"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-gitter-2begr.lod0.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-schmal-2begr.lod0.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.045"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-schmal-3begr.lod0.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-gitter-3begr.lod0.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\Mastblech-7Marken3begr-breit.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\Mastblech-7Marken3begr-schmal.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.5" Z="6.41"/>
@@ -6848,9 +6848,10 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010B01">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010B0D">
 <MatrixEintrag Signalbild="54076563" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
+<Ereignis Er="28" Wert="20"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
@@ -7425,7 +7426,7 @@
 <g X="-127.227" Y="156.3977" Z="66.8765"/>
 <b X="-118.3475" Y="147.4684" Z="66.9273"/>
 <InfoNormRichtung vMax="33.3333" km="19.8445" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="146"/>
+<Ereignis Er="1000027" Wert="146" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-124.25" Y="153.4" Z="66.89"/>
 <phi/>
@@ -7440,7 +7441,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="19.8571">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="145"/>
+<Ereignis Er="1000027" Wert="145" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-124.25" Y="153.4" Z="66.89"/>
 <phi Z="3.141593"/>
@@ -7519,7 +7520,7 @@
 <SignalFrame>
 <p Y="-0.15" Z="5.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP1-el.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP2-el.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="0.045" Z="8"/>
@@ -7751,7 +7752,7 @@
 <b X="-117.0722" Y="148.6353" Z="66.927"/>
 <InfoNormRichtung vMax="33.3333" km="19.8444" pos="1" Reg="5029">
 <Ereignis Er="3" Wert="1"/>
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="148"/>
+<Ereignis Er="1000027" Wert="148" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-121.71" Y="154.15" Z="66.9"/>
 <phi/>
@@ -7766,7 +7767,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="19.857" Reg="5029">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="147"/>
+<Ereignis Er="1000027" Wert="147" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Prödel" Stellwerk="Prödel Psf" Signalname="Bü km 19,852 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="-121.71" Y="154.15" Z="66.9"/>
 <phi Z="3.141593"/>
@@ -7985,7 +7986,7 @@
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_Gittermast-10m.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_Schmalmast-10m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.15" Z="9.7"/>
@@ -7995,7 +7996,7 @@
 <SignalFrame>
 <p Y="-0.15" Z="7.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP1-el.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP2-el.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="0.045" Z="10"/>
@@ -8008,19 +8009,19 @@
 <Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\HP2-normal.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p/>
+<p Y="0.045"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-gitter-2begr.lod0.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-schmal-2begr.lod0.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.045"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-schmal-3begr.lod0.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_10m-gitter-3begr.lod0.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\Mastblech-7Marken3begr-breit.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\Mastblech-7Marken3begr-schmal.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.5" Z="6.41"/>
@@ -8709,9 +8710,10 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010B01">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010501">
 <MatrixEintrag Signalbild="54076563" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
+<Ereignis Er="28" Wert="20"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
@@ -8835,7 +8837,7 @@
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_Gittermast-8m.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_Schmalmast-8m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.15" Z="7.7"/>
@@ -8850,16 +8852,16 @@
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\Mastblech-5Marken2begr-breit.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\Mastblech-5Marken2begr-schmal.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p/>
+<p Y="0.045"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_8m-gitter-2begr.lod0.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_8m-schmal-2begr.lod0.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3.2" Z="0.5"/>
-<phi X="-0.062832"/>
+<phi X="-0.062483"/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-GWT_Doppelgleismagnet.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -8903,19 +8905,6 @@
 <MatrixEintrag Signalbild="2451" MatrixGeschw="6.9444">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000050D">
-<MatrixEintrag Signalbild="2451" MatrixGeschw="11.1111">
-<Ereignis Er="32" Wert="628"/>
-<Ereignis Er="2000"/>
-</MatrixEintrag>
-</Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="2451" MatrixGeschw="11.1111">
-<Ereignis Er="32" Wert="628"/>
-<Ereignis Er="28" Wert="11"/>
-<Ereignis Er="2000"/>
-</MatrixEintrag>
-</Ersatzsignal>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="282"/>
@@ -8942,7 +8931,7 @@
 <SignalFrame>
 <p Y="-0.15" Z="7.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP1-el.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP2-el.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="0.045" Z="10"/>
@@ -9073,7 +9062,7 @@
 <SignalFrame>
 <p Y="-0.15" Z="7.7"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP1-el.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Formsignale_Einheitsbauform\Objekte\ls3-HSIG\DR_grau_HSigBlende_HP2-el.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="0.045" Z="10"/>
@@ -9204,12 +9193,12 @@
 <SignalFrame>
 <p Y="0.82" Z="-0.14"/>
 <phi Z="-3.141592"/>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Gleissperren\DB_Gleissperre_li.lod.ls3"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Gleissperren\DR_Gleissperre_li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="0.4" Y="-2.1"/>
 <phi/>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Gleissperren\DB_Gleissperrensignal.lod.ls3"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Gleissperren\DR_Gleissperrensignal.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.6" Z="-0.05"/>
@@ -9247,7 +9236,7 @@
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="10A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="10A"/>
 </MatrixEintrag>
 <MatrixEintrag>
 <Ereignis Er="23"/>
@@ -9257,7 +9246,7 @@
 </MatrixEintrag>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="10A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="10A"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000010A">
 <MatrixEintrag MatrixGeschw="11.1111">
@@ -9289,7 +9278,7 @@
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="10A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="10A"/>
 </MatrixEintrag>
 <MatrixEintrag>
 <Ereignis Er="23"/>
@@ -9299,7 +9288,7 @@
 </MatrixEintrag>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="10A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="10A"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000010A">
 <MatrixEintrag MatrixGeschw="11.1111">
@@ -9325,7 +9314,7 @@
 <g X="1407.3958" Y="-1663.4547" Z="72.9383"/>
 <b X="1422.661" Y="-1681.5829" Z="72.957"/>
 <InfoNormRichtung vMax="33.3333" km="22.225" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="152"/>
+<Ereignis Er="1000027" Wert="152" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Bk Lübs(Magb) Hp" Stellwerk="Bk Lübs" Signalname="BÜ km 22,233 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1412.64" Y="-1669.6801" Z="72.94"/>
 <phi/>
@@ -9341,7 +9330,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
 <Ereignis Er="1000010" Beschr="Bk Lübs(Magb) Hp"/>
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="151"/>
+<Ereignis Er="1000027" Wert="151" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Bk Lübs(Magb) Hp" Stellwerk="Bk Lübs" Signalname="BÜ km 22,233 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1412.64" Y="-1669.6801" Z="72.94"/>
 <phi Z="3.141593"/>
@@ -9362,7 +9351,7 @@
 <g X="1413.6166" Y="-1664.3505" Z="72.942"/>
 <b X="1434.965" Y="-1689.7209" Z="72.9682"/>
 <InfoNormRichtung vMax="33.3333" km="22.2297" pos="1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="154"/>
+<Ereignis Er="1000027" Wert="154" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Bk Lübs(Magb) Hp" Stellwerk="Bk Lübs" Signalname="BÜ km 22,233 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1416.61" Y="-1667.91" Z="72.95"/>
 <phi/>
@@ -9378,7 +9367,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
 <Ereignis Er="1000007" Beschr="Bk Lübs(Magb) Hp"/>
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="153"/>
+<Ereignis Er="1000027" Wert="153" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 <Signal NameBetriebsstelle="Bk Lübs(Magb) Hp" Stellwerk="Bk Lübs" Signalname="BÜ km 22,233 Schranke 2" SignalTyp="14" BoundingR="1">
 <p X="1416.61" Y="-1667.91" Z="72.95"/>
 <phi Z="3.141593"/>
@@ -12294,7 +12283,7 @@
 <b X="-187.4352" Y="232.2639" Z="66.6238"/>
 <InfoNormRichtung vMax="33.3333" km="19.7293" pos="1">
 <Ereignis Er="6"/>
-<Ereignis Er="35" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3" Wert="132"/>
+<Ereignis Er="35" Wert="132" Beschr="Routes\Deutschland\32U_0007_0058\000700_005769_Proedel\Proedel_1984.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
 <Ereignis Er="1000008"/>
