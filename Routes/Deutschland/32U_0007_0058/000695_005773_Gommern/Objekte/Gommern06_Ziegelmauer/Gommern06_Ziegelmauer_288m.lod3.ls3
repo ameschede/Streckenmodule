@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF" Ce="FF000000">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Stuetzmauer\Ziegelwand.dds"/>
+</Textur>
+<Vertex U="0.561" V="0.12">
+<p Y="-0.5" Z="2"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.424" V="0.12">
+<p Y="0.5" Z="2"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.424" V="0.678">
+<p Y="0.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.561" V="0.678">
+<p Y="-0.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="20.366" V="0.12">
+<p Y="0.5" Z="2"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="-19.363" V="0.12">
+<p X="288.5" Y="0.5" Z="2"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="-19.363" V="0.678">
+<p X="288.5" Y="0.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="20.366" V="0.678">
+<p Y="0.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.561" V="0.12">
+<p X="288.5" Y="0.5" Z="2"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.421" V="0.12">
+<p X="288.5" Y="-0.5" Z="2"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.421" V="0.678">
+<p X="288.5" Y="-0.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.561" V="0.678">
+<p X="288.5" Y="0.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="20.366" V="0.12">
+<p X="288.5" Y="-0.5" Z="2"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="-19.363" V="0.12">
+<p Y="-0.5" Z="2"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="-19.363" V="0.678">
+<p Y="-0.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="20.366" V="0.678">
+<p X="288.5" Y="-0.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.755" V="0.757">
+<p Y="-0.5" Z="2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.755" V="0.756">
+<p X="288.5" Y="-0.5" Z="2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.755" V="0.756">
+<p X="288.5" Y="0.5" Z="2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.755" V="0.757">
+<p Y="0.5" Z="2"/>
+<n Z="1"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="3;1;0"/>
+<Face i="7;6;5"/>
+<Face i="7;5;4"/>
+<Face i="11;10;9"/>
+<Face i="11;9;8"/>
+<Face i="15;14;13"/>
+<Face i="15;13;12"/>
+<Face i="19;18;17"/>
+<Face i="19;17;16"/>
+</SubSet>
+</Landschaft>
+</Zusi>

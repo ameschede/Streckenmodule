@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="IC" Nummer="507" Zuglauf="&quot;Stolzenfels&quot; Berlin Hbf - Karlsruhe Hbf" Prio="2500" BremsstellungZug="5" MBrh="2.0996" ReisendenDichte="0.75" FahrplanGruppe="1b. Fernverkehr von Berlin" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Bft Gütergl Gkn 120" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
+<Datei Dateiname="Timetables\Deutschland\Gommern_Gueterglueck\Gommern_Gueterglueck_1993-94.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Gommern_Gueterglueck\Gommern_Gueterglueck_1993-94\IC507.timetable.xml"/>
+<FahrplanEintrag Ank="1994-05-25 13:46:00" Abf="1994-05-25 13:47:00" Betrst="Bft Gütergl Gkn">
+<FahrplanSignalEintrag FahrplanSignal="120"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Bk Lübs(Magb) Hp"/>
+<FahrplanEintrag Betrst="Prödel">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="1994-05-25 13:57:00" Betrst="Gommern">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bvmz185.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugVarianten Bezeichnung="103" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugVarianten Bezeichnung="1" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\103.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\103.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="2" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugInfo IDHaupt="8" IDNeben="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\103.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1" SASchaltung="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\E03\103.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="Bm1" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bm235.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bm235.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="Bpm1" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="4">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="Bpmb" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="5">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Bpmz291.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="WRmz" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="8">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\WRmz135.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\WRmz135.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="Avm1" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="9">
+<FahrzeugVarianten Bezeichnung="207" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz207.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz207.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="111" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugVarianten Bezeichnung="1110" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="1111" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="Apm" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="10">
+<FahrzeugVarianten Bezeichnung="121" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Apmz121.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Apmz121.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="rest" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugVarianten Bezeichnung="122" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Apmz122.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Apmz122.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="123" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Apmz123.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Apmz123.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="Avm2" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="11">
+<FahrzeugVarianten Bezeichnung="111" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugVarianten Bezeichnung="1110" PerZufallUebernehmen="1" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="1111" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz111.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+<FahrzeugVarianten Bezeichnung="207" PerZufallUebernehmen="1" ZufallsWert="1" FzgPosition="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz207.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\IC\Avmz207.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

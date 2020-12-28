@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="Tk-Dg" Nummer="61757" Zuglauf="Mg-Rothensee Rbf - Leipzig-Wahren" BR="243" Masse="1406000" spMax="27.7778" Bremsh="0.7866" Laenge="468.8199" kmStart="10.4498" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Gommern_Gueterglueck\Gommern_Gueterglueck_1993-94.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Gommern_Gueterglueck\Gommern_Gueterglueck_1993-94\Tk-Dg61757.trn" NurInfo="1"/>
+<UTM UTM_WE="700" UTM_NS="5769" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="49.8021">
+<p X="-7372.9258" Y="5979.6338" Z="56.2281"/>
+<FplvMax vMax="33.3333"/>
+<Fplkm km="0.0498"/>
+</FplZeile>
+<FplZeile FplLaufweg="1398.218">
+<p X="-6483.5215" Y="4966.1348" Z="54.19"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="11.848"/>
+</FplZeile>
+<FplZeile FplLaufweg="2768.3623">
+<p X="-5458.8301" Y="4069.5535" Z="53.98"/>
+<FplName FplNameText="Gommern"/>
+<Fplkm km="13.2176"/>
+<FplAnk Ank="1994-05-25 19:46:00"/>
+<FplAbf Abf="1994-05-25 19:47:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="2876.0947">
+<p X="-5370.6675" Y="4007.6375" Z="53.98"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="13.3253"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3052.3145" FahrstrStrecke="120a">
+<p X="-5226.4434" Y="3906.3877" Z="54.0813"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="13.5015"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3106.4565" FahrstrStrecke="120a">
+<p X="-5179.6929" Y="3878.9771" Z="54.1211"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="13.5555"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8204.5283" FahrstrStrecke="120a">
+<p X="-1005.7682" Y="951.5525" Z="62.7357"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="18.6502"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="8204.6611" FahrstrStrecke="120a">
+<p X="-1003.3181" Y="955.0256" Z="62.7357"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="18.6502"/>
+</FplZeile>
+<FplZeile FplLaufweg="9301.4746">
+<p X="-187.4352" Y="232.2639" Z="66.6238"/>
+<FplName FplNameText="Prödel"/>
+<Fplkm km="19.7477"/>
+</FplZeile>
+<FplZeile FplLaufweg="9353.8701">
+<p X="-153.7025" Y="192.1716" Z="66.7405"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="19.8001"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9539.292" FahrstrStrecke="120a">
+<p X="-34.3258" Y="50.2887" Z="67.4173"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="19.9855"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="9602.2607" FahrstrStrecke="120a">
+<p X="10.0551" Y="5.7363" Z="67.6113"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="20.0481"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="11527.8301" FahrstrStrecke="120a">
+<p X="1245.7201" Y="-1471.4641" Z="72.5535"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="21.974"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="11866.1367" FahrstrStrecke="120a">
+<p X="1466.6147" Y="-1727.3326" Z="73.007"/>
+<FplName FplNameText="Bk Lübs(Magb) Hp"/>
+<Fplkm km="22.312"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="11871.8223" FahrstrStrecke="120a">
+<p X="1467.2987" Y="-1734.5896" Z="73.0118"/>
+<FplName FplNameText="Bk Lübs(Magb) Hp"/>
+<Fplkm km="22.318"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="14558.6621" FahrstrStrecke="120a">
+<p X="3376.0015" Y="-3579.8892" Z="74.6276"/>
+<FplName FplNameText="Esig Güterglück, &lt;Esig&gt;"/>
+<Fplkm km="25.0051"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="14559.9512" FahrstrStrecke="120a">
+<p X="3373.9775" Y="-3583.6262" Z="74.6276"/>
+<FplName FplNameText="Esig Güterglück, &lt;Esig&gt;"/>
+<Fplkm km="25.0051"/>
+</FplZeile>
+<FplZeile FplLaufweg="15793.376">
+<p X="4458.2427" Y="-4171.6123" Z="76.2823"/>
+<FplName FplNameText="Bft Gütergl Gkn"/>
+<Fplkm km="26.2386"/>
+<FplAnk Ank="1994-05-25 19:59:00"/>
+<FplAbf Abf="1994-05-25 20:00:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="15908.4854">
+<p X="4559.4531" Y="-4226.4448" Z="76.2805"/>
+<FplIcon FplIconNr="7"/>
+<FplName FplNameText="Avsig , Zsig"/>
+<Fplkm km="26.3537"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

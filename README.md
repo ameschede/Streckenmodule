@@ -20,10 +20,11 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Emmerke
 * Hildesheim Gbf
 * Prödel
+* Gommern
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
 
-Die Module Prödel und Güterglück Gkn bilden ein zusammenhängendes Netz mit 10 km Gesamt-Streckenlänge.
+Die Module Gommern, Prödel und Güterglück Gkn bilden ein zusammenhängendes Netz mit 16 km Gesamt-Streckenlänge. Hierzu existiert ein Fahrplan 1993 im Timetables-Verzeichnis.
 
