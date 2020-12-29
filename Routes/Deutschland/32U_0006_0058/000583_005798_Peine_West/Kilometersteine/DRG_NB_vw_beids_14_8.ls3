@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="-1" AutorName="Zusi-generiert"/>
+</Info>
+<Landschaft>
+<lsb Dateiname="DRG_NB_vw_beids_14_8.lsb"/>
+<SubSet Cd="00FFFFFF" BeleuchtungTyp="7" MeterProTex="10" MeterProTex2="10" MeshV="105" MeshI="192">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="_Setup\lib\milepost\kmSteine_DRG_DB\DRG\verwittert_weiss\textur\Kilometerstein_weiss_verwittert_03.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" BeleuchtungTyp="7" MeterProTex="10" MeterProTex2="10" zBias="-1" MeshV="24" MeshI="36">
+<RenderFlags TexVoreinstellung="8"/>
+<Textur>
+<Datei Dateiname="_Setup\lib\milepost\kmSteine_DRG_DB\Ziffern\DV843-ziffern.dds"/>
+</Textur>
+</SubSet>
+</Landschaft>
+</Zusi>

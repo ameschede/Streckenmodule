@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="jurgen.wagner.edemissen@htp-tel.de"/>
+</Info>
+<Zug Gattung="P" Nummer="919" Zuglauf="Hannover - Helmstedt" Prio="1500" BremsstellungZug="2" spAnfang="13.8889" FahrplanGruppe="207       Hannover - Braunschweig - Helmstedt" Rekursionstiefe="5" FahrstrName="Sbk 639 639 -&gt; Lehrte West A" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
+<Datei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957\P919.timetable.xml"/>
+<FahrplanEintrag Ank="1957-07-10 09:53:00" Abf="1957-07-10 09:54:00" Betrst="Lehrte West">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="T330"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 09:57:00" Abf="1957-07-10 09:59:00" Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="X002"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="Q700"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="Y860"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Üst Ramhorst">
+<FahrplanSignalEintrag FahrplanSignal="955"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Hämelerwald">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Hämelerwald">
+<FahrplanSignalEintrag FahrplanSignal="Ve_Reg_Frg"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 10:08:00" Abf="1957-07-10 10:09:00" Betrst="Hämelerwald"/>
+<FahrplanEintrag Betrst="Vöhrum">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 10:14:00" Abf="1957-07-10 10:15:00" Betrst="Vöhrum"/>
+<FahrplanEintrag Betrst="Peine">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 10:21:00" Abf="1957-07-10 10:23:00" Betrst="Peine"/>
+<FahrplanEintrag Ank="1957-07-10 10:25:00" Abf="1957-07-10 10:26:00" Betrst="PeineFdlPo">
+<FahrplanSignalEintrag FahrplanSignal="E"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V100_Familie\V100.10.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\B3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\BD3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\B3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\BD3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\BPw4yg56.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

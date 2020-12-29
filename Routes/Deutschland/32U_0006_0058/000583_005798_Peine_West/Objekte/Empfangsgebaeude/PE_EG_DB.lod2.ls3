@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
+</Info>
+<Landschaft>
+<lsb Dateiname="PE_EG_DB.lod2.lsb"/>
+<SubSet Cd="FFFFFFFF" MeshV="15" MeshI="24">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="dach_bhf.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="FFFFFFFF" MeshV="1760" MeshI="2670">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PeineEG.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="FFFFFFFF" MeshV="30" MeshI="51">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Wand_Peine.dds"/>
+</Textur>
+</SubSet>
+</Landschaft>
+</Zusi>

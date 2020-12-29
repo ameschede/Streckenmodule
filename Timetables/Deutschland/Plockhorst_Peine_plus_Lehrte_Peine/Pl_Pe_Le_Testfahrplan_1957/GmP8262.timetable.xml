@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
+</Info>
+<Buchfahrplan Gattung="GmP" Nummer="8262" Zuglauf="Peine - Plockhorst" BR="V100" Masse="293200" spMax="13.8889" Bremsh="0.9413" Laenge="131.18" kmStart="35.6749" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957\GmP8262.trn" NurInfo="1"/>
+<UTM UTM_WE="579" UTM_NS="5803" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="28.4429">
+<p X="5414.21" Y="-5804.4888" Z="68.367"/>
+<FplvMax vMax="11.1111"/>
+<Fplkm km="-0.0088"/>
+</FplZeile>
+<FplZeile FplLaufweg="404.0865">
+<p X="5039.3369" Y="-5785.0186" Z="68.0316"/>
+<FplName FplNameText="Peine"/>
+<Fplkm km="35.271"/>
+<FplAnk Ank="1957-07-10 17:30:00"/>
+<FplAbf Abf="1957-07-10 17:42:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="563.1271" FahrstrStrecke="208a_B">
+<p X="4880.8101" Y="-5773.9097" Z="67.8892"/>
+<FplvMax vMax="38.8889"/>
+<Fplkm km="35.1162"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="841.0032" FahrstrStrecke="208a_B">
+<p X="4603.3286" Y="-5785.1919" Z="67.5142"/>
+<Fplkm km="34.8344"/>
+<FplvMax vMax="13.8889"/>
+<Fplkm km="34.8354"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="879.4667" FahrstrStrecke="208a_B">
+<p X="4564.895" Y="-5785.0034" Z="67.4658"/>
+<Fplkm km="34.7955" FplSprung="1" FplkmNeu="16.6557"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="951.5383" FahrstrStrecke="208a_B">
+<p X="4492.8828" Y="-5786.7104" Z="67.3762"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="16.5922"/>
+</FplZeile>
+<FplZeile FplLaufweg="4783.8911">
+<p X="4923.2715" Y="-3117.9355" Z="67.6664"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="12.762"/>
+</FplZeile>
+<FplZeile FplLaufweg="5407.7969">
+<p X="5205.9556" Y="-2580.1831" Z="69.3277"/>
+<FplName FplNameText="Stederdorf"/>
+<Fplkm km="12.1382"/>
+<FplAnk Ank="1957-07-10 17:54:00"/>
+<FplAbf Abf="1957-07-10 17:58:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="5712.0835">
+<p X="5289.8052" Y="-2287.6775" Z="69.4529"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="11.8339"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="5852.5176" FahrstrStrecke="208a_B">
+<p X="5328.5034" Y="-2152.6802" Z="69.5107"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="11.6934"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="5914.0493" FahrstrStrecke="208a_B">
+<p X="5345.459" Y="-2093.531" Z="69.366"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="11.6319"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="6702.6831" FahrstrStrecke="208a_B">
+<p X="5562.7739" Y="-1335.4365" Z="66.401"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="10.8432"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7289.2036" FahrstrStrecke="208a_B">
+<p X="5724.3955" Y="-771.6273" Z="64.9495"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="10.2567"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="8107.7861" FahrstrStrecke="208a_B">
+<p X="6052.0688" Y="-40.2989" Z="64.3256"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="9.4381"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="10135.1689" FahrstrStrecke="208a_B">
+<p X="7332.5957" Y="1381.6459" Z="67.9956"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="7.4107"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="10452.9629" FahrstrStrecke="208a_B">
+<p X="7441.1763" Y="1680.3152" Z="68.4371"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="7.1248"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="10499.5068" FahrstrStrecke="208a_B">
+<p X="7457.0791" Y="1724.0591" Z="68.4995"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="7.0464"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="10694.1895" FahrstrStrecke="208a_B">
+<p X="7523.5962" Y="1907.0261" Z="68.5"/>
+<FplName FplNameText="Edemissen"/>
+<Fplkm km="6.8579"/>
+<FplAnk Ank="1957-07-10 18:05:00"/>
+<FplAbf Abf="1957-07-10 18:10:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="10925.2412" FahrstrStrecke="208a_B">
+<p X="7602.54" Y="2124.1733" Z="68.5"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="6.6207"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="11123.2285" FahrstrStrecke="208a_B">
+<p X="7670.1865" Y="2310.2471" Z="68.5"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="6.4227"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="13529.1699" FahrstrStrecke="208a_B">
+<p X="8462.7217" Y="4581.543" Z="66.4134"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="4.0167"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="13653.0137" FahrstrStrecke="208a_B">
+<p X="8512.0078" Y="4695.1572" Z="66.2332"/>
+<FplName FplNameText="Ankensen"/>
+<Fplkm km="3.8928"/>
+<FplAnk Ank="1957-07-10 18:15:00"/>
+<FplAbf Abf="1957-07-10 18:18:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="13733.627" FahrstrStrecke="208a_B">
+<p X="8544.0889" Y="4769.1118" Z="66.1159"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="3.8122"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="14088.6426" FahrstrStrecke="208a_B">
+<p X="8685.373" Y="5094.8027" Z="65.5992"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="3.4572"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="14440.1465" FahrstrStrecke="208a_B">
+<p X="8825.2607" Y="5417.2725" Z="65.5727"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="3.1057"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="15536.3193" FahrstrStrecke="208a_B">
+<p X="9185.8154" Y="6441.3389" Z="65.7435"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="2.0095"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="17115.5098" FahrstrStrecke="208a_B">
+<p X="8109.7036" Y="7547.6587" Z="66"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="0.4304"/>
+</FplZeile>
+<FplZeile FplLaufweg="17520.541">
+<p X="7791.438" Y="7797.7944" Z="66"/>
+<FplName FplNameText="Plockhorst oB"/>
+<Fplkm km="0.0256"/>
+<FplAnk Ank="1957-07-10 18:27:00"/>
+<FplAbf Abf="1957-07-10 18:35:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="17663.0664">
+<p X="7684.3877" Y="7891.6401" Z="66"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="-0.1167"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

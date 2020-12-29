@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
+</Info>
+<Buchfahrplan Gattung="G" Nummer="8256" Zuglauf="Wolfsburg - Hannover" BR="V100" Masse="829000" spMax="27.7778" Bremsh="1.0736" Laenge="442.2" kmStart="215.6911" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957\G8256.trn" NurInfo="1"/>
+<UTM UTM_WE="579" UTM_NS="5803" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="96.136">
+<p X="8867.8818" Y="8197.9727" Z="58"/>
+<FplvMax vMax="33.3333"/>
+<Fplkm km="0.0961"/>
+</FplZeile>
+<FplZeile FplLaufweg="442.6805">
+<p X="8538.8252" Y="8089.2803" Z="58"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="216.1338"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1185.5717" FahrstrStrecke="208_A">
+<p X="7833.0752" Y="7857.333" Z="58"/>
+<FplName FplNameText="Plockhorst uB"/>
+<Fplkm km="216.8766"/>
+<FplAnk Ank="1957-07-10 09:37:00"/>
+<FplAbf Abf="1957-07-10 09:38:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1185.5717" FahrstrStrecke="208_A">
+<p X="7833.0752" Y="7857.333" Z="58"/>
+<FplName FplNameText="Dedenhausen"/>
+<Fplkm km="216.8766"/>
+<FplAbf Abf="1957-07-10 09:44:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2055.906" FahrstrStrecke="208_A">
+<p X="7004.1958" Y="7591.9272" Z="58"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="217.747"/>
+</FplZeile>
+<FplZeile FplLaufweg="2358.863">
+<p X="6715.6719" Y="7499.2007" Z="58"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="218.0498"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2359.4241" FahrstrStrecke="208_A">
+<p X="6715.6719" Y="7499.2007" Z="58"/>
+<FplIcon FplIconNr="17"/>
+<Fplkm km="218.0498"/>
+</FplZeile>
+<FplZeile FplLaufweg="3422.345">
+<p X="5741.7979" Y="7072.6592" Z="58"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="219.1131"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3422.906" FahrstrStrecke="208_A">
+<p X="5741.7979" Y="7072.6592" Z="58"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="219.1131"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

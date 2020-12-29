@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="jurgen.wagner.edemissen@htp-tel.de"/>
+</Info>
+<Zug Gattung="P" Nummer="1254" Zuglauf="Braunschweig - Hannover" Prio="1500" Standortmodus="1" BremsstellungZug="2" spAnfang="11.1111" FahrplanGruppe="207       Helmstedt - Braunschweig - Hannover" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Peine C" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
+<Datei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957\P1254.timetable.xml"/>
+<FahrplanEintrag Ank="1957-07-10 06:20:00" Abf="1957-07-10 06:23:00" Betrst="Peine">
+<FahrplanSignalEintrag FahrplanSignal="C"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Vöhrum">
+<FahrplanSignalEintrag FahrplanSignal="K"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Vöhrum">
+<FahrplanSignalEintrag FahrplanSignal="C"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 06:30:00" Abf="1957-07-10 06:31:00" Betrst="Vöhrum"/>
+<FahrplanEintrag Betrst="Vöhrum">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Hämelerwald">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 06:36:00" Abf="1957-07-10 06:38:00" Betrst="Hämelerwald"/>
+<FahrplanEintrag Betrst="Hämelerwald">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="S823"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="S720"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 06:48:00" Abf="1957-07-10 06:54:00" Betrst="Lehrte Pbf">
+<FahrplanSignalEintrag FahrplanSignal="U001"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="1957-07-10 06:59:00" Betrst="Sbk 638">
+<FahrplanSignalEintrag FahrplanSignal="638"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="4" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V100_Familie\V100.10.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\B3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\B3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\B3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\BD3yg.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\Pwg-Wagen\Pwghs54\Pwghs54.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

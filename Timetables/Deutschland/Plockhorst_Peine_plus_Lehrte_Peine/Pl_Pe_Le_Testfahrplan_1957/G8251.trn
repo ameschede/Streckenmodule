@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
+<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="jurgen.wagner.edemissen@htp-tel.de"/>
+</Info>
+<Zug Gattung="G" Nummer="8251" Zuglauf="Lehrte - Plockhorst" Prio="1500" BremsstellungZug="2" MBrh="0.7" FahrplanGruppe="208       Vorsfelde - Hannover: Güterzüge" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Plockhorst uB F" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
+<Datei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957\G8251.timetable.xml"/>
+<FahrplanEintrag Ank="1957-07-10 14:41:30" Abf="1957-07-10 14:42:30" Betrst="Plockhorst uB">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="1957-07-10 14:45:00" Abf="1957-07-10 15:00:00" Betrst="Plockhorst oB">
+<FahrplanSignalEintrag FahrplanSignal="R1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche1\Dampfloks\T16_1\T16_1.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\Pwg-Wagen\Pwghs54\Pwghs54.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\BT-Wagen\BTs50\BTs50.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\BT-Wagen\BTs50\BTs50.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\BT-Wagen\BTms55\BTms55.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\BT-Wagen\BTmms58\BTmms58.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\BT-Wagen\BTms55\BTms55.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\BT-Wagen\BTms55\BTms55.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
