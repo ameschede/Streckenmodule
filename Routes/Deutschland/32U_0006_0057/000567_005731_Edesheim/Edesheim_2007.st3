@@ -12051,11 +12051,13 @@
 <NachNorm Nr="1126"/>
 <NachGegen Nr="1011"/>
 </StrElement>
-<StrElement Nr="1126" Ueberh="0.0068" kr="-0.000054" spTrass="44.4445" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4942">
+<StrElement Nr="1126" Ueberh="0.0068" kr="-0.000054" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4942">
 <g X="-181.7873" Y="830.1582" Z="115.4143"/>
 <b X="-182.0643" Y="830.8582" Z="115.4124"/>
-<InfoNormRichtung vMax="44.4445" km="84.8454"/>
-<InfoGegenRichtung vMax="44.4445" km="84.8446" pos="1"/>
+<InfoNormRichtung vMax="44.4444" km="84.8454">
+<Ereignis Er="1000002"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="44.4444" km="84.8446" pos="1"/>
 <NachNorm Nr="1127"/>
 <NachGegen Nr="1125"/>
 </StrElement>
@@ -39274,6 +39276,9 @@
 <g X="-152.8989" Y="745.0315" Z="115.6373"/>
 <b X="-146.5695" Y="729.0577" Z="115.68"/>
 <InfoNormRichtung vMax="44.4444" km="84.9352" pos="1"/>
+<InfoGegenRichtung vMax="-1" pos="1">
+<Ereignis Er="1000002"/>
+</InfoGegenRichtung>
 <NachNorm Nr="1166"/>
 <NachGegen Nr="4799"/>
 </StrElement>
