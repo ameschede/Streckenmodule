@@ -628,7 +628,7 @@
 <g X="502.3547" Y="-1906.2719" Z="86.4221"/>
 <b X="513.6904" Y="-1925.267" Z="86.6553"/>
 <InfoNormRichtung vMax="77.7778" km="26.7945" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" Wert="244"/>
+<Ereignis Er="34" Wert="244" Beschr="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3"/>
 <Ereignis Er="39" Beschr="300a"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="26.8167"/>
@@ -3174,9 +3174,7 @@
 <StrElement Nr="257" Ueberh="0.0746" kr="-0.000699" spTrass="38.8889" Anschluss="257" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5031">
 <g X="-1041.267" Y="-629.3689" Z="81.5785"/>
 <b X="-1030.444" Y="-629.3748" Z="81.6648"/>
-<InfoNormRichtung vMax="38.8889" km="49.2221">
-<Ereignis Er="28" Beschr="60a"/>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="38.8889" km="49.2221"/>
 <InfoGegenRichtung vMax="38.8889" km="49.2113" pos="1"/>
 <NachNorm Nr="319"/>
 <NachGegen Nr="256"/>
@@ -4411,9 +4409,7 @@
 <StrElement Nr="388" Ueberh="0.0767" kr="-0.000729" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5087">
 <g X="-1043.405" Y="-633.4022" Z="81.5614"/>
 <b X="-1033.312" Y="-633.383" Z="81.6412"/>
-<InfoNormRichtung vMax="38.8889" km="49.2242">
-<Ereignis Er="39" Beschr="60a"/>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="38.8889" km="49.2242"/>
 <InfoGegenRichtung vMax="38.8889" km="49.2141" pos="1"/>
 <NachNorm Nr="389"/>
 <NachGegen Nr="387"/>
@@ -5721,7 +5717,7 @@
 <g X="506.3962" Y="-1903.873" Z="86.4221"/>
 <b X="517.7357" Y="-1922.874" Z="86.6553"/>
 <InfoNormRichtung vMax="77.7778" km="26.7945" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3" Wert="245"/>
+<Ereignis Er="34" Wert="245" Beschr="Routes\Deutschland\32U_0006_0058\000561_005773_Sorsum\Sorsum_2003.st3"/>
 <Ereignis Er="28" Beschr="300a"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="26.8167"/>
@@ -14252,14 +14248,14 @@
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="20A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="20A"/>
 </MatrixEintrag>
 <MatrixEintrag>
 <Ereignis Er="23"/>
 </MatrixEintrag>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Beschr="1020A" Wert="70"/>
+<Ereignis Er="32" Wert="70" Beschr="1020A"/>
 <Ereignis Er="28"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000020A">
@@ -26280,7 +26276,7 @@
 <b X="-1883.9493" Y="2555.3005" Z="68.1637"/>
 <NachGegen Nr="2138"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Emmerke 3F" FahrstrStrecke="60a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1599.4">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Emmerke 3F" FahrstrTyp="TypZug" Laenge="1599.4">
 <FahrstrStart Ref="413">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
 </FahrstrStart>
