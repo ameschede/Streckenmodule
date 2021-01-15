@@ -1678,7 +1678,7 @@
 <phi Z="2.719558"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
 <p X="-31.1112" Y="306.6649" Z="85.9087"/>
 <phi Z="-0.422036"/>
@@ -27243,17 +27243,22 @@
 <p X="-79.0656" Y="91.7227" Z="84.2403"/>
 <n X="-0.0061" Y="0.0105" Z="0.9999"/>
 </Vertex>
+<Vertex U="-118.8466" V="-44.2561">
+<p X="58.8651" Y="249.724" Z="84"/>
+<n X="-0.0219" Y="-0.0209" Z="0.9995"/>
+</Vertex>
 <Face i="0;1;2"/>
 <Face i="5;3;4"/>
 <Face i="2;6;0"/>
 <Face i="7;6;2"/>
 <Face i="8;3;5"/>
-<Face i="3;7;9"/>
+<Face i="3;7;13"/>
 <Face i="10;3;8"/>
 <Face i="11;3;10"/>
 <Face i="12;3;11"/>
 <Face i="6;3;12"/>
 <Face i="3;6;7"/>
+<Face i="9;13;7"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -38764,6 +38769,110 @@
 <Face i="0;2;3"/>
 <Face i="3;4;0"/>
 <Face i="4;3;5"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="-124.332" V="-56.178">
+<p X="61.775" Y="256.6831" Z="83.7756"/>
+<n X="-0.8954" Y="0.3662" Z="0.2534"/>
+</Vertex>
+<Vertex U="-124.037" V="-56.331">
+<p X="63.3148" Y="259.6343" Z="84.9519"/>
+<n X="-0.8954" Y="0.3662" Z="0.2534"/>
+</Vertex>
+<Vertex U="-124.708" V="-56.03">
+<p X="60.2979" Y="252.9161" Z="84"/>
+<n X="-0.8954" Y="0.3662" Z="0.2534"/>
+</Vertex>
+<Vertex U="-124.694" V="-56">
+<p X="59.9998" Y="253.0641" Z="83.997"/>
+<n X="0.0163" Y="0.0531" Z="0.9985"/>
+</Vertex>
+<Vertex U="-124.3457" V="-56.1931">
+<p X="61.9398" Y="256.5731" Z="83.7768"/>
+<n X="0.0257" Y="0.0494" Z="0.9984"/>
+</Vertex>
+<Face i="4;2;0"/>
+<Face i="3;0;2"/>
+<Face i="1;4;0"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="-122.2242" V="-57.1456">
+<p X="71.4558" Y="277.7582" Z="83.5"/>
+<n X="0.0243" Y="0.0597" Z="0.9979"/>
+</Vertex>
+<Vertex U="-121.7157" V="-56">
+<p X="59.9998" Y="282.8431" Z="83.4749"/>
+<n X="0.0243" Y="0.0597" Z="0.9979"/>
+</Vertex>
+<Vertex U="-121.3244" V="-56.5995">
+<p X="65.9948" Y="286.7561" Z="83.0948"/>
+<n X="0.0243" Y="0.0597" Z="0.9979"/>
+</Vertex>
+<Vertex U="-122" V="-57.2463">
+<p X="72.4628" Y="280.0001" Z="83.4345"/>
+<n X="-0.015" Y="0.0359" Z="0.9992"/>
+</Vertex>
+<Vertex U="-121.6783" V="-57.3921">
+<p X="73.9209" Y="283.217" Z="83.1015"/>
+<n X="0.0376" Y="0.086" Z="0.9956"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="3;2;4"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="16" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-120.1555" V="-58.0741">
+<p X="80.7409" Y="298.4451" Z="82.8633"/>
+<n X="0.0003" Y="0.0097" Z="1"/>
+</Vertex>
+<Vertex U="-120.3206" V="-58">
+<p X="79.9998" Y="296.794" Z="82.8796"/>
+<n X="0.0003" Y="0.0097" Z="1"/>
+</Vertex>
+<Vertex U="-120" V="-58">
+<p X="79.9998" Y="300.0001" Z="82.8484"/>
+<n X="0.0003" Y="0.0097" Z="1"/>
+</Vertex>
+<Vertex U="-120" V="-58.1195">
+<p X="81.195" Y="300.0001" Z="82.851"/>
+<n X="-0.0022" Y="0.0085" Z="1"/>
+</Vertex>
+<Vertex U="-120" V="-57.9938">
+<p X="79.938" Y="300.0001" Z="82.7064"/>
+<n X="-0.8767" Y="0.2922" Z="0.3821"/>
+</Vertex>
+<Vertex U="-118" V="-58.6327">
+<p X="86.3269" Y="320.0001" Z="82.0694"/>
+<n X="-0.8767" Y="0.2922" Z="0.3821"/>
+</Vertex>
+<Vertex U="-118" V="-58.7027">
+<p X="87.0269" Y="320.0001" Z="82.3008"/>
+<n X="-0.3117" Y="0.1168" Z="0.943"/>
+</Vertex>
+<Vertex U="-116" V="-59.2716">
+<p X="92.7159" Y="340.0001" Z="81.4324"/>
+<n X="-0.3112" Y="0.1294" Z="0.9415"/>
+</Vertex>
+<Vertex U="-116" V="-59.286">
+<p X="92.8599" Y="340.0001" Z="81.7705"/>
+<n X="-0.8862" Y="0.2685" Z="0.3776"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="4;5;2"/>
+<Face i="2;5;3"/>
+<Face i="6;3;5"/>
+<Face i="5;7;6"/>
+<Face i="8;6;7"/>
 </SubSet>
 </Landschaft>
 </Zusi>

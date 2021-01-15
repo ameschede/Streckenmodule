@@ -250,13 +250,13 @@
 <phi Z="3.134199"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
 <p X="-242.804" Y="372.3735" Z="85.7011"/>
 <phi Z="3.002804"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
 <p X="-244.3034" Y="361.6779" Z="85.7011"/>
 <phi Z="-0.138801"/>
@@ -1054,7 +1054,7 @@
 <phi Z="3.140848"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
 <p X="255.1082" Y="339.2808" Z="85.3951"/>
 <phi Z="-0.000744"/>
@@ -2578,7 +2578,7 @@
 <phi Z="-3.140507"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
 <p X="0.5298" Y="327.5506" Z="85.9735"/>
 <phi Z="-3.140518"/>
@@ -56961,7 +56961,7 @@
 </Vertex>
 <Vertex V="0.1" V2="0.1">
 <p X="497.2151" Y="409.1165" Z="76"/>
-<n Z="1"/>
+<n Y="0" Z="1"/>
 </Vertex>
 <Vertex U="-11.0724" V="0.1" U2="-11.0724" V2="0.1">
 <p X="431.3004" Y="498.1021" Z="76"/>
@@ -56971,9 +56971,9 @@
 <p X="433.8893" Y="500" Z="76"/>
 <n Z="1"/>
 </Vertex>
-<Vertex V="0.5621" V2="0.5621">
-<p X="500" Y="411.1793" Z="76"/>
-<n Z="1"/>
+<Vertex U="0.0023" V="0.5568" U2="0.0023" V2="0.5568">
+<p X="500" Y="411.1792" Z="76"/>
+<n X="0" Y="0" Z="1"/>
 </Vertex>
 <Vertex U="-10.8671" V="0.9" U2="-10.8671" V2="0.9">
 <p X="437.3612" Y="500" Z="76"/>
@@ -77973,6 +77973,25 @@
 <Face i="89;88;90"/>
 <Face i="75;90;88"/>
 <Face i="90;75;74"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Strassen\MitBuergersteig\strasse_6m_oMstr.dds"/>
+</Textur>
+<Vertex U="0" V="0.4399" U2="0" V2="0.4399">
+<p X="500" Y="411.1792" Z="76"/>
+<n X="-0.0005" Y="0.0007" Z="1"/>
+</Vertex>
+<Vertex U="-0.5175" V="0.9" U2="-0.5175" V2="0.9">
+<p X="500" Y="405.005" Z="76.0043"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.0059" V="0.8993" U2="-0.0059" V2="0.8993">
+<p X="497.2151" Y="409.1165" Z="76"/>
+<n X="-0.0005" Y="0.0007" Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
 </SubSet>
 </Landschaft>
 </Zusi>
