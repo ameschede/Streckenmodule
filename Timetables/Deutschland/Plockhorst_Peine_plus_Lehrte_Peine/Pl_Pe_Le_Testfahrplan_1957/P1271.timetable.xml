@@ -54,7 +54,7 @@
 <FplName FplNameText="Lehrte West"/>
 <Fplkm km="14.9059"/>
 <FplAnk Ank="1957-07-10 13:47:00"/>
-<FplAbf Abf="1957-07-10 13:48:00"/>
+<FplAbf Abf="1957-07-10 13:47:00"/>
 </FplZeile>
 <FplZeile FplLaufweg="2379.207">
 <p X="-13439.6533" Y="748.999" Z="61.207"/>
@@ -142,11 +142,13 @@
 <p X="-8396.165" Y="-1211.9467" Z="60.4168"/>
 <FplName FplNameText="Üst Ramhorst"/>
 <Fplkm km="21.0123"/>
+<FplAbf Abf="1957-07-10 14:01:00"/>
 </FplZeile>
 <FplZeile FplRglGgl="2" FplLaufweg="7909.6152" FahrstrStrecke="1730a">
 <p X="-8397.4492" Y="-1215.9138" Z="60.4103"/>
 <FplName FplNameText="Üst Ramhorst"/>
 <Fplkm km="21.0076"/>
+<FplAbf Abf="1957-07-10 14:01:00"/>
 </FplZeile>
 <FplZeile FplRglGgl="3" FplLaufweg="7909.896" FahrstrStrecke="1730a">
 <p X="-8354.9805" Y="-1217.7709" Z="60.4048"/>
@@ -166,7 +168,7 @@
 <p X="-8157.2461" Y="-1249.7738" Z="60.3597"/>
 <Fplkm km="21.2501" FplSprung="1" FplkmNeu="21.0156"/>
 </FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="11448.0029" FahrstrStrecke="1730a">
+<FplZeile FplRglGgl="3" FplLaufweg="11448.0039" FahrstrStrecke="1730a">
 <p X="-4851.7324" Y="-1713.1908" Z="64.7222"/>
 <FplSignaltyp FplSignaltypNr="13"/>
 <Fplkm km="24.3535"/>
@@ -176,12 +178,7 @@
 <FplSignaltyp FplSignaltypNr="7"/>
 <Fplkm km="24.361"/>
 </FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="12709.3506" FahrstrStrecke="1730a">
-<p X="-3644.8594" Y="-1873.2068" Z="67.0251"/>
-<FplvMax vMax="11.1111"/>
-<Fplkm km="25.5999"/>
-</FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="12906.7256" FahrstrStrecke="1730a">
+<FplZeile FplLaufweg="12906.7256">
 <p X="-3449.5605" Y="-1915.5208" Z="67.5704"/>
 <FplName FplNameText="Hämelerwald"/>
 <FplIcon FplIconNr="17"/>
@@ -189,17 +186,12 @@
 <FplAnk Ank="1957-07-10 14:06:00"/>
 <FplAbf Abf="1957-07-10 14:07:00"/>
 </FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="13171.1533" FahrstrStrecke="1730a">
-<p X="-3189.6406" Y="-1948.2328" Z="67.8799"/>
-<FplvMax vMax="38.8889"/>
-<Fplkm km="26.0314"/>
-</FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="13483.1348" FahrstrStrecke="1730a">
+<FplZeile FplLaufweg="13483.1348">
 <p X="-2878.8325" Y="-1996.2307" Z="67.8799"/>
 <FplIcon FplIconNr="17"/>
 <Fplkm km="26.3465"/>
 </FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="13546.5498" FahrstrStrecke="1730a">
+<FplZeile FplLaufweg="13546.5498">
 <p X="-2816.042" Y="-2005.1108" Z="67.996"/>
 <FplSignaltyp FplSignaltypNr="9"/>
 <Fplkm km="26.41"/>
@@ -211,7 +203,7 @@
 <FplAnk Ank="1957-07-10 14:13:00"/>
 <FplAbf Abf="1957-07-10 14:14:00"/>
 </FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="17706.6133" FahrstrStrecke="1730a">
+<FplZeile FplRglGgl="3" FplLaufweg="17658.6055" FahrstrStrecke="1730a">
 <p X="736.2905" Y="-4057.8054" Z="68.1725"/>
 <FplSignaltyp FplSignaltypNr="13"/>
 <Fplkm km="30.5608"/>
@@ -221,24 +213,36 @@
 <FplSignaltyp FplSignaltypNr="7"/>
 <Fplkm km="30.5899"/>
 </FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="19044.2988" FahrstrStrecke="1730a">
+<FplZeile FplLaufweg="19044.2988">
 <p X="1929.4023" Y="-4670.9673" Z="67.0801"/>
 <FplSignaltyp FplSignaltypNr="9"/>
 <Fplkm km="31.9024"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="21669.3164" FahrstrStrecke="207">
+<p X="4369.6431" Y="-5794.1094" Z="67.2174"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="34.6"/>
 </FplZeile>
 <FplZeile FplRglGgl="2" FplLaufweg="21742.6738" FahrstrStrecke="207">
 <p X="4369.6431" Y="-5794.1094" Z="67.2174"/>
 <FplSignaltyp FplSignaltypNr="7"/>
 <Fplkm km="34.6"/>
 </FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="22378.6152" FahrstrStrecke="207">
+<FplZeile FplLaufweg="22378.6152">
 <p X="5004.6211" Y="-5775.2349" Z="68"/>
 <FplName FplNameText="Peine"/>
 <Fplkm km="35.2358"/>
 <FplAnk Ank="1957-07-10 14:19:00"/>
 <FplAbf Abf="1957-07-10 14:21:00"/>
 </FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="23348.4863" FahrstrStrecke="207">
+<FplZeile FplLaufweg="23273.1973">
+<p X="5896.165" Y="-5839.439" Z="69.3053"/>
+<FplName FplNameText="PeineFdlPo"/>
+<Fplkm km="36.1308"/>
+<FplAnk Ank="1957-07-10 14:24:00"/>
+<FplAbf Abf="1957-07-10 14:25:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="23348.4863">
 <p X="5969.6382" Y="-5855.8398" Z="69.4"/>
 <FplSignaltyp FplSignaltypNr="9"/>
 <Fplkm km="36.2061"/>

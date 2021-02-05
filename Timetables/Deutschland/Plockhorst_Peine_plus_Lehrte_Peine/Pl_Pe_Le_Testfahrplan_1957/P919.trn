@@ -2,41 +2,38 @@
 <Zusi>
 <Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
 <AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
-<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="jurgen.wagner.edemissen@htp-tel.de"/>
 </Info>
 <Zug Gattung="P" Nummer="919" Zuglauf="Hannover - Helmstedt" Prio="1500" BremsstellungZug="2" spAnfang="13.8889" FahrplanGruppe="207       Hannover - Braunschweig - Helmstedt" Rekursionstiefe="5" FahrstrName="Sbk 639 639 -&gt; Lehrte West A" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
 <Datei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
 <BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957\P919.timetable.xml"/>
-<FahrplanEintrag Ank="1957-07-10 09:53:00" Abf="1957-07-10 09:54:00" Betrst="Lehrte West">
+<FahrplanEintrag Ank="1957-07-10 09:53:00" Abf="1957-07-10 09:53:00" Betrst="Lehrte West">
 <FahrplanSignalEintrag FahrplanSignal="A"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanEintrag Abf="1957-07-10 09:56:00" Betrst="Lehrte Pbf">
 <FahrplanSignalEintrag FahrplanSignal="T330"/>
 </FahrplanEintrag>
 <FahrplanEintrag Ank="1957-07-10 09:57:00" Abf="1957-07-10 09:59:00" Betrst="Lehrte Pbf">
 <FahrplanSignalEintrag FahrplanSignal="X002"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanEintrag Abf="1957-07-10 10:01:00" Betrst="Lehrte Pbf">
 <FahrplanSignalEintrag FahrplanSignal="Q700"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Lehrte Pbf">
+<FahrplanEintrag Abf="1957-07-10 10:03:00" Betrst="Lehrte Pbf">
 <FahrplanSignalEintrag FahrplanSignal="Y860"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Üst Ramhorst">
+<FahrplanEintrag Abf="1957-07-10 10:05:00" Betrst="Üst Ramhorst">
 <FahrplanSignalEintrag FahrplanSignal="955"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Hämelerwald">
+<FahrplanEintrag Abf="1957-07-10 10:07:00" Betrst="Hämelerwald">
 <FahrplanSignalEintrag FahrplanSignal="A"/>
-</FahrplanEintrag>
-<FahrplanEintrag Betrst="Hämelerwald">
-<FahrplanSignalEintrag FahrplanSignal="Ve_Reg_Frg"/>
+<FahrplanFahrstrasseEintrag FahrplanFahrstrasse="Hämelerwald A -&gt; Hämelerwald E"/>
 </FahrplanEintrag>
 <FahrplanEintrag Ank="1957-07-10 10:08:00" Abf="1957-07-10 10:09:00" Betrst="Hämelerwald"/>
-<FahrplanEintrag Betrst="Vöhrum">
+<FahrplanEintrag Abf="1957-07-10 10:13:00" Betrst="Vöhrum">
 <FahrplanSignalEintrag FahrplanSignal="A"/>
 </FahrplanEintrag>
 <FahrplanEintrag Ank="1957-07-10 10:14:00" Abf="1957-07-10 10:15:00" Betrst="Vöhrum"/>
-<FahrplanEintrag Betrst="Peine">
+<FahrplanEintrag Abf="1957-07-10 10:20:00" Betrst="Peine">
 <FahrplanSignalEintrag FahrplanSignal="A"/>
 </FahrplanEintrag>
 <FahrplanEintrag Ank="1957-07-10 10:21:00" Abf="1957-07-10 10:23:00" Betrst="Peine"/>

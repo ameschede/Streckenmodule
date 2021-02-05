@@ -2,9 +2,8 @@
 <Zusi>
 <Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
 <AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
-<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="jurgen.wagner.edemissen@htp-tel.de"/>
 </Info>
-<Zug Gattung="E" Nummer="123" Zuglauf="Köln - Braunschweig" Prio="1500" BremsstellungZug="2" spAnfang="13.8889" FahrplanGruppe="207       Hannover - Braunschweig - Helmstedt" Rekursionstiefe="5" FahrstrName="Sbk 639 639 -&gt; Lehrte West A" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
+<Zug Gattung="E" Nummer="123" Zuglauf="Köln - Braunschweig" Prio="2500" BremsstellungZug="2" spAnfang="13.8889" FahrplanGruppe="207       Hannover - Braunschweig - Helmstedt" Rekursionstiefe="5" FahrstrName="Sbk 639 639 -&gt; Lehrte West A" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
 <Datei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
 <BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957\E123.timetable.xml"/>
 <FahrplanEintrag Ank="1957-07-10 13:30:00" Abf="1957-07-10 13:31:00" Betrst="Lehrte West">
@@ -22,13 +21,14 @@
 <FahrplanEintrag Betrst="Lehrte Pbf">
 <FahrplanSignalEintrag FahrplanSignal="Y860"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Üst Ramhorst">
+<FahrplanEintrag Abf="1957-07-10 13:40:00" Betrst="Üst Ramhorst">
 <FahrplanSignalEintrag FahrplanSignal="955"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Hämelerwald">
-<FahrplanSignalEintrag FahrplanSignal="Ve_Reg_Frg"/>
+<FahrplanEintrag Abf="1957-07-10 13:44:00" Betrst="Hämelerwald">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+<FahrplanFahrstrasseEintrag FahrplanFahrstrasse="Hämelerwald A -&gt; Hämelerwald E"/>
 </FahrplanEintrag>
-<FahrplanEintrag Betrst="Vöhrum">
+<FahrplanEintrag Abf="1957-07-10 13:48:00" Betrst="Vöhrum">
 <FahrplanSignalEintrag FahrplanSignal="A"/>
 </FahrplanEintrag>
 <FahrplanEintrag Betrst="Peine">

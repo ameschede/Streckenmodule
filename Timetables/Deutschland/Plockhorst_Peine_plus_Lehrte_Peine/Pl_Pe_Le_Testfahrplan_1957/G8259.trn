@@ -2,7 +2,6 @@
 <Zusi>
 <Info DateiTyp="Zug" Version="A.2" MinVersion="A.1">
 <AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="juergen.wagner.edemissen@htp-tel.de"/>
-<AutorEintrag AutorID="96" AutorName="Jürgen Wagner" AutorEmail="jurgen.wagner.edemissen@htp-tel.de"/>
 </Info>
 <Zug Gattung="G" Nummer="8259" Zuglauf="Hannover - Wolfsburg" Prio="1500" Standortmodus="1" BremsstellungZug="2" FahrplanGruppe="208       Vorsfelde - Hannover: Güterzüge" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Plockhorst uB F" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_1979.dll">
 <Datei Dateiname="Timetables\Deutschland\Plockhorst_Peine_plus_Lehrte_Peine\Pl_Pe_Le_Testfahrplan_1957.fpn" NurInfo="1"/>
@@ -20,8 +19,8 @@
 <FahrzeugInfo IDHaupt="4" IDNeben="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V100_Familie\V100.10.rv.fzg"/>
 </FahrzeugInfo>
-<FahrzeugInfo IDHaupt="3" IDNeben="1">
-<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Offs59\Offs59.rv.fzg"/>
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V100_Familie\V100.10.rv.fzg"/>
 </FahrzeugInfo>
 <FahrzeugInfo IDHaupt="3" IDNeben="1">
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Offs59\Offs59.rv.fzg"/>

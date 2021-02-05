@@ -6,7 +6,7 @@
 <Strecke Himmelsmodell="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.ls3"/>
 <HintergrundDatei/>
-<BefehlsKonfiguration/>
+<BefehlsKonfiguration Dateiname="Signals\Deutschland\Befehle\DB408_1983.authority.xml"/>
 <Kachelpfad Dateiname="Kacheln_1960\" NurInfo="1"/>
 <UTM UTM_WE="579" UTM_NS="5799" UTM_Zone="32" UTM_Zone2="U"/>
 <Huellkurve>
@@ -350,6 +350,19 @@
 <ReferenzElemente ReferenzNr="298" StrElement="22" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="299" StrElement="22" StrNorm="1" RefTyp="2" Info="Register-Nr. 5003"/>
 <ReferenzElemente ReferenzNr="300" StrElement="22" RefTyp="2" Info="Register-Nr. 5003"/>
+<ReferenzElemente ReferenzNr="301" StrElement="146" StrNorm="1" RefTyp="4" Info="Signal: Vöhrum B\"/>
+<ReferenzElemente ReferenzNr="302" StrElement="146" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="303" StrElement="146" StrNorm="1" RefTyp="2" Info="Register-Nr. 5012"/>
+<ReferenzElemente ReferenzNr="304" StrElement="146" RefTyp="2" Info="Register-Nr. 5012"/>
+<ReferenzElemente ReferenzNr="305" StrElement="187" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="306" StrElement="187" StrNorm="1" RefTyp="2" Info="Register-Nr. 5013"/>
+<ReferenzElemente ReferenzNr="307" StrElement="187" RefTyp="2" Info="Register-Nr. 5013"/>
+<ReferenzElemente ReferenzNr="308" StrElement="188" RefTyp="4" Info="Signal: Vöhrum H\"/>
+<ReferenzElemente ReferenzNr="309" StrElement="188" StrNorm="1" RefTyp="2" Info="Register-Nr. 5014"/>
+<ReferenzElemente ReferenzNr="310" StrElement="188" RefTyp="2" Info="Register-Nr. 5014"/>
+<ReferenzElemente ReferenzNr="311" StrElement="725" StrNorm="1" RefTyp="4" Info="Signal: Vöhrum B\"/>
+<ReferenzElemente ReferenzNr="312" StrElement="725" StrNorm="1" RefTyp="2" Info="Register-Nr. 5052"/>
+<ReferenzElemente ReferenzNr="313" StrElement="725" RefTyp="2" Info="Register-Nr. 5052"/>
 <StrElement Nr="1" spTrass="38.8889" Oberbau="Holz K-Oberbau">
 <g X="3244.1189" Y="-1337.201" Z="66.36"/>
 <b X="3229.6882" Y="-1329.8391" Z="66.36"/>
@@ -561,25 +574,7 @@
 <StrElement Nr="17" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="2589.325" Y="-1003.1509" Z="67.0801"/>
 <b X="2559.0386" Y="-987.6999" Z="67.0801"/>
-<InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" SignalTyp="1" BoundingR="10">
-<p X="2560.4473" Y="-984.9385" Z="67.0801"/>
-<phi Z="2.669848"/>
-<SignalFrame>
-<p Z="2.4"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="0.8"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_3.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
-</Signal>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="-1"/>
 <InfoGegenRichtung vMax="38.8889" km="32.6072" pos="1">
 <Ereignis Er="1000027" Wert="207" Beschr="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3"/>
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="Bue_32_6" SignalTyp="14" BoundingR="1">
@@ -601,25 +596,7 @@
 <StrElement Nr="18" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="2506.698" Y="-960.9977" Z="67.0801"/>
 <b X="2491.5547" Y="-953.2722" Z="67.0801"/>
-<InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" SignalTyp="1" BoundingR="10">
-<p X="2492.9634" Y="-950.5108" Z="67.0801"/>
-<phi Z="2.669852"/>
-<SignalFrame>
-<p Z="0.8"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_2.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="2.4"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
-</Signal>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="-1"/>
 <InfoGegenRichtung vMax="38.8889" km="32.5314" pos="1"/>
 <NachNorm Nr="1807"/>
 <NachGegen Nr="1808"/>
@@ -628,7 +605,10 @@
 <g X="2424.071" Y="-918.8448" Z="67.0801"/>
 <b X="2341.4441" Y="-876.6915" Z="67.0801"/>
 <InfoNormRichtung vMax="38.8889" km="32.4556"/>
-<InfoGegenRichtung vMax="38.8889" km="32.3629" pos="1"/>
+<InfoGegenRichtung vMax="38.8889" km="32.3629" pos="1">
+<Ereignis Er="22"/>
+<Ereignis Er="28" Beschr="1730a"/>
+</InfoGegenRichtung>
 <NachNorm Nr="20"/>
 <NachGegen Nr="1807"/>
 </StrElement>
@@ -636,9 +616,9 @@
 <g X="2341.4441" Y="-876.6915" Z="67.0801"/>
 <b X="2338.8608" Y="-875.3737" Z="67.0801"/>
 <InfoNormRichtung vMax="38.8889" Reg="5001">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="K" SignalTyp="7" BoundingR="10">
+<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="K" SignalTyp="7" BoundingR="10">
 <p X="2340.3149" Y="-872.5232" Z="66.5801"/>
-<phi Z="2.669869"/>
+<phi Z="2.669868"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -1310,13 +1290,13 @@
 <MatrixEintrag Signalbild="257575205" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="257575205" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="255478053" MatrixGeschw="-1"/>
-<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000050D">
+<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000501">
 <MatrixEintrag Signalbild="253306003" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010501">
 <MatrixEintrag Signalbild="253306003" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
 <Ereignis Er="28" Wert="20"/>
@@ -1358,25 +1338,7 @@
 <StrElement Nr="24" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1618.7039" Y="-507.9785" Z="67.4904"/>
 <b X="1608.0145" Y="-502.5252" Z="67.5054"/>
-<InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" SignalTyp="1" BoundingR="10">
-<p X="1609.4233" Y="-499.7638" Z="67.5054"/>
-<phi Z="2.669847"/>
-<SignalFrame>
-<p Z="2.4"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="0.8"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_3.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
-</Signal>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="-1"/>
 <InfoGegenRichtung vMax="38.8889" km="31.5395" pos="1"/>
 <NachNorm Nr="1806"/>
 <NachGegen Nr="23"/>
@@ -1384,28 +1346,8 @@
 <StrElement Nr="25" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1530.425" Y="-462.9417" Z="67.6139"/>
 <b X="1471.6338" Y="-432.9488" Z="67.6961"/>
-<InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" SignalTyp="1" BoundingR="10">
-<p X="1473.0425" Y="-430.1874" Z="67.6961"/>
-<phi Z="2.669851"/>
-<SignalFrame>
-<p Z="2.4"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="0.8"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_1.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
-</Signal>
-</InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="31.3864" pos="1">
-<Ereignis Er="28" Beschr="1730a"/>
-</InfoGegenRichtung>
+<InfoNormRichtung vMax="-1"/>
+<InfoGegenRichtung vMax="38.8889" km="31.3864" pos="1"/>
 <NachNorm Nr="1804"/>
 <NachGegen Nr="1805"/>
 </StrElement>
@@ -2281,13 +2223,13 @@
 <MatrixEintrag Signalbild="15013" MatrixGeschw="-1"/>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000050D">
 <MatrixEintrag Signalbild="14739" MatrixGeschw="11.1111">
-<Ereignis Er="32" Wert="200"/>
+<Ereignis Er="32" Wert="285"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
 <MatrixEintrag Signalbild="14739" MatrixGeschw="11.1111">
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="285"/>
 <Ereignis Er="28" Wert="11"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
@@ -2510,7 +2452,10 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="32.3629" pos="1" Reg="5006"/>
+<InfoGegenRichtung vMax="38.8889" km="32.3629" pos="1" Reg="5006">
+<Ereignis Er="22"/>
+<Ereignis Er="39" Beschr="1730a"/>
+</InfoGegenRichtung>
 <NachNorm Nr="52"/>
 <NachGegen Nr="50"/>
 </StrElement>
@@ -2589,12 +2534,8 @@
 <StrElement Nr="57" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1528.6071" Y="-466.5048" Z="67.6139"/>
 <b X="1440.328" Y="-421.468" Z="67.7374"/>
-<InfoNormRichtung vMax="38.8889" km="31.4524">
-<Ereignis Er="28" Beschr="1730b"/>
-</InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="31.3533" pos="1">
-<Ereignis Er="39" Beschr="1730a"/>
-</InfoGegenRichtung>
+<InfoNormRichtung vMax="38.8889" km="31.4524"/>
+<InfoGegenRichtung vMax="38.8889" km="31.3533" pos="1"/>
 <NachNorm Nr="58"/>
 <NachGegen Nr="56"/>
 </StrElement>
@@ -3400,10 +3341,11 @@
 <StrElement Nr="146" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="298.2937" Y="160.5907" Z="68.3588"/>
 <b X="236.8516" Y="191.936" Z="68.3851"/>
-<InfoNormRichtung vMax="38.8889" km="30.0715">
+<InfoNormRichtung vMax="38.8889" km="30.0715" Reg="5012">
 <Ereignis Er="28" Beschr="1730b"/>
+<Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="30.0025" pos="1">
+<InfoGegenRichtung vMax="38.8889" km="30.0025" pos="1" Reg="5012">
 <Ereignis Er="39" Beschr="1730a"/>
 </InfoGegenRichtung>
 <NachNorm Nr="147"/>
@@ -3920,16 +3862,68 @@
 <StrElement Nr="187" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="2030.7581" Y="-718.1918" Z="67.0801"/>
 <b X="1949.814" Y="-676.8977" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="32.0141"/>
-<InfoGegenRichtung vMax="38.8889" km="31.9232" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="32.0141" Reg="5013"/>
+<InfoGegenRichtung vMax="38.8889" km="31.9232" pos="1" Reg="5013">
+<Ereignis Er="4"/>
+</InfoGegenRichtung>
 <NachNorm Nr="188"/>
 <NachGegen Nr="186"/>
 </StrElement>
 <StrElement Nr="188" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1949.814" Y="-676.8977" Z="67.0801"/>
 <b X="1914.704" Y="-658.9861" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="31.9232"/>
-<InfoGegenRichtung vMax="38.8889" km="31.8838" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="31.9232" Reg="5014"/>
+<InfoGegenRichtung vMax="38.8889" km="31.8838" pos="1" Reg="5014">
+<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="H\" SignalTyp="13" BoundingR="10">
+<p X="1949.814" Y="-676.8977" Z="67.0801"/>
+<phi Z="5.811446"/>
+<SignalFrame>
+<p/>
+<phi Z="-3.141592"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Schutzhaltsignale\sh2_tafel.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
+<HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="32" Wert="500" Beschr="710"/>
+</MatrixEintrag>
+<MatrixEintrag>
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag MatrixGeschw="6.9444">
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1">
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="32" Wert="500" Beschr="10710"/>
+<Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000710">
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="32" Wert="500"/>
+</MatrixEintrag>
+</Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="01010710">
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="1"/>
+<Ereignis Er="32" Wert="500"/>
+</MatrixEintrag>
+</Ersatzsignal>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="189"/>
 <NachGegen Nr="187"/>
 </StrElement>
@@ -3984,7 +3978,7 @@
 <StrElement Nr="195" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="2148.7529" Y="-778.3887" Z="67.0801"/>
 <b X="2147.6841" Y="-777.8433" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="32.1465" pos="1" Reg="5012">
+<InfoNormRichtung vMax="38.8889" km="32.1465" pos="1" Reg="5015">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" Signalname="28" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="2148.7529" Y="-778.3887" Z="67.0801"/>
 <phi Z="2.669848"/>
@@ -4035,7 +4029,7 @@
 <MatrixEintrag Signalbild="461" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="32.1453" pos="1" Reg="5012"/>
+<InfoGegenRichtung vMax="38.8889" km="32.1453" pos="1" Reg="5015"/>
 <NachNorm Nr="196"/>
 <NachNorm Nr="197"/>
 <NachGegen Nr="22"/>
@@ -4159,9 +4153,7 @@
 <StrElement Nr="209" spTrass="38.8889" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="2110.981" Y="-761.0575" Z="67.0801"/>
 <b X="2104.9241" Y="-758.5682" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="32.105">
-<Ereignis Er="21"/>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="38.8889" km="32.105"/>
 <InfoGegenRichtung vMax="38.8889" km="32.0985" pos="1"/>
 <NachNorm Nr="219"/>
 <NachGegen Nr="203"/>
@@ -4177,7 +4169,7 @@
 <StrElement Nr="211" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="2067.1509" Y="-741.238" Z="67.0801"/>
 <b X="2068.22" Y="-741.7833" Z="67.0801"/>
-<InfoNormRichtung vMax="-1" km="32.057" pos="1" Reg="5013">
+<InfoNormRichtung vMax="-1" km="32.057" pos="1" Reg="5016">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="27" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="2067.1509" Y="-741.238" Z="67.0801"/>
 <phi Z="-0.471719"/>
@@ -4223,7 +4215,7 @@
 <MatrixEintrag Signalbild="205" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="32.0582" Reg="5013"/>
+<InfoGegenRichtung vMax="-1" km="32.0582" Reg="5016"/>
 <NachNorm Nr="212"/>
 <NachNorm Nr="213"/>
 <NachGegen Nr="54"/>
@@ -4347,7 +4339,9 @@
 <StrElement Nr="225" spTrass="38.8889" Oberbau="Holz K-Oberbau">
 <g X="1987.7072" Y="-705.7628" Z="67.0801"/>
 <b X="1969.827" Y="-696.6418" Z="67.0801"/>
-<InfoNormRichtung vMax="11.1111" km="31.9701"/>
+<InfoNormRichtung vMax="11.1111" km="31.9701">
+<Ereignis Er="21"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="11.1111" km="31.95" pos="1"/>
 <NachNorm Nr="375"/>
 <NachGegen Nr="359"/>
@@ -5294,8 +5288,8 @@
 <StrElement Nr="340" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="2025.765" Y="-720.1257" Z="67.0801"/>
 <b X="1945.615" Y="-679.2388" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="32.0105" Reg="5014"/>
-<InfoGegenRichtung vMax="38.8889" km="31.9205" pos="1" Reg="5014">
+<InfoNormRichtung vMax="38.8889" km="32.0105" Reg="5017"/>
+<InfoGegenRichtung vMax="38.8889" km="31.9205" pos="1" Reg="5017">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="341"/>
@@ -5304,8 +5298,8 @@
 <StrElement Nr="341" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1945.615" Y="-679.2388" Z="67.0801"/>
 <b X="1929.4026" Y="-670.9684" Z="67.0801"/>
-<InfoNormRichtung vMax="-1" Reg="5015"/>
-<InfoGegenRichtung vMax="38.8889" km="31.9023" pos="1" Reg="5015">
+<InfoNormRichtung vMax="-1" Reg="5018"/>
+<InfoGegenRichtung vMax="38.8889" km="31.9023" pos="1" Reg="5018">
 <Ereignis Er="3"/>
 </InfoGegenRichtung>
 <NachNorm Nr="719"/>
@@ -5354,7 +5348,7 @@
 <StrElement Nr="347" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="2055.3669" Y="-735.2265" Z="67.0801"/>
 <b X="2053.7629" Y="-734.4086" Z="67.0801"/>
-<InfoNormRichtung vMax="-1" km="32.0437" pos="1" Reg="5016">
+<InfoNormRichtung vMax="-1" km="32.0437" pos="1" Reg="5019">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="25" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="2055.3669" Y="-735.2265" Z="67.0801"/>
 <phi Z="2.669874"/>
@@ -5390,7 +5384,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="32.0419" pos="1" Reg="5016"/>
+<InfoGegenRichtung vMax="-1" km="32.0419" pos="1" Reg="5019"/>
 <NachNorm Nr="348"/>
 <NachNorm Nr="350"/>
 <NachGegen Nr="54"/>
@@ -5526,7 +5520,7 @@
 <StrElement Nr="359" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1987.7072" Y="-705.7628" Z="67.0801"/>
 <b X="1989.3101" Y="-706.5807" Z="67.0801"/>
-<InfoNormRichtung vMax="11.1111" km="31.9701" pos="1" Reg="5017">
+<InfoNormRichtung vMax="11.1111" km="31.9701" pos="1" Reg="5020">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="24" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="1987.7072" Y="-705.7628" Z="67.0801"/>
 <phi Z="-0.47172"/>
@@ -5562,7 +5556,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.9719" Reg="5017"/>
+<InfoGegenRichtung vMax="11.1111" km="31.9719" Reg="5020"/>
 <NachNorm Nr="360"/>
 <NachNorm Nr="362"/>
 <NachGegen Nr="225"/>
@@ -5654,8 +5648,8 @@
 <StrElement Nr="369" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1940.225" Y="-681.541" Z="67.0801"/>
 <b X="1910.844" Y="-666.5529" Z="67.0801"/>
-<InfoNormRichtung vMax="11.1111" km="31.9168" Reg="5018"/>
-<InfoGegenRichtung vMax="11.1111" km="31.8838" pos="1" Reg="5018">
+<InfoNormRichtung vMax="11.1111" km="31.9168" Reg="5021"/>
+<InfoGegenRichtung vMax="11.1111" km="31.8838" pos="1" Reg="5021">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="370"/>
@@ -5704,7 +5698,7 @@
 <StrElement Nr="375" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1969.827" Y="-696.6418" Z="67.0801"/>
 <b X="1968.2241" Y="-695.8239" Z="67.0801"/>
-<InfoNormRichtung vMax="11.1111" km="31.95" pos="1" Reg="5019">
+<InfoNormRichtung vMax="11.1111" km="31.95" pos="1" Reg="5022">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="23" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="1969.827" Y="-696.6418" Z="67.0801"/>
 <phi Z="2.669874"/>
@@ -5740,7 +5734,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.9482" pos="1" Reg="5019"/>
+<InfoGegenRichtung vMax="11.1111" km="31.9482" pos="1" Reg="5022"/>
 <NachNorm Nr="376"/>
 <NachNorm Nr="378"/>
 <NachGegen Nr="225"/>
@@ -5842,7 +5836,7 @@
 <StrElement Nr="386" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="2051.387" Y="-738.248" Z="67.0801"/>
 <b X="2049.783" Y="-737.4301" Z="67.0801"/>
-<InfoNormRichtung vMax="11.1111" km="32.0416" pos="1" Reg="5020">
+<InfoNormRichtung vMax="11.1111" km="32.0416" pos="1" Reg="5023">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="26" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="2051.387" Y="-738.248" Z="67.0801"/>
 <phi Z="2.669868"/>
@@ -5878,7 +5872,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="32.0398" pos="1" Reg="5020"/>
+<InfoGegenRichtung vMax="11.1111" km="32.0398" pos="1" Reg="5023"/>
 <NachNorm Nr="387"/>
 <NachNorm Nr="389"/>
 <NachGegen Nr="358"/>
@@ -6066,7 +6060,7 @@
 <StrElement Nr="408" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1369.47" Y="-395.4372" Z="67.8309"/>
 <b X="1304.175" Y="-362.1288" Z="67.9223"/>
-<InfoNormRichtung vMax="11.1111" Reg="5021">
+<InfoNormRichtung vMax="11.1111" Reg="5024">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="Hs4" SignalTyp="5" BoundingR="10">
 <p X="1305.1975" Y="-360.1245" Z="67.9223"/>
 <phi Z="2.669881"/>
@@ -6102,7 +6096,7 @@
 <MatrixEintrag Signalbild="62" MatrixGeschw="6.9444"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.2051" pos="1" Reg="5021">
+<InfoGegenRichtung vMax="11.1111" km="31.2051" pos="1" Reg="5024">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="728"/>
@@ -6183,7 +6177,7 @@
 <StrElement Nr="418" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1470.6899" Y="-452.1204" Z="67.6864"/>
 <b X="1394.577" Y="-413.2925" Z="67.7929"/>
-<InfoNormRichtung vMax="11.1111" km="31.3943" Reg="5022">
+<InfoNormRichtung vMax="11.1111" km="31.3943" Reg="5025">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="Leerwagen" SignalTyp="14" BoundingR="50">
 <p X="1407.9388" Y="-420.1088" Z="67.7929"/>
 <phi Z="2.66987"/>
@@ -6232,19 +6226,19 @@
 <phi/>
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Omm55\3D_Dateien\db_Omm55.lod.ls3"/>
 </SignalFrame>
-<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="511"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.3088" pos="1" Reg="5022"/>
+<InfoGegenRichtung vMax="11.1111" km="31.3088" pos="1" Reg="5025"/>
 <NachNorm Nr="419"/>
 <NachGegen Nr="417"/>
 </StrElement>
 <StrElement Nr="419" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1394.577" Y="-413.2925" Z="67.7929"/>
 <b X="1338.6355" Y="-384.7552" Z="67.8712"/>
-<InfoNormRichtung vMax="11.1111" Reg="5023">
+<InfoNormRichtung vMax="11.1111" Reg="5026">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="Hs5" SignalTyp="5" BoundingR="10">
 <p X="1339.658" Y="-382.7509" Z="67.8712"/>
 <phi Z="2.669876"/>
@@ -6280,7 +6274,7 @@
 <MatrixEintrag Signalbild="62" MatrixGeschw="6.9444"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.246" pos="1" Reg="5023"/>
+<InfoGegenRichtung vMax="11.1111" km="31.246" pos="1" Reg="5026"/>
 <NachNorm Nr="729"/>
 <NachGegen Nr="418"/>
 </StrElement>
@@ -6375,7 +6369,7 @@
 <StrElement Nr="431" spTrass="11.1111" Oberbau="Holz K-Oberbau">
 <g X="1222.9" Y="-315.6111" Z="68.0388"/>
 <b X="1217.83" Y="-313.0248" Z="68.0459"/>
-<InfoNormRichtung vMax="11.1111" km="31.1115" Reg="5024">
+<InfoNormRichtung vMax="11.1111" km="31.1115" Reg="5027">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="D" SignalTyp="9" BoundingR="20">
 <p X="1218.9659" Y="-310.7978" Z="68.0459"/>
 <phi Z="2.669888"/>
@@ -6454,7 +6448,7 @@
 <Ereignis Er="32" Wert="70"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
 <MatrixEintrag Signalbild="6547" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
 <Ereignis Er="28" Wert="11"/>
@@ -6462,7 +6456,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.1058" pos="1" Reg="5024"/>
+<InfoGegenRichtung vMax="11.1111" km="31.1058" pos="1" Reg="5027"/>
 <NachNorm Nr="432"/>
 <NachGegen Nr="462"/>
 </StrElement>
@@ -6477,10 +6471,10 @@
 <StrElement Nr="433" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1215.054" Y="-311.6085" Z="68.0488"/>
 <b X="1212.2769" Y="-310.1921" Z="68.0498"/>
-<InfoNormRichtung vMax="11.1111" km="31.1027" Reg="5025">
+<InfoNormRichtung vMax="11.1111" km="31.1027" Reg="5028">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.0996" pos="1" Reg="5025"/>
+<InfoGegenRichtung vMax="11.1111" km="31.0996" pos="1" Reg="5028"/>
 <NachNorm Nr="434"/>
 <NachGegen Nr="432"/>
 </StrElement>
@@ -6518,7 +6512,7 @@
 <StrElement Nr="438" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1211.2" Y="-309.6426" Z="68.0498"/>
 <b X="1209.597" Y="-308.8246" Z="68.0498"/>
-<InfoNormRichtung vMax="11.1111" km="31.0984" pos="1" Reg="5026">
+<InfoNormRichtung vMax="11.1111" km="31.0984" pos="1" Reg="5029">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="9" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="1211.2" Y="-309.6426" Z="68.0498"/>
 <phi Y="-0.000002" Z="2.669874"/>
@@ -6559,7 +6553,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.0965" pos="1" Reg="5026"/>
+<InfoGegenRichtung vMax="11.1111" km="31.0965" pos="1" Reg="5029"/>
 <NachNorm Nr="439"/>
 <NachNorm Nr="441"/>
 <NachGegen Nr="434"/>
@@ -6731,8 +6725,8 @@
 <StrElement Nr="458" kr="-0.001936" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1931.9561" Y="-680.3733" Z="67.0801"/>
 <b X="1926.9591" Y="-678.4398" Z="67.0801"/>
-<InfoNormRichtung vMax="11.1111" km="31.9089" Reg="5027"/>
-<InfoGegenRichtung vMax="11.1111" km="31.9035" pos="1" Reg="5027">
+<InfoNormRichtung vMax="11.1111" km="31.9089" Reg="5030"/>
+<InfoGegenRichtung vMax="11.1111" km="31.9035" pos="1" Reg="5030">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="459"/>
@@ -6756,7 +6750,7 @@
 <StrElement Nr="461" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1322.553" Y="-366.4476" Z="67.8994"/>
 <b X="1263.4047" Y="-336.2742" Z="67.9821"/>
-<InfoNormRichtung vMax="11.1111" Reg="5028">
+<InfoNormRichtung vMax="11.1111" Reg="5031">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="Hs3" SignalTyp="5" BoundingR="10">
 <p X="1264.4271" Y="-334.27" Z="67.9821"/>
 <phi Z="2.669874"/>
@@ -6792,7 +6786,7 @@
 <MatrixEintrag Signalbild="62" MatrixGeschw="6.9444"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.1569" pos="1" Reg="5028">
+<InfoGegenRichtung vMax="11.1111" km="31.1569" pos="1" Reg="5031">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="727"/>
@@ -6801,7 +6795,7 @@
 <StrElement Nr="462" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1222.9" Y="-315.6111" Z="68.0388"/>
 <b X="1224.5031" Y="-316.4291" Z="68.0366"/>
-<InfoNormRichtung vMax="11.1111" km="31.1115" pos="1" Reg="5029">
+<InfoNormRichtung vMax="11.1111" km="31.1115" pos="1" Reg="5032">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="10" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="1222.9" Y="-315.6111" Z="68.0388"/>
 <phi Y="0.001246" Z="-0.471721"/>
@@ -6842,7 +6836,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="31.1133" Reg="5029"/>
+<InfoGegenRichtung vMax="11.1111" km="31.1133" Reg="5032"/>
 <NachNorm Nr="463"/>
 <NachNorm Nr="465"/>
 <NachGegen Nr="431"/>
@@ -6942,7 +6936,7 @@
 <StrElement Nr="473" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1257.891" Y="-336.4585" Z="67.9881"/>
 <b X="1259.394" Y="-337.4485" Z="67.9859"/>
-<InfoNormRichtung vMax="-1" km="31.1521" pos="1" Reg="5030">
+<InfoNormRichtung vMax="-1" km="31.1521" pos="1" Reg="5033">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="11" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="1257.891" Y="-336.4585" Z="67.9881"/>
 <phi Y="0.001237" Z="-0.582376"/>
@@ -6983,7 +6977,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="31.1539" Reg="5030"/>
+<InfoGegenRichtung vMax="-1" km="31.1539" Reg="5033"/>
 <NachNorm Nr="474"/>
 <NachNorm Nr="476"/>
 <NachGegen Nr="472"/>
@@ -7204,7 +7198,7 @@
 <StrElement Nr="499" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1147.421" Y="-272.0385" Z="68.0499"/>
 <b X="1149.024" Y="-272.8565" Z="68.0499"/>
-<InfoNormRichtung vMax="-1" km="31.0245" pos="1" Reg="5031">
+<InfoNormRichtung vMax="-1" km="31.0245" pos="1" Reg="5034">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" Signalname="8" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="1147.421" Y="-272.0385" Z="68.0499"/>
 <phi Y="0.000002" Z="-0.471743"/>
@@ -7240,7 +7234,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="31.0263" Reg="5031"/>
+<InfoGegenRichtung vMax="-1" km="31.0263" Reg="5034"/>
 <NachNorm Nr="500"/>
 <NachNorm Nr="502"/>
 <NachGegen Nr="435"/>
@@ -7340,7 +7334,7 @@
 <StrElement Nr="510" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1144.6899" Y="-270.6456" Z="68.0499"/>
 <b X="1143.0872" Y="-269.8276" Z="68.0499"/>
-<InfoNormRichtung vMax="-1" km="31.0214" pos="1" Reg="5032">
+<InfoNormRichtung vMax="-1" km="31.0214" pos="1" Reg="5035">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="7" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="1144.6899" Y="-270.6456" Z="68.0499"/>
 <phi Y="-0.000002" Z="2.669851"/>
@@ -7376,7 +7370,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="31.0196" pos="1" Reg="5032"/>
+<InfoGegenRichtung vMax="-1" km="31.0196" pos="1" Reg="5035"/>
 <NachNorm Nr="511"/>
 <NachNorm Nr="513"/>
 <NachGegen Nr="435"/>
@@ -7476,7 +7470,7 @@
 <StrElement Nr="521" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1112.316" Y="-254.1294" Z="68.0499"/>
 <b X="1111.2469" Y="-253.5841" Z="68.0499"/>
-<InfoNormRichtung vMax="-1" km="30.985" pos="1" Reg="5033">
+<InfoNormRichtung vMax="-1" km="30.985" pos="1" Reg="5036">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="6" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="1112.316" Y="-254.1294" Z="68.0499"/>
 <phi Y="-0.000002" Z="2.669853"/>
@@ -7522,7 +7516,7 @@
 <MatrixEintrag Signalbild="205" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="30.9838" pos="1" Reg="5033"/>
+<InfoGegenRichtung vMax="-1" km="30.9838" pos="1" Reg="5036"/>
 <NachNorm Nr="522"/>
 <NachNorm Nr="523"/>
 <NachGegen Nr="509"/>
@@ -7647,19 +7641,17 @@
 <g X="1076.1132" Y="-233.7214" Z="68.0499"/>
 <b X="1070.593" Y="-230.2929" Z="68.0499"/>
 <InfoNormRichtung vMax="38.8889" km="30.9435"/>
-<InfoGegenRichtung vMax="38.8889" km="30.937" pos="1">
-<Ereignis Er="21"/>
-</InfoGegenRichtung>
+<InfoGegenRichtung vMax="38.8889" km="30.937" pos="1"/>
 <NachNorm Nr="550"/>
 <NachGegen Nr="529"/>
 </StrElement>
 <StrElement Nr="536" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1353.865" Y="-372.8682" Z="67.861"/>
 <b X="1274.04" Y="-332.1443" Z="67.9727"/>
-<InfoNormRichtung vMax="38.8889" km="31.2542" Reg="5034">
+<InfoNormRichtung vMax="38.8889" km="31.2542" Reg="5037">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="31.1646" pos="1" Reg="5034"/>
+<InfoGegenRichtung vMax="38.8889" km="31.1646" pos="1" Reg="5037"/>
 <NachNorm Nr="537"/>
 <NachGegen Nr="721"/>
 </StrElement>
@@ -7706,7 +7698,7 @@
 <StrElement Nr="542" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="1034.391" Y="-209.8849" Z="68.05"/>
 <b X="1035.46" Y="-210.4302" Z="68.05"/>
-<InfoNormRichtung vMax="38.8889" km="30.8955" pos="1" Reg="5035">
+<InfoNormRichtung vMax="38.8889" km="30.8955" pos="1" Reg="5038">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="5" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="1034.3737" Y="-209.8827" Z="68.05"/>
 <phi Y="0.000002" Z="-0.471743"/>
@@ -7752,7 +7744,7 @@
 <MatrixEintrag Signalbild="205" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="30.8967" Reg="5035"/>
+<InfoGegenRichtung vMax="38.8889" km="30.8967" Reg="5038"/>
 <NachNorm Nr="543"/>
 <NachNorm Nr="544"/>
 <NachGegen Nr="27"/>
@@ -8084,7 +8076,7 @@
 <StrElement Nr="576" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="945.7932" Y="-158.8485" Z="68.0841"/>
 <b X="884.5761" Y="-127.6179" Z="68.1102"/>
-<InfoNormRichtung vMax="11.1111" km="30.7934" Reg="5036">
+<InfoNormRichtung vMax="11.1111" km="30.7934" Reg="5039">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" Signalname="Rungen_02" SignalTyp="14" BoundingR="40">
 <p X="902.3916" Y="-136.7067" Z="68.1102"/>
 <phi Z="2.669849"/>
@@ -8103,12 +8095,12 @@
 <phi/>
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\R-Wagen\Rlmms58\3D_Dateien\db_Rlmms58.lod.ls3"/>
 </SignalFrame>
-<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="7"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="30.7247" pos="1" Reg="5036"/>
+<InfoGegenRichtung vMax="11.1111" km="30.7247" pos="1" Reg="5039"/>
 <NachNorm Nr="577"/>
 <NachGegen Nr="575"/>
 </StrElement>
@@ -8522,7 +8514,7 @@
 <StrElement Nr="604" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="749.6523" Y="-64.6224" Z="68.1668"/>
 <b X="751.2557" Y="-65.4404" Z="68.1662"/>
-<InfoNormRichtung vMax="38.8889" km="30.5759" pos="1" Reg="5037">
+<InfoNormRichtung vMax="38.8889" km="30.5759" pos="1" Reg="5040">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="1" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="749.6523" Y="-64.6224" Z="68.1668"/>
 <phi Y="0.000381" Z="-0.471743"/>
@@ -8563,7 +8555,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="30.5777" Reg="5037"/>
+<InfoGegenRichtung vMax="38.8889" km="30.5777" Reg="5040"/>
 <NachNorm Nr="605"/>
 <NachNorm Nr="607"/>
 <NachGegen Nr="29"/>
@@ -9014,7 +9006,7 @@
 <StrElement Nr="638" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="685.6998" Y="-18.8173" Z="68.1964"/>
 <b X="629.8469" Y="9.676" Z="68.2203"/>
-<InfoNormRichtung vMax="11.1111" km="30.4981" Reg="5038">
+<InfoNormRichtung vMax="11.1111" km="30.4981" Reg="5041">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 43" Signalname="G_wagen" SignalTyp="14" BoundingR="30">
 <p X="631.6285" Y="8.7671" Z="68.2203"/>
 <phi Z="2.669858"/>
@@ -9028,12 +9020,12 @@
 <phi/>
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\G-Wagen\Glmms61\3D_Dateien\db_glmms61_offen.lod.ls3"/>
 </SignalFrame>
-<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="3"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="30.4354" pos="1" Reg="5038"/>
+<InfoGegenRichtung vMax="11.1111" km="30.4354" pos="1" Reg="5041"/>
 <NachGegen Nr="716"/>
 </StrElement>
 <StrElement Nr="639" spTrass="38.8889" Oberbau="Holz K-Oberbau">
@@ -9091,8 +9083,8 @@
 <StrElement Nr="642" spTrass="38.8889" Oberbau="Holz K-Oberbau">
 <g X="1155.9351" Y="-252.6656" Z="68.0499"/>
 <b X="1070.392" Y="-209.0249" Z="68.05"/>
-<InfoNormRichtung vMax="11.1111" km="31.0232" Reg="5039"/>
-<InfoGegenRichtung vMax="11.1111" km="30.9272" pos="1" Reg="5039">
+<InfoNormRichtung vMax="11.1111" km="31.0232" Reg="5042"/>
+<InfoGegenRichtung vMax="11.1111" km="30.9272" pos="1" Reg="5042">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="Rungen_01" SignalTyp="14" BoundingR="40">
 <p X="1151.8376" Y="-250.5753" Z="68.0499"/>
 <phi Z="5.811442"/>
@@ -9106,7 +9098,7 @@
 <phi/>
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\R-Wagen\Rlmms58\3D_Dateien\db_Rlmms58.lod.ls3"/>
 </SignalFrame>
-<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="3"/>
 </Signal>
@@ -9160,7 +9152,7 @@
 <StrElement Nr="645" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="960.6745" Y="-153.0513" Z="68.08"/>
 <b X="961.7434" Y="-153.5966" Z="68.0795"/>
-<InfoNormRichtung vMax="11.1111" km="30.804" pos="1" Reg="5040">
+<InfoNormRichtung vMax="11.1111" km="30.804" pos="1" Reg="5043">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="3a" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="960.6745" Y="-153.0513" Z="68.08"/>
 <phi Y="0.000381" Z="-0.471743"/>
@@ -9201,7 +9193,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="30.8052" Reg="5040"/>
+<InfoGegenRichtung vMax="11.1111" km="30.8052" Reg="5043"/>
 <NachNorm Nr="646"/>
 <NachNorm Nr="648"/>
 <NachGegen Nr="639"/>
@@ -9343,7 +9335,7 @@
 <StrElement Nr="661" kr="0.00513" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="831.6692" Y="-97.3875" Z="68.1334"/>
 <b X="832.8094" Y="-97.7614" Z="68.1329"/>
-<InfoNormRichtung vMax="11.1111" km="30.6638" pos="1" Reg="5041">
+<InfoNormRichtung vMax="11.1111" km="30.6638" pos="1" Reg="5044">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="3" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="831.6692" Y="-97.3875" Z="68.1334"/>
 <phi Y="0.000376" Z="-0.319899"/>
@@ -9384,7 +9376,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="30.665" Reg="5041"/>
+<InfoGegenRichtung vMax="11.1111" km="30.665" Reg="5044"/>
 <NachNorm Nr="662"/>
 <NachNorm Nr="664"/>
 <NachGegen Nr="660"/>
@@ -9606,7 +9598,7 @@
 <StrElement Nr="687" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="964.8594" Y="-133.5194" Z="68.082"/>
 <b X="1028.9312" Y="-166.2062" Z="68.0546"/>
-<InfoNormRichtung vMax="11.1111" km="30.7989" pos="1" Reg="5042">
+<InfoNormRichtung vMax="11.1111" km="30.7989" pos="1" Reg="5045">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="Offen_02" SignalTyp="14" BoundingR="30">
 <p X="984.3923" Y="-143.4843" Z="68.0546"/>
 <phi Z="-0.471742"/>
@@ -9625,12 +9617,12 @@
 <phi/>
 <Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\3D_Dateien\db_Otmm70_leer.lod.ls3"/>
 </SignalFrame>
-<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="7"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" km="30.8708" Reg="5042"/>
+<InfoGegenRichtung vMax="11.1111" km="30.8708" Reg="5045"/>
 <NachGegen Nr="702"/>
 </StrElement>
 <StrElement Nr="688" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
@@ -9868,18 +9860,19 @@
 <StrElement Nr="717" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="486.124" Y="69.8194" Z="68.2794"/>
 <b X="423.2229" Y="101.9091" Z="68.3063"/>
-<InfoNormRichtung vMax="38.8889" km="30.28" Reg="5043">
+<InfoNormRichtung vMax="38.8889" km="30.28" Reg="5046">
 <Ereignis Er="3"/>
+<Ereignis Er="22"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" Reg="5043"/>
+<InfoGegenRichtung vMax="38.8889" Reg="5046"/>
 <NachNorm Nr="101"/>
 <NachGegen Nr="32"/>
 </StrElement>
 <StrElement Nr="718" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="760.1763" Y="-75.0433" Z="68.1614"/>
 <b X="713.969" Y="-51.4701" Z="68.1812"/>
-<InfoNormRichtung vMax="38.8889" km="30.59" Reg="5044"/>
-<InfoGegenRichtung vMax="-1" Reg="5044">
+<InfoNormRichtung vMax="38.8889" km="30.59" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" Reg="5047">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="A" SignalTyp="7" BoundingR="10">
 <p X="758.722" Y="-77.8938" Z="67.6614"/>
 <phi Z="-0.471743"/>
@@ -9975,15 +9968,15 @@
 <MatrixEintrag Signalbild="8014117" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="8014117" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="8014117" MatrixGeschw="-1"/>
-<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000050D">
+<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000501">
 <MatrixEintrag Signalbild="7939219" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="500"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010501">
 <MatrixEintrag Signalbild="7939219" MatrixGeschw="11.1111">
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="500"/>
 <Ereignis Er="28" Wert="20"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
@@ -9996,8 +9989,8 @@
 <StrElement Nr="719" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1929.4026" Y="-670.9684" Z="67.0801"/>
 <b X="1912.8892" Y="-662.5443" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="31.9023" Reg="5045"/>
-<InfoGegenRichtung vMax="-1" Reg="5045">
+<InfoNormRichtung vMax="38.8889" km="31.9023" Reg="5048"/>
+<InfoGegenRichtung vMax="-1" Reg="5048">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="H" SignalTyp="9" BoundingR="10">
 <p X="1928.3802" Y="-672.9727" Z="67.0801"/>
 <phi Z="-0.471722"/>
@@ -10084,7 +10077,7 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
 <MatrixEintrag Signalbild="14739" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
 <Ereignis Er="28" Wert="11"/>
@@ -10099,20 +10092,20 @@
 <StrElement Nr="720" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="2338.8608" Y="-875.3737" Z="67.0801"/>
 <b X="2258.8159" Y="-834.5385" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="32.36" Reg="5046">
+<InfoNormRichtung vMax="38.8889" km="32.36" Reg="5049">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" Reg="5046"/>
+<InfoGegenRichtung vMax="38.8889" Reg="5049"/>
 <NachNorm Nr="21"/>
 <NachGegen Nr="20"/>
 </StrElement>
 <StrElement Nr="721" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1382.1956" Y="-387.3213" Z="67.8213"/>
 <b X="1353.865" Y="-372.8682" Z="67.861"/>
-<InfoNormRichtung vMax="38.8889" km="31.286" Reg="5047">
+<InfoNormRichtung vMax="38.8889" km="31.286" Reg="5050">
 <Ereignis Er="3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" Reg="5047"/>
+<InfoGegenRichtung vMax="38.8889" Reg="5050"/>
 <NachNorm Nr="536"/>
 <NachGegen Nr="26"/>
 </StrElement>
@@ -10129,10 +10122,10 @@
 <StrElement Nr="723" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="736.2906" Y="-57.8058" Z="68.1725"/>
 <b X="668.0449" Y="-22.9895" Z="68.2017"/>
-<InfoNormRichtung vMax="38.8889" km="30.5609" Reg="5048">
+<InfoNormRichtung vMax="38.8889" km="30.5609" Reg="5051">
 <Ereignis Er="6" Beschr="Vöhrum"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" Reg="5048">
+<InfoGegenRichtung vMax="38.8889" Reg="5051">
 <Ereignis Er="1000012" Beschr="Vöhrum"/>
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="A\" SignalTyp="13" BoundingR="1">
 <p X="10" Y="-57.8058" Z="68.1725"/>
@@ -10182,10 +10175,59 @@
 <StrElement Nr="725" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="542.6317" Y="35.9398" Z="68.2544"/>
 <b X="494.3757" Y="60.5582" Z="68.275"/>
-<InfoNormRichtung vMax="38.8889" km="30.3458">
+<InfoNormRichtung vMax="38.8889" km="30.3458" Reg="5052">
 <Ereignis Er="1000011" Beschr="Vöhrum"/>
+<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vwf" Signalname="B\" SignalTyp="13" BoundingR="10">
+<p X="494.3757" Y="60.5582" Z="68.275"/>
+<phi Z="2.669848"/>
+<SignalFrame>
+<p/>
+<phi Z="-3.141592"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Schutzhaltsignale\sh2_tafel.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
+<HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="32" Wert="500" Beschr="710"/>
+</MatrixEintrag>
+<MatrixEintrag>
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag MatrixGeschw="6.9444">
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1">
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="32" Wert="500" Beschr="10710"/>
+<Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000710">
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="32" Wert="500"/>
+</MatrixEintrag>
+</Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="01010710">
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="1"/>
+<Ereignis Er="32" Wert="500"/>
+</MatrixEintrag>
+</Ersatzsignal>
+</Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="-1" Reg="5052">
 <Ereignis Er="1000009" Beschr="Vöhrum"/>
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 43" Signalname="NE5" SignalTyp="1" BoundingR="10">
 <p X="545.2407" Y="32.2513" Z="70.2544"/>
@@ -10211,11 +10253,11 @@
 <StrElement Nr="726" kr="-0.003226" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1925.5677" Y="-677.8793" Z="67.0801"/>
 <b X="1921.9889" Y="-676.4376" Z="67.0801"/>
-<InfoNormRichtung vMax="11.1111" km="31.902" Reg="5049"/>
-<InfoGegenRichtung vMax="11.1111" Reg="5049">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="G" SignalTyp="9" BoundingR="10">
+<InfoNormRichtung vMax="11.1111" km="31.902" Reg="5053"/>
+<InfoGegenRichtung vMax="11.1111" Reg="5053">
+<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Vo" Signalname="G2" SignalTyp="9" BoundingR="10">
 <p X="1924.6334" Y="-680.1982" Z="67.0801"/>
-<phi Z="-0.382977"/>
+<phi Z="-0.382978"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -10319,7 +10361,7 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0101050D">
 <MatrixEintrag Signalbild="16327827" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
 <Ereignis Er="28" Wert="20"/>
@@ -10334,10 +10376,10 @@
 <StrElement Nr="727" spTrass="11.1111" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="1263.4047" Y="-336.2742" Z="67.9821"/>
 <b X="1252.5009" Y="-330.7119" Z="67.9974"/>
-<InfoNormRichtung vMax="11.1111" km="31.157" Reg="5050">
+<InfoNormRichtung vMax="11.1111" km="31.157" Reg="5054">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" Reg="5050">
+<InfoGegenRichtung vMax="11.1111" Reg="5054">
 <Ereignis Er="21"/>
 </InfoGegenRichtung>
 <NachNorm Nr="471"/>
@@ -10346,20 +10388,20 @@
 <StrElement Nr="728" spTrass="11.1111" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="1304.175" Y="-362.1288" Z="67.9223"/>
 <b X="1286.569" Y="-353.1476" Z="67.9469"/>
-<InfoNormRichtung vMax="11.1111" km="31.205" Reg="5051">
+<InfoNormRichtung vMax="11.1111" km="31.205" Reg="5055">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" Reg="5051"/>
+<InfoGegenRichtung vMax="11.1111" Reg="5055"/>
 <NachNorm Nr="481"/>
 <NachGegen Nr="408"/>
 </StrElement>
 <StrElement Nr="729" spTrass="11.1111" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1338.6355" Y="-384.7552" Z="67.8712"/>
 <b X="1318.463" Y="-374.4647" Z="67.8994"/>
-<InfoNormRichtung vMax="11.1111" km="31.246" Reg="5052">
+<InfoNormRichtung vMax="11.1111" km="31.246" Reg="5056">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="11.1111" Reg="5052"/>
+<InfoGegenRichtung vMax="11.1111" Reg="5056"/>
 <NachNorm Nr="484"/>
 <NachGegen Nr="419"/>
 </StrElement>
@@ -11374,8 +11416,8 @@
 <StrElement Nr="868" Ueberh="0.0035" kr="-0.004894" spTrass="2.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
 <g X="549.1247" Y="25.4277" Z="68.22"/>
 <b X="543.9408" Y="22.6104" Z="68.1"/>
-<InfoNormRichtung vMax="2.7778" Reg="5053"/>
-<InfoGegenRichtung vMax="2.7778" km="-0.0059" pos="1" Reg="5053"/>
+<InfoNormRichtung vMax="2.7778" Reg="5057"/>
+<InfoGegenRichtung vMax="2.7778" km="-0.0059" pos="1" Reg="5057"/>
 <NachNorm Nr="869"/>
 <NachGegen Nr="867"/>
 <NachGegen Nr="1690"/>
@@ -14134,8 +14176,8 @@
 <StrElement Nr="1373" Ueberh="-0.0009" kr="0.002353" spTrass="2.7778" Anschluss="2" Fkt="2" Oberbau="B55 SKL-Oberbau">
 <g X="1040.8938" Y="-184.2353" Z="67.9"/>
 <b X="1038.9377" Y="-186.5096" Z="68.03"/>
-<InfoNormRichtung vMax="2.7778" Reg="5054"/>
-<InfoGegenRichtung vMax="2.7778" km="-0.003" pos="1" Reg="5054"/>
+<InfoNormRichtung vMax="2.7778" Reg="5058"/>
+<InfoGegenRichtung vMax="2.7778" km="-0.003" pos="1" Reg="5058"/>
 <NachNorm Nr="1374"/>
 <NachNorm Nr="1688"/>
 <NachGegen Nr="742"/>
@@ -14143,8 +14185,8 @@
 <StrElement Nr="1374" Ueberh="-0.0026" kr="0.007058" spTrass="2.7778" Anschluss="256" Fkt="2" Oberbau="B55 SKL-Oberbau">
 <g X="1038.9204" Y="-186.5074" Z="68.03"/>
 <b X="1036.9965" Y="-188.8091" Z="68.03"/>
-<InfoNormRichtung vMax="2.7778" Reg="5055"/>
-<InfoGegenRichtung vMax="2.7778" km="-0.003" pos="1" Reg="5055"/>
+<InfoNormRichtung vMax="2.7778" Reg="5059"/>
+<InfoGegenRichtung vMax="2.7778" km="-0.003" pos="1" Reg="5059"/>
 <NachNorm Nr="1375"/>
 <NachGegen Nr="1373"/>
 <NachGegen Nr="1688"/>
@@ -16791,7 +16833,9 @@
 <StrElement Nr="1801" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="942.3096" Y="-167.4988" Z="68.0837"/>
 <b X="901.0864" Y="-146.6535" Z="68.1013"/>
-<InfoNormRichtung vMax="38.8889" km="30.7942"/>
+<InfoNormRichtung vMax="38.8889" km="30.7942">
+<Ereignis Er="22"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
 <Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" SignalTyp="1" BoundingR="10">
 <p X="940.9109" Y="-170.2652" Z="68.0837"/>
@@ -16869,9 +16913,7 @@
 <StrElement Nr="1804" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1471.6338" Y="-432.9488" Z="67.6961"/>
 <b X="1442.145" Y="-417.9049" Z="67.7374"/>
-<InfoNormRichtung vMax="38.8889" km="31.3864">
-<Ereignis Er="39" Beschr="1730b"/>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="38.8889" km="31.3864"/>
 <NachNorm Nr="26"/>
 <NachGegen Nr="25"/>
 </StrElement>
@@ -16885,50 +16927,14 @@
 <StrElement Nr="1806" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1608.0145" Y="-502.5252" Z="67.5054"/>
 <b X="1541.2064" Y="-468.442" Z="67.5988"/>
-<InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" SignalTyp="1" BoundingR="10">
-<p X="1542.6152" Y="-465.6806" Z="67.5988"/>
-<phi Z="2.669846"/>
-<SignalFrame>
-<p Z="0.8"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_2.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="2.4"/>
-<phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
-</Signal>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="-1"/>
 <NachNorm Nr="1805"/>
 <NachGegen Nr="24"/>
 </StrElement>
 <StrElement Nr="1807" spTrass="38.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="2491.5547" Y="-953.2722" Z="67.0801"/>
 <b X="2424.071" Y="-918.8448" Z="67.0801"/>
-<InfoNormRichtung vMax="38.8889" km="32.5314">
-<Signal NameBetriebsstelle="Vöhrum" Stellwerk="Posten 41" SignalTyp="1" BoundingR="10">
-<p X="2425.4797" Y="-916.0834" Z="67.0801"/>
-<phi Z="2.669851"/>
-<SignalFrame>
-<p Z="2.4"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="0.8"/>
-<phi Z="-0.349066"/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\K4_1.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
-</Signal>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="38.8889" km="32.5314"/>
 <NachNorm Nr="19"/>
 <NachGegen Nr="18"/>
 </StrElement>
@@ -16981,7 +16987,7 @@
 <NachNorm Nr="34"/>
 <NachGegen Nr="33"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Vöhrum K -&gt; Vöhrum C" FahrstrStrecke="1730b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1073.9656">
+<Fahrstrasse FahrstrName="Vöhrum K -&gt; Vöhrum C" FahrstrTyp="TypZug" Laenge="1073.9656">
 <FahrstrStart Ref="5">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -16995,6 +17001,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="306">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="309">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="9">
@@ -17022,6 +17034,211 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="145">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Vöhrum K -&gt; Vöhrum B\" FahrstrTyp="TypZug" Laenge="2068.4709">
+<FahrstrStart Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="311">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="125">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="49">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="272">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="131">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="312">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="302">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="26" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="47" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="50" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="197" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="254" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="231" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="5" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="311" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Vöhrum K -&gt; Vöhrum B" FahrstrTyp="TypZug" Laenge="2080.1482">
+<FahrstrStart Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="125">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="128">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="49">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="296">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="134">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="20" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="26" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="47" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="50" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="90" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="197" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="244" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="229" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="5" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="145" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
@@ -17106,6 +17323,12 @@
 <FahrstrRegister Ref="135">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="604">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="613">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="438">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -17133,13 +17356,16 @@
 <FahrstrVSignal Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum K\ -&gt; Hämelerwald F\" FahrstrStrecke="1730b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6021.6763">
+<Fahrstrasse FahrstrName="Vöhrum K\ -&gt; Vöhrum B\" FahrstrTyp="TypZug" Laenge="2071.2512">
 <FahrstrStart Ref="268">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="580">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+<FahrstrZiel Ref="311">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="288">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
@@ -17180,20 +17406,11 @@
 <FahrstrRegister Ref="119">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="444">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+<FahrstrRegister Ref="312">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="447">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="7">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="582">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="577">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="302">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="287">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
@@ -17222,17 +17439,14 @@
 <FahrstrSignal Ref="231" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="236" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="268" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="598" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="268" FahrstrSignalZeile="4">
+<FahrstrSignal Ref="311" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum K\ -&gt; Vöhrum B" FahrstrStrecke="1730b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2082.9287">
+<Fahrstrasse FahrstrName="Vöhrum K\ -&gt; Vöhrum B" FahrstrTyp="TypZug" Laenge="2082.9287">
 <FahrstrStart Ref="268">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17320,116 +17534,57 @@
 <FahrstrSignal Ref="229" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="268" FahrstrSignalZeile="4">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum K\ -&gt; Vöhrum Hs3" FahrstrTyp="TypZug" Laenge="1206.0601">
-<FahrstrStart Ref="268">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="162">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="288">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="22">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="27">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="31">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="33">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="182">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="163">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="168">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="287">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="20" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="26" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="29" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="197" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
 <FahrstrSignal Ref="268">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum K\ -&gt; Vöhrum Hs4" FahrstrTyp="TypZug" Laenge="1158.1766">
-<FahrstrStart Ref="268">
+<Fahrstrasse FahrstrName="Vöhrum H\ -&gt; Peine A\" FahrstrStrecke="1730a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2669.3127">
+<FahrstrStart Ref="308">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="147">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+<FahrstrZiel Ref="638">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="288">
+<FahrstrRegister Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="22">
+<FahrstrRegister Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="27">
+<FahrstrRegister Ref="129">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="31">
+<FahrstrRegister Ref="126">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="33">
+<FahrstrRegister Ref="7">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="160">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+<FahrstrRegister Ref="639">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="166">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="148">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="171">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="674">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="287">
+<FahrstrTeilaufloesung Ref="305">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="20" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="26" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="29" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="32" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="197" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="198" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="268">
+<FahrstrSignal Ref="207" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="637" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="548" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="308" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
@@ -17468,23 +17623,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum Leerwagen -&gt; Vöhrum Hs5" FahrstrTyp="TypZug" Laenge="62.8">
-<FahrstrStart Ref="274">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="150">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="151">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="174">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrSignal Ref="274" FahrstrSignalZeile="-1" FahrstrSignalErsatzsignal="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
 <Fahrstrasse FahrstrName="Vöhrum Hs5 -&gt; Vöhrum D" FahrstrTyp="TypZug" Laenge="140.6443">
 <FahrstrStart Ref="150">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
@@ -17520,12 +17658,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum D -&gt; Hämelerwald F\" FahrstrStrecke="1730b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4764.8179">
+<Fahrstrasse FahrstrName="Vöhrum D -&gt; Vöhrum B\" FahrstrTyp="TypZug" Laenge="814.3907">
 <FahrstrStart Ref="153">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="580">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+<FahrstrZiel Ref="311">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="157">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
@@ -17554,20 +17692,11 @@
 <FahrstrRegister Ref="119">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="444">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+<FahrstrRegister Ref="312">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="447">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="7">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="582">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="577">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="302">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="156">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
@@ -17590,13 +17719,10 @@
 <FahrstrSignal Ref="231" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="236" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="153" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="598" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="153" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<FahrstrSignal Ref="311" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
@@ -17703,36 +17829,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum Rungen_02 -&gt; Vöhrum G_wagen" FahrstrTyp="TypZug" Laenge="289.5375">
-<FahrstrStart Ref="277">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="280">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="93">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="98">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="102">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="256">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrWeiche Ref="97" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="100" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="277" FahrstrSignalZeile="-1" FahrstrSignalErsatzsignal="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum A -&gt; Vöhrum H" FahrstrStrecke="1730a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1312.3357">
+<Fahrstrasse FahrstrName="Vöhrum A -&gt; Vöhrum H" FahrstrTyp="TypZug" Laenge="1312.3357">
 <FahrstrStart Ref="118">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -17791,7 +17888,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum A -&gt; Vöhrum G" FahrstrTyp="TypZug" Laenge="1312.4561">
+<Fahrstrasse FahrstrName="Vöhrum A -&gt; Vöhrum G2" FahrstrTyp="TypZug" Laenge="1312.4561">
 <FahrstrStart Ref="118">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18010,12 +18107,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum A\ -&gt; Peine A\" FahrstrStrecke="1730a" RglGgl="3" FahrstrTyp="TypZug" Laenge="4031.6313">
+<Fahrstrasse FahrstrName="Vöhrum A\ -&gt; Vöhrum H\" FahrstrTyp="TypZug" Laenge="1362.3187">
 <FahrstrStart Ref="295">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="638">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
+<FahrstrZiel Ref="308">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="267">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
@@ -18044,23 +18141,11 @@
 <FahrstrRegister Ref="10">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="19">
+<FahrstrRegister Ref="310">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="129">
+<FahrstrAufloesung Ref="305">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="126">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="7">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="639">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="674">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="294">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
@@ -18071,29 +18156,203 @@
 <FahrstrWeiche Ref="59" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<FahrstrSignal Ref="243" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="295" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="308" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Vöhrum A\ -&gt; Vöhrum H" FahrstrTyp="TypZug" Laenge="1341.564">
+<FahrstrStart Ref="295">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="294">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="90" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="50" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="47" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="243" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="198" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="207" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="637" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="548" FahrstrSignalZeile="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000583_005798_Peine_West\Peine_West_1965.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="295" FahrstrSignalZeile="4">
+<FahrstrSignal Ref="295">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum G -&gt; Peine A" FahrstrStrecke="207" RglGgl="2" FahrstrTyp="TypZug" Laenge="2699.0046">
+<Fahrstrasse FahrstrName="Vöhrum A\ -&gt; Vöhrum G2" FahrstrTyp="TypZug" Laenge="1341.6844">
+<FahrstrStart Ref="295">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="165">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="158">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="155">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="173">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="167">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="294">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="90" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="59" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="53" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="50" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="47" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="38" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="41" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="44" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="243" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="295">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Vöhrum B\ -&gt; Hämelerwald F\" FahrstrStrecke="1730b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3950.4282">
+<FahrstrStart Ref="311">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="580">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="303">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="444">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="447">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="582">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="577">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="302">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="236" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="598" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000574_005801_Haemelerwald\Haemelerwald_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="311" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Vöhrum G2 -&gt; Peine A" FahrstrStrecke="207" RglGgl="2" FahrstrTyp="TypZug" Laenge="2699.0046">
 <FahrstrStart Ref="165">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -18161,7 +18420,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Vöhrum G -&gt; Peine A\" FahrstrStrecke="1730a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2690.9148">
+<Fahrstrasse FahrstrName="Vöhrum G2 -&gt; Peine A\" FahrstrStrecke="1730a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2690.9148">
 <FahrstrStart Ref="165">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000580_005798_Voehrum\Voehrum_1960.st3" NurInfo="1"/>
 </FahrstrStart>

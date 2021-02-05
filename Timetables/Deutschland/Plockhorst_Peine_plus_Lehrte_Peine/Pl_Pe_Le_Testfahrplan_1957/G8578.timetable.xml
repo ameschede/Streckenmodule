@@ -34,6 +34,7 @@
 <p X="-12693.5254" Y="409.1785" Z="61.6551"/>
 <Fplkm km="16.4"/>
 <FplName FplNameText="Lehrte Pbf"/>
+<FplAbf Abf="1957-07-10 06:33:00"/>
 </FplZeile>
 <FplZeile FplLaufweg="2148.1978">
 <p X="-12538.8389" Y="197.3014" Z="61.8394"/>
@@ -110,6 +111,7 @@
 <p X="-8397.4492" Y="-1215.9138" Z="60.4103"/>
 <FplName FplNameText="Üst Ramhorst"/>
 <Fplkm km="21.0076"/>
+<FplAbf Abf="1957-07-10 06:41:00"/>
 </FplZeile>
 <FplZeile FplRglGgl="2" FplLaufweg="6569.5303" FahrstrStrecke="1730a">
 <p X="-8363.3994" Y="-1220.7101" Z="60.4043"/>
@@ -129,6 +131,7 @@
 <p X="-8396.165" Y="-1211.9467" Z="60.4168"/>
 <FplName FplNameText="Üst Ramhorst"/>
 <Fplkm km="21.0123"/>
+<FplAbf Abf="1957-07-10 06:41:00"/>
 </FplZeile>
 <FplZeile FplRglGgl="3" FplLaufweg="7060.6079" FahrstrStrecke="1730a">
 <p X="-8354.9805" Y="-1217.7709" Z="60.4048"/>
@@ -144,43 +147,33 @@
 <FplSignaltyp FplSignaltypNr="7"/>
 <Fplkm km="24.361"/>
 </FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="10598.7148" FahrstrStrecke="1730a">
+<FplZeile FplRglGgl="3" FplLaufweg="10598.7158" FahrstrStrecke="1730a">
 <p X="-4851.7324" Y="-1713.1908" Z="64.7222"/>
 <FplSignaltyp FplSignaltypNr="13"/>
 <Fplkm km="24.3535"/>
 </FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="11532.2549" FahrstrStrecke="1730a">
+<FplZeile FplLaufweg="11532.2549">
 <p X="-3449.5605" Y="-1915.5208" Z="67.5704"/>
 <FplName FplNameText="Hämelerwald"/>
 <FplIcon FplIconNr="17"/>
 <Fplkm km="25.7702"/>
 <FplAbf Abf="1957-07-10 06:45:00"/>
 </FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="11860.0625" FahrstrStrecke="1730a">
-<p X="-3644.8594" Y="-1873.2068" Z="67.0251"/>
-<FplvMax vMax="11.1111"/>
-<Fplkm km="25.5999"/>
-</FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="12108.6641" FahrstrStrecke="1730a">
+<FplZeile FplLaufweg="12108.6641">
 <p X="-2878.8325" Y="-1996.2307" Z="67.8799"/>
 <FplIcon FplIconNr="17"/>
 <Fplkm km="26.3465"/>
 </FplZeile>
-<FplZeile FplRglGgl="2" FplLaufweg="12172.0791" FahrstrStrecke="1730a">
+<FplZeile FplLaufweg="12172.0791">
 <p X="-2816.042" Y="-2005.1108" Z="67.996"/>
 <FplSignaltyp FplSignaltypNr="9"/>
 <Fplkm km="26.41"/>
-</FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="12321.8652" FahrstrStrecke="1730a">
-<p X="-3189.6406" Y="-1948.2328" Z="67.8799"/>
-<FplvMax vMax="38.8889"/>
-<Fplkm km="26.0314"/>
 </FplZeile>
 <FplZeile FplRglGgl="2" FplLaufweg="16059.0957" FahrstrStrecke="1730a">
 <p X="494.3756" Y="-3939.4414" Z="68.275"/>
 <FplName FplNameText="Vöhrum"/>
 <Fplkm km="30.2916"/>
-<FplAnk Ank="1899-12-30 07:00:00"/>
+<FplAnk Ank="1957-07-10 06:56:00"/>
 <FplAbf Abf="1957-07-10 21:00:00"/>
 </FplZeile>
 <FplZeile FplRglGgl="2" FplLaufweg="16357.4873" FahrstrStrecke="1730a">
@@ -194,7 +187,7 @@
 <FplvMax vMax="11.1111"/>
 <Fplkm km="31.0232"/>
 </FplZeile>
-<FplZeile FplRglGgl="3" FplLaufweg="16857.3242" FahrstrStrecke="1730a">
+<FplZeile FplRglGgl="3" FplLaufweg="16809.3184" FahrstrStrecke="1730a">
 <p X="736.2905" Y="-4057.8054" Z="68.1725"/>
 <FplSignaltyp FplSignaltypNr="13"/>
 <Fplkm km="30.5608"/>
