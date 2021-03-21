@@ -22,6 +22,9 @@
 <MondTex Dateiname="_Setup\sky\moon.dds"/>
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="210" StrNorm="1" Info="Großwudicke 10C"/>
 <ReferenzElemente ReferenzNr="2" StrElement="1" StrNorm="1"/>
 <ReferenzElemente ReferenzNr="3" StrElement="423" Info="Großwudicke 10H"/>
@@ -171,6 +174,9 @@
 <ReferenzElemente ReferenzNr="147" StrElement="627" StrNorm="1" RefTyp="2" Info="Register-Nr. 5026"/>
 <ReferenzElemente ReferenzNr="148" StrElement="627" RefTyp="2" Info="Register-Nr. 5026"/>
 <ReferenzElemente ReferenzNr="149" StrElement="952" StrNorm="1" RefTyp="4" Info="Fahrweg:  "/>
+<ReferenzElemente ReferenzNr="150" StrElement="172" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3"/>
+<ReferenzElemente ReferenzNr="151" StrElement="423" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3"/>
+<ReferenzElemente ReferenzNr="152" StrElement="748" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3"/>
 <StrElement Nr="1" spTrass="69.4444" Oberbau="Feste Fahrbahn Bögl" Volt="2" Drahthoehe="5.2911">
 <g X="4573.2119" Y="228.4324" Z="30.3995"/>
 <b X="4523.8232" Y="228.8073" Z="30.1847"/>
@@ -1638,6 +1644,9 @@
 <InfoNormRichtung vMax="69.4444" km="183.2658" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="183.3154"/>
 <NachGegen Nr="171"/>
+<NachNormModul Nr="2">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="173" Ueberh="0.0035" kr="-0.000011" spTrass="69.4444" Anschluss="256" Oberbau="Feste Fahrbahn Bögl" Volt="2" Drahthoehe="5.2952">
 <g X="2004.9969" Y="247.9285" Z="32.2599"/>
@@ -4525,6 +4534,9 @@
 <InfoNormRichtung vMax="33.3333" km="83.285" pos="1" Reg="5012"/>
 <InfoGegenRichtung vMax="33.3333" km="83.3349" Reg="5012"/>
 <NachGegen Nr="422"/>
+<NachNormModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="424" Ueberh="-0.0029" kr="0.000044" spTrass="33.3333" Oberbau="B70 SKL-Oberbau">
 <g X="-922.5707" Y="328.9122" Z="34.6196"/>
@@ -7614,6 +7626,9 @@
 <InfoNormRichtung vMax="69.4444" km="183.2658" pos="1" Reg="5030"/>
 <InfoGegenRichtung vMax="69.4444" km="183.3154" Reg="5030"/>
 <NachGegen Nr="747"/>
+<NachNormModul Nr="3">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="749" Ueberh="0.0035" kr="-0.000011" spTrass="69.4444" Anschluss="256" Oberbau="Feste Fahrbahn Bögl" Volt="2" Drahthoehe="5.2951">
 <g X="2004.9611" Y="243.2286" Z="32.2599"/>
@@ -9548,6 +9563,7 @@
 <g X="3791.9348" Y="130.5333" Z="29.4573"/>
 <b X="3792.0662" Y="137.2305" Z="29.5167"/>
 <NachNorm Nr="858"/>
+<NachGegen Nr="2611"/>
 </StrElement>
 <StrElement Nr="856" spTrass="27.7778" Anschluss="1" Fkt="2">
 <g X="3774.3149" Y="166.3268" Z="29.2781"/>
@@ -18827,15 +18843,17 @@
 <NachNorm Nr="2596"/>
 <NachGegen Nr="2607"/>
 </StrElement>
-<StrElement Nr="2609" spTrass="27.7778" Fkt="2">
+<StrElement Nr="2609" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="3796.5015" Y="59.4846" Z="29.0214"/>
 <b X="3799.5105" Y="33.3177" Z="29.0499"/>
+<NachGegen Nr="2619"/>
 </StrElement>
 <StrElement Nr="2611" kr="0.002508" spTrass="16.6667" Fkt="2">
 <g X="3791.9343" Y="130.5333" Z="29.4573"/>
 <b X="3791.905" Y="116.5609" Z="29.3562"/>
 <InfoNormRichtung vMax="16.6667"/>
 <NachNorm Nr="2613"/>
+<NachGegen Nr="855"/>
 </StrElement>
 <StrElement Nr="2613" kr="0.002508" spTrass="16.6667" Anschluss="256" Fkt="2">
 <g X="3791.905" Y="116.5609" Z="29.3562"/>
@@ -18876,6 +18894,7 @@
 <g X="3795.5986" Y="67.3321" Z="29.0286"/>
 <b X="3796.501" Y="59.4846" Z="29.0215"/>
 <InfoNormRichtung vMax="27.7778" km="-0.0634"/>
+<NachNorm Nr="2609"/>
 <NachGegen Nr="2617"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Großwudicke 10C" FahrstrStrecke="6107a" RglGgl="1" FahrstrTyp="TypZug" Laenge="4565.3999">
@@ -19151,6 +19170,145 @@
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="72" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Großwudicke 10N3 -&gt; Schönhauser Damm 11C" FahrstrStrecke="6107a" RglGgl="1" FahrstrTyp="TypZug" Laenge="4530.7998">
+<FahrstrStart Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="6">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="48">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="26">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="9">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="34">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="25">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="108">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="46" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="100" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="98" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="10">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Großwudicke 10N5 -&gt; Schönhauser Damm 11C" FahrstrStrecke="6107a" RglGgl="1" FahrstrTyp="TypZug" Laenge="4530.8999">
+<FahrstrStart Ref="49">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="6">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="53">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="56">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="48">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="26">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="70">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="9">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="55">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="25">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="52">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="108">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="46" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="49" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="101" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="10" FahrstrSignalSpalte="7">
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>

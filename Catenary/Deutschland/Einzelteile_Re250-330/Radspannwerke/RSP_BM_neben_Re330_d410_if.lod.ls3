@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="Radspanner Re 330, 410er Gewichtssatz;">
+<AutorEintrag AutorID="2" AutorName="Andreas Brandtner" AutorBeschreibung="Grundmodell Re 250"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorBeschreibung="Variante Re 330"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="250" SichtbarBis="500" Vorlade="1" LODbit="3">
+<Datei Dateiname="RSP_BM_neben_Re330_d410_if.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="RSP_BM_neben_Re330_d410_if.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt AnkerTyp="11" AnkerKat="1">
+<p X="0.1625" Z="6.3"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="10" AnkerKat="1" Beschreibung="Tragseil">
+<p X="0.637" Y="0.225" Z="6.2"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="9" AnkerKat="1" Beschreibung="Fahrdraht">
+<p X="0.637" Y="-0.225" Z="6.2"/>
+<phi/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

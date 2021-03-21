@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.3">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Strecke Himmelsmodell="2">
@@ -22,6 +22,9 @@
 <MondTex Dateiname="_Setup\sky\moon.dds"/>
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000546_005587_Hartberg\Hartberg_2008.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="153" StrNorm="1" Info="Üst Landrücken N 609"/>
 <ReferenzElemente ReferenzNr="2" StrElement="237" StrNorm="1" Info="Üst Landrücken N 639"/>
 <ReferenzElemente ReferenzNr="3" StrElement="268" StrNorm="1" Info="Üst Landrücken S 654"/>
@@ -294,6 +297,8 @@
 <ReferenzElemente ReferenzNr="270" StrElement="289" RefTyp="2" Info="Register-Nr. 10"/>
 <ReferenzElemente ReferenzNr="271" StrElement="290" RefTyp="2" Info="Register-Nr. 8"/>
 <ReferenzElemente ReferenzNr="272" StrElement="291" RefTyp="2" Info="Register-Nr. 6"/>
+<ReferenzElemente ReferenzNr="273" StrElement="153" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0056\000546_005587_Hartberg\Hartberg_2008.st3"/>
+<ReferenzElemente ReferenzNr="274" StrElement="237" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0056\000546_005587_Hartberg\Hartberg_2008.st3"/>
 <StrElement Nr="2" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3323">
 <g X="-220.967" Y="-1986.8029" Z="327.6344"/>
 <b X="-215.2988" Y="-2035.97" Z="327.017"/>
@@ -341,8 +346,8 @@
 <StrElement Nr="7" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="-192.6259" Y="-2232.6389" Z="324.5475"/>
 <b X="-186.9577" Y="-2281.8059" Z="323.9301"/>
-<InfoNormRichtung vMax="69.4444" km="258.5822" pos="1" Reg="5000"/>
-<InfoGegenRichtung vMax="69.4444" km="258.6317" Reg="5000">
+<InfoNormRichtung vMax="69.4444" km="258.5822" pos="1" Reg="5001"/>
+<InfoGegenRichtung vMax="69.4444" km="258.6317" Reg="5001">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="8"/>
@@ -578,7 +583,7 @@
 <StrElement Nr="37" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-22.5792" Y="-3707.6538" Z="306.0262"/>
 <b X="-19.4872" Y="-3734.4741" Z="305.6894"/>
-<InfoNormRichtung vMax="-1" Reg="5001">
+<InfoNormRichtung vMax="-1" Reg="5002">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 657"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 657" Stellwerk="Sinntal Landrücken Süd" Signalname="657" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -614,7 +619,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="260.1166" Reg="5001"/>
+<InfoGegenRichtung vMax="69.4444" km="260.1166" Reg="5002"/>
 <NachNorm Nr="703"/>
 <NachGegen Nr="741"/>
 </StrElement>
@@ -651,8 +656,8 @@
 <StrElement Nr="42" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="5.762" Y="-3953.49" Z="302.9393"/>
 <b X="11.4302" Y="-4002.657" Z="302.322"/>
-<InfoNormRichtung vMax="69.4444" km="260.3146" pos="1" Reg="5002"/>
-<InfoGegenRichtung vMax="69.4444" km="260.3641" Reg="5002">
+<InfoNormRichtung vMax="69.4444" km="260.3146" pos="1" Reg="5003"/>
+<InfoGegenRichtung vMax="69.4444" km="260.3641" Reg="5003">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="43"/>
@@ -1181,7 +1186,7 @@
 <StrElement Nr="103" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2793">
 <g X="-694.1795" Y="2313.925" Z="374.4442"/>
 <b X="-694.5609" Y="2322.917" Z="374.4806"/>
-<InfoNormRichtung vMax="-1" Reg="5003">
+<InfoNormRichtung vMax="-1" Reg="5004">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 612"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 612" Stellwerk="Kalbach Landrücken Nord" Signalname="612" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -1217,7 +1222,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="253.9832" pos="1" Reg="5003"/>
+<InfoGegenRichtung vMax="69.4444" km="253.9832" pos="1" Reg="5004"/>
 <NachNorm Nr="719"/>
 <NachGegen Nr="102"/>
 </StrElement>
@@ -1295,8 +1300,8 @@
 <StrElement Nr="113" Ueberh="-0.0428" kr="0.000135" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3073">
 <g X="-701.6952" Y="2386.1389" Z="374.7372"/>
 <b X="-700.8323" Y="2361.8838" Z="374.6393"/>
-<InfoNormRichtung vMax="69.4444" km="253.935" pos="1" Reg="5004"/>
-<InfoGegenRichtung vMax="69.4444" km="253.9593" Reg="5004">
+<InfoNormRichtung vMax="69.4444" km="253.935" pos="1" Reg="5005"/>
+<InfoGegenRichtung vMax="69.4444" km="253.9593" Reg="5005">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="215"/>
@@ -1305,8 +1310,8 @@
 <StrElement Nr="114" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="-701.9929" Y="2580.3411" Z="375.5236"/>
 <b X="-702.9674" Y="2625.3301" Z="375.7058"/>
-<InfoNormRichtung vMax="-1" Reg="5005"/>
-<InfoGegenRichtung vMax="69.4444" km="253.6911" pos="1" Reg="5005">
+<InfoNormRichtung vMax="-1" Reg="5006"/>
+<InfoGegenRichtung vMax="69.4444" km="253.6911" pos="1" Reg="5006">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300a"/>
 </InfoGegenRichtung>
@@ -1530,7 +1535,7 @@
 <StrElement Nr="136" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="-725.6498" Y="3672.457" Z="379.9464"/>
 <b X="-726.581" Y="3715.4468" Z="380.1205"/>
-<InfoNormRichtung vMax="-1" Reg="5006">
+<InfoNormRichtung vMax="-1" Reg="5007">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="610" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-723.5817" Y="3715.5117" Z="380.1205"/>
@@ -1631,17 +1636,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="252.5987" pos="1" Reg="5006"/>
+<InfoGegenRichtung vMax="69.4444" km="252.5987" pos="1" Reg="5007"/>
 <NachNorm Nr="691"/>
 <NachGegen Nr="135"/>
 </StrElement>
 <StrElement Nr="137" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2835">
 <g X="-726.7251" Y="3722.0979" Z="380.1474"/>
 <b X="-727.8004" Y="3771.74" Z="380.3485"/>
-<InfoNormRichtung vMax="69.4444" km="252.5987" Reg="5007">
+<InfoNormRichtung vMax="69.4444" km="252.5987" Reg="5008">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="252.5491" pos="1" Reg="5007"/>
+<InfoGegenRichtung vMax="69.4444" km="252.5491" pos="1" Reg="5008"/>
 <NachNorm Nr="138"/>
 <NachGegen Nr="691"/>
 </StrElement>
@@ -1754,8 +1759,8 @@
 <StrElement Nr="151" Ueberh="0.0428" kr="-0.00013" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2915">
 <g X="-747.1999" Y="4700.5488" Z="384.1095"/>
 <b X="-747.4028" Y="4724.0112" Z="384.205"/>
-<InfoNormRichtung vMax="69.4444" km="251.6201" Reg="5008"/>
-<InfoGegenRichtung vMax="69.4444" km="251.5966" pos="1" Reg="5008">
+<InfoNormRichtung vMax="69.4444" km="251.6201" Reg="5009"/>
+<InfoGegenRichtung vMax="69.4444" km="251.5966" pos="1" Reg="5009">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="250"/>
@@ -1772,9 +1777,12 @@
 <StrElement Nr="153" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3043">
 <g X="-747.6047" Y="5035.9849" Z="385.4683"/>
 <b X="-748.4275" Y="5011.9951" Z="385.3711"/>
-<InfoNormRichtung vMax="69.4444" km="251.2847" pos="1" Reg="5009"/>
-<InfoGegenRichtung vMax="69.4444" km="251.3087" Reg="5009"/>
+<InfoNormRichtung vMax="69.4444" km="251.2847" pos="1" Reg="5010"/>
+<InfoGegenRichtung vMax="69.4444" km="251.3087" Reg="5010"/>
 <NachNorm Nr="155"/>
+<NachGegenModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000546_005587_Hartberg\Hartberg_2008.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="155" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2903">
 <g X="-748.4275" Y="5011.9951" Z="385.3711"/>
@@ -1853,7 +1861,7 @@
 <StrElement Nr="165" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3149">
 <g X="-752.2863" Y="4771.9878" Z="384.3993"/>
 <b X="-752.2352" Y="4747.9829" Z="384.3022"/>
-<InfoNormRichtung vMax="69.4444" km="251.5488" pos="1" Reg="5010">
+<InfoNormRichtung vMax="69.4444" km="251.5488" pos="1" Reg="5011">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="609" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-755.2352" Y="4747.9766" Z="384.3022"/>
@@ -1956,7 +1964,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="251.5728" Reg="5010"/>
+<InfoGegenRichtung vMax="69.4444" km="251.5728" Reg="5011"/>
 <NachNorm Nr="166"/>
 <NachGegen Nr="164"/>
 </StrElement>
@@ -2021,8 +2029,8 @@
 <StrElement Nr="173" Ueberh="0.0169" kr="-0.000049" spTrass="83.3333" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3242">
 <g X="206.3368" Y="-5693.5698" Z="281.0887"/>
 <b X="208.7697" Y="-5715.0278" Z="280.8202"/>
-<InfoNormRichtung vMax="69.4444" km="262.0663" pos="1" Reg="5011"/>
-<InfoGegenRichtung vMax="69.4444" km="262.0879" Reg="5011">
+<InfoNormRichtung vMax="69.4444" km="262.0663" pos="1" Reg="5012"/>
+<InfoGegenRichtung vMax="69.4444" km="262.0879" Reg="5012">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="685"/>
@@ -2031,7 +2039,7 @@
 <StrElement Nr="175" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3143">
 <g X="210.9984" Y="-5734.9019" Z="280.5715"/>
 <b X="209.8841" Y="-5724.9648" Z="280.6958"/>
-<InfoNormRichtung vMax="-1" Reg="5012">
+<InfoNormRichtung vMax="-1" Reg="5013">
 <Ereignis Er="6" Beschr="LZB-Bk 688"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 688" Stellwerk="Sinntal Landrücken Süd" Signalname="688" SignalTyp="12" BoundingR="1">
@@ -2067,7 +2075,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="262.0879" pos="1" Reg="5012">
+<InfoGegenRichtung vMax="-1" km="262.0879" pos="1" Reg="5013">
 <Ereignis Er="6" Beschr="@tunnelende@"/>
 </InfoGegenRichtung>
 <NachNorm Nr="685"/>
@@ -2490,8 +2498,8 @@
 <StrElement Nr="224" Ueberh="-0.0428" kr="0.000135" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2904">
 <g X="-696.9981" Y="2386.3059" Z="374.7372"/>
 <b X="-696.1357" Y="2362.0581" Z="374.6393"/>
-<InfoNormRichtung vMax="69.4444" km="253.9349" pos="1" Reg="5013"/>
-<InfoGegenRichtung vMax="69.4444" km="253.9591" Reg="5013">
+<InfoNormRichtung vMax="69.4444" km="253.9349" pos="1" Reg="5014"/>
+<InfoGegenRichtung vMax="69.4444" km="253.9591" Reg="5014">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="104"/>
@@ -2580,8 +2588,8 @@
 <StrElement Nr="235" Ueberh="0.0428" kr="-0.00013" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3089">
 <g X="-751.8996" Y="4700.5078" Z="384.1104"/>
 <b X="-752.1026" Y="4723.978" Z="384.205"/>
-<InfoNormRichtung vMax="69.4444" km="251.6202" Reg="5014"/>
-<InfoGegenRichtung vMax="69.4444" km="251.5968" pos="1" Reg="5014">
+<InfoNormRichtung vMax="69.4444" km="251.6202" Reg="5015"/>
+<InfoGegenRichtung vMax="69.4444" km="251.5968" pos="1" Reg="5015">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="166"/>
@@ -2598,9 +2606,12 @@
 <StrElement Nr="237" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3027">
 <g X="-742.9075" Y="5035.8442" Z="385.4684"/>
 <b X="-743.7299" Y="5011.8672" Z="385.3712"/>
-<InfoNormRichtung vMax="69.4444" km="251.2847" pos="1" Reg="5015"/>
-<InfoGegenRichtung vMax="69.4444" km="251.3087" Reg="5015"/>
+<InfoNormRichtung vMax="69.4444" km="251.2847" pos="1" Reg="5016"/>
+<InfoGegenRichtung vMax="69.4444" km="251.3087" Reg="5016"/>
 <NachNorm Nr="239"/>
+<NachGegenModul Nr="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000546_005587_Hartberg\Hartberg_2008.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="239" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="-743.7299" Y="5011.8672" Z="385.3712"/>
@@ -2686,7 +2697,7 @@
 <StrElement Nr="249" Ueberh="-0.0453" kr="0.000138" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2917">
 <g X="-747.5871" Y="4771.9961" Z="384.3994"/>
 <b X="-747.5361" Y="4748.0039" Z="384.3022"/>
-<InfoNormRichtung vMax="69.4444" km="251.5486" pos="1" Reg="5016">
+<InfoNormRichtung vMax="69.4444" km="251.5486" pos="1" Reg="5017">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="639" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-744.5361" Y="4748.0103" Z="384.3022"/>
@@ -2789,7 +2800,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="251.5726" Reg="5016"/>
+<InfoGegenRichtung vMax="69.4444" km="251.5726" Reg="5017"/>
 <NachNorm Nr="250"/>
 <NachGegen Nr="248"/>
 </StrElement>
@@ -2854,7 +2865,7 @@
 <StrElement Nr="259" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2713">
 <g X="215.6717" Y="-5734.4009" Z="280.5716"/>
 <b X="214.5573" Y="-5724.4639" Z="280.6959"/>
-<InfoNormRichtung vMax="-1" km="262.1078" Reg="5017">
+<InfoNormRichtung vMax="-1" km="262.1078" Reg="5018">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 658"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 658" Stellwerk="Sinntal Landrücken Süd" Signalname="658" SignalTyp="12" BoundingR="1">
@@ -2890,7 +2901,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="262.0979" pos="1" Reg="5017">
+<InfoGegenRichtung vMax="-1" km="262.0979" pos="1" Reg="5018">
 <Ereignis Er="6" Beschr="@tunnelende@"/>
 </InfoGegenRichtung>
 <NachNorm Nr="677"/>
@@ -2963,22 +2974,22 @@
 <StrElement Nr="268" Ueberh="-0.0628" kr="0.000183" spTrass="83.3333" Anschluss="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2847">
 <g X="234.9872" Y="-5926.251" Z="278.1609"/>
 <b X="233.3839" Y="-5907.938" Z="278.3906"/>
-<InfoNormRichtung vMax="69.4444" km="262.3007" Reg="5018"/>
-<InfoGegenRichtung vMax="69.4444" km="262.2823" pos="1" Reg="5018"/>
+<InfoNormRichtung vMax="69.4444" km="262.3007" Reg="5019"/>
+<InfoGegenRichtung vMax="69.4444" km="262.2823" pos="1" Reg="5019"/>
 <NachNorm Nr="267"/>
 </StrElement>
 <StrElement Nr="269" Ueberh="0.0628" kr="-0.000184" spTrass="83.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2887">
 <g X="228.7033" Y="-5908.3564" Z="278.3906"/>
 <b X="230.3053" Y="-5926.6533" Z="278.1609"/>
-<InfoNormRichtung vMax="69.4444" km="262.2823" pos="1" Reg="5019"/>
-<InfoGegenRichtung vMax="69.4444" km="262.3006" Reg="5019"/>
+<InfoNormRichtung vMax="69.4444" km="262.2823" pos="1" Reg="5020"/>
+<InfoGegenRichtung vMax="69.4444" km="262.3006" Reg="5020"/>
 <NachGegen Nr="183"/>
 </StrElement>
 <StrElement Nr="270" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3037">
 <g X="-706.6917" Y="2580.239" Z="375.5236"/>
 <b X="-707.6662" Y="2625.228" Z="375.7058"/>
-<InfoNormRichtung vMax="-1" Reg="5020"/>
-<InfoGegenRichtung vMax="69.4444" km="253.6916" pos="1" Reg="5020">
+<InfoNormRichtung vMax="-1" Reg="5021"/>
+<InfoGegenRichtung vMax="69.4444" km="253.6916" pos="1" Reg="5021">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300a"/>
 </InfoGegenRichtung>
@@ -3225,7 +3236,7 @@
 <StrElement Nr="293" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3037">
 <g X="-731.2228" Y="3712.7109" Z="380.1098"/>
 <b X="-731.2878" Y="3715.7102" Z="380.1219"/>
-<InfoNormRichtung vMax="-1" Reg="5021">
+<InfoNormRichtung vMax="-1" Reg="5022">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="640" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-734.287" Y="3715.6453" Z="380.1219"/>
@@ -3326,7 +3337,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="252.5589" pos="1" Reg="5021"/>
+<InfoGegenRichtung vMax="69.4444" km="252.5589" pos="1" Reg="5022"/>
 <NachNorm Nr="692"/>
 <NachGegen Nr="292"/>
 </StrElement>
@@ -3383,8 +3394,8 @@
 <StrElement Nr="300" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.304">
 <g X="-738.6888" Y="4057.377" Z="381.5056"/>
 <b X="-739.2221" Y="4081.9961" Z="381.6053"/>
-<InfoNormRichtung vMax="-1" Reg="5022"/>
-<InfoGegenRichtung vMax="69.4444" km="252.2141" pos="1" Reg="5022">
+<InfoNormRichtung vMax="-1" Reg="5023"/>
+<InfoGegenRichtung vMax="69.4444" km="252.2141" pos="1" Reg="5023">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="693"/>
@@ -3393,7 +3404,7 @@
 <StrElement Nr="301" spTrass="27.7778" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3037">
 <g X="-741.1592" Y="4171.417" Z="381.9675"/>
 <b X="-741.1326" Y="4170.188" Z="381.9625"/>
-<InfoNormRichtung vMax="-1" km="252.1493" pos="1" Reg="5023">
+<InfoNormRichtung vMax="-1" km="252.1493" pos="1" Reg="5024">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="603" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-741.1592" Y="4171.417" Z="381.9675"/>
 <phi Y="0.004047" Z="-1.549139"/>
@@ -3464,7 +3475,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="252.1505" Reg="5023"/>
+<InfoGegenRichtung vMax="-1" km="252.1505" Reg="5024"/>
 <NachNorm Nr="302"/>
 <NachNorm Nr="311"/>
 <NachGegen Nr="225"/>
@@ -3638,7 +3649,7 @@
 <StrElement Nr="322" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.281">
 <g X="-733.177" Y="4019.9478" Z="381.3536"/>
 <b X="-733.2036" Y="4021.178" Z="381.3586"/>
-<InfoNormRichtung vMax="-1" km="252.3008" Reg="5024">
+<InfoNormRichtung vMax="-1" km="252.3008" Reg="5025">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="604" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-733.177" Y="4019.9478" Z="381.3536"/>
 <phi Y="-0.004049" Z="1.592454"/>
@@ -3709,7 +3720,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="252.2996" pos="1" Reg="5024">
+<InfoGegenRichtung vMax="-1" km="252.2996" pos="1" Reg="5025">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -3860,11 +3871,11 @@
 <StrElement Nr="340" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3161">
 <g X="-744.1656" Y="4310.2012" Z="382.5295"/>
 <b X="-744.7502" Y="4337.1948" Z="382.6388"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5025">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5026">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="251.9717" pos="1" Reg="5025"/>
+<InfoGegenRichtung vMax="69.4444" km="251.9717" pos="1" Reg="5026"/>
 <NachNorm Nr="724"/>
 <NachGegen Nr="353"/>
 </StrElement>
@@ -3896,7 +3907,7 @@
 <StrElement Nr="344" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3206">
 <g X="-742.7617" Y="4245.3989" Z="382.2671"/>
 <b X="-742.7883" Y="4246.6279" Z="382.2721"/>
-<InfoNormRichtung vMax="-1" km="252.0753" Reg="5026">
+<InfoNormRichtung vMax="-1" km="252.0753" Reg="5027">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="602" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-742.7617" Y="4245.3989" Z="382.2671"/>
 <phi Y="-0.004049" Z="1.592456"/>
@@ -3967,7 +3978,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="252.0741" pos="1" Reg="5026"/>
+<InfoGegenRichtung vMax="-1" km="252.0741" pos="1" Reg="5027"/>
 <NachNorm Nr="345"/>
 <NachNorm Nr="354"/>
 <NachGegen Nr="688"/>
@@ -4163,7 +4174,7 @@
 <StrElement Nr="368" spTrass="27.7778" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="-741.3464" Y="4397.0869" Z="382.881"/>
 <b X="-741.3198" Y="4395.8569" Z="382.876"/>
-<InfoNormRichtung vMax="-1" km="251.9236" pos="1" Reg="5027">
+<InfoNormRichtung vMax="-1" km="251.9236" pos="1" Reg="5028">
 <Signal NameBetriebsstelle="Üst Landrücken N" Stellwerk="Kalbach Landrücken Nord" Signalname="601" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-741.3464" Y="4397.0869" Z="382.881"/>
 <phi Y="0.004049" Z="-1.549139"/>
@@ -4234,7 +4245,7 @@
 <MatrixEintrag Signalbild="14197" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="251.9248" Reg="5027">
+<InfoGegenRichtung vMax="-1" km="251.9248" Reg="5028">
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -4427,8 +4438,8 @@
 <StrElement Nr="395" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-186.7526" Y="-2242.5471" Z="324.4163"/>
 <b X="-181.1024" Y="-2291.5581" Z="323.8009"/>
-<InfoNormRichtung vMax="69.4444" km="258.5926" pos="1" Reg="5028"/>
-<InfoGegenRichtung vMax="69.4444" km="258.642" Reg="5028">
+<InfoNormRichtung vMax="69.4444" km="258.5926" pos="1" Reg="5029"/>
+<InfoGegenRichtung vMax="69.4444" km="258.642" Reg="5029">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="396"/>
@@ -4664,7 +4675,7 @@
 <StrElement Nr="425" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-17.2451" Y="-3712.8853" Z="305.9538"/>
 <b X="-14.8402" Y="-3733.7454" Z="305.6918"/>
-<InfoNormRichtung vMax="-1" Reg="5029">
+<InfoNormRichtung vMax="-1" Reg="5030">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 687"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 687" Stellwerk="Sinntal Landrücken Süd" Signalname="687" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -4700,7 +4711,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="260.1222" Reg="5029"/>
+<InfoGegenRichtung vMax="69.4444" km="260.1222" Reg="5030"/>
 <NachNorm Nr="704"/>
 <NachGegen Nr="738"/>
 </StrElement>
@@ -4737,8 +4748,8 @@
 <StrElement Nr="430" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="11.0062" Y="-3957.9409" Z="302.8767"/>
 <b X="16.6564" Y="-4006.9529" Z="302.2613"/>
-<InfoNormRichtung vMax="69.4444" km="260.3195" pos="1" Reg="5030"/>
-<InfoGegenRichtung vMax="69.4444" km="260.3688" Reg="5030">
+<InfoNormRichtung vMax="69.4444" km="260.3195" pos="1" Reg="5031"/>
+<InfoGegenRichtung vMax="69.4444" km="260.3688" Reg="5031">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="431"/>
@@ -5180,7 +5191,7 @@
 <StrElement Nr="504" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="-515.8685" Y="571.2259" Z="359.7547"/>
 <b X="-511.8605" Y="536.4589" Z="359.3181"/>
-<InfoNormRichtung vMax="-1" Reg="5031">
+<InfoNormRichtung vMax="-1" Reg="5032">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 615"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 615" Stellwerk="Kalbach Landrücken Nord" Signalname="615" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -5216,24 +5227,24 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="255.8099" Reg="5031"/>
+<InfoGegenRichtung vMax="69.4444" km="255.8099" Reg="5032"/>
 <NachNorm Nr="697"/>
 <NachGegen Nr="503"/>
 </StrElement>
 <StrElement Nr="505" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="-510.1489" Y="521.6125" Z="359.1317"/>
 <b X="-504.4292" Y="471.9989" Z="358.5088"/>
-<InfoNormRichtung vMax="69.4444" km="255.8099" pos="1" Reg="5032">
+<InfoNormRichtung vMax="69.4444" km="255.8099" pos="1" Reg="5033">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="255.8599" Reg="5032"/>
+<InfoGegenRichtung vMax="69.4444" km="255.8599" Reg="5033"/>
 <NachNorm Nr="718"/>
 <NachGegen Nr="697"/>
 </StrElement>
 <StrElement Nr="506" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3322">
 <g X="-498.7095" Y="422.3855" Z="357.8858"/>
 <b X="-500.1982" Y="435.299" Z="358.048"/>
-<InfoNormRichtung vMax="-1" Reg="5033">
+<InfoNormRichtung vMax="-1" Reg="5034">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 644"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 644" Stellwerk="Kalbach Landrücken Nord" Signalname="644" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -5269,7 +5280,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="255.8599" pos="1" Reg="5033"/>
+<InfoGegenRichtung vMax="69.4444" km="255.8599" pos="1" Reg="5034"/>
 <NachNorm Nr="718"/>
 <NachGegen Nr="507"/>
 </StrElement>
@@ -5593,7 +5604,7 @@
 <StrElement Nr="530" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3317">
 <g X="-361.4374" Y="-768.3379" Z="342.9343"/>
 <b X="-362.4681" Y="-759.3978" Z="343.0466"/>
-<InfoNormRichtung vMax="-1" Reg="5034">
+<InfoNormRichtung vMax="-1" Reg="5035">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 646"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 646" Stellwerk="Kalbach Landrücken Nord" Signalname="646" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -5629,7 +5640,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="257.0586" pos="1" Reg="5034">
+<InfoGegenRichtung vMax="69.4444" km="257.0586" pos="1" Reg="5035">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="GÜ 653" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-361.4374" Y="-768.3379" Z="342.9343"/>
 <phi Y="0.012479" Z="-1.456013"/>
@@ -5752,7 +5763,7 @@
 <StrElement Nr="540" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="-309.9604" Y="-1214.859" Z="337.3275"/>
 <b X="-305.895" Y="-1250.1226" Z="336.8846"/>
-<InfoNormRichtung vMax="-1" Reg="5035">
+<InfoNormRichtung vMax="-1" Reg="5036">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="653" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-308.8753" Y="-1250.4663" Z="336.8846"/>
@@ -5855,17 +5866,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="257.608" Reg="5035"/>
+<InfoGegenRichtung vMax="69.4444" km="257.608" Reg="5036"/>
 <NachNorm Nr="700"/>
 <NachGegen Nr="539"/>
 </StrElement>
 <StrElement Nr="541" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-304.2407" Y="-1264.472" Z="336.7044"/>
 <b X="-298.521" Y="-1314.0861" Z="336.0815"/>
-<InfoNormRichtung vMax="69.4444" km="257.608" pos="1" Reg="5036">
+<InfoNormRichtung vMax="69.4444" km="257.608" pos="1" Reg="5037">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="257.6579" Reg="5036"/>
+<InfoGegenRichtung vMax="69.4444" km="257.6579" Reg="5037"/>
 <NachNorm Nr="542"/>
 <NachGegen Nr="700"/>
 </StrElement>
@@ -5936,8 +5947,8 @@
 <StrElement Nr="572" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-295.1541" Y="-1302.254" Z="336.2233"/>
 <b X="-300.8509" Y="-1252.839" Z="336.8438"/>
-<InfoNormRichtung vMax="69.4444" km="257.646" Reg="5037"/>
-<InfoGegenRichtung vMax="69.4444" km="257.5963" pos="1" Reg="5037">
+<InfoNormRichtung vMax="69.4444" km="257.646" Reg="5038"/>
+<InfoGegenRichtung vMax="69.4444" km="257.5963" pos="1" Reg="5038">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="573"/>
@@ -6023,11 +6034,11 @@
 <StrElement Nr="583" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2597">
 <g X="-357.8192" Y="-758.6855" Z="343.0487"/>
 <b X="-363.516" Y="-709.2702" Z="343.6692"/>
-<InfoNormRichtung vMax="69.4444" km="257.0988" Reg="5038">
+<InfoNormRichtung vMax="69.4444" km="257.0988" Reg="5039">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="257.0491" pos="1" Reg="5038"/>
+<InfoGegenRichtung vMax="69.4444" km="257.0491" pos="1" Reg="5039"/>
 <NachNorm Nr="584"/>
 <NachGegen Nr="760"/>
 </StrElement>
@@ -6214,7 +6225,7 @@
 <StrElement Nr="607" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2549">
 <g X="-494.5431" Y="427.2825" Z="357.9405"/>
 <b X="-495.5737" Y="436.2226" Z="358.0528"/>
-<InfoNormRichtung vMax="-1" Reg="5039">
+<InfoNormRichtung vMax="-1" Reg="5040">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 614"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 614" Stellwerk="Kalbach Landrücken Nord" Signalname="614" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -6250,15 +6261,15 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="255.8551" pos="1" Reg="5039"/>
+<InfoGegenRichtung vMax="69.4444" km="255.8551" pos="1" Reg="5040"/>
 <NachNorm Nr="717"/>
 <NachGegen Nr="606"/>
 </StrElement>
 <StrElement Nr="608" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-500.2399" Y="476.6978" Z="358.561"/>
 <b X="-505.9367" Y="526.1133" Z="359.1815"/>
-<InfoNormRichtung vMax="69.4444" km="255.8551" Reg="5040"/>
-<InfoGegenRichtung vMax="69.4444" km="255.8054" pos="1" Reg="5040">
+<InfoNormRichtung vMax="69.4444" km="255.8551" Reg="5041"/>
+<InfoGegenRichtung vMax="69.4444" km="255.8054" pos="1" Reg="5041">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="609"/>
@@ -6455,10 +6466,10 @@
 <StrElement Nr="678" Ueberh="-0.0237" kr="0.000069" spTrass="83.3333" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2592">
 <g X="213.2101" Y="-5712.5405" Z="280.845"/>
 <b X="211.009" Y="-5693.0601" Z="281.0887"/>
-<InfoNormRichtung vMax="69.4444" km="262.0858" Reg="5041">
+<InfoNormRichtung vMax="69.4444" km="262.0858" Reg="5042">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="262.0663" pos="1" Reg="5041"/>
+<InfoGegenRichtung vMax="69.4444" km="262.0663" pos="1" Reg="5042"/>
 <NachNorm Nr="256"/>
 <NachGegen Nr="1127"/>
 </StrElement>
@@ -6583,10 +6594,10 @@
 <StrElement Nr="692" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3037">
 <g X="-731.2878" Y="3715.7102" Z="380.122"/>
 <b X="-732.2895" Y="3761.9492" Z="380.3092"/>
-<InfoNormRichtung vMax="69.4444" km="252.6081" Reg="5042">
+<InfoNormRichtung vMax="69.4444" km="252.6081" Reg="5043">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5042"/>
+<InfoGegenRichtung vMax="-1" Reg="5043"/>
 <NachNorm Nr="294"/>
 <NachGegen Nr="293"/>
 </StrElement>
@@ -6626,8 +6637,8 @@
 <StrElement Nr="695" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3036">
 <g X="-707.6662" Y="2625.228" Z="375.7058"/>
 <b X="-707.7582" Y="2629.4771" Z="375.723"/>
-<InfoNormRichtung vMax="69.4444" km="253.7409" Reg="5043"/>
-<InfoGegenRichtung vMax="-1" Reg="5043">
+<InfoNormRichtung vMax="69.4444" km="253.7409" Reg="5044"/>
+<InfoGegenRichtung vMax="-1" Reg="5044">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 613"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 613" Stellwerk="Kalbach Landrücken Nord" Signalname="613" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -6669,8 +6680,8 @@
 <StrElement Nr="696" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2834">
 <g X="-702.9674" Y="2625.3301" Z="375.7058"/>
 <b X="-703.0682" Y="2629.9819" Z="375.7246"/>
-<InfoNormRichtung vMax="69.4444" km="253.7408" Reg="5044"/>
-<InfoGegenRichtung vMax="-1" Reg="5044">
+<InfoNormRichtung vMax="69.4444" km="253.7408" Reg="5045"/>
+<InfoGegenRichtung vMax="-1" Reg="5045">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 643"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 643" Stellwerk="Kalbach Landrücken Nord" Signalname="643" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -6721,8 +6732,8 @@
 <StrElement Nr="698" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-507.1964" Y="537.04" Z="359.3187"/>
 <b X="-511.6336" Y="575.5288" Z="359.802"/>
-<InfoNormRichtung vMax="69.4444" km="255.8054" Reg="5045"/>
-<InfoGegenRichtung vMax="-1" Reg="5045">
+<InfoNormRichtung vMax="69.4444" km="255.8054" Reg="5046"/>
+<InfoGegenRichtung vMax="-1" Reg="5046">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 645"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 645" Stellwerk="Kalbach Landrücken Nord" Signalname="645" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -6764,8 +6775,8 @@
 <StrElement Nr="699" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-301.1944" Y="-1249.859" Z="336.8812"/>
 <b X="-306.5477" Y="-1203.424" Z="337.4643"/>
-<InfoNormRichtung vMax="69.4444" km="257.5963" Reg="5046"/>
-<InfoGegenRichtung vMax="-1" Reg="5046">
+<InfoNormRichtung vMax="69.4444" km="257.5963" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" Reg="5047">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="683" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-298.2142" Y="-1249.5154" Z="336.8812"/>
@@ -7008,8 +7019,8 @@
 <StrElement Nr="708" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="19.6339" Y="-4032.7798" Z="301.937"/>
 <b X="22.3067" Y="-4055.9641" Z="301.6458"/>
-<InfoNormRichtung vMax="69.4444" km="260.3688" pos="1" Reg="5047"/>
-<InfoGegenRichtung vMax="-1" Reg="5047">
+<InfoNormRichtung vMax="69.4444" km="260.3688" pos="1" Reg="5048"/>
+<InfoGegenRichtung vMax="-1" Reg="5048">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 656"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 656" Stellwerk="Sinntal Landrücken Süd" Signalname="656" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -7051,8 +7062,8 @@
 <StrElement Nr="709" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="14.9802" Y="-4033.4504" Z="301.9353"/>
 <b X="17.0984" Y="-4051.824" Z="301.7046"/>
-<InfoNormRichtung vMax="69.4444" km="260.3641" pos="1" Reg="5048"/>
-<InfoGegenRichtung vMax="-1" Reg="5048">
+<InfoNormRichtung vMax="69.4444" km="260.3641" pos="1" Reg="5049"/>
+<InfoGegenRichtung vMax="-1" Reg="5049">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 686"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 686" Stellwerk="Sinntal Landrücken Süd" Signalname="686" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -7094,8 +7105,8 @@
 <StrElement Nr="710" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-179.8427" Y="-2302.4849" Z="323.6637"/>
 <b X="-175.4521" Y="-2340.5701" Z="323.1855"/>
-<InfoNormRichtung vMax="69.4444" km="258.6419" pos="1" Reg="5049"/>
-<InfoGegenRichtung vMax="-1" Reg="5049">
+<InfoNormRichtung vMax="69.4444" km="258.6419" pos="1" Reg="5050"/>
+<InfoGegenRichtung vMax="-1" Reg="5050">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="654" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-176.8625" Y="-2302.1414" Z="323.6637"/>
@@ -7204,8 +7215,8 @@
 <StrElement Nr="711" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="-184.5528" Y="-2302.666" Z="323.6682"/>
 <b X="-181.2895" Y="-2330.9729" Z="323.3127"/>
-<InfoNormRichtung vMax="69.4444" km="258.6317" pos="1" Reg="5050"/>
-<InfoGegenRichtung vMax="-1" Reg="5050">
+<InfoNormRichtung vMax="69.4444" km="258.6317" pos="1" Reg="5051"/>
+<InfoGegenRichtung vMax="-1" Reg="5051">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="684" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-187.5331" Y="-2303.0095" Z="323.6682"/>
@@ -7518,33 +7529,33 @@
 <StrElement Nr="716" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3272">
 <g X="-362.4681" Y="-759.3978" Z="343.0466"/>
 <b X="-367.1571" Y="-718.7241" Z="343.5573"/>
-<InfoNormRichtung vMax="69.4444" km="257.1085" Reg="5051">
+<InfoNormRichtung vMax="69.4444" km="257.1085" Reg="5052">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5051"/>
+<InfoGegenRichtung vMax="-1" Reg="5052"/>
 <NachNorm Nr="529"/>
 <NachGegen Nr="530"/>
 </StrElement>
 <StrElement Nr="717" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2572">
 <g X="-495.5737" Y="436.2226" Z="358.0528"/>
 <b X="-500.2399" Y="476.6978" Z="358.561"/>
-<InfoNormRichtung vMax="69.4444" km="255.9049" Reg="5052">
+<InfoNormRichtung vMax="69.4444" km="255.9049" Reg="5053">
 <Ereignis Er="4"/>
 <Ereignis Er="39" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5052"/>
+<InfoGegenRichtung vMax="-1" Reg="5053"/>
 <NachNorm Nr="608"/>
 <NachGegen Nr="607"/>
 </StrElement>
 <StrElement Nr="718" spTrass="77.7778" Anschluss="257" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3292">
 <g X="-500.1982" Y="435.299" Z="358.048"/>
 <b X="-504.4292" Y="471.9989" Z="358.5088"/>
-<InfoNormRichtung vMax="69.4444" km="255.9098" Reg="5053">
+<InfoNormRichtung vMax="69.4444" km="255.9098" Reg="5054">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5053"/>
+<InfoGegenRichtung vMax="-1" Reg="5054"/>
 <NachNorm Nr="505"/>
 <NachGegen Nr="506"/>
 </StrElement>
@@ -7988,10 +7999,10 @@
 <StrElement Nr="739" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-10.9487" Y="-3767.5" Z="305.2679"/>
 <b X="-5.9446" Y="-3810.907" Z="304.7229"/>
-<InfoNormRichtung vMax="69.4444" km="260.1222" pos="1" Reg="5054">
+<InfoNormRichtung vMax="69.4444" km="260.1222" pos="1" Reg="5055">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5054">
+<InfoGegenRichtung vMax="-1" Reg="5055">
 <Signal SignalTyp="1" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-7.4718" Y="-3767.0991" Z="308.2679"/>
 <phi Z="1.685574"/>
@@ -8053,10 +8064,10 @@
 <StrElement Nr="742" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3247">
 <g X="-15.6497" Y="-3767.7607" Z="305.2715"/>
 <b X="-11.2427" Y="-3805.988" Z="304.7914"/>
-<InfoNormRichtung vMax="69.4444" km="260.1166" pos="1" Reg="5055">
+<InfoNormRichtung vMax="69.4444" km="260.1166" pos="1" Reg="5056">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5055">
+<InfoGegenRichtung vMax="-1" Reg="5056">
 <Signal SignalTyp="1" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-19.1267" Y="-3768.1616" Z="308.2715"/>
 <phi Z="1.685574"/>
@@ -8111,7 +8122,7 @@
 <StrElement Nr="746" Ueberh="0.0453" kr="-0.000143" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3042">
 <g X="-698.9603" Y="2315.73" Z="374.4524"/>
 <b X="-699.2555" Y="2322.7109" Z="374.4806"/>
-<InfoNormRichtung vMax="-1" Reg="5056">
+<InfoNormRichtung vMax="-1" Reg="5057">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 642"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 642" Stellwerk="Kalbach Landrücken Nord" Signalname="642" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -8147,7 +8158,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5056"/>
+<InfoGegenRichtung vMax="-1" Reg="5057"/>
 <NachNorm Nr="720"/>
 <NachGegen Nr="214"/>
 </StrElement>
@@ -8269,7 +8280,7 @@
 <StrElement Nr="760" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2549">
 <g X="-356.7353" Y="-768.0878" Z="342.9306"/>
 <b X="-357.8192" Y="-758.6855" Z="343.0487"/>
-<InfoNormRichtung vMax="69.4444" km="257.1486" Reg="5057">
+<InfoNormRichtung vMax="69.4444" km="257.1486" Reg="5058">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 616"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 616" Stellwerk="Kalbach Landrücken Nord" Signalname="616" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -8305,7 +8316,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5057">
+<InfoGegenRichtung vMax="-1" Reg="5058">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="GÜ 683" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-356.7353" Y="-768.0878" Z="342.9306"/>
 <phi Y="0.012474" Z="-1.456017"/>
@@ -10049,7 +10060,7 @@
 <StrElement Nr="1148" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.2625">
 <g X="-243.9879" Y="-1746.0758" Z="330.6502"/>
 <b X="-244.2515" Y="-1743.7887" Z="330.6789"/>
-<InfoNormRichtung vMax="69.4444" km="258.0929" Reg="5058">
+<InfoNormRichtung vMax="69.4444" km="258.0929" Reg="5059">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="652" SignalFlags="3" SignalTyp="2" BoundingR="95" Zwangshelligkeit="0.07">
 <p X="-243.9879" Y="-1746.0758" Z="330.6502"/>
 <phi Y="-0.012472" Z="1.685578"/>
@@ -10130,7 +10141,7 @@
 <MatrixEintrag Signalbild="48629" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="258.0906" pos="1" Reg="5058"/>
+<InfoGegenRichtung vMax="69.4444" km="258.0906" pos="1" Reg="5059"/>
 <NachNorm Nr="1149"/>
 <NachNorm Nr="1151"/>
 <NachGegen Nr="1137"/>
@@ -10246,7 +10257,7 @@
 <StrElement Nr="1162" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.325">
 <g X="-273.771" Y="-1528.7697" Z="333.3856"/>
 <b X="-273.5073" Y="-1531.0566" Z="333.3569"/>
-<InfoNormRichtung vMax="69.4444" km="257.8736" pos="1" Reg="5059">
+<InfoNormRichtung vMax="69.4444" km="257.8736" pos="1" Reg="5060">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="651" SignalFlags="3" SignalTyp="2" BoundingR="95" Zwangshelligkeit="0.07">
 <p X="-273.771" Y="-1528.7697" Z="333.3856"/>
 <phi Y="0.012472" Z="-1.456018"/>
@@ -10327,7 +10338,7 @@
 <MatrixEintrag Signalbild="48629" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="257.8759" pos="1" Reg="5059">
+<InfoGegenRichtung vMax="69.4444" km="257.8759" pos="1" Reg="5060">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1163"/>
@@ -10463,7 +10474,7 @@
 <StrElement Nr="1178" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2625">
 <g X="-243.2652" Y="-1752.3456" Z="330.5715"/>
 <b X="-243.0016" Y="-1754.6328" Z="330.5428"/>
-<InfoNormRichtung vMax="69.4444" km="258.0992" pos="1" Reg="5060">
+<InfoNormRichtung vMax="69.4444" km="258.0992" pos="1" Reg="5061">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="653" SignalFlags="3" SignalTyp="2" BoundingR="95" Zwangshelligkeit="0.07">
 <p X="-243.2652" Y="-1752.3456" Z="330.5715"/>
 <phi Y="0.012476" Z="-1.456018"/>
@@ -10544,7 +10555,7 @@
 <MatrixEintrag Signalbild="48629" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="258.1015" pos="1" Reg="5060"/>
+<InfoGegenRichtung vMax="69.4444" km="258.1015" pos="1" Reg="5061"/>
 <NachNorm Nr="1179"/>
 <NachNorm Nr="1181"/>
 <NachGegen Nr="1138"/>
@@ -10660,7 +10671,7 @@
 <StrElement Nr="1192" spTrass="27.7778" Anschluss="256" Fkt="5" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3319">
 <g X="-222.8202" Y="-1970.7277" Z="327.8362"/>
 <b X="-223.0838" Y="-1968.4407" Z="327.8648"/>
-<InfoNormRichtung vMax="69.4444" km="258.3185" Reg="5061">
+<InfoNormRichtung vMax="69.4444" km="258.3185" Reg="5062">
 <Signal NameBetriebsstelle="Üst Landrücken S" Stellwerk="Sinntal Landrücken Süd" Signalname="654" SignalFlags="3" SignalTyp="2" BoundingR="95" Zwangshelligkeit="0.07">
 <p X="-222.8202" Y="-1970.7277" Z="327.8362"/>
 <phi Y="-0.012476" Z="1.685575"/>
@@ -10741,7 +10752,7 @@
 <MatrixEintrag Signalbild="48629" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="69.4444" km="258.3162" pos="1" Reg="5061"/>
+<InfoGegenRichtung vMax="69.4444" km="258.3162" pos="1" Reg="5062"/>
 <NachNorm Nr="1193"/>
 <NachNorm Nr="1195"/>
 <NachGegen Nr="1208"/>
@@ -10849,8 +10860,8 @@
 <StrElement Nr="1205" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3248">
 <g X="-275.6423" Y="-1512.54" Z="333.5896"/>
 <b X="-273.771" Y="-1528.7697" Z="333.3856"/>
-<InfoNormRichtung vMax="-1" Reg="5062"/>
-<InfoGegenRichtung vMax="-1" pos="1" Reg="5062">
+<InfoNormRichtung vMax="-1" Reg="5063"/>
+<InfoGegenRichtung vMax="-1" pos="1" Reg="5063">
 <Ereignis Er="4"/>
 <Ereignis Er="28" Beschr="300b"/>
 </InfoGegenRichtung>
@@ -10875,8 +10886,8 @@
 <StrElement Nr="1208" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3322">
 <g X="-220.967" Y="-1986.8029" Z="327.6344"/>
 <b X="-222.8202" Y="-1970.7277" Z="327.8362"/>
-<InfoNormRichtung vMax="-1" Reg="5063"/>
-<InfoGegenRichtung vMax="-1" Reg="5063">
+<InfoNormRichtung vMax="-1" Reg="5064"/>
+<InfoGegenRichtung vMax="-1" Reg="5064">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1192"/>
@@ -10885,20 +10896,20 @@
 <StrElement Nr="1209" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-231.7777" Y="-1851.9908" Z="329.3203"/>
 <b X="-227.6931" Y="-1887.4218" Z="328.8754"/>
-<InfoNormRichtung vMax="69.4444" km="258.1935" pos="1" Reg="5064">
+<InfoNormRichtung vMax="69.4444" km="258.1935" pos="1" Reg="5065">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5064"/>
+<InfoGegenRichtung vMax="-1" Reg="5065"/>
 <NachNorm Nr="1176"/>
 <NachGegen Nr="1175"/>
 </StrElement>
 <StrElement Nr="1210" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3">
 <g X="-255.4758" Y="-1646.4307" Z="331.9015"/>
 <b X="-259.5593" Y="-1611.0087" Z="332.3463"/>
-<InfoNormRichtung vMax="69.4444" km="257.9986" Reg="5065">
+<InfoNormRichtung vMax="69.4444" km="257.9986" Reg="5066">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5065"/>
+<InfoGegenRichtung vMax="-1" Reg="5066"/>
 <NachNorm Nr="1146"/>
 <NachGegen Nr="1145"/>
 </StrElement>
