@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -2212,12 +2212,6 @@
 <phi X="-0.000417" Z="4.135753"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="-446.2762" Y="-240.0876" Z="71.9973"/>
-<phi Z="-2.156324"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Radspannwerke\RSP-GM_ueber_2fachGed-klGew.lod.ls3"/>
 <p X="-446.3828" Y="-240.2484" Z="71.9973"/>
@@ -2834,18 +2828,6 @@
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
 <p X="-340.2642" Y="-105.8196" Z="77.3956"/>
 <phi X="0.000324" Z="4.127769"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="-352.6063" Y="-66.4355" Z="71.3394"/>
-<phi Z="-2.154497"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="-333.346" Y="-68.704" Z="71.2098"/>
-<phi Z="-2.161435"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
@@ -7095,6 +7077,24 @@
 <p X="-398.8094" Y="-95.5702" Z="69.4792"/>
 <phi Z="-0.152109"/>
 <sk X="0.9926" Y="0.9926" Z="0.9926"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="-333.346" Y="-68.704" Z="71.2098"/>
+<phi Z="-2.161435"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="-352.6063" Y="-66.4355" Z="71.3394"/>
+<phi Z="-2.154497"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="-446.2762" Y="-240.0876" Z="71.9973"/>
+<phi Z="-2.156324"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="6" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>

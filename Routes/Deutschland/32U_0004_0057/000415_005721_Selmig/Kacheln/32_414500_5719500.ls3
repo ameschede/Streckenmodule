@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -902,30 +902,6 @@
 <Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\Pfahl_rotweiss.lod.ls3"/>
 <p X="-377.7475" Y="358.3446" Z="71.609"/>
 <phi Z="0.930917"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="-38.4474" Y="280.08" Z="76.6993"/>
-<phi Z="-1.031952"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="-29.0345" Y="286.396" Z="76.7012"/>
-<phi Z="2.151815"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="81.4043" Y="117.1559" Z="75.6426"/>
-<phi Z="2.15008"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="72.4413" Y="111.3199" Z="75.6427"/>
-<phi Z="-0.991504"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
@@ -2851,7 +2827,7 @@
 <Verknuepfte Flags="16" GruppenName="Hektometertafeln" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Hektometertafeln\Hekto_0_8.ls3"/>
 <p X="81.574" Y="116.8965" Z="78.7926"/>
-<phi Z="2.15008"/>
+<phi Y="0.02618" Z="2.15008"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Hektometertafeln" BoundingR="1" SichtbarBis="3000" Vorlade="1">
@@ -2875,13 +2851,37 @@
 <Verknuepfte Flags="16" GruppenName="Hektometertafeln" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Hektometertafeln\Hekto_1_0.ls3"/>
 <p X="-38.6064" Y="280.3461" Z="79.8493"/>
-<phi Z="-1.031952"/>
+<phi Y="0.02618" Z="-1.031952"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Hektometertafeln" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0004_0057\000415_005721_Selmig\Hektometertafeln\Hekto_0_8.ls3"/>
 <p X="72.6508" Y="111.8273" Z="78.7927"/>
+<phi Y="0.02618" Z="-0.991504"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="-38.4474" Y="280.08" Z="76.6993"/>
+<phi Z="-1.031952"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="-29.0345" Y="286.396" Z="76.7012"/>
+<phi Z="2.151815"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="72.4413" Y="111.3199" Z="75.6427"/>
 <phi Z="-0.991504"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="81.4043" Y="117.1559" Z="75.6426"/>
+<phi Z="2.15008"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">

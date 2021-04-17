@@ -276,6 +276,7 @@
 <ReferenzElemente ReferenzNr="243" StrElement="237" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
 <ReferenzElemente ReferenzNr="244" StrElement="80" RefTyp="2" Info="Register-Nr. 7"/>
 <ReferenzElemente ReferenzNr="245" StrElement="262" RefTyp="2" Info="Register-Nr. 8"/>
+<ReferenzElemente ReferenzNr="246" StrElement="858" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
 <StrElement Nr="1" spTrass="77.7778" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2624">
 <g X="-1507.373" Y="3347.679" Z="119.8888"/>
 <b X="-1496.377" Y="3299.72" Z="120.5032"/>
@@ -524,7 +525,7 @@
 <MatrixEintrag Signalbild="1949" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="1949" MatrixGeschw="-1"/>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000501">
-<MatrixEintrag Signalbild="1979" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="1947" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="100"/>
 </MatrixEintrag>
@@ -2286,7 +2287,7 @@
 <b X="238.6018" Y="-2537.731" Z="196.7062"/>
 <InfoNormRichtung vMax="69.4444" km="35.8547" pos="1">
 <Ereignis Er="39" Beschr="300a"/>
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="395"/>
+<Ereignis Er="34" Wert="395" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.8841"/>
 <NachNorm Nr="170"/>
@@ -2306,7 +2307,7 @@
 <g X="250.6119" Y="-2564.4829" Z="197.0723"/>
 <b X="262.7004" Y="-2591.2" Z="197.4386"/>
 <InfoNormRichtung vMax="69.4444" km="35.9134" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="398"/>
+<Ereignis Er="34" Wert="398" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.9427"/>
 <NachNorm Nr="172"/>
@@ -3386,7 +3387,6 @@
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="1061159019" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="23"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010507">
@@ -4210,7 +4210,7 @@
 <b X="242.8916" Y="-2535.812" Z="196.7062"/>
 <InfoNormRichtung vMax="69.4444" km="35.8545" pos="1">
 <Ereignis Er="28" Beschr="300a"/>
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="389"/>
+<Ereignis Er="34" Wert="389" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.8838"/>
 <NachNorm Nr="339"/>
@@ -4230,7 +4230,7 @@
 <g X="254.8961" Y="-2562.552" Z="197.0723"/>
 <b X="266.9789" Y="-2589.2571" Z="197.4386"/>
 <InfoNormRichtung vMax="69.4444" km="35.9131" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="392"/>
+<Ereignis Er="34" Wert="392" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.9424"/>
 <NachNorm Nr="341"/>
@@ -6858,7 +6858,7 @@
 <g X="-80.4002" Y="-1726.053" Z="185.8127"/>
 <b X="-63.7672" Y="-1770.8221" Z="186.409"/>
 <InfoNormRichtung vMax="69.4444" km="35.0117" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="388"/>
+<Ereignis Er="34" Wert="388" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.0594"/>
 <NachNorm Nr="573"/>
@@ -6868,7 +6868,7 @@
 <g X="-63.7672" Y="-1770.8221" Z="186.409"/>
 <b X="-47.1342" Y="-1815.592" Z="187.0054"/>
 <InfoNormRichtung vMax="69.4444" km="35.0594" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="390"/>
+<Ereignis Er="34" Wert="390" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.1072"/>
 <NachNorm Nr="574"/>
@@ -6878,7 +6878,7 @@
 <g X="-47.1342" Y="-1815.592" Z="187.0054"/>
 <b X="-30.5012" Y="-1860.361" Z="187.6017"/>
 <InfoNormRichtung vMax="69.4444" km="35.1072" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="393"/>
+<Ereignis Er="34" Wert="393" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.1549"/>
 <NachNorm Nr="313"/>
@@ -7663,7 +7663,7 @@
 <g X="-83.4334" Y="-1731.385" Z="185.8619"/>
 <b X="-67.2579" Y="-1774.922" Z="186.4419"/>
 <InfoNormRichtung vMax="69.4444" km="35.0155" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="394"/>
+<Ereignis Er="34" Wert="394" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.062"/>
 <NachNorm Nr="625"/>
@@ -7673,7 +7673,7 @@
 <g X="-67.2579" Y="-1774.922" Z="186.4419"/>
 <b X="-51.0824" Y="-1818.46" Z="187.0218"/>
 <InfoNormRichtung vMax="69.4444" km="35.062" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="396"/>
+<Ereignis Er="34" Wert="396" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.1084"/>
 <NachNorm Nr="626"/>
@@ -7683,7 +7683,7 @@
 <g X="-51.0824" Y="-1818.46" Z="187.0218"/>
 <b X="-34.907" Y="-1861.998" Z="187.6017"/>
 <InfoNormRichtung vMax="69.4444" km="35.1084" pos="1">
-<Ereignis Er="34" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3" Wert="399"/>
+<Ereignis Er="34" Wert="399" Beschr="Routes\Deutschland\32U_0006_0058\000564_005765_Almstedt\Almstedt_2006.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="35.1549"/>
 <NachNorm Nr="144"/>
@@ -9091,7 +9091,7 @@
 <HsigBegriff HsigGeschw="36.1111" FahrstrTyp="8"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="524288029" MatrixGeschw="-1">
-<Ereignis Er="29" Beschr="B" Wert="23"/>
+<Ereignis Er="29" Wert="23" Beschr="B"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="524288027">
 <Ereignis Er="2000"/>
@@ -9106,10 +9106,10 @@
 <MatrixEintrag Signalbild="525336605" MatrixGeschw="38.8889"/>
 <MatrixEintrag Signalbild="526385181" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="524288025" MatrixGeschw="-1">
-<Ereignis Er="29" Beschr="B" Wert="23"/>
+<Ereignis Er="29" Wert="23" Beschr="B"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="524288025" MatrixGeschw="36.1111">
-<Ereignis Er="29" Beschr="B" Wert="23"/>
+<Ereignis Er="29" Wert="23" Beschr="B"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="524288059" MatrixGeschw="11.1111">
@@ -11212,6 +11212,9 @@
 <g X="-1893.0615" Y="4706.4121" Z="107.9"/>
 <b X="-1888.0214" Y="4698.1426" Z="107.4"/>
 <NachNorm Nr="1770"/>
+<NachGegenModul Nr="417">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="859" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-1840.9991" Y="4599.5796" Z="102.295"/>

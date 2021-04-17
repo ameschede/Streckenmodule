@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.3" MinVersion="A.1">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="20.5"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.ls3"/>
@@ -273,6 +273,9 @@
 <ReferenzElemente ReferenzNr="221" StrElement="330" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
 <ReferenzElemente ReferenzNr="222" StrElement="716" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
 <ReferenzElemente ReferenzNr="223" StrElement="996" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="224" StrElement="2214" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
+<ReferenzElemente ReferenzNr="225" StrElement="2781" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3"/>
+<ReferenzElemente ReferenzNr="226" StrElement="3069" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3"/>
 <StrElement Nr="1" spTrass="38.8889" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="1827.6851" Y="-5.1172" Z="87.375"/>
 <b X="1787.9041" Y="10.1478" Z="87.5293"/>
@@ -2242,7 +2245,7 @@
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0201070D">
 <MatrixEintrag Signalbild="251" MatrixGeschw="11.1111">
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="212"/>
 <Ereignis Er="28"/>
 </MatrixEintrag>
 </Ersatzsignal>
@@ -8608,7 +8611,7 @@
 <InfoNormRichtung vMax="-1" Reg="5022">
 <Signal NameBetriebsstelle="Emmerke" Stellwerk="Emmerke Ef" Signalname="N303" SignalTyp="9" BoundingR="10">
 <p X="-2419.4258" Y="757.3517" Z="85.7004"/>
-<phi Z="2.69476"/>
+<phi Z="2.694761"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -8723,7 +8726,7 @@
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0201050D">
 <MatrixEintrag Signalbild="260675" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="725"/>
 <Ereignis Er="28" Wert="9"/>
 <Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
@@ -10642,7 +10645,7 @@
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0201050D">
 <MatrixEintrag Signalbild="2085379" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="32" Wert="70"/>
+<Ereignis Er="32" Wert="215"/>
 <Ereignis Er="28" Wert="12"/>
 <Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 12"/>
 </MatrixEintrag>
@@ -19600,6 +19603,9 @@
 <g X="-2163.1963" Y="186.9344" Z="86.7955"/>
 <b X="-2151.208" Y="186.4249" Z="86.6474"/>
 <NachNorm Nr="2513"/>
+<NachGegenModul Nr="420">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="2224" kr="0.000162" spTrass="27.7778" Anschluss="257" Fkt="2">
 <g X="-1732.5881" Y="125.0803" Z="93.9996"/>
@@ -22455,6 +22461,9 @@
 <g X="1803.8402" Y="-109.6802" Z="93.9207"/>
 <b X="1454.2151" Y="-114.5213" Z="102.23"/>
 <NachNorm Nr="2837"/>
+<NachGegenModul Nr="527">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="2783" kr="0.001935" spTrass="19.4444" Anschluss="256" Fkt="2">
 <g X="1107.2722" Y="-27.0733" Z="96.0992"/>
@@ -24645,6 +24654,9 @@
 <b X="-1841.5721" Y="-1198.7747" Z="110.3957"/>
 <InfoNormRichtung vMax="22.2222" km="0.0734" pos="1"/>
 <NachGegen Nr="3068"/>
+<NachNormModul Nr="416">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000558_005781_Escherde\Escherde_2005.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Emmerke P301" FahrstrTyp="TypZug" Laenge="710.8">
 <FahrstrStart Ref="206">
