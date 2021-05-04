@@ -1054,12 +1054,6 @@
 <phi Z="3.795701"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="6.6633" Y="-495.145" Z="230.7563"/>
-<phi Z="2.825644"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_2m3\Ausleger_2m3-kurve_l.lod.ls3"/>
 <p X="5.8445" Y="-497.6495" Z="230.7563"/>
@@ -1196,12 +1190,6 @@
 <Datei Dateiname="Catenary\Deutschland\Re160-200\Ausleger_2m3\Ausleger_2m3-kurve_l.lod.ls3"/>
 <p X="-456.8746" Y="-280.774" Z="232.4757"/>
 <phi Z="-0.396323"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m2.lod.ls3"/>
-<p X="-464.1082" Y="-292.698" Z="232.4875"/>
-<phi Z="-0.394472"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
@@ -1675,13 +1663,13 @@
 <Verknuepfte Flags="16" GruppenName="Hektometertafeln" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0056\000638_005642_Bischleben\Hektometertafeln\Hekto_117_8.ls3"/>
 <p X="-463.8219" Y="-292.8171" Z="235.6375"/>
-<phi Z="2.747121"/>
+<phi Y="0.02618" Z="2.74712"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Hektometertafeln" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0056\000638_005642_Bischleben\Hektometertafeln\Hekto_117_8.ls3"/>
 <p X="-464.3943" Y="-292.5789" Z="235.6375"/>
-<phi Z="-0.394472"/>
+<phi Y="0.02618" Z="-0.394472"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Hektometertafeln" BoundingR="1" SichtbarBis="3000" Vorlade="1">
@@ -1951,7 +1939,7 @@
 <Verknuepfte Flags="16" BoundingR="12" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Bruecken\Betonbruecke_Autobahn-2spurig_2600cm\Einzelteile\Rechteckpfeiler_ohneStandspur_08mhoch.lod.ls3"/>
 <p X="-479.4779" Y="-332.8928" Z="252.5681"/>
-<phi Z="1.014246"/>
+<phi Y="0.02618" Z="1.014246"/>
 <sk Y="1.22" Z="3.5"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="12" SichtbarBis="3000" Vorlade="1">
@@ -3318,7 +3306,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\Ash\Ash01-08m.lod.ls3"/>
-<p X="-490.9848" Y="-19.9579" Z="245.1978"/>
+<p X="-490.9848" Y="-19.9579" Z="245.1977"/>
 <phi Z="0.619713"/>
 <sk X="0.9375" Y="0.9375" Z="0.9375"/>
 </Verknuepfte>
@@ -4884,7 +4872,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-08m.lod.ls3"/>
-<p X="-229.4677" Y="-201.686" Z="238.5847"/>
+<p X="-229.4677" Y="-201.686" Z="239.5146"/>
 <phi Z="0.537483"/>
 <sk/>
 </Verknuepfte>
@@ -6698,6 +6686,18 @@
 <Datei Dateiname="Signals\Deutschland\Balise\Eurobalise_S21_Festdaten.lod.ls3"/>
 <p X="-292.5417" Y="-357.6801" Z="231.4487"/>
 <phi Y="-0.005674" Z="2.686452"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="6.6633" Y="-495.145" Z="230.7563"/>
+<phi Z="2.825644"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
+<p X="-464.1082" Y="-292.698" Z="232.4875"/>
+<phi Z="-0.394472"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
