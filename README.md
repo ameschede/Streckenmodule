@@ -16,14 +16,10 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Hamm Rbf
 * Parkstein-Hütten
 * Schwarzenbach bei Pressath
-* Escherde
-* Emmerke
-* Hildesheim Gbf
 * Prödel
 * Gommern
 * Hämelerwald
 * Vöhrum
-* Peine West
 * Großwudicke
 * Schönhauser Damm
 
@@ -33,7 +29,7 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 
 Die Module Gommern, Prödel und Güterglück Gkn bilden ein zusammenhängendes Netz mit 16 km Gesamt-Streckenlänge. Hierzu existiert ein Fahrplan 1993 im Timetables-Verzeichnis.
 
-Die Module Hämelerwald, Vöhrum und Peine West schließen bei Lehrte an das Zusi-Bestandsnetz an. Hierzu existiert ein Fahrplan 1957 im Timetables-Verzeichnis.
+Die Module Hämelerwald und Vöhrum schließen bei Lehrte und Peine an das Zusi-Bestandsnetz an. Hierzu existiert ein Fahrplan 1957 im Timetables-Verzeichnis.
 
 Die Module Großwudicke und Schönhauser Damm bilden ein zusammenhängendes Netz mit 13,8 km Länge.
 
