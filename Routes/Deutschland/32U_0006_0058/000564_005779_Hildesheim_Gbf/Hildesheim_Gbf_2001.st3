@@ -33117,7 +33117,7 @@
 <g X="203.2347" Y="-175.6539" Z="86.4412"/>
 <b X="193.2408" Y="-176.0042" Z="86.4235"/>
 <InfoNormRichtung vMax="-1" Reg="5167">
-<Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hw" Signalname="Ls Ha" SignalFlags="4" SignalTyp="5" BoundingR="1">
+<Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hw" Signalname="Ls Ha" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="193.162" Y="-173.7555" Z="86.4235"/>
 <phi Z="-3.10656"/>
 <SignalFrame>
@@ -33135,11 +33135,26 @@
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\Gs_Schild_wrw-h.lod.ls3"/>
 </SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.075" Z="4.895"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_Lsp.lod1.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.055" Z="4.895"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_H-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.0925" Z="4.895"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_A-klein.lod.ls3"/>
+</SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
 <HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="13" MatrixGeschw="6.9444"/>
-<MatrixEintrag Signalbild="11"/>
+<MatrixEintrag Signalbild="125" MatrixGeschw="6.9444"/>
+<MatrixEintrag Signalbild="123"/>
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="22.2222" km="41.7233" Reg="5167"/>
@@ -36046,7 +36061,7 @@
 <b X="65.745" Y="-201.2182" Z="85.6379"/>
 <InfoNormRichtung vMax="4.1667" km="41.8446" pos="1" Reg="5174"/>
 <InfoGegenRichtung vMax="4.1667" Reg="5174">
-<Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hw" Signalname="Ls He" SignalFlags="4" SignalTyp="5" BoundingR="1">
+<Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hw" Signalname="Ls He" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="68.8315" Y="-202.3876" Z="85.6619"/>
 <phi Z="0.387932"/>
 <SignalFrame>
@@ -36064,11 +36079,26 @@
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\Gs_Schild_wrw-h.lod.ls3"/>
 </SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.075" Z="4.895"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_Lsp.lod1.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.055" Z="4.895"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_H-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.0925" Z="4.895"/>
+<phi Z="0"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_E-klein.lod.ls3"/>
+</SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
 <HsigBegriff FahrstrTyp="2"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="13" MatrixGeschw="6.9444"/>
-<MatrixEintrag Signalbild="11"/>
+<MatrixEintrag Signalbild="125" MatrixGeschw="6.9444"/>
+<MatrixEintrag Signalbild="123"/>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="3145"/>
@@ -46918,6 +46948,340 @@
 </InfoGegenRichtung>
 <NachNorm Nr="2320"/>
 <NachGegen Nr="3564"/>
+</StrElement>
+<StrElement Nr="4783" spTrass="27.7778" Fkt="2">
+<g X="381.453" Y="-160.201" Z="86"/>
+<b X="333.4521" Y="-164.6384" Z="86.9386"/>
+<NachNorm Nr="4784"/>
+</StrElement>
+<StrElement Nr="4784" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="333.4521" Y="-164.6384" Z="86.9386"/>
+<b X="286.7323" Y="-167.3678" Z="85.7579"/>
+<NachNorm Nr="4825"/>
+<NachGegen Nr="4783"/>
+</StrElement>
+<StrElement Nr="4785" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="80.3618" Y="-199.0872" Z="85.0541"/>
+<b X="75.884" Y="-200.7321" Z="85.006"/>
+<NachNorm Nr="4826"/>
+<NachGegen Nr="4786"/>
+</StrElement>
+<StrElement Nr="4786" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="84.8684" Y="-197.523" Z="85.1021"/>
+<b X="80.3618" Y="-199.0872" Z="85.0541"/>
+<NachNorm Nr="4785"/>
+<NachGegen Nr="4787"/>
+</StrElement>
+<StrElement Nr="4787" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="89.4023" Y="-196.0398" Z="85.1502"/>
+<b X="84.8684" Y="-197.523" Z="85.1021"/>
+<NachNorm Nr="4786"/>
+<NachGegen Nr="4788"/>
+</StrElement>
+<StrElement Nr="4788" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="93.9621" Y="-194.6382" Z="85.1982"/>
+<b X="89.4023" Y="-196.0398" Z="85.1502"/>
+<NachNorm Nr="4787"/>
+<NachGegen Nr="4789"/>
+</StrElement>
+<StrElement Nr="4789" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="98.5463" Y="-193.3187" Z="85.2463"/>
+<b X="93.9621" Y="-194.6382" Z="85.1982"/>
+<NachNorm Nr="4788"/>
+<NachGegen Nr="4790"/>
+</StrElement>
+<StrElement Nr="4790" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="103.1534" Y="-192.0816" Z="85.2943"/>
+<b X="98.5463" Y="-193.3187" Z="85.2463"/>
+<NachNorm Nr="4789"/>
+<NachGegen Nr="4791"/>
+</StrElement>
+<StrElement Nr="4791" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="107.7821" Y="-190.9274" Z="85.3424"/>
+<b X="103.1534" Y="-192.0816" Z="85.2943"/>
+<NachNorm Nr="4790"/>
+<NachGegen Nr="4792"/>
+</StrElement>
+<StrElement Nr="4792" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="112.4306" Y="-189.8564" Z="85.3905"/>
+<b X="107.7821" Y="-190.9274" Z="85.3424"/>
+<NachNorm Nr="4791"/>
+<NachGegen Nr="4793"/>
+</StrElement>
+<StrElement Nr="4793" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="117.0976" Y="-188.8691" Z="85.4385"/>
+<b X="112.4306" Y="-189.8564" Z="85.3905"/>
+<NachNorm Nr="4792"/>
+<NachGegen Nr="4794"/>
+</StrElement>
+<StrElement Nr="4794" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="121.7845" Y="-187.9651" Z="85.4866"/>
+<b X="117.0976" Y="-188.8691" Z="85.4385"/>
+<NachNorm Nr="4793"/>
+<NachGegen Nr="4795"/>
+</StrElement>
+<StrElement Nr="4795" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="125.5466" Y="-187.3024" Z="85.5236"/>
+<b X="121.7845" Y="-187.9651" Z="85.4866"/>
+<NachNorm Nr="4794"/>
+<NachGegen Nr="4796"/>
+</StrElement>
+<StrElement Nr="4796" kr="0.003715" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="130.0676" Y="-186.5794" Z="85.559"/>
+<b X="125.5466" Y="-187.3024" Z="85.5236"/>
+<NachNorm Nr="4795"/>
+<NachGegen Nr="4797"/>
+</StrElement>
+<StrElement Nr="4797" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="134.6226" Y="-185.9087" Z="85.584"/>
+<b X="130.0676" Y="-186.5794" Z="85.559"/>
+<NachNorm Nr="4796"/>
+<NachGegen Nr="4798"/>
+</StrElement>
+<StrElement Nr="4798" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="139.1978" Y="-185.2374" Z="85.5983"/>
+<b X="134.6226" Y="-185.9087" Z="85.584"/>
+<NachNorm Nr="4797"/>
+<NachGegen Nr="4799"/>
+</StrElement>
+<StrElement Nr="4799" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="145.1413" Y="-184.3653" Z="85.6099"/>
+<b X="139.1978" Y="-185.2374" Z="85.5983"/>
+<NachNorm Nr="4798"/>
+<NachGegen Nr="4800"/>
+</StrElement>
+<StrElement Nr="4800" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="159.0888" Y="-182.3189" Z="85.6371"/>
+<b X="145.1413" Y="-184.3653" Z="85.6099"/>
+<NachNorm Nr="4799"/>
+<NachGegen Nr="4801"/>
+</StrElement>
+<StrElement Nr="4801" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="162.7117" Y="-181.7877" Z="85.6439"/>
+<b X="159.0888" Y="-182.3189" Z="85.6371"/>
+<NachNorm Nr="4800"/>
+<NachGegen Nr="4802"/>
+</StrElement>
+<StrElement Nr="4802" kr="-0.0001" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="165.0987" Y="-181.437" Z="85.6473"/>
+<b X="162.7117" Y="-181.7877" Z="85.6439"/>
+<NachNorm Nr="4801"/>
+<NachGegen Nr="4803"/>
+</StrElement>
+<StrElement Nr="4803" kr="0.0035" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="169.4871" Y="-180.8453" Z="85.6521"/>
+<b X="165.0987" Y="-181.437" Z="85.6473"/>
+<NachNorm Nr="4802"/>
+<NachGegen Nr="4804"/>
+</StrElement>
+<StrElement Nr="4804" kr="0.0053" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="173.8739" Y="-180.3601" Z="85.6603"/>
+<b X="169.4871" Y="-180.8453" Z="85.6521"/>
+<NachNorm Nr="4803"/>
+<NachGegen Nr="4805"/>
+</StrElement>
+<StrElement Nr="4805" kr="0.0052" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="177.4095" Y="-180.0447" Z="85.6668"/>
+<b X="173.8739" Y="-180.3601" Z="85.6603"/>
+<NachNorm Nr="4804"/>
+<NachGegen Nr="4806"/>
+</StrElement>
+<StrElement Nr="4806" kr="0.0053" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="180.9569" Y="-179.7964" Z="85.6733"/>
+<b X="177.4095" Y="-180.0447" Z="85.6668"/>
+<NachNorm Nr="4805"/>
+<NachGegen Nr="4807"/>
+</StrElement>
+<StrElement Nr="4807" kr="0.005" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="184.511" Y="-179.6119" Z="85.6798"/>
+<b X="180.9569" Y="-179.7964" Z="85.6733"/>
+<NachNorm Nr="4806"/>
+<NachGegen Nr="4808"/>
+</StrElement>
+<StrElement Nr="4808" spTrass="27.7778" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="185.6825" Y="-179.5711" Z="85.6819"/>
+<b X="184.5018" Y="-179.6123" Z="85.6798"/>
+<NachNorm Nr="4807"/>
+<NachGegen Nr="4809"/>
+</StrElement>
+<StrElement Nr="4809" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="193.3564" Y="-179.3022" Z="85.6955"/>
+<b X="185.6825" Y="-179.5711" Z="85.6819"/>
+<NachNorm Nr="4808"/>
+<NachGegen Nr="4810"/>
+</StrElement>
+<StrElement Nr="4810" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="203.3624" Y="-178.9514" Z="85.7132"/>
+<b X="193.3564" Y="-179.3022" Z="85.6955"/>
+<NachNorm Nr="4809"/>
+<NachGegen Nr="4811"/>
+</StrElement>
+<StrElement Nr="4811" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="209.3685" Y="-178.6965" Z="85.7237"/>
+<b X="203.3624" Y="-178.9514" Z="85.7132"/>
+<NachNorm Nr="4810"/>
+<NachGegen Nr="4812"/>
+</StrElement>
+<StrElement Nr="4812" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="215.3824" Y="-178.3528" Z="85.7342"/>
+<b X="209.3685" Y="-178.6965" Z="85.7237"/>
+<NachNorm Nr="4811"/>
+<NachGegen Nr="4813"/>
+</StrElement>
+<StrElement Nr="4813" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="221.3905" Y="-177.9205" Z="85.7447"/>
+<b X="215.3824" Y="-178.3528" Z="85.7342"/>
+<NachNorm Nr="4812"/>
+<NachGegen Nr="4814"/>
+</StrElement>
+<StrElement Nr="4814" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="227.3873" Y="-177.4003" Z="85.7519"/>
+<b X="221.3905" Y="-177.9205" Z="85.7447"/>
+<NachNorm Nr="4813"/>
+<NachGegen Nr="4815"/>
+</StrElement>
+<StrElement Nr="4815" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="231.2289" Y="-177.0203" Z="85.7525"/>
+<b X="227.3873" Y="-177.4003" Z="85.7519"/>
+<NachNorm Nr="4814"/>
+<NachGegen Nr="4816"/>
+</StrElement>
+<StrElement Nr="4816" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="234.4559" Y="-176.6728" Z="85.7528"/>
+<b X="231.2289" Y="-177.0203" Z="85.7525"/>
+<NachNorm Nr="4815"/>
+<NachGegen Nr="4817"/>
+</StrElement>
+<StrElement Nr="4817" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="239.3697" Y="-176.0938" Z="85.7533"/>
+<b X="234.4559" Y="-176.6728" Z="85.7528"/>
+<NachNorm Nr="4816"/>
+<NachGegen Nr="4818"/>
+</StrElement>
+<StrElement Nr="4818" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="245.3399" Y="-175.309" Z="85.7539"/>
+<b X="239.3697" Y="-176.0938" Z="85.7533"/>
+<NachNorm Nr="4817"/>
+<NachGegen Nr="4819"/>
+</StrElement>
+<StrElement Nr="4819" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="251.2999" Y="-174.4363" Z="85.7546"/>
+<b X="245.3399" Y="-175.309" Z="85.7539"/>
+<NachNorm Nr="4818"/>
+<NachGegen Nr="4820"/>
+</StrElement>
+<StrElement Nr="4820" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="257.2466" Y="-173.4759" Z="85.7551"/>
+<b X="251.2999" Y="-174.4363" Z="85.7546"/>
+<NachNorm Nr="4819"/>
+<NachGegen Nr="4821"/>
+</StrElement>
+<StrElement Nr="4821" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="263.1784" Y="-172.4281" Z="85.7555"/>
+<b X="257.2466" Y="-173.4759" Z="85.7551"/>
+<NachNorm Nr="4820"/>
+<NachGegen Nr="4822"/>
+</StrElement>
+<StrElement Nr="4822" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="269.0942" Y="-171.2932" Z="85.756"/>
+<b X="263.1784" Y="-172.4281" Z="85.7555"/>
+<NachNorm Nr="4821"/>
+<NachGegen Nr="4823"/>
+</StrElement>
+<StrElement Nr="4823" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="274.9926" Y="-170.0713" Z="85.7567"/>
+<b X="269.0942" Y="-171.2932" Z="85.756"/>
+<NachNorm Nr="4822"/>
+<NachGegen Nr="4824"/>
+</StrElement>
+<StrElement Nr="4824" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="280.8724" Y="-168.7627" Z="85.7573"/>
+<b X="274.9926" Y="-170.0713" Z="85.7567"/>
+<NachNorm Nr="4823"/>
+<NachGegen Nr="4825"/>
+</StrElement>
+<StrElement Nr="4825" kr="-0.002463" spTrass="22.2222" Anschluss="256" Fkt="2" Oberbau="Holz K-Oberbau">
+<g X="286.7323" Y="-167.3678" Z="85.7579"/>
+<b X="280.8724" Y="-168.7627" Z="85.7573"/>
+<NachNorm Nr="4824"/>
+<NachGegen Nr="4784"/>
+</StrElement>
+<StrElement Nr="4826" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="75.884" Y="-200.7321" Z="85.006"/>
+<b X="65.513" Y="-206.75" Z="85.5"/>
+<NachNorm Nr="4838"/>
+<NachGegen Nr="4785"/>
+</StrElement>
+<StrElement Nr="4827" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="57.863" Y="-211.121" Z="86"/>
+<b X="51.964" Y="-216.736" Z="86"/>
+<NachNorm Nr="4828"/>
+<NachGegen Nr="4838"/>
+</StrElement>
+<StrElement Nr="4828" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="51.964" Y="-216.736" Z="86"/>
+<b X="53.084" Y="-222.2653" Z="86"/>
+<NachNorm Nr="4829"/>
+<NachGegen Nr="4827"/>
+</StrElement>
+<StrElement Nr="4829" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="53.084" Y="-222.2653" Z="86"/>
+<b X="57.9875" Y="-231.524" Z="86"/>
+<NachNorm Nr="4830"/>
+<NachGegen Nr="4828"/>
+</StrElement>
+<StrElement Nr="4830" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="57.9875" Y="-231.524" Z="86"/>
+<b X="69.062" Y="-248.3056" Z="86"/>
+<NachNorm Nr="4831"/>
+<NachGegen Nr="4829"/>
+</StrElement>
+<StrElement Nr="4831" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="69.062" Y="-248.3056" Z="86"/>
+<b X="79.281" Y="-258.114" Z="86"/>
+<NachNorm Nr="4832"/>
+<NachGegen Nr="4830"/>
+</StrElement>
+<StrElement Nr="4832" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="79.281" Y="-258.114" Z="86"/>
+<b X="98.877" Y="-292.484" Z="87"/>
+<NachNorm Nr="4833"/>
+<NachGegen Nr="4831"/>
+</StrElement>
+<StrElement Nr="4833" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="98.877" Y="-292.484" Z="87"/>
+<b X="105.039" Y="-299.355" Z="87"/>
+<NachNorm Nr="4834"/>
+<NachGegen Nr="4832"/>
+</StrElement>
+<StrElement Nr="4834" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="105.039" Y="-299.355" Z="87"/>
+<b X="111.472" Y="-303.298" Z="87"/>
+<NachNorm Nr="4835"/>
+<NachGegen Nr="4833"/>
+</StrElement>
+<StrElement Nr="4835" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="111.472" Y="-303.298" Z="87"/>
+<b X="121.079" Y="-304.406" Z="87"/>
+<NachNorm Nr="4836"/>
+<NachGegen Nr="4834"/>
+</StrElement>
+<StrElement Nr="4836" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="121.079" Y="-304.406" Z="87"/>
+<b X="136.28" Y="-300.052" Z="87"/>
+<NachNorm Nr="4837"/>
+<NachGegen Nr="4835"/>
+</StrElement>
+<StrElement Nr="4837" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="136.28" Y="-300.052" Z="87"/>
+<b X="160" Y="-289.76" Z="87"/>
+<NachGegen Nr="4836"/>
+</StrElement>
+<StrElement Nr="4838" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="65.513" Y="-206.75" Z="85.5"/>
+<b X="57.863" Y="-211.121" Z="86"/>
+<NachNorm Nr="4827"/>
+<NachGegen Nr="4826"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Hildesheim Gbf Ls 35I" FahrstrTyp="TypZug" Laenge="636.7">
 <FahrstrStart Ref="609">
