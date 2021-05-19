@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="EK" Nummer="55353" Zuglauf="(f) Kassel Rbf - Wabern (Bz Kassel)" BR="294" Masse="418090" spMax="22.2222" Bremsh="0.8945" Laenge="154.08" LaengeLoks="14.32" kmStart="341.3117" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\EK55353.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="44.6417">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+<FplvMax vMax="8.3333"/>
+</FplZeile>
+<FplZeile FplLaufweg="46.6417">
+<FplvMax vMax="8.3333"/>
+<Fplkm km="0.0466"/>
+</FplZeile>
+<FplZeile FplLaufweg="373.1326">
+<Fplkm km="341.9"/>
+<FplName FplNameText="Kassel Rbf"/>
+<FplAnk Ank="2013-08-21 17:00:00"/>
+<FplAbf Abf="2013-08-21 17:48:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="644.7015">
+<FplvMax vMax="11.1111"/>
+<Fplkm km="341.9576"/>
+</FplZeile>
+<FplZeile FplLaufweg="934.4687">
+<FplIcon FplIconNr="7"/>
+<FplName FplNameText="Zvsig"/>
+<Fplkm km="342.2541"/>
+</FplZeile>
+<FplZeile FplLaufweg="1334.8979">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="342.6062"/>
+<FplIcon FplIconNr="7"/>
+<FplName FplNameText="Avsig , Zsig"/>
+<FplSignaltyp FplSignaltypNr="8"/>
+</FplZeile>
+<FplZeile FplLaufweg="1528.7225">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="342.793"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplLaufweg="1766.235">
+<FplName FplNameText="Bft Ksl Rbf Süd"/>
+<Fplkm km="343.0269"/>
+</FplZeile>
+<FplZeile FplLaufweg="1856.9911">
+<FplName FplNameText="Zsig = Esig"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="343.1176"/>
+</FplZeile>
+<FplZeile FplLaufweg="2795.2488">
+<FplName FplNameText="Kassel-Wilhelmshöhe"/>
+<Fplkm km="344.052"/>
+<FplAbf Abf="2013-08-21 17:51:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="3480.7131">
+<FplSignaltyp FplSignaltypNr="8"/>
+<Fplkm km="344.7407"/>
+</FplZeile>
+<FplZeile FplLaufweg="3999.2219">
+<FplvMax vMax="36.1111"/>
+<Fplkm km="345.2585"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="4000.4519">
+<Fplkm km="345.2693" FplSprung="1" FplkmNeu="4.8914"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="4223.9771">
+<Fplkm km="5.1149"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="4480.8066">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="5.3718"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

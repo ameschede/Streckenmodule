@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="RT" Nummer="32425" Zuglauf="(f) Kassel-Wolfhagen" BR="689" Masse="60000" spMax="27.7778" Bremsh="2.2667" Laenge="37.4" LaengeLoks="12.14" kmStart="345.1501" BremsstellungZug="5">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\RT32425.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile>
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+</FplZeile>
+<FplZeile FplLaufweg="5">
+<FplvMax vMax="16.6667"/>
+</FplZeile>
+<FplZeile FplLaufweg="10">
+<FplName FplNameText="Kassel Hbf"/>
+<Fplkm km="345.14"/>
+<FplAnk Ank="2013-08-21 18:40:00"/>
+<FplAbf Abf="2013-08-21 18:42:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="476.0886">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="344.674"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1077.5089" FahrstrStrecke="2550b">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="344.0876"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1077.5089" FahrstrStrecke="2550b">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="344.0876"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1123.1561" FahrstrStrecke="2550b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="344.027"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1237.7451" FahrstrStrecke="2550b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="343.9317"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2695.7964" FahrstrStrecke="2550b">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="342.4296"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3616.9983" FahrstrStrecke="2550b">
+<FplName FplNameText="Bk Ksl-Harlesh Hp"/>
+<Fplkm km="341.506"/>
+<FplAnk Ank="2013-08-21 18:46:00"/>
+<FplAbf Abf="2013-08-21 18:47:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3649.054" FahrstrStrecke="2550b">
+<FplName FplNameText="Bk Ksl-Harlesh Hp"/>
+<Fplkm km="341.4832"/>
+<FplAnk Ank="2013-08-21 18:46:00"/>
+<FplAbf Abf="2013-08-21 18:47:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3917.0747" FahrstrStrecke="2550b">
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="341.204"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="6725.7012" FahrstrStrecke="2550b">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="338.3976"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="6734.3945" FahrstrStrecke="2550b">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="338.3844"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+</FplZeile>
+<FplZeile FplLaufweg="7417.8057">
+<FplName FplNameText="Obervellmar"/>
+<Fplkm km="337.7055"/>
+<FplAnk Ank="2013-08-21 18:53:00"/>
+<FplAbf Abf="2013-08-21 18:54:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="7442.5732">
+<Fplkm km="337.6807"/>
+<FplvMax vMax="11.1111"/>
+<Fplkm km="337.6942"/>
+</FplZeile>
+<FplZeile FplLaufweg="7667.8062">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="337.4555"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7783.4688" FahrstrStrecke="3903b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="337.3399"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7787.8208" FahrstrStrecke="3903b">
+<Fplkm km="337.3356" FplSprung="1" FplkmNeu="36.0105"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7818.7012" FahrstrStrecke="3903b">
+<FplIcon FplIconNr="2"/>
+<Fplkm km="35.9798"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7861.6494" FahrstrStrecke="3903b">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="35.9328"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="8825.8818" FahrstrStrecke="3903b">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="35.0028"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="9153.9795" FahrstrStrecke="3903b">
+<FplName FplNameText="nach Volkmarsen"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="34.6456"/>
+<FplAnk Ank="2013-08-21 18:56:00" FplEintrag="1"/>
+<FplAbf Abf="2013-08-21 18:56:00"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

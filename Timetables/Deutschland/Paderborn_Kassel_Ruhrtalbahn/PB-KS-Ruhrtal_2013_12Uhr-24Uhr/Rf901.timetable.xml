@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="Rf" Nummer="901" BR="363" Masse="81500" spMax="6.9444" Bremsh="1.0184" Laenge="24.31" LaengeLoks="10.45" kmStart="341.6315" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\Rf901.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="39.573">
+<FplvMax vMax="13.8889"/>
+<Fplkm km="0.0198"/>
+</FplZeile>
+<FplZeile FplLaufweg="79.1459">
+<Fplkm km="341.7106" FplSprung="1" FplkmNeu="0.036"/>
+</FplZeile>
+<FplZeile FplLaufweg="88.1315">
+<FplName FplNameText="Kassel Rbf"/>
+<Fplkm km="0.045"/>
+<FplAnk Ank="2013-08-21 18:00:00"/>
+<FplAbf Abf="2013-08-21 18:15:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="518.9675">
+<FplvMax vMax="6.9444"/>
+<Fplkm km="0.4642"/>
+</FplZeile>
+<FplZeile FplLaufweg="522.584">
+<Fplkm km="0.4654" FplSprung="1" FplkmNeu="342.0322"/>
+</FplZeile>
+<FplZeile FplLaufweg="684.6464">
+<Fplkm km="342.1677" FplSprung="1" FplkmNeu="164.4359"/>
+</FplZeile>
+<FplZeile FplLaufweg="920.5498">
+<Fplkm km="164.6221" FplSprung="1" FplkmNeu="0.808"/>
+</FplZeile>
+<FplZeile FplLaufweg="1321.1401">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="0.421" FplSprung="1" FplkmNeu="343.9485"/>
+</FplZeile>
+<FplZeile FplLaufweg="1366.589">
+<Fplkm km="343.9031" FplSprung="1" FplkmNeu="1.108"/>
+</FplZeile>
+<FplZeile FplLaufweg="1593.0706">
+<Fplkm km="0.8814" FplSprung="1" FplkmNeu="0.453"/>
+</FplZeile>
+<FplZeile FplLaufweg="1624.5017">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="0.4662"/>
+</FplZeile>
+<FplZeile FplLaufweg="1771.7817">
+<Fplkm km="0.2742"/>
+<FplvMax vMax="16.6667"/>
+<Fplkm km="0.3104"/>
+</FplZeile>
+<FplZeile FplLaufweg="2113.009">
+<FplvMax vMax="8.3333"/>
+<Fplkm km="0.0888"/>
+</FplZeile>
+<FplZeile FplLaufweg="2449.7961">
+<FplName FplNameText="Kassel Hbf"/>
+<Fplkm km="0.4286"/>
+<FplAnk Ank="2013-08-21 18:20:00"/>
+<FplAbf Abf="2013-08-21 18:30:00"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

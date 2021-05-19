@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="ERB" Nummer="90075" Zuglauf="Münster - Paderborn" BR="428" Masse="148000" spMax="44.4444" Bremsh="1.4865" MBrh="1.86" Laenge="73.74" LaengeLoks="41.54" kmStart="132.2342" BremsstellungZug="5">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\ERB90075.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="43.64">
+<FplvMax vMax="44.4444"/>
+<Fplkm km="-0.0966"/>
+</FplZeile>
+<FplZeile FplLaufweg="1998.03">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="130.2362"/>
+</FplZeile>
+<FplZeile FplLaufweg="2335.4387">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="129.9021"/>
+</FplZeile>
+<FplZeile FplLaufweg="3091.574">
+<FplSignaltyp FplSignaltypNr="8"/>
+<Fplkm km="129.1441"/>
+</FplZeile>
+<FplZeile FplLaufweg="3585.6099">
+<FplIcon FplIconNr="12"/>
+<Fplkm km="128.6506"/>
+</FplZeile>
+<FplZeile FplLaufweg="3745.4353">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="128.4908"/>
+</FplZeile>
+<FplZeile FplLaufweg="3936.8616">
+<FplName FplNameText="Paderborn Hbf"/>
+<Fplkm km="128.2994"/>
+<FplAnk Ank="2013-08-21 16:07:00" FplEintrag="1"/>
+<FplAbf Abf="2013-08-21 16:07:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="4072.8384">
+<FplNameRechts FplNameText="A 60"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="128.1634"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

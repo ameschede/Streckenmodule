@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="X-Deko" Nummer="Kassel Hbf 12" BR="714" Masse="389600" spMax="27.7778" Bremsh="1.0164" Laenge="146.82" kmStart="2.1544" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\X-DekoKasselHbf12.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile>
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+</FplZeile>
+<FplZeile FplLaufweg="5.3851">
+<FplvMax vMax="16.6667"/>
+</FplZeile>
+<FplZeile FplLaufweg="10.7701">
+<FplName FplNameText="Kassel Hbf"/>
+<Fplkm km="2.1436"/>
+<FplAnk Ank="2013-08-21 12:00:00"/>
+<FplAbf Abf="2013-08-21 23:59:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="340.2159">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="1.8141"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

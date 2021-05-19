@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="X-Deko" Nummer="Kassel Rbf 1317" BR="294" Masse="80000" spMax="22.2222" Bremsh="1.1" Laenge="14.32" LaengeLoks="14.32" kmStart="161.8211" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\X-DekoKasselRbf1317.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="10.9448">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="0.0012"/>
+</FplZeile>
+<FplZeile FplLaufweg="283.8192">
+<FplName FplNameText="Bft Ksl Rbf Tal"/>
+<Fplkm km="162.1073"/>
+</FplZeile>
+<FplZeile FplLaufweg="328.1278">
+<Fplkm km="162.1515" FplSprung="1" FplkmNeu="339.9075"/>
+</FplZeile>
+<FplZeile FplLaufweg="691.3731">
+<Fplkm km="340.2707" FplSprung="1" FplkmNeu="162.5149"/>
+</FplZeile>
+<FplZeile FplLaufweg="876.3468">
+<Fplkm km="162.6999" FplSprung="1" FplkmNeu="340.4074"/>
+</FplZeile>
+<FplZeile FplLaufweg="1368.4518">
+<FplvMax vMax="8.3333"/>
+<Fplkm km="340.8952"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

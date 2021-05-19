@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="RE" Nummer="23028" Zuglauf="(f) Wolfhagen - Kassel-Wilhelmshöhe" BR="646" Masse="80000" spMax="33.3333" Bremsh="1.625" Laenge="41.816" LaengeLoks="41.816" kmStart="34.6457" BremsstellungZug="5">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\RE23028.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="44.8715">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+<FplvMax vMax="16.6667"/>
+</FplZeile>
+<FplZeile FplLaufweg="46.8715">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="0.0469"/>
+</FplZeile>
+<FplZeile FplLaufweg="1007.4515">
+<FplvMax vMax="11.1111"/>
+<Fplkm km="35.653"/>
+<FplName FplNameText="Esig"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+</FplZeile>
+<FplZeile FplLaufweg="1401.9049">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="35.9741" FplSprung="1" FplkmNeu="338.0779"/>
+</FplZeile>
+<FplZeile FplLaufweg="1736.4103">
+<FplvMaxGNT vMax="27.7777"/>
+<Fplkm km="337.756"/>
+<FplvMax vMax="27.7778"/>
+<Fplkm km="35.6398"/>
+</FplZeile>
+<FplZeile FplLaufweg="1748.7996">
+<FplName FplNameText="Obervellmar"/>
+<Fplkm km="337.731"/>
+<FplAnk Ank="2013-08-21 17:27:00" FplEintrag="1"/>
+<FplAbf Abf="2013-08-21 17:29:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="1755.1901">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="337.7246"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1772.6343" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+<FplvMax vMax="27.7778"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1774.6343" FahrstrStrecke="3913a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="35.6402" FplSprung="1" FplkmNeu="337.7001"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1829.9308" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="4"/>
+<Fplkm km="337.7993"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1835.4966" FahrstrStrecke="3913a">
+<FplvMaxGNT vMax="27.7777"/>
+<Fplkm km="337.7993"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2121.1094" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="338.0467"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2128.082" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="338.0975"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2854.4231" FahrstrStrecke="3913a">
+<Fplkm km="339.2"/>
+<FplName FplNameText="Abzw Ksl Rbf Berg"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<FplAbf Abf="2013-08-21 17:30:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2898.8923" FahrstrStrecke="3913a">
+<FplvMax vMax="11.1111"/>
+<Fplkm km="339.2"/>
+<FplName FplNameText="Abzw Ksl Rbf Berg"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<FplAbf Abf="2013-08-21 17:30:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3233.3337" FahrstrStrecke="3913a">
+<Fplkm km="339.2036"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3298.1538" FahrstrStrecke="3913a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="339.2684"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3991.6755" FahrstrStrecke="3913a">
+<Fplkm km="339.9612"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4243.9897" FahrstrStrecke="3913a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="340.2134"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="5876.5479">
+<FplName FplNameText="Kassel Rbf"/>
+<Fplkm km="341.8248"/>
+<FplAbf Abf="2013-08-21 17:31:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="6167.3828">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="342.1295"/>
+<FplSignaltyp FplSignaltypNr="8"/>
+</FplZeile>
+<FplZeile FplLaufweg="6831.1069">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="342.813"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplLaufweg="7088.0386">
+<FplName FplNameText="Bft Ksl Rbf Süd"/>
+<Fplkm km="343.0269"/>
+</FplZeile>
+<FplZeile FplLaufweg="7178.7949">
+<FplName FplNameText="Zsig = Esig"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="343.1176"/>
+</FplZeile>
+<FplZeile FplLaufweg="8086.0762">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="344.0211" FplSprung="1" FplkmNeu="144.2085"/>
+</FplZeile>
+<FplZeile FplLaufweg="8116.7783">
+<FplName FplNameText="Kassel-Wilhelmshöhe"/>
+<Fplkm km="144.2392"/>
+<FplAnk Ank="2013-08-21 17:33:00"/>
+<FplAbf Abf="2013-08-21 17:40:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="8590.1094">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="144.7126"/>
+</FplZeile>
+<FplZeile FplLaufweg="8810.6055">
+<FplSignaltyp FplSignaltypNr="8"/>
+<Fplkm km="144.933"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

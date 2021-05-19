@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="RE" Nummer="23015" Zuglauf="(f) Kassel-Wilhelmshöhe - Wolfhagen" BR="646" Masse="80000" spMax="33.3333" Laenge="41.816" LaengeLoks="41.816" kmStart="4.0942" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\RE23015.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="3.2522">
+<FplIcon FplIconNr="2"/>
+<FplName/>
+<FplvMax vMax="22.2222"/>
+</FplZeile>
+<FplZeile FplLaufweg="5.2522">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="-0.0159"/>
+</FplZeile>
+<FplZeile FplLaufweg="353.8531">
+<FplName FplNameText="Kassel-Wilhelmshöhe"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="3.7404"/>
+<FplAnk Ank="2013-08-21 12:20:00"/>
+<FplAbf Abf="2013-08-21 12:29:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="669.9999">
+<Fplkm km="3.4242" FplSprung="1" FplkmNeu="343.445"/>
+</FplZeile>
+<FplZeile FplLaufweg="1045.6564">
+<Fplkm km="343.4098" FplSprung="1" FplkmNeu="143.5819"/>
+</FplZeile>
+<FplZeile FplLaufweg="1143.3022">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="143.4857"/>
+</FplZeile>
+<FplZeile FplLaufweg="1484.6442">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="143.1408"/>
+</FplZeile>
+<FplZeile FplLaufweg="1689.623">
+<Fplkm km="143"/>
+<FplName FplNameText="Bksig"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2269.3718" FahrstrStrecke="1733b">
+<FplName FplNameText="Kassel Werkekr"/>
+<Fplkm km="142.3586"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2441.865" FahrstrStrecke="1733b">
+<FplvMax vMax="36.1111"/>
+<Fplkm km="142.1741"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2446.3452" FahrstrStrecke="1733b">
+<FplvMax vMax="36.1111"/>
+<Fplkm km="142.1736"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2679.8589" FahrstrStrecke="1733b">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="141.9361"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2696.0322" FahrstrStrecke="1733b">
+<FplName FplNameText="Bksig"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="141.9239"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3018.0071" FahrstrStrecke="3913b">
+<FplName FplNameText="Abzw Nord/West B"/>
+<Fplkm km="141.5858"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3019.2371" FahrstrStrecke="3913b">
+<Fplkm km="141.5845" FplSprung="1" FplkmNeu="341.4228"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplvMax vMax="27.7778"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3034.1804" FahrstrStrecke="3913b">
+<FplName FplNameText="Abzw Nord/West B"/>
+<Fplkm km="141.5858"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3035.4104" FahrstrStrecke="3913b">
+<Fplkm km="141.5845" FplSprung="1" FplkmNeu="341.4228"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplvMax vMax="27.7778"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3099.5356" FahrstrStrecke="3913b">
+<FplIcon FplIconNr="6"/>
+<Fplkm km="341.3427"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3115.709" FahrstrStrecke="3913b">
+<FplIcon FplIconNr="6"/>
+<Fplkm km="341.3427"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3219.9219" FahrstrStrecke="3913b">
+<Fplkm km="341.2223"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3236.0952" FahrstrStrecke="3913b">
+<Fplkm km="341.2223"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3303.0935" FahrstrStrecke="3913b">
+<Fplkm km="341.1394"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3319.2668" FahrstrStrecke="3913b">
+<Fplkm km="341.1394"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3366.6658" FahrstrStrecke="3913b">
+<Fplkm km="341.0759"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3382.8391" FahrstrStrecke="3913b">
+<Fplkm km="341.0759"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3392.5208" FahrstrStrecke="3913b">
+<Fplkm km="341.05"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3408.6941" FahrstrStrecke="3913b">
+<Fplkm km="341.05"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3563.2791" FahrstrStrecke="3913b">
+<Fplkm km="340.8797"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3579.4524" FahrstrStrecke="3913b">
+<Fplkm km="340.8797"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3655.4905" FahrstrStrecke="3913b">
+<Fplkm km="340.7878"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3671.6638" FahrstrStrecke="3913b">
+<Fplkm km="340.7878"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3734.0842" FahrstrStrecke="3913b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="340.7329"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3738.936" FahrstrStrecke="3913b">
+<Fplkm km="340.7044"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3802.5447" FahrstrStrecke="3913b">
+<Fplkm km="340.6408"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3826.1013" FahrstrStrecke="3913b">
+<Fplkm km="340.6172"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3879.8833" FahrstrStrecke="3913b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="340.5745"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="4983.6465" FahrstrStrecke="3913b">
+<Fplkm km="339.2"/>
+<FplName FplNameText="Abzw Ksl Rbf Berg"/>
+<FplSignaltyp FplSignaltypNr="13"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="5003.2134" FahrstrStrecke="3913b">
+<Fplkm km="339.2"/>
+<FplName FplNameText="Abzw Ksl Rbf Berg"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="5308.7983" FahrstrStrecke="3913b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="339.1836"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="5337.9585" FahrstrStrecke="3913b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="339.1282"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="6057.9385" FahrstrStrecke="3913b">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="338.4074"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="6078.1675" FahrstrStrecke="3913b">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="338.4075"/>
+</FplZeile>
+<FplZeile FplLaufweg="6742.6479">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="337.7534"/>
+</FplZeile>
+<FplZeile FplLaufweg="6780.2026">
+<FplName FplNameText="Obervellmar"/>
+<Fplkm km="337.7055"/>
+</FplZeile>
+<FplZeile FplLaufweg="6804.9702">
+<Fplkm km="337.6807"/>
+<FplvMax vMax="11.1111"/>
+<Fplkm km="337.6942"/>
+</FplZeile>
+<FplZeile FplLaufweg="7030.2031">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="337.4555"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7145.8657" FahrstrStrecke="3903b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="337.3399"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7150.2178" FahrstrStrecke="3903b">
+<Fplkm km="337.3356" FplSprung="1" FplkmNeu="36.0105"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="7224.0464" FahrstrStrecke="3903b">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="35.9328"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="8188.2793" FahrstrStrecke="3903b">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="35.0028"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="8516.377" FahrstrStrecke="3903b">
+<FplName FplNameText="nach Volkmarsen"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="34.6456"/>
+<FplAnk Ank="2013-08-21 12:36:00" FplEintrag="1"/>
+<FplAbf Abf="2013-08-21 12:36:00"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

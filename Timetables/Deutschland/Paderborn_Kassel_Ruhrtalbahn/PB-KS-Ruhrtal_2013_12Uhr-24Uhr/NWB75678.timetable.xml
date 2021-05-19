@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="NWB" Nummer="75678" Zuglauf="Holzminden - Paderborn - Bielefeld" BR="643" Masse="90000" spMax="33.3333" Bremsh="1.9222" MBrh="0.64" Laenge="47.891" LaengeLoks="33.141" kmStart="12.7202" BremsstellungZug="3">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\NWB75678.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="85.566">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 65 -"/>
+<FplvMax vMax="27.7778"/>
+</FplZeile>
+<FplZeile FplLaufweg="87.566">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="-0.0876"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="262.6965">
+<FplName FplNameText="von Brakel"/>
+<Fplkm km="12.4575"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="2182.5034">
+<FplNameRechts FplNameText="E 60"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="10.5377"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="2866.2505">
+<FplName FplNameText="Bad Driburg"/>
+<Fplkm km="9.8539"/>
+<FplAnk Ank="2013-08-21 21:39:00"/>
+<FplAbf Abf="2013-08-21 21:43:30"/>
+</FplZeile>
+<FplZeile FplLaufweg="3170.2131">
+<FplNameRechts FplNameText="A 60"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="9.55"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3325.8403" FahrstrStrecke="2974b">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 65 -"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3327.8403" FahrstrStrecke="2974b">
+<Fplkm km="9.3924"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3327.8403" FahrstrStrecke="2974b">
+<Fplkm km="9.3924"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3415.0303" FahrstrStrecke="2974b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="9.3052"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3505.8569" FahrstrStrecke="2974b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="9.218"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="5333.6133" FahrstrStrecke="2974b">
+<FplTunnel FplNameText="Reelsener Tunnel" FplTunnelAnfang="1"/>
+<Fplkm km="7.3874"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="5335.7197" FahrstrStrecke="2974b">
+<FplTunnel FplNameText="Reelsener Tunnel" FplTunnelAnfang="1"/>
+<Fplkm km="7.3874"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="5538.0791" FahrstrStrecke="2974b">
+<FplTunnel/>
+<Fplkm km="7.1954"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="5539.6587" FahrstrStrecke="2974b">
+<FplTunnel/>
+<Fplkm km="7.1944"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="6849.3271" FahrstrStrecke="2974b">
+<FplName FplNameText="Reelsen Hp"/>
+<Fplkm km="5.8842"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="6850.4609" FahrstrStrecke="2974b">
+<FplName FplNameText="Reelsen Hp"/>
+<Fplkm km="5.8837"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="7224.9453" FahrstrStrecke="2974b">
+<Fplkm km="5.5092"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="8028.5615" FahrstrStrecke="2974b">
+<FplvMax vMax="25"/>
+<Fplkm km="4.7049"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8029.3809" FahrstrStrecke="2974b">
+<FplvMax vMax="25"/>
+<Fplkm km="4.705"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="8050.8154" FahrstrStrecke="2974b">
+<FplName FplNameText="- ZBF A 73 -"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8051.5742" FahrstrStrecke="2974b">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 73 -"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="8170.6724" FahrstrStrecke="2974b">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="4.5629"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8171.2163" FahrstrStrecke="2974b">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="4.5629"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="9262.4932">
+<FplName FplNameText="Langeland"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="3.4727"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplvMax vMax="22.2222"/>
+<Fplkm km="3.4684"/>
+<FplAbf Abf="2013-08-21 21:47:30"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="9268.6494" FahrstrStrecke="1760a">
+<Fplkm km="3.4794" FplSprung="1" FplkmNeu="107.6337"/>
+<FplvMax vMax="22.2222"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9269.1934" FahrstrStrecke="1760a">
+<Fplkm km="3.4794" FplSprung="1" FplkmNeu="107.6337"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="9502.1348" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="107.867"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9540.2822" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="107.9069"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="9565.5234" FahrstrStrecke="1760a">
+<FplTunnel FplNameText="Rehbergtunnel" FplTunnelAnfang="1"/>
+<Fplkm km="107.9304"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9567.1162" FahrstrStrecke="1760a">
+<FplTunnel FplNameText="Rehbergtunnel" FplTunnelAnfang="1"/>
+<Fplkm km="107.9337"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="9574.5068" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 73 -"/>
+<Fplkm km="107.9394"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="11183.585" FahrstrStrecke="1760a">
+<FplTunnel/>
+<Fplkm km="109.5252"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="11188.1738" FahrstrStrecke="1760a">
+<FplTunnel/>
+<Fplkm km="109.5292"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="11232.793" FahrstrStrecke="1760a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="109.5981"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="11233.207" FahrstrStrecke="1760a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="109.5982"/>
+</FplZeile>
+<FplZeile FplLaufweg="12452.6016">
+<FplName FplNameText="Altenbeken"/>
+<Fplkm km="110.8185"/>
+<FplAnk Ank="2013-08-21 21:52:00"/>
+<FplAbf Abf="2013-08-21 21:52:30"/>
+</FplZeile>
+<FplZeile FplLaufweg="12513.0801">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="110.879"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="13050.0684" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="111.4159"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="13060.3984" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="41.6667"/>
+<Fplkm km="111.4159"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="13074.4551" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="3"/>
+<Fplkm km="111.4403"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="13084.5557" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="41.6667"/>
+<Fplkm km="111.4403"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="13199.8877" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="111.566"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="13226.0742" FahrstrStrecke="1760a">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="111.5984"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="13264.9561" FahrstrStrecke="1760a">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="111.6314"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="13279.3516" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="111.6453"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="13928.877" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="112.2931"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="13939.3809" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="112.2963"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="15347.8057" FahrstrStrecke="1760a">
+<Fplkm km="113.7153" FplSprung="1" FplkmNeu="113.8668"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="15348.6182" FahrstrStrecke="1760a">
+<Fplkm km="113.7142" FplSprung="1" FplkmNeu="113.8668"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="15395.4063" FahrstrStrecke="1760a">
+<FplName FplNameText="Sbk 11"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="113.9144"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="18291.0625" FahrstrStrecke="1760a">
+<FplName FplNameText="Sbk 13"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="116.8103"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="18903.4199" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="30.5556"/>
+<Fplkm km="117.4118"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="18903.8477" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="30.5556"/>
+<Fplkm km="117.4123"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="20726.8613" FahrstrStrecke="1760a">
+<FplName FplNameText="Sbk 15"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="119.2521"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="22190.834" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="4"/>
+<Fplkm km="120.7131"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="22198.1816" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="4"/>
+<Fplkm km="120.7131"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="22200.5938" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="30.5556"/>
+<Fplkm km="120.7131"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="22207.9004" FahrstrStrecke="1760a">
+<FplvMaxGNT vMax="30.5556"/>
+<Fplkm km="120.7131"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="23323.7285" FahrstrStrecke="1760a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="121.844"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="23327.1855" FahrstrStrecke="1760a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="121.844"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="24605.0703">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="123.131"/>
+<FplName FplNameText="Benhausen"/>
+<FplAbf Abf="2013-08-21 22:00:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="24710.9941">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="123.2371"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="24730.3516" FahrstrStrecke="1760a">
+<Fplkm km="123.2528"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplvMax vMax="27.7778"/>
+<Fplkm km="123.2383"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="24826.1055" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="123.3485"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="24847.1973" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="123.3732"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="26639.6367" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="5"/>
+<Fplkm km="125.1758"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="27689.9316" FahrstrStrecke="1760a">
+<FplIcon FplIconNr="9"/>
+<Fplkm km="126.2194"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="28343.7559" FahrstrStrecke="1760a">
+<Fplkm km="126.894"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="28685.2969" FahrstrStrecke="1760a">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="127.2157"/>
+<FplSignaltyp FplSignaltypNr="5"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="28685.4629" FahrstrStrecke="1760a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="127.2356"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="29161.7168">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="127.6975"/>
+</FplZeile>
+<FplZeile FplLaufweg="29187.627">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 75 -"/>
+</FplZeile>
+<FplZeile FplLaufweg="29378.584">
+<Fplkm km="127.9144"/>
+<FplvMax vMax="27.7778"/>
+<Fplkm km="127.9186"/>
+</FplZeile>
+<FplZeile FplLaufweg="29431.4883">
+<FplIcon FplIconNr="6"/>
+<Fplkm km="127.9673"/>
+</FplZeile>
+<FplZeile FplLaufweg="29764.1543">
+<FplName FplNameText="Paderborn Hbf"/>
+<Fplkm km="128.2999"/>
+<FplRichtungswechsel/>
+<FplAnk Ank="2013-08-21 22:05:00"/>
+<FplAbf Abf="2013-08-21 22:13:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="29860.3496">
+<FplSignaltyp FplSignaltypNr="8"/>
+<Fplkm km="128.3954"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="29868.3906" FahrstrStrecke="2960a">
+<Fplkm km="128.4034" FplSprung="1" FplkmNeu="0.0371"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplvMax vMax="13.8889"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="30122.4766" FahrstrStrecke="2960a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="0.2911"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="EK" Nummer="95322" Zuglauf="(f) Baunatal - Kassel Rbf" BR="294" Masse="482000" spMax="22.2222" Bremsh="0.888" MBrh="0.4" Laenge="232.02" LaengeLoks="14.32" kmStart="-0.025" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\EK95322.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="3">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+<FplvMax vMax="11.1111"/>
+</FplZeile>
+<FplZeile FplLaufweg="5">
+<FplvMax vMax="11.1111"/>
+<Fplkm km="0.0021"/>
+</FplZeile>
+<FplZeile FplLaufweg="208.5215">
+<Fplkm km="-0.0058" FplSprung="1" FplkmNeu="345.508"/>
+</FplZeile>
+<FplZeile FplLaufweg="330.5982">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="345.3881"/>
+</FplZeile>
+<FplZeile FplLaufweg="331.7983">
+<Fplkm km="345.3827" FplSprung="1" FplkmNeu="145.5654"/>
+</FplZeile>
+<FplZeile FplLaufweg="575.475">
+<Fplkm km="145.324"/>
+<FplvMax vMax="22.2222"/>
+<Fplkm km="145.3151"/>
+</FplZeile>
+<FplZeile FplLaufweg="585.7205">
+<Fplkm km="145.3137" FplSprung="1" FplkmNeu="345.1292"/>
+</FplZeile>
+<FplZeile FplLaufweg="628.4651">
+<FplIcon FplIconNr="6"/>
+<Fplkm km="345.0863"/>
+</FplZeile>
+<FplZeile FplLaufweg="1659.061">
+<FplName FplNameText="Kassel-Wilhelmshöhe"/>
+<Fplkm km="344.0359"/>
+<FplAnk Ank="2013-08-21 22:02:00"/>
+<FplAbf Abf="2013-08-21 22:02:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="1682.6965">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="344.0123"/>
+</FplZeile>
+<FplZeile FplLaufweg="2537.2617">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="343.1577"/>
+<FplName FplNameText="Esig Kassel Rbf, Asig"/>
+</FplZeile>
+<FplZeile FplLaufweg="2702.082">
+<FplName FplNameText="Bft Ksl Rbf Süd"/>
+</FplZeile>
+<FplZeile FplLaufweg="2774.9214">
+<Fplkm km="342.92"/>
+<FplvMax vMax="11.1111"/>
+<Fplkm km="342.9153"/>
+</FplZeile>
+<FplZeile FplLaufweg="3314.9814">
+<FplvMax vMax="8.3333"/>
+<Fplkm km="342.4246"/>
+<FplName FplNameText="Zsig"/>
+<FplSignaltyp FplSignaltypNr="8"/>
+</FplZeile>
+<FplZeile FplLaufweg="4411.1807">
+<Fplkm km="341.8"/>
+<FplName FplNameText="Kassel Rbf"/>
+<FplAnk Ank="2013-08-21 22:07:00"/>
+<FplAbf Abf="2013-08-21 22:44:00"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

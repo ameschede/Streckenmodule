@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="X-Deko" Nummer="Kassel Rbf 103" BR="Eanos-x 052" Masse="433620" spMax="33.3333" Bremsh="1.2038" Laenge="283.32" kmStart="341.9161" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\X-DekoKasselRbf103.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplLaufweg="5.4448">
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+<FplvMax vMax="8.3333"/>
+</FplZeile>
+<FplZeile FplLaufweg="7.4448">
+<FplvMax vMax="8.3333"/>
+<Fplkm km="-0.0253"/>
+</FplZeile>
+<FplZeile FplLaufweg="568.2828">
+<Fplkm km="341.8"/>
+<FplName FplNameText="Kassel Rbf"/>
+<FplAnk Ank="2013-08-21 12:00:00"/>
+<FplAbf Abf="2013-08-22 00:05:00"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

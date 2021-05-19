@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="RE" Nummer="10496" Zuglauf="Brilon Stadt - Brilon Wald - Brilon Stadt" BR="648" Masse="80000" spMax="33.3333" Bremsh="1.625" Laenge="41.816" LaengeLoks="41.816" kmStart="55.8248" BremsstellungZug="5">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\RE10496.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile FplRglGgl="1" FplLaufweg="37.5025" FahrstrStrecke="2961a">
+<FplvMax vMax="13.8889"/>
+<Fplkm km="0.0375"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="251.7125" FahrstrStrecke="2961a">
+<FplTunnel FplNameText="Gudenhagener T." FplTunnelAnfang="1"/>
+<Fplkm km="56.0767"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="521.9492" FahrstrStrecke="2961a">
+<FplTunnel/>
+<Fplkm km="56.3475"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="667.6855" FahrstrStrecke="2961a">
+<FplName FplNameText="Gudenhagen Hp"/>
+<Fplkm km="56.4932"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="2203.0044" FahrstrStrecke="2961a">
+<Fplkm km="58.0276"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="2479.6201" FahrstrStrecke="2961a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="58.304"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="3197.5315">
+<Fplkm km="58.9877" FplSprung="1" FplkmNeu="242.3587"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="3250.5198">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="242.3101"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="3464.5837">
+<Fplkm km="242.0928"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="3779.9116">
+<FplName FplNameText="Brilon Wald"/>
+<Fplkm km="241.7775"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplAnk Ank="2013-08-21 21:07:00" FplEintrag="1"/>
+<FplAbf Abf="2013-08-21 21:07:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="3781.6514">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="241.7758"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplRichtungswechsel/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

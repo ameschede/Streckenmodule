@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="RE" Nummer="4159" Zuglauf="(f) Kassel Hbf - Frankfurt (M) Hbf" BR="146" Masse="439000" spMax="38.8889" Bremsh="1.6264" MBrh="1.42" Laenge="180.17" LaengeLoks="18.9" kmStart="0.0447" BremsstellungZug="5">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\RE4159.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile>
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+</FplZeile>
+<FplZeile FplLaufweg="5">
+<FplvMax vMax="16.6667"/>
+</FplZeile>
+<FplZeile FplLaufweg="10">
+<FplName FplNameText="Kassel Hbf"/>
+<Fplkm km="0.0547"/>
+<FplAnk Ank="2013-08-21 11:50:00"/>
+<FplAbf Abf="2013-08-21 12:23:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="462.7772">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="0.5074"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="866.1145" FahrstrStrecke="3900a">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="0.8922"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="888.5325" FahrstrStrecke="3900a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="0.9332"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="967.3574" FahrstrStrecke="3900a">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="1.0027"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1011.0999" FahrstrStrecke="3900a">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="1.0575"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1675.5299" FahrstrStrecke="3900a">
+<FplName FplNameText="Sbk 201"/>
+<Fplkm km="1.7234"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1683.9299" FahrstrStrecke="3900a">
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="1.7318"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2498.4739" FahrstrStrecke="3900a">
+<FplSignaltyp FplSignaltypNr="13"/>
+<Fplkm km="2.5513"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2507.4136" FahrstrStrecke="3900a">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="2.5513"/>
+</FplZeile>
+<FplZeile FplLaufweg="3633.2202">
+<FplName FplNameText="Kassel-Wilhelmshöhe"/>
+<Fplkm km="3.6882"/>
+<FplAnk Ank="2013-08-21 12:28:00"/>
+<FplAbf Abf="2013-08-21 12:29:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="3748.8074">
+<FplvMax vMax="36.1111"/>
+<Fplkm km="3.7987"/>
+</FplZeile>
+<FplZeile FplLaufweg="4042.8782">
+<FplSignaltyp FplSignaltypNr="8"/>
+<Fplkm km="4.0979"/>
+</FplZeile>
+<FplZeile FplLaufweg="4082.2639">
+<Fplkm km="4.1373"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="5059.8096">
+<Fplkm km="5.1149"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="5316.6392">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="5.3718"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

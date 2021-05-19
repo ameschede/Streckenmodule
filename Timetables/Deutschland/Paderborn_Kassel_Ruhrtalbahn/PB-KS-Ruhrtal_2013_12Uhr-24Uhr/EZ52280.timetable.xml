@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.3" MinVersion="A.0">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="EZ" Nummer="52280" Zuglauf="(f) Kassel Rbf - Seelze Ost" BR="185" Masse="632700" spMax="27.7778" Bremsh="0.9942" Laenge="272.18" LaengeLoks="18.9" kmStart="341.8423" BremsstellungZug="2">
+<Datei_fpn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Paderborn_Kassel_Ruhrtalbahn\PB-KS-Ruhrtal_2013_12Uhr-24Uhr\EZ52280.trn" NurInfo="1"/>
+<UTM UTM_WE="505" UTM_NS="5705" UTM_Zone="32" UTM_Zone2="U"/>
+<FplZeile>
+<FplIcon FplIconNr="1"/>
+<FplName FplNameText="- ZBF A 78 -"/>
+</FplZeile>
+<FplZeile FplLaufweg="7.8065">
+<FplvMax vMax="8.3333"/>
+<Fplkm km="342.1"/>
+</FplZeile>
+<FplZeile FplLaufweg="487.2355">
+<Fplkm km="341.8"/>
+<FplName FplNameText="Kassel Rbf"/>
+<FplAnk Ank="2013-08-21 17:00:00"/>
+<FplAbf Abf="2013-08-21 17:40:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="775.7848">
+<FplvMax vMax="16.6667"/>
+<Fplkm km="341.0711"/>
+<FplIcon FplIconNr="7"/>
+<FplName FplNameText="Avsig , Zsig"/>
+</FplZeile>
+<FplZeile FplLaufweg="1380.5598">
+<FplName FplNameText="Asig"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="340.5599"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="1516.2692" FahrstrStrecke="1732c">
+<FplName FplNameText="Bft Ksl Rbf Nord"/>
+<Fplkm km="340.4243"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="1600.196" FahrstrStrecke="1732c">
+<Fplkm km="340.3404"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="2003.2574" FahrstrStrecke="1732c">
+<Fplkm km="339.9479" FplSprung="1" FplkmNeu="162.1911"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="2349.3494" FahrstrStrecke="1732c">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="161.832"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="2539.6743" FahrstrStrecke="1732c">
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="161.6414"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2581.0579" FahrstrStrecke="1732b">
+<FplvMax vMax="36.1111"/>
+<Fplkm km="161.5905"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2581.0579" FahrstrStrecke="1732b">
+<FplvMax vMax="36.1111"/>
+<Fplkm km="161.5905"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2943.2478" FahrstrStrecke="1732b">
+<Fplkm km="161.2367"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3000.6143" FahrstrStrecke="1732b">
+<FplName FplNameText="Abzw V-Niedervellmar Hp"/>
+<Fplkm km="161.1794"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplAbf Abf="2013-08-21 17:42:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3000.6143" FahrstrStrecke="1732b">
+<FplName FplNameText="Abzw V-Niedervellmar Hp"/>
+<Fplkm km="161.1794"/>
+<FplAbf Abf="2013-08-21 17:42:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3012.0874" FahrstrStrecke="1732b">
+<Fplkm km="161.168"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3408.083" FahrstrStrecke="1732b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="160.7796"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3484.8625" FahrstrStrecke="1732b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="160.696"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4102.1338" FahrstrStrecke="1732b">
+<FplName FplNameText="Sbk 192"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="160.0774"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="5027.9526" FahrstrStrecke="1732b">
+<Fplkm km="159.1547"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="5033.9985" FahrstrStrecke="1732b">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="159.1176"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="5044.0239" FahrstrStrecke="1732b">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="159.1369"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="5283.9985" FahrstrStrecke="1732b">
+<FplSignaltyp FplSignaltypNr="7"/>
+<Fplkm km="158.8853"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="5652.9648">
+<Fplkm km="158.5736"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="5691.248">
+<Fplkm km="158.4781"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="5820.1475">
+<FplIcon FplIconNr="5"/>
+<Fplkm km="158.3492"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="5889.3364">
+<Fplkm km="158.28"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="6003.9468">
+<Fplkm km="158.1654"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="6090.3101">
+<Fplkm km="158.0791"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="6282.3633">
+<FplIcon FplIconNr="6"/>
+<Fplkm km="157.941"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplvMax vMax="30.5556"/>
+<Fplkm km="157.9115"/>
+</FplZeile>
+<FplZeile FplLaufweg="6595.0449">
+<FplName FplNameText="F-Ihringshausen"/>
+<Fplkm km="157.5984"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplAbf Abf="2013-08-21 17:44:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="6643.5366">
+<Fplkm km="157.5499"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="7064.5127" FahrstrStrecke="1732b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="156.8889"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplLaufweg="7297.4238">
+<FplSignaltyp FplSignaltypNr="9"/>
+<Fplkm km="156.896"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="7304.4873" FahrstrStrecke="1732b">
+<FplIcon FplIconNr="17"/>
+<Fplkm km="156.8889"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8121.6943" FahrstrStrecke="1732b">
+<Fplkm km="155.8318"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8361.667" FahrstrStrecke="1732b">
+<Fplkm km="155.8318"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8526.0361" FahrstrStrecke="1732b">
+<FplvMax vMax="25"/>
+<Fplkm km="155.4274"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8766.0088" FahrstrStrecke="1732b">
+<FplvMax vMax="25"/>
+<Fplkm km="155.4274"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="8803.127" FahrstrStrecke="1732b">
+<FplName FplNameText="Kragenhof"/>
+<Fplkm km="155.1503"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9043.0996" FahrstrStrecke="1732b">
+<FplName FplNameText="Kragenhof"/>
+<Fplkm km="155.1503"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9302.8066" FahrstrStrecke="1732b">
+<FplName FplNameText="Sbk 136"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="154.6507"/>
+<FplSaegelinien FplAnzahl="1"/>
+<FplAnk Ank="2013-08-21 17:46:00" FplEintrag="1"/>
+<FplAbf Abf="2013-08-21 17:46:00"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="9542.7793" FahrstrStrecke="1732b">
+<FplName FplNameText="Sbk 136"/>
+<FplSignaltyp FplSignaltypNr="10"/>
+<Fplkm km="154.6507"/>
+<FplSaegelinien FplAnzahl="1"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>
