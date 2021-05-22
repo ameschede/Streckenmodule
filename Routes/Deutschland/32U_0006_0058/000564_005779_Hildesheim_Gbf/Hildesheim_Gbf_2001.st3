@@ -33137,17 +33137,17 @@
 </SignalFrame>
 <SignalFrame>
 <p X="-0.035" Y="-0.075" Z="4.895"/>
-<phi Z="0"/>
+<phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_Lsp.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.035" Y="-0.055" Z="4.895"/>
-<phi Z="0"/>
+<phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_H-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.035" Y="-0.0925" Z="4.895"/>
-<phi Z="0"/>
+<phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_A-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
@@ -36081,17 +36081,17 @@
 </SignalFrame>
 <SignalFrame>
 <p X="-0.035" Y="-0.075" Z="4.895"/>
-<phi Z="0"/>
+<phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_Lsp.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.035" Y="-0.055" Z="4.895"/>
-<phi Z="0"/>
+<phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_H-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.035" Y="-0.0925" Z="4.895"/>
-<phi Z="0"/>
+<phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_E-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
@@ -37185,6 +37185,7 @@
 <b X="541.5374" Y="19.3334" Z="86.671"/>
 <InfoNormRichtung vMax="22.2222" km="41.3113" pos="1" Reg="5179"/>
 <InfoGegenRichtung vMax="-1" Reg="5179">
+<Ereignis Er="6" Beschr="@signal=0@Avsig@icon=7@, Zsig@km=41,2@"/>
 <Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="R32" SignalTyp="8" BoundingR="10">
 <p X="562.5816" Y="25.8531" Z="86.6909"/>
 <phi Z="0.402741"/>
@@ -37956,6 +37957,7 @@
 <b X="663.1347" Y="64.0483" Z="86.8108"/>
 <InfoNormRichtung vMax="22.2222" km="41.1985" pos="1" Reg="5180"/>
 <InfoGegenRichtung vMax="-1" Reg="5180">
+<Ereignis Er="6" Beschr="@signal=0@Avsig@icon=7@, Zsig"/>
 <Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="R33" SignalTyp="8" BoundingR="10">
 <p X="668.5355" Y="63.5721" Z="86.8187"/>
 <phi Z="0.339996"/>
@@ -38727,6 +38729,7 @@
 <b X="674.2496" Y="63.4723" Z="86.8272"/>
 <InfoNormRichtung vMax="22.2222" km="41.1908" pos="1" Reg="5181"/>
 <InfoGegenRichtung vMax="-1" Reg="5181">
+<Ereignis Er="6" Beschr="@signal=0@Avsig@icon=7@, Zsig"/>
 <Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="R34" SignalTyp="8" BoundingR="10">
 <p X="677.4119" Y="62.3751" Z="86.8312"/>
 <phi Z="0.403206"/>
@@ -39500,6 +39503,7 @@
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
+<Ereignis Er="6" Beschr="@signal=0@Avsig@icon=7@, Zsig@km=41,2@"/>
 <Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="R35-43 Strang 1" SignalTyp="8" BoundingR="10">
 <p X="775.0094" Y="94.9346" Z="86.9968"/>
 <phi Z="0.432655"/>
@@ -39552,6 +39556,7 @@
 <b X="768.7206" Y="95.663" Z="86.988"/>
 <InfoNormRichtung vMax="-1" km="41.0883" pos="1"/>
 <InfoGegenRichtung vMax="-1">
+<Ereignis Er="6" Beschr="@signal=0@Avsig@icon=7@, Zsig@km=41,2@"/>
 <Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="R35-43 Strang 2" SignalTyp="8" BoundingR="10">
 <p X="774.3701" Y="95.4097" Z="86.9964"/>
 <phi Z="0.364374"/>
