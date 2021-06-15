@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="-400" V="-80.0001">
+<p X="499.9998" Y="-300.0005" Z="370.1122"/>
+<n X="0.0108" Y="0.037" Z="0.9993"/>
+</Vertex>
+<Vertex U="-407.908" V="-100">
+<p X="420.9205" Y="-500" Z="385.2942"/>
+<n X="0.0204" Y="0.0504" Z="0.9984"/>
+</Vertex>
+<Vertex U="-410.0872" V="-100">
+<p X="399.128" Y="-500" Z="386.0292"/>
+<n X="0.0318" Y="0.0465" Z="0.9983"/>
+</Vertex>
+<Vertex U="-404.3586" V="-80">
+<p X="456.4141" Y="-299.9999" Z="371.5821"/>
+<n X="0.0337" Y="0.0291" Z="0.999"/>
+</Vertex>
+<Vertex U="-400" V="-100">
+<p X="499.9998" Y="-500" Z="383.215"/>
+<n X="0.0233" Y="0.0395" Z="0.9989"/>
+</Vertex>
+<Vertex U="-400" V="-64.7833">
+<p X="499.9998" Y="-147.8327" Z="370.7571"/>
+<n X="-0.0048" Y="-0.0198" Z="0.9998"/>
+</Vertex>
+<Face i="3;0;1"/>
+<Face i="2;3;1"/>
+<Face i="1;0;4"/>
+<Face i="3;5;0"/>
+</SubSet>
+</Landschaft>
+</Zusi>
