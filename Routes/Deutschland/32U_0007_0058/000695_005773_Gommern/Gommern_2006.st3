@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.3" MinVersion="A.1">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="20"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.ls3"/>
@@ -3824,7 +3824,30 @@
 <InfoNormRichtung vMax="33.3333" km="13.2262" pos="1" Reg="5015">
 <Ereignis Er="3" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="13.2358" Reg="5015"/>
+<InfoGegenRichtung vMax="33.3333" km="13.2358" Reg="5015">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-444.5789" Y="74.8144" Z="54.48"/>
+<phi Z="2.53127"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_6.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.4"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.425"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_Pfeil.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="479" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="302"/>
 <NachGegen Nr="470"/>
 </StrElement>
@@ -4833,7 +4856,30 @@
 <StrElement Nr="385" kr="-0.0048" spTrass="27.7778" Anschluss="257" Fkt="20" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.9436">
 <g X="-596.0248" Y="160.4838" Z="53.98"/>
 <b X="-599.0359" Y="162.2743" Z="53.98"/>
-<InfoNormRichtung vMax="-1" km="13.053" pos="1"/>
+<InfoNormRichtung vMax="-1" km="13.053" pos="1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-597.937" Y="164.1223" Z="54.48"/>
+<phi Z="2.605127"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_6.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.4"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.425"/>
+<phi X="3.14"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_Pfeil.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="479" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="13.0495" pos="1"/>
 <NachNorm Nr="393"/>
 <NachGegen Nr="383"/>
@@ -5094,7 +5140,30 @@
 <InfoNormRichtung vMax="33.3333" km="12.3362" pos="1" Reg="5023">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="12.3366" Reg="5023"/>
+<InfoGegenRichtung vMax="33.3333" km="12.3366" Reg="5023">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-1163.4086" Y="597.3806" Z="54.77"/>
+<phi Z="2.269318"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_6.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.4"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.425"/>
+<phi X="3.14"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_Pfeil.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="479" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="415"/>
 <NachGegen Nr="944"/>
 </StrElement>
@@ -10016,7 +10085,30 @@
 <StrElement Nr="906" kr="-0.0048" spTrass="27.7778" Anschluss="257" Fkt="20" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7435">
 <g X="-961.4532" Y="432.8907" Z="54.2113"/>
 <b X="-958.4423" Y="431.1001" Z="54.2087"/>
-<InfoNormRichtung vMax="-1" km="12.5973" pos="1"/>
+<InfoNormRichtung vMax="-1" km="12.5973" pos="1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-959.5413" Y="429.2522" Z="54.7087"/>
+<phi Z="-0.53652"/>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_6.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.4"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.425"/>
+<phi X="3.14"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Elektrischer_Betrieb\El_Pfeil.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="479" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="12.6008"/>
 <NachNorm Nr="914"/>
 <NachGegen Nr="904"/>
