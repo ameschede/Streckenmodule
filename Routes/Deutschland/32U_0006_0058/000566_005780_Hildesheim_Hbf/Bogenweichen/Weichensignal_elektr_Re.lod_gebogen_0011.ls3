@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="	  l=18,6776695251465  kr=0  ue=0	  l=0,846104621887207  kr=1,39420099003473E-5  ue=5,01439778588519E-9	  l=0,846104621887207  kr=4,18264389736578E-5  ue=-0,000706153572537005	  l=0,846104621887207  kr=6,97108771419153E-5  ue=-0,00141231203451753	  l=0,846104621887207  kr=9,75953225861304E-5  ue=-0,00211847107857466	  l=0,846104621887207  kr=0,000125479797134176  ue=-0,00282462895847857	  l=0,846104621887207  kr=0,000153364206198603  ue=-0,0035307880025357	  l=0,846104621887207  kr=0,000181248600711115  ue=-0,00423694588243961	  l=0,846104621887207  kr=0,000209133097087033  ue=-0,00494310492649674	  l=0,846104621887207  kr=0,00023701750615146  ue=-0,00564926397055388	  l=1,14611303806305  kr=0,000264901900663972  ue=-0,00635542208328843	">
+<AutorEintrag AutorID="8" AutorName="Joerg Sanftleben" AutorEmail="joergsanftleben@aol.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="5" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\lod\Weichensignal_elektr_Re.lod1.ls3"/>
+<p X="0" Y="0" Z="0"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Animation AniBeschreibung="Grundstellung"/>
+<Animation AniBeschreibung="Umgestellt">
+<AniNrs AniNr="1"/>
+</Animation>
+<VerknAnimation AniNr="1" AniGeschw="1">
+<AniPunkt>
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q Z="0.707107" W="0.707107"/>
+</AniPunkt>
+</VerknAnimation>
+</Landschaft>
+</Zusi>

@@ -23,6 +23,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Großwudicke
 * Schönhauser Damm
 * Hiltersdorf
+* Hildesheim Hbf
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 

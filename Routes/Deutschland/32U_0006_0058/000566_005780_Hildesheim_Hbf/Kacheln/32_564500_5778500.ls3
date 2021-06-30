@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="37" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000400_005700_Schwerte\Objekte\Schwerte_28_Hoerder_Str\Schwerte_28_WH_Gr_2.lod.ls3"/>
+<p X="395.6339" Y="451.2899" Z="87"/>
+<phi Z="2.879381"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="22" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0054\000637_005382_Westendorf\Objekte\MWDF_Hauptstr3\MWDF_Hauptstr3.lod.ls3"/>
+<p X="424.6606" Y="466.4956" Z="87.5"/>
+<phi Z="2.813931"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="30" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0003_0056\000295_005628_Aachen_Hauptbahnhof\Objekte\Umweltamt\Umweltamt2.lod.ls3"/>
+<p X="495.9116" Y="393.2205" Z="87"/>
+<phi Z="3.121547"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="30" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0003_0056\000295_005628_Aachen_Hauptbahnhof\Objekte\Umweltamt\Umweltamt2.lod.ls3"/>
+<p X="481.3405" Y="335.8451" Z="87"/>
+<phi Z="-0.069134"/>
+<sk/>
+</Verknuepfte>
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Pflaster\Verbundsteinpflaster\Verbundsteinpflaster_01.dds"/>
+</Textur>
+<Vertex U="-500" V="536.5609">
+<p X="426.8782" Y="499.9999" Z="86.099"/>
+<n X="0.0572" Y="-0.0112" Z="0.9983"/>
+</Vertex>
+<Vertex U="-500.191" V="537.8922">
+<p X="424.2157" Y="499.618" Z="86.25"/>
+<n X="0.0579" Y="-0.0091" Z="0.9983"/>
+</Vertex>
+<Vertex U="-500" V="537.8621">
+<p X="424.2758" Y="499.9999" Z="86.25"/>
+<n X="0.0573" Y="-0.0098" Z="0.9983"/>
+</Vertex>
+<Vertex U="-500" V="521.5175">
+<p X="456.965" Y="499.9999" Z="84.8644"/>
+<n X="0.0455" Y="-0.0038" Z="0.9969"/>
+</Vertex>
+<Vertex U="-508.0929" V="532.0725">
+<p X="435.855" Y="483.8142" Z="87.5"/>
+<n X="0.0408" Y="0.1086" Z="0.9933"/>
+</Vertex>
+<Vertex U="-506.4836" V="536.8065">
+<p X="426.3871" Y="487.0327" Z="87.5"/>
+<n X="0.0356" Y="0.1049" Z="0.9938"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;3;4"/>
+<Face i="0;4;1"/>
+<Face i="5;1;4"/>
+</SubSet>
+</Landschaft>
+</Zusi>

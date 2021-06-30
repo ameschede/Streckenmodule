@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF" Ce="FF000000" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="HildHbf_03_Dienstgebaeude.dds"/>
+</Textur>
+<Vertex U="3.5482" V="0.4976">
+<p X="-19.6" Y="7.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.4976">
+<p X="-19.6" Y="-7.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.0818">
+<p X="-19.6" Y="-7.5" Z="4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="3.5482" V="0.0818">
+<p X="-19.6" Y="7.5" Z="4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="3.5482" V="0.0818">
+<p X="19.6" Y="-7.5" Z="4"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.0818">
+<p X="-19.6" Y="-7.5" Z="4"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.4976">
+<p X="-19.6" Y="-7.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="3.5482" V="0.4976">
+<p X="19.6" Y="-7.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="3.5482" V="0.0818">
+<p X="19.6" Y="7.5" Z="4"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="3.5482" V="0.4976">
+<p X="19.6" Y="7.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.4976">
+<p X="-19.6" Y="7.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.0818">
+<p X="-19.6" Y="7.5" Z="4"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="3.5482" V="0.4976">
+<p X="19.6" Y="-7.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.4976">
+<p X="19.6" Y="7.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="2.0153" V="0.0818">
+<p X="19.6" Y="7.5" Z="4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="3.5482" V="0.0818">
+<p X="19.6" Y="-7.5" Z="4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9644" V="0.9522">
+<p X="-19.6" Y="-7.5" Z="4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.9644" V="0.5364">
+<p X="19.6" Y="-7.5" Z="4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.5624" V="0.5364">
+<p X="19.6" Y="7.5" Z="4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.5624" V="0.9522">
+<p X="-19.6" Y="7.5" Z="4"/>
+<n Z="1"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="3;1;0"/>
+<Face i="7;6;5"/>
+<Face i="7;5;4"/>
+<Face i="11;10;9"/>
+<Face i="11;9;8"/>
+<Face i="15;14;13"/>
+<Face i="15;13;12"/>
+<Face i="19;18;17"/>
+<Face i="19;17;16"/>
+</SubSet>
+</Landschaft>
+</Zusi>

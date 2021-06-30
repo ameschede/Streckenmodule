@@ -4324,22 +4324,52 @@
 <phi X="-0.007329" Z="1.671642"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="742" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1958_Ekl.lod.ls3"/>
 <p X="231.8574" Y="-382.9192" Z="92.7576"/>
 <phi X="-0.008719" Z="1.678764"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
 <p X="150.3968" Y="-424.2629" Z="86.7982"/>
 <phi Z="-2.780993"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Gittermast8m0.lod.ls3"/>
 <p X="188.6687" Y="-412.1154" Z="86.8628"/>
 <phi Z="-2.781616"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Trees\Pear\Pear01-08m.lod.ls3"/>
+<p X="298.2882" Y="-267.5779" Z="86.3"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="10" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Trees\Maple\Maple01-15m.lod.ls3"/>
+<p X="263.606" Y="-243.7884" Z="86.7041"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Trees\sycamore\Sycamore01-12m.lod.ls3"/>
+<p X="277.0461" Y="-244.1033" Z="86.8697"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Trees\sycamore\sycamore01-08m.lod.ls3"/>
+<p X="257.6441" Y="-247.2552" Z="86.6158"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="797" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000392_005691_Hagen_Hbf\Objekte\Hagen_Hbf_23_Stadtkulisse_3\Wehrstr_7\Hagen_Hbf_23_Wehrstr_7_Schuppen_1.lod.ls3"/>
+<p X="251.7614" Y="-235.8041" Z="86.6391"/>
+<phi Z="0.114537"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
@@ -51078,34 +51108,46 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\terrain.dds"/>
 </Textur>
-<Vertex U="22.026" V="-74.51">
+<Vertex U="74.5096" V="22.0259">
 <p X="245.0957" Y="-279.7407" Z="86.12"/>
 <n X="-0.0953" Y="-0.0194" Z="0.9953"/>
 </Vertex>
-<Vertex U="24.889" V="-74.229">
+<Vertex U="74.2287" V="24.8888">
 <p X="242.2871" Y="-251.1119" Z="86.4092"/>
 <n X="-0.0953" Y="-0.0194" Z="0.9953"/>
 </Vertex>
-<Vertex U="25.1084" V="-78.912">
+<Vertex U="78.9128" V="25.1088">
 <p X="289.128" Y="-248.9118" Z="87"/>
 <n X="-0.0121" Y="-0.0113" Z="0.9999"/>
 </Vertex>
-<Vertex U="22.645" V="-79.175">
+<Vertex U="79.1752" V="22.6452">
 <p X="291.7517" Y="-273.5476" Z="86.12"/>
 <n X="0.0241" Y="-0.1817" Z="0.9831"/>
 </Vertex>
-<Vertex U="21.665" V="-75.462">
+<Vertex U="75.4624" V="21.6651">
 <p X="254.6242" Y="-283.349" Z="86.12"/>
 <n Z="1"/>
 </Vertex>
-<Vertex U="21.53" V="-75.007">
+<Vertex U="75.007" V="21.5301">
 <p X="250.07" Y="-284.6992" Z="86.12"/>
 <n Z="1"/>
 </Vertex>
-<Face i="1;2;0"/>
-<Face i="3;0;2"/>
+<Vertex U="75.0292" V="23.2378">
+<p X="250.2917" Y="-267.6216" Z="86.6333"/>
+<n X="-0.0611" Y="-0.0161" Z="0.998"/>
+</Vertex>
+<Vertex U="78.9941" V="23.6846">
+<p X="289.9408" Y="-263.1544" Z="86.6333"/>
+<n X="0.0029" Y="-0.0256" Z="0.9997"/>
+</Vertex>
+<Face i="1;6;0"/>
+<Face i="7;6;2"/>
 <Face i="0;3;4"/>
 <Face i="5;0;4"/>
+<Face i="0;7;3"/>
+<Face i="6;1;2"/>
+<Face i="3;7;2"/>
+<Face i="7;0;6"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -53070,6 +53112,304 @@
 <Face i="1;2;0"/>
 <Face i="2;3;0"/>
 <Face i="0;3;4"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="8"/>
+<Textur>
+<Datei Dateiname="Terrain\General\Bushes\hedge.dds"/>
+</Textur>
+<Vertex V="0.98" V2="0.98">
+<p X="247.9217" Y="-273.867" Z="86.37"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.4534" V="0.98" U2="-4.4534" V2="0.98">
+<p X="248.763" Y="-280.3523" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.4534" V="0.2113" U2="-4.4534" V2="0.2113">
+<p X="248.763" Y="-280.3523" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.2113" V2="0.2113">
+<p X="247.9217" Y="-273.867" Z="88.22"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.4534" V="0.1" U2="-4.4534" V2="0.1">
+<p X="248.6276" Y="-280.442" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.1" V2="0.1">
+<p X="247.7434" Y="-273.8919" Z="88.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.4534" V="0.3" U2="-4.4534" V2="0.3">
+<p X="248.3717" Y="-280.6112" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.3" V2="0.3">
+<p X="247.4067" Y="-273.939" Z="88.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.4534" V="0.1" U2="-4.4534" V2="0.1">
+<p X="248.2363" Y="-280.7009" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.1" V2="0.1">
+<p X="247.2284" Y="-273.964" Z="88.22"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.4534" V="0.98" U2="-4.4534" V2="0.98">
+<p X="248.2363" Y="-280.7009" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.98" V2="0.98">
+<p X="247.2284" Y="-273.964" Z="86.37"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-7.052" V="0.98" U2="-7.052" V2="0.98">
+<p X="251.8868" Y="-282.2141" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-7.052" V="0.2113" U2="-7.052" V2="0.2113">
+<p X="251.8868" Y="-282.2141" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-7.052" V="0.1" U2="-7.052" V2="0.1">
+<p X="251.8634" Y="-282.3782" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-7.052" V="0.3" U2="-7.052" V2="0.3">
+<p X="251.8192" Y="-282.6884" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-7.052" V="0.1" U2="-7.052" V2="0.1">
+<p X="251.7957" Y="-282.8525" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-7.052" V="0.98" U2="-7.052" V2="0.98">
+<p X="251.7957" Y="-282.8525" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-15.7025" V="0.98" U2="-15.7025" V2="0.98">
+<p X="264.2914" Y="-278.8914" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-15.7025" V="0.2113" U2="-15.7025" V2="0.2113">
+<p X="264.2914" Y="-278.8914" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-15.7025" V="0.1" U2="-15.7025" V2="0.1">
+<p X="264.3415" Y="-279.0642" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-15.7025" V="0.3" U2="-15.7025" V2="0.3">
+<p X="264.4362" Y="-279.3906" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-15.7025" V="0.1" U2="-15.7025" V2="0.1">
+<p X="264.4864" Y="-279.5634" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-15.7025" V="0.98" U2="-15.7025" V2="0.98">
+<p X="264.4864" Y="-279.5634" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
+<Face i="8;7;6"/>
+<Face i="7;8;9"/>
+<Face i="10;9;8"/>
+<Face i="9;10;11"/>
+<Face i="13;1;12"/>
+<Face i="1;13;2"/>
+<Face i="14;2;13"/>
+<Face i="2;14;4"/>
+<Face i="15;4;14"/>
+<Face i="4;15;6"/>
+<Face i="16;6;15"/>
+<Face i="6;16;8"/>
+<Face i="17;8;16"/>
+<Face i="8;17;10"/>
+<Face i="19;12;18"/>
+<Face i="12;19;13"/>
+<Face i="20;13;19"/>
+<Face i="13;20;14"/>
+<Face i="21;14;20"/>
+<Face i="14;21;15"/>
+<Face i="22;15;21"/>
+<Face i="15;22;16"/>
+<Face i="23;16;22"/>
+<Face i="16;23;17"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="8"/>
+<Textur>
+<Datei Dateiname="Terrain\General\Bushes\hedge.dds"/>
+</Textur>
+<Vertex V="0.98" V2="0.98">
+<p X="267.5464" Y="-277.8574" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.0743" V="0.98" U2="-16.0743" V2="0.98">
+<p X="290.7804" Y="-271.3887" Z="86.13"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.0743" V="0.2113" U2="-16.0743" V2="0.2113">
+<p X="290.7804" Y="-271.3887" Z="87.98"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.2113" V2="0.2113">
+<p X="267.5464" Y="-277.8574" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.0743" V="0.1" U2="-16.0743" V2="0.1">
+<p X="290.8287" Y="-271.5621" Z="88.16"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.1" V2="0.1">
+<p X="267.5977" Y="-278.0299" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.0743" V="0.3" U2="-16.0743" V2="0.3">
+<p X="290.9199" Y="-271.8896" Z="88.16"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.3" V2="0.3">
+<p X="267.6948" Y="-278.3557" Z="88.15"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.0743" V="0.1" U2="-16.0743" V2="0.1">
+<p X="290.9682" Y="-272.063" Z="87.98"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.1" V2="0.1">
+<p X="267.7462" Y="-278.5281" Z="87.97"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.0743" V="0.98" U2="-16.0743" V2="0.98">
+<p X="290.9682" Y="-272.063" Z="86.13"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.98" V2="0.98">
+<p X="267.7462" Y="-278.5281" Z="86.12"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
+<Face i="8;7;6"/>
+<Face i="7;8;9"/>
+<Face i="10;9;8"/>
+<Face i="9;10;11"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\General\Bushes\thuja.dds"/>
+</Textur>
+<Vertex>
+<p X="267.7462" Y="-278.5282" Z="87.97"/>
+<n X="-0.9584" Y="-0.2856"/>
+</Vertex>
+<Vertex U="0.173" V="-0.0655">
+<p X="267.7462" Y="-278.5282" Z="86.12"/>
+<n X="-0.9584" Y="-0.2856"/>
+</Vertex>
+<Vertex U="0.1978">
+<p X="267.5463" Y="-277.8574" Z="86.12"/>
+<n X="-0.9584" Y="-0.2856"/>
+</Vertex>
+<Vertex U="0.0248" V="0.0655">
+<p X="267.5463" Y="-277.8574" Z="87.97"/>
+<n X="-0.9584" Y="-0.2856"/>
+</Vertex>
+<Vertex U="-0.0105" V="0.0232">
+<p X="267.6948" Y="-278.3557" Z="88.15"/>
+<n X="-0.9584" Y="-0.2856" Z="0.0001"/>
+</Vertex>
+<Vertex U="0.0016" V="0.055">
+<p X="267.5977" Y="-278.0299" Z="88.15"/>
+<n X="-0.9583" Y="-0.2856" Z="-0.0001"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="0;3;4"/>
+<Face i="5;4;3"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\General\Bushes\thuja.dds"/>
+</Textur>
+<Vertex>
+<p X="264.2913" Y="-278.8914" Z="87.97"/>
+<n X="0.9604" Y="0.2788"/>
+</Vertex>
+<Vertex U="0.173" V="-0.0654">
+<p X="264.2913" Y="-278.8914" Z="86.12"/>
+<n X="0.9604" Y="0.2788"/>
+</Vertex>
+<Vertex U="0.1978">
+<p X="264.4864" Y="-279.5634" Z="86.12"/>
+<n X="0.9604" Y="0.2788"/>
+</Vertex>
+<Vertex U="0.0248" V="0.0654">
+<p X="264.4864" Y="-279.5634" Z="87.97"/>
+<n X="0.9604" Y="0.2788"/>
+</Vertex>
+<Vertex U="0.0016" V="0.055">
+<p X="264.4362" Y="-279.3906" Z="88.15"/>
+<n X="0.9604" Y="0.2788" Z="0"/>
+</Vertex>
+<Vertex U="-0.0105" V="0.0232">
+<p X="264.3415" Y="-279.0642" Z="88.15"/>
+<n X="0.9604" Y="0.2787" Z="-0.0001"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;0;3"/>
+<Face i="0;4;5"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\General\Bushes\thuja.dds"/>
+</Textur>
+<Vertex U="0.1978">
+<p X="290.7802" Y="-271.3887" Z="87.98"/>
+<n X="0.9633" Y="0.2683"/>
+</Vertex>
+<Vertex U="0.0248" V="0.0655">
+<p X="290.7802" Y="-271.3887" Z="86.13"/>
+<n X="0.9633" Y="0.2683"/>
+</Vertex>
+<Vertex>
+<p X="290.968" Y="-272.0631" Z="86.13"/>
+<n X="0.9633" Y="0.2683"/>
+</Vertex>
+<Vertex U="0.173" V="-0.0655">
+<p X="290.968" Y="-272.0631" Z="87.98"/>
+<n X="0.9633" Y="0.2683"/>
+</Vertex>
+<Vertex U="0.2083" V="-0.0232">
+<p X="290.8286" Y="-271.5621" Z="88.16"/>
+<n X="0.9633" Y="0.2683" Z="-0.0006"/>
+</Vertex>
+<Vertex U="0.1962" V="-0.055">
+<p X="290.9199" Y="-271.8897" Z="88.16"/>
+<n X="0.9633" Y="0.2683" Z="-0.0008"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="0;3;4"/>
+<Face i="5;4;3"/>
 </SubSet>
 </Landschaft>
 </Zusi>

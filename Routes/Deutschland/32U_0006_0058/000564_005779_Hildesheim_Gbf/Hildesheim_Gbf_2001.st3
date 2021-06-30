@@ -24,6 +24,41 @@
 <MondTex Dateiname="_Setup\sky\moon.dds"/>
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
+<StreckenStandort StrInfo="Stellwerk Hmf Ri Westen">
+<p X="832.46" Y="126.08" Z="93.75"/>
+<lookat X="799.77" Y="112.18" Z="90.12"/>
+<up X="831.53" Y="125.69" Z="103.69"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Stellwerk Hmf, Blick Ri Bahnsteige">
+<p X="844.95" Y="132.93" Z="95.52"/>
+<lookat X="877.31" Y="147.02" Z="90.12"/>
+<up X="846.34" Y="133.54" Z="105.4"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Stellwerk Hw Ri Himmelsthür">
+<p X="59.15" Y="-182.21" Z="94.18"/>
+<lookat X="35.2" Y="-177.11" Z="89.15"/>
+<up X="57.26" Y="-181.45" Z="103.97"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Stellwerk Hw Ri Gbf">
+<p X="71.64" Y="-183.2" Z="94.18"/>
+<lookat X="95.47" Y="-177.57" Z="89.15"/>
+<up X="73.68" Y="-183.07" Z="103.97"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Römerringbrücke Ri Innenstadt">
+<p X="378.17" Y="-94.86" Z="95.67"/>
+<lookat X="400.46" Y="-85.36" Z="89.51"/>
+<up X="380.44" Y="-93.89" Z="105.36"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Römerringbrücke Ri Himmelsthür">
+<p X="362.45" Y="-117.67" Z="95.67"/>
+<lookat X="338.67" Y="-122.35" Z="89.51"/>
+<up X="360.03" Y="-118.15" Z="105.36"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Innerstebrücke">
+<p X="-597.06" Y="-205.83" Z="82.46"/>
+<lookat X="-585.57" Y="-183.62" Z="82.27"/>
+<up X="-597.02" Y="-205.76" Z="92.46"/>
+</StreckenStandort>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000561_005779_Emmerke\Emmerke_1998.st3" NurInfo="1"/>
 </ModulDateien>
@@ -712,6 +747,7 @@
 <ReferenzElemente ReferenzNr="680" StrElement="1251" StrNorm="1" RefTyp="2" Info="Register-Nr. 5072"/>
 <ReferenzElemente ReferenzNr="681" StrElement="1251" RefTyp="2" Info="Register-Nr. 5072"/>
 <ReferenzElemente ReferenzNr="682" StrElement="3594" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3"/>
+<ReferenzElemente ReferenzNr="683" StrElement="11" StrNorm="1" RefTyp="4" Info="Signal:  "/>
 <StrElement Nr="1" kr="-0.001" spTrass="22.2222" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5013">
 <g X="838.7211" Y="141.2407" Z="87.1197"/>
 <b X="830.9178" Y="137.9592" Z="87.106"/>
@@ -884,9 +920,32 @@
 </StrElement>
 <StrElement Nr="11" kr="0.000741" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4937">
 <g X="626.3635" Y="60.0277" Z="86.7561"/>
-<b X="617.4453" Y="56.4147" Z="86.7474"/>
-<InfoNormRichtung vMax="22.2222" km="41.2393" pos="1" Reg="5003"/>
-<InfoGegenRichtung vMax="22.2222" km="41.2489" Reg="5003">
+<b X="623.583" Y="58.9013" Z="86.7534"/>
+<InfoNormRichtung vMax="-1" Reg="5003">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="622.7945" Y="60.8476" Z="87.0534"/>
+<phi Z="-2.75668"/>
+<SignalFrame>
+<p/>
+<phi X="3.14"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Zusatzsignale\Blechtafeln\Zs3_Tafel-SpitzeUnten.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.025" Z="0.55"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Zusatzsignale\Blechtafeln\Ziffern\Zs3_Tafel-8.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="7" MatrixGeschw="22.2222"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="22.2222" km="41.2423" Reg="5003">
 <Signal NameBetriebsstelle="Hildesheim Gbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="Ls W103" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="627.0206" Y="58.4057" Z="86.7561"/>
 <phi Z="0.384917"/>
@@ -937,7 +996,7 @@
 <MatrixEintrag Signalbild="507"/>
 </Signal>
 </InfoGegenRichtung>
-<NachNorm Nr="12"/>
+<NachNorm Nr="4839"/>
 <NachGegen Nr="10"/>
 </StrElement>
 <StrElement Nr="12" kr="0.000741" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4936">
@@ -946,7 +1005,7 @@
 <InfoNormRichtung vMax="22.2222" km="41.2489" pos="1"/>
 <InfoGegenRichtung vMax="22.2222" km="41.2585"/>
 <NachNorm Nr="13"/>
-<NachGegen Nr="11"/>
+<NachGegen Nr="4839"/>
 </StrElement>
 <StrElement Nr="13" kr="0.000741" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="608.553" Y="52.7382" Z="86.7387"/>
@@ -47288,6 +47347,13 @@
 <NachNorm Nr="4827"/>
 <NachGegen Nr="4826"/>
 </StrElement>
+<StrElement Nr="4839" kr="0.000741" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4937">
+<g X="623.583" Y="58.9013" Z="86.7534"/>
+<b X="617.4453" Y="56.4147" Z="86.7474"/>
+<InfoNormRichtung vMax="22.2222" km="41.2423" pos="1"/>
+<NachNorm Nr="12"/>
+<NachGegen Nr="11"/>
+</StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Hildesheim Gbf Ls 35I" FahrstrTyp="TypZug" Laenge="636.7">
 <FahrstrStart Ref="609">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
@@ -47754,6 +47820,9 @@
 <FahrstrRegister Ref="414">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -47764,9 +47833,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="304">
@@ -47789,6 +47855,9 @@
 <FahrstrRegister Ref="417">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -47799,9 +47868,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="304">
@@ -47853,6 +47919,9 @@
 <FahrstrRegister Ref="411">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -47863,9 +47932,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="519">
@@ -47939,6 +48005,9 @@
 <FahrstrRegister Ref="414">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -47949,9 +48018,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="304">
@@ -48046,6 +48112,9 @@
 <FahrstrRegister Ref="417">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -48056,9 +48125,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="304">
@@ -48814,6 +48880,9 @@
 <FahrstrRegister Ref="411">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -48824,9 +48893,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="519">
@@ -48900,6 +48966,9 @@
 <FahrstrRegister Ref="414">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -48910,9 +48979,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="304">
@@ -49007,6 +49073,9 @@
 <FahrstrRegister Ref="417">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrAufloesung Ref="307">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
@@ -49017,9 +49086,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="291">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="304">
@@ -49817,6 +49883,9 @@
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrSignal Ref="420" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -50537,6 +50606,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="426" FahrstrSignalZeile="1">
@@ -51307,6 +51379,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="432" FahrstrSignalZeile="1">
@@ -52151,6 +52226,9 @@
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrSignal Ref="429" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -52991,6 +53069,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="435" FahrstrSignalZeile="1">
@@ -53839,6 +53920,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="438" FahrstrSignalZeile="1">
@@ -54708,6 +54792,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="423" FahrstrSignalZeile="1">
@@ -55613,6 +55700,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="129" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="441" FahrstrSignalZeile="1">
@@ -58583,6 +58673,83 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Hildesheim Gbf R32 -&gt; Hildesheim Hbf N2" FahrstrTyp="TypZug" Laenge="941.2">
+<FahrstrStart Ref="409">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="458">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="301">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="347">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="350">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="377">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="456">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="10" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="13" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="94" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="409" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="666" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="403" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Hildesheim Gbf R32 -&gt; Hildesheim Hbf N3" FahrstrTyp="TypZug" Laenge="949.7">
 <FahrstrStart Ref="409">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
@@ -58644,10 +58811,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="1">
@@ -58660,6 +58827,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="409" FahrstrSignalZeile="6">
@@ -58748,10 +58918,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -58776,6 +58946,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -58867,10 +59040,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -58895,6 +59068,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -58989,10 +59165,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -59017,6 +59193,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -59117,10 +59296,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -59147,6 +59326,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -59166,17 +59348,23 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Gbf R32 -&gt; Hildesheim Hbf N2" FahrstrTyp="TypZug" Laenge="941.2">
-<FahrstrStart Ref="409">
+<Fahrstrasse FahrstrName="Hildesheim Gbf R33 -&gt; Hildesheim Hbf N2" FahrstrTyp="TypZug" Laenge="828.8">
+<FahrstrStart Ref="412">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
 <FahrstrZiel Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="458">
+<FahrstrRegister Ref="474">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="12">
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="468">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="15">
@@ -59212,34 +59400,31 @@
 <FahrstrTeilaufloesung Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="456">
+<FahrstrSigHaltfall Ref="466">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
-<FahrstrWeiche Ref="10" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="97" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="13" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="94" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
+<FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="94" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
 <FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="409" FahrstrSignalZeile="7">
+<FahrstrSignal Ref="412" FahrstrSignalZeile="6">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="666" FahrstrSignalSpalte="1">
+<FahrstrVSignal Ref="667" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="403" FahrstrSignalSpalte="5">
@@ -59316,10 +59501,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="1">
@@ -59329,6 +59514,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="412" FahrstrSignalZeile="6">
@@ -59426,10 +59614,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -59451,6 +59639,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -59551,10 +59742,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -59576,6 +59767,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -59679,10 +59873,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -59704,6 +59898,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -59813,10 +60010,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -59840,6 +60037,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -59850,92 +60050,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="412" FahrstrSignalZeile="5">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="667" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="403" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Gbf R33 -&gt; Hildesheim Hbf N2" FahrstrTyp="TypZug" Laenge="828.8">
-<FahrstrStart Ref="412">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="97">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="474">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="99">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="468">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="95">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="15">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="22">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="45">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="122">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="301">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="256">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="98">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="347">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="350">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="377">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="300">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="466">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="97" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="94" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="412" FahrstrSignalZeile="6">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="667" FahrstrSignalSpalte="1">
@@ -60034,6 +60148,89 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Hildesheim Gbf R34 -&gt; Hildesheim Hbf N2" FahrstrTyp="TypZug" Laenge="821.1">
+<FahrstrStart Ref="415">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="471">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="468">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="301">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="347">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="350">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="377">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="466">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="97" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="94" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="415" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="668" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="403" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Hildesheim Gbf R34 -&gt; Hildesheim Hbf N3" FahrstrTyp="TypZug" Laenge="829.7">
 <FahrstrStart Ref="415">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
@@ -60104,10 +60301,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="1">
@@ -60117,6 +60314,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="415" FahrstrSignalZeile="6">
@@ -60214,10 +60414,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -60239,6 +60439,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -60339,10 +60542,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -60364,6 +60567,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -60467,10 +60673,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -60492,6 +60698,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
@@ -60601,10 +60810,10 @@
 <FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="31" FahrstrWeichenlage="2">
@@ -60628,6 +60837,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="222" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -60638,92 +60850,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="415" FahrstrSignalZeile="5">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="668" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="403" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Gbf R34 -&gt; Hildesheim Hbf N2" FahrstrTyp="TypZug" Laenge="821.1">
-<FahrstrStart Ref="415">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="97">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="471">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="99">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="468">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="95">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="15">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="22">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="45">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="122">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="301">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="256">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="98">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="347">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="350">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="377">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="300">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrSigHaltfall Ref="466">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrSigHaltfall>
-<FahrstrWeiche Ref="97" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="94" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="13" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="123" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="415" FahrstrSignalZeile="6">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="668" FahrstrSignalSpalte="1">
