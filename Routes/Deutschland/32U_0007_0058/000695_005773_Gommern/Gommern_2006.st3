@@ -10812,8 +10812,8 @@
 <InfoNormRichtung vMax="33.3333" km="12.4958" pos="1" Reg="5040"/>
 <InfoGegenRichtung vMax="-1" Reg="5040">
 <Signal NameBetriebsstelle="Gommern" Stellwerk="Gommern B2" Signalname="E" SignalTyp="9" BoundingR="10">
-<p X="-1046.2847" Y="488.7267" Z="54.27"/>
-<phi Z="2.446482"/>
+<p X="-1046.3489" Y="488.65" Z="54.27"/>
+<phi Z="2.446481"/>
 <SignalFrame>
 <p Z="4.5"/>
 <phi/>
@@ -10823,6 +10823,11 @@
 <p Y="-0.11" Z="5.4"/>
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\Lod\DR_HL_gruen.lod1.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.11" Z="4.5"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\Lod\DR_HL_gelb.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Z="4.95"/>
@@ -10845,6 +10850,11 @@
 <Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_HL_Laterne_gross_WSSB.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
+<p Y="0.11" Z="4.5"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_HL_Laterne_gross_WSSB.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
 <p Z="4.95"/>
 <phi/>
 <Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_HL_Laterne_gross_WSSB.lod.ls3"/>
@@ -10852,7 +10862,7 @@
 <SignalFrame>
 <p Z="4.95"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_Hl_Ra12.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Optiken\DR_Hl_Ra12_Zs1_Ke.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Z="4.05"/>
@@ -10875,26 +10885,40 @@
 <Datei Dateiname="Signals\Deutschland\Signalbuch_1971_DR\HL_Signale\Bauteile\Mastschild_ws-rt-ws_gross-schmal.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p Y="2.35"/>
+<p Y="2.25"/>
 <phi X="0.027925"/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-GWT_Doppelgleismagnet.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="16.6667" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="27.7778" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="6.9444" FahrstrTyp="2"/>
+<HsigBegriff HsigGeschw="-2" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="15987" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="127459" MatrixGeschw="-1">
 <Ereignis Er="1000027" Wert="297" Beschr="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="15989">
+<MatrixEintrag Signalbild="127465">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="16245" MatrixGeschw="6.9444">
+<MatrixEintrag Signalbild="127463" MatrixGeschw="11.1111">
+<Ereignis Er="1000027" Wert="297" Beschr="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="127463" MatrixGeschw="16.6667">
+<Ereignis Er="1000027" Wert="297" Beschr="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="127463" MatrixGeschw="27.7778">
+<Ereignis Er="1000027" Wert="297" Beschr="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="128489" MatrixGeschw="6.9444">
 <Ereignis Er="2000"/>
 <Ereignis Er="1000027" Wert="297" Beschr="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
 </MatrixEintrag>
+<MatrixEintrag Signalbild="129505" MatrixGeschw="-2"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="16117" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="127977" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="1000027" Wert="297" Beschr="Routes\Deutschland\32U_0007_0058\000695_005773_Gommern\Gommern_2006.st3"/>
 </MatrixEintrag>
