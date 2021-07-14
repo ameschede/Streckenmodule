@@ -11,15 +11,10 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 
 * Landrücken
 * Ersrode
-* Güterglück Gkn
 * Selmig
 * Hamm Rbf
 * Parkstein-Hütten
 * Schwarzenbach bei Pressath
-* Prödel
-* Gommern
-* Hämelerwald
-* Vöhrum
 * Großwudicke
 * Schönhauser Damm
 * Hiltersdorf
@@ -28,10 +23,6 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
-
-Die Module Gommern, Prödel und Güterglück Gkn bilden ein zusammenhängendes Netz mit 16 km Gesamt-Streckenlänge. Hierzu existiert ein Fahrplan 1993 im Timetables-Verzeichnis.
-
-Die Module Hämelerwald und Vöhrum schließen bei Lehrte und Peine an das Zusi-Bestandsnetz an. Hierzu existiert ein Fahrplan 1957 im Timetables-Verzeichnis.
 
 Die Module Großwudicke und Schönhauser Damm bilden ein zusammenhängendes Netz mit 13,8 km Länge.
 
