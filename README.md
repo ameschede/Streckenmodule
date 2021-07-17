@@ -19,10 +19,13 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Schönhauser Damm
 * Hiltersdorf
 * Hildesheim Hbf
+* Freihöls
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
 
 Die Module Großwudicke und Schönhauser Damm bilden ein zusammenhängendes Netz mit 13,8 km Länge.
+
+Die Module Hiltersdorf und Freihöls bilden ein zusammenhängendes Netz mit 10,3 km Länge.
 
