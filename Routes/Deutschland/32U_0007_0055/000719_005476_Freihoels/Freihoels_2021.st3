@@ -165,6 +165,9 @@
 <ReferenzElemente ReferenzNr="103" StrElement="679" StrNorm="1" RefTyp="2" Info="Register-Nr. 5029"/>
 <ReferenzElemente ReferenzNr="104" StrElement="679" RefTyp="2" Info="Register-Nr. 5029"/>
 <ReferenzElemente ReferenzNr="105" StrElement="1097" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="106" StrElement="896" RefTyp="4" Info="Fahrweg: Freihöls "/>
+<ReferenzElemente ReferenzNr="107" StrElement="143" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="108" StrElement="143" RefTyp="2" Info="Register-Nr. 1"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B70 SKL-Oberbau">
 <g X="-730.5004" Y="694.3811" Z="387.4322"/>
 <b X="-685.1419" Y="681.9154" Z="387.3593"/>
@@ -608,14 +611,14 @@
 <Ereignis Er="4011"/>
 <Ereignis Er="4010" Wert="44.4444"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="82.0123" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="82.0124" pos="1"/>
 <NachNorm Nr="52"/>
 <NachGegen Nr="50"/>
 </StrElement>
 <StrElement Nr="52" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="940.6698" Y="261.6172" Z="384.6817"/>
 <b X="878.6155" Y="273.2509" Z="384.8595"/>
-<InfoNormRichtung vMax="33.3333" km="82.0123"/>
+<InfoNormRichtung vMax="33.3333" km="82.0124"/>
 <InfoGegenRichtung vMax="33.3333" km="81.9492" pos="1"/>
 <NachNorm Nr="53"/>
 <NachGegen Nr="51"/>
@@ -689,16 +692,16 @@
 <StrElement Nr="59" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="520.3734" Y="350.5352" Z="385.8925"/>
 <b X="534.0671" Y="346.771" Z="385.8526"/>
-<InfoNormRichtung vMax="33.3333" km="81.5824" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.5966"/>
+<InfoNormRichtung vMax="33.3333" km="81.5825" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.5967"/>
 <NachNorm Nr="60"/>
 <NachGegen Nr="344"/>
 </StrElement>
 <StrElement Nr="60" Ueberh="-0.0035" kr="0.00005" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="534.0671" Y="346.771" Z="385.8526"/>
 <b X="545.8314" Y="343.5397" Z="385.818"/>
-<InfoNormRichtung vMax="33.3333" km="81.5966" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.6088"/>
+<InfoNormRichtung vMax="33.3333" km="81.5967" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.6089"/>
 <NachNorm Nr="61"/>
 <NachGegen Nr="59"/>
 </StrElement>
@@ -713,16 +716,16 @@
 <StrElement Nr="62" Ueberh="-0.0174" kr="0.000249" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="557.5996" Y="340.3228" Z="385.7838"/>
 <b X="569.3756" Y="337.1345" Z="385.7494"/>
-<InfoNormRichtung vMax="33.3333" km="81.621" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.6332"/>
+<InfoNormRichtung vMax="33.3333" km="81.6211" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.6333"/>
 <NachNorm Nr="63"/>
 <NachGegen Nr="61"/>
 </StrElement>
 <StrElement Nr="63" Ueberh="-0.0244" kr="0.000349" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="569.3756" Y="337.1345" Z="385.7494"/>
 <b X="581.1632" Y="333.9892" Z="385.7148"/>
-<InfoNormRichtung vMax="33.3333" km="81.6332" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.6454"/>
+<InfoNormRichtung vMax="33.3333" km="81.6333" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.6455"/>
 <NachNorm Nr="64"/>
 <NachGegen Nr="62"/>
 </StrElement>
@@ -737,54 +740,54 @@
 <StrElement Nr="65" Ueberh="-0.0383" kr="0.000541" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="592.9659" Y="330.9014" Z="385.6807"/>
 <b X="604.7866" Y="327.8858" Z="385.6463"/>
-<InfoNormRichtung vMax="33.3333" km="81.6576" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.6698"/>
+<InfoNormRichtung vMax="33.3333" km="81.6577" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.6699"/>
 <NachNorm Nr="66"/>
 <NachGegen Nr="64"/>
 </StrElement>
 <StrElement Nr="66" Ueberh="-0.0418" kr="0.000576" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="604.7866" Y="327.8858" Z="385.6463"/>
 <b X="615.3503" Y="325.2661" Z="385.6156"/>
-<InfoNormRichtung vMax="33.3333" km="81.6698" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.6807"/>
+<InfoNormRichtung vMax="33.3333" km="81.6699" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.6808"/>
 <NachNorm Nr="67"/>
 <NachGegen Nr="65"/>
 </StrElement>
 <StrElement Nr="67" Ueberh="-0.0418" kr="0.000588" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="615.3503" Y="325.2661" Z="385.6156"/>
 <b X="622.1553" Y="323.6255" Z="385.5959"/>
-<InfoGegenRichtung vMax="33.3333" km="81.6877"/>
+<InfoGegenRichtung vMax="33.3333" km="81.6878"/>
 <NachNorm Nr="227"/>
 <NachGegen Nr="66"/>
 </StrElement>
 <StrElement Nr="68" Ueberh="-0.0418" kr="0.000599" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="625.9309" Y="322.7153" Z="385.5849"/>
 <b X="636.5279" Y="320.2336" Z="385.5542"/>
-<InfoNormRichtung vMax="33.3333" km="81.6916" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.7025"/>
+<InfoNormRichtung vMax="33.3333" km="81.6917" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.7026"/>
 <NachNorm Nr="69"/>
 <NachGegen Nr="227"/>
 </StrElement>
 <StrElement Nr="69" Ueberh="-0.0418" kr="0.00062" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="636.5279" Y="320.2336" Z="385.5542"/>
 <b X="647.1408" Y="317.8209" Z="385.5236"/>
-<InfoNormRichtung vMax="33.3333" km="81.7025" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.7134"/>
+<InfoNormRichtung vMax="33.3333" km="81.7026" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.7135"/>
 <NachNorm Nr="70"/>
 <NachGegen Nr="68"/>
 </StrElement>
 <StrElement Nr="70" Ueberh="-0.0418" kr="0.000595" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="647.1408" Y="317.8209" Z="385.5236"/>
 <b X="657.7692" Y="315.4774" Z="385.4929"/>
-<InfoNormRichtung vMax="33.3333" km="81.7134" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.7243"/>
+<InfoNormRichtung vMax="33.3333" km="81.7135" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="81.7244"/>
 <NachNorm Nr="71"/>
 <NachGegen Nr="69"/>
 </StrElement>
 <StrElement Nr="71" Ueberh="-0.0418" kr="0.000576" spTrass="33.3333" Anschluss="257" Oberbau="B70 SKL-Oberbau">
 <g X="657.7692" Y="315.4774" Z="385.4929"/>
 <b X="668.4136" Y="313.2029" Z="385.4622"/>
-<InfoNormRichtung vMax="33.3333" km="81.7243" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="81.7244" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="81.7352"/>
 <NachNorm Nr="77"/>
 <NachGegen Nr="70"/>
@@ -824,8 +827,8 @@
 <StrElement Nr="76" Ueberh="0.0313" kr="-0.000445" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="692.3234" Y="308.3376" Z="385.3936"/>
 <b X="680.3611" Y="310.7339" Z="385.4278"/>
-<InfoNormRichtung vMax="33.3333" km="81.7595"/>
-<InfoGegenRichtung vMax="33.3333" km="81.7473" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="81.7596"/>
+<InfoGegenRichtung vMax="33.3333" km="81.7474" pos="1"/>
 <NachNorm Nr="77"/>
 <NachGegen Nr="75"/>
 </StrElement>
@@ -848,7 +851,7 @@
 <StrElement Nr="79" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="440.5295" Y="372.483" Z="386.1257"/>
 <b X="454.993" Y="368.5072" Z="386.0835"/>
-<InfoNormRichtung vMax="-1" Reg="5004">
+<InfoNormRichtung vMax="-1" km="81.4997" pos="1" Reg="5004">
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" SignalTyp="5" BoundingR="10">
 <p X="454.1448" Y="365.4217" Z="386.0835"/>
 <phi Z="-0.268258"/>
@@ -865,7 +868,7 @@
 <MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="81.5146" Reg="5004"/>
+<InfoGegenRichtung vMax="33.3333" km="81.5147" Reg="5004"/>
 <NachNorm Nr="344"/>
 <NachGegen Nr="85"/>
 </StrElement>
@@ -904,10 +907,10 @@
 <StrElement Nr="85" spTrass="33.3333" Oberbau="B70 SKL-Oberbau">
 <g X="381.2933" Y="388.7663" Z="386.2987"/>
 <b X="440.5295" Y="372.483" Z="386.1257"/>
-<InfoNormRichtung vMax="33.3333" km="81.4381" pos="1" Reg="5005">
+<InfoNormRichtung vMax="33.3333" km="81.4383" pos="1" Reg="5005">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="81.4996" Reg="5005"/>
+<InfoGegenRichtung vMax="33.3333" km="81.4997" Reg="5005"/>
 <NachNorm Nr="79"/>
 <NachGegen Nr="152"/>
 </StrElement>
@@ -1263,6 +1266,7 @@
 <b X="21.8315" Y="492.7686" Z="386.7"/>
 <InfoNormRichtung vMax="33.3333" km="81.0401" pos="1">
 <Ereignis Er="1000008"/>
+<Ereignis Er="35" Wert="108"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="81.064">
 <Ereignis Er="1000011"/>
@@ -1276,7 +1280,9 @@
 <InfoNormRichtung vMax="33.3333" km="81.064" pos="1">
 <Ereignis Er="1000009"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="81.1388"/>
+<InfoGegenRichtung vMax="33.3333" km="81.1388">
+<Ereignis Er="35" Wert="107"/>
+</InfoGegenRichtung>
 <NachNorm Nr="120"/>
 <NachGegen Nr="118"/>
 </StrElement>
@@ -1486,7 +1492,7 @@
 <g X="296.4165" Y="417.072" Z="386.5504"/>
 <b X="299.8545" Y="416.0043" Z="386.5403"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Wert="71" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="71"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="296.88" Y="416.93" Z="386.55"/>
 <phi/>
@@ -1501,7 +1507,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="81.3524">
-<Ereignis Er="1000027" Wert="70" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="70"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="296.88" Y="416.93" Z="386.55"/>
 <phi Z="3.141593"/>
@@ -1649,7 +1655,7 @@
 <StrElement Nr="143" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="20.5049" Y="487.9423" Z="386.7"/>
 <b X="72.2169" Y="473.7274" Z="386.7"/>
-<InfoNormRichtung vMax="33.3333" km="81.064" pos="1">
+<InfoNormRichtung vMax="33.3333" km="81.064" pos="1" Reg="1">
 <Ereignis Er="1000008"/>
 <Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
 <p X="20.5049" Y="487.9423" Z="386.7"/>
@@ -1662,7 +1668,7 @@
 <MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="33.3333" km="81.1176"/>
+<InfoGegenRichtung vMax="33.3333" km="81.1176" Reg="1"/>
 <NachNorm Nr="144"/>
 <NachGegen Nr="241"/>
 </StrElement>
@@ -1747,7 +1753,7 @@
 <StrElement Nr="152" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="381.2933" Y="388.7663" Z="386.2987"/>
 <b X="380.1362" Y="389.0844" Z="386.3021"/>
-<InfoNormRichtung vMax="-1" km="81.4381" pos="1" Reg="5012">
+<InfoNormRichtung vMax="-1" km="81.4383" Reg="5012">
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="22" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="381.2933" Y="388.7663" Z="386.2987"/>
 <phi Y="-0.002817" Z="-3.409853"/>
@@ -1794,7 +1800,7 @@
 <MatrixEintrag Signalbild="93" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="81.4369" pos="1" Reg="5012">
+<InfoGegenRichtung vMax="-1" km="81.4371" pos="1" Reg="5012">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="153"/>
@@ -1804,18 +1810,18 @@
 <StrElement Nr="153" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau">
 <g X="380.1362" Y="389.0844" Z="386.3021"/>
 <b X="374.6613" Y="390.5894" Z="386.3181"/>
-<InfoNormRichtung vMax="-1" km="81.4369" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="81.4313" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4371"/>
+<InfoGegenRichtung vMax="-1" km="81.4314" pos="1"/>
 <NachNorm Nr="163"/>
 <NachGegen Nr="152"/>
 </StrElement>
 <StrElement Nr="154" kr="-0.001087" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="380.1362" Y="389.0844" Z="386.3021"/>
 <b X="374.8967" Y="390.5705" Z="386.3175"/>
-<InfoNormRichtung vMax="-1" km="81.4369" pos="1">
+<InfoNormRichtung vMax="-1" km="81.4371">
 <Ereignis Er="1" Wert="18.0556"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="81.4315" pos="1">
+<InfoGegenRichtung vMax="-1" km="81.4317" pos="1">
 <Ereignis Er="1" Wert="18.0556"/>
 </InfoGegenRichtung>
 <NachNorm Nr="155"/>
@@ -1824,50 +1830,50 @@
 <StrElement Nr="155" kr="-0.001213" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="374.8967" Y="390.5705" Z="386.3175"/>
 <b X="368.9112" Y="392.3422" Z="386.3351"/>
-<InfoNormRichtung vMax="-1" km="81.4315" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="81.4252" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4317"/>
+<InfoGegenRichtung vMax="-1" km="81.4254" pos="1"/>
 <NachNorm Nr="156"/>
 <NachGegen Nr="154"/>
 </StrElement>
 <StrElement Nr="156" kr="-0.002" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="368.9112" Y="392.3422" Z="386.3351"/>
 <b X="362.9484" Y="394.1885" Z="386.3526"/>
-<InfoNormRichtung vMax="-1" km="81.4252" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="81.419" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4254"/>
+<InfoGegenRichtung vMax="-1" km="81.4192" pos="1"/>
 <NachNorm Nr="157"/>
 <NachGegen Nr="155"/>
 </StrElement>
 <StrElement Nr="157" kr="-0.001997" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="362.9484" Y="394.1885" Z="386.3526"/>
 <b X="357.0089" Y="396.1093" Z="386.3702"/>
-<InfoNormRichtung vMax="-1" km="81.419" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="81.4128" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4192"/>
+<InfoGegenRichtung vMax="-1" km="81.4129" pos="1"/>
 <NachNorm Nr="158"/>
 <NachGegen Nr="156"/>
 </StrElement>
 <StrElement Nr="158" kr="-0.001978" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="357.0089" Y="396.1093" Z="386.3702"/>
 <b X="351.094" Y="398.1039" Z="386.3877"/>
-<InfoNormRichtung vMax="-1" km="81.4128" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="81.4065" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4129"/>
+<InfoGegenRichtung vMax="-1" km="81.4067" pos="1"/>
 <NachNorm Nr="159"/>
 <NachGegen Nr="157"/>
 </StrElement>
 <StrElement Nr="159" kr="-0.001747" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="351.094" Y="398.1039" Z="386.3877"/>
 <b X="345.2043" Y="400.1723" Z="386.4052"/>
-<InfoNormRichtung vMax="-1" km="81.4065" pos="1">
+<InfoNormRichtung vMax="-1" km="81.4067">
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="81.4003" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="81.4004" pos="1"/>
 <NachNorm Nr="160"/>
 <NachGegen Nr="158"/>
 </StrElement>
 <StrElement Nr="160" kr="-0.001393" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="345.2043" Y="400.1723" Z="386.4052"/>
 <b X="341.7135" Y="401.4374" Z="386.4157"/>
-<InfoNormRichtung vMax="-1" km="81.4003" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="81.3966" pos="1">
+<InfoNormRichtung vMax="-1" km="81.4004"/>
+<InfoGegenRichtung vMax="-1" km="81.3967" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="177"/>
@@ -1876,8 +1882,8 @@
 <StrElement Nr="161" spTrass="27.7778" Anschluss="257" Fkt="12" Oberbau="B70 SKL-Oberbau">
 <g X="344.7314" Y="398.8167" Z="386.4055"/>
 <b X="341.187" Y="399.791" Z="386.4159"/>
-<InfoNormRichtung vMax="-1" km="81.4002" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="81.3966" pos="1">
+<InfoNormRichtung vMax="-1" km="81.4004"/>
+<InfoGegenRichtung vMax="-1" km="81.3967" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="665"/>
@@ -1886,34 +1892,34 @@
 <StrElement Nr="162" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau">
 <g X="362.8032" Y="393.849" Z="386.3528"/>
 <b X="356.7748" Y="395.5061" Z="386.3704"/>
-<InfoNormRichtung vMax="-1" km="81.419"/>
-<InfoGegenRichtung vMax="-1" km="81.4127" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4191"/>
+<InfoGegenRichtung vMax="-1" km="81.4129" pos="1"/>
 <NachNorm Nr="165"/>
 <NachGegen Nr="163"/>
 </StrElement>
 <StrElement Nr="163" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau">
 <g X="374.6613" Y="390.5894" Z="386.3181"/>
 <b X="362.8032" Y="393.849" Z="386.3528"/>
-<InfoNormRichtung vMax="-1" km="81.4313"/>
-<InfoGegenRichtung vMax="-1" km="81.419" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4314"/>
+<InfoGegenRichtung vMax="-1" km="81.4191" pos="1"/>
 <NachNorm Nr="162"/>
 <NachGegen Nr="153"/>
 </StrElement>
 <StrElement Nr="164" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau">
 <g X="350.75" Y="397.1622" Z="386.3879"/>
 <b X="344.7314" Y="398.8167" Z="386.4055"/>
-<InfoNormRichtung vMax="-1" km="81.4065">
+<InfoNormRichtung vMax="-1" km="81.4066">
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="81.4002" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="81.4004" pos="1"/>
 <NachNorm Nr="161"/>
 <NachGegen Nr="165"/>
 </StrElement>
 <StrElement Nr="165" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau">
 <g X="356.7748" Y="395.5061" Z="386.3704"/>
 <b X="350.75" Y="397.1622" Z="386.3879"/>
-<InfoNormRichtung vMax="-1" km="81.4127"/>
-<InfoGegenRichtung vMax="-1" km="81.4065" pos="1"/>
+<InfoNormRichtung vMax="-1" km="81.4129"/>
+<InfoGegenRichtung vMax="-1" km="81.4066" pos="1"/>
 <NachNorm Nr="164"/>
 <NachGegen Nr="162"/>
 </StrElement>
@@ -2474,24 +2480,23 @@
 </StrElement>
 <StrElement Nr="225" spTrass="33.3333" Anschluss="256" Fkt="2" Oberbau="B90 SKL-Oberbau">
 <g X="23.0243" Y="497.1078" Z="386.7"/>
-<b X="88.1529" Y="479.1934" Z="386.7001"/>
-<InfoNormRichtung vMax="33.3333" km="81.064" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.1315"/>
-<NachNorm Nr="226"/>
+<b X="71.2338" Y="483.8472" Z="386.7001"/>
+<InfoGegenRichtung vMax="33.3333" km="81.114"/>
+<NachNorm Nr="1100"/>
 <NachGegen Nr="224"/>
 </StrElement>
 <StrElement Nr="226" spTrass="33.3333" Anschluss="256" Fkt="2" Oberbau="B90 SKL-Oberbau">
 <g X="88.1529" Y="479.1934" Z="386.7001"/>
-<b X="184.3238" Y="452.7405" Z="386.7002"/>
-<InfoNormRichtung vMax="33.3333" km="81.1315" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="81.2312"/>
-<NachGegen Nr="225"/>
+<b X="121.8996" Y="469.911" Z="386.7001"/>
+<InfoGegenRichtung vMax="33.3333" km="81.1665"/>
+<NachNorm Nr="1099"/>
+<NachGegen Nr="1100"/>
 </StrElement>
 <StrElement Nr="227" Ueberh="-0.0418" kr="0.000608" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="622.1553" Y="323.6255" Z="385.5959"/>
 <b X="625.9309" Y="322.7153" Z="385.5849"/>
-<InfoNormRichtung vMax="33.3333" km="81.6877" pos="1" Reg="5014"/>
-<InfoGegenRichtung vMax="-1" Reg="5014">
+<InfoNormRichtung vMax="33.3333" km="81.6878" pos="1" Reg="5014"/>
+<InfoGegenRichtung vMax="-1" km="81.6917" Reg="5014">
 <Ereignis Er="6" Beschr="@sep=E 60@"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="K" SignalTyp="7" BoundingR="10">
 <p X="622.9053" Y="326.7364" Z="385.0959"/>
@@ -4996,7 +5001,7 @@
 <StrElement Nr="344" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="454.993" Y="368.5072" Z="386.0835"/>
 <b X="520.3734" Y="350.5352" Z="385.8925"/>
-<InfoNormRichtung vMax="33.3333" km="81.5146" pos="1">
+<InfoNormRichtung vMax="33.3333" km="81.5147" pos="1">
 <Ereignis Er="40" Beschr="5904a"/>
 </InfoNormRichtung>
 <NachNorm Nr="59"/>
@@ -7016,7 +7021,7 @@
 <g X="291.516" Y="413.4449" Z="386.5609"/>
 <b X="297.4942" Y="411.8015" Z="386.5435"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Wert="73" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="73"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="294.47" Y="412.63" Z="386.55"/>
 <phi/>
@@ -7031,7 +7036,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Wert="72" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="72"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="294.47" Y="412.63" Z="386.55"/>
 <phi Z="3.141593"/>
@@ -9410,7 +9415,7 @@
 <NachNorm Nr="1063"/>
 <NachGegen Nr="1089"/>
 </StrElement>
-<StrElement Nr="1097" spTrass="27.7778" Anschluss="256" Fkt="2">
+<StrElement Nr="1097" spTrass="27.7778" Fkt="2">
 <g X="58.2281" Y="473.076" Z="387.0847"/>
 <b X="32.8794" Y="480.0862" Z="387.0871"/>
 <InfoGegenRichtung vMax="-1">
@@ -9452,9 +9457,27 @@
 <MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
-<NachGegen Nr="1096"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Freihöls K" FahrstrTyp="TypZug" Laenge="418.4991">
+<StrElement Nr="1098" spTrass="33.3333" Anschluss="256" Fkt="2" Oberbau="B90 SKL-Oberbau">
+<g X="136.2383" Y="465.9669" Z="386.7001"/>
+<b X="184.3238" Y="452.7405" Z="386.7002"/>
+<InfoNormRichtung vMax="33.3333" km="81.1814" pos="1"/>
+<NachGegen Nr="1099"/>
+</StrElement>
+<StrElement Nr="1099" spTrass="33.3333" Anschluss="256" Fkt="2" Oberbau="B90 SKL-Oberbau">
+<g X="121.8996" Y="469.911" Z="386.7001"/>
+<b X="136.2383" Y="465.9669" Z="386.7001"/>
+<NachNorm Nr="1098"/>
+<NachGegen Nr="226"/>
+</StrElement>
+<StrElement Nr="1100" spTrass="33.3333" Anschluss="256" Fkt="2" Oberbau="B90 SKL-Oberbau">
+<g X="71.2338" Y="483.8472" Z="386.7001"/>
+<b X="88.1529" Y="479.1934" Z="386.7001"/>
+<InfoNormRichtung vMax="33.3333" km="81.114" pos="1"/>
+<NachNorm Nr="226"/>
+<NachGegen Nr="225"/>
+</StrElement>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Freihöls K" FahrstrTyp="TypZug" Laenge="418.5">
 <FahrstrStart Ref="11">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9471,101 +9494,145 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls K -&gt; Freihöls B" FahrstrTyp="TypZug" Laenge="1180.9414">
-<FahrstrStart Ref="14">
+<Fahrstrasse FahrstrName="Freihöls A -&gt; Freihöls J" FahrstrTyp="TypZug" Laenge="1179.4">
+<FahrstrStart Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="23">
+<FahrstrZiel Ref="56">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="64">
+<FahrstrRegister Ref="61">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="55">
+<FahrstrRegister Ref="51">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="6">
+<FahrstrRegister Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="46">
+<FahrstrRegister Ref="48">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="58">
+<FahrstrRegister Ref="24">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="25">
+<FahrstrRegister Ref="107">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="50">
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="53">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="44">
+<FahrstrTeilaufloesung Ref="47">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="5" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="72" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="14">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="33" FahrstrSignalSpalte="1">
+<FahrstrVSignal Ref="32" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls K -&gt; Freihöls C" FahrstrTyp="TypZug" Laenge="1182.2134">
-<FahrstrStart Ref="14">
+<Fahrstrasse FahrstrName="Freihöls A -&gt; Freihöls H" FahrstrTyp="TypZug" Laenge="1138.8">
+<FahrstrStart Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="26">
+<FahrstrZiel Ref="17">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="64">
+<FahrstrRegister Ref="61">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="55">
+<FahrstrRegister Ref="51">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="6">
+<FahrstrRegister Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="10">
+<FahrstrRegister Ref="39">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="43">
+<FahrstrRegister Ref="27">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="19">
+<FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="50">
+<FahrstrAufloesung Ref="53">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="41">
+<FahrstrTeilaufloesung Ref="38">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="5" FahrstrWeichenlage="2">
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="8" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="70" FahrstrSignalZeile="1">
+<FahrstrSignal Ref="29" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="14" FahrstrSignalZeile="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="33" FahrstrSignalSpalte="1">
+<FahrstrVSignal Ref="32" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="33" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls B -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5724.1729">
+<Fahrstrasse FahrstrName="Freihöls A -&gt; Freihöls H (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1138.8">
+<FahrstrStart Ref="29">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="3">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="39">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="108">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="29" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="32" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="33" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Freihöls B -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5724.2">
 <FahrstrStart Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9615,7 +9682,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls C -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5723.2095">
+<Fahrstrasse FahrstrName="Freihöls C -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5723.2">
 <FahrstrStart Ref="26">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9665,92 +9732,154 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls A -&gt; Freihöls J" FahrstrTyp="TypZug" Laenge="1179.4384">
-<FahrstrStart Ref="29">
+<Fahrstrasse FahrstrName="Freihöls K -&gt; Freihöls B" FahrstrTyp="TypZug" Laenge="1180.9">
+<FahrstrStart Ref="14">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="56">
+<FahrstrZiel Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="61">
+<FahrstrRegister Ref="64">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="51">
+<FahrstrRegister Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="3">
+<FahrstrRegister Ref="6">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="48">
+<FahrstrRegister Ref="46">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="24">
+<FahrstrRegister Ref="58">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="57">
+<FahrstrRegister Ref="108">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="53">
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="50">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="47">
+<FahrstrTeilaufloesung Ref="44">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="2" FahrstrWeichenlage="1">
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="29">
+<FahrstrSignal Ref="72" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="32" FahrstrSignalSpalte="1">
+<FahrstrSignal Ref="14">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="33">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="33" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls A -&gt; Freihöls H" FahrstrTyp="TypZug" Laenge="1138.8247">
-<FahrstrStart Ref="29">
+<Fahrstrasse FahrstrName="Freihöls K -&gt; Freihöls C" FahrstrTyp="TypZug" Laenge="1182.2">
+<FahrstrStart Ref="14">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="17">
+<FahrstrZiel Ref="26">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrZiel>
-<FahrstrRegister Ref="61">
+<FahrstrRegister Ref="64">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="51">
+<FahrstrRegister Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="3">
+<FahrstrRegister Ref="6">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="39">
+<FahrstrRegister Ref="10">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="27">
+<FahrstrRegister Ref="43">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="18">
+<FahrstrRegister Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrAufloesung Ref="53">
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="50">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="38">
+<FahrstrTeilaufloesung Ref="41">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="2" FahrstrWeichenlage="2">
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="29" FahrstrSignalZeile="7">
+<FahrstrWeiche Ref="8" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="70" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="32" FahrstrSignalSpalte="1">
+<FahrstrSignal Ref="14" FahrstrSignalZeile="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="33" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="33" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.st3" NurInfo="1"/>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Freihöls K -&gt; Freihöls C (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1182.2">
+<FahrstrStart Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="26">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="50">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="41">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="8" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="70" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="14" FahrstrSignalZeile="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="33" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 </Strecke>
