@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="54" AutorName="Stefan" AutorEmail="dariaze1974@gmail.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Hochspannung_Donau_50m_380kV\Mast_380kV_50m_Donaumast.lod.ls3"/>
+<p X="494.7059" Y="-457.6608" Z="84.8015"/>
+<phi Z="0.260368"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="32" BoundingR="157" SichtbarBis="140" Vorlade="1">
+<Datei Dateiname="Detail_32_564875_5793125.ls3"/>
+<p X="375" Y="-375"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<lsb Dateiname="32_564500_5793500.lsb"/>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="17" MeshI="45">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10" MeshV="14" MeshI="36">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+</SubSet>
+</Landschaft>
+</Zusi>
