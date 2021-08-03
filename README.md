@@ -21,6 +21,9 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Hildesheim Hbf
 * Freihöls
 * Schönhausen
+* Sehnde
+* Algermissen
+* Harsum
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -29,4 +32,6 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
 
 Die Module Hiltersdorf und Freihöls bilden ein zusammenhängendes Netz mit 10,3 km Länge.
+
+Die Module Sehnde, Algermissen, Harsum und Hildesheim Hbf verbinden die Streckennetze Kassel/Hagen und Hamburg zu einem gemeinsamen Netz.
 
