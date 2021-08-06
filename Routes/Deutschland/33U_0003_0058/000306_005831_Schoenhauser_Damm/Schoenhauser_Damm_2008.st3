@@ -25,6 +25,9 @@
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3" NurInfo="1"/>
 </ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000301_005831_Schoenhausen\Schoenhausen_2004.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3"/>
 <ReferenzElemente ReferenzNr="2" StrElement="150" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3"/>
 <ReferenzElemente ReferenzNr="3" StrElement="246" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.st3"/>
@@ -216,6 +219,9 @@
 <ReferenzElemente ReferenzNr="189" StrElement="1485" RefTyp="4" Info="Signal: LZB-Bk 11178 11178"/>
 <ReferenzElemente ReferenzNr="190" StrElement="1485" StrNorm="1" RefTyp="2" Info="Register-Nr. 5056"/>
 <ReferenzElemente ReferenzNr="191" StrElement="1485" RefTyp="2" Info="Register-Nr. 5056"/>
+<ReferenzElemente ReferenzNr="192" StrElement="1096" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000301_005831_Schoenhausen\Schoenhausen_2004.st3"/>
+<ReferenzElemente ReferenzNr="193" StrElement="1113" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000301_005831_Schoenhausen\Schoenhausen_2004.st3"/>
+<ReferenzElemente ReferenzNr="194" StrElement="1180" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\33U_0003_0058\000301_005831_Schoenhausen\Schoenhausen_2004.st3"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B70 SKL-Oberbau">
 <g X="2542.8247" Y="-535.4939" Z="40.8599"/>
 <b X="2505.6411" Y="-534.1441" Z="40.8716"/>
@@ -9125,6 +9131,9 @@
 <InfoNormRichtung vMax="69.4444" km="188.0517" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="188.1002"/>
 <NachGegen Nr="1095"/>
+<NachNormModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000301_005831_Schoenhausen\Schoenhausen_2004.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="1097" spTrass="69.4444" Anschluss="256" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2943">
 <g X="-1463.2111" Y="-381.2302" Z="31.9967"/>
@@ -9259,6 +9268,9 @@
 <InfoNormRichtung vMax="69.4444" km="188.0517" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="188.1002"/>
 <NachGegen Nr="1112"/>
+<NachNormModul Nr="3">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000301_005831_Schoenhausen\Schoenhausen_2004.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="1114" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1463.05" Y="-389.1292" Z="31.9066"/>
@@ -10600,6 +10612,9 @@
 </Signal>
 </InfoGegenRichtung>
 <NachGegen Nr="1132"/>
+<NachNormModul Nr="2">
+<Datei Dateiname="Routes\Deutschland\33U_0003_0058\000301_005831_Schoenhausen\Schoenhausen_2004.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="1181" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-785.7129" Y="-115.5445" Z="33.55"/>
