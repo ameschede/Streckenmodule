@@ -37061,8 +37061,12 @@
 <StrElement Nr="2174" Ueberh="0.0425" kr="-0.001364" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.499">
 <g X="233.0866" Y="-121.9196" Z="66.3786"/>
 <b X="231.1761" Y="-128.2684" Z="66.3539"/>
-<InfoNormRichtung vMax="-1" km="15.3125" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="15.3192"/>
+<InfoNormRichtung vMax="-1" km="15.3125" pos="1">
+<Ereignis Er="1" Wert="22.2222"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="15.3192">
+<Ereignis Er="1" Wert="22.2222"/>
+</InfoGegenRichtung>
 <NachNorm Nr="2175"/>
 <NachGegen Nr="2173"/>
 </StrElement>
@@ -37162,10 +37166,10 @@
 <g X="233.0866" Y="-121.9196" Z="66.3786"/>
 <b X="231.3979" Y="-127.4248" Z="66.3557"/>
 <InfoNormRichtung vMax="-1" km="15.3126" pos="1">
-<Ereignis Er="1" Wert="27.7778"/>
+<Ereignis Er="1" Wert="22.2222"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="15.3183">
-<Ereignis Er="1" Wert="27.7778"/>
+<Ereignis Er="1" Wert="22.2222"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2187"/>
 <NachGegen Nr="2173"/>
@@ -37173,12 +37177,8 @@
 <StrElement Nr="2187" Ueberh="0.0425" kr="-0.002164" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.4934">
 <g X="231.3979" Y="-127.4248" Z="66.3557"/>
 <b X="229.6662" Y="-132.9163" Z="66.3327"/>
-<InfoNormRichtung vMax="-1" km="15.3183" pos="1">
-<Ereignis Er="1" Wert="27.7778"/>
-</InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="15.3241">
-<Ereignis Er="1" Wert="27.7778"/>
-</InfoGegenRichtung>
+<InfoNormRichtung vMax="-1" km="15.3183" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="15.3241"/>
 <NachNorm Nr="2188"/>
 <NachGegen Nr="2186"/>
 </StrElement>
@@ -63487,16 +63487,16 @@
 <FahrstrWeiche Ref="121" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000569_005802_Lehrte_Ost\Lehrte_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="329" FahrstrSignalZeile="11">
+<FahrstrSignal Ref="329" FahrstrSignalZeile="9">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000569_005802_Lehrte_Ost\Lehrte_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="737" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000569_005802_Lehrte_Ost\Lehrte_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="165" FahrstrSignalSpalte="11">
+<FahrstrVSignal Ref="165" FahrstrSignalSpalte="9">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000569_005802_Lehrte_Ost\Lehrte_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
-<FahrstrVSignal Ref="195" FahrstrSignalSpalte="11">
+<FahrstrVSignal Ref="195" FahrstrSignalSpalte="9">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000569_005802_Lehrte_Ost\Lehrte_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
