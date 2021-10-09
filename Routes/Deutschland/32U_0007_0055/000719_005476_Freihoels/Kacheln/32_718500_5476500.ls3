@@ -130,30 +130,6 @@
 <phi Z="-0.265681"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastleuchte_11m_2neon.lod.ls3"/>
-<p X="-138.9319" Y="164.4709" Z="387.2831"/>
-<phi Z="-0.268264"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastleuchte_11m_2neon.lod.ls3"/>
-<p X="-51.6303" Y="140.4937" Z="387.1428"/>
-<phi Z="-0.268252"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastleuchte_11m_2neon.lod.ls3"/>
-<p X="-7.9236" Y="128.1977" Z="387.0724"/>
-<phi Z="-0.268257"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastleuchte_11m_2neon.lod.ls3"/>
-<p X="-95.8959" Y="152.6779" Z="387.2139"/>
-<phi Z="-0.268273"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="13" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0054\000637_005372_Langweid_Lech\Objekte\MLAW_Flurstr1b\MLAW_Flurstr1b.lod.ls3"/>
 <p X="-343.5047" Y="275.2028" Z="387.7425"/>
@@ -7624,6 +7600,30 @@
 <phi Z="-0.977495"/>
 <sk X="0.6663" Y="0.6663" Z="0.6663"/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Werkzeuge\NotOfficial.ls3"/>
+<p X="-138.9319" Y="164.4709" Z="387.2831"/>
+<phi Z="2.873328"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Werkzeuge\NotOfficial.ls3"/>
+<p X="-95.8959" Y="152.6779" Z="387.2139"/>
+<phi Z="-0.268273"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Werkzeuge\NotOfficial.ls3"/>
+<p X="-51.6303" Y="140.4937" Z="387.1428"/>
+<phi Z="-0.268252"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Werkzeuge\NotOfficial.ls3"/>
+<p X="-7.9236" Y="128.1977" Z="387.0724"/>
+<phi Z="-0.268257"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -8570,21 +8570,6 @@
 <Face i="43;41;42"/>
 <Face i="42;44;43"/>
 <Face i="45;43;44"/>
-<Face i="44;46;45"/>
-<Face i="47;45;46"/>
-<Face i="46;48;47"/>
-<Face i="49;47;48"/>
-<Face i="48;50;49"/>
-<Face i="51;49;50"/>
-<Face i="50;52;51"/>
-<Face i="53;51;52"/>
-<Face i="52;54;53"/>
-<Face i="55;53;54"/>
-<Face i="54;56;55"/>
-<Face i="57;55;56"/>
-<Face i="58;59;57"/>
-<Face i="58;57;56"/>
-<Face i="60;57;59"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="5" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -24710,6 +24695,115 @@
 <Face i="15;9;17"/>
 <Face i="11;19;18"/>
 <Face i="19;11;13"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="3"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
+</Textur>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_Holz_K-Oberbau.dds"/>
+</Textur>
+<Vertex U="0.8116" V="57.5235" V2="57.5235">
+<p X="41.1982" Y="126.6316" Z="386.849"/>
+<n X="0.0013" Y="-0.0004" Z="1"/>
+</Vertex>
+<Vertex U="0.8116" V="58.5294" V2="58.5294">
+<p X="44.3019" Y="125.7779" Z="386.8461"/>
+<n X="0.0009" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.1884" V="57.5235" U2="1" V2="57.5235">
+<p X="40.3496" Y="123.5462" Z="386.849"/>
+<n X="0.0013" Y="-0.0004" Z="1"/>
+</Vertex>
+<Vertex U="0.1884" V="58.5294" U2="1" V2="58.5294">
+<p X="43.4532" Y="122.6925" Z="386.8461"/>
+<n X="0.0009" Y="-0.0002" Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;2;1"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="3"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
+</Textur>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_Stahl_K-Oberbau.dds"/>
+</Textur>
+<Vertex U="0.188" V="205.975" U2="1" V2="205.975">
+<p X="498.3827" Y="-2.4409" Z="386.5643"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.188" V="175.117" U2="1" V2="175.117">
+<p X="403.1723" Y="23.7478" Z="386.6233"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.812" V="205.975" V2="205.975">
+<p X="499.2314" Y="0.6445" Z="386.5643"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.812" V="175.117" V2="175.117">
+<p X="404.021" Y="26.8332" Z="386.6233"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.188" V="144.258" U2="1" V2="144.258">
+<p X="307.962" Y="49.9364" Z="386.6823"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.812" V="144.258" V2="144.258">
+<p X="308.8106" Y="53.0218" Z="386.6823"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.188" V="113.4" U2="1" V2="113.4">
+<p X="212.7517" Y="76.125" Z="386.7413"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.812" V="113.4" V2="113.4">
+<p X="213.6004" Y="79.2105" Z="386.7413"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.188" V="82.542" U2="1" V2="82.542">
+<p X="117.5413" Y="102.3138" Z="386.8002"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.812" V="82.542" V2="82.542">
+<p X="118.39" Y="105.3992" Z="386.8002"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.188" V="58.529" U2="1" V2="58.529">
+<p X="43.4532" Y="122.6925" Z="386.8461"/>
+<n X="0.0009" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.812" V="58.529" V2="58.529">
+<p X="44.3019" Y="125.7779" Z="386.8461"/>
+<n X="0.0009" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.812" V="206.224" V2="206.224">
+<p X="500" Y="0.4331" Z="386.5639"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.231" V="206.48" U2="0.932" V2="206.48">
+<p X="500" Y="-2.6609" Z="386.5633"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Vertex U="0.188" V="206.499" U2="1" V2="206.499">
+<p X="500" Y="-2.8858" Z="386.5633"/>
+<n X="0.0006" Y="-0.0002" Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;2;1"/>
+<Face i="1;4;3"/>
+<Face i="5;3;4"/>
+<Face i="4;6;5"/>
+<Face i="7;5;6"/>
+<Face i="6;8;7"/>
+<Face i="9;7;8"/>
+<Face i="8;10;9"/>
+<Face i="11;9;10"/>
+<Face i="12;0;2"/>
+<Face i="12;13;0"/>
+<Face i="14;0;13"/>
 </SubSet>
 </Landschaft>
 </Zusi>

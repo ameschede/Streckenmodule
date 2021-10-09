@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="Rollenhalter fuer Drahtzugleitungen;">
+<AutorEintrag AutorID="3" AutorName="Klaus Zimmermann" AutorEmail="klaus@ahrenszimmermann.de"/>
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorLizenz="255" AutorBeschreibung="Ableitung Variante"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="100" Vorlade="1" LODbit="4">
+<Datei Dateiname="rollenhalter_hoch_2hauben_V2.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarAb="100" SichtbarBis="200" Vorlade="1" LODbit="3">
+<Datei Dateiname="rollenhalter_hoch_2hauben_V2.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt AnkerTyp="16" AnkerKat="3">
+<p Y="-0.25"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="16" AnkerKat="3">
+<p Y="-0.23"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="16" AnkerKat="3">
+<p/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="16" AnkerKat="3">
+<p Y="0.02"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="16" AnkerKat="3">
+<p Y="0.05"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="16" AnkerKat="3">
+<p Y="0.07"/>
+<phi/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

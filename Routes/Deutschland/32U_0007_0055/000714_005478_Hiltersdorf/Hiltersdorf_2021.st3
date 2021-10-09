@@ -3,7 +3,7 @@
 <Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
 <AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorAufwandStunden="10" AutorLizenz="255"/>
 </Info>
-<Strecke>
+<Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.ls3"/>
 <HintergrundDatei/>
 <BefehlsKonfiguration/>
@@ -518,9 +518,7 @@
 <g X="2425.7419" Y="-938.2067" Z="390.7502"/>
 <b X="2377.4241" Y="-904.9963" Z="390.7686"/>
 <InfoNormRichtung vMax="36.1111" km="78.3816"/>
-<InfoGegenRichtung vMax="36.1111" km="78.3229" pos="1">
-<Ereignis Er="4010" Wert="44.4444"/>
-</InfoGegenRichtung>
+<InfoGegenRichtung vMax="36.1111" km="78.3229" pos="1"/>
 <NachNorm Nr="24"/>
 <NachGegen Nr="174"/>
 </StrElement>
@@ -1839,7 +1837,9 @@
 <g X="2455.554" Y="-958.6957" Z="390.7388"/>
 <b X="2463.177" Y="-963.9258" Z="390.7359"/>
 <InfoNormRichtung vMax="33.3333" km="78.4176" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="78.4269"/>
+<InfoGegenRichtung vMax="33.3333" km="78.4269">
+<Ereignis Er="4010" Wert="44.4444"/>
+</InfoGegenRichtung>
 <NachNorm Nr="177"/>
 <NachGegen Nr="175"/>
 </StrElement>
@@ -9584,13 +9584,138 @@
 <MatrixEintrag MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
+<InfoGegenRichtung vMax="-1">
+<Signal NameBetriebsstelle="BÜ km 75,235" Stellwerk="BÜ km 75,235" BoundingR="10">
+<p X="-411.9044" Y="148.6304" Z="390.2587"/>
+<phi Z="2.465908"/>
+<SignalFrame>
+<p Z="0.41"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Automatik-HET.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.025" Z="0.65"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.49"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.04" Z="0.31"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Komma.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.125" Z="0.33"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_7.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.025" Z="0.33"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_5.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.105" Z="0.33"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_2.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="511" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="8"/>
 <NachGegen Nr="7"/>
 </StrElement>
 <StrElement Nr="972" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-481.1312" Y="200.0179" Z="388.1264"/>
 <b X="-445.5678" Y="171.5121" Z="388.3426"/>
-<InfoNormRichtung vMax="36.1111" km="75.1705" pos="1"/>
+<InfoNormRichtung vMax="36.1111" km="75.1705" pos="1">
+<Signal NameBetriebsstelle="BÜ km 75,235" Stellwerk="BÜ km 75,235" BoundingR="10">
+<p X="-447.5692" Y="169.0152" Z="390.0426"/>
+<phi Z="-0.675685"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Automatik-HET.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.025" Z="0.65"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.49"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.04" Z="0.31"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Komma.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.41"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.125" Z="0.33"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_7.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="0.025" Z="0.33"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_5.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-0.105" Z="0.33"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_2.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="511" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
 <NachNorm Nr="7"/>
 <NachGegen Nr="6"/>
 </StrElement>
