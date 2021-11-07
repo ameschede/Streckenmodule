@@ -3127,7 +3127,7 @@
 <InfoNormRichtung vMax="-1" km="41.0098" pos="1" Reg="5009">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="106" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1159.714" Y="-862.984" Z="87.1161"/>
-<phi Y="-0.000759" Z="-5.881138"/>
+<phi Y="-0.000759" Z="-5.881139"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -3145,18 +3145,6 @@
 <phi/>
 <sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\500\Zunge_500R_abzweig_K-Oberbau.ls3"/>
-</SignalFrame>
-<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700 (blaßgrün) links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
-<p X="1.17"/>
-<phi Z="3.1415"/>
-<sk/>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen.lod.ls3"/>
-</SignalFrame>
-<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
-<p X="5.45"/>
-<phi Z="3.1415"/>
-<sk/>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700 (blaßgrün) rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.17"/>
@@ -3176,12 +3164,6 @@
 <sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss500_Re.lod.ls3"/>
 </SignalFrame>
-<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Antrieb Mittelverschluß (für gegenüber Antrieb) rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
-<p X="1.24"/>
-<phi/>
-<sk/>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss500_gegenueber_Re.lod.ls3"/>
-</SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="4" WeichenbaugruppeBeschreibung="Weichensignal elektr. beleuchtet rechts" WeichenbaugruppePos0="1">
 <p X="1.69" Y="-2.07"/>
 <phi/>
@@ -3191,8 +3173,8 @@
 <HsigBegriff FahrstrTyp="1"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="1"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="1533" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="1019" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="123" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="41.0086" pos="1" Reg="5009"/>
@@ -3372,7 +3354,7 @@
 <NachNorm Nr="198"/>
 <NachGegen Nr="243"/>
 </StrElement>
-<StrElement Nr="195" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.579">
+<StrElement Nr="195" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7004">
 <g X="-1020.1779" Y="-801.6582" Z="87.2052"/>
 <b X="-1023.368" Y="-803.454" Z="87.2093"/>
 <InfoNormRichtung vMax="-1" km="40.8598" pos="1" Reg="1">
@@ -3535,7 +3517,7 @@
 <NachNorm Nr="210"/>
 <NachGegen Nr="194"/>
 </StrElement>
-<StrElement Nr="199" kr="0.0052" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5956">
+<StrElement Nr="199" kr="0.0052" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7004">
 <g X="-1023.368" Y="-803.454" Z="87.2093"/>
 <b X="-1026.99" Y="-805.4929" Z="87.2125"/>
 <InfoNormRichtung vMax="-1" km="40.8651" pos="1" Reg="1" KoppelWeicheNr="196" KoppelWeicheNorm="1">
@@ -3648,7 +3630,7 @@
 <NachNorm Nr="213"/>
 <NachGegen Nr="207"/>
 </StrElement>
-<StrElement Nr="210" spTrass="27.7778" Anschluss="257" Fkt="28" Oberbau="Holz K-Oberbau">
+<StrElement Nr="210" spTrass="27.7778" Anschluss="257" Fkt="28" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7004">
 <g X="-1042.324" Y="-814.1245" Z="87.2126"/>
 <b X="-1034.4991" Y="-809.7198" Z="87.2173"/>
 <InfoNormRichtung vMax="-1" km="40.8866" pos="1"/>
@@ -3656,7 +3638,7 @@
 <NachNorm Nr="211"/>
 <NachGegen Nr="198"/>
 </StrElement>
-<StrElement Nr="211" spTrass="27.7778" Anschluss="257" Fkt="28" Oberbau="Holz K-Oberbau">
+<StrElement Nr="211" spTrass="27.7778" Anschluss="257" Fkt="28" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7004">
 <g X="-1026.99" Y="-805.4929" Z="87.2125"/>
 <b X="-1034.4991" Y="-809.7198" Z="87.2173"/>
 <InfoNormRichtung vMax="-1" km="40.8692" pos="1"/>
@@ -5348,7 +5330,7 @@
 <NachNorm Nr="290"/>
 <NachGegen Nr="286"/>
 </StrElement>
-<StrElement Nr="288" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5532">
+<StrElement Nr="288" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7004">
 <g X="-1013.18" Y="-797.7195" Z="87.2001"/>
 <b X="-1020.177" Y="-801.6581" Z="87.2052"/>
 <InfoNormRichtung vMax="22.2222" km="40.8529" pos="1"/>
@@ -5497,7 +5479,7 @@
 <NachNorm Nr="174"/>
 <NachGegen Nr="297"/>
 </StrElement>
-<StrElement Nr="301" kr="-0.000741" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5262">
+<StrElement Nr="301" kr="-0.000741" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7004">
 <g X="-1009.7941" Y="-795.8062" Z="87.1973"/>
 <b X="-1013.18" Y="-797.7195" Z="87.2002"/>
 <InfoNormRichtung vMax="-1" km="40.8495" pos="1"/>
@@ -7622,7 +7604,7 @@
 <b X="-773.3203" Y="-671.869" Z="87.0516"/>
 <InfoNormRichtung vMax="-1">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="FA N4" BoundingR="10">
-<p X="-778.1323" Y="-667.0407" Z="91.6735"/>
+<p X="-778.1324" Y="-667.0407" Z="91.6735"/>
 <phi Z="0.40277"/>
 <SignalFrame>
 <p/>
@@ -10422,44 +10404,44 @@
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\GsSiemens_Schirm1958-h.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.2" Y="0" Z="1.3"/>
-<phi Z="0"/>
+<p X="-0.2" Z="1.3"/>
+<phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="0.03" Z="1.3"/>
-<phi Z="0"/>
+<phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_S.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="-0.06" Z="1.3"/>
-<phi Z="0"/>
+<phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.6349" Y="-0.075" Z="1.745"/>
-<phi Z="0"/>
+<phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_Lsp.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.6349" Y="-0.05" Z="1.745"/>
-<phi Z="0"/>
+<phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.6349" Y="-0.09" Z="1.77"/>
-<phi Z="0"/>
+<phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_I_Abteil.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.6349" Y="-0.11" Z="1.77"/>
-<phi Z="0"/>
+<phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_I_Abteil.lod.ls3"/>
 </SignalFrame>
@@ -30538,7 +30520,7 @@
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700 (blaßgrün) links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.17"/>
-<phi Z="3.1415"/>
+<phi/>
 <sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen.lod.ls3"/>
 </SignalFrame>
@@ -42229,7 +42211,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Hildesheim Hbf G" FahrstrStrecke="1772b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1283.6">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Hildesheim Hbf G" FahrstrStrecke="1772b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1283.5999">
 <FahrstrStart Ref="237">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -43000,7 +42982,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf F -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1009.6">
+<Fahrstrasse FahrstrName="Hildesheim Hbf F -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1009.5999">
 <FahrstrStart Ref="108">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -43582,7 +43564,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf F\ -&gt; Hildesheim Hbf S1" FahrstrTyp="TypZug" Laenge="1057.1">
+<Fahrstrasse FahrstrName="Hildesheim Hbf F\ -&gt; Hildesheim Hbf S1" FahrstrTyp="TypZug" Laenge="1057.0999">
 <FahrstrStart Ref="232">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -44241,7 +44223,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1080.4">
+<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1080.4001">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -44333,7 +44315,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf S2" FahrstrTyp="TypZug" Laenge="1255.9">
+<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf S2" FahrstrTyp="TypZug" Laenge="1255.9001">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -45281,7 +45263,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf H\ -&gt; Hildesheim Hbf S7" FahrstrTyp="TypZug" Laenge="974.4">
+<Fahrstrasse FahrstrName="Hildesheim Hbf H\ -&gt; Hildesheim Hbf S7" FahrstrTyp="TypZug" Laenge="974.4001">
 <FahrstrStart Ref="182">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -45483,7 +45465,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf N1 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1532.9">
+<Fahrstrasse FahrstrName="Hildesheim Hbf N1 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1532.8999">
 <FahrstrStart Ref="470">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -45557,7 +45539,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf N2 -&gt; Hildesheim Ost 4A" FahrstrStrecke="1773a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1470.4">
+<Fahrstrasse FahrstrName="Hildesheim Hbf N2 -&gt; Hildesheim Ost 4A" FahrstrStrecke="1773a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1470.4001">
 <FahrstrStart Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -46639,7 +46621,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf N14 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1537.1">
+<Fahrstrasse FahrstrName="Hildesheim Hbf N14 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1537.0999">
 <FahrstrStart Ref="362">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -49738,7 +49720,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S4 -&gt; Hildesheim Gbf P33" FahrstrTyp="TypZug" Laenge="1290.1">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S4 -&gt; Hildesheim Gbf P33" FahrstrTyp="TypZug" Laenge="1290.0999">
 <FahrstrStart Ref="247">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -50911,7 +50893,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P34" FahrstrTyp="TypZug" Laenge="1272.9">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P34" FahrstrTyp="TypZug" Laenge="1272.9001">
 <FahrstrStart Ref="241">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51209,7 +51191,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P37" FahrstrTyp="TypZug" Laenge="1006.8">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P37" FahrstrTyp="TypZug" Laenge="1006.7999">
 <FahrstrStart Ref="241">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51614,7 +51596,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S6 -&gt; Hildesheim Gbf P31" FahrstrTyp="TypZug" Laenge="1290.1">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S6 -&gt; Hildesheim Gbf P31" FahrstrTyp="TypZug" Laenge="1290.0999">
 <FahrstrStart Ref="79">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52724,7 +52706,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S7 -&gt; Hildesheim Gbf P30" FahrstrTyp="TypZug" Laenge="1405.6">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S7 -&gt; Hildesheim Gbf P30" FahrstrTyp="TypZug" Laenge="1405.5999">
 <FahrstrStart Ref="215">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
