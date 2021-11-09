@@ -567,6 +567,13 @@
 <ReferenzElemente ReferenzNr="515" StrElement="2192" RefTyp="2" Info="Register-Nr. 5098"/>
 <ReferenzElemente ReferenzNr="516" StrElement="2386" StrNorm="1" RefTyp="2" Info="Register-Nr. 5111"/>
 <ReferenzElemente ReferenzNr="517" StrElement="2386" RefTyp="2" Info="Register-Nr. 5111"/>
+<ReferenzElemente ReferenzNr="518" StrElement="408" StrNorm="1" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="519" StrElement="408" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="520" StrElement="1962" StrNorm="1" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="521" StrElement="1962" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="522" StrElement="403" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="523" StrElement="403" StrNorm="1" RefTyp="2" Info="Register-Nr. 5020"/>
+<ReferenzElemente ReferenzNr="524" StrElement="403" RefTyp="2" Info="Register-Nr. 5020"/>
 <StrElement Nr="1" spTrass="30.5556" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5001">
 <g X="-229.8291" Y="1233.464" Z="87.3065"/>
 <b X="-231.895" Y="1206.808" Z="87.3087"/>
@@ -5269,7 +5276,7 @@
 <b X="-984.4297" Y="-781.0571" Z="87.1747"/>
 <InfoNormRichtung vMax="22.2222" km="40.814" pos="1" Reg="5012"/>
 <InfoGegenRichtung vMax="22.2222" km="40.8203" Reg="5012">
-<Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="W117" SignalFlags="4" SignalTyp="5" BoundingR="10">
+<Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="Ls W117" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-978.1123" Y="-779.3112" Z="87.1698"/>
 <phi Z="0.539914"/>
 <SignalFrame>
@@ -6905,8 +6912,10 @@
 <StrElement Nr="403" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="Default" Volt="2" Drahthoehe="5.5055">
 <g X="-589.1725" Y="-570.8184" Z="87.1865"/>
 <b X="-592.2648" Y="-572.8057" Z="87.1813"/>
-<InfoNormRichtung vMax="-1" km="40.3705" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="40.3742">
+<InfoNormRichtung vMax="-1" km="40.3705" pos="1" Reg="5020">
+<Ereignis Er="4"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="40.3742" Reg="5020">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1962"/>
@@ -6969,8 +6978,8 @@
 <StrElement Nr="408" kr="-0.002" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="-593.1385" Y="-571.3146" Z="87.1812"/>
 <b X="-597.4626" Y="-573.5833" Z="87.1743"/>
-<InfoNormRichtung vMax="13.8889" km="40.3743" pos="1"/>
-<InfoGegenRichtung vMax="13.8889" km="40.3792"/>
+<InfoNormRichtung vMax="13.8889" km="40.3743" pos="1" Reg="4"/>
+<InfoGegenRichtung vMax="13.8889" km="40.3792" Reg="4"/>
 <NachNorm Nr="409"/>
 <NachGegen Nr="402"/>
 </StrElement>
@@ -6993,10 +7002,10 @@
 <StrElement Nr="411" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="-606.177" Y="-577.993" Z="87.1604"/>
 <b X="-616.9361" Y="-583.3072" Z="87.1434"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5020">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5021">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="13.8889" km="40.401" Reg="5020"/>
+<InfoGegenRichtung vMax="13.8889" km="40.401" Reg="5021"/>
 <NachNorm Nr="2423"/>
 <NachGegen Nr="410"/>
 </StrElement>
@@ -7175,15 +7184,15 @@
 <StrElement Nr="426" kr="0.00303" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4944">
 <g X="-881.3907" Y="-704.2739" Z="87.0925"/>
 <b X="-885.7288" Y="-707.1606" Z="87.095"/>
-<InfoNormRichtung vMax="22.2222" km="40.6919" pos="1" Reg="5021"/>
-<InfoGegenRichtung vMax="22.2222" km="40.6971" Reg="5021"/>
+<InfoNormRichtung vMax="22.2222" km="40.6919" pos="1" Reg="5022"/>
+<InfoGegenRichtung vMax="22.2222" km="40.6971" Reg="5022"/>
 <NachNorm Nr="427"/>
 <NachGegen Nr="425"/>
 </StrElement>
 <StrElement Nr="427" kr="0.00303" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4946">
 <g X="-885.7288" Y="-707.1606" Z="87.095"/>
 <b X="-887.1702" Y="-708.153" Z="87.0958"/>
-<InfoNormRichtung vMax="-1" Reg="5022">
+<InfoNormRichtung vMax="-1" Reg="5023">
 <Ereignis Er="1000009"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="S6" SignalTyp="8" BoundingR="10">
 <p X="-888.4462" Y="-706.2997" Z="87.8"/>
@@ -7339,7 +7348,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.6988" Reg="5022">
+<InfoGegenRichtung vMax="22.2222" km="40.6988" Reg="5023">
 <Ereignis Er="1000010"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2364"/>
@@ -7348,8 +7357,8 @@
 <StrElement Nr="428" kr="0.00303" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4946">
 <g X="-890.0206" Y="-710.1155" Z="87.0975"/>
 <b X="-894.2654" Y="-713.1378" Z="87.1001"/>
-<InfoNormRichtung vMax="22.2222" km="40.7023" pos="1" Reg="5023"/>
-<InfoGegenRichtung vMax="22.2222" km="40.7075" Reg="5023">
+<InfoNormRichtung vMax="22.2222" km="40.7023" pos="1" Reg="5024"/>
+<InfoGegenRichtung vMax="22.2222" km="40.7075" Reg="5024">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="429"/>
@@ -7740,18 +7749,18 @@
 <StrElement Nr="460" kr="-0.005263" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4932">
 <g X="-891.8726" Y="-723.0134" Z="87.1038"/>
 <b X="-888.5554" Y="-721.3226" Z="87.1024"/>
-<InfoNormRichtung vMax="22.2222" Reg="5024">
+<InfoNormRichtung vMax="22.2222" Reg="5025">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" Reg="5024"/>
+<InfoGegenRichtung vMax="22.2222" Reg="5025"/>
 <NachNorm Nr="461"/>
 <NachGegen Nr="459"/>
 </StrElement>
 <StrElement Nr="461" kr="-0.005263" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4931">
 <g X="-888.5554" Y="-721.3226" Z="87.1024"/>
 <b X="-885.2056" Y="-719.6973" Z="87.1009"/>
-<InfoNormRichtung vMax="22.2222" Reg="5025"/>
-<InfoGegenRichtung vMax="-1" Reg="5025">
+<InfoNormRichtung vMax="22.2222" Reg="5026"/>
+<InfoGegenRichtung vMax="-1" Reg="5026">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="S4" SignalTyp="8" BoundingR="10">
 <p X="-889.5376" Y="-719.2983" Z="87.1024"/>
 <phi Z="-2.689873"/>
@@ -7954,10 +7963,10 @@
 <StrElement Nr="468" Ueberh="-0.0078" kr="0.000687" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4929">
 <g X="-469.6386" Y="-595.4543" Z="87.0367"/>
 <b X="-475.8555" Y="-595.1674" Z="87.0273"/>
-<InfoNormRichtung vMax="-1" km="40.9931" Reg="5026">
+<InfoNormRichtung vMax="-1" km="40.9931" Reg="5027">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.9869" pos="1" Reg="5026"/>
+<InfoGegenRichtung vMax="22.2222" km="40.9869" pos="1" Reg="5027"/>
 <NachNorm Nr="469"/>
 <NachGegen Nr="467"/>
 </StrElement>
@@ -8112,7 +8121,7 @@
 <StrElement Nr="490" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4897">
 <g X="-710.98" Y="-645.308" Z="87.0241"/>
 <b X="-709.876" Y="-644.8376" Z="87.0236"/>
-<InfoNormRichtung vMax="-1" Reg="5027">
+<InfoNormRichtung vMax="-1" Reg="5028">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="205" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-710.98" Y="-645.308" Z="87.0241"/>
 <phi Y="0.000406" Z="0.402769"/>
@@ -8165,7 +8174,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5027"/>
+<InfoGegenRichtung vMax="-1" Reg="5028"/>
 <NachNorm Nr="491"/>
 <NachNorm Nr="492"/>
 <NachGegen Nr="3158"/>
@@ -8384,7 +8393,7 @@
 <StrElement Nr="513" Ueberh="0.0418" kr="-0.003231" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7515">
 <g X="-630.3444" Y="-612.2355" Z="86.9869"/>
 <b X="-627.4927" Y="-611.3041" Z="86.9855"/>
-<InfoNormRichtung vMax="-1" Reg="5028">
+<InfoNormRichtung vMax="-1" Reg="5029">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N4" SignalTyp="9" BoundingR="10">
 <p X="-626.7942" Y="-613.4429" Z="86.9855"/>
 <phi Z="0.315683"/>
@@ -8527,7 +8536,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.8344" Reg="5028"/>
+<InfoGegenRichtung vMax="-1" km="40.8344" Reg="5029"/>
 <NachNorm Nr="2379"/>
 <NachGegen Nr="512"/>
 </StrElement>
@@ -9060,8 +9069,8 @@
 <StrElement Nr="584" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5511">
 <g X="1415.606" Y="-124.3677" Z="91.9409"/>
 <b X="1461.5439" Y="-105.3521" Z="92.0041"/>
-<InfoNormRichtung vMax="38.8889" km="42.9846" pos="1" Reg="5029"/>
-<InfoGegenRichtung vMax="38.8889" km="43.0344" Reg="5029"/>
+<InfoNormRichtung vMax="38.8889" km="42.9846" pos="1" Reg="5030"/>
+<InfoGegenRichtung vMax="38.8889" km="43.0344" Reg="5030"/>
 <NachGegen Nr="3801"/>
 </StrElement>
 <StrElement Nr="585" Ueberh="-0.0019" kr="0.000043" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4928">
@@ -9147,7 +9156,7 @@
 <StrElement Nr="598" Ueberh="-0.0418" kr="0.000945" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4819">
 <g X="-116.0683" Y="-644.6455" Z="88.2831"/>
 <b X="-109.1419" Y="-645.541" Z="88.3234"/>
-<InfoNormRichtung vMax="-1" Reg="5030">
+<InfoNormRichtung vMax="-1" Reg="5031">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Ls 4IV" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-109.3663" Y="-647.2766" Z="88.3234"/>
 <phi Z="-0.128577"/>
@@ -9200,7 +9209,7 @@
 <MatrixEintrag Signalbild="251"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="41.3573" Reg="5030"/>
+<InfoGegenRichtung vMax="22.2222" km="41.3573" Reg="5031"/>
 <NachNorm Nr="2420"/>
 <NachGegen Nr="594"/>
 </StrElement>
@@ -9456,7 +9465,7 @@
 <StrElement Nr="644" Ueberh="0.0402" kr="-0.001358" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.495">
 <g X="231.2885" Y="-612.7907" Z="89.5523"/>
 <b X="228.9237" Y="-613.6015" Z="89.5357"/>
-<InfoNormRichtung vMax="-1" Reg="5031">
+<InfoNormRichtung vMax="-1" Reg="5032">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="G" SignalTyp="7" BoundingR="10">
 <p X="227.9183" Y="-610.6691" Z="89.5357"/>
 <phi Z="-2.811322"/>
@@ -10135,7 +10144,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="41.7008" pos="1" Reg="5031"/>
+<InfoGegenRichtung vMax="38.8889" km="41.7008" pos="1" Reg="5032"/>
 <NachNorm Nr="2368"/>
 <NachGegen Nr="643"/>
 </StrElement>
@@ -10340,18 +10349,18 @@
 <StrElement Nr="664" spTrass="22.2222" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4937">
 <g X="-988.3454" Y="-805.786" Z="87.2005"/>
 <b X="-982.116" Y="-803.7889" Z="87.2024"/>
-<InfoNormRichtung vMax="22.2222" km="40.4278" pos="1" Reg="5032">
+<InfoNormRichtung vMax="22.2222" km="40.4278" pos="1" Reg="5033">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.4344" Reg="5032"/>
+<InfoGegenRichtung vMax="22.2222" km="40.4344" Reg="5033"/>
 <NachNorm Nr="665"/>
 <NachGegen Nr="1246"/>
 </StrElement>
 <StrElement Nr="665" kr="0.002" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4937">
 <g X="-982.1154" Y="-803.7892" Z="87.2024"/>
 <b X="-977.3644" Y="-802.2312" Z="87.2039"/>
-<InfoNormRichtung vMax="-1" Reg="5033"/>
-<InfoGegenRichtung vMax="22.2222" km="40.4394" Reg="5033">
+<InfoNormRichtung vMax="-1" Reg="5034"/>
+<InfoGegenRichtung vMax="22.2222" km="40.4394" Reg="5034">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="S2" SignalTyp="8" BoundingR="10">
 <p X="-982.8165" Y="-801.6512" Z="87.2024"/>
 <phi Z="-2.824718"/>
@@ -10548,7 +10557,7 @@
 <StrElement Nr="672" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.174">
 <g X="-313.2561" Y="-621.447" Z="87.2773"/>
 <b X="-315.0294" Y="-621.1384" Z="87.2743"/>
-<InfoNormRichtung vMax="-1" km="41.1426" pos="1" Reg="5034">
+<InfoNormRichtung vMax="-1" km="41.1426" pos="1" Reg="5035">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="254" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-313.2561" Y="-621.447" Z="87.2773"/>
 <phi Y="0.001635" Z="2.969312"/>
@@ -10589,7 +10598,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.1408" pos="1" Reg="5034">
+<InfoGegenRichtung vMax="-1" km="41.1408" pos="1" Reg="5035">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-314.8391" Y="-619.3445" Z="87.2742"/>
 <phi Y="0.001635" Z="2.969312"/>
@@ -10755,7 +10764,7 @@
 <StrElement Nr="685" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4973">
 <g X="-401.155" Y="-609.282" Z="87.1317"/>
 <b X="-399.9572" Y="-609.3553" Z="87.1337"/>
-<InfoNormRichtung vMax="-1" km="41.0535" pos="1" Reg="5035">
+<InfoNormRichtung vMax="-1" km="41.0535" pos="1" Reg="5036">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="251" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-401.155" Y="-609.282" Z="87.1317"/>
 <phi Y="-0.001642" Z="-0.061145"/>
@@ -10808,7 +10817,7 @@
 <MatrixEintrag Signalbild="123" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.0547" Reg="5035">
+<InfoGegenRichtung vMax="-1" km="41.0547" Reg="5036">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-399.8576" Y="-611.1647" Z="87.134"/>
 <phi Y="-0.001642" Z="-0.061145"/>
@@ -10990,7 +10999,7 @@
 <StrElement Nr="700" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5004">
 <g X="-421.0129" Y="-608.0949" Z="87.0992"/>
 <b X="-422.8098" Y="-607.9901" Z="87.0962"/>
-<InfoNormRichtung vMax="-1" km="41.0336" pos="1" Reg="5036">
+<InfoNormRichtung vMax="-1" km="41.0336" pos="1" Reg="5037">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="249" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-421.0129" Y="-608.0949" Z="87.0992"/>
 <phi Y="0.000681" Z="3.083287"/>
@@ -11031,7 +11040,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.0318" pos="1" Reg="5036">
+<InfoGegenRichtung vMax="-1" km="41.0318" pos="1" Reg="5037">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-422.8248" Y="-606.1862" Z="87.0979"/>
 <phi Y="0.000681" Z="3.083287"/>
@@ -11263,7 +11272,7 @@
 <StrElement Nr="721" kr="-0.002194" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.2557">
 <g X="-567.9796" Y="-630.8636" Z="87.0453"/>
 <b X="-562.4719" Y="-628.9417" Z="87.047"/>
-<InfoNormRichtung vMax="22.2222" km="40.8832" pos="1" Reg="5037">
+<InfoNormRichtung vMax="22.2222" km="40.8832" pos="1" Reg="5038">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N2" SignalTyp="9" BoundingR="10">
 <p X="-561.7307" Y="-631.0661" Z="87.047"/>
 <phi Z="0.335733"/>
@@ -11412,7 +11421,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.889" Reg="5037"/>
+<InfoGegenRichtung vMax="-1" km="40.889" Reg="5038"/>
 <NachNorm Nr="722"/>
 <NachGegen Nr="720"/>
 </StrElement>
@@ -11539,8 +11548,8 @@
 <StrElement Nr="738" kr="-0.002508" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4914">
 <g X="-477.403" Y="-609.8935" Z="87.0709"/>
 <b X="-471.6116" Y="-609.2922" Z="87.0724"/>
-<InfoNormRichtung vMax="22.2222" km="40.9768" pos="1" Reg="5038"/>
-<InfoGegenRichtung vMax="-1" km="40.9826" Reg="5038">
+<InfoNormRichtung vMax="22.2222" km="40.9768" pos="1" Reg="5039"/>
+<InfoGegenRichtung vMax="-1" km="40.9826" Reg="5039">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="739"/>
@@ -11589,10 +11598,10 @@
 <StrElement Nr="744" Ueberh="0.0349" kr="-0.000333" spTrass="22.2222" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="104.7385" Y="-792.7844" Z="88.9558"/>
 <b X="111.6211" Y="-800.039" Z="88.9912"/>
-<InfoNormRichtung vMax="25" Reg="5039">
+<InfoNormRichtung vMax="25" Reg="5040">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="16.6667" km="41.6186" Reg="5039"/>
+<InfoGegenRichtung vMax="16.6667" km="41.6186" Reg="5040"/>
 <NachNorm Nr="2370"/>
 <NachGegen Nr="743"/>
 </StrElement>
@@ -13143,7 +13152,7 @@
 <StrElement Nr="921" spTrass="25" Oberbau="B55 SKL-Oberbau">
 <g X="227.1541" Y="-1483.1821" Z="93.0145"/>
 <b X="225.9693" Y="-1485.9384" Z="93.0303"/>
-<InfoNormRichtung vMax="-1" Reg="5040">
+<InfoNormRichtung vMax="-1" Reg="5041">
 <Signal NameBetriebsstelle="Hildesheim Ost" Stellwerk="Hildesheim Ost Hf" Signalname="4A" SignalTyp="7" BoundingR="10">
 <p X="223.0845" Y="-1484.698" Z="92.4303"/>
 <phi Z="-1.976804"/>
@@ -13828,14 +13837,14 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="25" km="42.3641" Reg="5040"/>
+<InfoGegenRichtung vMax="25" km="42.3641" Reg="5041"/>
 <NachNorm Nr="2480"/>
 <NachGegen Nr="911"/>
 </StrElement>
 <StrElement Nr="922" spTrass="25" Oberbau="B55 SKL-Oberbau">
 <g X="233.6108" Y="-1478.1609" Z="92.9767"/>
 <b X="229.6625" Y="-1487.3481" Z="93.0288"/>
-<InfoNormRichtung vMax="-1" Reg="5041">
+<InfoNormRichtung vMax="-1" Reg="5042">
 <Signal NameBetriebsstelle="Hildesheim Ost" Stellwerk="Hildesheim Ost Hf" Signalname="4X" SignalTyp="5" BoundingR="10">
 <p X="228.0547" Y="-1486.6573" Z="93.0288"/>
 <phi Z="-1.976683"/>
@@ -13893,7 +13902,7 @@
 </MatrixEintrag>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="25" km="42.3638" Reg="5041"/>
+<InfoGegenRichtung vMax="25" km="42.3638" Reg="5042"/>
 <NachNorm Nr="2481"/>
 <NachGegen Nr="1006"/>
 </StrElement>
@@ -13931,8 +13940,8 @@
 <StrElement Nr="931" Ueberh="-0.0349" kr="0.000455" spTrass="22.2222" Oberbau="B55 SKL-Oberbau">
 <g X="114.3414" Y="-797.1389" Z="88.9903"/>
 <b X="105.1048" Y="-787.3368" Z="88.9427"/>
-<InfoNormRichtung vMax="16.6667" km="41.6184" Reg="5042"/>
-<InfoGegenRichtung vMax="25" km="41.6049" pos="1" Reg="5042">
+<InfoNormRichtung vMax="16.6667" km="41.6184" Reg="5043"/>
+<InfoGegenRichtung vMax="25" km="41.6049" pos="1" Reg="5043">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="932"/>
@@ -13949,7 +13958,7 @@
 <StrElement Nr="933" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5319">
 <g X="-205.2471" Y="-635.066" Z="87.6914"/>
 <b X="-204.0649" Y="-635.2717" Z="87.6968"/>
-<InfoNormRichtung vMax="-1" km="41.2513" pos="1" Reg="5043">
+<InfoNormRichtung vMax="-1" km="41.2513" pos="1" Reg="5044">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="263" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-205.2471" Y="-635.066" Z="87.6914"/>
 <phi Y="-0.004494" Z="-0.17227"/>
@@ -14002,7 +14011,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.2525" Reg="5043">
+<InfoGegenRichtung vMax="-1" km="41.2525" Reg="5044">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Ls W261" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-204.947" Y="-633.3419" Z="87.6914"/>
 <phi Z="2.96928"/>
@@ -14233,7 +14242,7 @@
 <StrElement Nr="947" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5301">
 <g X="-205.2471" Y="-635.066" Z="87.6914"/>
 <b X="-206.4293" Y="-634.8603" Z="87.686"/>
-<InfoNormRichtung vMax="-1" km="41.2513" pos="1" Reg="5044">
+<InfoNormRichtung vMax="-1" km="41.2513" pos="1" Reg="5045">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="261" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-205.2471" Y="-635.066" Z="87.6914"/>
 <phi Y="0.004494" Z="2.969321"/>
@@ -14286,7 +14295,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.2501" pos="1" Reg="5044">
+<InfoGegenRichtung vMax="-1" km="41.2501" pos="1" Reg="5045">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-206.472" Y="-636.6799" Z="87.6872"/>
 <phi Y="-0.004494" Z="-0.172364"/>
@@ -15846,8 +15855,8 @@
 <StrElement Nr="1110" Ueberh="0.0349" kr="-0.000095" spTrass="25" Oberbau="B55 SKL-Oberbau">
 <g X="114.3408" Y="-797.139" Z="88.9903"/>
 <b X="119.1398" Y="-802.2654" Z="89.0152"/>
-<InfoNormRichtung vMax="25" km="41.6184" pos="1" Reg="5045"/>
-<InfoGegenRichtung vMax="25" km="41.6254" Reg="5045">
+<InfoNormRichtung vMax="25" km="41.6184" pos="1" Reg="5046"/>
+<InfoGegenRichtung vMax="25" km="41.6254" Reg="5046">
 <Ereignis Er="4002"/>
 <Ereignis Er="4000" Wert="22.2222"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="F" SignalTyp="7" BoundingR="10">
@@ -16682,7 +16691,7 @@
 <StrElement Nr="1153" Ueberh="0.0003" kr="-0.000068" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.602">
 <g X="-164.2671" Y="-642.196" Z="87.8784"/>
 <b X="-163.0849" Y="-642.4017" Z="87.8838"/>
-<InfoNormRichtung vMax="-1" km="41.2929" pos="1" Reg="5046">
+<InfoNormRichtung vMax="-1" km="41.2929" pos="1" Reg="5047">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="265" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-164.2671" Y="-642.196" Z="87.8784"/>
 <phi Y="-0.004469" Z="-0.17227"/>
@@ -16735,7 +16744,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.2941" Reg="5046">
+<InfoGegenRichtung vMax="-1" km="41.2941" Reg="5047">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-163.042" Y="-640.582" Z="87.8826"/>
 <phi X="-0.000001" Y="0.004469" Z="2.969151"/>
@@ -17331,7 +17340,7 @@
 <StrElement Nr="1220" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1038.1" Y="-801.483" Z="87.2173"/>
 <b X="-1039.204" Y="-801.9528" Z="87.2173"/>
-<InfoNormRichtung vMax="-1" km="40.8773" pos="1" Reg="5047">
+<InfoNormRichtung vMax="-1" km="40.8773" pos="1" Reg="5048">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="115" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1038.1" Y="-801.483" Z="87.2173"/>
 <phi Y="0.000663" Z="-2.739287"/>
@@ -17378,7 +17387,7 @@
 <MatrixEintrag Signalbild="109" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.8785" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" km="40.8785" Reg="5048"/>
 <NachNorm Nr="1221"/>
 <NachNorm Nr="1223"/>
 <NachGegen Nr="332"/>
@@ -17585,7 +17594,7 @@
 <StrElement Nr="1246" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4937">
 <g X="-988.3454" Y="-805.786" Z="87.2005"/>
 <b X="-989.4881" Y="-806.1523" Z="87.2002"/>
-<InfoNormRichtung vMax="-1" km="40.4278" pos="1" Reg="5048">
+<InfoNormRichtung vMax="-1" km="40.4278" pos="1" Reg="5049">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="146" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-988.3454" Y="-805.786" Z="87.2005"/>
 <phi Y="0.000291" Z="-2.831343"/>
@@ -17638,7 +17647,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.4266" pos="1" Reg="5048"/>
+<InfoGegenRichtung vMax="-1" km="40.4266" pos="1" Reg="5049"/>
 <NachNorm Nr="1247"/>
 <NachNorm Nr="1248"/>
 <NachGegen Nr="664"/>
@@ -17794,7 +17803,7 @@
 <StrElement Nr="1265" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="-1082.188" Y="-843.9853" Z="87.1764"/>
 <b X="-1080.5389" Y="-843.2641" Z="87.1777"/>
-<InfoNormRichtung vMax="-1" km="40.3268" pos="1" Reg="5049">
+<InfoNormRichtung vMax="-1" km="40.3268" pos="1" Reg="5050">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="142" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-1082.188" Y="-843.9853" Z="87.1764"/>
 <phi Y="-0.000209" Z="-5.870986"/>
@@ -17835,7 +17844,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.3286" Reg="5049"/>
+<InfoGegenRichtung vMax="-1" km="40.3286" Reg="5050"/>
 <NachNorm Nr="1266"/>
 <NachNorm Nr="1268"/>
 <NachGegen Nr="1279"/>
@@ -18058,7 +18067,7 @@
 <StrElement Nr="1290" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.524">
 <g X="-1001.264" Y="-817.2712" Z="87.1959"/>
 <b X="-1002.988" Y="-817.7885" Z="87.1954"/>
-<InfoNormRichtung vMax="-1" km="40.412" pos="1" Reg="5050">
+<InfoNormRichtung vMax="-1" km="40.412" pos="1" Reg="5051">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="143" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-1001.264" Y="-817.2712" Z="87.1959"/>
 <phi Y="0.000291" Z="-2.850058"/>
@@ -18099,7 +18108,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.4102" pos="1" Reg="5050"/>
+<InfoGegenRichtung vMax="-1" km="40.4102" pos="1" Reg="5051"/>
 <NachNorm Nr="1291"/>
 <NachNorm Nr="1293"/>
 <NachGegen Nr="1304"/>
@@ -18275,7 +18284,7 @@
 <StrElement Nr="1314" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7038">
 <g X="-1044.58" Y="-838.8823" Z="87.182"/>
 <b X="-1030.941" Y="-833.082" Z="87.1863"/>
-<InfoNormRichtung vMax="22.2222" km="40.3642" pos="1" Reg="5051">
+<InfoNormRichtung vMax="22.2222" km="40.3642" pos="1" Reg="5052">
 <Ereignis Er="6" Beschr="@signal=0@Avsig@icon=7@, Zsig@km=41,2@"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="R45" SignalTyp="8" BoundingR="10">
 <p X="-1030.0605" Y="-835.1525" Z="87.1863"/>
@@ -19058,15 +19067,15 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.379" Reg="5051"/>
+<InfoGegenRichtung vMax="22.2222" km="40.379" Reg="5052"/>
 <NachNorm Nr="1315"/>
 <NachGegen Nr="1312"/>
 </StrElement>
 <StrElement Nr="1315" spTrass="22.2222" Anschluss="257" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5799">
 <g X="-1030.941" Y="-833.082" Z="87.1863"/>
 <b X="-991.0605" Y="-816.122" Z="87.1989"/>
-<InfoNormRichtung vMax="22.2222" km="40.3789" pos="1" Reg="5052"/>
-<InfoGegenRichtung vMax="22.2222" km="40.4223" Reg="5052">
+<InfoNormRichtung vMax="22.2222" km="40.3789" pos="1" Reg="5053"/>
+<InfoGegenRichtung vMax="22.2222" km="40.4223" Reg="5053">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1325"/>
@@ -19075,7 +19084,7 @@
 <StrElement Nr="1316" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="-966.0864" Y="-805.5012" Z="87.2067"/>
 <b X="-967.1907" Y="-805.9708" Z="87.2063"/>
-<InfoNormRichtung vMax="-1" km="40.4488" pos="1" Reg="5053">
+<InfoNormRichtung vMax="-1" km="40.4488" pos="1" Reg="5054">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="144" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-966.0864" Y="-805.5012" Z="87.2067"/>
 <phi Y="0.000284" Z="-2.739495"/>
@@ -19116,7 +19125,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.4477" pos="1" Reg="5053"/>
+<InfoGegenRichtung vMax="-1" km="40.4477" pos="1" Reg="5054"/>
 <NachNorm Nr="1317"/>
 <NachNorm Nr="1319"/>
 <NachGegen Nr="1345"/>
@@ -19324,11 +19333,11 @@
 <StrElement Nr="1345" spTrass="22.2222" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4938">
 <g X="-966.0864" Y="-805.5012" Z="87.2067"/>
 <b X="-945.5643" Y="-796.7738" Z="87.213"/>
-<InfoNormRichtung vMax="22.2222" km="40.4488" pos="1" Reg="5054">
+<InfoNormRichtung vMax="22.2222" km="40.4488" pos="1" Reg="5055">
 <Ereignis Er="1" Wert="13.8889"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.4711" Reg="5054"/>
+<InfoGegenRichtung vMax="22.2222" km="40.4711" Reg="5055"/>
 <NachNorm Nr="1343"/>
 <NachGegen Nr="1316"/>
 </StrElement>
@@ -19343,7 +19352,7 @@
 <StrElement Nr="1347" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4949">
 <g X="-381.3407" Y="-615.4089" Z="87.1651"/>
 <b X="-380.143" Y="-615.4827" Z="87.1671"/>
-<InfoNormRichtung vMax="-1" km="41.074" pos="1" Reg="5055">
+<InfoNormRichtung vMax="-1" km="41.074" pos="1" Reg="5056">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="252" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-381.3407" Y="-615.4089" Z="87.1651"/>
 <phi Y="-0.001653" Z="-0.061589"/>
@@ -19384,7 +19393,7 @@
 <MatrixEintrag Signalbild="27" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.0751" Reg="5055">
+<InfoGegenRichtung vMax="-1" km="41.0751" Reg="5056">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-380.3015" Y="-613.6695" Z="87.1666"/>
 <phi Y="0.001653" Z="3.079911"/>
@@ -19720,7 +19729,7 @@
 <StrElement Nr="1383" kr="0.002041" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.2786">
 <g X="-502.8783" Y="-619.7283" Z="87.0639"/>
 <b X="-504.0544" Y="-619.9663" Z="87.0636"/>
-<InfoNormRichtung vMax="-1" km="40.9498" pos="1" Reg="5056">
+<InfoNormRichtung vMax="-1" km="40.9498" pos="1" Reg="5057">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="243" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-502.8783" Y="-619.7283" Z="87.0639"/>
 <phi Y="0.000265" Z="-2.943135"/>
@@ -19773,7 +19782,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.9486" pos="1" Reg="5056">
+<InfoGegenRichtung vMax="-1" km="40.9486" pos="1" Reg="5057">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-503.431" Y="-621.6762" Z="87.0637"/>
 <phi X="-0.000001" Y="-0.000265" Z="0.200753"/>
@@ -20019,8 +20028,8 @@
 <StrElement Nr="1406" kr="-0.002743" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.3094">
 <g X="-568.7573" Y="-638.0904" Z="87.0445"/>
 <b X="-564.0391" Y="-636.3616" Z="87.0459"/>
-<InfoNormRichtung vMax="22.2222" km="40.8802" pos="1" Reg="5057"/>
-<InfoGegenRichtung vMax="-1" km="40.8852" Reg="5057">
+<InfoNormRichtung vMax="22.2222" km="40.8802" pos="1" Reg="5058"/>
+<InfoGegenRichtung vMax="-1" km="40.8852" Reg="5058">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1407"/>
@@ -20251,7 +20260,7 @@
 <StrElement Nr="1435" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.3717">
 <g X="-567.1463" Y="-641.5004" Z="87.0446"/>
 <b X="-568.2502" Y="-641.971" Z="87.0443"/>
-<InfoNormRichtung vMax="-1" km="40.8809" pos="1" Reg="5058">
+<InfoNormRichtung vMax="-1" km="40.8809" pos="1" Reg="5059">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="242" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-567.1463" Y="-641.5004" Z="87.0446"/>
 <phi Y="0.000319" Z="-2.738617"/>
@@ -20298,7 +20307,7 @@
 <MatrixEintrag Signalbild="109" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.8797" pos="1" Reg="5058">
+<InfoGegenRichtung vMax="-1" km="40.8797" pos="1" Reg="5059">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-567.2961" Y="-643.5211" Z="87.0443"/>
 <phi Y="-0.000319" Z="0.402883"/>
@@ -20490,7 +20499,7 @@
 <StrElement Nr="1451" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-602.1358" Y="-659.9048" Z="87.0331"/>
 <b X="-603.181" Y="-660.4943" Z="87.0327"/>
-<InfoNormRichtung vMax="-1" km="40.8402" pos="1" Reg="5059">
+<InfoNormRichtung vMax="-1" km="40.8402" pos="1" Reg="5060">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="241" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-602.1358" Y="-659.9048" Z="87.0331"/>
 <phi Y="0.000279" Z="-2.627962"/>
@@ -20537,7 +20546,7 @@
 <MatrixEintrag Signalbild="173" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.839" pos="1" Reg="5059"/>
+<InfoGegenRichtung vMax="-1" km="40.839" pos="1" Reg="5060"/>
 <NachNorm Nr="1452"/>
 <NachNorm Nr="1454"/>
 <NachGegen Nr="1449"/>
@@ -20663,7 +20672,7 @@
 <StrElement Nr="1465" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-635.0429" Y="-678.4689" Z="87.0224"/>
 <b X="-636.0881" Y="-679.0585" Z="87.0221"/>
-<InfoNormRichtung vMax="-1" km="40.8027" pos="1" Reg="5060">
+<InfoNormRichtung vMax="-1" km="40.8027" pos="1" Reg="5061">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="240" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-635.0429" Y="-678.4689" Z="87.0224"/>
 <phi Y="0.000052" Z="-2.62796"/>
@@ -20710,7 +20719,7 @@
 <MatrixEintrag Signalbild="173" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.8015" pos="1" Reg="5060"/>
+<InfoGegenRichtung vMax="-1" km="40.8015" pos="1" Reg="5061"/>
 <NachNorm Nr="1466"/>
 <NachNorm Nr="1468"/>
 <NachGegen Nr="1450"/>
@@ -21027,7 +21036,7 @@
 <StrElement Nr="1506" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.0772">
 <g X="-307.5181" Y="-622.4454" Z="87.2868"/>
 <b X="-306.3358" Y="-622.6511" Z="87.2887"/>
-<InfoNormRichtung vMax="-1" km="41.1484" pos="1" Reg="5061">
+<InfoNormRichtung vMax="-1" km="41.1484" pos="1" Reg="5062">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="260" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-307.5181" Y="-622.4454" Z="87.2868"/>
 <phi Y="-0.003089" Z="-0.172269"/>
@@ -21080,7 +21089,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.1496" Reg="5061">
+<InfoGegenRichtung vMax="-1" km="41.1496" Reg="5062">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-306.2932" Y="-620.8314" Z="87.2897"/>
 <phi Y="0.003089" Z="2.969231"/>
@@ -21262,7 +21271,7 @@
 <StrElement Nr="1522" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.2495">
 <g X="-251.4652" Y="-627.0245" Z="87.4806"/>
 <b X="-252.6474" Y="-626.8188" Z="87.4752"/>
-<InfoNormRichtung vMax="-1" km="41.2044" pos="1" Reg="5062">
+<InfoNormRichtung vMax="-1" km="41.2044" pos="1" Reg="5063">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="256" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-251.4652" Y="-627.0245" Z="87.4806"/>
 <phi Y="0.004102" Z="-3.313874"/>
@@ -21315,7 +21324,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.2032" pos="1" Reg="5062">
+<InfoGegenRichtung vMax="-1" km="41.2032" pos="1" Reg="5063">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-252.5457" Y="-625.0094" Z="87.4748"/>
 <phi Y="0.004102" Z="2.969311"/>
@@ -21561,7 +21570,7 @@
 <StrElement Nr="1547" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4927">
 <g X="-343.33" Y="-606.6573" Z="87.2292"/>
 <b X="-342.1474" Y="-606.8611" Z="87.231"/>
-<InfoNormRichtung vMax="-1" km="41.1198" pos="1" Reg="5063">
+<InfoNormRichtung vMax="-1" km="41.1198" pos="1" Reg="5064">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="255" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-343.33" Y="-606.6573" Z="87.2292"/>
 <phi Y="-0.00152" Z="-0.170648"/>
@@ -21614,7 +21623,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.121" Reg="5063">
+<InfoGegenRichtung vMax="-1" km="41.121" Reg="5064">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-342.1076" Y="-605.0414" Z="87.2306"/>
 <phi Y="0.00152" Z="2.970852"/>
@@ -21796,7 +21805,7 @@
 <StrElement Nr="1562" Ueberh="-0.0215" kr="0.002096" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4901">
 <g X="-105.4914" Y="-658.694" Z="88.1523"/>
 <b X="-106.6597" Y="-658.4199" Z="88.147"/>
-<InfoNormRichtung vMax="-1" km="41.3539" pos="1" Reg="5064">
+<InfoNormRichtung vMax="-1" km="41.3539" pos="1" Reg="5065">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="264" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-105.4914" Y="-658.694" Z="88.1523"/>
 <phi Y="0.004491" Z="-3.373301"/>
@@ -21849,7 +21858,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.3527" pos="1" Reg="5064">
+<InfoGegenRichtung vMax="-1" km="41.3527" pos="1" Reg="5065">
 <Ereignis Er="1000002"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-106.806" Y="-660.2341" Z="88.1481"/>
@@ -22050,7 +22059,7 @@
 <StrElement Nr="1579" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.0265">
 <g X="-298.6667" Y="-618.8112" Z="87.3"/>
 <b X="-299.8489" Y="-618.6055" Z="87.2981"/>
-<InfoNormRichtung vMax="-1" km="41.1565" pos="1" Reg="5065">
+<InfoNormRichtung vMax="-1" km="41.1565" pos="1" Reg="5066">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="253" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-298.6667" Y="-618.8112" Z="87.3"/>
 <phi Y="0.001636" Z="-3.313874"/>
@@ -22103,7 +22112,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.1553" pos="1" Reg="5065">
+<InfoGegenRichtung vMax="-1" km="41.1553" pos="1" Reg="5066">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-299.8917" Y="-620.4251" Z="87.2985"/>
 <phi Y="-0.001636" Z="-0.172374"/>
@@ -22747,7 +22756,7 @@
 <StrElement Nr="1620" kr="-0.003333" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5154">
 <g X="-973.3059" Y="-780.1038" Z="87.1669"/>
 <b X="-976.7307" Y="-782.1702" Z="87.17"/>
-<InfoNormRichtung vMax="-1" Reg="5066">
+<InfoNormRichtung vMax="-1" Reg="5067">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="S3" SignalTyp="9" BoundingR="10">
 <p X="-977.8931" Y="-780.2437" Z="87.17"/>
 <phi Z="-2.598703"/>
@@ -22902,7 +22911,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.8143" Reg="5066"/>
+<InfoGegenRichtung vMax="22.2222" km="40.8143" Reg="5067"/>
 <NachNorm Nr="2377"/>
 <NachGegen Nr="1619"/>
 </StrElement>
@@ -22945,8 +22954,8 @@
 <StrElement Nr="1626" kr="-0.003333" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4967">
 <g X="-999.4478" Y="-794.4348" Z="87.1899"/>
 <b X="-1003.938" Y="-796.5677" Z="87.1937"/>
-<InfoNormRichtung vMax="22.2222" km="40.8399" pos="1" Reg="5067"/>
-<InfoGegenRichtung vMax="22.2222" km="40.8449" Reg="5067">
+<InfoNormRichtung vMax="22.2222" km="40.8399" pos="1" Reg="5068"/>
+<InfoGegenRichtung vMax="22.2222" km="40.8449" Reg="5068">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1627"/>
@@ -23159,7 +23168,7 @@
 <StrElement Nr="1644" kr="0.000352" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.491">
 <g X="-411.0537" Y="-598.9267" Z="87.1258"/>
 <b X="-412.2508" Y="-598.8436" Z="87.124"/>
-<InfoNormRichtung vMax="-1" km="41.0518" pos="1" Reg="5068">
+<InfoNormRichtung vMax="-1" km="41.0518" pos="1" Reg="5069">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="248" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-411.0537" Y="-598.9267" Z="87.1258"/>
 <phi Y="0.001519" Z="-3.211097"/>
@@ -23212,7 +23221,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.0506" pos="1" Reg="5068">
+<InfoGegenRichtung vMax="-1" km="41.0506" pos="1" Reg="5069">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-412.3361" Y="-597.0334" Z="87.1237"/>
 <phi X="0.000001" Y="0.001519" Z="3.0725"/>
@@ -23402,7 +23411,7 @@
 <StrElement Nr="1661" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.1998">
 <g X="-509.01" Y="-600.7795" Z="86.977"/>
 <b X="-507.8116" Y="-600.7187" Z="86.9788"/>
-<InfoNormRichtung vMax="-1" km="40.9539" pos="1" Reg="5069">
+<InfoNormRichtung vMax="-1" km="40.9539" pos="1" Reg="5070">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="247" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-509.01" Y="-600.7795" Z="86.977"/>
 <phi Y="-0.001537" Z="0.050757"/>
@@ -23455,7 +23464,7 @@
 <MatrixEintrag Signalbild="123" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.9551" Reg="5069">
+<InfoGegenRichtung vMax="-1" km="40.9551" Reg="5070">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-508.1723" Y="-598.9346" Z="86.9784"/>
 <phi Y="0.001537" Z="-3.090928"/>
@@ -23749,7 +23758,7 @@
 <StrElement Nr="1690" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.1813">
 <g X="-509.0259" Y="-600.7803" Z="86.977"/>
 <b X="-510.2244" Y="-600.8412" Z="86.9752"/>
-<InfoNormRichtung vMax="-1" km="40.9539" pos="1" Reg="5070">
+<InfoNormRichtung vMax="-1" km="40.9539" pos="1" Reg="5071">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="246" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-509.0259" Y="-600.7803" Z="86.977"/>
 <phi Y="0.001292" Z="-3.090835"/>
@@ -23790,7 +23799,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.9527" pos="1" Reg="5070">
+<InfoGegenRichtung vMax="-1" km="40.9527" pos="1" Reg="5071">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-510.5254" Y="-599.0542" Z="86.9752"/>
 <phi Y="0.001292" Z="-3.090835"/>
@@ -24038,7 +24047,7 @@
 <StrElement Nr="1714" Ueberh="0.0349" kr="-0.003329" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.208">
 <g X="-570.7768" Y="-604.801" Z="86.9583"/>
 <b X="-565.7164" Y="-604.214" Z="86.9558"/>
-<InfoNormRichtung vMax="22.2222" km="40.8913" pos="1" Reg="5071">
+<InfoNormRichtung vMax="22.2222" km="40.8913" pos="1" Reg="5072">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N3" SignalTyp="9" BoundingR="10">
 <p X="-565.4456" Y="-606.5483" Z="86.9558"/>
 <phi Z="0.115488"/>
@@ -24187,7 +24196,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.8964" Reg="5071"/>
+<InfoGegenRichtung vMax="-1" km="40.8964" Reg="5072"/>
 <NachNorm Nr="1715"/>
 <NachGegen Nr="1713"/>
 </StrElement>
@@ -24210,10 +24219,10 @@
 <StrElement Nr="1718" Ueberh="-0.0174" kr="0.001665" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="4.9949">
 <g X="-546.5234" Y="-602.7059" Z="86.9465"/>
 <b X="-551.2347" Y="-602.9923" Z="86.9488"/>
-<InfoNormRichtung vMax="-1" km="40.9159" Reg="5072">
+<InfoNormRichtung vMax="-1" km="40.9159" Reg="5073">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.9112" pos="1" Reg="5072"/>
+<InfoGegenRichtung vMax="22.2222" km="40.9112" pos="1" Reg="5073"/>
 <NachNorm Nr="1719"/>
 <NachGegen Nr="1717"/>
 </StrElement>
@@ -24244,10 +24253,10 @@
 <StrElement Nr="1723" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6821">
 <g X="-824.6945" Y="-713.4318" Z="87.0773"/>
 <b X="-815.4947" Y="-709.5122" Z="87.0733"/>
-<InfoNormRichtung vMax="22.2222" km="40.613" pos="1" Reg="5073">
+<InfoNormRichtung vMax="22.2222" km="40.613" pos="1" Reg="5074">
 <Ereignis Er="1000010"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.623" Reg="5073">
+<InfoGegenRichtung vMax="-1" km="40.623" Reg="5074">
 <Ereignis Er="6"/>
 <Ereignis Er="1000009"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Gleis 15" SignalTyp="13" BoundingR="10">
@@ -24379,10 +24388,10 @@
 <StrElement Nr="1731" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4919">
 <g X="-460.0063" Y="-605.863" Z="87.0755"/>
 <b X="-486.1355" Y="-604.7343" Z="87.0688"/>
-<InfoNormRichtung vMax="-1" km="40.9945" Reg="5074">
+<InfoNormRichtung vMax="-1" km="40.9945" Reg="5075">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.9684" pos="1" Reg="5074"/>
+<InfoGegenRichtung vMax="22.2222" km="40.9684" pos="1" Reg="5075"/>
 <NachNorm Nr="1732"/>
 <NachGegen Nr="1730"/>
 </StrElement>
@@ -24500,10 +24509,10 @@
 <StrElement Nr="1747" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6424">
 <g X="-822.9008" Y="-717.6416" Z="87.1179"/>
 <b X="-813.701" Y="-713.7219" Z="87.1119"/>
-<InfoNormRichtung vMax="22.2222" km="40.6145" pos="1" Reg="5075">
+<InfoNormRichtung vMax="22.2222" km="40.6145" pos="1" Reg="5076">
 <Ereignis Er="1000007"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.6245" Reg="5075">
+<InfoGegenRichtung vMax="-1" km="40.6245" Reg="5076">
 <Ereignis Er="6"/>
 <Ereignis Er="1000012"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Gleis 14" SignalTyp="13" BoundingR="10">
@@ -24572,7 +24581,7 @@
 <StrElement Nr="1755" kr="-0.001993" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6592">
 <g X="-626.1226" Y="-634.0425" Z="87.0299"/>
 <b X="-619.5414" Y="-631.494" Z="87.0317"/>
-<InfoNormRichtung vMax="-1" Reg="5076">
+<InfoNormRichtung vMax="-1" Reg="5077">
 <Ereignis Er="1000009"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N14" SignalTyp="9" BoundingR="10">
 <p X="-618.7289" Y="-633.5921" Z="87.5"/>
@@ -24722,7 +24731,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.835" Reg="5076"/>
+<InfoGegenRichtung vMax="-1" km="40.835" Reg="5077"/>
 <NachNorm Nr="2426"/>
 <NachGegen Nr="1770"/>
 </StrElement>
@@ -24866,10 +24875,10 @@
 <StrElement Nr="1773" kr="0.001802" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.08">
 <g X="-546.0004" Y="-605.6486" Z="86.9464"/>
 <b X="-551.0242" Y="-606.5267" Z="86.9489"/>
-<InfoNormRichtung vMax="-1" km="40.9162" Reg="5077">
+<InfoNormRichtung vMax="-1" km="40.9162" Reg="5078">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="22.2222" km="40.9111" pos="1" Reg="5077"/>
+<InfoGegenRichtung vMax="22.2222" km="40.9111" pos="1" Reg="5078"/>
 <NachNorm Nr="1775"/>
 <NachGegen Nr="1772"/>
 </StrElement>
@@ -25016,7 +25025,7 @@
 <StrElement Nr="1790" kr="-0.001802" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6986">
 <g X="-626.2219" Y="-628.8983" Z="86.9876"/>
 <b X="-621.507" Y="-626.954" Z="86.985"/>
-<InfoNormRichtung vMax="22.2222" km="40.8299" pos="1" Reg="5078">
+<InfoNormRichtung vMax="22.2222" km="40.8299" pos="1" Reg="5079">
 <Ereignis Er="1000012"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N15" SignalTyp="9" BoundingR="10">
 <p X="-620.6492" Y="-629.0341" Z="86.985"/>
@@ -25166,7 +25175,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.835" Reg="5078"/>
+<InfoGegenRichtung vMax="-1" km="40.835" Reg="5079"/>
 <NachNorm Nr="1791"/>
 <NachGegen Nr="1789"/>
 </StrElement>
@@ -25457,7 +25466,7 @@
 <StrElement Nr="1824" Ueberh="-0.0418" kr="0.001464" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5482">
 <g X="-438.7171" Y="-465.7635" Z="87.2746"/>
 <b X="-437.8097" Y="-464.9782" Z="87.275"/>
-<InfoNormRichtung vMax="-1" km="40.1865" pos="1" Reg="5079">
+<InfoNormRichtung vMax="-1" km="40.1865" pos="1" Reg="5080">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="217" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-438.7171" Y="-465.7635" Z="87.2746"/>
 <phi Y="-0.00034" Z="-5.570719"/>
@@ -25510,7 +25519,7 @@
 <MatrixEintrag Signalbild="125" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.1853" pos="1" Reg="5079"/>
+<InfoGegenRichtung vMax="-1" km="40.1853" pos="1" Reg="5080"/>
 <NachNorm Nr="1825"/>
 <NachNorm Nr="1826"/>
 <NachGegen Nr="1928"/>
@@ -25782,7 +25791,7 @@
 <StrElement Nr="1856" Ueberh="0.0418" kr="-0.001244" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3764">
 <g X="-197.0673" Y="-100.3002" Z="87.4167"/>
 <b X="-199.088" Y="-106.7407" Z="87.4173"/>
-<InfoNormRichtung vMax="27.7778" Reg="5080">
+<InfoNormRichtung vMax="27.7778" Reg="5081">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="H\" SignalTyp="13" BoundingR="1">
 <p X="10" Y="-106.7407" Z="87.4173"/>
 <phi Z="-1.874813"/>
@@ -25812,7 +25821,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="39.7495" Reg="5080"/>
+<InfoGegenRichtung vMax="30.5556" km="39.7495" Reg="5081"/>
 <NachNorm Nr="2374"/>
 <NachGegen Nr="1855"/>
 </StrElement>
@@ -26099,7 +26108,7 @@
 <StrElement Nr="1892" Ueberh="0.0418" kr="-0.001244" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5114">
 <g X="-371.5391" Y="-405.5586" Z="87.4626"/>
 <b X="-372.3486" Y="-406.4444" Z="87.4627"/>
-<InfoNormRichtung vMax="-1" km="40.0964" pos="1" Reg="5081">
+<InfoNormRichtung vMax="-1" km="40.0964" pos="1" Reg="5082">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="218" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-371.5391" Y="-405.5586" Z="87.4626"/>
 <phi Y="-0.000022" Z="-2.310476"/>
@@ -26152,7 +26161,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.0976" Reg="5081">
+<InfoGegenRichtung vMax="-1" km="40.0976" Reg="5082">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1893"/>
@@ -26390,7 +26399,7 @@
 <StrElement Nr="1922" Ueberh="0.0418" kr="-0.001244" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.504">
 <g X="-361.5287" Y="-394.3808" Z="87.4623"/>
 <b X="-363.5196" Y="-396.6249" Z="87.4624"/>
-<InfoNormRichtung vMax="-1" Reg="5082">
+<InfoNormRichtung vMax="-1" Reg="5083">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Ls W218" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-364.8287" Y="-395.4636" Z="87.4624"/>
 <phi Z="-2.296478"/>
@@ -26449,7 +26458,7 @@
 <MatrixEintrag Signalbild="507"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="40.0844" Reg="5082"/>
+<InfoGegenRichtung vMax="30.5556" km="40.0844" Reg="5083"/>
 <NachNorm Nr="2414"/>
 <NachGegen Nr="1921"/>
 </StrElement>
@@ -26496,7 +26505,7 @@
 <StrElement Nr="1928" Ueberh="0.0418" kr="-0.001464" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5472">
 <g X="-438.72" Y="-465.7659" Z="87.2746"/>
 <b X="-439.6288" Y="-466.5495" Z="87.2742"/>
-<InfoNormRichtung vMax="-1" km="40.1865" pos="1" Reg="5083">
+<InfoNormRichtung vMax="-1" km="40.1865" pos="1" Reg="5084">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="216" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-438.72" Y="-465.7659" Z="87.2746"/>
 <phi Y="0.00034" Z="-2.429132"/>
@@ -26549,7 +26558,7 @@
 <MatrixEintrag Signalbild="125" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.1877" Reg="5083"/>
+<InfoGegenRichtung vMax="-1" km="40.1877" Reg="5084"/>
 <NachNorm Nr="1929"/>
 <NachNorm Nr="1930"/>
 <NachGegen Nr="1824"/>
@@ -26721,7 +26730,7 @@
 <StrElement Nr="1948" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4857">
 <g X="-639.7482" Y="-599.7767" Z="87.1043"/>
 <b X="-638.674" Y="-599.2418" Z="87.1059"/>
-<InfoNormRichtung vMax="-1" km="40.4287" pos="1" Reg="5084">
+<InfoNormRichtung vMax="-1" km="40.4287" pos="1" Reg="5085">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="206" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-639.7482" Y="-599.7767" Z="87.1043"/>
 <phi Y="-0.001413" Z="0.461945"/>
@@ -26774,7 +26783,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.4275" pos="1" Reg="5084">
+<InfoGegenRichtung vMax="-1" km="40.4275" pos="1" Reg="5085">
 <Ereignis Er="1000010"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1949"/>
@@ -26900,8 +26909,10 @@
 <StrElement Nr="1962" kr="-0.002009" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5268">
 <g X="-592.266" Y="-572.8066" Z="87.1813"/>
 <b X="-597.7839" Y="-576.3019" Z="87.1721"/>
-<InfoNormRichtung vMax="13.8889" km="40.3742" pos="1"/>
-<InfoGegenRichtung vMax="13.8889" km="40.3807">
+<InfoNormRichtung vMax="13.8889" km="40.3742" pos="1" Reg="4">
+<Ereignis Er="21"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="13.8889" km="40.3807" Reg="4">
 <Ereignis Er="21"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1963"/>
@@ -26910,8 +26921,8 @@
 <StrElement Nr="1963" kr="-0.002009" spTrass="13.8889" Anschluss="257" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5541">
 <g X="-597.7839" Y="-576.3019" Z="87.1721"/>
 <b X="-603.3472" Y="-579.7244" Z="87.1629"/>
-<InfoNormRichtung vMax="13.8889" km="40.3807" pos="1" Reg="5085"/>
-<InfoGegenRichtung vMax="13.8889" km="40.3872" Reg="5085">
+<InfoNormRichtung vMax="13.8889" km="40.3807" pos="1" Reg="5086"/>
+<InfoGegenRichtung vMax="13.8889" km="40.3872" Reg="5086">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1956"/>
@@ -26928,7 +26939,7 @@
 <StrElement Nr="1965" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="4.9567">
 <g X="-555.8263" Y="-555.9457" Z="87.2563"/>
 <b X="-557.3392" Y="-556.9209" Z="87.2511"/>
-<InfoNormRichtung vMax="-1" km="40.3357" pos="1" Reg="5086">
+<InfoNormRichtung vMax="-1" km="40.3357" pos="1" Reg="5087">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="212" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-555.8263" Y="-555.9457" Z="87.2563"/>
 <phi Y="0.00192" Z="-2.569011"/>
@@ -26969,7 +26980,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.3375" Reg="5086"/>
+<InfoGegenRichtung vMax="-1" km="40.3375" Reg="5087"/>
 <NachNorm Nr="1966"/>
 <NachNorm Nr="1968"/>
 <NachGegen Nr="3156"/>
@@ -27061,10 +27072,10 @@
 <StrElement Nr="1975" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="-583.7572" Y="-573.9504" Z="87.1911"/>
 <b X="-603.5089" Y="-586.6827" Z="87.1583"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5087">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5088">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="13.8889" km="40.3908" Reg="5087">
+<InfoGegenRichtung vMax="13.8889" km="40.3908" Reg="5088">
 <Ereignis Er="1" Wert="11.1111"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2365"/>
@@ -27215,7 +27226,7 @@
 <StrElement Nr="2001" Ueberh="-0.0096" kr="0.00047" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.2092">
 <g X="-521.0367" Y="-533.5091" Z="87.3753"/>
 <b X="-520.0298" Y="-532.8562" Z="87.3788"/>
-<InfoNormRichtung vMax="-1" km="40.2943" pos="1" Reg="5088">
+<InfoNormRichtung vMax="-1" km="40.2943" pos="1" Reg="5089">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="214" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-521.0367" Y="-533.5091" Z="87.3753"/>
 <phi Y="-0.002875" Z="0.575023"/>
@@ -27268,7 +27279,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.2931" pos="1" Reg="5088"/>
+<InfoGegenRichtung vMax="-1" km="40.2931" pos="1" Reg="5089"/>
 <NachNorm Nr="2002"/>
 <NachNorm Nr="2003"/>
 <NachGegen Nr="1993"/>
@@ -27432,7 +27443,7 @@
 <StrElement Nr="2020" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="4.9706">
 <g X="-546.9638" Y="-550.2332" Z="87.2866"/>
 <b X="-545.9552" Y="-549.5831" Z="87.2901"/>
-<InfoNormRichtung vMax="-1" km="40.3252" pos="1" Reg="5089">
+<InfoNormRichtung vMax="-1" km="40.3252" pos="1" Reg="5090">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="212" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-546.9638" Y="-550.2332" Z="87.2866"/>
 <phi Y="-0.002875" Z="-5.710637"/>
@@ -27473,7 +27484,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.324" pos="1" Reg="5089"/>
+<InfoGegenRichtung vMax="-1" km="40.324" pos="1" Reg="5090"/>
 <NachNorm Nr="2021"/>
 <NachNorm Nr="2023"/>
 <NachGegen Nr="1994"/>
@@ -27607,7 +27618,7 @@
 <StrElement Nr="2035" Ueberh="0.0001" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-494.8261" Y="-521.6361" Z="87.457"/>
 <b X="-495.834" Y="-522.2874" Z="87.4536"/>
-<InfoNormRichtung vMax="-1" km="40.266" pos="1" Reg="5090">
+<InfoNormRichtung vMax="-1" km="40.266" pos="1" Reg="5091">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="215" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-494.8261" Y="-521.6361" Z="87.457"/>
 <phi Y="0.002851" Z="-2.567878"/>
@@ -27654,7 +27665,7 @@
 <MatrixEintrag Signalbild="109" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.2672" Reg="5090"/>
+<InfoGegenRichtung vMax="-1" km="40.2672" Reg="5091"/>
 <NachNorm Nr="2036"/>
 <NachNorm Nr="2038"/>
 <NachGegen Nr="2413"/>
@@ -28011,7 +28022,7 @@
 <StrElement Nr="2085" Ueberh="0.0001" kr="-0.0025" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-490.0765" Y="-518.5188" Z="87.4731"/>
 <b X="-491.7485" Y="-519.6162" Z="87.4674"/>
-<InfoNormRichtung vMax="-1" Reg="5091">
+<InfoNormRichtung vMax="-1" Reg="5092">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Ls W215" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-492.7087" Y="-518.1532" Z="87.4674"/>
 <phi Z="-2.560768"/>
@@ -28070,7 +28081,7 @@
 <MatrixEintrag Signalbild="507"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="13.8889" km="40.2623" Reg="5091"/>
+<InfoGegenRichtung vMax="13.8889" km="40.2623" Reg="5092"/>
 <NachNorm Nr="2413"/>
 <NachGegen Nr="2084"/>
 </StrElement>
@@ -28221,7 +28232,7 @@
 <StrElement Nr="2107" Ueberh="0.0381" kr="-0.0013" spTrass="27.7778" Fkt="4" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.6501">
 <g X="-494.4052" Y="-509.0567" Z="87.2505"/>
 <b X="-495.3897" Y="-509.7428" Z="87.2501"/>
-<InfoNormRichtung vMax="-1" km="40.2572" pos="1" Reg="5092">
+<InfoNormRichtung vMax="-1" km="40.2572" pos="1" Reg="5093">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="213" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-494.4052" Y="-509.0567" Z="87.2505"/>
 <phi Y="0.000339" Z="-2.532174"/>
@@ -28274,7 +28285,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.2584" Reg="5092"/>
+<InfoGegenRichtung vMax="-1" km="40.2584" Reg="5093"/>
 <NachNorm Nr="2108"/>
 <NachNorm Nr="2109"/>
 <NachGegen Nr="16"/>
@@ -28414,7 +28425,7 @@
 <StrElement Nr="2123" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.0722">
 <g X="-539.9957" Y="-536.0468" Z="87.2325"/>
 <b X="-541.0546" Y="-536.6115" Z="87.232"/>
-<InfoNormRichtung vMax="-1" km="40.3103" pos="1" Reg="5093">
+<InfoNormRichtung vMax="-1" km="40.3103" pos="1" Reg="5094">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="211" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-539.9957" Y="-536.0468" Z="87.2325"/>
 <phi Y="0.00034" Z="-2.651651"/>
@@ -28455,7 +28466,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.3115" Reg="5093"/>
+<InfoGegenRichtung vMax="-1" km="40.3115" Reg="5094"/>
 <NachNorm Nr="2124"/>
 <NachNorm Nr="2126"/>
 <NachGegen Nr="2122"/>
@@ -28615,10 +28626,10 @@
 <StrElement Nr="2142" kr="-0.002525" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.3037">
 <g X="-578.5923" Y="-556.2449" Z="87.2098"/>
 <b X="-584.4524" Y="-558.9995" Z="87.2006"/>
-<InfoNormRichtung vMax="-1" pos="1" Reg="5094">
+<InfoNormRichtung vMax="-1" pos="1" Reg="5095">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="13.8889" km="40.3606" Reg="5094"/>
+<InfoGegenRichtung vMax="13.8889" km="40.3606" Reg="5095"/>
 <NachNorm Nr="2382"/>
 <NachGegen Nr="2140"/>
 </StrElement>
@@ -28714,7 +28725,7 @@
 <StrElement Nr="2152" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="4.9789">
 <g X="-564.7174" Y="-547.1517" Z="87.2233"/>
 <b X="-565.8322" Y="-547.596" Z="87.2229"/>
-<InfoNormRichtung vMax="-1" km="40.3372" pos="1" Reg="5095">
+<InfoNormRichtung vMax="-1" km="40.3372" pos="1" Reg="5096">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="209" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-564.7174" Y="-547.1517" Z="87.2233"/>
 <phi Y="0.001012" Z="-2.762308"/>
@@ -28755,7 +28766,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.3384" Reg="5095"/>
+<InfoGegenRichtung vMax="-1" km="40.3384" Reg="5096"/>
 <NachNorm Nr="2153"/>
 <NachNorm Nr="2156"/>
 <NachGegen Nr="2133"/>
@@ -28986,10 +28997,10 @@
 <StrElement Nr="2175" kr="0.00125" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6938">
 <g X="-598.0739" Y="-560.4473" Z="87.1823"/>
 <b X="-604.9218" Y="-563.2135" Z="87.1716"/>
-<InfoNormRichtung vMax="13.8889" km="40.3735" pos="1" Reg="5096">
+<InfoNormRichtung vMax="13.8889" km="40.3735" pos="1" Reg="5097">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="13.8889" km="40.3809" Reg="5096"/>
+<InfoGegenRichtung vMax="13.8889" km="40.3809" Reg="5097"/>
 <NachNorm Nr="2176"/>
 <NachGegen Nr="2383"/>
 </StrElement>
@@ -29110,7 +29121,7 @@
 <StrElement Nr="2191" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6938">
 <g X="-909.2745" Y="-717.1075" Z="87.107"/>
 <b X="-907.9466" Y="-715.8923" Z="87.1061"/>
-<InfoNormRichtung vMax="-1" km="40.7216" pos="1" Reg="5097">
+<InfoNormRichtung vMax="-1" km="40.7216" pos="1" Reg="5098">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="122" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-909.2745" Y="-717.1075" Z="87.107"/>
 <phi Y="0.000475" Z="-5.542075"/>
@@ -29157,7 +29168,7 @@
 <MatrixEintrag Signalbild="107" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.7198" pos="1" Reg="5097">
+<InfoGegenRichtung vMax="-1" km="40.7198" pos="1" Reg="5098">
 <Ereignis Er="1000012"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="S7" SignalTyp="8" BoundingR="10">
 <p X="-911.3673" Y="-714.8206" Z="87.107"/>
@@ -29320,11 +29331,11 @@
 <StrElement Nr="2192" kr="-0.0033" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6939">
 <g X="-907.9466" Y="-715.8923" Z="87.1061"/>
 <b X="-904.796" Y="-713.0908" Z="87.1041"/>
-<InfoNormRichtung vMax="-1" km="40.7198" pos="1" Reg="5098">
+<InfoNormRichtung vMax="-1" km="40.7198" pos="1" Reg="5099">
 <Ereignis Er="1" Wert="13.8889"/>
 <Ereignis Er="1000007"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.7156" pos="1" Reg="5098">
+<InfoGegenRichtung vMax="-1" km="40.7156" pos="1" Reg="5099">
 <Ereignis Er="1" Wert="13.8889"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2195"/>
@@ -29461,7 +29472,7 @@
 <StrElement Nr="2208" kr="0.005371" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6184">
 <g X="-850.1228" Y="-669.6268" Z="87.0712"/>
 <b X="-851.4234" Y="-670.374" Z="87.0719"/>
-<InfoNormRichtung vMax="-1" Reg="5099">
+<InfoNormRichtung vMax="-1" Reg="5100">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="Ls 8I" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-852.2952" Y="-668.8566" Z="87.0719"/>
 <phi Z="-2.6201"/>
@@ -29508,7 +29519,7 @@
 <MatrixEintrag Signalbild="123"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="13.8889" km="40.6499" Reg="5099"/>
+<InfoGegenRichtung vMax="13.8889" km="40.6499" Reg="5100"/>
 <NachNorm Nr="2209"/>
 <NachGegen Nr="2207"/>
 </StrElement>
@@ -29717,8 +29728,8 @@
 <StrElement Nr="2227" kr="0.004934" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.441">
 <g X="-857.1513" Y="-678.2596" Z="87.076"/>
 <b X="-860.6184" Y="-680.3207" Z="87.0779"/>
-<InfoNormRichtung vMax="13.8889" km="40.6583" pos="1" Reg="5100"/>
-<InfoGegenRichtung vMax="13.8889" km="40.6623" Reg="5100">
+<InfoNormRichtung vMax="13.8889" km="40.6583" pos="1" Reg="5101"/>
+<InfoGegenRichtung vMax="13.8889" km="40.6623" Reg="5101">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2228"/>
@@ -30303,7 +30314,7 @@
 <StrElement Nr="2302" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5883">
 <g X="-1064.0129" Y="-822.2916" Z="87.1951"/>
 <b X="-1065.1169" Y="-822.7613" Z="87.1942"/>
-<InfoNormRichtung vMax="-1" km="40.9092" pos="1" Reg="5101">
+<InfoNormRichtung vMax="-1" km="40.9092" pos="1" Reg="5102">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="109" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1064.0129" Y="-822.2916" Z="87.1951"/>
 <phi Y="0.000761" Z="-2.739544"/>
@@ -30356,7 +30367,7 @@
 <MatrixEintrag Signalbild="123" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="40.9104" Reg="5101"/>
+<InfoGegenRichtung vMax="-1" km="40.9104" Reg="5102"/>
 <NachNorm Nr="2303"/>
 <NachNorm Nr="2304"/>
 <NachGegen Nr="191"/>
@@ -30496,7 +30507,7 @@
 <StrElement Nr="2318" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4894">
 <g X="-1153.605" Y="-855.4937" Z="87.1226"/>
 <b X="-1152.501" Y="-855.0239" Z="87.1235"/>
-<InfoNormRichtung vMax="-1" km="41.0015" pos="1" Reg="5102">
+<InfoNormRichtung vMax="-1" km="41.0015" pos="1" Reg="5103">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="108" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1153.605" Y="-855.4937" Z="87.1226"/>
 <phi Y="-0.000761" Z="-5.880889"/>
@@ -30549,7 +30560,7 @@
 <MatrixEintrag Signalbild="123" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.0003" pos="1" Reg="5102"/>
+<InfoGegenRichtung vMax="-1" km="41.0003" pos="1" Reg="5103"/>
 <NachNorm Nr="2319"/>
 <NachNorm Nr="2320"/>
 <NachGegen Nr="148"/>
@@ -30759,10 +30770,10 @@
 <StrElement Nr="2365" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="-603.5089" Y="-586.6827" Z="87.1583"/>
 <b X="-611.4938" Y="-591.8297" Z="87.1451"/>
-<InfoNormRichtung vMax="-1" Reg="5103">
+<InfoNormRichtung vMax="-1" Reg="5104">
 <Ereignis Er="1000007"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5103">
+<InfoGegenRichtung vMax="-1" Reg="5104">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N104" SignalTyp="9" BoundingR="10">
 <p X="-602.29" Y="-588.5739" Z="87.1583"/>
 <phi Z="0.572585"/>
@@ -30936,7 +30947,7 @@
 <StrElement Nr="2367" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6368">
 <g X="-866.3468" Y="-764.3803" Z="87.1306"/>
 <b X="-846.5974" Y="-755.961" Z="87.1299"/>
-<InfoNormRichtung vMax="22.2222" km="40.5562" pos="1" Reg="5104">
+<InfoNormRichtung vMax="22.2222" km="40.5562" pos="1" Reg="5105">
 <Ereignis Er="6"/>
 <Ereignis Er="1000008"/>
 <Signal SignalFlags="64" SignalTyp="14" BoundingR="1">
@@ -30950,7 +30961,7 @@
 <MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5104">
+<InfoGegenRichtung vMax="-1" Reg="5105">
 <Ereignis Er="1000012"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="S1" SignalTyp="8" BoundingR="10">
 <p X="-867.2292" Y="-762.3105" Z="87.1306"/>
@@ -31106,8 +31117,8 @@
 <StrElement Nr="2368" Ueberh="0.0402" kr="-0.001358" spTrass="38.8889" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4935">
 <g X="228.9237" Y="-613.6015" Z="89.5357"/>
 <b X="224.3613" Y="-615.1656" Z="89.5038"/>
-<InfoNormRichtung vMax="22.2222" km="41.7009" Reg="5105"/>
-<InfoGegenRichtung vMax="22.2222" pos="1" Reg="5105">
+<InfoNormRichtung vMax="22.2222" km="41.7009" Reg="5106"/>
+<InfoGegenRichtung vMax="22.2222" pos="1" Reg="5106">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="627"/>
@@ -31216,8 +31227,8 @@
 <StrElement Nr="2370" Ueberh="0.0349" kr="-0.000333" spTrass="22.2222" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="111.6211" Y="-800.039" Z="88.9912"/>
 <b X="112.7261" Y="-801.2037" Z="88.9969"/>
-<InfoNormRichtung vMax="25" km="41.6186" pos="1" Reg="5106"/>
-<InfoGegenRichtung vMax="-1" Reg="5106">
+<InfoNormRichtung vMax="25" km="41.6186" pos="1" Reg="5107"/>
+<InfoGegenRichtung vMax="-1" Reg="5107">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="F\" SignalTyp="13" BoundingR="1">
 <p X="10" Y="-800.039" Z="88.9912"/>
 <phi Z="2.329905"/>
@@ -31351,8 +31362,8 @@
 <StrElement Nr="2373" Ueberh="0.0628" kr="-0.00125" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3474">
 <g X="-202.9109" Y="-105.5632" Z="87.4173"/>
 <b X="-203.3871" Y="-107.0811" Z="87.4174"/>
-<InfoNormRichtung vMax="13.8889" km="39.7494" pos="1" Reg="5107"/>
-<InfoGegenRichtung vMax="27.7778" pos="1" Reg="5107">
+<InfoNormRichtung vMax="13.8889" km="39.7494" pos="1" Reg="5108"/>
+<InfoGegenRichtung vMax="27.7778" pos="1" Reg="5108">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="49"/>
@@ -31361,8 +31372,8 @@
 <StrElement Nr="2374" Ueberh="0.0418" kr="-0.001244" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3409">
 <g X="-199.088" Y="-106.7407" Z="87.4173"/>
 <b X="-199.5767" Y="-108.2985" Z="87.4174"/>
-<InfoNormRichtung vMax="13.8889" km="39.7494" pos="1" Reg="5108"/>
-<InfoGegenRichtung vMax="-1" pos="1" Reg="5108">
+<InfoNormRichtung vMax="13.8889" km="39.7494" pos="1" Reg="5109"/>
+<InfoGegenRichtung vMax="-1" pos="1" Reg="5109">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1857"/>
@@ -31413,8 +31424,8 @@
 <StrElement Nr="2381" kr="-0.002" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4821">
 <g X="-642.2487" Y="-601.0043" Z="87.1003"/>
 <b X="-644.7491" Y="-602.2319" Z="87.0964"/>
-<InfoNormRichtung vMax="13.8889" km="40.4315" pos="1" Reg="5109"/>
-<InfoGegenRichtung vMax="-1" Reg="5109">
+<InfoNormRichtung vMax="13.8889" km="40.4315" pos="1" Reg="5110"/>
+<InfoGegenRichtung vMax="-1" Reg="5110">
 <Ereignis Er="1000009"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N5" SignalTyp="9" BoundingR="10">
 <p X="-641.2571" Y="-603.024" Z="87.8"/>
@@ -31564,8 +31575,8 @@
 <StrElement Nr="2382" kr="-0.002525" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4795">
 <g X="-584.4524" Y="-558.9995" Z="87.2006"/>
 <b X="-588.5247" Y="-560.856" Z="87.1941"/>
-<InfoNormRichtung vMax="13.8889" km="40.3606" pos="1" Reg="5110"/>
-<InfoGegenRichtung vMax="-1" Reg="5110">
+<InfoNormRichtung vMax="13.8889" km="40.3606" pos="1" Reg="5111"/>
+<InfoGegenRichtung vMax="-1" Reg="5111">
 <Ereignis Er="1000009"/>
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N7" SignalTyp="9" BoundingR="10">
 <p X="-583.519" Y="-561.0468" Z="87.9"/>
@@ -31769,10 +31780,10 @@
 <StrElement Nr="2386" kr="-0.002" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="Default" Volt="2" Drahthoehe="4.9585">
 <g X="-560.3974" Y="-552.3013" Z="87.2236"/>
 <b X="-562.8887" Y="-553.874" Z="87.2226"/>
-<InfoNormRichtung vMax="-1" km="40.3362" pos="1" Reg="5111">
+<InfoNormRichtung vMax="-1" km="40.3362" pos="1" Reg="5112">
 <Ereignis Er="1" Wert="18.0556"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5111">
+<InfoGegenRichtung vMax="-1" Reg="5112">
 <Ereignis Er="1000012"/>
 </InfoGegenRichtung>
 <NachNorm Nr="397"/>
@@ -31789,8 +31800,8 @@
 <StrElement Nr="2388" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7045">
 <g X="-1050.9801" Y="-836.4255" Z="87.1833"/>
 <b X="-1046.0439" Y="-834.3258" Z="87.182"/>
-<InfoNormRichtung vMax="22.2222" km="40.3589" pos="1" Reg="5112"/>
-<InfoGegenRichtung vMax="-1" Reg="5112">
+<InfoNormRichtung vMax="22.2222" km="40.3589" pos="1" Reg="5113"/>
+<InfoGegenRichtung vMax="-1" Reg="5113">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="262"/>
@@ -32015,8 +32026,8 @@
 <StrElement Nr="2412" Ueberh="-0.0402" kr="0.001407" spTrass="13.8889" Anschluss="257" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.6802">
 <g X="-492.769" Y="-507.9064" Z="87.2512"/>
 <b X="-490.4661" Y="-506.2874" Z="87.2522"/>
-<InfoNormRichtung vMax="13.8889" km="40.2552" Reg="5113"/>
-<InfoGegenRichtung vMax="-1" Reg="5113">
+<InfoNormRichtung vMax="13.8889" km="40.2552" Reg="5114"/>
+<InfoGegenRichtung vMax="-1" Reg="5114">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Ls W213" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-493.7754" Y="-506.4748" Z="87.2512"/>
 <phi Z="-2.528842"/>
@@ -32159,8 +32170,8 @@
 <StrElement Nr="2421" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4954">
 <g X="-206.0741" Y="-640.0962" Z="87.6916"/>
 <b X="-194.8684" Y="-642.0458" Z="87.7427"/>
-<InfoNormRichtung vMax="22.2222" km="41.2513" pos="1" Reg="5114"/>
-<InfoGegenRichtung vMax="16.6667" Reg="5114">
+<InfoNormRichtung vMax="22.2222" km="41.2513" pos="1" Reg="5115"/>
+<InfoGegenRichtung vMax="16.6667" Reg="5115">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Ls W260" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-205.7741" Y="-638.3719" Z="87.6916"/>
 <phi Z="2.969325"/>
@@ -32929,8 +32940,8 @@
 <StrElement Nr="2484" spTrass="25" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="151.0496" Y="-1660.215" Z="94.0282"/>
 <b X="144.521" Y="-1675.402" Z="94.1151"/>
-<InfoNormRichtung vMax="25" km="42.5537" pos="1" Reg="5115"/>
-<InfoGegenRichtung vMax="-1" Reg="5115">
+<InfoNormRichtung vMax="25" km="42.5537" pos="1" Reg="5116"/>
+<InfoGegenRichtung vMax="-1" Reg="5116">
 <Signal NameBetriebsstelle="Hildesheim Ost" Stellwerk="Hildesheim Ost Hf" Signalname="Ra 10 Ri Hildesheim" SignalTyp="5" BoundingR="10">
 <p X="148.1097" Y="-1658.9512" Z="94.0282"/>
 <phi Z="1.164801"/>
@@ -32976,14 +32987,14 @@
 <StrElement Nr="2489" spTrass="25" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="80.063" Y="-1823.6877" Z="94.9658"/>
 <b X="63.9499" Y="-1860.6848" Z="95.1781"/>
-<InfoNormRichtung vMax="25" km="42.732" pos="1" Reg="5116"/>
-<InfoGegenRichtung vMax="25" km="42.7723" Reg="5116"/>
+<InfoNormRichtung vMax="25" km="42.732" pos="1" Reg="5117"/>
+<InfoGegenRichtung vMax="25" km="42.7723" Reg="5117"/>
 <NachGegen Nr="2488"/>
 </StrElement>
 <StrElement Nr="2490" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B55 SKL-Oberbau">
 <g X="112.7848" Y="-1748.5557" Z="94.5347"/>
 <b X="112.3056" Y="-1749.6558" Z="94.541"/>
-<InfoNormRichtung vMax="-1" km="42.65" pos="1" Reg="5117">
+<InfoNormRichtung vMax="-1" km="42.65" pos="1" Reg="5118">
 <Signal NameBetriebsstelle="Hildesheim Ost" Stellwerk="Hildesheim Ost Hf" Signalname="1" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="112.7848" Y="-1748.5557" Z="94.5347"/>
 <phi Y="-0.00526" Z="-1.981547"/>
@@ -33030,7 +33041,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="42.6512" Reg="5117"/>
+<InfoGegenRichtung vMax="-1" km="42.6512" Reg="5118"/>
 <NachNorm Nr="2491"/>
 <NachNorm Nr="2492"/>
 <NachGegen Nr="2486"/>
@@ -33154,7 +33165,7 @@
 <StrElement Nr="2504" spTrass="27.7778" Fkt="4" Oberbau="B55 SKL-Oberbau">
 <g X="78.8062" Y="-1838.3767" Z="95.0393"/>
 <b X="79.28" Y="-1837.2738" Z="95.033"/>
-<InfoNormRichtung vMax="-1" km="42.7459" pos="1" Reg="5118">
+<InfoNormRichtung vMax="-1" km="42.7459" pos="1" Reg="5119">
 <Signal NameBetriebsstelle="Hildesheim Ost" Stellwerk="Hildesheim Ost Hf" Signalname="2" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="78.8062" Y="-1838.3767" Z="95.0393"/>
 <phi Y="0.00526" Z="1.164906"/>
@@ -33201,7 +33212,7 @@
 <MatrixEintrag Signalbild="61" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="42.7447" pos="1" Reg="5118"/>
+<InfoGegenRichtung vMax="-1" km="42.7447" pos="1" Reg="5119"/>
 <NachNorm Nr="2505"/>
 <NachNorm Nr="2506"/>
 <NachGegen Nr="2487"/>
@@ -33357,8 +33368,8 @@
 <StrElement Nr="2522" spTrass="25" Anschluss="257" Oberbau="B55 SKL-Oberbau">
 <g X="105.9569" Y="-1775.1997" Z="94.6775"/>
 <b X="95.2293" Y="-1800.1617" Z="94.8205"/>
-<InfoNormRichtung vMax="25" km="42.6772" pos="1" Reg="5119"/>
-<InfoGegenRichtung vMax="25" km="42.7043" Reg="5119"/>
+<InfoNormRichtung vMax="25" km="42.6772" pos="1" Reg="5120"/>
+<InfoGegenRichtung vMax="25" km="42.7043" Reg="5120"/>
 <NachNorm Nr="2513"/>
 <NachGegen Nr="2521"/>
 </StrElement>
@@ -36721,8 +36732,8 @@
 <StrElement Nr="3155" spTrass="13.8889" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4919">
 <g X="-625.0054" Y="-587.2928" Z="87.1307"/>
 <b X="-643.231" Y="-596.295" Z="87.102"/>
-<InfoNormRichtung vMax="13.8889" km="40.41" pos="1" Reg="5120"/>
-<InfoGegenRichtung vMax="-1" Reg="5120">
+<InfoNormRichtung vMax="13.8889" km="40.41" pos="1" Reg="5121"/>
+<InfoGegenRichtung vMax="-1" Reg="5121">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="Ls 6II" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-624.2305" Y="-588.8619" Z="87.1307"/>
 <phi Z="0.458779"/>
@@ -39072,7 +39083,7 @@
 <StrElement Nr="3599" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7676">
 <g X="-636.3722" Y="-666.3412" Z="87.0234"/>
 <b X="-612.7589" Y="-656.2747" Z="87.0307"/>
-<InfoNormRichtung vMax="-1" Reg="5121">
+<InfoNormRichtung vMax="-1" Reg="5122">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="N1" SignalTyp="9" BoundingR="10">
 <p X="-611.8766" Y="-658.3445" Z="87.0307"/>
 <phi Z="0.402976"/>
@@ -39215,7 +39226,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5121">
+<InfoGegenRichtung vMax="-1" Reg="5122">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="500 Hz (S1)" SignalTyp="14" BoundingR="3">
 <p X="-636.3722" Y="-666.3412" Z="87.0234"/>
 <phi Y="0.000284" Z="-2.738617"/>
@@ -39485,8 +39496,8 @@
 <StrElement Nr="3614" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1083.1868" Y="-815.6506" Z="87.1837"/>
 <b X="-1091.8865" Y="-817.9564" Z="87.1769"/>
-<InfoNormRichtung vMax="-1" Reg="5122"/>
-<InfoGegenRichtung vMax="-1" Reg="5122">
+<InfoNormRichtung vMax="-1" Reg="5123"/>
+<InfoGegenRichtung vMax="-1" Reg="5123">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Hmf" Signalname="Ls Lok" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1082.6104" Y="-817.8256" Z="87.1837"/>
 <phi Z="0.259078"/>
@@ -40599,7 +40610,7 @@
 <StrElement Nr="3823" Ueberh="0.0419" spTrass="27.7778" Fkt="4" Volt="2" Drahthoehe="5.5468">
 <g X="-11.1943" Y="-652.5798" Z="88.354"/>
 <b X="-12.4243" Y="-652.5704" Z="88.3565"/>
-<InfoNormRichtung vMax="-1" km="41.4465" Reg="5123">
+<InfoNormRichtung vMax="-1" km="41.4465" Reg="5124">
 <Signal NameBetriebsstelle="Hildesheim Hbf" Stellwerk="Hildesheim Hbf Ho" Signalname="266" SignalFlags="3" SignalTyp="2" BoundingR="55">
 <p X="-11.1943" Y="-652.5798" Z="88.354"/>
 <phi Y="-0.002025" Z="3.133913"/>
@@ -40652,7 +40663,7 @@
 <MatrixEintrag Signalbild="123" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="41.4452" pos="1" Reg="5123">
+<InfoGegenRichtung vMax="-1" km="41.4452" pos="1" Reg="5124">
 <Signal SignalTyp="1" BoundingR="10">
 <p X="-12.6503" Y="-650.7686" Z="88.357"/>
 <phi Y="-0.002025" Z="3.133846"/>
@@ -42211,7 +42222,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Hildesheim Hbf G" FahrstrStrecke="1772b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1283.5999">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Hildesheim Hbf G" FahrstrStrecke="1772b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1283.6">
 <FahrstrStart Ref="237">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -42256,7 +42267,7 @@
 <FahrstrAufloesung Ref="338">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="335">
+<FahrstrAufloesung Ref="522">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="374">
@@ -42266,6 +42277,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrAufloesung Ref="371">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="335">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
@@ -42386,6 +42400,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="340">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="519">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="517">
@@ -42708,6 +42725,9 @@
 <FahrstrZiel Ref="79">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrZiel>
+<FahrstrRegister Ref="518">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="339">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -42982,7 +43002,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf F -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1009.5999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf F -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1009.6">
 <FahrstrStart Ref="108">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -43564,7 +43584,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf F\ -&gt; Hildesheim Hbf S1" FahrstrTyp="TypZug" Laenge="1057.0999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf F\ -&gt; Hildesheim Hbf S1" FahrstrTyp="TypZug" Laenge="1057.1">
 <FahrstrStart Ref="232">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -44223,7 +44243,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1080.4001">
+<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf Gleis 14" FahrstrTyp="TypZug" Laenge="1080.4">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -44315,7 +44335,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf S2" FahrstrTyp="TypZug" Laenge="1255.9001">
+<Fahrstrasse FahrstrName="Hildesheim Hbf G -&gt; Hildesheim Hbf S2" FahrstrTyp="TypZug" Laenge="1255.9">
 <FahrstrStart Ref="85">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -44584,6 +44604,9 @@
 <FahrstrRegister Ref="516">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="518">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="339">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -44642,113 +44665,6 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="325">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="8" FahrstrSignalZeile="7">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="449" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="11" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="75" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf H -&gt; Hildesheim Hbf S5" FahrstrTyp="TypZug" Laenge="935.6">
-<FahrstrStart Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="241">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="381">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="181">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="189">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="327">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="207">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="77">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="333">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="193">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="336">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="271">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="242">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="445">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="647">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="590">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="675">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="472">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="469">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="676">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="484">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="481">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="478">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="475">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="335">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="179" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="188" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="206" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="76" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="191" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="325">
@@ -44942,6 +44858,110 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="8" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="449" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="11" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="75" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Hildesheim Hbf H -&gt; Hildesheim Hbf S5" FahrstrTyp="TypZug" Laenge="936.5">
+<FahrstrStart Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="241">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="381">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="199">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="202">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="336">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="271">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="242">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="445">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="647">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="590">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="675">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="472">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="469">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="676">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="484">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="481">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="478">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="475">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000564_005779_Hildesheim_Gbf\Hildesheim_Gbf_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="335">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="179" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="188" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="197" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="200" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="194" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="191" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="8" FahrstrSignalZeile="6">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="449" FahrstrSignalSpalte="1">
@@ -45187,6 +45207,9 @@
 <FahrstrRegister Ref="516">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="518">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="339">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -45263,7 +45286,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf H\ -&gt; Hildesheim Hbf S7" FahrstrTyp="TypZug" Laenge="974.4001">
+<Fahrstrasse FahrstrName="Hildesheim Hbf H\ -&gt; Hildesheim Hbf S7" FahrstrTyp="TypZug" Laenge="974.4">
 <FahrstrStart Ref="182">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -45465,7 +45488,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf N1 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1532.8999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf N1 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1532.9">
 <FahrstrStart Ref="470">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -45539,7 +45562,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf N2 -&gt; Hildesheim Ost 4A" FahrstrStrecke="1773a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1470.4001">
+<Fahrstrasse FahrstrName="Hildesheim Hbf N2 -&gt; Hildesheim Ost 4A" FahrstrStrecke="1773a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1470.4">
 <FahrstrStart Ref="97">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -46621,7 +46644,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf N14 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1537.0999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf N14 -&gt; Hildesheim Ost 4X" FahrstrStrecke="1773a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1537.1">
 <FahrstrStart Ref="362">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -49720,7 +49743,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S4 -&gt; Hildesheim Gbf P33" FahrstrTyp="TypZug" Laenge="1290.0999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S4 -&gt; Hildesheim Gbf P33" FahrstrTyp="TypZug" Laenge="1290.1">
 <FahrstrStart Ref="247">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -50893,7 +50916,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P34" FahrstrTyp="TypZug" Laenge="1272.9001">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P34" FahrstrTyp="TypZug" Laenge="1272.9">
 <FahrstrStart Ref="241">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51191,7 +51214,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P37" FahrstrTyp="TypZug" Laenge="1006.7999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S5 -&gt; Hildesheim Gbf P37" FahrstrTyp="TypZug" Laenge="1006.8">
 <FahrstrStart Ref="241">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51596,7 +51619,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S6 -&gt; Hildesheim Gbf P31" FahrstrTyp="TypZug" Laenge="1290.0999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S6 -&gt; Hildesheim Gbf P31" FahrstrTyp="TypZug" Laenge="1290.1">
 <FahrstrStart Ref="79">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52706,7 +52729,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Hildesheim Hbf S7 -&gt; Hildesheim Gbf P30" FahrstrTyp="TypZug" Laenge="1405.5999">
+<Fahrstrasse FahrstrName="Hildesheim Hbf S7 -&gt; Hildesheim Gbf P30" FahrstrTyp="TypZug" Laenge="1405.6">
 <FahrstrStart Ref="215">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000566_005780_Hildesheim_Hbf\Hildesheim_Hbf_2001.st3" NurInfo="1"/>
 </FahrstrStart>
