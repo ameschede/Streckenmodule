@@ -172,6 +172,12 @@
 <ReferenzElemente ReferenzNr="107" StrElement="143" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
 <ReferenzElemente ReferenzNr="108" StrElement="143" RefTyp="2" Info="Register-Nr. 1"/>
 <ReferenzElemente ReferenzNr="109" StrElement="50" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
+<ReferenzElemente ReferenzNr="110" StrElement="710" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
+<ReferenzElemente ReferenzNr="111" StrElement="979" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
+<ReferenzElemente ReferenzNr="112" StrElement="982" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
+<ReferenzElemente ReferenzNr="113" StrElement="710" RefTyp="3" Info="Weiche "/>
+<ReferenzElemente ReferenzNr="114" StrElement="710" StrNorm="1" RefTyp="2" Info="Register-Nr. 5030"/>
+<ReferenzElemente ReferenzNr="115" StrElement="710" RefTyp="2" Info="Register-Nr. 5030"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B70 SKL-Oberbau">
 <g X="-730.5004" Y="694.3811" Z="387.4322"/>
 <b X="-685.1419" Y="681.9154" Z="387.3593"/>
@@ -702,7 +708,7 @@
 <InfoNormRichtung vMax="33.3333" km="81.5825" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="81.5967"/>
 <NachNorm Nr="60"/>
-<NachGegen Nr="344"/>
+<NachGegen Nr="1101"/>
 </StrElement>
 <StrElement Nr="60" Ueberh="-0.0035" kr="0.00005" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="534.0671" Y="346.771" Z="385.8526"/>
@@ -1273,7 +1279,7 @@
 <b X="21.8315" Y="492.7686" Z="386.7"/>
 <InfoNormRichtung vMax="33.3333" km="81.0401" pos="1">
 <Ereignis Er="1000008"/>
-<Ereignis Er="35" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="108"/>
+<Ereignis Er="35" Wert="108" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="81.064">
 <Ereignis Er="1000011"/>
@@ -1288,7 +1294,7 @@
 <Ereignis Er="1000009"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="81.1388">
-<Ereignis Er="35" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="107"/>
+<Ereignis Er="35" Wert="107" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 </InfoGegenRichtung>
 <NachNorm Nr="120"/>
 <NachGegen Nr="118"/>
@@ -1499,7 +1505,7 @@
 <g X="296.4165" Y="417.072" Z="386.5504"/>
 <b X="299.8545" Y="416.0043" Z="386.5403"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="71"/>
+<Ereignis Er="1000027" Wert="71" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="296.88" Y="416.93" Z="386.55"/>
 <phi/>
@@ -1514,7 +1520,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="81.3524">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="70"/>
+<Ereignis Er="1000027" Wert="70" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="296.88" Y="416.93" Z="386.55"/>
 <phi Z="3.141593"/>
@@ -4758,14 +4764,16 @@
 <StrElement Nr="306" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-886.2067" Y="803.4406" Z="387.3877"/>
 <b X="-883.8789" Y="805.9953" Z="387.3456"/>
+<NachNorm Nr="307"/>
 <NachGegen Nr="320"/>
 </StrElement>
-<StrElement Nr="307" spTrass="27.7778" Fkt="2">
+<StrElement Nr="307" spTrass="27.7778" Anschluss="512" Fkt="2">
 <g X="-883.8789" Y="805.9953" Z="387.3456"/>
 <b X="-879.8332" Y="813.0781" Z="387.2634"/>
-<InfoNormRichtung vMax="-1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="-1" Reg="5019"/>
+<InfoGegenRichtung vMax="-1" Reg="5019"/>
 <NachGegen Nr="322"/>
+<NachGegen Nr="306"/>
 </StrElement>
 <StrElement Nr="308" spTrass="27.7778" Anschluss="1" Fkt="2">
 <g X="-853.5812" Y="765.5635" Z="387.9489"/>
@@ -4776,38 +4784,50 @@
 <g X="-915.4043" Y="766.782" Z="388.1258"/>
 <b X="-914.8885" Y="768.7136" Z="388.0574"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="311"/>
 <NachGegen Nr="305"/>
 </StrElement>
-<StrElement Nr="311" spTrass="2.7778" Fkt="2">
+<StrElement Nr="311" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-914.8885" Y="768.7136" Z="388.0574"/>
 <b X="-914.2101" Y="770.5944" Z="387.993"/>
 <InfoNormRichtung vMax="2.7778" km="0.002" pos="1"/>
+<NachNorm Nr="312"/>
+<NachGegen Nr="310"/>
 </StrElement>
-<StrElement Nr="312" spTrass="2.7778" Fkt="2">
+<StrElement Nr="312" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-914.2101" Y="770.5944" Z="387.993"/>
 <b X="-913.374" Y="772.4106" Z="387.9326"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="313"/>
+<NachGegen Nr="311"/>
 </StrElement>
-<StrElement Nr="313" spTrass="2.7778" Fkt="2">
+<StrElement Nr="313" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-913.374" Y="772.4106" Z="387.9326"/>
 <b X="-912.3862" Y="774.149" Z="387.8763"/>
 <InfoNormRichtung vMax="2.7778" km="0.006" pos="1"/>
+<NachNorm Nr="314"/>
+<NachGegen Nr="312"/>
 </StrElement>
-<StrElement Nr="314" spTrass="2.7778" Fkt="2">
+<StrElement Nr="314" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-912.3862" Y="774.149" Z="387.8763"/>
 <b X="-911.254" Y="775.7969" Z="387.8238"/>
 <InfoNormRichtung vMax="2.7778" km="0.008" pos="1"/>
+<NachNorm Nr="315"/>
+<NachGegen Nr="313"/>
 </StrElement>
-<StrElement Nr="315" spTrass="2.7778" Fkt="2">
+<StrElement Nr="315" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-911.254" Y="775.7969" Z="387.8238"/>
 <b X="-910.2455" Y="777.0469" Z="387.7846"/>
 <InfoNormRichtung vMax="2.7778" km="0.01" pos="1"/>
+<NachNorm Nr="316"/>
+<NachGegen Nr="314"/>
 </StrElement>
-<StrElement Nr="316" spTrass="2.7778" Fkt="2">
+<StrElement Nr="316" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-910.2455" Y="777.0469" Z="387.7846"/>
 <b X="-906.4753" Y="781.1963" Z="387.6681"/>
 <InfoNormRichtung vMax="2.7778" km="0.0116" pos="1"/>
 <NachNorm Nr="317"/>
+<NachGegen Nr="315"/>
 </StrElement>
 <StrElement Nr="317" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-906.4753" Y="781.1963" Z="387.6681"/>
@@ -4841,121 +4861,164 @@
 <g X="-883.8789" Y="805.9953" Z="387.3456"/>
 <b X="-884.7971" Y="804.2192" Z="387.3667"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="323"/>
 <NachGegen Nr="307"/>
 </StrElement>
-<StrElement Nr="323" spTrass="2.7778" Fkt="2">
+<StrElement Nr="323" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-884.7971" Y="804.2192" Z="387.3667"/>
 <b X="-885.5635" Y="802.3724" Z="387.3899"/>
 <InfoNormRichtung vMax="2.7778" km="0.002" pos="1"/>
+<NachNorm Nr="324"/>
+<NachGegen Nr="322"/>
 </StrElement>
-<StrElement Nr="324" spTrass="2.7778" Fkt="2">
+<StrElement Nr="324" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-885.5635" Y="802.3724" Z="387.3899"/>
 <b X="-885.9174" Y="801.3345" Z="387.4032"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="325"/>
+<NachGegen Nr="323"/>
 </StrElement>
-<StrElement Nr="325" spTrass="2.7778" Fkt="2">
+<StrElement Nr="325" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-885.9174" Y="801.3345" Z="387.4032"/>
 <b X="-886.4386" Y="799.4042" Z="387.4274"/>
 <InfoNormRichtung vMax="2.7778" km="0.0051" pos="1"/>
+<NachNorm Nr="326"/>
+<NachGegen Nr="324"/>
 </StrElement>
-<StrElement Nr="326" spTrass="2.7778" Fkt="2">
+<StrElement Nr="326" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-886.4386" Y="799.4042" Z="387.4274"/>
 <b X="-886.7965" Y="797.4371" Z="387.4517"/>
 <InfoNormRichtung vMax="2.7778" km="0.0071" pos="1"/>
+<NachNorm Nr="327"/>
+<NachGegen Nr="325"/>
 </StrElement>
-<StrElement Nr="327" spTrass="2.7778" Fkt="2">
+<StrElement Nr="327" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-886.7965" Y="797.4371" Z="387.4517"/>
 <b X="-886.9887" Y="795.4469" Z="387.4759"/>
 <InfoNormRichtung vMax="2.7778" km="0.0091" pos="1"/>
+<NachNorm Nr="328"/>
+<NachGegen Nr="326"/>
 </StrElement>
-<StrElement Nr="328" spTrass="2.7778" Fkt="2">
+<StrElement Nr="328" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-886.9887" Y="795.4469" Z="387.4759"/>
 <b X="-887.0137" Y="793.4476" Z="387.5002"/>
 <InfoNormRichtung vMax="2.7778" km="0.0111" pos="1"/>
+<NachNorm Nr="329"/>
+<NachGegen Nr="327"/>
 </StrElement>
-<StrElement Nr="329" spTrass="2.7778" Fkt="2">
+<StrElement Nr="329" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-887.0137" Y="793.4476" Z="387.5002"/>
 <b X="-886.8715" Y="791.4533" Z="387.5244"/>
 <InfoNormRichtung vMax="2.7778" km="0.0131" pos="1"/>
+<NachNorm Nr="330"/>
+<NachGegen Nr="328"/>
 </StrElement>
-<StrElement Nr="330" spTrass="2.7778" Fkt="2">
+<StrElement Nr="330" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-886.8715" Y="791.4533" Z="387.5244"/>
 <b X="-886.563" Y="789.4778" Z="387.5487"/>
 <InfoNormRichtung vMax="2.7778" km="0.0151" pos="1"/>
+<NachNorm Nr="331"/>
+<NachGegen Nr="329"/>
 </StrElement>
-<StrElement Nr="331" spTrass="2.7778" Fkt="2">
+<StrElement Nr="331" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-886.563" Y="789.4778" Z="387.5487"/>
 <b X="-886.0902" Y="787.5351" Z="387.573"/>
 <InfoNormRichtung vMax="2.7778" km="0.0171" pos="1"/>
+<NachNorm Nr="332"/>
+<NachGegen Nr="330"/>
 </StrElement>
-<StrElement Nr="332" spTrass="2.7778" Fkt="2">
+<StrElement Nr="332" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-886.0902" Y="787.5351" Z="387.573"/>
 <b X="-885.4567" Y="785.6386" Z="387.5972"/>
 <InfoNormRichtung vMax="2.7778" km="0.0191" pos="1"/>
+<NachNorm Nr="333"/>
+<NachGegen Nr="331"/>
 </StrElement>
-<StrElement Nr="333" spTrass="2.7778" Fkt="2">
+<StrElement Nr="333" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-885.4567" Y="785.6386" Z="387.5972"/>
 <b X="-884.6668" Y="783.8019" Z="387.6215"/>
 <InfoNormRichtung vMax="2.7778" km="0.0211" pos="1"/>
+<NachNorm Nr="334"/>
+<NachGegen Nr="332"/>
 </StrElement>
-<StrElement Nr="334" spTrass="2.7778" Fkt="2">
+<StrElement Nr="334" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-884.6668" Y="783.8019" Z="387.6215"/>
 <b X="-883.726" Y="782.0377" Z="387.6457"/>
 <InfoNormRichtung vMax="2.7778" km="0.0231" pos="1"/>
+<NachNorm Nr="335"/>
+<NachGegen Nr="333"/>
 </StrElement>
-<StrElement Nr="335" spTrass="2.7778" Fkt="2">
+<StrElement Nr="335" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-883.726" Y="782.0377" Z="387.6457"/>
 <b X="-882.641" Y="780.3582" Z="387.67"/>
 <InfoNormRichtung vMax="2.7778" km="0.0251" pos="1"/>
+<NachNorm Nr="336"/>
+<NachGegen Nr="334"/>
 </StrElement>
-<StrElement Nr="336" spTrass="2.7778" Fkt="2">
+<StrElement Nr="336" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-882.641" Y="780.3582" Z="387.67"/>
 <b X="-881.4193" Y="778.7756" Z="387.6942"/>
 <InfoNormRichtung vMax="2.7778" km="0.0271" pos="1"/>
+<NachNorm Nr="337"/>
+<NachGegen Nr="335"/>
 </StrElement>
-<StrElement Nr="337" spTrass="2.7778" Fkt="2">
+<StrElement Nr="337" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-881.4193" Y="778.7756" Z="387.6942"/>
 <b X="-880.0695" Y="777.3005" Z="387.7185"/>
 <InfoNormRichtung vMax="2.7778" km="0.0291" pos="1"/>
+<NachNorm Nr="338"/>
+<NachGegen Nr="336"/>
 </StrElement>
-<StrElement Nr="338" spTrass="2.7778" Fkt="2">
+<StrElement Nr="338" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-880.0695" Y="777.3005" Z="387.7185"/>
 <b X="-878.6011" Y="775.9435" Z="387.7428"/>
 <InfoNormRichtung vMax="2.7778" km="0.0311" pos="1"/>
+<NachNorm Nr="339"/>
+<NachGegen Nr="337"/>
 </StrElement>
-<StrElement Nr="339" spTrass="2.7778" Fkt="2">
+<StrElement Nr="339" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-878.6011" Y="775.9435" Z="387.7428"/>
 <b X="-877.0243" Y="774.7141" Z="387.767"/>
 <InfoNormRichtung vMax="2.7778" km="0.0331" pos="1"/>
+<NachNorm Nr="340"/>
+<NachGegen Nr="338"/>
 </StrElement>
-<StrElement Nr="340" spTrass="2.7778" Fkt="2">
+<StrElement Nr="340" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-877.0243" Y="774.7141" Z="387.767"/>
 <b X="-875.3502" Y="773.6209" Z="387.7913"/>
 <InfoNormRichtung vMax="2.7778" km="0.0351" pos="1"/>
+<NachNorm Nr="341"/>
+<NachGegen Nr="339"/>
 </StrElement>
-<StrElement Nr="341" spTrass="2.7778" Fkt="2">
+<StrElement Nr="341" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-875.3502" Y="773.6209" Z="387.7913"/>
 <b X="-873.5906" Y="772.6716" Z="387.8155"/>
 <InfoNormRichtung vMax="2.7778" km="0.0371" pos="1"/>
+<NachNorm Nr="342"/>
+<NachGegen Nr="340"/>
 </StrElement>
-<StrElement Nr="342" spTrass="2.7778" Fkt="2">
+<StrElement Nr="342" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-873.5906" Y="772.6716" Z="387.8155"/>
 <b X="-871.8246" Y="771.8987" Z="387.8389"/>
 <InfoNormRichtung vMax="2.7778" km="0.0391" pos="1"/>
+<NachNorm Nr="343"/>
+<NachGegen Nr="341"/>
 </StrElement>
-<StrElement Nr="343" spTrass="2.7778" Anschluss="1" Fkt="2">
+<StrElement Nr="343" spTrass="2.7778" Anschluss="257" Fkt="2">
 <g X="-871.8246" Y="771.8987" Z="387.8389"/>
 <b X="-862.4657" Y="768.6394" Z="387.9591"/>
 <InfoNormRichtung vMax="2.7778" km="0.041" pos="1"/>
 <NachNorm Nr="308"/>
+<NachGegen Nr="342"/>
 </StrElement>
 <StrElement Nr="344" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="454.993" Y="368.5072" Z="386.0835"/>
-<b X="520.3734" Y="350.5352" Z="385.8925"/>
-<InfoNormRichtung vMax="33.3333" km="81.5147" pos="1">
+<b X="487.6832" Y="359.5212" Z="385.988"/>
+<InfoNormRichtung vMax="-1" km="81.5147" pos="1">
 <Ereignis Er="40" Beschr="5904a"/>
 </InfoNormRichtung>
-<NachNorm Nr="59"/>
+<InfoGegenRichtung vMax="-1" km="81.5486"/>
+<NachNorm Nr="1101"/>
 <NachGegen Nr="79"/>
 </StrElement>
 <StrElement Nr="345" spTrass="27.7778" Fkt="2">
@@ -4984,6 +5047,7 @@
 <StrElement Nr="349" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="94.0022" Y="827.1385" Z="379.0497"/>
 <b X="100.4548" Y="825.5513" Z="379.172"/>
+<NachNorm Nr="446"/>
 <NachGegen Nr="444"/>
 </StrElement>
 <StrElement Nr="350" spTrass="27.7778" Anschluss="256" Fkt="2">
@@ -5002,10 +5066,11 @@
 <b X="300.663" Y="463.9967" Z="385.9633"/>
 <NachNorm Nr="851"/>
 </StrElement>
-<StrElement Nr="353" spTrass="27.7778" Fkt="2">
+<StrElement Nr="353" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="303.7044" Y="471.8377" Z="385.5008"/>
 <b X="305.5088" Y="477.5592" Z="385.4109"/>
 <NachNorm Nr="852"/>
+<NachGegen Nr="851"/>
 </StrElement>
 <StrElement Nr="354" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="360.2972" Y="651.2841" Z="382.6799"/>
@@ -5022,32 +5087,43 @@
 <StrElement Nr="356" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="417.9916" Y="877.5651" Z="378.8958"/>
 <b X="422.7106" Y="895.4489" Z="378.6673"/>
+<NachNorm Nr="357"/>
 <NachGegen Nr="355"/>
 </StrElement>
-<StrElement Nr="357" spTrass="27.7778" Fkt="2">
+<StrElement Nr="357" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="422.7106" Y="895.4489" Z="378.6673"/>
 <b X="430.4339" Y="902.7299" Z="378.6251"/>
+<NachNorm Nr="358"/>
+<NachGegen Nr="356"/>
 </StrElement>
-<StrElement Nr="358" spTrass="27.7778" Fkt="2">
+<StrElement Nr="358" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="430.4339" Y="902.7299" Z="378.6251"/>
 <b X="511.7686" Y="900.7666" Z="378.0546"/>
+<NachNorm Nr="359"/>
+<NachGegen Nr="357"/>
 </StrElement>
-<StrElement Nr="359" spTrass="27.7778" Fkt="2">
+<StrElement Nr="359" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="511.7686" Y="900.7666" Z="378.0546"/>
 <b X="528.4626" Y="891.3132" Z="378.0016"/>
+<NachNorm Nr="360"/>
+<NachGegen Nr="358"/>
 </StrElement>
-<StrElement Nr="360" spTrass="27.7778" Fkt="2">
+<StrElement Nr="360" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="528.4626" Y="891.3132" Z="378.0016"/>
 <b X="571.8363" Y="859.7975" Z="377.8134"/>
+<NachNorm Nr="361"/>
+<NachGegen Nr="359"/>
 </StrElement>
-<StrElement Nr="361" spTrass="27.7778" Fkt="2">
+<StrElement Nr="361" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="571.8363" Y="859.7975" Z="377.8134"/>
 <b X="625.8339" Y="825.8055" Z="377.6647"/>
 <NachNorm Nr="362"/>
+<NachGegen Nr="360"/>
 </StrElement>
 <StrElement Nr="362" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="625.8339" Y="825.8055" Z="377.6647"/>
 <b X="638.6708" Y="816.8534" Z="377.5553"/>
+<NachNorm Nr="754"/>
 <NachGegen Nr="361"/>
 </StrElement>
 <StrElement Nr="363" spTrass="27.7778" Fkt="2">
@@ -5385,98 +5461,134 @@
 <g X="-170.2707" Y="851.6647" Z="380.3342"/>
 <b X="-169.361" Y="855.5584" Z="380.2971"/>
 <InfoNormRichtung vMax="5.5556" pos="1"/>
+<NachNorm Nr="417"/>
 <NachGegen Nr="347"/>
 </StrElement>
-<StrElement Nr="417" spTrass="5.5556" Fkt="2">
+<StrElement Nr="417" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-169.361" Y="855.5584" Z="380.2971"/>
 <b X="-168.1097" Y="859.3564" Z="380.2603"/>
 <InfoNormRichtung vMax="5.5556" km="0.004" pos="1"/>
+<NachNorm Nr="418"/>
+<NachGegen Nr="416"/>
 </StrElement>
-<StrElement Nr="418" spTrass="5.5556" Fkt="2">
+<StrElement Nr="418" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-168.1097" Y="859.3564" Z="380.2603"/>
 <b X="-166.5266" Y="863.0283" Z="380.2233"/>
 <InfoNormRichtung vMax="5.5556" km="0.008" pos="1"/>
+<NachNorm Nr="419"/>
+<NachGegen Nr="417"/>
 </StrElement>
-<StrElement Nr="419" spTrass="5.5556" Fkt="2">
+<StrElement Nr="419" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-166.5266" Y="863.0283" Z="380.2233"/>
 <b X="-164.6242" Y="866.5455" Z="380.1864"/>
 <InfoNormRichtung vMax="5.5556" km="0.012" pos="1"/>
+<NachNorm Nr="420"/>
+<NachGegen Nr="418"/>
 </StrElement>
-<StrElement Nr="420" spTrass="5.5556" Fkt="2">
+<StrElement Nr="420" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-164.6242" Y="866.5455" Z="380.1864"/>
 <b X="-162.4174" Y="869.8801" Z="380.1495"/>
 <InfoNormRichtung vMax="5.5556" km="0.016" pos="1"/>
+<NachNorm Nr="421"/>
+<NachGegen Nr="419"/>
 </StrElement>
-<StrElement Nr="421" spTrass="5.5556" Fkt="2">
+<StrElement Nr="421" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-162.4174" Y="869.8801" Z="380.1495"/>
 <b X="-159.9236" Y="873.0059" Z="380.1126"/>
 <InfoNormRichtung vMax="5.5556" km="0.02" pos="1"/>
+<NachNorm Nr="422"/>
+<NachGegen Nr="420"/>
 </StrElement>
-<StrElement Nr="422" spTrass="5.5556" Fkt="2">
+<StrElement Nr="422" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-159.9236" Y="873.0059" Z="380.1126"/>
 <b X="-157.1625" Y="875.8982" Z="380.0757"/>
 <InfoNormRichtung vMax="5.5556" km="0.024" pos="1"/>
+<NachNorm Nr="423"/>
+<NachGegen Nr="421"/>
 </StrElement>
-<StrElement Nr="423" spTrass="5.5556" Fkt="2">
+<StrElement Nr="423" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-157.1625" Y="875.8982" Z="380.0757"/>
 <b X="-154.1558" Y="878.5344" Z="380.0388"/>
 <InfoNormRichtung vMax="5.5556" km="0.028" pos="1"/>
+<NachNorm Nr="424"/>
+<NachGegen Nr="422"/>
 </StrElement>
-<StrElement Nr="424" spTrass="5.5556" Fkt="2">
+<StrElement Nr="424" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-154.1558" Y="878.5344" Z="380.0388"/>
 <b X="-150.9272" Y="880.8936" Z="380.0019"/>
 <InfoNormRichtung vMax="5.5556" km="0.032" pos="1"/>
+<NachNorm Nr="425"/>
+<NachGegen Nr="423"/>
 </StrElement>
-<StrElement Nr="425" spTrass="5.5556" Fkt="2">
+<StrElement Nr="425" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-150.9272" Y="880.8936" Z="380.0019"/>
 <b X="-147.5022" Y="882.9572" Z="379.9649"/>
 <InfoNormRichtung vMax="5.5556" km="0.036" pos="1"/>
+<NachNorm Nr="426"/>
+<NachGegen Nr="424"/>
 </StrElement>
-<StrElement Nr="426" spTrass="5.5556" Fkt="2">
+<StrElement Nr="426" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-147.5022" Y="882.9572" Z="379.9649"/>
 <b X="-143.9077" Y="884.709" Z="379.928"/>
 <InfoNormRichtung vMax="5.5556" km="0.04" pos="1"/>
+<NachNorm Nr="427"/>
+<NachGegen Nr="425"/>
 </StrElement>
-<StrElement Nr="427" spTrass="5.5556" Fkt="2">
+<StrElement Nr="427" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-143.9077" Y="884.709" Z="379.928"/>
 <b X="-140.172" Y="886.1353" Z="379.8911"/>
 <InfoNormRichtung vMax="5.5556" km="0.044" pos="1"/>
+<NachNorm Nr="428"/>
+<NachGegen Nr="426"/>
 </StrElement>
-<StrElement Nr="428" spTrass="5.5556" Fkt="2">
+<StrElement Nr="428" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-140.172" Y="886.1353" Z="379.8911"/>
 <b X="-136.3245" Y="887.2246" Z="379.8542"/>
 <InfoNormRichtung vMax="5.5556" km="0.048" pos="1"/>
+<NachNorm Nr="429"/>
+<NachGegen Nr="427"/>
 </StrElement>
-<StrElement Nr="429" spTrass="5.5556" Fkt="2">
+<StrElement Nr="429" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-136.3245" Y="887.2246" Z="379.8542"/>
 <b X="-132.3957" Y="887.9686" Z="379.8173"/>
 <InfoNormRichtung vMax="5.5556" km="0.052" pos="1"/>
+<NachNorm Nr="430"/>
+<NachGegen Nr="428"/>
 </StrElement>
-<StrElement Nr="430" spTrass="5.5556" Fkt="2">
+<StrElement Nr="430" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-132.3957" Y="887.9686" Z="379.8173"/>
 <b X="-128.4163" Y="888.3612" Z="379.7804"/>
 <InfoNormRichtung vMax="5.5556" km="0.056" pos="1"/>
+<NachNorm Nr="431"/>
+<NachGegen Nr="429"/>
 </StrElement>
-<StrElement Nr="431" spTrass="5.5556" Fkt="2">
+<StrElement Nr="431" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-128.4163" Y="888.3612" Z="379.7804"/>
 <b X="-124.4178" Y="888.3995" Z="379.7435"/>
 <InfoNormRichtung vMax="5.5556" km="0.06" pos="1"/>
+<NachNorm Nr="432"/>
+<NachGegen Nr="430"/>
 </StrElement>
-<StrElement Nr="432" spTrass="5.5556" Fkt="2">
+<StrElement Nr="432" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-124.4178" Y="888.3995" Z="379.7435"/>
 <b X="-120.4317" Y="888.0831" Z="379.7065"/>
 <InfoNormRichtung vMax="5.5556" km="0.064" pos="1"/>
+<NachNorm Nr="433"/>
+<NachGegen Nr="431"/>
 </StrElement>
-<StrElement Nr="433" spTrass="5.5556" Fkt="2">
+<StrElement Nr="433" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-120.4317" Y="888.0831" Z="379.7065"/>
 <b X="-116.4893" Y="887.4145" Z="379.6696"/>
 <InfoNormRichtung vMax="5.5556" km="0.068" pos="1"/>
+<NachNorm Nr="434"/>
+<NachGegen Nr="432"/>
 </StrElement>
-<StrElement Nr="434" spTrass="5.5556" Fkt="2">
+<StrElement Nr="434" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-116.4893" Y="887.4145" Z="379.6696"/>
 <b X="-114.1058" Y="886.8322" Z="379.647"/>
 <InfoNormRichtung vMax="5.5556" km="0.072" pos="1"/>
 <NachNorm Nr="435"/>
+<NachGegen Nr="433"/>
 </StrElement>
 <StrElement Nr="435" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-114.1058" Y="886.8322" Z="379.647"/>
@@ -5541,41 +5653,54 @@
 <NachNorm Nr="349"/>
 <NachGegen Nr="443"/>
 </StrElement>
-<StrElement Nr="446" spTrass="2.7778" Fkt="2">
+<StrElement Nr="446" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="100.4548" Y="825.5513" Z="379.172"/>
 <b X="104.1619" Y="824.0822" Z="379.2413"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="447"/>
+<NachGegen Nr="349"/>
 </StrElement>
-<StrElement Nr="447" spTrass="2.7778" Fkt="2">
+<StrElement Nr="447" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="104.1619" Y="824.0822" Z="379.2413"/>
 <b X="107.3375" Y="821.6703" Z="379.3026"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="448"/>
+<NachGegen Nr="446"/>
 </StrElement>
-<StrElement Nr="448" spTrass="2.7778" Fkt="2">
+<StrElement Nr="448" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="107.3375" Y="821.6703" Z="379.3026"/>
 <b X="109.7477" Y="818.4934" Z="379.356"/>
 <InfoNormRichtung vMax="2.7778" km="0.008" pos="1"/>
+<NachNorm Nr="449"/>
+<NachGegen Nr="447"/>
 </StrElement>
-<StrElement Nr="449" spTrass="2.7778" Fkt="2">
+<StrElement Nr="449" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="109.7477" Y="818.4934" Z="379.356"/>
 <b X="111.2148" Y="814.7854" Z="379.4013"/>
 <InfoNormRichtung vMax="2.7778" km="0.012" pos="1"/>
+<NachNorm Nr="450"/>
+<NachGegen Nr="448"/>
 </StrElement>
-<StrElement Nr="450" spTrass="2.7778" Fkt="2">
+<StrElement Nr="450" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="111.2148" Y="814.7854" Z="379.4013"/>
 <b X="111.6381" Y="811.3383" Z="379.4352"/>
 <InfoNormRichtung vMax="2.7778" km="0.016" pos="1"/>
+<NachNorm Nr="451"/>
+<NachGegen Nr="449"/>
 </StrElement>
-<StrElement Nr="451" spTrass="2.7778" Fkt="2">
+<StrElement Nr="451" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="111.6381" Y="811.3383" Z="379.4352"/>
 <b X="111.1613" Y="807.5709" Z="379.4717"/>
 <InfoNormRichtung vMax="2.7778" km="0.0194" pos="1"/>
+<NachNorm Nr="452"/>
+<NachGegen Nr="450"/>
 </StrElement>
-<StrElement Nr="452" spTrass="27.7778" Fkt="2">
+<StrElement Nr="452" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="111.1613" Y="807.5709" Z="379.4717"/>
 <b X="108.1518" Y="796.0475" Z="379.5859"/>
 <InfoNormRichtung vMax="27.7778" km="0.0232" pos="1"/>
 <NachNorm Nr="350"/>
+<NachGegen Nr="451"/>
 </StrElement>
 <StrElement Nr="454" kr="0.000625" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="103.9283" Y="779.8759" Z="379.644"/>
@@ -5700,6 +5825,7 @@
 <StrElement Nr="473" spTrass="27.7778" Fkt="2">
 <g X="-258.1246" Y="537.1649" Z="388.5852"/>
 <b X="-256.2781" Y="540.8682" Z="388.0264"/>
+<NachNorm Nr="577"/>
 </StrElement>
 <StrElement Nr="483" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-78.9729" Y="500.1547" Z="386.8505"/>
@@ -5824,68 +5950,92 @@
 <g X="-50.5277" Y="481.495" Z="386.8878"/>
 <b X="-51.5845" Y="483.1927" Z="386.8788"/>
 <InfoNormRichtung vMax="2.7778" km="0.0179" pos="1"/>
+<NachNorm Nr="502"/>
 <NachGegen Nr="500"/>
 </StrElement>
-<StrElement Nr="502" spTrass="2.7778" Fkt="2">
+<StrElement Nr="502" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-51.5845" Y="483.1927" Z="386.8788"/>
 <b X="-52.7336" Y="484.8293" Z="386.8699"/>
 <InfoNormRichtung vMax="2.7778" km="0.0199" pos="1"/>
+<NachNorm Nr="503"/>
+<NachGegen Nr="501"/>
 </StrElement>
-<StrElement Nr="503" spTrass="2.7778" Fkt="2">
+<StrElement Nr="503" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-52.7336" Y="484.8293" Z="386.8699"/>
 <b X="-53.9713" Y="486.4" Z="386.861"/>
 <InfoNormRichtung vMax="2.7778" km="0.0219" pos="1"/>
+<NachNorm Nr="504"/>
+<NachGegen Nr="502"/>
 </StrElement>
-<StrElement Nr="504" spTrass="2.7778" Fkt="2">
+<StrElement Nr="504" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-53.9713" Y="486.4" Z="386.861"/>
 <b X="-55.2941" Y="487.8997" Z="386.8521"/>
 <InfoNormRichtung vMax="2.7778" km="0.0239" pos="1"/>
+<NachNorm Nr="505"/>
+<NachGegen Nr="503"/>
 </StrElement>
-<StrElement Nr="505" spTrass="2.7778" Fkt="2">
+<StrElement Nr="505" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-55.2941" Y="487.8997" Z="386.8521"/>
 <b X="-56.6977" Y="489.3241" Z="386.8432"/>
 <InfoNormRichtung vMax="2.7778" km="0.0259" pos="1"/>
+<NachNorm Nr="506"/>
+<NachGegen Nr="504"/>
 </StrElement>
-<StrElement Nr="506" spTrass="2.7778" Fkt="2">
+<StrElement Nr="506" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-56.6977" Y="489.3241" Z="386.8432"/>
 <b X="-58.1779" Y="490.6687" Z="386.8343"/>
 <InfoNormRichtung vMax="2.7778" km="0.0279" pos="1"/>
+<NachNorm Nr="507"/>
+<NachGegen Nr="505"/>
 </StrElement>
-<StrElement Nr="507" spTrass="2.7778" Fkt="2">
+<StrElement Nr="507" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-58.1779" Y="490.6687" Z="386.8343"/>
 <b X="-59.7303" Y="491.9293" Z="386.8253"/>
 <InfoNormRichtung vMax="2.7778" km="0.0299" pos="1"/>
+<NachNorm Nr="508"/>
+<NachGegen Nr="506"/>
 </StrElement>
-<StrElement Nr="508" spTrass="2.7778" Fkt="2">
+<StrElement Nr="508" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-59.7303" Y="491.9293" Z="386.8253"/>
 <b X="-61.3499" Y="493.1022" Z="386.8164"/>
 <InfoNormRichtung vMax="2.7778" km="0.0319" pos="1"/>
+<NachNorm Nr="509"/>
+<NachGegen Nr="507"/>
 </StrElement>
-<StrElement Nr="509" spTrass="2.7778" Fkt="2">
+<StrElement Nr="509" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-61.3499" Y="493.1022" Z="386.8164"/>
 <b X="-63.0319" Y="494.1838" Z="386.8075"/>
 <InfoNormRichtung vMax="2.7778" km="0.0339" pos="1"/>
+<NachNorm Nr="510"/>
+<NachGegen Nr="508"/>
 </StrElement>
-<StrElement Nr="510" spTrass="2.7778" Fkt="2">
+<StrElement Nr="510" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-63.0319" Y="494.1838" Z="386.8075"/>
 <b X="-64.7712" Y="495.1707" Z="386.7986"/>
 <InfoNormRichtung vMax="2.7778" km="0.0359" pos="1"/>
+<NachNorm Nr="511"/>
+<NachGegen Nr="509"/>
 </StrElement>
-<StrElement Nr="511" spTrass="2.7778" Fkt="2">
+<StrElement Nr="511" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-64.7712" Y="495.1707" Z="386.7986"/>
 <b X="-66.5624" Y="496.0599" Z="386.7897"/>
 <InfoNormRichtung vMax="2.7778" km="0.0379" pos="1"/>
+<NachNorm Nr="512"/>
+<NachGegen Nr="510"/>
 </StrElement>
-<StrElement Nr="512" spTrass="2.7778" Fkt="2">
+<StrElement Nr="512" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-66.5624" Y="496.0599" Z="386.7897"/>
 <b X="-68.3999" Y="496.8488" Z="386.7808"/>
 <InfoNormRichtung vMax="2.7778" km="0.0399" pos="1"/>
+<NachNorm Nr="513"/>
+<NachGegen Nr="511"/>
 </StrElement>
-<StrElement Nr="513" spTrass="2.7778" Fkt="2">
+<StrElement Nr="513" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-68.3999" Y="496.8488" Z="386.7808"/>
 <b X="-70.2783" Y="497.5348" Z="386.7719"/>
 <InfoNormRichtung vMax="2.7778" km="0.0419" pos="1"/>
 <NachNorm Nr="514"/>
+<NachGegen Nr="512"/>
 </StrElement>
 <StrElement Nr="514" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-70.2783" Y="497.5348" Z="386.7719"/>
@@ -5926,10 +6076,12 @@
 <StrElement Nr="520" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="53.8776" Y="420.3445" Z="387.5752"/>
 <b X="64.8639" Y="416.0187" Z="387.5664"/>
-<InfoNormRichtung vMax="-1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="-1" Reg="5020"/>
+<InfoGegenRichtung vMax="-1" Reg="5020"/>
 <NachNorm Nr="619"/>
+<NachNorm Nr="653"/>
 <NachGegen Nr="530"/>
+<NachGegen Nr="676"/>
 </StrElement>
 <StrElement Nr="522" kr="-0.003657" spTrass="13.8889" Anschluss="256" Fkt="2">
 <g X="3.3435" Y="444.54" Z="387.3989"/>
@@ -5976,8 +6128,8 @@
 <StrElement Nr="528" kr="0.003657" spTrass="13.8889" Anschluss="256" Fkt="2">
 <g X="34.6424" Y="428.7855" Z="387.4363"/>
 <b X="37.8822" Y="427.2647" Z="387.4599"/>
-<InfoNormRichtung vMax="-1" Reg="5019"/>
-<InfoGegenRichtung vMax="-1" Reg="5019"/>
+<InfoNormRichtung vMax="-1" Reg="5021"/>
+<InfoGegenRichtung vMax="-1" Reg="5021"/>
 <NachNorm Nr="668"/>
 <NachNorm Nr="670"/>
 <NachGegen Nr="527"/>
@@ -6000,58 +6152,78 @@
 <g X="-50.2145" Y="449.3549" Z="387.6985"/>
 <b X="-47.1244" Y="450.7147" Z="387.6874"/>
 <InfoNormRichtung vMax="27.7778" pos="1"/>
+<NachNorm Nr="533"/>
 <NachGegen Nr="518"/>
 </StrElement>
-<StrElement Nr="533" spTrass="5.5556" Fkt="2">
+<StrElement Nr="533" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-47.1244" Y="450.7147" Z="387.6874"/>
 <b X="-43.9254" Y="451.8845" Z="387.6714"/>
 <InfoNormRichtung vMax="5.5556" km="0.0034" pos="1"/>
+<NachNorm Nr="534"/>
+<NachGegen Nr="532"/>
 </StrElement>
-<StrElement Nr="534" spTrass="5.5556" Fkt="2">
+<StrElement Nr="534" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-43.9254" Y="451.8845" Z="387.6714"/>
 <b X="-40.0761" Y="452.9682" Z="387.652"/>
 <InfoNormRichtung vMax="5.5556" km="0.0068" pos="1"/>
+<NachNorm Nr="535"/>
+<NachGegen Nr="533"/>
 </StrElement>
-<StrElement Nr="535" spTrass="5.5556" Fkt="2">
+<StrElement Nr="535" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-40.0761" Y="452.9682" Z="387.652"/>
 <b X="-36.1509" Y="453.732" Z="387.6327"/>
 <InfoNormRichtung vMax="5.5556" km="0.0108" pos="1"/>
+<NachNorm Nr="536"/>
+<NachGegen Nr="534"/>
 </StrElement>
-<StrElement Nr="536" spTrass="5.5556" Fkt="2">
+<StrElement Nr="536" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-36.1509" Y="453.732" Z="387.6327"/>
 <b X="-32.1762" Y="454.1708" Z="387.6133"/>
 <InfoNormRichtung vMax="5.5556" km="0.0148" pos="1"/>
+<NachNorm Nr="537"/>
+<NachGegen Nr="535"/>
 </StrElement>
-<StrElement Nr="537" spTrass="5.5556" Fkt="2">
+<StrElement Nr="537" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-32.1762" Y="454.1708" Z="387.6133"/>
 <b X="-28.1788" Y="454.2816" Z="387.594"/>
 <InfoNormRichtung vMax="5.5556" km="0.0188" pos="1"/>
+<NachNorm Nr="538"/>
+<NachGegen Nr="536"/>
 </StrElement>
-<StrElement Nr="538" spTrass="5.5556" Fkt="2">
+<StrElement Nr="538" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-28.1788" Y="454.2816" Z="387.594"/>
 <b X="-24.1859" Y="454.0636" Z="387.5746"/>
 <InfoNormRichtung vMax="5.5556" km="0.0228" pos="1"/>
+<NachNorm Nr="539"/>
+<NachGegen Nr="537"/>
 </StrElement>
-<StrElement Nr="539" spTrass="5.5556" Fkt="2">
+<StrElement Nr="539" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-24.1859" Y="454.0636" Z="387.5746"/>
 <b X="-20.2244" Y="453.5184" Z="387.5552"/>
 <InfoNormRichtung vMax="5.5556" km="0.0268" pos="1"/>
+<NachNorm Nr="540"/>
+<NachGegen Nr="538"/>
 </StrElement>
-<StrElement Nr="540" spTrass="5.5556" Fkt="2">
+<StrElement Nr="540" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-20.2244" Y="453.5184" Z="387.5552"/>
 <b X="-16.321" Y="452.6496" Z="387.5359"/>
 <InfoNormRichtung vMax="5.5556" km="0.0308" pos="1"/>
+<NachNorm Nr="541"/>
+<NachGegen Nr="539"/>
 </StrElement>
-<StrElement Nr="541" spTrass="5.5556" Fkt="2">
+<StrElement Nr="541" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-16.321" Y="452.6496" Z="387.5359"/>
 <b X="-12.5022" Y="451.463" Z="387.5165"/>
 <InfoNormRichtung vMax="5.5556" km="0.0348" pos="1"/>
+<NachNorm Nr="542"/>
+<NachGegen Nr="540"/>
 </StrElement>
-<StrElement Nr="542" spTrass="5.5556" Fkt="2">
+<StrElement Nr="542" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-12.5022" Y="451.463" Z="387.5165"/>
 <b X="-8.9772" Y="450.0492" Z="387.4981"/>
 <InfoNormRichtung vMax="5.5556" km="0.0388" pos="1"/>
 <NachNorm Nr="519"/>
+<NachGegen Nr="541"/>
 </StrElement>
 <StrElement Nr="544" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-120.4067" Y="451.7708" Z="388.5157"/>
@@ -6071,58 +6243,78 @@
 <g X="-95.675" Y="444.6889" Z="388.222"/>
 <b X="-91.7962" Y="443.7146" Z="388.1742"/>
 <InfoNormRichtung vMax="5.5556" km="0.0257" pos="1"/>
+<NachNorm Nr="547"/>
 <NachGegen Nr="545"/>
 </StrElement>
-<StrElement Nr="547" spTrass="5.5556" Fkt="2">
+<StrElement Nr="547" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-91.7962" Y="443.7146" Z="388.1742"/>
 <b X="-87.8619" Y="442.9965" Z="388.1265"/>
 <InfoNormRichtung vMax="5.5556" km="0.0297" pos="1"/>
+<NachNorm Nr="548"/>
+<NachGegen Nr="546"/>
 </StrElement>
-<StrElement Nr="548" spTrass="5.5556" Fkt="2">
+<StrElement Nr="548" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-87.8619" Y="442.9965" Z="388.1265"/>
 <b X="-83.889" Y="442.5377" Z="388.0787"/>
 <InfoNormRichtung vMax="5.5556" km="0.0337" pos="1"/>
+<NachNorm Nr="549"/>
+<NachGegen Nr="547"/>
 </StrElement>
-<StrElement Nr="549" spTrass="5.5556" Fkt="2">
+<StrElement Nr="549" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-83.889" Y="442.5377" Z="388.0787"/>
 <b X="-79.8946" Y="442.3401" Z="388.031"/>
 <InfoNormRichtung vMax="5.5556" km="0.0377" pos="1"/>
+<NachNorm Nr="550"/>
+<NachGegen Nr="548"/>
 </StrElement>
-<StrElement Nr="550" spTrass="5.5556" Fkt="2">
+<StrElement Nr="550" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-79.8946" Y="442.3401" Z="388.031"/>
 <b X="-75.8959" Y="442.4047" Z="387.9832"/>
 <InfoNormRichtung vMax="5.5556" km="0.0417" pos="1"/>
+<NachNorm Nr="551"/>
+<NachGegen Nr="549"/>
 </StrElement>
-<StrElement Nr="551" spTrass="5.5556" Fkt="2">
+<StrElement Nr="551" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-75.8959" Y="442.4047" Z="387.9832"/>
 <b X="-71.9099" Y="442.7312" Z="387.9355"/>
 <InfoNormRichtung vMax="5.5556" km="0.0457" pos="1"/>
+<NachNorm Nr="552"/>
+<NachGegen Nr="550"/>
 </StrElement>
-<StrElement Nr="552" spTrass="5.5556" Fkt="2">
+<StrElement Nr="552" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-71.9099" Y="442.7312" Z="387.9355"/>
 <b X="-67.9539" Y="443.3181" Z="387.8877"/>
 <InfoNormRichtung vMax="5.5556" km="0.0497" pos="1"/>
+<NachNorm Nr="553"/>
+<NachGegen Nr="551"/>
 </StrElement>
-<StrElement Nr="553" spTrass="5.5556" Fkt="2">
+<StrElement Nr="553" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-67.9539" Y="443.3181" Z="387.8877"/>
 <b X="-64.0449" Y="444.1628" Z="387.84"/>
 <InfoNormRichtung vMax="5.5556" km="0.0537" pos="1"/>
+<NachNorm Nr="554"/>
+<NachGegen Nr="552"/>
 </StrElement>
-<StrElement Nr="554" spTrass="5.5556" Fkt="2">
+<StrElement Nr="554" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-64.0449" Y="444.1628" Z="387.84"/>
 <b X="-60.1996" Y="445.2619" Z="387.7922"/>
 <InfoNormRichtung vMax="5.5556" km="0.0577" pos="1"/>
+<NachNorm Nr="555"/>
+<NachGegen Nr="553"/>
 </StrElement>
-<StrElement Nr="555" spTrass="5.5556" Fkt="2">
+<StrElement Nr="555" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-60.1996" Y="445.2619" Z="387.7922"/>
 <b X="-56.4346" Y="446.6106" Z="387.7445"/>
 <InfoNormRichtung vMax="5.5556" km="0.0617" pos="1"/>
+<NachNorm Nr="556"/>
+<NachGegen Nr="554"/>
 </StrElement>
-<StrElement Nr="556" spTrass="5.5556" Fkt="2">
+<StrElement Nr="556" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="-56.4346" Y="446.6106" Z="387.7445"/>
 <b X="-53.6292" Y="447.8024" Z="387.7081"/>
 <InfoNormRichtung vMax="5.5556" km="0.0657" pos="1"/>
 <NachNorm Nr="518"/>
+<NachGegen Nr="555"/>
 </StrElement>
 <StrElement Nr="558" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-161.6897" Y="465.3001" Z="389.1219"/>
@@ -6243,31 +6435,40 @@
 <NachNorm Nr="516"/>
 <NachGegen Nr="574"/>
 </StrElement>
-<StrElement Nr="577" spTrass="2.7778" Fkt="2">
+<StrElement Nr="577" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-256.2781" Y="540.8682" Z="388.0264"/>
 <b X="-253.885" Y="544.0455" Z="387.8705"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="578"/>
+<NachGegen Nr="473"/>
 </StrElement>
-<StrElement Nr="578" spTrass="2.7778" Fkt="2">
+<StrElement Nr="578" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-253.885" Y="544.0455" Z="387.8705"/>
 <b X="-250.5132" Y="546.1555" Z="387.7144"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="579"/>
+<NachGegen Nr="577"/>
 </StrElement>
-<StrElement Nr="579" spTrass="2.7778" Fkt="2">
+<StrElement Nr="579" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-250.5132" Y="546.1555" Z="387.7144"/>
 <b X="-246.6094" Y="546.9188" Z="387.5584"/>
 <InfoNormRichtung vMax="2.7778" km="0.008" pos="1"/>
+<NachNorm Nr="580"/>
+<NachGegen Nr="578"/>
 </StrElement>
-<StrElement Nr="580" spTrass="2.7778" Fkt="2">
+<StrElement Nr="580" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="-246.6094" Y="546.9188" Z="387.5584"/>
 <b X="-243.8019" Y="546.581" Z="387.4478"/>
 <InfoNormRichtung vMax="2.7778" km="0.0119" pos="1"/>
+<NachNorm Nr="581"/>
+<NachGegen Nr="579"/>
 </StrElement>
-<StrElement Nr="581" spTrass="27.7778" Anschluss="1" Fkt="2">
+<StrElement Nr="581" spTrass="27.7778" Anschluss="257" Fkt="2">
 <g X="-243.8019" Y="546.581" Z="387.4478"/>
 <b X="-231.8418" Y="543.4485" Z="386.9558"/>
 <InfoNormRichtung vMax="27.7778" km="0.0148" pos="1"/>
 <NachNorm Nr="491"/>
+<NachGegen Nr="580"/>
 </StrElement>
 <StrElement Nr="582" spTrass="27.7778" Anschluss="1" Fkt="2">
 <g X="179.728" Y="471.5031" Z="387.1009"/>
@@ -6389,6 +6590,7 @@
 <MatrixEintrag Signalbild="725" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
+<NachNorm Nr="596"/>
 </StrElement>
 <StrElement Nr="594" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="271.5461" Y="397.8105" Z="386.8473"/>
@@ -6396,43 +6598,55 @@
 <NachNorm Nr="658"/>
 <NachGegen Nr="601"/>
 </StrElement>
-<StrElement Nr="596" spTrass="2.7778" Fkt="2">
+<StrElement Nr="596" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="292.5369" Y="409.1714" Z="386.7567"/>
 <b X="290.2617" Y="405.8891" Z="386.8004"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="597"/>
+<NachGegen Nr="592"/>
 </StrElement>
-<StrElement Nr="597" spTrass="2.7778" Fkt="2">
+<StrElement Nr="597" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="290.2617" Y="405.8891" Z="386.8004"/>
 <b X="287.4016" Y="403.1015" Z="386.8281"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="598"/>
+<NachGegen Nr="596"/>
 </StrElement>
-<StrElement Nr="598" spTrass="2.7778" Fkt="2">
+<StrElement Nr="598" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="287.4016" Y="403.1015" Z="386.8281"/>
 <b X="284.0618" Y="400.9113" Z="386.8398"/>
 <InfoNormRichtung vMax="2.7778" km="0.008" pos="1"/>
+<NachNorm Nr="599"/>
+<NachGegen Nr="597"/>
 </StrElement>
-<StrElement Nr="599" spTrass="2.7778" Fkt="2">
+<StrElement Nr="599" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="284.0618" Y="400.9113" Z="386.8398"/>
 <b X="281.9211" Y="399.9351" Z="386.8412"/>
 <InfoNormRichtung vMax="2.7778" km="0.012" pos="1"/>
+<NachNorm Nr="600"/>
+<NachGegen Nr="598"/>
 </StrElement>
-<StrElement Nr="600" spTrass="2.7778" Fkt="2">
+<StrElement Nr="600" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="281.9211" Y="399.9351" Z="386.8412"/>
 <b X="278.8311" Y="399.0004" Z="386.8431"/>
 <InfoNormRichtung vMax="2.7778" km="0.0143" pos="1"/>
+<NachNorm Nr="601"/>
+<NachGegen Nr="599"/>
 </StrElement>
-<StrElement Nr="601" spTrass="2.7778" Fkt="2">
+<StrElement Nr="601" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="278.8311" Y="399.0004" Z="386.8431"/>
 <b X="271.5461" Y="397.8105" Z="386.8473"/>
 <InfoNormRichtung vMax="2.7778" km="0.0176" pos="1"/>
 <NachNorm Nr="594"/>
+<NachGegen Nr="600"/>
 </StrElement>
 <StrElement Nr="602" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="193.2958" Y="384.213" Z="386.8265"/>
 <b X="182.5254" Y="382.6384" Z="386.7917"/>
-<InfoNormRichtung vMax="-1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="-1" Reg="5022"/>
+<InfoGegenRichtung vMax="-1" Reg="5022"/>
 <NachNorm Nr="625"/>
+<NachNorm Nr="608"/>
 <NachGegen Nr="662"/>
 </StrElement>
 <StrElement Nr="604" spTrass="27.7778" Anschluss="256" Fkt="2">
@@ -6452,66 +6666,83 @@
 <b X="143.5889" Y="285.9043" Z="384.1816"/>
 <NachGegen Nr="605"/>
 </StrElement>
-<StrElement Nr="608" spTrass="2.7778" Fkt="2">
+<StrElement Nr="608" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="182.5254" Y="382.6384" Z="386.7917"/>
 <b X="178.6294" Y="381.7506" Z="386.7778"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="609"/>
+<NachGegen Nr="602"/>
 </StrElement>
-<StrElement Nr="609" spTrass="2.7778" Fkt="2">
+<StrElement Nr="609" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="178.6294" Y="381.7506" Z="386.7778"/>
 <b X="174.9214" Y="380.2616" Z="386.7638"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="610"/>
+<NachGegen Nr="608"/>
 </StrElement>
-<StrElement Nr="610" spTrass="2.7778" Fkt="2">
+<StrElement Nr="610" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="174.9214" Y="380.2616" Z="386.7638"/>
 <b X="171.4934" Y="378.2083" Z="386.7498"/>
 <InfoNormRichtung vMax="2.7778" km="0.008" pos="1"/>
+<NachNorm Nr="611"/>
+<NachGegen Nr="609"/>
 </StrElement>
-<StrElement Nr="611" spTrass="2.7778" Fkt="2">
+<StrElement Nr="611" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="171.4934" Y="378.2083" Z="386.7498"/>
 <b X="168.4306" Y="375.6419" Z="386.7358"/>
 <InfoNormRichtung vMax="2.7778" km="0.012" pos="1"/>
+<NachNorm Nr="612"/>
+<NachGegen Nr="610"/>
 </StrElement>
-<StrElement Nr="612" spTrass="2.7778" Fkt="2">
+<StrElement Nr="612" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="168.4306" Y="375.6419" Z="386.7358"/>
 <b X="165.8092" Y="372.6261" Z="386.7218"/>
 <InfoNormRichtung vMax="2.7778" km="0.016" pos="1"/>
+<NachNorm Nr="613"/>
+<NachGegen Nr="611"/>
 </StrElement>
-<StrElement Nr="613" spTrass="2.7778" Fkt="2">
+<StrElement Nr="613" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="165.8092" Y="372.6261" Z="386.7218"/>
 <b X="163.6944" Y="369.2358" Z="386.7078"/>
 <InfoNormRichtung vMax="2.7778" km="0.02" pos="1"/>
+<NachNorm Nr="614"/>
+<NachGegen Nr="612"/>
 </StrElement>
-<StrElement Nr="614" spTrass="2.7778" Fkt="2">
+<StrElement Nr="614" spTrass="2.7778" Anschluss="258" Fkt="2">
 <g X="163.6944" Y="369.2358" Z="386.7078"/>
 <b X="161.9514" Y="365.5843" Z="386.6985"/>
-<InfoNormRichtung vMax="2.7778" km="0.024" pos="1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="2.7778" km="0.024" pos="1" Reg="5023"/>
+<InfoGegenRichtung vMax="-1" Reg="5023"/>
+<NachNorm Nr="615"/>
+<NachNorm Nr="633"/>
+<NachGegen Nr="613"/>
 </StrElement>
-<StrElement Nr="615" spTrass="2.7778" Fkt="2">
+<StrElement Nr="615" spTrass="2.7778" Anschluss="512" Fkt="2">
 <g X="161.9514" Y="365.5843" Z="386.6985"/>
 <b X="161.3428" Y="362.5636" Z="386.683"/>
-<InfoNormRichtung vMax="2.7778" km="0.028" pos="1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="2.7778" km="0.028" pos="1" Reg="5024"/>
+<InfoGegenRichtung vMax="-1" Reg="5024"/>
 <NachNorm Nr="616"/>
 <NachGegen Nr="634"/>
+<NachGegen Nr="614"/>
 </StrElement>
 <StrElement Nr="616" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="161.3428" Y="362.5636" Z="386.683"/>
 <b X="160.6187" Y="358.9699" Z="386.6701"/>
-<InfoNormRichtung vMax="27.7778" km="0.0311" pos="1" Reg="5020"/>
-<InfoGegenRichtung vMax="-1" Reg="5020"/>
+<InfoNormRichtung vMax="27.7778" km="0.0311" pos="1" Reg="5025"/>
+<InfoGegenRichtung vMax="-1" Reg="5025"/>
 <NachNorm Nr="604"/>
 <NachGegen Nr="615"/>
 <NachGegen Nr="633"/>
 </StrElement>
-<StrElement Nr="617" spTrass="27.7778" Anschluss="257" Fkt="2">
+<StrElement Nr="617" spTrass="27.7778" Anschluss="769" Fkt="2">
 <g X="151.4338" Y="387.507" Z="387.0409"/>
 <b X="130.7741" Y="394.0781" Z="387.1903"/>
-<InfoNormRichtung vMax="-1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="-1" Reg="5026"/>
+<InfoGegenRichtung vMax="-1" Reg="5026"/>
 <NachNorm Nr="623"/>
 <NachGegen Nr="631"/>
+<NachGegen Nr="640"/>
 </StrElement>
 <StrElement Nr="619" kr="0.002421" spTrass="16.6667" Anschluss="256" Fkt="2">
 <g X="64.8639" Y="416.0187" Z="387.5664"/>
@@ -6552,33 +6783,43 @@
 <g X="182.5254" Y="382.6384" Z="386.7917"/>
 <b X="178.5477" Y="382.2274" Z="386.7867"/>
 <InfoNormRichtung vMax="5.5556" pos="1"/>
+<NachNorm Nr="626"/>
 <NachGegen Nr="602"/>
 </StrElement>
-<StrElement Nr="626" spTrass="5.5556" Fkt="2">
+<StrElement Nr="626" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="178.5477" Y="382.2274" Z="386.7867"/>
 <b X="174.5496" Y="382.153" Z="386.7977"/>
 <InfoNormRichtung vMax="5.5556" km="0.004" pos="1"/>
+<NachNorm Nr="627"/>
+<NachGegen Nr="625"/>
 </StrElement>
-<StrElement Nr="627" spTrass="5.5556" Fkt="2">
+<StrElement Nr="627" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="174.5496" Y="382.153" Z="386.7977"/>
 <b X="170.5594" Y="382.4157" Z="386.8247"/>
 <InfoNormRichtung vMax="5.5556" km="0.008" pos="1"/>
+<NachNorm Nr="628"/>
+<NachGegen Nr="626"/>
 </StrElement>
-<StrElement Nr="628" spTrass="5.5556" Fkt="2">
+<StrElement Nr="628" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="170.5594" Y="382.4157" Z="386.8247"/>
 <b X="168.304" Y="382.715" Z="386.8472"/>
 <InfoNormRichtung vMax="5.5556" km="0.012" pos="1"/>
+<NachNorm Nr="629"/>
+<NachGegen Nr="627"/>
 </StrElement>
-<StrElement Nr="629" spTrass="5.5556" Fkt="2">
+<StrElement Nr="629" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="168.304" Y="382.715" Z="386.8472"/>
 <b X="164.3834" Y="383.502" Z="386.8913"/>
 <InfoNormRichtung vMax="5.5556" km="0.0143" pos="1"/>
+<NachNorm Nr="630"/>
+<NachGegen Nr="628"/>
 </StrElement>
-<StrElement Nr="630" spTrass="5.5556" Fkt="2">
+<StrElement Nr="630" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="164.3834" Y="383.502" Z="386.8913"/>
 <b X="161.2961" Y="384.3702" Z="386.9267"/>
 <InfoNormRichtung vMax="5.5556" km="0.0183" pos="1"/>
 <NachNorm Nr="631"/>
+<NachGegen Nr="629"/>
 </StrElement>
 <StrElement Nr="631" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="161.2961" Y="384.3702" Z="386.9267"/>
@@ -6587,51 +6828,65 @@
 <NachNorm Nr="617"/>
 <NachGegen Nr="630"/>
 </StrElement>
-<StrElement Nr="633" spTrass="27.7778" Fkt="2">
+<StrElement Nr="633" spTrass="27.7778" Anschluss="2" Fkt="2">
 <g X="161.3428" Y="362.5636" Z="386.683"/>
 <b X="161.9514" Y="365.5843" Z="386.6985"/>
-<InfoNormRichtung vMax="27.7778" pos="1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="27.7778" pos="1" Reg="5027"/>
+<InfoGegenRichtung vMax="-1" Reg="5027"/>
 <NachNorm Nr="634"/>
+<NachNorm Nr="614"/>
 <NachGegen Nr="616"/>
 </StrElement>
 <StrElement Nr="634" spTrass="27.7778" Anschluss="512" Fkt="2">
 <g X="161.9514" Y="365.5843" Z="386.6985"/>
 <b X="162.56" Y="368.6049" Z="386.7236"/>
-<InfoNormRichtung vMax="27.7778" km="0.0031" pos="1" Reg="5021"/>
-<InfoGegenRichtung vMax="-1" Reg="5021"/>
+<InfoNormRichtung vMax="27.7778" km="0.0031" pos="1" Reg="5028"/>
+<InfoGegenRichtung vMax="-1" Reg="5028"/>
+<NachNorm Nr="635"/>
 <NachGegen Nr="615"/>
 <NachGegen Nr="633"/>
 </StrElement>
-<StrElement Nr="635" spTrass="2.7778" Fkt="2">
+<StrElement Nr="635" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="162.56" Y="368.6049" Z="386.7236"/>
 <b X="162.8738" Y="372.4189" Z="386.7681"/>
 <InfoNormRichtung vMax="2.7778" km="0.0062" pos="1"/>
+<NachNorm Nr="636"/>
+<NachGegen Nr="634"/>
 </StrElement>
-<StrElement Nr="636" spTrass="2.7778" Fkt="2">
+<StrElement Nr="636" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="162.8738" Y="372.4189" Z="386.7681"/>
 <b X="162.2525" Y="376.3603" Z="386.8222"/>
 <InfoNormRichtung vMax="2.7778" km="0.01" pos="1"/>
+<NachNorm Nr="637"/>
+<NachGegen Nr="635"/>
 </StrElement>
-<StrElement Nr="637" spTrass="2.7778" Fkt="2">
+<StrElement Nr="637" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="162.2525" Y="376.3603" Z="386.8222"/>
 <b X="160.6994" Y="380.0358" Z="386.8763"/>
 <InfoNormRichtung vMax="2.7778" km="0.014" pos="1"/>
+<NachNorm Nr="638"/>
+<NachGegen Nr="636"/>
 </StrElement>
-<StrElement Nr="638" spTrass="2.7778" Fkt="2">
+<StrElement Nr="638" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="160.6994" Y="380.0358" Z="386.8763"/>
 <b X="158.306" Y="383.2284" Z="386.9303"/>
 <InfoNormRichtung vMax="2.7778" km="0.018" pos="1"/>
+<NachNorm Nr="639"/>
+<NachGegen Nr="637"/>
 </StrElement>
-<StrElement Nr="639" spTrass="2.7778" Fkt="2">
+<StrElement Nr="639" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="158.306" Y="383.2284" Z="386.9303"/>
 <b X="155.2136" Y="385.7499" Z="386.9844"/>
 <InfoNormRichtung vMax="2.7778" km="0.022" pos="1"/>
+<NachNorm Nr="640"/>
+<NachGegen Nr="638"/>
 </StrElement>
-<StrElement Nr="640" spTrass="2.7778" Fkt="2">
+<StrElement Nr="640" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="155.2136" Y="385.7499" Z="386.9844"/>
 <b X="151.4338" Y="387.507" Z="387.0409"/>
 <InfoNormRichtung vMax="2.7778" km="0.0259" pos="1"/>
+<NachNorm Nr="617"/>
+<NachGegen Nr="639"/>
 </StrElement>
 <StrElement Nr="642" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="67.4987" Y="401.2438" Z="387.5395"/>
@@ -6642,62 +6897,83 @@
 <StrElement Nr="643" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="64.1224" Y="389.5685" Z="387.6283"/>
 <b X="56.988" Y="362.5254" Z="387.7534"/>
+<NachNorm Nr="644"/>
 <NachGegen Nr="642"/>
 </StrElement>
-<StrElement Nr="644" spTrass="27.7778" Fkt="2">
+<StrElement Nr="644" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="56.988" Y="362.5254" Z="387.7534"/>
 <b X="53.9348" Y="347.8578" Z="386.9171"/>
+<NachNorm Nr="645"/>
+<NachGegen Nr="643"/>
 </StrElement>
-<StrElement Nr="645" spTrass="27.7778" Fkt="2">
+<StrElement Nr="645" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="53.9348" Y="347.8578" Z="386.9171"/>
 <b X="54.8173" Y="342.699" Z="386.714"/>
+<NachNorm Nr="646"/>
+<NachGegen Nr="644"/>
 </StrElement>
-<StrElement Nr="646" spTrass="27.7778" Fkt="2">
+<StrElement Nr="646" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="54.8173" Y="342.699" Z="386.714"/>
 <b X="56.7767" Y="339.8661" Z="386.6047"/>
+<NachNorm Nr="647"/>
+<NachGegen Nr="645"/>
 </StrElement>
-<StrElement Nr="647" spTrass="27.7778" Fkt="2">
+<StrElement Nr="647" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="56.7767" Y="339.8661" Z="386.6047"/>
 <b X="63.6035" Y="336.4646" Z="386.4817"/>
+<NachNorm Nr="648"/>
+<NachGegen Nr="646"/>
 </StrElement>
-<StrElement Nr="648" spTrass="27.7778" Fkt="2">
+<StrElement Nr="648" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="63.6035" Y="336.4646" Z="386.4817"/>
 <b X="84.9693" Y="329.244" Z="386.2617"/>
+<NachNorm Nr="649"/>
+<NachGegen Nr="647"/>
 </StrElement>
-<StrElement Nr="649" spTrass="27.7778" Fkt="2">
+<StrElement Nr="649" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="84.9693" Y="329.244" Z="386.2617"/>
 <b X="108.2087" Y="318.642" Z="385.8103"/>
 <NachNorm Nr="650"/>
+<NachGegen Nr="648"/>
 </StrElement>
 <StrElement Nr="650" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="108.2087" Y="318.642" Z="385.8103"/>
 <b X="139.5118" Y="303.4687" Z="384.9991"/>
+<NachNorm Nr="651"/>
 <NachGegen Nr="649"/>
 </StrElement>
-<StrElement Nr="651" spTrass="27.7778" Fkt="2">
+<StrElement Nr="651" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="139.5118" Y="303.4687" Z="384.9991"/>
 <b X="144.4388" Y="301.9781" Z="384.9264"/>
+<NachGegen Nr="650"/>
 </StrElement>
-<StrElement Nr="653" spTrass="1.3889" Fkt="2">
+<StrElement Nr="653" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="64.8639" Y="416.0187" Z="387.5664"/>
 <b X="68.0127" Y="413.6332" Z="387.5607"/>
 <InfoNormRichtung vMax="1.3889" pos="1"/>
+<NachNorm Nr="654"/>
+<NachGegen Nr="520"/>
 </StrElement>
-<StrElement Nr="654" spTrass="1.3889" Fkt="2">
+<StrElement Nr="654" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="68.0127" Y="413.6332" Z="387.5607"/>
 <b X="69.4633" Y="409.9588" Z="387.5542"/>
 <InfoNormRichtung vMax="1.3889" km="0.0039" pos="1"/>
+<NachNorm Nr="655"/>
+<NachGegen Nr="653"/>
 </StrElement>
-<StrElement Nr="655" spTrass="1.3889" Fkt="2">
+<StrElement Nr="655" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="69.4633" Y="409.9588" Z="387.5542"/>
 <b X="69.2138" Y="407.1747" Z="387.5491"/>
 <InfoNormRichtung vMax="1.3889" km="0.0079" pos="1"/>
+<NachNorm Nr="656"/>
+<NachGegen Nr="654"/>
 </StrElement>
-<StrElement Nr="656" spTrass="27.7778" Fkt="2">
+<StrElement Nr="656" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="69.2138" Y="407.1747" Z="387.5491"/>
 <b X="67.4987" Y="401.2438" Z="387.5395"/>
 <InfoNormRichtung vMax="27.7778" km="0.0107" pos="1"/>
 <NachNorm Nr="642"/>
+<NachGegen Nr="655"/>
 </StrElement>
 <StrElement Nr="658" spTrass="25" Anschluss="256" Fkt="2">
 <g X="262.0599" Y="396.3091" Z="386.8481"/>
@@ -6759,7 +7035,7 @@
 <g X="291.516" Y="413.4449" Z="386.5609"/>
 <b X="297.4942" Y="411.8015" Z="386.5435"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="73"/>
+<Ereignis Er="1000027" Wert="73" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="294.47" Y="412.63" Z="386.55"/>
 <phi/>
@@ -6774,7 +7050,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" Wert="72"/>
+<Ereignis Er="1000027" Wert="72" Beschr="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 <Signal NameBetriebsstelle="Freihöls" Stellwerk="Freihöls Stw2" Signalname="BÜ km 81,349 Schranke2" SignalTyp="14" BoundingR="1">
 <p X="294.47" Y="412.63" Z="386.55"/>
 <phi Z="3.141593"/>
@@ -6802,48 +7078,65 @@
 <g X="37.8822" Y="427.2647" Z="387.4599"/>
 <b X="39.6927" Y="426.4149" Z="387.4691"/>
 <InfoNormRichtung vMax="27.7778" pos="1"/>
+<NachNorm Nr="671"/>
 <NachGegen Nr="528"/>
 </StrElement>
-<StrElement Nr="671" spTrass="27.7778" Fkt="2">
+<StrElement Nr="671" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="39.6927" Y="426.4149" Z="387.4691"/>
 <b X="42.2788" Y="425.543" Z="387.4687"/>
 <InfoNormRichtung vMax="27.7778" km="0.002" pos="1"/>
+<NachNorm Nr="672"/>
+<NachGegen Nr="670"/>
 </StrElement>
-<StrElement Nr="672" spTrass="1.3889" Fkt="2">
+<StrElement Nr="672" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="42.2788" Y="425.543" Z="387.4687"/>
 <b X="44.6375" Y="425.6465" Z="387.4602"/>
 <InfoNormRichtung vMax="1.3889" km="0.0047" pos="1"/>
+<NachNorm Nr="673"/>
+<NachGegen Nr="671"/>
 </StrElement>
-<StrElement Nr="673" spTrass="1.3889" Fkt="2">
+<StrElement Nr="673" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="44.6375" Y="425.6465" Z="387.4602"/>
 <b X="48.0573" Y="427.6046" Z="387.4456"/>
 <InfoNormRichtung vMax="1.3889" km="0.0071" pos="1"/>
+<NachNorm Nr="674"/>
+<NachGegen Nr="672"/>
 </StrElement>
-<StrElement Nr="674" spTrass="1.3889" Fkt="2">
+<StrElement Nr="674" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="48.0573" Y="427.6046" Z="387.4456"/>
 <b X="49.4297" Y="429.7877" Z="387.4399"/>
 <InfoNormRichtung vMax="1.3889" km="0.011" pos="1"/>
+<NachNorm Nr="679"/>
+<NachGegen Nr="673"/>
 </StrElement>
 <StrElement Nr="676" spTrass="1.3889" Fkt="2">
 <g X="53.8776" Y="420.3445" Z="387.5752"/>
 <b X="50.8692" Y="422.4941" Z="387.5501"/>
 <InfoNormRichtung vMax="1.3889" pos="1"/>
+<NachNorm Nr="677"/>
+<NachGegen Nr="520"/>
 </StrElement>
-<StrElement Nr="677" spTrass="1.3889" Fkt="2">
+<StrElement Nr="677" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="50.8692" Y="422.4941" Z="387.5501"/>
 <b X="49.1768" Y="426.0677" Z="387.4934"/>
 <InfoNormRichtung vMax="1.3889" km="0.0037" pos="1"/>
+<NachNorm Nr="678"/>
+<NachGegen Nr="676"/>
 </StrElement>
-<StrElement Nr="678" spTrass="1.3889" Fkt="2">
+<StrElement Nr="678" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="49.1768" Y="426.0677" Z="387.4934"/>
 <b X="49.4297" Y="429.7877" Z="387.4399"/>
 <InfoNormRichtung vMax="1.3889" km="0.0077" pos="1"/>
+<NachNorm Nr="679"/>
+<NachGegen Nr="677"/>
 </StrElement>
-<StrElement Nr="679" spTrass="27.7778" Fkt="2">
+<StrElement Nr="679" spTrass="27.7778" Anschluss="768" Fkt="2">
 <g X="49.4297" Y="429.7877" Z="387.4399"/>
 <b X="50.05" Y="431.6891" Z="387.4116"/>
-<InfoNormRichtung vMax="27.7778" km="0.0114" pos="1"/>
-<InfoGegenRichtung vMax="-1"/>
+<InfoNormRichtung vMax="27.7778" km="0.0114" pos="1" Reg="5029"/>
+<InfoGegenRichtung vMax="-1" Reg="5029"/>
+<NachGegen Nr="674"/>
+<NachGegen Nr="678"/>
 </StrElement>
 <StrElement Nr="680" spTrass="27.7778" Fkt="2">
 <g X="307.0163" Y="472.0086" Z="385.415"/>
@@ -6859,35 +7152,44 @@
 <StrElement Nr="683" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="355.4194" Y="447.9169" Z="385.7495"/>
 <b X="370.6482" Y="444.5396" Z="385.7847"/>
+<NachNorm Nr="684"/>
 <NachGegen Nr="702"/>
 </StrElement>
-<StrElement Nr="684" spTrass="27.7778" Fkt="2">
+<StrElement Nr="684" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="370.6482" Y="444.5396" Z="385.7847"/>
 <b X="420.957" Y="436.5707" Z="385.4669"/>
 <NachNorm Nr="685"/>
+<NachGegen Nr="683"/>
 </StrElement>
 <StrElement Nr="685" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="420.957" Y="436.5707" Z="385.4669"/>
 <b X="433.1773" Y="434.73" Z="385.4031"/>
+<NachNorm Nr="686"/>
 <NachGegen Nr="684"/>
 </StrElement>
-<StrElement Nr="686" spTrass="27.7778" Fkt="2">
+<StrElement Nr="686" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="433.1773" Y="434.73" Z="385.4031"/>
 <b X="442.4669" Y="433.8693" Z="385.3431"/>
 <NachNorm Nr="687"/>
+<NachGegen Nr="685"/>
 </StrElement>
 <StrElement Nr="687" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="442.4669" Y="433.8693" Z="385.3431"/>
 <b X="451.7176" Y="433.2897" Z="385.3273"/>
+<NachNorm Nr="688"/>
 <NachGegen Nr="686"/>
 </StrElement>
-<StrElement Nr="688" spTrass="27.7778" Fkt="2">
+<StrElement Nr="688" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="451.7176" Y="433.2897" Z="385.3273"/>
 <b X="465.1404" Y="433.2335" Z="385.2892"/>
+<NachNorm Nr="689"/>
+<NachGegen Nr="687"/>
 </StrElement>
-<StrElement Nr="689" spTrass="27.7778" Fkt="2">
+<StrElement Nr="689" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="465.1404" Y="433.2335" Z="385.2892"/>
 <b X="493.7502" Y="434.687" Z="385.0934"/>
+<NachNorm Nr="781"/>
+<NachGegen Nr="688"/>
 </StrElement>
 <StrElement Nr="691" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="330.7383" Y="457.9041" Z="385.6656"/>
@@ -7004,9 +7306,13 @@
 <StrElement Nr="710" kr="-0.000519" spTrass="27.7778" Fkt="2">
 <g X="1178.4417" Y="558.4825" Z="376.467"/>
 <b X="1172.5814" Y="555.3737" Z="376.5375"/>
-<InfoNormRichtung vMax="27.7778" pos="1"/>
+<InfoNormRichtung vMax="27.7778" pos="1" Reg="5030"/>
+<InfoGegenRichtung vMax="-1" Reg="5030"/>
 <NachNorm Nr="711"/>
 <NachGegen Nr="707"/>
+<NachGegenModul Nr="207">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="711" kr="-0.000519" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="1172.5814" Y="555.3737" Z="376.5375"/>
@@ -7272,21 +7578,26 @@
 <NachNorm Nr="762"/>
 <NachGegen Nr="765"/>
 </StrElement>
-<StrElement Nr="754" spTrass="1.3889" Fkt="2">
+<StrElement Nr="754" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="638.6708" Y="816.8534" Z="377.5553"/>
 <b X="640.9514" Y="813.6617" Z="377.5434"/>
 <InfoNormRichtung vMax="1.3889" pos="1"/>
+<NachNorm Nr="755"/>
+<NachGegen Nr="362"/>
 </StrElement>
-<StrElement Nr="755" spTrass="1.3889" Fkt="2">
+<StrElement Nr="755" spTrass="1.3889" Anschluss="256" Fkt="2">
 <g X="640.9514" Y="813.6617" Z="377.5434"/>
 <b X="640.7247" Y="809.7893" Z="377.5631"/>
 <InfoNormRichtung vMax="1.3889" km="0.0039" pos="1"/>
+<NachNorm Nr="756"/>
+<NachGegen Nr="754"/>
 </StrElement>
-<StrElement Nr="756" spTrass="27.7778" Fkt="2">
+<StrElement Nr="756" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="640.7247" Y="809.7893" Z="377.5631"/>
 <b X="639.7604" Y="807.4828" Z="377.5916"/>
 <InfoNormRichtung vMax="27.7778" km="0.0078" pos="1"/>
 <NachNorm Nr="757"/>
+<NachGegen Nr="755"/>
 </StrElement>
 <StrElement Nr="757" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="639.7604" Y="807.4828" Z="377.5916"/>
@@ -7439,26 +7750,33 @@
 <NachNorm Nr="830"/>
 <NachGegen Nr="784"/>
 </StrElement>
-<StrElement Nr="781" spTrass="5.5556" Fkt="2">
+<StrElement Nr="781" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="493.7502" Y="434.687" Z="385.0934"/>
 <b X="497.7486" Y="434.6895" Z="385.0701"/>
 <InfoNormRichtung vMax="5.5556" pos="1"/>
+<NachNorm Nr="782"/>
+<NachGegen Nr="689"/>
 </StrElement>
-<StrElement Nr="782" spTrass="5.5556" Fkt="2">
+<StrElement Nr="782" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="497.7486" Y="434.6895" Z="385.0701"/>
 <b X="501.3376" Y="434.3486" Z="385.055"/>
 <InfoNormRichtung vMax="5.5556" km="0.004" pos="1"/>
+<NachNorm Nr="783"/>
+<NachGegen Nr="781"/>
 </StrElement>
-<StrElement Nr="783" spTrass="5.5556" Fkt="2">
+<StrElement Nr="783" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="501.3376" Y="434.3486" Z="385.055"/>
 <b X="504.6734" Y="433.7332" Z="385.0413"/>
 <InfoNormRichtung vMax="5.5556" km="0.0076" pos="1"/>
+<NachNorm Nr="784"/>
+<NachGegen Nr="782"/>
 </StrElement>
-<StrElement Nr="784" spTrass="5.5556" Fkt="2">
+<StrElement Nr="784" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="504.6734" Y="433.7332" Z="385.0413"/>
 <b X="508.6106" Y="432.7115" Z="385.0249"/>
 <InfoNormRichtung vMax="5.5556" km="0.011" pos="1"/>
 <NachNorm Nr="779"/>
+<NachGegen Nr="783"/>
 </StrElement>
 <StrElement Nr="785" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="552.1937" Y="422.9297" Z="385.0426"/>
@@ -7481,18 +7799,22 @@
 <StrElement Nr="788" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="743.2032" Y="428.4135" Z="382.1935"/>
 <b X="749.924" Y="427.8475" Z="382.1336"/>
+<NachNorm Nr="791"/>
 <NachGegen Nr="804"/>
 </StrElement>
-<StrElement Nr="791" spTrass="2.7778" Fkt="2">
+<StrElement Nr="791" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="749.924" Y="427.8475" Z="382.1336"/>
 <b X="753.9205" Y="427.7661" Z="382.0944"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="792"/>
+<NachGegen Nr="788"/>
 </StrElement>
-<StrElement Nr="792" spTrass="2.7778" Fkt="2">
+<StrElement Nr="792" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="753.9205" Y="427.7661" Z="382.0944"/>
 <b X="755.9324" Y="427.918" Z="382.0715"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
 <NachNorm Nr="793"/>
+<NachGegen Nr="791"/>
 </StrElement>
 <StrElement Nr="793" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="755.9324" Y="427.918" Z="382.0715"/>
@@ -7512,48 +7834,64 @@
 <g X="709.6132" Y="431.302" Z="382.5444"/>
 <b X="713.5538" Y="431.9815" Z="382.4701"/>
 <InfoNormRichtung vMax="5.5556" pos="1"/>
+<NachNorm Nr="797"/>
 <NachGegen Nr="787"/>
 </StrElement>
-<StrElement Nr="797" spTrass="5.5556" Fkt="2">
+<StrElement Nr="797" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="713.5538" Y="431.9815" Z="382.4701"/>
 <b X="717.5379" Y="432.3246" Z="382.4117"/>
 <InfoNormRichtung vMax="5.5556" km="0.004" pos="1"/>
+<NachNorm Nr="798"/>
+<NachGegen Nr="796"/>
 </StrElement>
-<StrElement Nr="798" spTrass="5.5556" Fkt="2">
+<StrElement Nr="798" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="717.5379" Y="432.3246" Z="382.4117"/>
 <b X="721.5367" Y="432.3287" Z="382.3693"/>
 <InfoNormRichtung vMax="5.5556" km="0.008" pos="1"/>
+<NachNorm Nr="799"/>
+<NachGegen Nr="797"/>
 </StrElement>
-<StrElement Nr="799" spTrass="5.5556" Fkt="2">
+<StrElement Nr="799" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="721.5367" Y="432.3287" Z="382.3693"/>
 <b X="724.1696" Y="432.1458" Z="382.3481"/>
 <InfoNormRichtung vMax="5.5556" km="0.012" pos="1"/>
+<NachNorm Nr="800"/>
+<NachGegen Nr="798"/>
 </StrElement>
-<StrElement Nr="800" spTrass="5.5556" Fkt="2">
+<StrElement Nr="800" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="724.1696" Y="432.1458" Z="382.3481"/>
 <b X="728.1292" Y="431.5885" Z="382.3163"/>
 <InfoNormRichtung vMax="5.5556" km="0.0146" pos="1"/>
+<NachNorm Nr="801"/>
+<NachGegen Nr="799"/>
 </StrElement>
-<StrElement Nr="801" spTrass="5.5556" Fkt="2">
+<StrElement Nr="801" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="728.1292" Y="431.5885" Z="382.3163"/>
 <b X="731.738" Y="430.7759" Z="382.2868"/>
 <InfoNormRichtung vMax="5.5556" km="0.0186" pos="1"/>
+<NachNorm Nr="802"/>
+<NachGegen Nr="800"/>
 </StrElement>
-<StrElement Nr="802" spTrass="5.5556" Fkt="2">
+<StrElement Nr="802" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="731.738" Y="430.7759" Z="382.2868"/>
 <b X="735.2965" Y="429.764" Z="382.2574"/>
 <InfoNormRichtung vMax="5.5556" km="0.0223" pos="1"/>
+<NachNorm Nr="803"/>
+<NachGegen Nr="801"/>
 </StrElement>
-<StrElement Nr="803" spTrass="5.5556" Fkt="2">
+<StrElement Nr="803" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="735.2965" Y="429.764" Z="382.2574"/>
 <b X="739.2059" Y="428.9228" Z="382.2255"/>
 <InfoNormRichtung vMax="5.5556" km="0.026" pos="1"/>
+<NachNorm Nr="804"/>
+<NachGegen Nr="802"/>
 </StrElement>
-<StrElement Nr="804" spTrass="5.5556" Fkt="2">
+<StrElement Nr="804" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="739.2059" Y="428.9228" Z="382.2255"/>
 <b X="743.2032" Y="428.4135" Z="382.1935"/>
 <InfoNormRichtung vMax="5.5556" km="0.03" pos="1"/>
 <NachNorm Nr="788"/>
+<NachGegen Nr="803"/>
 </StrElement>
 <StrElement Nr="806" kr="0.008309" spTrass="8.3333" Anschluss="256" Fkt="2">
 <g X="645.3573" Y="420.6752" Z="384.1767"/>
@@ -7842,6 +8180,7 @@
 <StrElement Nr="851" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="300.663" Y="463.9967" Z="385.9633"/>
 <b X="303.7044" Y="471.8377" Z="385.5008"/>
+<NachNorm Nr="353"/>
 <NachGegen Nr="352"/>
 </StrElement>
 <StrElement Nr="852" spTrass="27.7778" Anschluss="256" Fkt="2">
@@ -7875,108 +8214,148 @@
 <g X="755.6457" Y="325.3483" Z="385.5397"/>
 <b X="753.6516" Y="325.199" Z="385.5542"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="860"/>
 <NachGegen Nr="855"/>
 </StrElement>
-<StrElement Nr="860" spTrass="2.7778" Fkt="2">
+<StrElement Nr="860" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="753.6516" Y="325.199" Z="385.5542"/>
 <b X="751.6521" Y="325.1807" Z="385.5667"/>
 <InfoNormRichtung vMax="2.7778" km="0.002" pos="1"/>
+<NachNorm Nr="861"/>
+<NachGegen Nr="859"/>
 </StrElement>
-<StrElement Nr="861" spTrass="2.7778" Fkt="2">
+<StrElement Nr="861" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="751.6521" Y="325.1807" Z="385.5667"/>
 <b X="749.6555" Y="325.2932" Z="385.5772"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="862"/>
+<NachGegen Nr="860"/>
 </StrElement>
-<StrElement Nr="862" spTrass="2.7778" Fkt="2">
+<StrElement Nr="862" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="749.6555" Y="325.2932" Z="385.5772"/>
 <b X="747.6708" Y="325.5363" Z="385.5857"/>
 <InfoNormRichtung vMax="2.7778" km="0.006" pos="1"/>
+<NachNorm Nr="863"/>
+<NachGegen Nr="861"/>
 </StrElement>
-<StrElement Nr="863" spTrass="2.7778" Fkt="2">
+<StrElement Nr="863" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="747.6708" Y="325.5363" Z="385.5857"/>
 <b X="745.7061" Y="325.9087" Z="385.5921"/>
 <InfoNormRichtung vMax="2.7778" km="0.008" pos="1"/>
+<NachNorm Nr="864"/>
+<NachGegen Nr="862"/>
 </StrElement>
-<StrElement Nr="864" spTrass="2.7778" Fkt="2">
+<StrElement Nr="864" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="745.7061" Y="325.9087" Z="385.5921"/>
 <b X="743.7701" Y="326.409" Z="385.5966"/>
 <InfoNormRichtung vMax="2.7778" km="0.01" pos="1"/>
+<NachNorm Nr="865"/>
+<NachGegen Nr="863"/>
 </StrElement>
-<StrElement Nr="865" spTrass="2.7778" Fkt="2">
+<StrElement Nr="865" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="743.7701" Y="326.409" Z="385.5966"/>
 <b X="741.8709" Y="327.035" Z="385.5991"/>
 <InfoNormRichtung vMax="2.7778" km="0.012" pos="1"/>
+<NachNorm Nr="866"/>
+<NachGegen Nr="864"/>
 </StrElement>
-<StrElement Nr="866" spTrass="2.7778" Fkt="2">
+<StrElement Nr="866" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="741.8709" Y="327.035" Z="385.5991"/>
 <b X="740.0168" Y="327.7839" Z="385.5996"/>
 <InfoNormRichtung vMax="2.7778" km="0.014" pos="1"/>
+<NachNorm Nr="867"/>
+<NachGegen Nr="865"/>
 </StrElement>
-<StrElement Nr="867" spTrass="2.7778" Fkt="2">
+<StrElement Nr="867" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="740.0168" Y="327.7839" Z="385.5996"/>
 <b X="738.8383" Y="328.3358" Z="385.5988"/>
 <InfoNormRichtung vMax="2.7778" km="0.016" pos="1"/>
+<NachNorm Nr="868"/>
+<NachGegen Nr="866"/>
 </StrElement>
-<StrElement Nr="868" spTrass="2.7778" Fkt="2">
+<StrElement Nr="868" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="738.8383" Y="328.3358" Z="385.5988"/>
 <b X="737.076" Y="329.2805" Z="385.597"/>
 <InfoNormRichtung vMax="2.7778" km="0.0173" pos="1"/>
+<NachNorm Nr="869"/>
+<NachGegen Nr="867"/>
 </StrElement>
-<StrElement Nr="869" spTrass="2.7778" Fkt="2">
+<StrElement Nr="869" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="737.076" Y="329.2805" Z="385.597"/>
 <b X="735.3793" Y="330.3386" Z="385.5952"/>
 <InfoNormRichtung vMax="2.7778" km="0.0193" pos="1"/>
+<NachNorm Nr="870"/>
+<NachGegen Nr="868"/>
 </StrElement>
-<StrElement Nr="870" spTrass="2.7778" Fkt="2">
+<StrElement Nr="870" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="735.3793" Y="330.3386" Z="385.5952"/>
 <b X="733.7554" Y="331.5054" Z="385.5934"/>
 <InfoNormRichtung vMax="2.7778" km="0.0213" pos="1"/>
+<NachNorm Nr="871"/>
+<NachGegen Nr="869"/>
 </StrElement>
-<StrElement Nr="871" spTrass="2.7778" Fkt="2">
+<StrElement Nr="871" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="733.7554" Y="331.5054" Z="385.5934"/>
 <b X="732.2115" Y="332.7762" Z="385.5915"/>
 <InfoNormRichtung vMax="2.7778" km="0.0233" pos="1"/>
+<NachNorm Nr="872"/>
+<NachGegen Nr="870"/>
 </StrElement>
-<StrElement Nr="872" spTrass="2.7778" Fkt="2">
+<StrElement Nr="872" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="732.2115" Y="332.7762" Z="385.5915"/>
 <b X="730.7541" Y="334.1452" Z="385.5897"/>
 <InfoNormRichtung vMax="2.7778" km="0.0253" pos="1"/>
+<NachNorm Nr="873"/>
+<NachGegen Nr="871"/>
 </StrElement>
-<StrElement Nr="873" spTrass="2.7778" Fkt="2">
+<StrElement Nr="873" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="730.7541" Y="334.1452" Z="385.5897"/>
 <b X="729.3892" Y="335.6068" Z="385.5879"/>
 <InfoNormRichtung vMax="2.7778" km="0.0273" pos="1"/>
+<NachNorm Nr="874"/>
+<NachGegen Nr="872"/>
 </StrElement>
-<StrElement Nr="874" spTrass="2.7778" Fkt="2">
+<StrElement Nr="874" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="729.3892" Y="335.6068" Z="385.5879"/>
 <b X="728.1233" Y="337.1545" Z="385.586"/>
 <InfoNormRichtung vMax="2.7778" km="0.0293" pos="1"/>
+<NachNorm Nr="875"/>
+<NachGegen Nr="873"/>
 </StrElement>
-<StrElement Nr="875" spTrass="2.7778" Fkt="2">
+<StrElement Nr="875" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="728.1233" Y="337.1545" Z="385.586"/>
 <b X="726.9611" Y="338.7819" Z="385.5842"/>
 <InfoNormRichtung vMax="2.7778" km="0.0313" pos="1"/>
+<NachNorm Nr="876"/>
+<NachGegen Nr="874"/>
 </StrElement>
-<StrElement Nr="876" spTrass="2.7778" Fkt="2">
+<StrElement Nr="876" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="726.9611" Y="338.7819" Z="385.5842"/>
 <b X="725.9081" Y="340.4818" Z="385.5824"/>
 <InfoNormRichtung vMax="2.7778" km="0.0333" pos="1"/>
+<NachNorm Nr="877"/>
+<NachGegen Nr="875"/>
 </StrElement>
-<StrElement Nr="877" spTrass="2.7778" Fkt="2">
+<StrElement Nr="877" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="725.9081" Y="340.4818" Z="385.5824"/>
 <b X="724.1468" Y="344.0699" Z="385.5788"/>
 <InfoNormRichtung vMax="2.7778" km="0.0353" pos="1"/>
+<NachNorm Nr="879"/>
+<NachGegen Nr="876"/>
 </StrElement>
-<StrElement Nr="879" spTrass="2.7778" Fkt="2">
+<StrElement Nr="879" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="724.1468" Y="344.0699" Z="385.5788"/>
 <b X="722.9338" Y="347.619" Z="385.5754"/>
 <InfoNormRichtung vMax="2.7778" km="0.0393" pos="1"/>
+<NachNorm Nr="881"/>
+<NachGegen Nr="877"/>
 </StrElement>
-<StrElement Nr="881" spTrass="2.7778" Fkt="2">
+<StrElement Nr="881" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="722.9338" Y="347.619" Z="385.5754"/>
 <b X="722.2763" Y="350.2307" Z="385.5729"/>
 <InfoNormRichtung vMax="2.7778" km="0.043" pos="1"/>
 <NachNorm Nr="856"/>
+<NachGegen Nr="879"/>
 </StrElement>
 <StrElement Nr="882" spTrass="27.7778" Anschluss="1" Fkt="2">
 <g X="710.9145" Y="408.7551" Z="383.1606"/>
@@ -8015,18 +8394,22 @@
 <g X="713.2302" Y="386.6925" Z="384.2066"/>
 <b X="712.5049" Y="389.9822" Z="384.0584"/>
 <InfoNormRichtung vMax="5.5556" km="0.0233" pos="1"/>
+<NachNorm Nr="890"/>
 <NachGegen Nr="887"/>
 </StrElement>
-<StrElement Nr="890" kr="-0.015542" spTrass="5.5556" Fkt="2">
+<StrElement Nr="890" kr="-0.015542" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="712.5049" Y="389.9822" Z="384.0584"/>
 <b X="711.9527" Y="393.3053" Z="383.9097"/>
 <InfoNormRichtung vMax="5.5556" km="0.0267" pos="1"/>
+<NachNorm Nr="892"/>
+<NachGegen Nr="888"/>
 </StrElement>
-<StrElement Nr="892" kr="-0.015542" spTrass="5.5556" Fkt="2">
+<StrElement Nr="892" kr="-0.015542" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="711.9527" Y="393.3053" Z="383.9097"/>
 <b X="711.5753" Y="396.6527" Z="383.761"/>
 <InfoNormRichtung vMax="5.5556" km="0.0301" pos="1"/>
 <NachNorm Nr="894"/>
+<NachGegen Nr="890"/>
 </StrElement>
 <StrElement Nr="894" kr="-0.015542" spTrass="5.5556" Anschluss="257" Fkt="2">
 <g X="711.5753" Y="396.6527" Z="383.761"/>
@@ -8103,6 +8486,7 @@
 <StrElement Nr="907" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="308.6917" Y="385.2009" Z="386.4638"/>
 <b X="315.706" Y="383.096" Z="386.5056"/>
+<NachNorm Nr="911"/>
 <NachGegen Nr="938"/>
 </StrElement>
 <StrElement Nr="908" spTrass="27.7778" Anschluss="256" Fkt="2">
@@ -8117,73 +8501,96 @@
 <NachNorm Nr="990"/>
 <NachGegen Nr="908"/>
 </StrElement>
-<StrElement Nr="911" spTrass="2.7778" Fkt="2">
+<StrElement Nr="911" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="315.706" Y="383.096" Z="386.5056"/>
 <b X="317.5851" Y="382.4143" Z="386.516"/>
 <InfoNormRichtung vMax="2.7778" pos="1"/>
+<NachNorm Nr="912"/>
+<NachGegen Nr="907"/>
 </StrElement>
-<StrElement Nr="912" spTrass="2.7778" Fkt="2">
+<StrElement Nr="912" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="317.5851" Y="382.4143" Z="386.516"/>
 <b X="319.3754" Y="381.5251" Z="386.5245"/>
 <InfoNormRichtung vMax="2.7778" km="0.002" pos="1"/>
+<NachNorm Nr="913"/>
+<NachGegen Nr="911"/>
 </StrElement>
-<StrElement Nr="913" spTrass="2.7778" Fkt="2">
+<StrElement Nr="913" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="319.3754" Y="381.5251" Z="386.5245"/>
 <b X="321.054" Y="380.4397" Z="386.531"/>
 <InfoNormRichtung vMax="2.7778" km="0.004" pos="1"/>
+<NachNorm Nr="914"/>
+<NachGegen Nr="912"/>
 </StrElement>
-<StrElement Nr="914" spTrass="2.7778" Fkt="2">
+<StrElement Nr="914" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="321.054" Y="380.4397" Z="386.531"/>
 <b X="322.5995" Y="379.1719" Z="386.5355"/>
 <InfoNormRichtung vMax="2.7778" km="0.006" pos="1"/>
+<NachNorm Nr="915"/>
+<NachGegen Nr="913"/>
 </StrElement>
-<StrElement Nr="915" spTrass="2.7778" Fkt="2">
+<StrElement Nr="915" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="322.5995" Y="379.1719" Z="386.5355"/>
 <b X="323.9922" Y="377.738" Z="386.5379"/>
 <InfoNormRichtung vMax="2.7778" km="0.008" pos="1"/>
+<NachNorm Nr="916"/>
+<NachGegen Nr="914"/>
 </StrElement>
-<StrElement Nr="916" spTrass="2.7778" Fkt="2">
+<StrElement Nr="916" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="323.9922" Y="377.738" Z="386.5379"/>
 <b X="325.2144" Y="376.1563" Z="386.5384"/>
 <InfoNormRichtung vMax="2.7778" km="0.01" pos="1"/>
+<NachNorm Nr="917"/>
+<NachGegen Nr="915"/>
 </StrElement>
-<StrElement Nr="917" spTrass="2.7778" Fkt="2">
+<StrElement Nr="917" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="325.2144" Y="376.1563" Z="386.5384"/>
 <b X="326.2505" Y="374.4468" Z="386.5369"/>
 <InfoNormRichtung vMax="2.7778" km="0.012" pos="1"/>
+<NachNorm Nr="918"/>
+<NachGegen Nr="916"/>
 </StrElement>
-<StrElement Nr="918" spTrass="2.7778" Fkt="2">
+<StrElement Nr="918" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="326.2505" Y="374.4468" Z="386.5369"/>
 <b X="327.0872" Y="372.6314" Z="386.5334"/>
 <InfoNormRichtung vMax="2.7778" km="0.014" pos="1"/>
+<NachNorm Nr="919"/>
+<NachGegen Nr="917"/>
 </StrElement>
-<StrElement Nr="919" spTrass="2.7778" Fkt="2">
+<StrElement Nr="919" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="327.0872" Y="372.6314" Z="386.5334"/>
 <b X="328.1163" Y="368.8181" Z="386.5208"/>
 <InfoNormRichtung vMax="2.7778" km="0.016" pos="1"/>
+<NachNorm Nr="921"/>
+<NachGegen Nr="918"/>
 </StrElement>
-<StrElement Nr="921" spTrass="2.7778" Fkt="2">
+<StrElement Nr="921" spTrass="2.7778" Anschluss="256" Fkt="2">
 <g X="328.1163" Y="368.8181" Z="386.5208"/>
 <b X="328.2957" Y="365.215" Z="386.5073"/>
 <InfoNormRichtung vMax="2.7778" km="0.0199" pos="1"/>
+<NachNorm Nr="923"/>
+<NachGegen Nr="919"/>
 </StrElement>
-<StrElement Nr="923" spTrass="27.7778" Fkt="2">
+<StrElement Nr="923" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="328.2957" Y="365.215" Z="386.5073"/>
 <b X="327.7144" Y="354.1216" Z="386.4657"/>
 <InfoNormRichtung vMax="27.7778" km="0.0236" pos="1"/>
 <NachNorm Nr="908"/>
+<NachGegen Nr="921"/>
 </StrElement>
 <StrElement Nr="925" kr="0.021495" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="289.6452" Y="394.0015" Z="386.666"/>
 <b X="291.6224" Y="392.579" Z="386.6208"/>
 <InfoNormRichtung vMax="5.5556" pos="1"/>
+<NachNorm Nr="927"/>
 <NachGegen Nr="906"/>
 </StrElement>
-<StrElement Nr="927" kr="0.021495" spTrass="5.5556" Fkt="2">
+<StrElement Nr="927" kr="0.021495" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="291.6224" Y="392.579" Z="386.6208"/>
 <b X="293.6712" Y="391.262" Z="386.5875"/>
 <InfoNormRichtung vMax="5.5556" km="0.0024" pos="1"/>
 <NachNorm Nr="929"/>
+<NachGegen Nr="925"/>
 </StrElement>
 <StrElement Nr="929" kr="0.021495" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="293.6712" Y="391.262" Z="386.5875"/>
@@ -8203,18 +8610,22 @@
 <g X="296.4164" Y="389.7217" Z="386.5606"/>
 <b X="298.6083" Y="388.6595" Z="386.5426"/>
 <InfoNormRichtung vMax="5.5556" km="0.008" pos="1"/>
+<NachNorm Nr="933"/>
 <NachGegen Nr="930"/>
 </StrElement>
-<StrElement Nr="933" kr="0.021495" spTrass="5.5556" Fkt="2">
+<StrElement Nr="933" kr="0.021495" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="298.6083" Y="388.6595" Z="386.5426"/>
 <b X="301.9927" Y="387.2847" Z="386.5156"/>
 <InfoNormRichtung vMax="5.5556" km="0.0105" pos="1"/>
+<NachNorm Nr="936"/>
+<NachGegen Nr="931"/>
 </StrElement>
-<StrElement Nr="936" kr="0.021495" spTrass="5.5556" Fkt="2">
+<StrElement Nr="936" kr="0.021495" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="301.9927" Y="387.2847" Z="386.5156"/>
 <b X="304.4233" Y="386.4818" Z="386.4967"/>
 <InfoNormRichtung vMax="5.5556" km="0.0141" pos="1"/>
 <NachNorm Nr="938"/>
+<NachGegen Nr="933"/>
 </StrElement>
 <StrElement Nr="938" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="304.4233" Y="386.4818" Z="386.4967"/>
@@ -8226,23 +8637,31 @@
 <StrElement Nr="939" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="338.3552" Y="386.1524" Z="386.1586"/>
 <b X="332.5379" Y="387.7631" Z="386.2268"/>
+<NachNorm Nr="940"/>
 <NachGegen Nr="948"/>
 </StrElement>
-<StrElement Nr="940" spTrass="27.7778" Fkt="2">
+<StrElement Nr="940" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="332.5379" Y="387.7631" Z="386.2268"/>
 <b X="329.6962" Y="388.2484" Z="386.2608"/>
+<NachNorm Nr="941"/>
+<NachGegen Nr="939"/>
 </StrElement>
-<StrElement Nr="941" spTrass="27.7778" Fkt="2">
+<StrElement Nr="941" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="329.6962" Y="388.2484" Z="386.2608"/>
 <b X="325.0911" Y="388.1523" Z="386.3361"/>
+<NachNorm Nr="942"/>
+<NachGegen Nr="940"/>
 </StrElement>
-<StrElement Nr="942" spTrass="27.7778" Fkt="2">
+<StrElement Nr="942" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="325.0911" Y="388.1523" Z="386.3361"/>
 <b X="320.6366" Y="387.7632" Z="386.4229"/>
+<NachNorm Nr="943"/>
+<NachGegen Nr="941"/>
 </StrElement>
-<StrElement Nr="943" spTrass="27.7778" Fkt="2">
+<StrElement Nr="943" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="320.6366" Y="387.7632" Z="386.4229"/>
 <b X="316.0186" Y="386.6294" Z="386.4715"/>
+<NachGegen Nr="942"/>
 </StrElement>
 <StrElement Nr="945" kr="0.000993" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="384.4462" Y="374.0794" Z="385.7836"/>
@@ -8450,6 +8869,9 @@
 <g X="1107.1346" Y="224.0348" Z="383.1552"/>
 <b X="1124.8273" Y="220.7243" Z="383.0458"/>
 <NachGegen Nr="973"/>
+<NachNormModul Nr="210">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="981" kr="0.000151" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="699.0887" Y="300.7618" Z="385.2487"/>
@@ -8462,6 +8884,9 @@
 <g X="1087.6281" Y="25.2238" Z="380.4249"/>
 <b X="1049.2196" Y="33.4774" Z="380.9245"/>
 <NachNorm Nr="1037"/>
+<NachGegenModul Nr="217">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="984" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="674.8002" Y="103.5869" Z="383.6624"/>
@@ -8941,58 +9366,78 @@
 <g X="364.5468" Y="409.2003" Z="387.3287"/>
 <b X="362.5862" Y="409.8484" Z="387.2896"/>
 <InfoNormRichtung vMax="5.5556" km="0.0044" pos="1"/>
+<NachNorm Nr="1071"/>
 <NachGegen Nr="1067"/>
 </StrElement>
-<StrElement Nr="1071" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1071" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="362.5862" Y="409.8484" Z="387.2896"/>
 <b X="360.6621" Y="410.5983" Z="387.2334"/>
 <InfoNormRichtung vMax="5.5556" km="0.0064" pos="1"/>
+<NachNorm Nr="1073"/>
+<NachGegen Nr="1069"/>
 </StrElement>
-<StrElement Nr="1073" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1073" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="360.6621" Y="410.5983" Z="387.2334"/>
 <b X="358.7794" Y="411.4482" Z="387.1623"/>
 <InfoNormRichtung vMax="5.5556" km="0.0085" pos="1"/>
+<NachNorm Nr="1075"/>
+<NachGegen Nr="1071"/>
 </StrElement>
-<StrElement Nr="1075" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1075" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="358.7794" Y="411.4482" Z="387.1623"/>
 <b X="356.9443" Y="412.3951" Z="387.089"/>
 <InfoNormRichtung vMax="5.5556" km="0.0105" pos="1"/>
+<NachNorm Nr="1077"/>
+<NachGegen Nr="1073"/>
 </StrElement>
-<StrElement Nr="1077" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1077" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="356.9443" Y="412.3951" Z="387.089"/>
 <b X="355.1613" Y="413.4368" Z="387.0157"/>
 <InfoNormRichtung vMax="5.5556" km="0.0126" pos="1"/>
+<NachNorm Nr="1079"/>
+<NachGegen Nr="1075"/>
 </StrElement>
-<StrElement Nr="1079" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1079" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="355.1613" Y="413.4368" Z="387.0157"/>
 <b X="353.4352" Y="414.5704" Z="386.9424"/>
 <InfoNormRichtung vMax="5.5556" km="0.0147" pos="1"/>
+<NachNorm Nr="1081"/>
+<NachGegen Nr="1077"/>
 </StrElement>
-<StrElement Nr="1081" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1081" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="353.4352" Y="414.5704" Z="386.9424"/>
 <b X="351.7708" Y="415.7927" Z="386.8691"/>
 <InfoNormRichtung vMax="5.5556" km="0.0167" pos="1"/>
+<NachNorm Nr="1083"/>
+<NachGegen Nr="1079"/>
 </StrElement>
-<StrElement Nr="1083" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1083" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="351.7708" Y="415.7927" Z="386.8691"/>
 <b X="350.1727" Y="417.1005" Z="386.7958"/>
 <InfoNormRichtung vMax="5.5556" km="0.0188" pos="1"/>
+<NachNorm Nr="1085"/>
+<NachGegen Nr="1081"/>
 </StrElement>
-<StrElement Nr="1085" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1085" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="350.1727" Y="417.1005" Z="386.7958"/>
 <b X="348.6452" Y="418.4901" Z="386.7225"/>
 <InfoNormRichtung vMax="5.5556" km="0.0209" pos="1"/>
+<NachNorm Nr="1089"/>
+<NachGegen Nr="1083"/>
 </StrElement>
-<StrElement Nr="1089" kr="-0.025353" spTrass="5.5556" Fkt="2">
+<StrElement Nr="1089" kr="-0.025353" spTrass="5.5556" Anschluss="256" Fkt="2">
 <g X="348.6452" Y="418.4901" Z="386.7225"/>
 <b X="346.4955" Y="420.7197" Z="386.6126"/>
 <InfoNormRichtung vMax="5.5556" km="0.025" pos="1"/>
+<NachNorm Nr="1090"/>
+<NachGegen Nr="1085"/>
 </StrElement>
-<StrElement Nr="1090" spTrass="5.5556" Anschluss="1" Fkt="2">
+<StrElement Nr="1090" spTrass="5.5556" Anschluss="257" Fkt="2">
 <g X="346.4955" Y="420.7197" Z="386.6126"/>
 <b X="345.2517" Y="422.1859" Z="386.5443"/>
 <InfoNormRichtung vMax="5.5556" km="0.026" pos="1"/>
 <NachNorm Nr="1063"/>
+<NachGegen Nr="1089"/>
 </StrElement>
 <StrElement Nr="1097" spTrass="27.7778" Fkt="2">
 <g X="58.2281" Y="473.076" Z="387.0847"/>
@@ -9055,6 +9500,14 @@
 <InfoNormRichtung vMax="33.3333" km="81.114" pos="1"/>
 <NachNorm Nr="226"/>
 <NachGegen Nr="225"/>
+</StrElement>
+<StrElement Nr="1101" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="487.6832" Y="359.5212" Z="385.988"/>
+<b X="520.3734" Y="350.5352" Z="385.8925"/>
+<InfoNormRichtung vMax="33.3333" km="81.5486" pos="1"/>
+<InfoGegenRichtung vMax="-1"/>
+<NachNorm Nr="59"/>
+<NachGegen Nr="344"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Freihöls K" FahrstrTyp="TypZug" Laenge="418.5">
 <FahrstrStart Ref="11">
@@ -9211,7 +9664,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls B -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5724.2">
+<Fahrstrasse FahrstrName="Freihöls B -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5724.2002">
 <FahrstrStart Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9261,7 +9714,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls C -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5723.2">
+<Fahrstrasse FahrstrName="Freihöls C -&gt; Hiltersdorf F" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="5723.2002">
 <FahrstrStart Ref="26">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9311,7 +9764,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls H -&gt; Irrenlohe F" FahrstrStrecke="5904a" RglGgl="1" FahrstrTyp="TypZug" Laenge="7327.3">
+<Fahrstrasse FahrstrName="Freihöls H -&gt; Irrenlohe F" FahrstrStrecke="5904a" RglGgl="1" FahrstrTyp="TypZug" Laenge="7327.2998">
 <FahrstrStart Ref="17">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9363,6 +9816,12 @@
 <FahrstrSignal Ref="71" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="225" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="206" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -9376,7 +9835,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Freihöls J -&gt; Irrenlohe F" FahrstrStrecke="5904a" RglGgl="1" FahrstrTyp="TypZug" Laenge="7286.4">
+<Fahrstrasse FahrstrName="Freihöls J -&gt; Irrenlohe F" FahrstrStrecke="5904a" RglGgl="1" FahrstrTyp="TypZug" Laenge="7286.3999">
 <FahrstrStart Ref="56">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -9421,6 +9880,12 @@
 </FahrstrWeiche>
 <FahrstrSignal Ref="73" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="214" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="225" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="206" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
