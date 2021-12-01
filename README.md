@@ -18,11 +18,11 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Großwudicke
 * Schönhauser Damm
 * Hiltersdorf
-* Hildesheim Hbf
 * Freihöls
 * Schönhausen
 * Luitpoldhütte
 * Irrenlohe
+* Friedland
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -31,3 +31,5 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
 
 Die Module Hiltersdorf, Freihöls und Irrenlohe bilden ein zusammenhängendes Netz mit 24 km Länge (längste ohne Wendung mögliche Zugfahrt: 16 km).
+
+Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.
