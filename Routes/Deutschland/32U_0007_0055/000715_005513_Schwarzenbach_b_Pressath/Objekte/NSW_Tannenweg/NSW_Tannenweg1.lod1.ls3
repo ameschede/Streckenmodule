@@ -4,7 +4,48 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-0.365" V="-0.728">
+<p X="7.285" Y="-3.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.365" V="-0.271">
+<p X="2.715" Y="-3.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.835" V="-0.271">
+<p X="2.715" Y="-8.35"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.835" V="0.478">
+<p X="-4.785" Y="-8.35"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.365" V="0.478">
+<p X="-4.785" Y="-3.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.365" V="0.728">
+<p X="-7.285" Y="-3.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.835" V="0.728">
+<p X="-7.285" Y="8.35"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.835" V="-0.728">
+<p X="7.285" Y="8.35"/>
+<n Z="1"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="4;3;1"/>
+<Face i="6;5;4"/>
+<Face i="7;6;4"/>
+<Face i="7;4;1"/>
+<Face i="0;7;1"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Tannenweg.dds"/>

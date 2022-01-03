@@ -4,7 +4,28 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-0.508" V="-0.758">
+<p X="7.58" Y="-5.08"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.508" V="0.758">
+<p X="-7.58" Y="-5.08"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.508" V="0.758">
+<p X="-7.58" Y="5.08"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.508" V="-0.758">
+<p X="7.58" Y="5.08"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="3;2;0"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Doellnitz1_Zelthalle.dds"/>

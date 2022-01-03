@@ -4,7 +4,78 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-6.26" V="-1.785">
+<p X="17.85" Y="-62.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.26" V="-0.885">
+<p X="8.85" Y="-62.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-5.26" V="-0.885">
+<p X="8.85" Y="-52.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-5.26" V="0.885">
+<p X="-8.85" Y="-52.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.76" V="0.885">
+<p X="-8.85" Y="-17.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.76" V="1.535">
+<p X="-15.35" Y="-17.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1.76" V="1.535">
+<p X="-15.35" Y="17.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1.76" V="0.885">
+<p X="-8.85" Y="17.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.26" V="0.885">
+<p X="-8.85" Y="52.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.26" V="-1.535">
+<p X="15.35" Y="52.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.26" V="-1.535">
+<p X="15.35" Y="-12.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.26" V="-0.885">
+<p X="8.85" Y="-12.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.24" V="-0.885">
+<p X="8.85" Y="-32.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-3.24" V="-1.785">
+<p X="17.85" Y="-32.4"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="2;0;13"/>
+<Face i="2;13;12"/>
+<Face i="4;3;2"/>
+<Face i="4;2;12"/>
+<Face i="4;12;11"/>
+<Face i="6;5;4"/>
+<Face i="7;6;4"/>
+<Face i="7;4;11"/>
+<Face i="9;8;7"/>
+<Face i="10;9;7"/>
+<Face i="10;7;11"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Kessl.dds"/>

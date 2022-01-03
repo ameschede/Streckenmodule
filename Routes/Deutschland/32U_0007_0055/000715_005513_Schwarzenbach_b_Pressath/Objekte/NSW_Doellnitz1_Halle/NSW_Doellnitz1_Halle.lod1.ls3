@@ -4,7 +4,38 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="0.295" V="0.05">
+<p X="-0.5" Y="2.95"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="2.105" V="0.05">
+<p X="-0.5" Y="21.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="2.105" V="-1.85">
+<p X="18.5" Y="21.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.105" V="-1.85">
+<p X="18.5" Y="-21.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.105" V="1.85">
+<p X="-18.5" Y="-21.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.295" V="1.85">
+<p X="-18.5" Y="2.95"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="3;2;0"/>
+<Face i="4;3;0"/>
+<Face i="5;4;0"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Doellnitz1_Halle.dds"/>

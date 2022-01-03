@@ -4,7 +4,43 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-4.25" V="-3.45">
+<p X="34.5" Y="-42.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.25" V="-1.1">
+<p X="11" Y="-42.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="2.25" V="3.75">
+<p X="-37.5" Y="22.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="4.25" V="3.75">
+<p X="-37.5" Y="42.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="4.25" V="-3.75">
+<p X="37.5" Y="42.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.25" V="-3.75">
+<p X="37.5" Y="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.25" V="-3.45">
+<p X="34.5" Y="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Face i="4;3;2"/>
+<Face i="4;2;1"/>
+<Face i="6;5;4"/>
+<Face i="6;4;1"/>
+<Face i="0;6;1"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Holzfachmarkt.dds"/>

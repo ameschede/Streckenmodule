@@ -4,7 +4,38 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-0.97" V="1.895">
+<p X="-18.95" Y="-9.7"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.97" V="1.895">
+<p X="-18.95" Y="9.7"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.97" V="-1.145">
+<p X="11.45" Y="9.7"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.23" V="-1.145">
+<p X="11.45" Y="-2.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.23" V="-1.895">
+<p X="18.95" Y="-2.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.97" V="-1.895">
+<p X="18.95" Y="-9.7"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="3;2;0"/>
+<Face i="3;0;5"/>
+<Face i="4;3;5"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Kessl.dds"/>

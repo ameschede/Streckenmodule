@@ -4,7 +4,7 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Eichenstrasse20.dds"/>
@@ -186,37 +186,6 @@
 <Face i="6;22;16"/>
 <Face i="16;1;6"/>
 <Face i="20;25;19"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="16" TypGF="1">
-<RenderFlags TexVoreinstellung="1"/>
-<Vertex U="-0.475" V="-0.775">
-<p X="7.75" Y="-4.75"/>
-<n X="-0.0003" Y="-0.0005" Z="1"/>
-</Vertex>
-<Vertex U="-0.475" V="-0.025">
-<p X="0.25" Y="-4.75"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="-0.375" V="-0.025">
-<p X="0.25" Y="-3.75"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="-0.375" V="0.775">
-<p X="-7.75" Y="-3.75"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.475" V="0.775">
-<p X="-7.75" Y="4.75"/>
-<n X="-0.0003" Y="-0.0005" Z="1"/>
-</Vertex>
-<Vertex U="0.475" V="-0.775">
-<p X="7.75" Y="4.75" Z="0.0048"/>
-<n X="-0.0003" Y="-0.0005" Z="1"/>
-</Vertex>
-<Face i="4;5;0"/>
-<Face i="0;1;2"/>
-<Face i="4;0;2"/>
-<Face i="3;4;2"/>
 </SubSet>
 </Landschaft>
 </Zusi>

@@ -4,7 +4,57 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFFFFFFF" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-1.1" V="-0.295">
+<p X="2.95" Y="-11"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.1" V="0.903">
+<p X="-9.0285" Y="-11"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.32" V="0.903">
+<p X="-9.0285" Y="-3.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.32" V="-0.265">
+<p X="2.65" Y="-3.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.2" V="-0.265">
+<p X="2.65" Y="-2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.2" V="0.2">
+<p X="-2" Y="-2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1.1" V="0.2">
+<p X="-2" Y="11"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1.1" V="-0.9">
+<p X="9" Y="11"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.2" V="-0.9">
+<p X="9" Y="-2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.2" V="-0.295">
+<p X="2.95" Y="-2"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="3;2;0"/>
+<Face i="3;0;9"/>
+<Face i="4;3;9"/>
+<Face i="6;5;4"/>
+<Face i="7;6;4"/>
+<Face i="8;7;4"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Eichenstrasse2.dds"/>

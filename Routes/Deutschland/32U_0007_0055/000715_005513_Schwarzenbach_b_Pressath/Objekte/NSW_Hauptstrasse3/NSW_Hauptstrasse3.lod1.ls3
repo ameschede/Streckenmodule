@@ -4,7 +4,48 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFFFFFFF" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="0.85" V="-0.14">
+<p X="1.4" Y="8.5"/>
+<n X="-0.0364" Z="0.9993"/>
+</Vertex>
+<Vertex U="0.275" V="-0.14">
+<p X="1.4" Y="2.75"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.275" V="-0.82">
+<p X="8.2" Y="2.75"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.705" V="-0.82">
+<p X="8.2" Y="-7.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.705" V="-0.14">
+<p X="1.4" Y="-7.05"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.85" V="-0.14">
+<p X="1.4" Y="-8.5" Z="-0.35"/>
+<n Y="-0.2346" Z="0.9721"/>
+</Vertex>
+<Vertex U="-0.85" V="0.82">
+<p X="-8.2" Y="-8.5" Z="-0.35"/>
+<n Y="-0.2346" Z="0.9721"/>
+</Vertex>
+<Vertex U="0.85" V="0.82">
+<p X="-8.2" Y="8.5" Z="-0.35"/>
+<n X="-0.0364" Z="0.9993"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="4;3;1"/>
+<Face i="6;5;4"/>
+<Face i="7;6;4"/>
+<Face i="7;4;1"/>
+<Face i="0;7;1"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Hauptstrasse3.dds"/>

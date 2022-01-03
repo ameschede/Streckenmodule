@@ -4,7 +4,28 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFFFFFFF" TypGF="1">
+<SubSet Cd="FF8000FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex U="-0.58" V="-0.25">
+<p X="2.5" Y="-5.8"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.58" V="0.25">
+<p X="-2.5" Y="-5.8"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.58" V="0.25">
+<p X="-2.5" Y="5.8"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.58" V="-0.25">
+<p X="2.5" Y="5.8"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Eichenstrasse_Schuppen.dds"/>

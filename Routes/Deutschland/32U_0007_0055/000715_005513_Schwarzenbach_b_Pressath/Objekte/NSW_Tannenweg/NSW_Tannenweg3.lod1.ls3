@@ -4,7 +4,51 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FFFF0080" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="7.285" Y="5.7652"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="7.285" Y="-6.2348"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="-7.285" Y="-6.2348"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="-7.285" Y="5.7652"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="-4.785" Y="6.9152"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="-4.785" Y="10.4652"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="2.715" Y="10.4652"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="2.715" Y="5.7652"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="2.715" Y="6.9152"/>
+<n Z="-1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="2;0;7"/>
+<Face i="3;2;7"/>
+<Face i="6;5;4"/>
+<Face i="8;6;4"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Tannenweg.dds"/>
@@ -5372,8 +5416,8 @@
 <Face i="1105;1106;1207"/>
 <Face i="845;844;843"/>
 <Face i="843;846;845"/>
-<Face i="538;127;126"/>
-<Face i="126;437;538"/>
+<Face i="126;127;538"/>
+<Face i="538;437;126"/>
 <Face i="304;438;539"/>
 <Face i="539;305;304"/>
 <Face i="1056;1055;1054"/>

@@ -695,6 +695,9 @@
 <ReferenzElemente ReferenzNr="318" StrElement="10852" StrNorm="1" RefTyp="4" Info="Signal: Luitpoldhütte Lsf f"/>
 <ReferenzElemente ReferenzNr="319" StrElement="10852" StrNorm="1" RefTyp="2" Info="Register-Nr. 5069"/>
 <ReferenzElemente ReferenzNr="320" StrElement="10852" RefTyp="2" Info="Register-Nr. 5069"/>
+<ReferenzElemente ReferenzNr="321" StrElement="69" RefTyp="4" Info="Signal: Luitpoldhütte Gleis 1"/>
+<ReferenzElemente ReferenzNr="322" StrElement="69" StrNorm="1" RefTyp="2" Info="Register-Nr. 5001"/>
+<ReferenzElemente ReferenzNr="323" StrElement="69" RefTyp="2" Info="Register-Nr. 5001"/>
 <StrElement Nr="1" spTrass="30.5556" Oberbau="B70 SKL-Oberbau">
 <g X="-786.6674" Y="-1608.6149" Z="378.3529"/>
 <b X="-789.624" Y="-1605.575" Z="378.3569"/>
@@ -1266,8 +1269,60 @@
 <StrElement Nr="69" Ueberh="0.0323" kr="-0.000545" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1453.972" Y="-678.7578" Z="380.4847"/>
 <b X="-1458.5822" Y="-670.6098" Z="380.5056"/>
-<InfoNormRichtung vMax="30.5556" km="64.1197"/>
-<InfoGegenRichtung vMax="30.5556" km="64.1104" pos="1"/>
+<InfoNormRichtung vMax="30.5556" km="64.1197" Reg="5001"/>
+<InfoGegenRichtung vMax="30.5556" km="64.1104" pos="1" Reg="5001">
+<Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="Gleis 1" SignalTyp="13" BoundingR="10">
+<p X="-1453.972" Y="-678.7578" Z="380.4847"/>
+<phi Z="5.227278"/>
+<SignalFrame>
+<p/>
+<phi Z="-3.141592"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Schutzhaltsignale\sh2_tafel.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
+<HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="32" Wert="500" Beschr="710"/>
+</MatrixEintrag>
+<MatrixEintrag>
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag MatrixGeschw="6.9444">
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="1">
+<Ereignis Er="23"/>
+</MatrixEintrag>
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="32" Wert="500" Beschr="10710"/>
+<Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000710">
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="32" Wert="500"/>
+</MatrixEintrag>
+</Ersatzsignal>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010710">
+<MatrixEintrag MatrixGeschw="11.1111">
+<Ereignis Er="28" Wert="1"/>
+<Ereignis Er="32" Wert="500"/>
+</MatrixEintrag>
+</Ersatzsignal>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="70"/>
 <NachGegen Nr="68"/>
 </StrElement>
@@ -1386,10 +1441,10 @@
 <StrElement Nr="84" Ueberh="0.0041" kr="-0.000066" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1309.007" Y="-904.7539" Z="379.8748"/>
 <b X="-1315.994" Y="-894.8746" Z="379.9022"/>
-<InfoNormRichtung vMax="30.5556" km="64.3887" Reg="5001">
+<InfoNormRichtung vMax="30.5556" km="64.3887" Reg="5002">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="64.3766" pos="1" Reg="5001"/>
+<InfoGegenRichtung vMax="30.5556" km="64.3766" pos="1" Reg="5002"/>
 <NachNorm Nr="85"/>
 <NachGegen Nr="83"/>
 </StrElement>
@@ -1412,8 +1467,8 @@
 <StrElement Nr="87" Ueberh="0.0244" kr="-0.000394" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1329.905" Y="-875.0701" Z="379.9571"/>
 <b X="-1338.334" Y="-862.8986" Z="379.9907"/>
-<InfoNormRichtung vMax="30.5556" km="64.3524" Reg="5002"/>
-<InfoGegenRichtung vMax="30.5556" km="64.3376" pos="1" Reg="5002">
+<InfoNormRichtung vMax="30.5556" km="64.3524" Reg="5003"/>
+<InfoGegenRichtung vMax="30.5556" km="64.3376" pos="1" Reg="5003">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="1" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1331.3438" Y="-876.0665" Z="379.9571"/>
 <phi Z="-0.965111"/>
@@ -1694,7 +1749,7 @@
 <StrElement Nr="117" Ueberh="-0.023" kr="0.000394" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1709.6671" Y="17.2396" Z="382.1695"/>
 <b X="-1711.0739" Y="20.984" Z="382.1786"/>
-<InfoNormRichtung vMax="-1" Reg="5003">
+<InfoNormRichtung vMax="-1" Reg="5004">
 <Ereignis Er="6" Beschr="@sep=A 50@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="N1" SignalTyp="9" BoundingR="10">
 <p X="-1708.0782" Y="22.1094" Z="381.6786"/>
@@ -1731,7 +1786,7 @@
 </SignalFrame>
 <SignalFrame>
 <p Y="3.2" Z="0.5"/>
-<phi/>
+<phi X="-0.023"/>
 <sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
@@ -1839,7 +1894,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="63.3727" pos="1" Reg="5003"/>
+<InfoGegenRichtung vMax="30.5556" km="63.3727" pos="1" Reg="5004"/>
 <NachNorm Nr="1417"/>
 <NachGegen Nr="116"/>
 </StrElement>
@@ -1910,10 +1965,10 @@
 <StrElement Nr="126" Ueberh="-0.023" kr="0.000528" spTrass="30.5556" Anschluss="1" Oberbau="B70 SKL-Oberbau">
 <g X="-1819.1349" Y="262.9712" Z="383.0908"/>
 <b X="-1822.533" Y="269.3295" Z="383.1174"/>
-<InfoNormRichtung vMax="30.5556" km="63.1078" Reg="5004">
+<InfoNormRichtung vMax="30.5556" km="63.1078" Reg="5005">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="63.1006" pos="1" Reg="5004"/>
+<InfoGegenRichtung vMax="30.5556" km="63.1006" pos="1" Reg="5005"/>
 <NachNorm Nr="181"/>
 <NachGegen Nr="436"/>
 </StrElement>
@@ -2168,9 +2223,9 @@
 <StrElement Nr="158" Ueberh="0.023" kr="-0.000485" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1993.9438" Y="536.8892" Z="384.1284"/>
 <b X="-1991.243" Y="533.2898" Z="384.1181"/>
-<InfoNormRichtung vMax="-1" Reg="5005">
+<InfoNormRichtung vMax="-1" Reg="5006">
 <Ereignis Er="6" Beschr="Ne 1"/>
-<Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="Ne 1 a" SignalTyp="13" BoundingR="10">
+<Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="A\" SignalTyp="13" BoundingR="10">
 <p X="-1988.7635" Y="535.1503" Z="384.1181"/>
 <phi Z="-0.927075"/>
 <SignalFrame>
@@ -2223,7 +2278,7 @@
 </SignalFrame>
 <SignalFrame>
 <p Y="-3.1"/>
-<phi/>
+<phi X="0.023"/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
@@ -2258,7 +2313,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="62.7873" Reg="5005"/>
+<InfoGegenRichtung vMax="30.5556" km="62.7873" Reg="5006"/>
 <NachNorm Nr="2307"/>
 <NachGegen Nr="157"/>
 </StrElement>
@@ -3169,7 +3224,7 @@
 <b X="-2572.647" Y="1203.533" Z="385.0866"/>
 <InfoNormRichtung vMax="27.7778" km="61.9884"/>
 <InfoGegenRichtung vMax="30.5556" km="61.8975" pos="1">
-<Ereignis Er="4011" Wert="1" Beschr="1"/>
+<Ereignis Er="4011"/>
 <Ereignis Er="4010" Wert="44.4444"/>
 </InfoGegenRichtung>
 <NachNorm Nr="263"/>
@@ -3178,8 +3233,8 @@
 <StrElement Nr="263" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2572.647" Y="1203.533" Z="385.0866"/>
 <b X="-2622.1287" Y="1279.7599" Z="385.0843"/>
-<InfoNormRichtung vMax="27.7778" km="61.8975" Reg="5006"/>
-<InfoGegenRichtung vMax="30.5556" km="61.8066" pos="1" Reg="5006"/>
+<InfoNormRichtung vMax="27.7778" km="61.8975" Reg="5007"/>
+<InfoGegenRichtung vMax="30.5556" km="61.8066" pos="1" Reg="5007"/>
 <NachGegen Nr="262"/>
 <NachNormModul Nr="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
@@ -3460,7 +3515,7 @@
 <StrElement Nr="298" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1274.2419" Y="-953.8866" Z="379.7383"/>
 <b X="-1274.9351" Y="-952.907" Z="379.741"/>
-<InfoNormRichtung vMax="-1" km="64.449" pos="1" Reg="5007">
+<InfoNormRichtung vMax="-1" km="64.449" pos="1" Reg="5008">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="29" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1274.2419" Y="-953.8866" Z="379.7383"/>
 <phi Y="-0.002267" Z="2.186592"/>
@@ -3507,7 +3562,7 @@
 <MatrixEintrag Signalbild="93" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.4478" pos="1" Reg="5007"/>
+<InfoGegenRichtung vMax="-1" km="64.4478" pos="1" Reg="5008"/>
 <NachNorm Nr="299"/>
 <NachNorm Nr="300"/>
 <NachGegen Nr="1424"/>
@@ -3706,7 +3761,7 @@
 <StrElement Nr="320" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1329.079" Y="-883.313" Z="379.9407"/>
 <b X="-1328.386" Y="-884.2925" Z="379.938"/>
-<InfoNormRichtung vMax="-1" km="64.3597" pos="1" Reg="5008">
+<InfoNormRichtung vMax="-1" km="64.3597" pos="1" Reg="5009">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="28" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1329.079" Y="-883.313" Z="379.9407"/>
 <phi Y="0.002267" Z="-0.955001"/>
@@ -3753,7 +3808,7 @@
 <MatrixEintrag Signalbild="93" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.3609" Reg="5008"/>
+<InfoGegenRichtung vMax="-1" km="64.3609" Reg="5009"/>
 <NachNorm Nr="321"/>
 <NachNorm Nr="322"/>
 <NachGegen Nr="358"/>
@@ -4167,7 +4222,7 @@
 <StrElement Nr="368" Ueberh="-0.0279" kr="0.000496" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1463.2469" Y="-673.2004" Z="380.5061"/>
 <b X="-1460.8022" Y="-677.562" Z="380.4946"/>
-<InfoNormRichtung vMax="-1" Reg="5009">
+<InfoNormRichtung vMax="-1" Reg="5010">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="P2" SignalTyp="9" BoundingR="10">
 <p X="-1462.983" Y="-678.7844" Z="380.4946"/>
@@ -4216,7 +4271,7 @@
 </SignalFrame>
 <SignalFrame>
 <p Y="2.5"/>
-<phi/>
+<phi X="-0.0279"/>
 <sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
@@ -4328,7 +4383,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.1153" Reg="5009"/>
+<InfoGegenRichtung vMax="-1" km="64.1153" Reg="5010"/>
 <NachNorm Nr="1409"/>
 <NachGegen Nr="367"/>
 </StrElement>
@@ -4431,8 +4486,8 @@
 <StrElement Nr="381" Ueberh="-0.0279" kr="0.000496" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1374.958" Y="-817.3611" Z="380.1227"/>
 <b X="-1367.671" Y="-828.1357" Z="380.0932"/>
-<InfoNormRichtung vMax="30.5556" km="64.2794" pos="1" Reg="5010"/>
-<InfoGegenRichtung vMax="-1" km="64.2924" Reg="5010">
+<InfoNormRichtung vMax="30.5556" km="64.2794" pos="1" Reg="5011"/>
+<InfoGegenRichtung vMax="-1" km="64.2924" Reg="5011">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="382"/>
@@ -4465,7 +4520,7 @@
 <StrElement Nr="385" Ueberh="0.0032" kr="-0.000072" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1336.433" Y="-872.9194" Z="379.9695"/>
 <b X="-1337.126" Y="-871.9398" Z="379.9723"/>
-<InfoNormRichtung vMax="-1" km="64.3469" pos="1" Reg="5011">
+<InfoNormRichtung vMax="-1" km="64.3469" pos="1" Reg="5012">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="27" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1336.433" Y="-872.9195" Z="379.9695"/>
 <phi Y="-0.002267" Z="2.186477"/>
@@ -4512,7 +4567,7 @@
 <MatrixEintrag Signalbild="93" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.3457" pos="1" Reg="5011"/>
+<InfoGegenRichtung vMax="-1" km="64.3457" pos="1" Reg="5012"/>
 <NachNorm Nr="386"/>
 <NachNorm Nr="387"/>
 <NachGegen Nr="383"/>
@@ -4644,7 +4699,7 @@
 <StrElement Nr="400" kr="0.000889" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1389.479" Y="-804.6571" Z="380.1647"/>
 <b X="-1388.7542" Y="-805.6138" Z="380.162"/>
-<InfoNormRichtung vMax="-1" km="64.2609" pos="1" Reg="5012">
+<InfoNormRichtung vMax="-1" km="64.2609" pos="1" Reg="5013">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="26" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1389.479" Y="-804.6571" Z="380.1647"/>
 <phi Y="0.002255" Z="-0.923183"/>
@@ -4685,7 +4740,7 @@
 <MatrixEintrag Signalbild="27" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.2621" Reg="5012"/>
+<InfoGegenRichtung vMax="-1" km="64.2621" Reg="5013"/>
 <NachNorm Nr="401"/>
 <NachNorm Nr="403"/>
 <NachGegen Nr="450"/>
@@ -4941,8 +4996,8 @@
 <StrElement Nr="434" Ueberh="-0.023" kr="0.000528" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1788.614" Y="203.0398" Z="382.8425"/>
 <b X="-1794.2729" Y="214.5571" Z="382.8898"/>
-<InfoNormRichtung vMax="30.5556" km="63.175" Reg="5013"/>
-<InfoGegenRichtung vMax="30.5556" km="63.1622" pos="1" Reg="5013">
+<InfoNormRichtung vMax="30.5556" km="63.175" Reg="5014"/>
+<InfoGegenRichtung vMax="30.5556" km="63.1622" pos="1" Reg="5014">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="435"/>
@@ -4959,7 +5014,7 @@
 <StrElement Nr="436" Ueberh="0.023" kr="-0.000528" spTrass="30.5556" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1819.1349" Y="262.9712" Z="383.0908"/>
 <b X="-1818.572" Y="261.9115" Z="383.0864"/>
-<InfoNormRichtung vMax="-1" km="63.1078" pos="1" Reg="5014">
+<InfoNormRichtung vMax="-1" km="63.1078" pos="1" Reg="5015">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="1" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1819.1349" Y="262.9712" Z="383.0908"/>
 <phi Y="0.003693" Z="-1.082015"/>
@@ -5006,7 +5061,7 @@
 <MatrixEintrag Signalbild="93" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="63.109" Reg="5014"/>
+<InfoGegenRichtung vMax="30.5556" km="63.109" Reg="5015"/>
 <NachNorm Nr="437"/>
 <NachNorm Nr="438"/>
 <NachGegen Nr="126"/>
@@ -5146,7 +5201,7 @@
 <StrElement Nr="452" kr="0.000889" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1392.714" Y="-800.4014" Z="380.1768"/>
 <b X="-1393.443" Y="-799.4482" Z="380.1794"/>
-<InfoNormRichtung vMax="-1" km="64.2556" pos="1" Reg="5015">
+<InfoNormRichtung vMax="-1" km="64.2556" pos="1" Reg="5016">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="25" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1392.714" Y="-800.4014" Z="380.1768"/>
 <phi Y="-0.002251" Z="2.22316"/>
@@ -5193,7 +5248,7 @@
 <MatrixEintrag Signalbild="59" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.2544" pos="1" Reg="5015"/>
+<InfoGegenRichtung vMax="-1" km="64.2544" pos="1" Reg="5016"/>
 <NachNorm Nr="453"/>
 <NachNorm Nr="454"/>
 <NachGegen Nr="450"/>
@@ -5325,7 +5380,7 @@
 <StrElement Nr="467" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1424.291" Y="-759.7501" Z="380.2924"/>
 <b X="-1425.028" Y="-758.8031" Z="380.2951"/>
-<InfoNormRichtung vMax="-1" km="64.2046" pos="1" Reg="5016">
+<InfoNormRichtung vMax="-1" km="64.2046" pos="1" Reg="5017">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="23" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1424.291" Y="-759.7501" Z="380.2924"/>
 <phi Y="-0.002164" Z="2.232096"/>
@@ -5378,7 +5433,7 @@
 <MatrixEintrag Signalbild="123" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.2034" pos="1" Reg="5016"/>
+<InfoGegenRichtung vMax="-1" km="64.2034" pos="1" Reg="5017"/>
 <NachNorm Nr="468"/>
 <NachNorm Nr="469"/>
 <NachGegen Nr="451"/>
@@ -5555,10 +5610,10 @@
 <StrElement Nr="488" kr="-0.000638" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1452.855" Y="-710.7628" Z="380.42"/>
 <b X="-1458.514" Y="-701.6392" Z="380.4443"/>
-<InfoNormRichtung vMax="-1" km="64.1483" Reg="5017">
+<InfoNormRichtung vMax="-1" km="64.1483" Reg="5018">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.1375" pos="1" Reg="5017"/>
+<InfoGegenRichtung vMax="-1" km="64.1375" pos="1" Reg="5018"/>
 <NachNorm Nr="489"/>
 <NachGegen Nr="487"/>
 </StrElement>
@@ -5581,8 +5636,8 @@
 <StrElement Nr="491" kr="-0.000638" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1469.6429" Y="-683.277" Z="380.4928"/>
 <b X="-1475.113" Y="-674.0392" Z="380.5171"/>
-<InfoNormRichtung vMax="-1" km="64.1161" Reg="5018"/>
-<InfoGegenRichtung vMax="-1" km="64.1054" pos="1" Reg="5018">
+<InfoNormRichtung vMax="-1" km="64.1161" Reg="5019"/>
+<InfoGegenRichtung vMax="-1" km="64.1054" pos="1" Reg="5019">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="P4" SignalTyp="9" BoundingR="10">
 <p X="-1471.579" Y="-684.4234" Z="380.4928"/>
@@ -5993,7 +6048,7 @@
 <StrElement Nr="519" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1416.8138" Y="-766.5459" Z="380.2705"/>
 <b X="-1417.4698" Y="-765.541" Z="380.2732"/>
-<InfoNormRichtung vMax="-1" km="64.2142" Reg="5019">
+<InfoNormRichtung vMax="-1" km="64.2142" Reg="5020">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="24" SignalFlags="3" SignalTyp="2" BoundingR="50">
 <p X="-1416.8138" Y="-766.5459" Z="380.2705"/>
 <phi Y="-0.002255" Z="2.148952"/>
@@ -6046,7 +6101,7 @@
 <MatrixEintrag Signalbild="189" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.213" pos="1" Reg="5019"/>
+<InfoGegenRichtung vMax="-1" km="64.213" pos="1" Reg="5020"/>
 <NachNorm Nr="522"/>
 <NachNorm Nr="530"/>
 <NachGegen Nr="460"/>
@@ -6194,10 +6249,10 @@
 <StrElement Nr="536" kr="0.0004" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1451.6418" Y="-706.0804" Z="380.4273"/>
 <b X="-1457.8741" Y="-694.7692" Z="380.4575"/>
-<InfoNormRichtung vMax="-1" km="64.1451" Reg="5020">
+<InfoNormRichtung vMax="-1" km="64.1451" Reg="5021">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.1321" pos="1" Reg="5020"/>
+<InfoGegenRichtung vMax="-1" km="64.1321" pos="1" Reg="5021"/>
 <NachNorm Nr="537"/>
 <NachGegen Nr="535"/>
 </StrElement>
@@ -6396,7 +6451,7 @@
 <StrElement Nr="561" Ueberh="-0.023" kr="-0.000529" spTrass="30.5556" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1780.4479" Y="175.5438" Z="382.7377"/>
 <b X="-1780.957" Y="176.6308" Z="382.7422"/>
-<InfoNormRichtung vMax="30.5556" km="63.2034" pos="1" Reg="5021">
+<InfoNormRichtung vMax="30.5556" km="63.2034" pos="1" Reg="5022">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="2" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1780.4479" Y="175.5438" Z="382.7377"/>
 <phi Y="-0.003702" Z="-4.273971"/>
@@ -6443,7 +6498,7 @@
 <MatrixEintrag Signalbild="91" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.2021" pos="1" Reg="5021"/>
+<InfoGegenRichtung vMax="-1" km="63.2021" pos="1" Reg="5022"/>
 <NachNorm Nr="562"/>
 <NachNorm Nr="563"/>
 <NachGegen Nr="576"/>
@@ -6601,10 +6656,10 @@
 <StrElement Nr="579" Ueberh="-0.023" kr="0.000484" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1808.2332" Y="232.3155" Z="382.9417"/>
 <b X="-1813.8831" Y="243.3043" Z="382.9912"/>
-<InfoNormRichtung vMax="30.5556" km="63.1401" Reg="5022">
+<InfoNormRichtung vMax="30.5556" km="63.1401" Reg="5023">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="63.1277" pos="1" Reg="5022"/>
+<InfoGegenRichtung vMax="30.5556" km="63.1277" pos="1" Reg="5023"/>
 <NachNorm Nr="580"/>
 <NachGegen Nr="578"/>
 </StrElement>
@@ -7126,10 +7181,10 @@
 <StrElement Nr="633" Ueberh="0.023" kr="-0.000529" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1753.9968" Y="116.5184" Z="382.4982"/>
 <b X="-1749.9009" Y="106.8688" Z="382.4595"/>
-<InfoNormRichtung vMax="30.5556" km="63.2681" pos="1" Reg="5023">
+<InfoNormRichtung vMax="30.5556" km="63.2681" pos="1" Reg="5024">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="63.2786" Reg="5023"/>
+<InfoGegenRichtung vMax="30.5556" km="63.2786" Reg="5024"/>
 <NachNorm Nr="634"/>
 <NachGegen Nr="632"/>
 </StrElement>
@@ -7160,7 +7215,7 @@
 <StrElement Nr="637" Ueberh="0.023" kr="-0.000529" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1775.1351" Y="164.1107" Z="382.6911"/>
 <b X="-1774.6331" Y="163.0207" Z="382.6866"/>
-<InfoNormRichtung vMax="-1" km="63.216" pos="1" Reg="5024">
+<InfoNormRichtung vMax="-1" km="63.216" pos="1" Reg="5025">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="3" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1775.1351" Y="164.1107" Z="382.6911"/>
 <phi Y="0.003702" Z="-1.139051"/>
@@ -7207,7 +7262,7 @@
 <MatrixEintrag Signalbild="93" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.2172" Reg="5024"/>
+<InfoGegenRichtung vMax="-1" km="63.2172" Reg="5025"/>
 <NachNorm Nr="638"/>
 <NachNorm Nr="639"/>
 <NachGegen Nr="576"/>
@@ -7355,7 +7410,7 @@
 <StrElement Nr="654" kr="-0.002257" spTrass="27.7778" Fkt="4" Oberbau="B70 SKL-Oberbau">
 <g X="-1744.226" Y="74.9894" Z="382.3423"/>
 <b X="-1744.609" Y="76.1266" Z="382.3467"/>
-<InfoNormRichtung vMax="-1" km="63.3103" pos="1" Reg="5025">
+<InfoNormRichtung vMax="-1" km="63.3103" pos="1" Reg="5026">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="4" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1744.226" Y="74.9894" Z="382.3423"/>
 <phi Y="-0.003702" Z="-4.386002"/>
@@ -7396,7 +7451,7 @@
 <MatrixEintrag Signalbild="43" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.3091" pos="1" Reg="5025"/>
+<InfoGegenRichtung vMax="-1" km="63.3091" pos="1" Reg="5026"/>
 <NachNorm Nr="655"/>
 <NachNorm Nr="657"/>
 <NachGegen Nr="671"/>
@@ -7565,7 +7620,7 @@
 <StrElement Nr="673" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1741.2759" Y="66.2747" Z="382.3082"/>
 <b X="-1740.892" Y="65.138" Z="382.3037"/>
-<InfoNormRichtung vMax="-1" km="63.3196" pos="1" Reg="5026">
+<InfoNormRichtung vMax="-1" km="63.3196" pos="1" Reg="5027">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="5" SignalFlags="3" SignalTyp="2" BoundingR="43">
 <p X="-1741.2759" Y="66.2747" Z="382.3082"/>
 <phi Y="0.002496" Z="-1.244409"/>
@@ -7612,7 +7667,7 @@
 <MatrixEintrag Signalbild="93" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.3208" Reg="5026"/>
+<InfoGegenRichtung vMax="-1" km="63.3208" Reg="5027"/>
 <NachNorm Nr="674"/>
 <NachNorm Nr="675"/>
 <NachGegen Nr="671"/>
@@ -7782,7 +7837,7 @@
 <StrElement Nr="693" kr="0.002046" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1708.795" Y="-14.3655" Z="382.1015"/>
 <b X="-1710.941" Y="-8.7772" Z="382.1151"/>
-<InfoNormRichtung vMax="-1" km="63.4068" Reg="5027">
+<InfoNormRichtung vMax="-1" km="63.4068" Reg="5028">
 <Ereignis Er="6" Beschr="@sep=A 50@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="N3" SignalTyp="9" BoundingR="10">
 <p X="-1708.8405" Y="-7.9706" Z="382.1151"/>
@@ -7945,7 +8000,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.4008" pos="1" Reg="5027"/>
+<InfoGegenRichtung vMax="-1" km="63.4008" pos="1" Reg="5028"/>
 <NachNorm Nr="694"/>
 <NachGegen Nr="1415"/>
 </StrElement>
@@ -8654,7 +8709,7 @@
 <StrElement Nr="782" spTrass="30.5556" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1769.679" Y="138.7007" Z="382.5969"/>
 <b X="-1768.995" Y="137.0358" Z="382.5902"/>
-<InfoNormRichtung vMax="-1" km="63.2414" pos="1" Reg="5028">
+<InfoNormRichtung vMax="-1" km="63.2414" pos="1" Reg="5029">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="6" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="-1769.679" Y="138.7007" Z="382.5969"/>
 <phi Y="0.003711" Z="-1.180939"/>
@@ -8695,7 +8750,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.2432" Reg="5028"/>
+<InfoGegenRichtung vMax="-1" km="63.2432" Reg="5029"/>
 <NachNorm Nr="783"/>
 <NachNorm Nr="785"/>
 <NachGegen Nr="702"/>
@@ -8795,7 +8850,7 @@
 <StrElement Nr="793" spTrass="30.5556" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1757.151" Y="101.662" Z="382.4521"/>
 <b X="-1756.8199" Y="100.5085" Z="382.4477"/>
-<InfoNormRichtung vMax="-1" km="63.2806" pos="1" Reg="5029">
+<InfoNormRichtung vMax="-1" km="63.2806" pos="1" Reg="5030">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="7" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1757.151" Y="101.662" Z="382.4521"/>
 <phi Y="0.003693" Z="-1.291598"/>
@@ -8836,7 +8891,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="27.7778" km="63.2818" Reg="5029"/>
+<InfoGegenRichtung vMax="27.7778" km="63.2818" Reg="5030"/>
 <NachNorm Nr="794"/>
 <NachNorm Nr="796"/>
 <NachGegen Nr="792"/>
@@ -8970,7 +9025,7 @@
 <StrElement Nr="808" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1749.6719" Y="75.5739" Z="382.3518"/>
 <b X="-1749.326" Y="74.3661" Z="382.3472"/>
-<InfoNormRichtung vMax="-1" km="63.3078" pos="1" Reg="5030">
+<InfoNormRichtung vMax="-1" km="63.3078" pos="1" Reg="5031">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="8" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1749.6559" Y="75.5196" Z="382.3516"/>
 <phi Y="0.003229" Z="-1.291598"/>
@@ -9011,7 +9066,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.309" Reg="5030"/>
+<InfoGegenRichtung vMax="-1" km="63.309" Reg="5031"/>
 <NachNorm Nr="809"/>
 <NachNorm Nr="811"/>
 <NachGegen Nr="802"/>
@@ -9145,7 +9200,7 @@
 <StrElement Nr="823" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1741.4351" Y="46.8419" Z="382.2582"/>
 <b X="-1741.104" Y="45.6884" Z="382.2555"/>
-<InfoNormRichtung vMax="-1" km="63.3377" pos="1" Reg="5031">
+<InfoNormRichtung vMax="-1" km="63.3377" pos="1" Reg="5032">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="10" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1741.4351" Y="46.8419" Z="382.2582"/>
 <phi Y="0.002274" Z="-1.291598"/>
@@ -9186,7 +9241,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.3389" Reg="5031"/>
+<InfoGegenRichtung vMax="-1" km="63.3389" Reg="5032"/>
 <NachNorm Nr="824"/>
 <NachNorm Nr="826"/>
 <NachGegen Nr="807"/>
@@ -9312,10 +9367,10 @@
 <StrElement Nr="837" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1732.2198" Y="21.3576" Z="382.1963"/>
 <b X="-1727.34" Y="9.4784" Z="382.167"/>
-<InfoNormRichtung vMax="-1" km="63.365" pos="1" Reg="5032">
+<InfoNormRichtung vMax="-1" km="63.365" pos="1" Reg="5033">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.3778" Reg="5032"/>
+<InfoGegenRichtung vMax="-1" km="63.3778" Reg="5033"/>
 <NachNorm Nr="860"/>
 <NachGegen Nr="833"/>
 </StrElement>
@@ -9330,10 +9385,10 @@
 <StrElement Nr="839" kr="-0.00081" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1454.0411" Y="-717.2397" Z="380.4112"/>
 <b X="-1459.5811" Y="-708.5125" Z="380.431"/>
-<InfoNormRichtung vMax="-1" km="64.1522" Reg="5033">
+<InfoNormRichtung vMax="-1" km="64.1522" Reg="5034">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.1418" pos="1" Reg="5033"/>
+<InfoGegenRichtung vMax="-1" km="64.1418" pos="1" Reg="5034"/>
 <NachNorm Nr="840"/>
 <NachGegen Nr="838"/>
 </StrElement>
@@ -10067,7 +10122,7 @@
 <StrElement Nr="928" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1741.184" Y="31.1952" Z="382.2246"/>
 <b X="-1741" Y="30.0094" Z="382.2219"/>
-<InfoNormRichtung vMax="-1" km="63.3525" pos="1" Reg="5034">
+<InfoNormRichtung vMax="-1" km="63.3525" pos="1" Reg="5035">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="11" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1741.184" Y="31.1952" Z="382.2246"/>
 <phi Y="0.002238" Z="-1.416982"/>
@@ -10108,7 +10163,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.3537" Reg="5034"/>
+<InfoGegenRichtung vMax="-1" km="63.3537" Reg="5035"/>
 <NachNorm Nr="929"/>
 <NachNorm Nr="931"/>
 <NachGegen Nr="927"/>
@@ -10384,8 +10439,8 @@
 <StrElement Nr="961" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1613.446" Y="-389.391" Z="381.225"/>
 <b X="-1584.61" Y="-478.7988" Z="381.0108"/>
-<InfoNormRichtung vMax="30.5556" km="63.7933" pos="1" Reg="5035"/>
-<InfoGegenRichtung vMax="30.5556" km="63.8872" Reg="5035"/>
+<InfoNormRichtung vMax="30.5556" km="63.7933" pos="1" Reg="5036"/>
+<InfoGegenRichtung vMax="30.5556" km="63.8872" Reg="5036"/>
 <NachGegen Nr="960"/>
 </StrElement>
 <StrElement Nr="962" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
@@ -10447,8 +10502,8 @@
 <StrElement Nr="969" kr="0.004796" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1731.165" Y="-23.8656" Z="382.0983"/>
 <b X="-1730.0159" Y="-27.8245" Z="382.0888"/>
-<InfoNormRichtung vMax="30.5556" km="63.4082" pos="1" Reg="5036"/>
-<InfoGegenRichtung vMax="30.5556" km="63.4123" Reg="5036">
+<InfoNormRichtung vMax="30.5556" km="63.4082" pos="1" Reg="5037"/>
+<InfoGegenRichtung vMax="30.5556" km="63.4123" Reg="5037">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="8" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1729.0042" Y="-23.2384" Z="382.0983"/>
 <phi Z="1.85328"/>
@@ -10583,7 +10638,7 @@
 <StrElement Nr="981" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1746.0679" Y="23.4758" Z="382.2121"/>
 <b X="-1745.97" Y="22.2797" Z="382.2094"/>
-<InfoNormRichtung vMax="-1" km="63.358" pos="1" Reg="5037">
+<InfoNormRichtung vMax="-1" km="63.358" pos="1" Reg="5038">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="12" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1746.0679" Y="23.4758" Z="382.2121"/>
 <phi Y="0.002206" Z="-1.489743"/>
@@ -10624,7 +10679,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.3592" Reg="5037"/>
+<InfoGegenRichtung vMax="-1" km="63.3592" Reg="5038"/>
 <NachNorm Nr="982"/>
 <NachNorm Nr="984"/>
 <NachGegen Nr="979"/>
@@ -10758,7 +10813,7 @@
 <StrElement Nr="996" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1742.0439" Y="-3.3541" Z="382.1511"/>
 <b X="-1741.8149" Y="-4.5321" Z="382.1484"/>
-<InfoNormRichtung vMax="-1" km="63.3849" pos="1" Reg="5038">
+<InfoNormRichtung vMax="-1" km="63.3849" pos="1" Reg="5039">
 <Signal NameBetriebsstelle="luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="14" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1742.0439" Y="-3.3541" Z="382.1511"/>
 <phi Y="0.002271" Z="-1.379084"/>
@@ -10799,7 +10854,7 @@
 <MatrixEintrag Signalbild="45" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.3861" Reg="5038"/>
+<InfoGegenRichtung vMax="-1" km="63.3861" Reg="5039"/>
 <NachNorm Nr="997"/>
 <NachNorm Nr="999"/>
 <NachGegen Nr="991"/>
@@ -10997,8 +11052,8 @@
 <StrElement Nr="1019" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1725.5861" Y="-57.7505" Z="382.0205"/>
 <b X="-1721.75" Y="-68.06" Z="381.9989"/>
-<InfoNormRichtung vMax="30.5556" km="63.4425" pos="1" Reg="5039"/>
-<InfoGegenRichtung vMax="30.5556" km="63.4535" Reg="5039">
+<InfoNormRichtung vMax="30.5556" km="63.4425" pos="1" Reg="5040"/>
+<InfoGegenRichtung vMax="30.5556" km="63.4535" Reg="5040">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="9" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1723.4773" Y="-56.9659" Z="382.0205"/>
 <phi Z="1.927013"/>
@@ -11295,7 +11350,7 @@
 <StrElement Nr="1052" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1659.759" Y="-294.2205" Z="381.4626"/>
 <b X="-1659.3929" Y="-295.3634" Z="381.4599"/>
-<InfoNormRichtung vMax="-1" km="63.6885" pos="1" Reg="5040">
+<InfoNormRichtung vMax="-1" km="63.6885" pos="1" Reg="5041">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="137" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1659.759" Y="-294.2205" Z="381.4626"/>
 <phi Y="0.002267" Z="-1.261164"/>
@@ -11342,7 +11397,7 @@
 <MatrixEintrag Signalbild="115" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.6897" Reg="5040"/>
+<InfoGegenRichtung vMax="-1" km="63.6897" Reg="5041"/>
 <NachNorm Nr="1053"/>
 <NachNorm Nr="1056"/>
 <NachGegen Nr="10771"/>
@@ -11505,8 +11560,8 @@
 <StrElement Nr="1071" kr="0.003727" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1737.657" Y="-47.3269" Z="382.0523"/>
 <b X="-1736.58" Y="-51.9196" Z="382.0415"/>
-<InfoNormRichtung vMax="30.5556" km="63.4285" pos="1" Reg="5041"/>
-<InfoGegenRichtung vMax="30.5556" km="63.4332" Reg="5041">
+<InfoNormRichtung vMax="30.5556" km="63.4285" pos="1" Reg="5042"/>
+<InfoGegenRichtung vMax="30.5556" km="63.4332" Reg="5042">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="11" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1735.4664" Y="-46.8132" Z="382.0523"/>
 <phi Z="1.801142"/>
@@ -11614,7 +11669,7 @@
 <StrElement Nr="1079" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1610.951" Y="-467.1734" Z="381.0522"/>
 <b X="-1611.319" Y="-466.0313" Z="381.0568"/>
-<InfoNormRichtung vMax="-1" km="63.8695" pos="1" Reg="5042">
+<InfoNormRichtung vMax="-1" km="63.8695" pos="1" Reg="5043">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="139" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1610.951" Y="-467.1734" Z="381.0522"/>
 <phi Y="-0.002299" Z="-4.400595"/>
@@ -11661,7 +11716,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.8684" pos="1" Reg="5042"/>
+<InfoGegenRichtung vMax="-1" km="63.8684" pos="1" Reg="5043"/>
 <NachNorm Nr="1080"/>
 <NachNorm Nr="1083"/>
 <NachGegen Nr="1077"/>
@@ -11825,7 +11880,7 @@
 <StrElement Nr="1098" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1612.0439" Y="-443.3676" Z="381.1027"/>
 <b X="-1611.6781" Y="-444.5106" Z="381.1027"/>
-<InfoNormRichtung vMax="-1" km="63.8473" pos="1" Reg="5043">
+<InfoNormRichtung vMax="-1" km="63.8473" pos="1" Reg="5044">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="141" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1612.0439" Y="-443.3676" Z="381.1027"/>
 <phi Y="0.001838" Z="-1.261164"/>
@@ -11872,7 +11927,7 @@
 <MatrixEintrag Signalbild="173" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.8461" pos="1" Reg="5043"/>
+<InfoGegenRichtung vMax="-1" km="63.8461" pos="1" Reg="5044"/>
 <NachNorm Nr="1099"/>
 <NachNorm Nr="1102"/>
 <NachGegen Nr="1051"/>
@@ -11980,7 +12035,7 @@
 <StrElement Nr="1110" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1584.121" Y="-506.2387" Z="380.9557"/>
 <b X="-1584.6351" Y="-505.1541" Z="380.9557"/>
-<InfoNormRichtung vMax="-1" km="63.9121" pos="1" Reg="5044">
+<InfoNormRichtung vMax="-1" km="63.9121" pos="1" Reg="5045">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="142" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1584.121" Y="-506.2387" Z="380.9557"/>
 <phi Y="-0.001838" Z="-4.270206"/>
@@ -12027,7 +12082,7 @@
 <MatrixEintrag Signalbild="173" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.9109" pos="1" Reg="5044"/>
+<InfoGegenRichtung vMax="-1" km="63.9109" pos="1" Reg="5045"/>
 <NachNorm Nr="1111"/>
 <NachNorm Nr="1114"/>
 <NachGegen Nr="1108"/>
@@ -12166,7 +12221,7 @@
 <StrElement Nr="1127" spTrass="27.7778" Fkt="4" Oberbau="Holz K-Oberbau">
 <g X="-1643.355" Y="-366.6337" Z="381.2949"/>
 <b X="-1643.724" Y="-365.4915" Z="381.2976"/>
-<InfoNormRichtung vMax="-1" km="63.7625" pos="1" Reg="5045">
+<InfoNormRichtung vMax="-1" km="63.7625" pos="1" Reg="5046">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="138" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1643.355" Y="-366.6337" Z="381.2949"/>
 <phi Y="-0.002267" Z="-4.400593"/>
@@ -12213,7 +12268,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="63.7613" pos="1" Reg="5045"/>
+<InfoGegenRichtung vMax="-1" km="63.7613" pos="1" Reg="5046"/>
 <NachNorm Nr="1128"/>
 <NachNorm Nr="1131"/>
 <NachGegen Nr="1078"/>
@@ -12996,7 +13051,7 @@
 <StrElement Nr="1213" spTrass="27.7778" Anschluss="256" Fkt="6" Oberbau="Holz K-Oberbau Rost">
 <g X="-1485.0409" Y="-729.3065" Z="380.4244"/>
 <b X="-1485.7841" Y="-728.3647" Z="380.4244"/>
-<InfoNormRichtung vMax="-1" km="64.1463" pos="1" Reg="5046">
+<InfoNormRichtung vMax="-1" km="64.1463" pos="1" Reg="5047">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="148" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1485.0409" Y="-729.3065" Z="380.4244"/>
 <phi Y="-0.001325" Z="2.239167"/>
@@ -13043,7 +13098,7 @@
 <MatrixEintrag Signalbild="173" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.1451" pos="1" Reg="5046"/>
+<InfoGegenRichtung vMax="-1" km="64.1451" pos="1" Reg="5047"/>
 <NachNorm Nr="1214"/>
 <NachNorm Nr="1217"/>
 <NachGegen Nr="1172"/>
@@ -13206,7 +13261,7 @@
 <StrElement Nr="1232" spTrass="27.7778" Fkt="6" Oberbau="Holz K-Oberbau Rost">
 <g X="-1216.4399" Y="-1061.1801" Z="380.0077"/>
 <b X="-1217.187" Y="-1060.2408" Z="380.0073"/>
-<InfoNormRichtung vMax="-1" km="64.5684" pos="1" Reg="5047">
+<InfoNormRichtung vMax="-1" km="64.5684" pos="1" Reg="5048">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="151" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1216.4399" Y="-1061.1801" Z="380.0077"/>
 <phi Y="0.000284" Z="-4.040039"/>
@@ -13253,7 +13308,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.5672" pos="1" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" km="64.5672" pos="1" Reg="5048"/>
 <NachNorm Nr="1233"/>
 <NachNorm Nr="1235"/>
 <NachGegen Nr="1183"/>
@@ -13419,7 +13474,7 @@
 <StrElement Nr="1251" spTrass="27.7778" Fkt="6" Oberbau="Holz K-Oberbau Rost">
 <g X="-1479.235" Y="-736.6595" Z="380.3979"/>
 <b X="-1478.491" Y="-737.6013" Z="380.3979"/>
-<InfoNormRichtung vMax="-1" km="64.158" pos="1" Reg="5048">
+<InfoNormRichtung vMax="-1" km="64.158" pos="1" Reg="5049">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="149" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1479.235" Y="-736.6595" Z="380.3979"/>
 <phi Y="0.001986" Z="-0.902428"/>
@@ -13466,7 +13521,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.1568" pos="1" Reg="5048"/>
+<InfoGegenRichtung vMax="-1" km="64.1568" pos="1" Reg="5049"/>
 <NachNorm Nr="1252"/>
 <NachNorm Nr="1255"/>
 <NachGegen Nr="1172"/>
@@ -13774,7 +13829,7 @@
 <StrElement Nr="1288" spTrass="27.7778" Fkt="6" Oberbau="Holz K-Oberbau Rost">
 <g X="-1461.332" Y="-759.3325" Z="380.3317"/>
 <b X="-1460.588" Y="-760.2743" Z="380.3317"/>
-<InfoNormRichtung vMax="-1" km="64.1872" pos="1" Reg="5049">
+<InfoNormRichtung vMax="-1" km="64.1872" pos="1" Reg="5050">
 <Signal NameBetriebsstelle="Amberg" Stellwerk="Amberg Amf" Signalname="150" SignalFlags="3" SignalTyp="2" BoundingR="27">
 <p X="-1461.332" Y="-759.3325" Z="380.3317"/>
 <phi Y="0.001325" Z="-0.902426"/>
@@ -13821,7 +13876,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.186" pos="1" Reg="5049"/>
+<InfoGegenRichtung vMax="-1" km="64.186" pos="1" Reg="5050"/>
 <NachNorm Nr="1289"/>
 <NachNorm Nr="1292"/>
 <NachGegen Nr="1250"/>
@@ -14642,7 +14697,7 @@
 <StrElement Nr="1385" Ueberh="-0.023" kr="0.000484" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1861.792" Y="330.5823" Z="383.3859"/>
 <b X="-1867.851" Y="340.9402" Z="383.4303"/>
-<InfoNormRichtung vMax="27.7778" Reg="5050">
+<InfoNormRichtung vMax="27.7778" Reg="5051">
 <Signal SignalTyp="5" BoundingR="10">
 <p X="-1869.7932" Y="339.8041" Z="382.0303"/>
 <phi Z="2.100094"/>
@@ -14659,7 +14714,7 @@
 <MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="30.5556" km="63.016" pos="1" Reg="5050"/>
+<InfoGegenRichtung vMax="30.5556" km="63.016" pos="1" Reg="5051"/>
 <NachNorm Nr="1425"/>
 <NachGegen Nr="1384"/>
 </StrElement>
@@ -14930,8 +14985,8 @@
 <StrElement Nr="1411" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1726.7969" Y="-22.5169" Z="382.0978"/>
 <b X="-1722.307" Y="-36.1458" Z="382.0649"/>
-<InfoNormRichtung vMax="30.5556" km="63.4083" pos="1" Reg="5051"/>
-<InfoGegenRichtung vMax="-1" Reg="5051">
+<InfoNormRichtung vMax="30.5556" km="63.4083" pos="1" Reg="5052"/>
+<InfoGegenRichtung vMax="-1" Reg="5052">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="7" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1724.6602" Y="-21.8129" Z="382.0978"/>
 <phi Z="1.889045"/>
@@ -14978,8 +15033,8 @@
 <StrElement Nr="1412" kr="0.001669" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1721.5399" Y="-20.5315" Z="382.098"/>
 <b X="-1720.5302" Y="-23.5662" Z="382.0907"/>
-<InfoNormRichtung vMax="-1" km="63.4083" pos="1" Reg="5052"/>
-<InfoGegenRichtung vMax="-1" Reg="5052">
+<InfoNormRichtung vMax="-1" km="63.4083" pos="1" Reg="5053"/>
+<InfoGegenRichtung vMax="-1" Reg="5053">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="6" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1719.4049" Y="-19.8211" Z="382.098"/>
 <phi Z="1.892049"/>
@@ -15026,8 +15081,8 @@
 <StrElement Nr="1413" spTrass="30.5556" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="-1717.1031" Y="-18.4809" Z="382.099"/>
 <b X="-1712.7642" Y="-31.2792" Z="382.0682"/>
-<InfoNormRichtung vMax="-1" km="63.4078" pos="1" Reg="5053"/>
-<InfoGegenRichtung vMax="-1" Reg="5053">
+<InfoNormRichtung vMax="-1" km="63.4078" pos="1" Reg="5054"/>
+<InfoGegenRichtung vMax="-1" Reg="5054">
 <Ereignis Er="6" Beschr="@sep=A 50@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="N5" SignalTyp="9" BoundingR="10">
 <p X="-1714.9724" Y="-17.7585" Z="382.099"/>
@@ -15133,8 +15188,8 @@
 <StrElement Nr="1414" spTrass="30.5556" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="-1712.8706" Y="-17.642" Z="382.0976"/>
 <b X="-1706.5428" Y="-36.3354" Z="382.0526"/>
-<InfoNormRichtung vMax="-1" km="63.4083" pos="1" Reg="5054"/>
-<InfoGegenRichtung vMax="-1" Reg="5054">
+<InfoNormRichtung vMax="-1" km="63.4083" pos="1" Reg="5055"/>
+<InfoGegenRichtung vMax="-1" Reg="5055">
 <Ereignis Er="6" Beschr="@sep=A 50@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="N4" SignalTyp="9" BoundingR="10">
 <p X="-1710.7394" Y="-16.9206" Z="382.0976"/>
@@ -15310,9 +15365,9 @@
 <StrElement Nr="1416" Ueberh="0.0268" kr="-0.000514" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1709.7739" Y="3.7192" Z="382.1408"/>
 <b X="-1709.1169" Y="1.8931" Z="382.1364"/>
-<InfoNormRichtung vMax="30.5556" km="63.3894" pos="1" Reg="5055"/>
-<InfoGegenRichtung vMax="30.5556" Reg="5055">
-<Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="2&apos;" SignalFlags="4" SignalTyp="5" BoundingR="10">
+<InfoNormRichtung vMax="30.5556" km="63.3894" pos="1" Reg="5056"/>
+<InfoGegenRichtung vMax="30.5556" Reg="5056">
+<Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="2&apos;" SignalTyp="13" BoundingR="10">
 <p X="-1707.6567" Y="4.4809" Z="382.1408"/>
 <phi Z="1.916152"/>
 <SignalFrame>
@@ -15351,10 +15406,10 @@
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_I_Abteil.lod.ls3"/>
 </SignalFrame>
-<HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
-<HsigBegriff FahrstrTyp="2"/>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<HsigBegriff FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="125" MatrixGeschw="6.9444">
+<MatrixEintrag Signalbild="125" MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="123">
@@ -15382,7 +15437,7 @@
 <phi Z="-1.071906"/>
 <SignalFrame>
 <p/>
-<phi/>
+<phi X="0.023"/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Formsignale_Einheitsbauform\Objekte\ls3-VSIG\DB_gn_VSig-Hochmast.ls3"/>
 </SignalFrame>
@@ -15394,7 +15449,7 @@
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
-<phi/>
+<phi X="0.023"/>
 <sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
@@ -15463,8 +15518,8 @@
 <StrElement Nr="1419" Ueberh="-0.023" kr="0.000484" spTrass="30.5556" Anschluss="257" Oberbau="B70 SKL-Oberbau">
 <g X="-1994.3564" Y="530.9961" Z="384.1182"/>
 <b X="-1999.203" Y="537.4605" Z="384.1367"/>
-<InfoNormRichtung vMax="27.7778" km="62.7873" Reg="5056"/>
-<InfoGegenRichtung vMax="-1" Reg="5056">
+<InfoNormRichtung vMax="27.7778" km="62.7873" Reg="5057"/>
+<InfoGegenRichtung vMax="-1" Reg="5057">
 <Ereignis Er="6" Beschr="@sep=E 50@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="A" SignalTyp="7" BoundingR="10">
 <p X="-1996.1565" Y="529.6464" Z="384.1182"/>
@@ -15519,7 +15574,7 @@
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
-<phi/>
+<phi X="0.023"/>
 <sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
@@ -15593,8 +15648,8 @@
 <StrElement Nr="1420" kr="-0.00081" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1473.7856" Y="-685.347" Z="380.494"/>
 <b X="-1475.76" Y="-682.057" Z="380.5039"/>
-<InfoNormRichtung vMax="-1" km="64.1164" Reg="5057"/>
-<InfoGegenRichtung vMax="-1" Reg="5057">
+<InfoNormRichtung vMax="-1" km="64.1164" Reg="5058"/>
+<InfoGegenRichtung vMax="-1" Reg="5058">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="P5" SignalTyp="9" BoundingR="10">
 <p X="-1475.715" Y="-686.5048" Z="380.494"/>
@@ -15769,8 +15824,8 @@
 <StrElement Nr="1421" spTrass="30.5556" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="-1465.1425" Y="-681.7462" Z="380.4908"/>
 <b X="-1477.5739" Y="-659.5909" Z="380.5491"/>
-<InfoNormRichtung vMax="-1" km="64.117" Reg="5058"/>
-<InfoGegenRichtung vMax="-1" Reg="5058">
+<InfoNormRichtung vMax="-1" km="64.117" Reg="5059"/>
+<InfoGegenRichtung vMax="-1" Reg="5059">
 <Ereignis Er="6" Beschr="@sep=A 60@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="P3" SignalTyp="9" BoundingR="10">
 <p X="-1467.1049" Y="-682.8472" Z="380.4908"/>
@@ -16048,8 +16103,8 @@
 <StrElement Nr="1423" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1279.467" Y="-953.4281" Z="379.746"/>
 <b X="-1292.2605" Y="-935.3474" Z="379.7962"/>
-<InfoNormRichtung vMax="-1" Reg="5059"/>
-<InfoGegenRichtung vMax="-1" pos="1" Reg="5059">
+<InfoNormRichtung vMax="-1" Reg="5060"/>
+<InfoGegenRichtung vMax="-1" pos="1" Reg="5060">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2434"/>
@@ -16058,8 +16113,8 @@
 <StrElement Nr="1424" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1250.2646" Y="-987.7733" Z="379.6442"/>
 <b X="-1274.2419" Y="-953.8866" Z="379.7383"/>
-<InfoNormRichtung vMax="30.5556" km="64.4905" Reg="5060"/>
-<InfoGegenRichtung vMax="27.7778" pos="1" Reg="5060">
+<InfoNormRichtung vMax="30.5556" km="64.4905" Reg="5061"/>
+<InfoGegenRichtung vMax="27.7778" pos="1" Reg="5061">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="298"/>
@@ -16075,8 +16130,8 @@
 <StrElement Nr="1426" kr="0.003953" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau Rost">
 <g X="-1730.1071" Y="-58.5511" Z="382.0222"/>
 <b X="-1729.4709" Y="-60.6914" Z="382.017"/>
-<InfoNormRichtung vMax="30.5556" km="63.4417" pos="1" Reg="5061"/>
-<InfoGegenRichtung vMax="-1" Reg="5061">
+<InfoNormRichtung vMax="30.5556" km="63.4417" pos="1" Reg="5062"/>
+<InfoGegenRichtung vMax="-1" Reg="5062">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lw" Signalname="10" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="-1727.9502" Y="-57.9102" Z="382.0222"/>
 <phi Z="1.859635"/>
@@ -16151,7 +16206,7 @@
 <StrElement Nr="1428" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1065.347" Y="-1249.1117" Z="379.0701"/>
 <b X="-1089.3179" Y="-1215.2347" Z="379.1416"/>
-<InfoNormRichtung vMax="-1" Reg="5062">
+<InfoNormRichtung vMax="-1" Reg="5063">
 <Ereignis Er="6" Beschr="@sep=E 60@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="F" SignalTyp="7" BoundingR="10">
 <p X="-1086.7057" Y="-1213.3864" Z="378.6416"/>
@@ -16855,7 +16910,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5062"/>
+<InfoGegenRichtung vMax="-1" Reg="5063"/>
 <NachNorm Nr="1407"/>
 <NachGegen Nr="4"/>
 </StrElement>
@@ -19099,8 +19154,8 @@
 <StrElement Nr="1760" spTrass="27.7778" Fkt="2">
 <g X="-1624.3326" Y="221.3331" Z="378.6116"/>
 <b X="-1629.4222" Y="218.2931" Z="378.8044"/>
-<InfoNormRichtung vMax="-1" Reg="5063"/>
-<InfoGegenRichtung vMax="-1" Reg="5063"/>
+<InfoNormRichtung vMax="-1" Reg="5064"/>
+<InfoGegenRichtung vMax="-1" Reg="5064"/>
 <NachNorm Nr="1835"/>
 <NachGegen Nr="1850"/>
 <NachGegen Nr="1863"/>
@@ -22226,8 +22281,8 @@
 <StrElement Nr="2308" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1232.0631" Y="-1013.4967" Z="379.5727"/>
 <b X="-1250.2646" Y="-987.7733" Z="379.6442"/>
-<InfoNormRichtung vMax="-1" Reg="5064"/>
-<InfoGegenRichtung vMax="-1" Reg="5064">
+<InfoNormRichtung vMax="-1" Reg="5065"/>
+<InfoGegenRichtung vMax="-1" Reg="5065">
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" SignalTyp="5" BoundingR="10">
 <p X="-1229.451" Y="-1011.6484" Z="379.5727"/>
 <phi Z="-0.954996"/>
@@ -22353,20 +22408,20 @@
 <StrElement Nr="2332" spTrass="30.5556" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="-1722.7433" Y="19.2422" Z="382.1842"/>
 <b X="-1717.7869" Y="7.8242" Z="382.1559"/>
-<InfoNormRichtung vMax="-1" km="63.3703" pos="1" Reg="5065">
+<InfoNormRichtung vMax="-1" km="63.3703" pos="1" Reg="5066">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5065"/>
+<InfoGegenRichtung vMax="-1" Reg="5066"/>
 <NachNorm Nr="696"/>
 <NachGegen Nr="687"/>
 </StrElement>
 <StrElement Nr="2333" spTrass="30.5556" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="-1725.0385" Y="18.3044" Z="382.184"/>
 <b X="-1712.8706" Y="-17.642" Z="382.0976"/>
-<InfoNormRichtung vMax="-1" Reg="5066">
+<InfoNormRichtung vMax="-1" Reg="5067">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5066"/>
+<InfoGegenRichtung vMax="-1" Reg="5067"/>
 <NachNorm Nr="1414"/>
 <NachGegen Nr="672"/>
 </StrElement>
@@ -24998,8 +25053,8 @@
 <StrElement Nr="8506" spTrass="27.7778" Anschluss="769" Fkt="2">
 <g X="-1121.7087" Y="-1503.4019" Z="403.7608"/>
 <b X="-1117.9705" Y="-1508.1071" Z="403.5496"/>
-<InfoNormRichtung vMax="-1" Reg="5067"/>
-<InfoGegenRichtung vMax="-1" Reg="5067"/>
+<InfoNormRichtung vMax="-1" Reg="5068"/>
+<InfoGegenRichtung vMax="-1" Reg="5068"/>
 <NachNorm Nr="8511"/>
 <NachGegen Nr="8520"/>
 <NachGegen Nr="8530"/>
@@ -30356,8 +30411,8 @@
 <StrElement Nr="9595" kr="-0.005767" spTrass="11.1111" Anschluss="256" Fkt="2">
 <g X="-2099.0234" Y="553.3786" Z="381.9598"/>
 <b X="-2098.0667" Y="548.9409" Z="382.1166"/>
-<InfoNormRichtung vMax="11.1111" km="0.0458" pos="1" Reg="5068"/>
-<InfoGegenRichtung vMax="-1" Reg="5068"/>
+<InfoNormRichtung vMax="11.1111" km="0.0458" pos="1" Reg="5069"/>
+<InfoGegenRichtung vMax="-1" Reg="5069"/>
 <NachNorm Nr="9596"/>
 <NachNorm Nr="9756"/>
 <NachGegen Nr="9594"/>
@@ -37156,7 +37211,7 @@
 <StrElement Nr="10852" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1071.1337" Y="-1247.858" Z="379.0776"/>
 <b X="-1093.0826" Y="-1216.838" Z="379.1431"/>
-<InfoNormRichtung vMax="27.7778" Reg="5069">
+<InfoNormRichtung vMax="27.7778" Reg="5070">
 <Ereignis Er="6" Beschr="Ls @icon=31@"/>
 <Signal NameBetriebsstelle="Luitpoldhütte" Stellwerk="Luitpoldhütte Lf" Signalname="Lsf f" SignalTyp="5" BoundingR="10">
 <p X="-1091.6541" Y="-1215.8271" Z="379.1431"/>
@@ -37200,11 +37255,10 @@
 <HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
 <HsigBegriff FahrstrTyp="6"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="8189" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="125" MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Wert="70" Beschr="10A"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="8187">
+<MatrixEintrag Signalbild="123">
 <Ereignis Er="23"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
@@ -37215,7 +37269,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5069"/>
+<InfoGegenRichtung vMax="-1" Reg="5070"/>
 <NachNorm Nr="1410"/>
 <NachGegen Nr="1429"/>
 </StrElement>
@@ -37638,13 +37692,11 @@
 <StrElement Nr="10939" spTrass="27.7778" Fkt="2">
 <g X="-1479.3855" Y="-792.5422" Z="380.7989"/>
 <b X="-1473.3892" Y="-786.2575" Z="380.3642"/>
-<NachNorm Nr="10940"/>
 </StrElement>
-<StrElement Nr="10940" spTrass="27.7778" Anschluss="256" Fkt="2">
+<StrElement Nr="10940" spTrass="27.7778" Fkt="2">
 <g X="-1473.3892" Y="-786.2575" Z="380.3642"/>
 <b X="-1402.0999" Y="-877.9976" Z="380.3061"/>
 <NachNorm Nr="10853"/>
-<NachGegen Nr="10939"/>
 </StrElement>
 <StrElement Nr="10941" spTrass="27.7778" Fkt="2">
 <g X="-1532.0397" Y="-839.0157" Z="381.1428"/>
@@ -37654,6 +37706,59 @@
 <g X="-1566.1853" Y="-798.3797" Z="381.1176"/>
 <b X="-1613.038" Y="-871.7641" Z="382.7294"/>
 </StrElement>
+<Fahrstrasse FahrstrName="Luitpoldhütte Gleis 1 -&gt; Amberg Lsf A" FahrstrStrecke="5904a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2138.0195">
+<FahrstrStart Ref="321">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="286">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="309">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="247">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="153">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="278">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="216">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="285">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="168">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="151">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="3" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="307">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="321" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Luitpoldhütte N1 -&gt; Sulzbach-Rosenberg Hütte D" FahrstrStrecke="5904b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3484.9238">
 <FahrstrStart Ref="169">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
@@ -37716,12 +37821,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Ne 1 a -&gt; Amberg Lsf A" FahrstrStrecke="5904a" RglGgl="3" FahrstrTyp="TypZug" Laenge="3470.9165">
+<Fahrstrasse FahrstrName="Luitpoldhütte A\ -&gt; Luitpoldhütte Gleis 1" FahrstrTyp="TypZug" Laenge="1332.8972">
 <FahrstrStart Ref="267">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="286">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
+<FahrstrZiel Ref="321">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="143">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
@@ -37735,62 +37840,26 @@
 <FahrstrRegister Ref="171">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="309">
+<FahrstrRegister Ref="323">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="247">
+<FahrstrAufloesung Ref="151">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="153">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="278">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="216">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="285">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="144">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="138">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="171">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="168">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="248">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="151">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrWeiche Ref="15" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="3" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="307">
+<FahrstrSignal Ref="267" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="267">
+<FahrstrSignal Ref="321" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="444" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Ne 1 a -&gt; Luitpoldhütte P2" FahrstrTyp="TypZug" Laenge="1329.0677">
+<Fahrstrasse FahrstrName="Luitpoldhütte A\ -&gt; Luitpoldhütte P2" FahrstrTyp="TypZug" Laenge="1329.0677">
 <FahrstrStart Ref="267">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -37843,7 +37912,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Ne 1 a -&gt; Luitpoldhütte P4" FahrstrTyp="TypZug" Laenge="1331.587">
+<Fahrstrasse FahrstrName="Luitpoldhütte A\ -&gt; Luitpoldhütte P4" FahrstrTyp="TypZug" Laenge="1331.587">
 <FahrstrStart Ref="267">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -37908,7 +37977,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Ne 1 a -&gt; Luitpoldhütte P3" FahrstrTyp="TypZug" Laenge="1331.7279">
+<Fahrstrasse FahrstrName="Luitpoldhütte A\ -&gt; Luitpoldhütte P3" FahrstrTyp="TypZug" Laenge="1331.7279">
 <FahrstrStart Ref="267">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -39175,6 +39244,398 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Luitpoldhütte 2&apos; -&gt; Sulzbach-Rosenberg Hütte B3" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5364.5122">
+<FahrstrStart Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="372">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="262">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="158">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="364">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="422">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="389">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="373">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="366">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="357">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="420">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="24" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="93" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="214" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Luitpoldhütte 2&apos; -&gt; Sulzbach-Rosenberg Hütte B5" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5214.7905">
+<FahrstrStart Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="378">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="262">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="158">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="364">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="424">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="401">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="380">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="366">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="357">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="423">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="24" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="54" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="66" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="214" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Luitpoldhütte 2&apos; -&gt; Sulzbach-Rosenberg Hütte B4" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="5271.1509">
+<FahrstrStart Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="375">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="262">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="158">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="364">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="38">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="67">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="418">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="398">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="377">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="366">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="357">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="417">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="24" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="54" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="66" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="214" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Luitpoldhütte 2&apos; -&gt; Sulzbach-Rosenberg Hütte D" FahrstrStrecke="5904b" RglGgl="2" FahrstrTyp="TypZug" Laenge="3501.2146">
+<FahrstrStart Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="381">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="262">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="269">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="382">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="411">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="420">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="423">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="417">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="420">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="423">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="417">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="420">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="141">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="214" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Luitpoldhütte A -&gt; Luitpoldhütte P2" FahrstrTyp="TypZug" Laenge="1328.2012">
 <FahrstrStart Ref="123">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
@@ -39700,6 +40161,9 @@
 <FahrstrRegister Ref="308">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="322">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="170">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -39725,12 +40189,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte F -&gt; Sulzbach-Rosenberg Hütte B3" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6745.2808">
+<Fahrstrasse FahrstrName="Luitpoldhütte F -&gt; Luitpoldhütte 2&apos;" FahrstrTyp="TypZug" Laenge="1380.7749">
 <FahrstrStart Ref="214">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="372">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+<FahrstrZiel Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="277">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
@@ -39756,511 +40220,13 @@
 <FahrstrRegister Ref="180">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="262">
+<FahrstrAufloesung Ref="257">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="258">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="106">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="364">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="73">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="25">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="95">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="422">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="389">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="373">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="366">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="357">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="141">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="257">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="3" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="6" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="24" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="93" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="233" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="111" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="100" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte F -&gt; Sulzbach-Rosenberg Hütte B5" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6595.5591">
-<FahrstrStart Ref="214">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="378">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="277">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="152">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="4">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="229">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="262">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="258">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="106">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="364">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="73">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="25">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="55">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="67">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="424">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="401">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="380">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="366">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="357">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="257">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="423">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="3" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="6" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="24" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="54" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="66" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="6">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="233" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="111" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="100" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte F -&gt; Sulzbach-Rosenberg Hütte B4" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6651.9194">
-<FahrstrStart Ref="214">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="375">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="277">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="152">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="4">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="229">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="262">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="258">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="106">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="364">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="73">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="25">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="55">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="67">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="418">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="398">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="377">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="366">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="357">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="257">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="417">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="3" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="6" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="24" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="54" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="66" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="6">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="233" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="111" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="100" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte F -&gt; Sulzbach-Rosenberg Hütte D" FahrstrStrecke="5904b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4881.9893">
-<FahrstrStart Ref="214">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="381">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="277">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="152">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="4">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="229">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="262">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="142">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="269">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="382">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="411">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="423">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="417">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="423">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="417">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="141">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrWeiche Ref="3" FahrstrWeichenlage="2">
@@ -40272,30 +40238,9 @@
 <FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
+<FahrstrSignal Ref="214" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="214" FahrstrSignalZeile="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="233" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="111" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="100" FahrstrSignalSpalte="7">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Luitpoldhütte F -&gt; Luitpoldhütte N4" FahrstrTyp="TypZug" Laenge="1364.6179">
 <FahrstrStart Ref="214">
@@ -40531,12 +40476,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Lsf f -&gt; Sulzbach-Rosenberg Hütte B3" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6744.2959">
+<Fahrstrasse FahrstrName="Luitpoldhütte Lsf f -&gt; Luitpoldhütte 2&apos;" FahrstrTyp="TypZug" Laenge="1379.79">
 <FahrstrStart Ref="318">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="372">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+<FahrstrZiel Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="149">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
@@ -40556,475 +40501,13 @@
 <FahrstrRegister Ref="180">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="262">
+<FahrstrAufloesung Ref="257">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="258">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="106">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="364">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="73">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="25">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="95">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="422">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="389">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="373">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="366">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrAufloesung>
-<FahrstrAufloesung Ref="357">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
+<FahrstrAufloesung Ref="141">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="257">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="24" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="93" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="318">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="235" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="223" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Lsf f -&gt; Sulzbach-Rosenberg Hütte B5" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6594.5747">
-<FahrstrStart Ref="318">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="378">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="229">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="262">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="258">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="106">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="364">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="73">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="25">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="55">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="67">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="424">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="401">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="380">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="366">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="357">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="257">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="423">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="24" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="54" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="66" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="318">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="235" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="223" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Lsf f -&gt; Sulzbach-Rosenberg Hütte B4" FahrstrStrecke="5904b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6650.9346">
-<FahrstrStart Ref="318">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="375">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="229">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="262">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="258">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="158">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="124">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="106">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="364">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="73">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="16">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="20">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="25">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="38">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="55">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="67">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="418">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="398">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="377">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="366">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="357">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="257">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="417">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="72" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="24" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="54" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="66" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrSignal Ref="318">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="235" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="223" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
-</Fahrstrasse>
-<Fahrstrasse FahrstrName="Luitpoldhütte Lsf f -&gt; Sulzbach-Rosenberg Hütte D" FahrstrStrecke="5904b" RglGgl="2" FahrstrTyp="TypZug" Laenge="4881.0044">
-<FahrstrStart Ref="318">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrStart>
-<FahrstrZiel Ref="381">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrZiel>
-<FahrstrRegister Ref="149">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="8">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="10">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="229">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="110">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="180">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="262">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="32">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="28">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="17">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="142">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="269">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrRegister Ref="382">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrRegister>
-<FahrstrAufloesung Ref="411">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="423">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="417">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="423">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="417">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrAufloesung Ref="420">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
-</FahrstrAufloesung>
-<FahrstrTeilaufloesung Ref="227">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="141">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
@@ -41033,27 +40516,9 @@
 <FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="27" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrWeiche Ref="15" FahrstrWeichenlage="2">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrWeiche>
-<FahrstrSignal Ref="178">
+<FahrstrSignal Ref="318" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="318">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrSignal>
-<FahrstrVSignal Ref="235" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="223" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Luitpoldhütte Lsf f -&gt; Luitpoldhütte N4" FahrstrTyp="TypZug" Laenge="1363.6329">
 <FahrstrStart Ref="318">

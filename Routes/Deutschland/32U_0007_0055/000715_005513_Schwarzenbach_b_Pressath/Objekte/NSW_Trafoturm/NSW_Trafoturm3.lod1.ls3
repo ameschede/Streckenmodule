@@ -4,7 +4,28 @@
 <AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFCCCCCC" TypGF="1">
+<SubSet Cd="FFFF00FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="1.4" Y="-1.4"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="-1.4" Y="-1.4"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="-1.4" Y="1.4"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="1.4" Y="1.4"/>
+<n Z="-1"/>
+</Vertex>
+<Face i="2;1;0"/>
+<Face i="2;0;3"/>
+</SubSet>
+<SubSet Cd="FFCCCCCC">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="NSW_Trafoturm3.dds"/>

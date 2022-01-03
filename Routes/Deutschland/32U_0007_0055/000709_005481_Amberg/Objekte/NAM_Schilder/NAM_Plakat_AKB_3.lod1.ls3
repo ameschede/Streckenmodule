@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+  <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+    <AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+  </Info>
+  <Landschaft>
+    <SubSet Cd="FFFFFFFF" Ce="00000000">
+      <RenderFlags TexVoreinstellung="1"/>
+      <Textur>
+        <Datei Dateiname="NAM_PLakate_AKB.dds"/>
+      </Textur>
+      <Vertex U="0.00434905756264925" V="0.3269028663635254" U2="0.0" V2="0.0"><p X="-1.7799999713897705" Y="-0.11999999731779099" Z="0.5920000076293945"/><n X="-0.0" Y="-0.9999999403953552" Z="0.0"/></Vertex>
+      <Vertex U="0.00434905756264925" V="0.0008599758148193359" U2="0.0" V2="0.0"><p X="-1.7799999713897705" Y="-0.11999999731779099" Z="2.6080000400543213"/><n X="-0.0" Y="-0.9999999403953552" Z="0.0"/></Vertex>
+      <Vertex U="0.5800998210906982" V="0.3269028663635254" U2="0.0" V2="0.0"><p X="1.7799999713897705" Y="-0.11999999731779099" Z="0.5920000076293945"/><n X="-0.0" Y="-0.9999999403953552" Z="0.0"/></Vertex>
+      <Vertex U="0.5800998210906982" V="0.0008599758148193359" U2="0.0" V2="0.0"><p X="1.7799999713897705" Y="-0.11999999731779099" Z="2.6080000400543213"/><n X="-0.0" Y="-0.9999999403953552" Z="0.0"/></Vertex>
+      <Face i="3;2;0"/>
+      <Face i="3;0;1"/>
+    </SubSet>
+  </Landschaft>
+</Zusi>
