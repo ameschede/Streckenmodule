@@ -31,6 +31,6 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
 
-Die Module Luitpoldhütte, Amberg, Hiltersdorf, Freihöls und Irrenlohe bilden ein zusammenhängendes Netz mit 37 km Länge.
+Die Module Luitpoldhütte, Amberg, Hiltersdorf, Freihöls und Irrenlohe bilden ein zusammenhängendes Netz mit 37 km Länge. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
 
 Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.

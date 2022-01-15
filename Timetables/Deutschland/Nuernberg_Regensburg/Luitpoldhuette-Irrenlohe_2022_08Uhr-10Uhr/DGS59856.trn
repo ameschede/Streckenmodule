@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="DGS" Nummer="59856" Zuglauf="Nürnberg Rbf - Maxhütte-Haidhof" Prio="2500" Standortmodus="1" BremsstellungZug="2" spAnfang="16.6667" MBrh="1.7204" APBeschl="0.5" LODzug="3" ReisendenDichte="0.6" FahrplanGruppe="2. Luitpoldhütte - Irrenlohe" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Luitpoldhütte A" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2022_08Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2022_08Uhr-10Uhr\DGS59856.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 09:02:00" Abf="2022-01-11 09:03:00" Betrst="Luitpoldhütte" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:04:00" Betrst="Luitpoldhütte">
+<FahrplanSignalEintrag FahrplanSignal="P2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Amberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:06:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="F1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Hiltersdorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 09:12:00" Abf="2022-01-11 09:30:00" Betrst="Hiltersdorf" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="P3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Freihöls" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 09:36:00" Abf="2022-01-11 09:46:00" Betrst="Freihöls" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="H"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:52:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="P3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:53:00" Betrst="Sbk 2">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 2"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="3" BremsstellungFahrzeug="1" NVRNummer="92 80 1251 009-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieselloks\DE2700\DE2700.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 717-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 185-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 104-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 524-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 678-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 658-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 761-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 861-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 724-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

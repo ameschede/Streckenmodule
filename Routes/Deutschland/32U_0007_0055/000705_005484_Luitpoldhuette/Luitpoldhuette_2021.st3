@@ -6,7 +6,7 @@
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.ls3"/>
 <HintergrundDatei/>
-<BefehlsKonfiguration/>
+<BefehlsKonfiguration Dateiname="Signals\Deutschland\Befehle\408_2015.authority.xml"/>
 <Kachelpfad Dateiname="Kacheln\" NurInfo="1"/>
 <UTM UTM_WE="707" UTM_NS="5484" UTM_Zone="32" UTM_Zone2="U"/>
 <Huellkurve>
@@ -293,9 +293,6 @@
 <ReferenzElemente ReferenzNr="200" StrElement="1406" StrNorm="1" RefTyp="2" Info="Register-Nr. 5055"/>
 <ReferenzElemente ReferenzNr="201" StrElement="1406" RefTyp="2" Info="Register-Nr. 5055"/>
 <ReferenzElemente ReferenzNr="202" StrElement="961"/>
-<ReferenzElemente ReferenzNr="203" StrElement="314" StrNorm="1" RefTyp="4" Info="Signal: Luitpoldhütte Lsf f"/>
-<ReferenzElemente ReferenzNr="204" StrElement="314" StrNorm="1" RefTyp="2" Info="Register-Nr. 5006"/>
-<ReferenzElemente ReferenzNr="205" StrElement="314" RefTyp="2" Info="Register-Nr. 5006"/>
 <ReferenzElemente ReferenzNr="206" StrElement="961" StrNorm="1" RefTyp="2" Info="Register-Nr. 5036"/>
 <ReferenzElemente ReferenzNr="207" StrElement="961" RefTyp="2" Info="Register-Nr. 5036"/>
 <ReferenzElemente ReferenzNr="208" StrElement="1071" RefTyp="4" Info="Signal: Luitpoldhütte 11"/>
@@ -307,7 +304,6 @@
 <ReferenzElemente ReferenzNr="214" StrElement="1428" StrNorm="1" RefTyp="4" Info="Signal: Luitpoldhütte F"/>
 <ReferenzElemente ReferenzNr="215" StrElement="1428" StrNorm="1" RefTyp="2" Info="Register-Nr. 5068"/>
 <ReferenzElemente ReferenzNr="216" StrElement="1428" RefTyp="2" Info="Register-Nr. 5068"/>
-<ReferenzElemente ReferenzNr="217" StrElement="10" RefTyp="4" Info="Signal: Amberg "/>
 <ReferenzElemente ReferenzNr="218" StrElement="5" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="219" StrElement="5" StrNorm="1" RefTyp="2" Info="Register-Nr. 5001"/>
 <ReferenzElemente ReferenzNr="220" StrElement="5" RefTyp="2" Info="Register-Nr. 5001"/>
@@ -375,307 +371,6 @@
 <ReferenzElemente ReferenzNr="282" StrElement="2333" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="283" StrElement="2333" StrNorm="1" RefTyp="2" Info="Register-Nr. 5071"/>
 <ReferenzElemente ReferenzNr="284" StrElement="2333" RefTyp="2" Info="Register-Nr. 5071"/>
-<ReferenzElemente ReferenzNr="1" StrElement="2910" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000714_005478_Hiltersdorf\Hiltersdorf_2021.st3"/>
-<ReferenzElemente ReferenzNr="2" StrElement="2976" StrNorm="1" RefTyp="4" Info="Signal: Amberg g"/>
-<ReferenzElemente ReferenzNr="3" StrElement="3303" StrNorm="1" RefTyp="4" Info="Signal: Amberg G"/>
-<ReferenzElemente ReferenzNr="4" StrElement="3303" StrNorm="1" RefTyp="2" Info="Register-Nr. 5001"/>
-<ReferenzElemente ReferenzNr="5" StrElement="3303" RefTyp="2" Info="Register-Nr. 5001"/>
-<ReferenzElemente ReferenzNr="6" StrElement="3494" StrNorm="1" RefTyp="3" Info="Weiche  3"/>
-<ReferenzElemente ReferenzNr="7" StrElement="3494" StrNorm="1" RefTyp="2" Info="Register-Nr. 5002"/>
-<ReferenzElemente ReferenzNr="8" StrElement="3494" RefTyp="2" Info="Register-Nr. 5002"/>
-<ReferenzElemente ReferenzNr="9" StrElement="3510" StrNorm="1" RefTyp="3" Info="Weiche  4"/>
-<ReferenzElemente ReferenzNr="10" StrElement="3510" StrNorm="1" RefTyp="2" Info="Register-Nr. 5003"/>
-<ReferenzElemente ReferenzNr="11" StrElement="3510" RefTyp="2" Info="Register-Nr. 5003"/>
-<ReferenzElemente ReferenzNr="12" StrElement="3674" StrNorm="1" RefTyp="3" Info="Weiche  7"/>
-<ReferenzElemente ReferenzNr="13" StrElement="3674" StrNorm="1" RefTyp="2" Info="Register-Nr. 5004"/>
-<ReferenzElemente ReferenzNr="14" StrElement="3674" RefTyp="2" Info="Register-Nr. 5004"/>
-<ReferenzElemente ReferenzNr="15" StrElement="3700" StrNorm="1" RefTyp="3" Info="Weiche  6"/>
-<ReferenzElemente ReferenzNr="16" StrElement="3700" StrNorm="1" RefTyp="2" Info="Register-Nr. 5005"/>
-<ReferenzElemente ReferenzNr="17" StrElement="3700" RefTyp="2" Info="Register-Nr. 5005"/>
-<ReferenzElemente ReferenzNr="18" StrElement="3739" StrNorm="1" RefTyp="3" Info="Weiche  5"/>
-<ReferenzElemente ReferenzNr="19" StrElement="3739" StrNorm="1" RefTyp="2" Info="Register-Nr. 5006"/>
-<ReferenzElemente ReferenzNr="20" StrElement="3739" RefTyp="2" Info="Register-Nr. 5006"/>
-<ReferenzElemente ReferenzNr="21" StrElement="3763" StrNorm="1" RefTyp="3" Info="Weiche  49"/>
-<ReferenzElemente ReferenzNr="22" StrElement="3763" StrNorm="1" RefTyp="2" Info="Register-Nr. 5007"/>
-<ReferenzElemente ReferenzNr="23" StrElement="3763" RefTyp="2" Info="Register-Nr. 5007"/>
-<ReferenzElemente ReferenzNr="24" StrElement="3855" StrNorm="1" RefTyp="3" Info="Weiche  46"/>
-<ReferenzElemente ReferenzNr="25" StrElement="3855" StrNorm="1" RefTyp="2" Info="Register-Nr. 5008"/>
-<ReferenzElemente ReferenzNr="26" StrElement="3855" RefTyp="2" Info="Register-Nr. 5008"/>
-<ReferenzElemente ReferenzNr="27" StrElement="3875" StrNorm="1" RefTyp="3" Info="Weiche  44"/>
-<ReferenzElemente ReferenzNr="28" StrElement="3875" StrNorm="1" RefTyp="2" Info="Register-Nr. 5009"/>
-<ReferenzElemente ReferenzNr="29" StrElement="3875" RefTyp="2" Info="Register-Nr. 5009"/>
-<ReferenzElemente ReferenzNr="30" StrElement="3887" StrNorm="1" RefTyp="3" Info="Weiche  43"/>
-<ReferenzElemente ReferenzNr="31" StrElement="3887" StrNorm="1" RefTyp="2" Info="Register-Nr. 5010"/>
-<ReferenzElemente ReferenzNr="32" StrElement="3887" RefTyp="2" Info="Register-Nr. 5010"/>
-<ReferenzElemente ReferenzNr="33" StrElement="4013" StrNorm="1" RefTyp="3" Info="Weiche  15"/>
-<ReferenzElemente ReferenzNr="34" StrElement="4013" StrNorm="1" RefTyp="2" Info="Register-Nr. 5011"/>
-<ReferenzElemente ReferenzNr="35" StrElement="4013" RefTyp="2" Info="Register-Nr. 5011"/>
-<ReferenzElemente ReferenzNr="36" StrElement="4258" StrNorm="1" RefTyp="3" Info="Weiche  41"/>
-<ReferenzElemente ReferenzNr="37" StrElement="4258" StrNorm="1" RefTyp="2" Info="Register-Nr. 5012"/>
-<ReferenzElemente ReferenzNr="38" StrElement="4258" RefTyp="2" Info="Register-Nr. 5012"/>
-<ReferenzElemente ReferenzNr="39" StrElement="4292" StrNorm="1" RefTyp="3" Info="Weiche  5"/>
-<ReferenzElemente ReferenzNr="40" StrElement="4292" StrNorm="1" RefTyp="2" Info="Register-Nr. 5013"/>
-<ReferenzElemente ReferenzNr="41" StrElement="4292" RefTyp="2" Info="Register-Nr. 5013"/>
-<ReferenzElemente ReferenzNr="42" StrElement="4314" StrNorm="1" RefTyp="3" Info="Weiche  7"/>
-<ReferenzElemente ReferenzNr="43" StrElement="4314" StrNorm="1" RefTyp="2" Info="Register-Nr. 5014"/>
-<ReferenzElemente ReferenzNr="44" StrElement="4314" RefTyp="2" Info="Register-Nr. 5014"/>
-<ReferenzElemente ReferenzNr="45" StrElement="4329" StrNorm="1" RefTyp="3" Info="Weiche  10"/>
-<ReferenzElemente ReferenzNr="46" StrElement="4329" StrNorm="1" RefTyp="2" Info="Register-Nr. 5015"/>
-<ReferenzElemente ReferenzNr="47" StrElement="4329" RefTyp="2" Info="Register-Nr. 5015"/>
-<ReferenzElemente ReferenzNr="48" StrElement="4340" StrNorm="1" RefTyp="3" Info="Weiche  9"/>
-<ReferenzElemente ReferenzNr="49" StrElement="4340" StrNorm="1" RefTyp="2" Info="Register-Nr. 5016"/>
-<ReferenzElemente ReferenzNr="50" StrElement="4340" RefTyp="2" Info="Register-Nr. 5016"/>
-<ReferenzElemente ReferenzNr="51" StrElement="4368" StrNorm="1" RefTyp="3" Info="Weiche  6"/>
-<ReferenzElemente ReferenzNr="52" StrElement="4368" StrNorm="1" RefTyp="2" Info="Register-Nr. 5017"/>
-<ReferenzElemente ReferenzNr="53" StrElement="4368" RefTyp="2" Info="Register-Nr. 5017"/>
-<ReferenzElemente ReferenzNr="54" StrElement="4487" StrNorm="1" RefTyp="3" Info="Weiche  16"/>
-<ReferenzElemente ReferenzNr="55" StrElement="4487" StrNorm="1" RefTyp="2" Info="Register-Nr. 5018"/>
-<ReferenzElemente ReferenzNr="56" StrElement="4487" RefTyp="2" Info="Register-Nr. 5018"/>
-<ReferenzElemente ReferenzNr="57" StrElement="4506" StrNorm="1" RefTyp="3" Info="Weiche  23"/>
-<ReferenzElemente ReferenzNr="58" StrElement="4506" StrNorm="1" RefTyp="2" Info="Register-Nr. 5019"/>
-<ReferenzElemente ReferenzNr="59" StrElement="4506" RefTyp="2" Info="Register-Nr. 5019"/>
-<ReferenzElemente ReferenzNr="60" StrElement="4604" StrNorm="1" RefTyp="3" Info="Weiche  40"/>
-<ReferenzElemente ReferenzNr="61" StrElement="4604" StrNorm="1" RefTyp="2" Info="Register-Nr. 5020"/>
-<ReferenzElemente ReferenzNr="62" StrElement="4604" RefTyp="2" Info="Register-Nr. 5020"/>
-<ReferenzElemente ReferenzNr="63" StrElement="4630" StrNorm="1" RefTyp="3" Info="Weiche  38"/>
-<ReferenzElemente ReferenzNr="64" StrElement="4630" StrNorm="1" RefTyp="2" Info="Register-Nr. 5021"/>
-<ReferenzElemente ReferenzNr="65" StrElement="4630" RefTyp="2" Info="Register-Nr. 5021"/>
-<ReferenzElemente ReferenzNr="66" StrElement="4726" StrNorm="1" RefTyp="3" Info="Weiche  114"/>
-<ReferenzElemente ReferenzNr="67" StrElement="4726" StrNorm="1" RefTyp="2" Info="Register-Nr. 5022"/>
-<ReferenzElemente ReferenzNr="68" StrElement="4726" RefTyp="2" Info="Register-Nr. 5022"/>
-<ReferenzElemente ReferenzNr="69" StrElement="4803" StrNorm="1" RefTyp="3" Info="Weiche  113"/>
-<ReferenzElemente ReferenzNr="70" StrElement="4803" StrNorm="1" RefTyp="2" Info="Register-Nr. 5023"/>
-<ReferenzElemente ReferenzNr="71" StrElement="4803" RefTyp="2" Info="Register-Nr. 5023"/>
-<ReferenzElemente ReferenzNr="72" StrElement="4849" StrNorm="1" RefTyp="3" Info="Weiche  112"/>
-<ReferenzElemente ReferenzNr="73" StrElement="4849" StrNorm="1" RefTyp="2" Info="Register-Nr. 5024"/>
-<ReferenzElemente ReferenzNr="74" StrElement="4849" RefTyp="2" Info="Register-Nr. 5024"/>
-<ReferenzElemente ReferenzNr="75" StrElement="4991" StrNorm="1" RefTyp="3" Info="Weiche  3"/>
-<ReferenzElemente ReferenzNr="76" StrElement="4991" StrNorm="1" RefTyp="2" Info="Register-Nr. 5025"/>
-<ReferenzElemente ReferenzNr="77" StrElement="4991" RefTyp="2" Info="Register-Nr. 5025"/>
-<ReferenzElemente ReferenzNr="78" StrElement="5012" StrNorm="1" RefTyp="3" Info="Weiche  102"/>
-<ReferenzElemente ReferenzNr="79" StrElement="5012" StrNorm="1" RefTyp="2" Info="Register-Nr. 5026"/>
-<ReferenzElemente ReferenzNr="80" StrElement="5012" RefTyp="2" Info="Register-Nr. 5026"/>
-<ReferenzElemente ReferenzNr="81" StrElement="5039" StrNorm="1" RefTyp="3" Info="Weiche  101"/>
-<ReferenzElemente ReferenzNr="82" StrElement="5039" StrNorm="1" RefTyp="2" Info="Register-Nr. 5027"/>
-<ReferenzElemente ReferenzNr="83" StrElement="5039" RefTyp="2" Info="Register-Nr. 5027"/>
-<ReferenzElemente ReferenzNr="84" StrElement="5084" StrNorm="1" RefTyp="3" Info="Weiche  103"/>
-<ReferenzElemente ReferenzNr="85" StrElement="5084" StrNorm="1" RefTyp="2" Info="Register-Nr. 5028"/>
-<ReferenzElemente ReferenzNr="86" StrElement="5084" RefTyp="2" Info="Register-Nr. 5028"/>
-<ReferenzElemente ReferenzNr="87" StrElement="5098" StrNorm="1" RefTyp="3" Info="Weiche  104"/>
-<ReferenzElemente ReferenzNr="88" StrElement="5098" StrNorm="1" RefTyp="2" Info="Register-Nr. 5029"/>
-<ReferenzElemente ReferenzNr="89" StrElement="5098" RefTyp="2" Info="Register-Nr. 5029"/>
-<ReferenzElemente ReferenzNr="90" StrElement="5235" StrNorm="1" RefTyp="3" Info="Weiche  105"/>
-<ReferenzElemente ReferenzNr="91" StrElement="5235" StrNorm="1" RefTyp="2" Info="Register-Nr. 5030"/>
-<ReferenzElemente ReferenzNr="92" StrElement="5235" RefTyp="2" Info="Register-Nr. 5030"/>
-<ReferenzElemente ReferenzNr="93" StrElement="4445" RefTyp="4" Info="Signal: Amberg D2"/>
-<ReferenzElemente ReferenzNr="94" StrElement="4445" StrNorm="1" RefTyp="2" Info="Register-Nr. 5018"/>
-<ReferenzElemente ReferenzNr="95" StrElement="4445" RefTyp="2" Info="Register-Nr. 5018"/>
-<ReferenzElemente ReferenzNr="96" StrElement="5565" RefTyp="4" Info="Signal: Amberg d"/>
-<ReferenzElemente ReferenzNr="97" StrElement="5566" RefTyp="4" Info="Signal: Amberg D3"/>
-<ReferenzElemente ReferenzNr="98" StrElement="5566" StrNorm="1" RefTyp="2" Info="Register-Nr. 5032"/>
-<ReferenzElemente ReferenzNr="99" StrElement="5566" RefTyp="2" Info="Register-Nr. 5032"/>
-<ReferenzElemente ReferenzNr="100" StrElement="3414" StrNorm="1" RefTyp="4" Info="Signal: Luitpoldhütte f"/>
-<ReferenzElemente ReferenzNr="101" StrElement="5568" RefTyp="4" Info="Signal: Amberg A"/>
-<ReferenzElemente ReferenzNr="102" StrElement="5568" StrNorm="1" RefTyp="2" Info="Register-Nr. 5033"/>
-<ReferenzElemente ReferenzNr="103" StrElement="5568" RefTyp="2" Info="Register-Nr. 5033"/>
-<ReferenzElemente ReferenzNr="104" StrElement="4038" RefTyp="4" Info="Signal: Amberg b"/>
-<ReferenzElemente ReferenzNr="105" StrElement="4078" StrNorm="1" RefTyp="4" Info="Signal: Amberg B"/>
-<ReferenzElemente ReferenzNr="106" StrElement="4078" StrNorm="1" RefTyp="2" Info="Register-Nr. 5012"/>
-<ReferenzElemente ReferenzNr="107" StrElement="4078" RefTyp="2" Info="Register-Nr. 5012"/>
-<ReferenzElemente ReferenzNr="108" StrElement="5571" RefTyp="4" Info="Signal: Amberg \A"/>
-<ReferenzElemente ReferenzNr="109" StrElement="5571" StrNorm="1" RefTyp="2" Info="Register-Nr. 5035"/>
-<ReferenzElemente ReferenzNr="110" StrElement="5571" RefTyp="2" Info="Register-Nr. 5035"/>
-<ReferenzElemente ReferenzNr="111" StrElement="3451" StrNorm="1" Info="Amberg A"/>
-<ReferenzElemente ReferenzNr="112" StrElement="4250" StrNorm="1" Info="Amberg B"/>
-<ReferenzElemente ReferenzNr="113" StrElement="3366" RefTyp="4" Info="Signal: Amberg F2"/>
-<ReferenzElemente ReferenzNr="114" StrElement="3366" StrNorm="1" RefTyp="2" Info="Register-Nr. 5002"/>
-<ReferenzElemente ReferenzNr="115" StrElement="3366" RefTyp="2" Info="Register-Nr. 5002"/>
-<ReferenzElemente ReferenzNr="116" StrElement="3451" StrNorm="1" RefTyp="2" Info="Register-Nr. 5003"/>
-<ReferenzElemente ReferenzNr="117" StrElement="3451" RefTyp="2" Info="Register-Nr. 5003"/>
-<ReferenzElemente ReferenzNr="118" StrElement="3782" RefTyp="4" Info="Signal: Amberg F1"/>
-<ReferenzElemente ReferenzNr="119" StrElement="3782" StrNorm="1" RefTyp="2" Info="Register-Nr. 5010"/>
-<ReferenzElemente ReferenzNr="120" StrElement="3782" RefTyp="2" Info="Register-Nr. 5010"/>
-<ReferenzElemente ReferenzNr="121" StrElement="4250" StrNorm="1" RefTyp="2" Info="Register-Nr. 5016"/>
-<ReferenzElemente ReferenzNr="122" StrElement="4250" RefTyp="2" Info="Register-Nr. 5016"/>
-<ReferenzElemente ReferenzNr="123" StrElement="5574" RefTyp="4" Info="Signal: Amberg F3"/>
-<ReferenzElemente ReferenzNr="124" StrElement="5574" StrNorm="1" RefTyp="2" Info="Register-Nr. 5040"/>
-<ReferenzElemente ReferenzNr="125" StrElement="5574" RefTyp="2" Info="Register-Nr. 5040"/>
-<ReferenzElemente ReferenzNr="126" StrElement="5575" RefTyp="4" Info="Signal: Amberg F5"/>
-<ReferenzElemente ReferenzNr="127" StrElement="5575" StrNorm="1" RefTyp="2" Info="Register-Nr. 5041"/>
-<ReferenzElemente ReferenzNr="128" StrElement="5575" RefTyp="2" Info="Register-Nr. 5041"/>
-<ReferenzElemente ReferenzNr="129" StrElement="5576" RefTyp="4" Info="Signal: Amberg F6"/>
-<ReferenzElemente ReferenzNr="130" StrElement="5576" StrNorm="1" RefTyp="2" Info="Register-Nr. 5042"/>
-<ReferenzElemente ReferenzNr="131" StrElement="5576" RefTyp="2" Info="Register-Nr. 5042"/>
-<ReferenzElemente ReferenzNr="132" StrElement="3340" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="133" StrElement="3340" StrNorm="1" RefTyp="2" Info="Register-Nr. 5002"/>
-<ReferenzElemente ReferenzNr="134" StrElement="3340" RefTyp="2" Info="Register-Nr. 5002"/>
-<ReferenzElemente ReferenzNr="135" StrElement="3874" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="136" StrElement="3874" StrNorm="1" RefTyp="2" Info="Register-Nr. 5013"/>
-<ReferenzElemente ReferenzNr="137" StrElement="3874" RefTyp="2" Info="Register-Nr. 5013"/>
-<ReferenzElemente ReferenzNr="138" StrElement="4012" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="139" StrElement="4012" StrNorm="1" RefTyp="2" Info="Register-Nr. 5016"/>
-<ReferenzElemente ReferenzNr="140" StrElement="4012" RefTyp="2" Info="Register-Nr. 5016"/>
-<ReferenzElemente ReferenzNr="141" StrElement="4268" StrNorm="1" RefTyp="4" Info="Signal: Amberg D1"/>
-<ReferenzElemente ReferenzNr="142" StrElement="4268" StrNorm="1" RefTyp="2" Info="Register-Nr. 5021"/>
-<ReferenzElemente ReferenzNr="143" StrElement="4268" RefTyp="2" Info="Register-Nr. 5021"/>
-<ReferenzElemente ReferenzNr="144" StrElement="4433" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="145" StrElement="4433" StrNorm="1" RefTyp="2" Info="Register-Nr. 5027"/>
-<ReferenzElemente ReferenzNr="146" StrElement="4433" RefTyp="2" Info="Register-Nr. 5027"/>
-<ReferenzElemente ReferenzNr="147" StrElement="5577" RefTyp="4" Info="Signal: Amberg D6"/>
-<ReferenzElemente ReferenzNr="148" StrElement="5577" StrNorm="1" RefTyp="2" Info="Register-Nr. 5048"/>
-<ReferenzElemente ReferenzNr="149" StrElement="5577" RefTyp="2" Info="Register-Nr. 5048"/>
-<ReferenzElemente ReferenzNr="150" StrElement="5578" RefTyp="4" Info="Signal: Amberg D5"/>
-<ReferenzElemente ReferenzNr="151" StrElement="5578" StrNorm="1" RefTyp="2" Info="Register-Nr. 5049"/>
-<ReferenzElemente ReferenzNr="152" StrElement="5578" RefTyp="2" Info="Register-Nr. 5049"/>
-<ReferenzElemente ReferenzNr="153" StrElement="3274" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="154" StrElement="3274" StrNorm="1" RefTyp="2" Info="Register-Nr. 5001"/>
-<ReferenzElemente ReferenzNr="155" StrElement="3274" RefTyp="2" Info="Register-Nr. 5001"/>
-<ReferenzElemente ReferenzNr="156" StrElement="4161" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="157" StrElement="4161" StrNorm="1" RefTyp="2" Info="Register-Nr. 5020"/>
-<ReferenzElemente ReferenzNr="158" StrElement="4161" RefTyp="2" Info="Register-Nr. 5020"/>
-<ReferenzElemente ReferenzNr="159" StrElement="4382" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="160" StrElement="4382" StrNorm="1" RefTyp="2" Info="Register-Nr. 5029"/>
-<ReferenzElemente ReferenzNr="161" StrElement="4382" RefTyp="2" Info="Register-Nr. 5029"/>
-<ReferenzElemente ReferenzNr="162" StrElement="4350" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="163" StrElement="4350" StrNorm="1" RefTyp="2" Info="Register-Nr. 5028"/>
-<ReferenzElemente ReferenzNr="164" StrElement="4350" RefTyp="2" Info="Register-Nr. 5028"/>
-<ReferenzElemente ReferenzNr="165" StrElement="3904" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="166" StrElement="3904" StrNorm="1" RefTyp="2" Info="Register-Nr. 5017"/>
-<ReferenzElemente ReferenzNr="167" StrElement="3904" RefTyp="2" Info="Register-Nr. 5017"/>
-<ReferenzElemente ReferenzNr="168" StrElement="4516" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="169" StrElement="4516" StrNorm="1" RefTyp="2" Info="Register-Nr. 5036"/>
-<ReferenzElemente ReferenzNr="170" StrElement="4516" RefTyp="2" Info="Register-Nr. 5036"/>
-<ReferenzElemente ReferenzNr="171" StrElement="4546" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="172" StrElement="4546" StrNorm="1" RefTyp="2" Info="Register-Nr. 5037"/>
-<ReferenzElemente ReferenzNr="173" StrElement="4546" RefTyp="2" Info="Register-Nr. 5037"/>
-<ReferenzElemente ReferenzNr="174" StrElement="4555" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="175" StrElement="4555" StrNorm="1" RefTyp="2" Info="Register-Nr. 5038"/>
-<ReferenzElemente ReferenzNr="176" StrElement="4555" RefTyp="2" Info="Register-Nr. 5038"/>
-<ReferenzElemente ReferenzNr="177" StrElement="4291" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="178" StrElement="4291" StrNorm="1" RefTyp="2" Info="Register-Nr. 5025"/>
-<ReferenzElemente ReferenzNr="179" StrElement="4291" RefTyp="2" Info="Register-Nr. 5025"/>
-<ReferenzElemente ReferenzNr="180" StrElement="3774" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="181" StrElement="3774" StrNorm="1" RefTyp="2" Info="Register-Nr. 5012"/>
-<ReferenzElemente ReferenzNr="182" StrElement="3774" RefTyp="2" Info="Register-Nr. 5012"/>
-<ReferenzElemente ReferenzNr="183" StrElement="3274" StrNorm="1" RefTyp="4" Info="Signal: Amberg Ls Nummer unbekannt"/>
-<ReferenzElemente ReferenzNr="184" StrElement="4629" RefTyp="4" Info="Signal: Amberg Ls Nummer unbekannt"/>
-<ReferenzElemente ReferenzNr="185" StrElement="4629" StrNorm="1" RefTyp="2" Info="Register-Nr. 5042"/>
-<ReferenzElemente ReferenzNr="186" StrElement="4629" RefTyp="2" Info="Register-Nr. 5042"/>
-<ReferenzElemente ReferenzNr="187" StrElement="4667" RefTyp="4" Info="Signal: Amberg Ls Nummer unbekannt"/>
-<ReferenzElemente ReferenzNr="188" StrElement="4667" StrNorm="1" RefTyp="2" Info="Register-Nr. 5044"/>
-<ReferenzElemente ReferenzNr="189" StrElement="4667" RefTyp="2" Info="Register-Nr. 5044"/>
-<ReferenzElemente ReferenzNr="190" StrElement="5585" RefTyp="4" Info="Signal: Amberg 2"/>
-<ReferenzElemente ReferenzNr="191" StrElement="5585" StrNorm="1" RefTyp="2" Info="Register-Nr. 5062"/>
-<ReferenzElemente ReferenzNr="192" StrElement="5585" RefTyp="2" Info="Register-Nr. 5062"/>
-<ReferenzElemente ReferenzNr="193" StrElement="3436" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3"/>
-<ReferenzElemente ReferenzNr="194" StrElement="3451" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3"/>
-<ReferenzElemente ReferenzNr="195" StrElement="5804" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="196" StrElement="5804" StrNorm="1" RefTyp="2" Info="Register-Nr. 5063"/>
-<ReferenzElemente ReferenzNr="197" StrElement="5804" RefTyp="2" Info="Register-Nr. 5063"/>
-<ReferenzElemente ReferenzNr="198" StrElement="5905" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="199" StrElement="5905" StrNorm="1" RefTyp="2" Info="Register-Nr. 5064"/>
-<ReferenzElemente ReferenzNr="200" StrElement="5905" RefTyp="2" Info="Register-Nr. 5064"/>
-<ReferenzElemente ReferenzNr="201" StrElement="5913" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="202" StrElement="5913" StrNorm="1" RefTyp="2" Info="Register-Nr. 5065"/>
-<ReferenzElemente ReferenzNr="203" StrElement="5913" RefTyp="2" Info="Register-Nr. 5065"/>
-<ReferenzElemente ReferenzNr="204" StrElement="5925" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="205" StrElement="5925" StrNorm="1" RefTyp="2" Info="Register-Nr. 5066"/>
-<ReferenzElemente ReferenzNr="206" StrElement="5925" RefTyp="2" Info="Register-Nr. 5066"/>
-<ReferenzElemente ReferenzNr="207" StrElement="5927" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="208" StrElement="5927" StrNorm="1" RefTyp="2" Info="Register-Nr. 5067"/>
-<ReferenzElemente ReferenzNr="209" StrElement="5927" RefTyp="2" Info="Register-Nr. 5067"/>
-<ReferenzElemente ReferenzNr="210" StrElement="6105" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="211" StrElement="6105" StrNorm="1" RefTyp="2" Info="Register-Nr. 5068"/>
-<ReferenzElemente ReferenzNr="212" StrElement="6105" RefTyp="2" Info="Register-Nr. 5068"/>
-<ReferenzElemente ReferenzNr="213" StrElement="3629" StrNorm="1" RefTyp="4" Info="Fahrweg: Amberg Ost "/>
-<ReferenzElemente ReferenzNr="214" StrElement="6851" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="215" StrElement="6851" StrNorm="1" RefTyp="2" Info="Register-Nr. 5069"/>
-<ReferenzElemente ReferenzNr="216" StrElement="6851" RefTyp="2" Info="Register-Nr. 5069"/>
-<ReferenzElemente ReferenzNr="217" StrElement="4160" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="218" StrElement="4160" StrNorm="1" RefTyp="2" Info="Register-Nr. 5022"/>
-<ReferenzElemente ReferenzNr="219" StrElement="4160" RefTyp="2" Info="Register-Nr. 5022"/>
-<ReferenzElemente ReferenzNr="220" StrElement="4384" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="221" StrElement="4384" StrNorm="1" RefTyp="2" Info="Register-Nr. 5035"/>
-<ReferenzElemente ReferenzNr="222" StrElement="4384" RefTyp="2" Info="Register-Nr. 5035"/>
-<ReferenzElemente ReferenzNr="223" StrElement="3467" StrNorm="1" RefTyp="4" Info="Signal: Luitpoldhütte "/>
-<ReferenzElemente ReferenzNr="224" StrElement="3259" StrNorm="1" RefTyp="4" Info="Signal: Amberg 500 Hz (G)"/>
-<ReferenzElemente ReferenzNr="225" StrElement="3399" RefTyp="4" Info="Signal: Amberg 500 Hz (Lsf a)"/>
-<ReferenzElemente ReferenzNr="226" StrElement="3490" RefTyp="4" Info="Signal: Amberg 500 Hz (A)"/>
-<ReferenzElemente ReferenzNr="227" StrElement="4008" StrNorm="1" RefTyp="4" Info="Signal: Amberg 500 Hz (D5)"/>
-<ReferenzElemente ReferenzNr="228" StrElement="4472" RefTyp="4" Info="Signal: Amberg 500 Hz (D2)"/>
-<ReferenzElemente ReferenzNr="229" StrElement="4484" RefTyp="4" Info="Signal: Amberg 500 Hz (F2)"/>
-<ReferenzElemente ReferenzNr="230" StrElement="4577" StrNorm="1" RefTyp="4" Info="Signal: Amberg 500 Hz (D6)"/>
-<ReferenzElemente ReferenzNr="231" StrElement="4591" StrNorm="1" RefTyp="4" Info="Signal: Amberg 500 Hz (F6)"/>
-<ReferenzElemente ReferenzNr="232" StrElement="6979" RefTyp="4" Info="Signal: Amberg 500 Hz (F1)"/>
-<ReferenzElemente ReferenzNr="233" StrElement="6980" RefTyp="4" Info="Signal: Amberg 500 Hz (B)"/>
-<ReferenzElemente ReferenzNr="234" StrElement="6981" RefTyp="4" Info="Signal: Amberg 500 Hz (D1)"/>
-<ReferenzElemente ReferenzNr="235" StrElement="6982" RefTyp="4" Info="Signal: Amberg 500 Hz (F3)"/>
-<ReferenzElemente ReferenzNr="236" StrElement="6982" StrNorm="1" RefTyp="4" Info="Signal: Amberg 500 Hz (D3)"/>
-<ReferenzElemente ReferenzNr="237" StrElement="6983" RefTyp="4" Info="Signal: Amberg 500 Hz (F5)"/>
-<ReferenzElemente ReferenzNr="238" StrElement="7526" RefTyp="4" Info="Sicherungsanlage Bü km 67,958 (Master)"/>
-<ReferenzElemente ReferenzNr="239" StrElement="7526" StrNorm="1" RefTyp="4" Info="Sicherungsanlage Bü km 67,958 (Slave)"/>
-<ReferenzElemente ReferenzNr="240" StrElement="4914" RefTyp="4" Info="Bü km 67,958"/>
-<ReferenzElemente ReferenzNr="241" StrElement="4914" StrNorm="1" RefTyp="4" Info="Bü km 67,958"/>
-<ReferenzElemente ReferenzNr="242" StrElement="7497" RefTyp="4" Info="Bü km 67,958"/>
-<ReferenzElemente ReferenzNr="243" StrElement="7497" StrNorm="1" RefTyp="4" Info="Bü km 67,958"/>
-<ReferenzElemente ReferenzNr="244" StrElement="3328" StrNorm="1" RefTyp="4" Info="Signal: Amberg "/>
-<ReferenzElemente ReferenzNr="245" StrElement="3328" StrNorm="1" RefTyp="2" Info="Register-Nr. 5003"/>
-<ReferenzElemente ReferenzNr="246" StrElement="3328" RefTyp="2" Info="Register-Nr. 5003"/>
-<ReferenzElemente ReferenzNr="247" StrElement="3569" RefTyp="4" Info="Fahrweg: Amberg "/>
-<ReferenzElemente ReferenzNr="248" StrElement="3713" RefTyp="4" Info="Fahrweg: Amberg "/>
-<ReferenzElemente ReferenzNr="249" StrElement="4147" RefTyp="4" Info="Signal: Amberg "/>
-<ReferenzElemente ReferenzNr="250" StrElement="4147" StrNorm="1" RefTyp="2" Info="Register-Nr. 5023"/>
-<ReferenzElemente ReferenzNr="251" StrElement="4147" RefTyp="2" Info="Register-Nr. 5023"/>
-<ReferenzElemente ReferenzNr="252" StrElement="7158" RefTyp="4" Info="Fahrweg: Amberg "/>
-<ReferenzElemente ReferenzNr="253" StrElement="7360" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="254" StrElement="7360" StrNorm="1" RefTyp="2" Info="Register-Nr. 5072"/>
-<ReferenzElemente ReferenzNr="255" StrElement="7360" RefTyp="2" Info="Register-Nr. 5072"/>
-<ReferenzElemente ReferenzNr="256" StrElement="7361" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="257" StrElement="7361" StrNorm="1" RefTyp="2" Info="Register-Nr. 5073"/>
-<ReferenzElemente ReferenzNr="258" StrElement="7361" RefTyp="2" Info="Register-Nr. 5073"/>
-<ReferenzElemente ReferenzNr="259" StrElement="7362" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="260" StrElement="7362" StrNorm="1" RefTyp="2" Info="Register-Nr. 5074"/>
-<ReferenzElemente ReferenzNr="261" StrElement="7362" RefTyp="2" Info="Register-Nr. 5074"/>
-<ReferenzElemente ReferenzNr="262" StrElement="7364" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="263" StrElement="7364" StrNorm="1" RefTyp="2" Info="Register-Nr. 5075"/>
-<ReferenzElemente ReferenzNr="264" StrElement="7364" RefTyp="2" Info="Register-Nr. 5075"/>
-<ReferenzElemente ReferenzNr="265" StrElement="7483" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="266" StrElement="7483" StrNorm="1" RefTyp="2" Info="Register-Nr. 5076"/>
-<ReferenzElemente ReferenzNr="267" StrElement="7483" RefTyp="2" Info="Register-Nr. 5076"/>
-<ReferenzElemente ReferenzNr="268" StrElement="7485" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="269" StrElement="7485" StrNorm="1" RefTyp="2" Info="Register-Nr. 5077"/>
-<ReferenzElemente ReferenzNr="270" StrElement="7485" RefTyp="2" Info="Register-Nr. 5077"/>
-<ReferenzElemente ReferenzNr="271" StrElement="7491" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="272" StrElement="7491" StrNorm="1" RefTyp="2" Info="Register-Nr. 5078"/>
-<ReferenzElemente ReferenzNr="273" StrElement="7491" RefTyp="2" Info="Register-Nr. 5078"/>
-<ReferenzElemente ReferenzNr="274" StrElement="7492" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="275" StrElement="7492" StrNorm="1" RefTyp="2" Info="Register-Nr. 5079"/>
-<ReferenzElemente ReferenzNr="276" StrElement="7492" RefTyp="2" Info="Register-Nr. 5079"/>
-<ReferenzElemente ReferenzNr="277" StrElement="4383" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
-<ReferenzElemente ReferenzNr="278" StrElement="4383" StrNorm="1" RefTyp="2" Info="Register-Nr. 5037"/>
-<ReferenzElemente ReferenzNr="279" StrElement="4383" RefTyp="2" Info="Register-Nr. 5037"/>
-<ReferenzElemente ReferenzNr="280" StrElement="7532" StrNorm="1" RefTyp="4" Info="Signal: Amberg Lsf a"/>
-<ReferenzElemente ReferenzNr="281" StrElement="7532" StrNorm="1" RefTyp="2" Info="Register-Nr. 5080"/>
-<ReferenzElemente ReferenzNr="282" StrElement="7532" RefTyp="2" Info="Register-Nr. 5080"/>
-<ReferenzElemente ReferenzNr="283" StrElement="7535" StrNorm="1" RefTyp="4" Info="Signal: Amberg Lsf a"/>
-<ReferenzElemente ReferenzNr="284" StrElement="7535" StrNorm="1" RefTyp="2" Info="Register-Nr. 5080"/>
-<ReferenzElemente ReferenzNr="285" StrElement="7535" RefTyp="2" Info="Register-Nr. 5080"/>
-<ReferenzElemente ReferenzNr="286" StrElement="7535" RefTyp="4" Info="Signal: Amberg \A"/>
-<ReferenzElemente ReferenzNr="287" StrElement="4087" StrNorm="1" RefTyp="4" Info="Signal: Amberg "/>
-<ReferenzElemente ReferenzNr="288" StrElement="4087" StrNorm="1" RefTyp="2" Info="Register-Nr. 5023"/>
-<ReferenzElemente ReferenzNr="289" StrElement="4087" RefTyp="2" Info="Register-Nr. 5023"/>
-<ReferenzElemente ReferenzNr="290" StrElement="4769" RefTyp="4" Info="Signal: Amberg Ls Nummer unbekannt"/>
-<ReferenzElemente ReferenzNr="291" StrElement="4769" StrNorm="1" RefTyp="2" Info="Register-Nr. 5050"/>
-<ReferenzElemente ReferenzNr="292" StrElement="4769" RefTyp="2" Info="Register-Nr. 5050"/>
-<ReferenzElemente ReferenzNr="293" StrElement="7802" StrNorm="1" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="294" StrElement="7802" StrNorm="1" RefTyp="2" Info="Register-Nr. 5082"/>
-<ReferenzElemente ReferenzNr="295" StrElement="7802" RefTyp="2" Info="Register-Nr. 5082"/>
-<ReferenzElemente ReferenzNr="296" StrElement="8055" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="297" StrElement="8055" StrNorm="1" RefTyp="2" Info="Register-Nr. 5083"/>
-<ReferenzElemente ReferenzNr="298" StrElement="8055" RefTyp="2" Info="Register-Nr. 5083"/>
-<ReferenzElemente ReferenzNr="299" StrElement="8063" RefTyp="3" Info="Weiche "/>
-<ReferenzElemente ReferenzNr="300" StrElement="8063" StrNorm="1" RefTyp="2" Info="Register-Nr. 5084"/>
-<ReferenzElemente ReferenzNr="301" StrElement="8063" RefTyp="2" Info="Register-Nr. 5084"/>
 <ReferenzElemente ReferenzNr="302" StrElement="8642" StrNorm="1" RefTyp="4" Info="Signal:  "/>
 <ReferenzElemente ReferenzNr="303" StrElement="8469" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000709_005481_Amberg\Amberg_2015.st3"/>
 <ReferenzElemente ReferenzNr="304" StrElement="8746" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3"/>
@@ -1967,6 +1662,7 @@
 <b X="-1822.533" Y="269.3295" Z="383.1174"/>
 <InfoNormRichtung vMax="30.5556" km="63.1078" Reg="5005">
 <Ereignis Er="4"/>
+<Ereignis Er="1000002"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="30.5556" km="63.1006" pos="1" Reg="5005"/>
 <NachNorm Nr="181"/>
@@ -2881,7 +2577,9 @@
 <StrElement Nr="224" Ueberh="0.0334" kr="-0.000561" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-829.3418" Y="-1570.127" Z="378.4263"/>
 <b X="-832.3756" Y="-1566.9052" Z="378.4321"/>
-<InfoGegenRichtung vMax="30.5556" km="65.2048" pos="1"/>
+<InfoGegenRichtung vMax="30.5556" km="65.2048" pos="1">
+<Ereignis Er="4013"/>
+</InfoGegenRichtung>
 <NachNorm Nr="1754"/>
 <NachGegen Nr="223"/>
 </StrElement>
@@ -3743,16 +3441,16 @@
 <StrElement Nr="318" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1229.553" Y="-1023.9699" Z="379.55"/>
 <b X="-1253.88" Y="-989.5895" Z="379.6455"/>
-<InfoNormRichtung vMax="-1" km="64.532"/>
-<InfoGegenRichtung vMax="30.5556" km="64.4899" pos="1"/>
+<InfoNormRichtung vMax="-1" km="64.5319"/>
+<InfoGegenRichtung vMax="30.5556" km="64.4898" pos="1"/>
 <NachNorm Nr="319"/>
 <NachGegen Nr="317"/>
 </StrElement>
 <StrElement Nr="319" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1253.88" Y="-989.5895" Z="379.6455"/>
 <b X="-1279.467" Y="-953.4281" Z="379.746"/>
-<InfoNormRichtung vMax="-1"/>
-<InfoGegenRichtung vMax="30.5556" km="64.4456" pos="1">
+<InfoNormRichtung vMax="-1" km="64.4898"/>
+<InfoGegenRichtung vMax="30.5556" km="64.4455" pos="1">
 <Ereignis Er="39" Beschr="5904a"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1423"/>
@@ -3888,8 +3586,8 @@
 <StrElement Nr="329" spTrass="27.7778" Anschluss="257" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="-1307.177" Y="-914.2661" Z="379.8547"/>
 <b X="-1305.054" Y="-917.2668" Z="379.8464"/>
-<InfoNormRichtung vMax="-1" km="64.3976" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="64.4013">
+<InfoNormRichtung vMax="-1" km="64.3975" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="64.4012">
 <Ereignis Er="31" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2434"/>
@@ -3917,7 +3615,7 @@
 <InfoNormRichtung vMax="-1" km="64.3913" pos="1">
 <Ereignis Er="31" Wert="1"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="64.3976"/>
+<InfoGegenRichtung vMax="-1" km="64.3975"/>
 <NachNorm Nr="329"/>
 <NachGegen Nr="333"/>
 </StrElement>
@@ -5773,12 +5471,12 @@
 <MatrixEintrag Signalbild="2138645651">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2143064649" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="2143064649" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="2143064649" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="2143064649" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="2143064649" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="2143064649" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2134676041" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2134676041" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2134676041" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2134676041" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2134676041" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2134676041" MatrixGeschw="11.1111"/>
 <MatrixEintrag Signalbild="2134526245" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="2134526245" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="2134526245" MatrixGeschw="-1"/>
@@ -6658,6 +6356,7 @@
 <b X="-1813.8831" Y="243.3043" Z="382.9912"/>
 <InfoNormRichtung vMax="30.5556" km="63.1401" Reg="5023">
 <Ereignis Er="4"/>
+<Ereignis Er="1000002"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="30.5556" km="63.1277" pos="1" Reg="5023"/>
 <NachNorm Nr="580"/>
@@ -15785,12 +15484,12 @@
 <MatrixEintrag Signalbild="2138645651">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="2140967497" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="2140967497" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="2140967497" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="2140967497" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="2140967497" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="2140967497" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2132578889" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2132578889" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2132578889" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2132578889" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2132578889" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2132578889" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="2134526245" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="2134526245" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="2134526245" MatrixGeschw="-1"/>
@@ -16103,9 +15802,10 @@
 <StrElement Nr="1423" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1279.467" Y="-953.4281" Z="379.746"/>
 <b X="-1292.2605" Y="-935.3474" Z="379.7962"/>
-<InfoNormRichtung vMax="-1" Reg="5060"/>
-<InfoGegenRichtung vMax="-1" pos="1" Reg="5060">
+<InfoNormRichtung vMax="-1" km="64.4455" Reg="5060"/>
+<InfoGegenRichtung vMax="-1" km="64.4234" pos="1" Reg="5060">
 <Ereignis Er="4"/>
+<Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="2434"/>
 <NachGegen Nr="319"/>
@@ -16116,6 +15816,7 @@
 <InfoNormRichtung vMax="30.5556" km="64.4905" Reg="5061"/>
 <InfoGegenRichtung vMax="27.7778" pos="1" Reg="5061">
 <Ereignis Er="4"/>
+<Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="298"/>
 <NachGegen Nr="2308"/>
@@ -16896,13 +16597,7 @@
 <MatrixEintrag Signalbild="257575205" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="263866661" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="255478053" MatrixGeschw="-1"/>
-<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000B01">
-<MatrixEintrag Signalbild="253306003" MatrixGeschw="11.1111">
-<Ereignis Er="32" Wert="70"/>
-<Ereignis Er="2000"/>
-</MatrixEintrag>
-</Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="00010B01">
+<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000501">
 <MatrixEintrag Signalbild="253306003" MatrixGeschw="11.1111">
 <Ereignis Er="32" Wert="70"/>
 <Ereignis Er="2000"/>
@@ -22881,8 +22576,8 @@
 <StrElement Nr="2434" spTrass="30.5556" Anschluss="257" Oberbau="B70 SKL-Oberbau">
 <g X="-1292.2605" Y="-935.3474" Z="379.7962"/>
 <b X="-1305.054" Y="-917.2668" Z="379.8464"/>
-<InfoNormRichtung vMax="-1" km="64.4235"/>
-<InfoGegenRichtung vMax="-1">
+<InfoNormRichtung vMax="-1" km="64.4234"/>
+<InfoGegenRichtung vMax="-1" km="64.4012" pos="1">
 <Signal SignalTyp="14" BoundingR="1">
 <p X="-1292.2605" Y="-935.3474" Z="379.7962"/>
 <phi Z="5.328183"/>
@@ -38568,7 +38263,7 @@
 <FahrstrWeiche Ref="66" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="270" FahrstrSignalZeile="6">
+<FahrstrSignal Ref="270" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="317" FahrstrSignalSpalte="1">
@@ -38696,7 +38391,7 @@
 <FahrstrWeiche Ref="66" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="270" FahrstrSignalZeile="6">
+<FahrstrSignal Ref="270" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="317" FahrstrSignalSpalte="1">
@@ -39020,7 +38715,7 @@
 <FahrstrWeiche Ref="66" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="175" FahrstrSignalZeile="6">
+<FahrstrSignal Ref="175" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="238" FahrstrSignalSpalte="1">
@@ -39148,7 +38843,7 @@
 <FahrstrWeiche Ref="66" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000702_005485_Sulzbach-Rosenberg_Huette\Sulzbach-Rosenberg_Huette_2000.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="175" FahrstrSignalZeile="6">
+<FahrstrSignal Ref="175" FahrstrSignalZeile="7">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000705_005484_Luitpoldhuette\Luitpoldhuette_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="238" FahrstrSignalSpalte="1">

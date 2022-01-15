@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="51591" Zuglauf="Schwandorf - Nürnberg Rbf" Prio="2500" Standortmodus="1" BremsstellungZug="2" spAnfang="22.2222" MBrh="1.7204" APBeschl="0.5" LODzug="3" ReisendenDichte="0.6" FahrplanGruppe="1. Irrenlohe - Luitpoldhütte" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 1 Sbk 1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2022_08Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2022_08Uhr-10Uhr\EK51591.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 09:03:00" Abf="2022-01-11 09:03:00" Betrst="Sbk 1" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:05:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="N3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Freihöls" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="K"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 09:12:00" Abf="2022-01-11 09:20:00" Betrst="Freihöls" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="C"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Hiltersdorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:27:00" Betrst="Hiltersdorf">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Amberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="G"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:31:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="D2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Luitpoldhütte" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:35:00" Betrst="Luitpoldhütte">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="92 80 1261 078-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Dieselloks\Gravita\Gravita10BB.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="31 80 5376 651-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="31 80 5376 156-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="31 80 5376 762-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 737-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 122-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="21 80 2457 853-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="21 80 2457 853-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\R-Wagen\Res689\Res689.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
