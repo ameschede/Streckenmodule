@@ -24,6 +24,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Irrenlohe
 * Friedland
 * Amberg
+* Wahlitz
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -34,3 +35,5 @@ Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenh
 Die Module Luitpoldhütte, Amberg, Hiltersdorf, Freihöls und Irrenlohe bilden ein zusammenhängendes Netz mit 37 km Länge. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
 
 Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.
+
+Das Modul Wahlitz schließt an das Modul Gommern des Bestandsnetzes an.
