@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="T" Nummer="77304" Zuglauf="Hirschau - Amberg" Prio="2000" Standortmodus="1" BremsstellungZug="2" MBrh="0.45" APBeschl="0.5" FahrplanGruppe="3b. Kaolinzüge" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Amberg B" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\T77304.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 06:44:00" Abf="2014-07-15 06:45:00" Betrst="Amberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 06:48:00" Abf="2014-07-15 06:58:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="F5"/>
+<FahrplanSignalEintrag FahrplanSignal="F6"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V90\V90.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

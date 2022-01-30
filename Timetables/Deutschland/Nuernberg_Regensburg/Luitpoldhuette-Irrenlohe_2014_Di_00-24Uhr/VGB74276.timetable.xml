@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.4" MinVersion="A.0">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" />
+</Info>
+<Buchfahrplan Gattung="VGB" Nummer="74276" Zuglauf="Regensburg Hbf - Marktredwitz" BR="642" Masse="82000" spMax="33.3333" Bremsh="1.7561" MBrh="1.04" Laenge="41.7" kmStart="43.9351" BremsstellungZug="5" LaengeLoks="41.7">
+<Datei_fpn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1" />
+<Datei_trn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\VGB74276.trn" NurInfo="1" />
+<FplZeile FplLaufweg="11.8365">
+<FplvMax vMax="38.8889" />
+<Fplkm km="0.0118" />
+</FplZeile>
+<FplZeile FplLaufweg="486.3215">
+<Fplkm km="44.422" />
+<FplName FplNameText="Sbk 1" />
+<FplAnk Ank="2014-07-15 22:02:00" />
+<FplAbf Abf="2014-07-15 22:05:00" />
+</FplZeile>
+<FplZeile FplLaufweg="494.279">
+<Fplkm km="44.4299" />
+</FplZeile>
+<FplZeile FplLaufweg="1474.69434">
+<Fplkm km="45.4107" />
+<FplSignaltyp FplSignaltypNr="7" />
+<FplNameRechts FplNameText="E 60" />
+</FplZeile>
+<FplZeile FplLaufweg="2772.64478">
+<FplvMax vMax="33.3333" />
+<Fplkm km="46.7082" />
+</FplZeile>
+<FplZeile FplLaufweg="2924.7146">
+<Fplkm km="46.8603" />
+<FplName FplNameText="Irrenlohe" />
+<FplAnk Ank="2014-07-15 22:09:00" />
+<FplAbf Abf="2014-07-15 22:09:00" />
+</FplZeile>
+<FplZeile FplLaufweg="3113.77222">
+<Fplkm km="47.0494" />
+<FplSignaltyp FplSignaltypNr="9" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3652.55713" FahrstrStrecke="5860a">
+<Fplkm km="47.5892" />
+<FplIcon FplIconNr="17" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3652.55713" FahrstrStrecke="5860a">
+<Fplkm km="47.5892" />
+<FplIcon FplIconNr="17" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4879.981" FahrstrStrecke="5860a">
+<FplvMax vMax="38.8889" />
+<Fplkm km="48.8277" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="4879.981" FahrstrStrecke="5860a">
+<FplvMax vMax="38.8889" />
+<Fplkm km="48.8277" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="5840.416" FahrstrStrecke="5860a">
+<Fplkm km="49.7771" />
+<FplSignaltyp FplSignaltypNr="7" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="5840.416" FahrstrStrecke="5860a">
+<Fplkm km="49.7771" />
+<FplSignaltyp FplSignaltypNr="7" />
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

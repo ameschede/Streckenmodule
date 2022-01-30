@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="56927" Zuglauf="Amberg - Sulzbach-Rosenberg Hütte" Prio="2500" BremsstellungZug="2" MBrh="0.45" APBeschl="0.5" FahrplanGruppe="3a. Güterzüge" Rekursionstiefe="5" FahrstrName="Amberg G -&gt; Amberg D5" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\EK56927.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 07:00:00" Abf="2014-07-15 07:10:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="D5"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 07:15:00" Abf="2014-07-15 07:52:00" Betrst="Luitpoldhütte">
+<FahrplanSignalEintrag FahrplanSignal="N4"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V90\V90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="31 80 0806 232-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\T-Wagen\Tamns893\Tamns893.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="31 80 0806 250-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\T-Wagen\Tamns893\Tamns893.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="31 80 0806 282-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\T-Wagen\Tamns893\Tamns893.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\R-Wagen\Res689\Res689.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\R-Wagen\Res689\Res689.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\R-Wagen\Res689\Res689.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\R-Wagen\Res689\Res689.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

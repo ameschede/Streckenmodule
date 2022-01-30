@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="Bauz" Nummer="92186" Zuglauf="Schwandorf - Schnaittenbach" Prio="2500" BremsstellungZug="2" MBrh="0.55" APBeschl="0.5" FahrplanGruppe="3c. Sonstige" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 1 Sbk 1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\Bauz92186.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 07:38:00" Abf="2014-07-15 07:39:00" Betrst="Sbk 1" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 07:41:00" Abf="2014-07-15 07:54:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="4II"/>
+<FahrplanSignalEintrag FahrplanSignal="5I"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 08:03:00" Betrst="Freihöls">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 08:10:00" Betrst="Hiltersdorf">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 08:17:00" Abf="2014-07-15 08:50:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="D3"/>
+<FahrplanSignalEintrag FahrplanSignal="D5"/>
+<FahrplanSignalEintrag FahrplanSignal="D6"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V200_Familie\V200.1\V200.1.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="4" Gedreht="1" NVRNummer="21 80 5730 388-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\K-Wagen\Ktmm65\Ktmm65.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="4" NVRNummer="21 80 5730 655-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\K-Wagen\Ktmm65\Ktmm65.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm61\Otmm61.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm61\Otmm61.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm61\Otmm61.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="6" IDNeben="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\O-Wagen\Otmm70\Otmm70.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

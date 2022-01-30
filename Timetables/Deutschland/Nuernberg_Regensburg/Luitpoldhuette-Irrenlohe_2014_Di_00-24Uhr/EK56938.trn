@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="56938" Zuglauf="Hirschau - Amberg" Prio="2000" Standortmodus="1" BremsstellungZug="2" MBrh="0.45" APBeschl="0.5" FahrplanGruppe="3b. Kaolinzüge" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Amberg B" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\EK56938.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 17:27:00" Abf="2014-07-15 17:28:00" Betrst="Amberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 17:31:00" Abf="2014-07-15 19:02:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="F6"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V90\V90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="33 80 7837 234-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="31 80 0695 421-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2" Gedreht="1" NVRNummer="31 80 0695 237-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="31 80 0695 842-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 0689 618-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Tanoos896\Tanoos896.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

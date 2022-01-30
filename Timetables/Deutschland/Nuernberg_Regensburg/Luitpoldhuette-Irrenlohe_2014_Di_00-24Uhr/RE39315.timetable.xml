@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.4" MinVersion="A.0">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" />
+</Info>
+<Buchfahrplan Gattung="RE" Nummer="39315" Zuglauf="Nürnberg Hbf - Amberg" BR="610" Masse="116000" spMax="44.4444" Bremsh="1.9138" MBrh="1.95" Laenge="51.75" kmStart="61.8975" BremsstellungZug="5" GNTSpalte="1" LaengeLoks="51.75">
+<Datei_fpn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1" />
+<Datei_trn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\RE39315.trn" NurInfo="1" />
+<FplZeile FplLaufweg="90.8783">
+<FplvMax vMax="30.5556" />
+<Fplkm km="0.0093" />
+<FplIcon FplIconNr="3" />
+</FplZeile>
+<FplZeile FplLaufweg="100.1366">
+<FplvMaxGNT vMax="44.4444" />
+<Fplkm km="61.9884" />
+</FplZeile>
+<FplZeile FplLaufweg="889.9725">
+<Fplkm km="62.7873" />
+<FplSignaltyp FplSignaltypNr="7" />
+<FplNameRechts FplNameText="E 50" />
+</FplZeile>
+<FplZeile FplLaufweg="1921.41931">
+<Fplkm km="63.8197" />
+<FplName FplNameText="Luitpoldhütte" />
+<FplAbf Abf="2014-07-15 18:11:00" />
+</FplZeile>
+<FplZeile FplLaufweg="2218.17383">
+<Fplkm km="64.1153" />
+<FplSignaltyp FplSignaltypNr="9" />
+<FplNameRechts FplNameText="A 60" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2510.44727" FahrstrStrecke="5904a">
+<FplvMax vMax="27.7778" />
+<Fplkm km="64.4074" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2548.50659" FahrstrStrecke="5904a">
+<Fplkm km="64.4455" />
+<FplIcon FplIconNr="17" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2593.52954" FahrstrStrecke="5904a">
+<Fplkm km="64.4905" />
+<FplIcon FplIconNr="17" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3129.588" FahrstrStrecke="5904a">
+<FplvMaxGNT vMax="38.8889" />
+<Fplkm km="65.0214" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3356.24976" FahrstrStrecke="5904a">
+<Fplkm km="65.2533" />
+<FplName FplNameText="Ne 2" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3845.53125" FahrstrStrecke="5904a">
+<FplvMaxGNT vMax="33.3333" />
+<Fplkm km="65.6998" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4337.808" FahrstrStrecke="5904a">
+<FplvMax vMax="22.2222" />
+<Fplkm km="66.2358" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="4347.011" FahrstrStrecke="5904a">
+<FplvMax vMax="22.2222" />
+<Fplkm km="66.2446" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4359.808" FahrstrStrecke="5904a">
+<FplvMaxGNT vMax="22.2222" />
+<Fplkm km="66.2558" />
+<FplSignaltyp FplSignaltypNr="7" />
+<FplNameRechts FplNameText="E 50" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="4361.24" FahrstrStrecke="5904a">
+<Fplkm km="66.2589" />
+<FplIcon FplIconNr="31" />
+<FplName FplNameText="Ls" />
+</FplZeile>
+<FplZeile FplLaufweg="5232.71729">
+<Fplkm km="67.1289" />
+<FplName FplNameText="Amberg" />
+<FplAnk Ank="2014-07-15 18:13:00" />
+</FplZeile>
+<FplZeile FplLaufweg="5386.838">
+<Fplkm km="67.2844" />
+<FplSignaltyp FplSignaltypNr="9" />
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

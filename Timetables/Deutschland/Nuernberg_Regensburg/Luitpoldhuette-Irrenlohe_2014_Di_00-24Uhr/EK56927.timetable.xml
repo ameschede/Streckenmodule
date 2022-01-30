@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.4" MinVersion="A.0">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" />
+</Info>
+<Buchfahrplan Gattung="EK" Nummer="56927" Zuglauf="Amberg - Sulzbach-Rosenberg Hütte" BR="294" Masse="587800" spMax="22.2222" Bremsh="0.8115" MBrh="0.45" Laenge="141.14" kmStart="68.0089" BremsstellungZug="2" LaengeLoks="14.32">
+<Datei_fpn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1" />
+<Datei_trn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\EK56927.trn" NurInfo="1" />
+<FplZeile FplLaufweg="7.7594">
+<FplvMax vMax="30.5556" />
+<Fplkm km="-0.0078" />
+</FplZeile>
+<FplZeile FplLaufweg="586.9727">
+<FplvMax vMax="22.2222" />
+<Fplkm km="67.4319" />
+</FplZeile>
+<FplZeile FplLaufweg="593.8259">
+<FplvMaxGNT vMax="22.2222" />
+<Fplkm km="67.417" />
+</FplZeile>
+<FplZeile FplLaufweg="637.8583">
+<Fplkm km="67.4594" FplSprung="1" FplkmNeu="67.3729" />
+</FplZeile>
+<FplZeile FplLaufweg="952.9099">
+<Fplkm km="67.0578" />
+<FplName FplNameText="Amberg" />
+<FplAnk Ank="2014-07-15 07:00:00" />
+<FplAbf Abf="2014-07-15 07:10:00" />
+</FplZeile>
+<FplZeile FplLaufweg="1172.7019">
+<Fplkm km="66.838" />
+<FplSignaltyp FplSignaltypNr="9" />
+<FplNameRechts FplNameText="A 50" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1214.31738" FahrstrStrecke="5904b">
+<Fplkm km="68.036" FplSprung="1" FplkmNeu="66.7964" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1457.07251" FahrstrStrecke="5904b">
+<Fplkm km="66.5708" />
+<FplIcon FplIconNr="17" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1512.27881" FahrstrStrecke="5904b">
+<Fplkm km="66.5088" />
+<FplIcon FplIconNr="17" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="1685.0094" FahrstrStrecke="5904b">
+<FplvMax vMax="27.7778" />
+<Fplkm km="66.3376" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="1721.964" FahrstrStrecke="5904b">
+<FplvMax vMax="30.5556" />
+<FplvMaxGNT vMax="33.3333" />
+<Fplkm km="66.2745" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2136.71143" FahrstrStrecke="5904b">
+<Fplkm km="65.8858" />
+<FplName FplNameText="Ne 2" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3028.70215" FahrstrStrecke="5904b">
+<FplvMaxGNT vMax="44.4444" />
+<Fplkm km="65.0014" />
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3251.02954" FahrstrStrecke="5904b">
+<Fplkm km="64.7691" />
+<FplSignaltyp FplSignaltypNr="7" />
+<FplNameRechts FplNameText="E 60" />
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3253.534" FahrstrStrecke="5904b">
+<FplvMax vMax="30.5556" />
+<Fplkm km="64.7936" />
+<FplIcon FplIconNr="31" />
+<FplName FplNameText="Ls" />
+</FplZeile>
+<FplZeile FplLaufweg="4318.293">
+<Fplkm km="63.7063" />
+<FplName FplNameText="Luitpoldhütte" />
+<FplAnk Ank="2014-07-15 07:15:00" />
+<FplAbf Abf="2014-07-15 07:52:00" />
+</FplZeile>
+<FplZeile FplLaufweg="4615.645">
+<Fplkm km="63.4087" />
+<FplSignaltyp FplSignaltypNr="9" />
+<FplNameRechts FplNameText="A 50" />
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

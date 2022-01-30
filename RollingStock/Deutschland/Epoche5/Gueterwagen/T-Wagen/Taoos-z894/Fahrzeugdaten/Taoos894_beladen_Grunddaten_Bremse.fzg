@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.5" MinVersion="A.1" EinsatzAb="2008-01-01">
+<AutorEintrag AutorID="69" AutorName="Markus Egger" AutorEmail="markus.egger@gmx.de"/>
+</Info>
+<Fahrzeug>
+<FahrzeugGrunddaten Masse="80000" Achsstandsumme="3.6" RotationsZuschlag="2400" cwA="4" Rollwiderstand="1569.6001" Laenge="16" spMax="27.7778" LokModus="2" FesselAnfg="2.52" FesselEnde="2.52" AnzahlAchsen="4" StromabnHoehe="4">
+<SchlussVorne>
+<p X="-0.73" Y="-1.05" Z="1.6"/>
+<phi/>
+</SchlussVorne>
+<SchlussVorne>
+<p X="-0.73" Y="1.05" Z="1.6"/>
+<phi/>
+</SchlussVorne>
+<SchlussHinten>
+<p X="-15.28" Y="1.05" Z="1.6"/>
+<phi Z="3.141593"/>
+</SchlussHinten>
+<SchlussHinten>
+<p X="-15.28" Y="-1.05" Z="1.6"/>
+<phi Z="3.141593"/>
+</SchlussHinten>
+</FahrzeugGrunddaten>
+<Bremse_KE_GP VolumenR="100" VolumenA="10" AnzahlAchsen="4" Bremsbauart="4" VolumenZylinder="18.809" FBremsuebersetzung="6132.0493">
+<BremsenKennungV>
+<Pkt PktY="2.523"/>
+<Pkt PktX="2.7856" PktY="2.022"/>
+<Pkt PktX="5.4936" PktY="1.597"/>
+<Pkt PktX="5.5711" PktY="1.586"/>
+<Pkt PktX="8.2792" PktY="1.376"/>
+<Pkt PktX="11.1419" PktY="1.229"/>
+<Pkt PktX="19.9628" PktY="0.953"/>
+<Pkt PktX="20.0403" PktY="0.952"/>
+<Pkt PktX="27.7778" PktY="0.875"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="54000"/>
+<BremseG BremsGewicht="54000"/>
+</Bremse_KE_GP>
+<Handbremse BremsGewicht="12800">
+<BremsenKennungV>
+<Stufe/>
+</BremsenKennungV>
+</Handbremse>
+</Fahrzeug>
+</Zusi>

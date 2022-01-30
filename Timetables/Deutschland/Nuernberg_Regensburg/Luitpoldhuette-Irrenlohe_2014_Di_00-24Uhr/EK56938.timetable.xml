@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.4" MinVersion="A.0">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" />
+</Info>
+<Buchfahrplan Gattung="EK" Nummer="56938" Zuglauf="Hirschau - Amberg" BR="294" Masse="599690" spMax="22.2222" Bremsh="0.5523" MBrh="0.45" Laenge="95.82" kmStart="2.0411" BremsstellungZug="2" LaengeLoks="14.32">
+<Datei_fpn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1" />
+<Datei_trn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\EK56938.trn" NurInfo="1" />
+<FplZeile FplLaufweg="5.0571">
+<FplvMax vMax="13.8889" />
+<Fplkm km="-0.0051" />
+</FplZeile>
+<FplZeile FplLaufweg="1266.42688">
+<Fplkm km="0.7775" />
+<FplSignaltyp FplSignaltypNr="7" />
+<FplNameRechts FplNameText="E 50" />
+</FplZeile>
+<FplZeile FplLaufweg="1618.77979">
+<FplvMax vMax="22.2222" />
+<Fplkm km="0.4232" />
+</FplZeile>
+<FplZeile FplLaufweg="2092.7168">
+<Fplkm km="-0.0488" />
+<FplName FplNameText="Amberg" />
+<FplAnk Ank="2014-07-15 17:31:00" />
+</FplZeile>
+<FplZeile FplLaufweg="2171.7373">
+<Fplkm km="-0.1279" />
+<FplSignaltyp FplSignaltypNr="9" />
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

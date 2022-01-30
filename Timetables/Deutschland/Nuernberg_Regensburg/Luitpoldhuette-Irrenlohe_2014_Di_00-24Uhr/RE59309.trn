@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="RE" Nummer="59309" Zuglauf="Nürnberg Hbf - Schwandorf" BRAngabe="610" Prio="3000" BremsstellungZug="5" MBrh="1.95" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="1a. RE Nürnberg - Regensburg" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Luitpoldhütte A" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\RE59309.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 17:04:00" Abf="2014-07-15 17:05:00" Betrst="Luitpoldhütte" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 17:06:00" Betrst="Luitpoldhütte">
+<FahrplanSignalEintrag FahrplanSignal="P2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 17:08:00" Abf="2014-07-15 17:08:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="F1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 17:12:00" Betrst="Hiltersdorf">
+<FahrplanSignalEintrag FahrplanSignal="P2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 17:15:00" Abf="2014-07-15 17:20:00" Betrst="Freihöls" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="H"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 17:25:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="P3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 17:26:00" Abf="2014-07-15 17:27:00" Betrst="Sbk 2">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 2"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\611\611.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\611\611.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

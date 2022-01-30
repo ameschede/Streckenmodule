@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="VGB" Nummer="74274" Zuglauf="Schwandorf - Weiden (Oberpf)" Prio="2500" BremsstellungZug="5" MBrh="1.04" APBeschl="0.5" Dekozug="1" ReisendenDichte="0.6" FahrplanGruppe="2c. Vogtlandbahn Regensburg - Marktredwitz" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 1 Sbk 1" Zugtyp="1" BuchfahrplanEinfach="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\VGB74274.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 21:04:00" Abf="2014-07-15 21:06:00" Betrst="Sbk 1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 21:10:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 21:13:00" Abf="2014-07-15 21:13:00" Betrst="Schwarzenfeld">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" FahrzeugZusatzinfo="VT302">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\DesiroClassic\DesiroClassic_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\DesiroClassic\DesiroClassic_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

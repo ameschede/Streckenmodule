@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="56911" Zuglauf="Schwandorf - Nürnberg Rbf" Prio="2500" BremsstellungZug="2" MBrh="0.65" APBeschl="0.5" FahrplanGruppe="3a. Güterzüge" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 1 Sbk 1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\EK56911.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 00:43:00" Abf="2014-07-15 00:44:00" Betrst="Sbk 1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 00:48:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="N3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 00:58:00" Betrst="Freihöls">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 01:05:00" Betrst="Hiltersdorf">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 01:12:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="D2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 01:16:00" Abf="2014-07-15 01:17:00" Betrst="Luitpoldhütte">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneBremsstellung="1" BremsstellungFahrzeug="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Dieselloks\DDR\132\132.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" NVRNummer="31 80 4675 565-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" NVRNummer="31 80 4675 112-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="6" NVRNummer="31 80 4675 647-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="4" NVRNummer="31 80 4675 674-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 263-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 263-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 4723 522-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="21 80 2457 668-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="21 80 2457 617-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2" NVRNummer="33 80 7837 840-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2" NVRNummer="33 80 7837 315-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2" NVRNummer="33 80 7837 210-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="21 80 2457 637-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="31 80 4675 276-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 4675 882-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\S-Wagen\Shimmns722\Shimmns-ttu722.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="3" NVRNummer="31 80 4723 263-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="3" NVRNummer="31 80 4723 263-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\S-Wagen\Snps719\Snps719.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="56932" Zuglauf="Schwandorf - Hirschau" Prio="2000" BremsstellungZug="2" MBrh="0.42" APBeschl="0.5" FahrplanGruppe="3b. Kaolinzüge" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 1 Sbk 1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\EK56932.timetable.xml"/>
+<FahrplanEintrag Ank="2014-07-15 13:33:00" Abf="2014-07-15 13:34:00" Betrst="Sbk 1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 13:37:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="5I"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 13:43:00" Abf="2014-07-15 13:51:00" Betrst="Freihöls">
+<FahrplanSignalEintrag FahrplanSignal="C"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2014-07-15 14:00:00" Betrst="Hiltersdorf">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2014-07-15 14:06:00" Abf="2014-07-15 14:52:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="D6"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1" Gedreht="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V90\V90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 7837 856-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 7837 856-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 0695 225-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 0689 181-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Tanoos896\Tanoos896.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 0689 181-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Tanoos896\Tanoos896.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" Gedreht="1" NVRNummer="31 80 0695 322-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 0695 235-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 0695 477-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" Gedreht="1" NVRNummer="31 80 0695 477-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 0695 477-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1" NVRNummer="33 80 0689 181-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Tanoos896\Tanoos896.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
