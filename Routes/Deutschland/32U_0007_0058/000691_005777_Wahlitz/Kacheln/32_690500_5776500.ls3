@@ -2674,12 +2674,6 @@
 <phi Z="-0.85053"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Vehicles\2010-19\Opel_AstraK\AstraSchwarz.LOD.ls3"/>
-<p X="468.1774" Y="348.9222" Z="51.7768"/>
-<phi Z="-0.85053"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteigbank\holzlattenbank_gruen.lod.ls3"/>
 <p X="475.0119" Y="347.3642" Z="51.8311"/>
@@ -2956,6 +2950,12 @@
 <phi Z="2.291076"/>
 <sk Z="1.75"/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Vehicles\2010-19\AstraK\AstraBronze.LOD.ls3"/>
+<p X="468.1774" Y="348.9222" Z="51.7768"/>
+<phi Z="-0.85053"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -2964,7 +2964,7 @@
 <Textur>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonBS66_KS-Oberbau.dds"/>
 </Textur>
-<Vertex U="0.812" V="-73.991" V2="1753.4499">
+<Vertex U="0.812" V="-73.991" V2="1753.45">
 <p X="473.6203" Y="365.8988" Z="51.2244"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
@@ -2972,11 +2972,11 @@
 <p X="500" Y="335.8379" Z="51.3523"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
-<Vertex U="0.737" V="-66.117" U2="0.12" V2="1766.0849">
+<Vertex U="0.737" V="-66.117" U2="0.12" V2="1766.085">
 <p X="500" Y="335.2551" Z="51.3537"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
-<Vertex U="0.188" V="-73.991" U2="1" V2="1753.4499">
+<Vertex U="0.188" V="-73.991" U2="1" V2="1753.45">
 <p X="471.2151" Y="363.7881" Z="51.2244"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
@@ -2992,11 +2992,11 @@
 <p X="440.909" Y="398.3288" Z="51.0773"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
-<Vertex U="0.812" V="-87.041" V2="1732.5091">
+<Vertex U="0.812" V="-87.041" V2="1732.5092">
 <p X="429.4379" Y="416.2743" Z="51.01"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
-<Vertex U="0.188" V="-87.041" U2="1" V2="1732.5091">
+<Vertex U="0.188" V="-87.041" U2="1" V2="1732.5092">
 <p X="427.0306" Y="414.166" Z="51.01"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
@@ -3016,11 +3016,11 @@
 <p X="393.5778" Y="452.4125" Z="50.8433"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
-<Vertex U="0.812" V="-103.644" V2="1705.8681">
+<Vertex U="0.812" V="-103.644" V2="1705.868">
 <p X="373.3195" Y="480.4509" Z="50.7304"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
-<Vertex U="0.188" V="-103.644" U2="1" V2="1705.8681">
+<Vertex U="0.188" V="-103.644" U2="1" V2="1705.868">
 <p X="370.9114" Y="478.3436" Z="50.7304"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
@@ -3530,7 +3530,7 @@
 <p X="363.7953" Y="500" Z="50.0835"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1978.1054">
+<Vertex U="1" V="1978.1053">
 <p X="384.96" Y="475.8823" Z="50.1888"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
@@ -3538,11 +3538,11 @@
 <p X="363.1613" Y="500" Z="50.0822"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
-<Vertex V="1978.1054">
+<Vertex V="1978.1053">
 <p X="384.4091" Y="475.3988" Z="50.1888"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
-<Vertex V="1933.4522">
+<Vertex V="1933.4521">
 <p X="362.8201" Y="500" Z="50.0814"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
@@ -3562,11 +3562,11 @@
 <p X="433.3104" Y="419.6747" Z="50.432"/>
 <n X="-0.0022" Y="0.0025" Z="1"/>
 </Vertex>
-<Vertex U="1" V="2114.5272">
+<Vertex U="1" V="2114.5271">
 <p X="450.9169" Y="400.7227" Z="50.5147"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
-<Vertex V="2114.5272">
+<Vertex V="2114.5271">
 <p X="450.366" Y="400.2393" Z="50.5147"/>
 <n X="-0.0021" Y="0.0024" Z="1"/>
 </Vertex>
