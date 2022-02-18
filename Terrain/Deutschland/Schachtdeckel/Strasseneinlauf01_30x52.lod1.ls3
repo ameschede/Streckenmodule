@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF" Ce="FF000000" MeterProTex="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Strasseneinlauf01_30x52.dds"/>
+</Textur>
+<Vertex U="0.656" V="0.586">
+<p X="-0.26" Y="0.15" Z="0.01"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.258" V="0.586">
+<p X="0.26" Y="0.15" Z="0.01"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.258" V="0.927">
+<p X="0.26" Y="0.15" Z="-0.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.656" V="0.927">
+<p X="-0.26" Y="0.15" Z="-0.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.656" V="0.586">
+<p X="0.26" Y="0.15" Z="0.01"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.258" V="0.586">
+<p X="0.26" Y="-0.15" Z="0.01"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.258" V="0.927">
+<p X="0.26" Y="-0.15" Z="-0.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.656" V="0.927">
+<p X="0.26" Y="0.15" Z="-0.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.656" V="0.586">
+<p X="0.26" Y="-0.15" Z="0.01"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.258" V="0.586">
+<p X="-0.26" Y="-0.15" Z="0.01"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.258" V="0.927">
+<p X="-0.26" Y="-0.15" Z="-0.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.656" V="0.927">
+<p X="0.26" Y="-0.15" Z="-0.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.656" V="0.586">
+<p X="-0.26" Y="-0.15" Z="0.01"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.258" V="0.586">
+<p X="-0.26" Y="0.15" Z="0.01"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.258" V="0.927">
+<p X="-0.26" Y="0.15" Z="-0.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.656" V="0.927">
+<p X="-0.26" Y="-0.15" Z="-0.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex V="0.611">
+<p X="-0.26" Y="-0.15" Z="0.01"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.611">
+<p X="0.26" Y="-0.15" Z="0.01"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1">
+<p X="0.26" Y="0.15" Z="0.01"/>
+<n Z="1"/>
+</Vertex>
+<Vertex>
+<p X="-0.26" Y="0.15" Z="0.01"/>
+<n Z="1"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="3;1;0"/>
+<Face i="7;6;5"/>
+<Face i="7;5;4"/>
+<Face i="11;10;9"/>
+<Face i="11;9;8"/>
+<Face i="15;14;13"/>
+<Face i="15;13;12"/>
+<Face i="19;18;17"/>
+<Face i="19;17;16"/>
+</SubSet>
+</Landschaft>
+</Zusi>
