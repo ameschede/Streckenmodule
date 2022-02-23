@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
-<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorAufwandStunden="14.5"/>
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorAufwandStunden="16"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.ls3"/>
 <HintergrundDatei/>
-<BefehlsKonfiguration/>
+<BefehlsKonfiguration Dateiname="Signals\Deutschland\Befehle\408_2015.authority.xml"/>
 <Kachelpfad Dateiname="Kacheln\" NurInfo="1"/>
 <UTM UTM_WE="723" UTM_NS="5473" UTM_Zone="32" UTM_Zone2="U"/>
 <Huellkurve>
@@ -67,6 +67,9 @@
 </StreckenStandort>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3" NurInfo="1"/>
+</ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 <ReferenzElemente ReferenzNr="2" StrElement="390" StrNorm="1" RefTyp="3" Info="Weiche Irrenlohe 1"/>
@@ -235,11 +238,11 @@
 <ReferenzElemente ReferenzNr="165" StrElement="1073" StrNorm="1" RefTyp="2" Info="Register-Nr. 5024"/>
 <ReferenzElemente ReferenzNr="166" StrElement="1073" RefTyp="2" Info="Register-Nr. 5024"/>
 <ReferenzElemente ReferenzNr="167" StrElement="1563" RefTyp="4" Info="Signal: Irrenlohe g"/>
-<ReferenzElemente ReferenzNr="168" StrElement="1564" RefTyp="4" Info="Signal: Schwarzenfeld a"/>
-<ReferenzElemente ReferenzNr="169" StrElement="1571" RefTyp="4" Info="Signal: Schwarzenfeld A"/>
+<ReferenzElemente ReferenzNr="168" StrElement="1564" RefTyp="4" Info="Signal: Schwarzenfeld (Oberpf) a"/>
+<ReferenzElemente ReferenzNr="169" StrElement="1571" RefTyp="4" Info="Signal: Schwarzenfeld (Oberpf) A"/>
 <ReferenzElemente ReferenzNr="170" StrElement="1571" StrNorm="1" RefTyp="2" Info="Register-Nr. 5061"/>
 <ReferenzElemente ReferenzNr="171" StrElement="1571" RefTyp="2" Info="Register-Nr. 5061"/>
-<ReferenzElemente ReferenzNr="172" StrElement="1572" RefTyp="4" Info="Signal: Schwarzenfeld A\"/>
+<ReferenzElemente ReferenzNr="172" StrElement="1572" RefTyp="4" Info="Signal: Schwarzenfeld (Oberpf) A\"/>
 <ReferenzElemente ReferenzNr="173" StrElement="1572" StrNorm="1" RefTyp="2" Info="Register-Nr. 5062"/>
 <ReferenzElemente ReferenzNr="174" StrElement="1572" RefTyp="2" Info="Register-Nr. 5062"/>
 <ReferenzElemente ReferenzNr="175" StrElement="1574" RefTyp="4" Info="Signal: Freihöls k"/>
@@ -296,7 +299,7 @@
 <ReferenzElemente ReferenzNr="229" StrElement="71" StrNorm="1" RefTyp="4" Info="Signal: BÜ km 84,595 BÜ km 84,595 Schranke2"/>
 <ReferenzElemente ReferenzNr="230" StrElement="514" StrNorm="1" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (N1)"/>
 <ReferenzElemente ReferenzNr="231" StrElement="669" StrNorm="1" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (P2)"/>
-<ReferenzElemente ReferenzNr="232" StrElement="893" StrNorm="1" RefTyp="4" Info="Signal: Schwarzenfeld 500 Hz (Ne1 a)"/>
+<ReferenzElemente ReferenzNr="232" StrElement="893" StrNorm="1" RefTyp="4" Info="Signal: Schwarzenfeld (Oberpf) 500 Hz (Ne1 a)"/>
 <ReferenzElemente ReferenzNr="233" StrElement="1038" StrNorm="1" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (F)"/>
 <ReferenzElemente ReferenzNr="234" StrElement="1097" StrNorm="1" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (P4)"/>
 <ReferenzElemente ReferenzNr="235" StrElement="1148" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (P3)"/>
@@ -307,7 +310,7 @@
 <ReferenzElemente ReferenzNr="240" StrElement="4312" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (P5)"/>
 <ReferenzElemente ReferenzNr="241" StrElement="4313" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (N3)"/>
 <ReferenzElemente ReferenzNr="242" StrElement="4314" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (5I)"/>
-<ReferenzElemente ReferenzNr="243" StrElement="4315" RefTyp="4" Info="Signal: Schwarzenfeld 500 Hz (A)"/>
+<ReferenzElemente ReferenzNr="243" StrElement="4315" RefTyp="4" Info="Signal: Schwarzenfeld (Oberpf) 500 Hz (A)"/>
 <ReferenzElemente ReferenzNr="244" StrElement="5471" RefTyp="4"/>
 <ReferenzElemente ReferenzNr="245" StrElement="5472" RefTyp="4"/>
 <ReferenzElemente ReferenzNr="246" StrElement="4372" RefTyp="3" Info="Weiche "/>
@@ -338,12 +341,18 @@
 <ReferenzElemente ReferenzNr="271" StrElement="1225" RefTyp="2" Info="Register-Nr. 5033"/>
 <ReferenzElemente ReferenzNr="272" StrElement="739" StrNorm="1" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (g)"/>
 <ReferenzElemente ReferenzNr="273" StrElement="7225" RefTyp="4" Info="Signal: Irrenlohe 500 Hz (a)"/>
-<ReferenzElemente ReferenzNr="274" StrElement="7500" StrNorm="1" RefTyp="4" Info="Signal: Schwarzenfeld "/>
+<ReferenzElemente ReferenzNr="274" StrElement="7500" StrNorm="1" RefTyp="4" Info="Signal: Schwarzenfeld (Oberpf) "/>
 <ReferenzElemente ReferenzNr="275" StrElement="7501" StrNorm="1" RefTyp="4" Info="Signal: Irrenlohe "/>
 <ReferenzElemente ReferenzNr="276" StrElement="518" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
 <ReferenzElemente ReferenzNr="277" StrElement="518" RefTyp="2" Info="Register-Nr. 1"/>
 <ReferenzElemente ReferenzNr="278" StrElement="5467" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
 <ReferenzElemente ReferenzNr="279" StrElement="5467" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="280" StrElement="688" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3"/>
+<ReferenzElemente ReferenzNr="281" StrElement="898" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3"/>
+<ReferenzElemente ReferenzNr="282" StrElement="7429" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3"/>
+<ReferenzElemente ReferenzNr="283" StrElement="7511" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3"/>
+<ReferenzElemente ReferenzNr="284" StrElement="7453" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3"/>
+<ReferenzElemente ReferenzNr="285" StrElement="7584" RefTyp="4" Info="Signal: Irrenlohe N5"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B70 SKL-Oberbau">
 <g X="-2874.6001" Y="3226.9851" Z="383.8636"/>
 <b X="-2827.387" Y="3218.134" Z="383.6091"/>
@@ -3849,7 +3858,10 @@
 <StrElement Nr="351" Ueberh="-0.0488" kr="0.00069" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="1932.1091" Y="-2076.793" Z="360.9839"/>
 <b X="1933.592" Y="-2065.7229" Z="361.0236"/>
-<InfoNormRichtung vMax="38.8889" km="45.3853" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="45.3853" pos="1">
+<Ereignis Er="4012"/>
+<Ereignis Er="4010" Wert="38.8889"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="45.3965"/>
 <NachNorm Nr="352"/>
 <NachGegen Nr="350"/>
@@ -3961,9 +3973,9 @@
 <MatrixEintrag Signalbild="251659065" MatrixGeschw="2.7778"/>
 <MatrixEintrag Signalbild="251659577" MatrixGeschw="5.5556"/>
 <MatrixEintrag Signalbild="251660601" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="251658553" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="251662649" MatrixGeschw="11.1111"/>
 <MatrixEintrag Signalbild="251666745" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="251674937" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="251658553" MatrixGeschw="16.6667"/>
 <MatrixEintrag Signalbild="251691317" MatrixGeschw="19.4444"/>
 <MatrixEintrag Signalbild="251724085" MatrixGeschw="22.2222"/>
 <MatrixEintrag Signalbild="251789621" MatrixGeschw="25"/>
@@ -7771,6 +7783,9 @@
 <InfoNormRichtung vMax="27.7778" Reg="5010"/>
 <InfoGegenRichtung vMax="38.8889" km="49.7771" pos="1" Reg="5010"/>
 <NachNorm Nr="1571"/>
+<NachGegenModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="689" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="3504.6279" Y="1902.42" Z="364.8457"/>
@@ -8079,12 +8094,11 @@
 </StrElement>
 <StrElement Nr="723" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="3065.4729" Y="1077.2679" Z="363.9211"/>
-<b X="3047.5264" Y="1043.5461" Z="363.9186"/>
-<InfoNormRichtung vMax="-1"/>
-<InfoGegenRichtung vMax="33.3333" km="48.7785" pos="1">
-<Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" SignalTyp="1" BoundingR="10">
+<b X="3057.4863" Y="1062.2609" Z="363.92"/>
+<InfoGegenRichtung vMax="33.3333" km="48.7997" pos="1">
+<Signal SignalTyp="1" BoundingR="10">
 <p X="3068.2979" Y="1075.7645" Z="365.6211"/>
-<phi Z="1.081726"/>
+<phi Z="1.081725"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -8108,7 +8122,7 @@
 <MatrixEintrag Signalbild="15" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
-<NachNorm Nr="7501"/>
+<NachNorm Nr="7582"/>
 <NachGegen Nr="722"/>
 </StrElement>
 <StrElement Nr="724" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
@@ -8360,7 +8374,8 @@
 <StrElement Nr="749" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="2580.092" Y="165.2583" Z="364.3582"/>
 <b X="2574.4541" Y="154.6652" Z="364.3222"/>
-<InfoNormRichtung vMax="27.7778" Reg="5011">
+<InfoNormRichtung vMax="27.7778" km="47.7835" Reg="5011">
+<Ereignis Er="6" Beschr="Ls @icon=31@"/>
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" Signalname="Ls g" SignalTyp="5" BoundingR="1">
 <p X="2572.9092" Y="155.4874" Z="364.3222"/>
 <phi Z="-2.059893"/>
@@ -8404,6 +8419,12 @@
 <Ereignis Er="2000"/>
 <Ereignis Er="23"/>
 </MatrixEintrag>
+<Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000050A">
+<MatrixEintrag Signalbild="59" MatrixGeschw="11.1111">
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="120"/>
+</MatrixEintrag>
+</Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="47.7715" pos="1" Reg="5011"/>
@@ -9275,7 +9296,7 @@
 <InfoNormRichtung vMax="-1" km="47.0424" pos="1" Reg="5014">
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" Signalname="N1" SignalTyp="9" BoundingR="10">
 <p X="2242.366" Y="-485.3589" Z="362.917"/>
-<phi Z="1.093549"/>
+<phi Z="1.093548"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -9382,10 +9403,11 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
-<MatrixEintrag Signalbild="16227" MatrixGeschw="11.1111">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0301050D">
+<MatrixEintrag Signalbild="15971" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="28" Wert="7"/>
+<Ereignis Er="32" Wert="150"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -10545,9 +10567,8 @@
 </StrElement>
 <StrElement Nr="871" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="2993.6682" Y="950.8611" Z="363.9117"/>
-<b X="3016.7351" Y="994.2029" Z="363.9149"/>
-<InfoNormRichtung vMax="27.7778" km="48.6713" pos="1"/>
-<InfoGegenRichtung vMax="36.1111" km="48.7204">
+<b X="2998.3665" Y="959.6887" Z="363.9124"/>
+<InfoGegenRichtung vMax="36.1111" km="48.6813">
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" SignalTyp="1" BoundingR="10">
 <p X="2990.843" Y="952.3645" Z="365.6117"/>
 <phi Z="-2.059882"/>
@@ -10574,7 +10595,7 @@
 <MatrixEintrag Signalbild="15" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
-<NachNorm Nr="872"/>
+<NachNorm Nr="7583"/>
 <NachGegen Nr="870"/>
 </StrElement>
 <StrElement Nr="872" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
@@ -10611,7 +10632,7 @@
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="6840"/>
-<NachGegen Nr="871"/>
+<NachGegen Nr="7583"/>
 </StrElement>
 <StrElement Nr="873" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="3039.802" Y="1037.545" Z="363.918"/>
@@ -10773,9 +10794,9 @@
 <g X="3390.563" Y="1696.6071" Z="364.0137"/>
 <b X="3395.7158" Y="1706.2896" Z="364.0525"/>
 <InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Schwarzenfeld" Stellwerk="Schwarzenfeld Sf" Signalname="500 Hz (Ne1 a)" SignalTyp="14" BoundingR="3">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="500 Hz (Ne1 a)" SignalTyp="14" BoundingR="3">
 <p X="3395.7158" Y="1706.2896" Z="364.0525"/>
-<phi Y="-0.003539" Z="1.081718"/>
+<phi Y="-0.00354" Z="1.081718"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -10831,14 +10852,17 @@
 <g X="3524.21" Y="1947.724" Z="365.0197"/>
 <b X="3513.1694" Y="1926.9792" Z="364.9366"/>
 <InfoNormRichtung vMax="36.1111" Reg="5017"/>
-<InfoGegenRichtung vMax="27.7778" km="49.7771" pos="1" Reg="5017"/>
+<InfoGegenRichtung vMax="38.8889" km="49.7771" pos="1" Reg="5017"/>
 <NachNorm Nr="1572"/>
+<NachGegenModul Nr="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="899" kr="-0.000063" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="2491.792" Y="8.8486" Z="363.9331"/>
 <b X="2507.542" Y="38.3686" Z="363.9882"/>
 <InfoNormRichtung vMax="27.7778" km="47.604" pos="1">
-<Ereignis Er="39" Beschr="5860a"/>
+<Ereignis Er="28" Beschr="5860a"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="47.6374"/>
 <NachNorm Nr="900"/>
@@ -11575,37 +11599,6 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="47.7712" pos="1" Reg="5018">
 <Ereignis Er="27" Wert="259" Beschr="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
-<Signal NameBetriebsstelle="BÜ km 48,720" Stellwerk="BÜ km 48,720" SignalTyp="1" BoundingR="10">
-<p X="2570.6409" Y="162.6089" Z="364.8379"/>
-<phi Z="1.080661"/>
-<SignalFrame>
-<p/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\86_DB_Bue3_breit.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.025" Z="1.325"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="0.01" Y="-3.1" Z="-0.5"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Achszaehler_einfach.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="0.3" Z="-0.6"/>
-<phi Z="-3.141592"/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Gleisanschlussgehaeuse_flach.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="15" MatrixGeschw="-1"/>
-</Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="1561"/>
 <NachGegen Nr="905"/>
@@ -14517,10 +14510,11 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
-<MatrixEintrag Signalbild="8099" MatrixGeschw="11.1111">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0301050D">
+<MatrixEintrag Signalbild="7971" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="28" Wert="6"/>
+<Ereignis Er="32" Wert="150"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -17112,7 +17106,9 @@
 <StrElement Nr="1345" Ueberh="-0.0313" kr="0.000512" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="1790.42" Y="-3104.5139" Z="359.473"/>
 <b X="1791.373" Y="-3117.4641" Z="359.4813"/>
-<InfoNormRichtung vMax="38.8889" km="44.3441"/>
+<InfoNormRichtung vMax="38.8889" km="44.3441">
+<Ereignis Er="4013"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="44.3311" pos="1"/>
 <NachNorm Nr="1346"/>
 <NachGegen Nr="1344"/>
@@ -17969,11 +17965,11 @@
 <NachGegen Nr="1390"/>
 </StrElement>
 <StrElement Nr="1392" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 SKL-Oberbau">
-<g X="2282.011" Y="-358.7366" Z="363.1957"/>
-<b X="2280.988" Y="-360.2174" Z="363.1919"/>
+<g X="2282.0107" Y="-358.7366" Z="363.1957"/>
+<b X="2280.9878" Y="-360.2174" Z="363.1919"/>
 <InfoNormRichtung vMax="-1" km="47.1859" Reg="5037">
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" Signalname="28" SignalFlags="3" SignalTyp="1" BoundingR="34">
-<p X="2282.011" Y="-358.7366" Z="363.1957"/>
+<p X="2282.0107" Y="-358.7366" Z="363.1957"/>
 <phi Y="0.002115" Z="-2.17546"/>
 <SignalFrame>
 <p/>
@@ -18145,10 +18141,11 @@
 </StrElement>
 <StrElement Nr="1393" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
 <g X="2280.988" Y="-360.2174" Z="363.1919"/>
-<b X="2273.791" Y="-370.6328" Z="363.1651"/>
-<InfoNormRichtung vMax="-1" km="47.1841"/>
-<InfoGegenRichtung vMax="-1" km="47.1714" pos="1"/>
-<NachNorm Nr="1399"/>
+<b X="2278.6003" Y="-363.6727" Z="363.183"/>
+<InfoGegenRichtung vMax="-1" km="47.1799" pos="1">
+<Ereignis Er="6" Beschr="Asig"/>
+</InfoGegenRichtung>
+<NachNorm Nr="7584"/>
 <NachGegen Nr="1392"/>
 </StrElement>
 <StrElement Nr="1394" kr="0.0033" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau">
@@ -18176,9 +18173,13 @@
 <b X="2275.3711" Y="-368.7695" Z="363.1702"/>
 <InfoNormRichtung vMax="-1" km="47.1799"/>
 <InfoGegenRichtung vMax="-1" km="47.1738" pos="1">
+<Ereignis Er="6" Beschr="Asig"/>
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" Signalname="N4-5" SignalTyp="9" BoundingR="10">
 <p X="2280.5298" Y="-364.9428" Z="363.183"/>
 <phi Z="0.996134"/>
+<KoppelSignal ReferenzNr="285">
+<Datei NurInfo="1"/>
+</KoppelSignal>
 <SignalFrame>
 <p/>
 <phi/>
@@ -18256,17 +18257,6 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="32553" MatrixGeschw="11.1111"/>
-<Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="32611" MatrixGeschw="11.1111">
-<Ereignis Er="2000"/>
-</MatrixEintrag>
-</Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
-<MatrixEintrag Signalbild="32675" MatrixGeschw="11.1111">
-<Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="6"/>
-</MatrixEintrag>
-</Ersatzsignal>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="1394"/>
@@ -18298,7 +18288,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="47.1565" pos="1"/>
 <NachNorm Nr="1401"/>
-<NachGegen Nr="1393"/>
+<NachGegen Nr="7584"/>
 </StrElement>
 <StrElement Nr="1400" kr="0.0033" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 SKL-Oberbau">
 <g X="2266.4961" Y="-383.7064" Z="363.1332"/>
@@ -18421,6 +18411,13 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="509" MatrixGeschw="11.1111"/>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0301050D">
+<MatrixEintrag Signalbild="507" MatrixGeschw="11.1111">
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="150"/>
+<Ereignis Er="28" Wert="6"/>
+</MatrixEintrag>
+</Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="47.0821" Reg="5039"/>
@@ -19948,13 +19945,13 @@
 <MatrixEintrag Signalbild="520096037" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="520093989" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="520098085" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="520102181" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="520110373" MatrixGeschw="-1">
+<MatrixEintrag Signalbild="520093989" MatrixGeschw="-1">
 <Ereignis Er="1000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="520126741" MatrixGeschw="-1">
@@ -20165,6 +20162,7 @@
 <b X="1930.4741" Y="-2060.2781" Z="361.0414"/>
 <InfoNormRichtung vMax="38.8889" km="45.4105" Reg="5048"/>
 <InfoGegenRichtung vMax="27.7778" Reg="5048">
+<Ereignis Er="6" Beschr="Ls @icon=31@"/>
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" Signalname="Ls a" SignalFlags="4" SignalTyp="5" BoundingR="1">
 <p X="1933.3124" Y="-2051.5857" Z="361.0733"/>
 <phi Z="1.44775"/>
@@ -21058,10 +21056,11 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
-<MatrixEintrag Signalbild="8099" MatrixGeschw="11.1111">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0301050D">
+<MatrixEintrag Signalbild="7971" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="28" Wert="6"/>
+<Ereignis Er="32" Wert="300"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -21131,6 +21130,13 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="253" MatrixGeschw="11.1111"/>
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0301050D">
+<MatrixEintrag Signalbild="251" MatrixGeschw="11.1111">
+<Ereignis Er="2000"/>
+<Ereignis Er="32" Wert="150"/>
+<Ereignis Er="28"/>
+</MatrixEintrag>
+</Ersatzsignal>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="1416"/>
@@ -21330,6 +21336,7 @@
 <g X="2574.4541" Y="154.6652" Z="364.3222"/>
 <b X="2556.978" Y="121.8291" Z="364.2108"/>
 <InfoNormRichtung vMax="27.7778" km="47.7715"/>
+<InfoGegenRichtung vMax="-1" km="47.7343" pos="1"/>
 <NachNorm Nr="750"/>
 <NachGegen Nr="749"/>
 </StrElement>
@@ -21438,7 +21445,7 @@
 <b X="3042.3601" Y="1033.839" Z="363.9179"/>
 <InfoNormRichtung vMax="27.7778" km="48.7755"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Schwarzenfeld" Stellwerk="Schwarzenfeld Sf" Signalname="a" SignalTyp="6" BoundingR="10">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="a" SignalTyp="6" BoundingR="10">
 <p X="3048.8538" Y="1039.4414" Z="363.9184"/>
 <phi Z="1.081708"/>
 <SignalFrame>
@@ -21706,7 +21713,7 @@
 <b X="3504.6279" Y="1902.42" Z="364.8457"/>
 <InfoNormRichtung vMax="27.7778" km="49.7771" Reg="5061"/>
 <InfoGegenRichtung vMax="-1" Reg="5061">
-<Signal NameBetriebsstelle="Schwarzenfeld" Stellwerk="Schwarzenfeld Sf" Signalname="A" SignalTyp="7" BoundingR="10">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="A" SignalTyp="7" BoundingR="10">
 <p X="3519.437" Y="1923.6476" Z="364.9366"/>
 <phi Z="1.08172"/>
 <SignalFrame>
@@ -22393,7 +22400,8 @@
 <Ereignis Er="27" Wert="258" Beschr="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" Reg="5062">
-<Signal NameBetriebsstelle="Schwarzenfeld" Stellwerk="Schwarzenfeld Sf" Signalname="A\" SignalTyp="13" BoundingR="10">
+<Ereignis Er="6" Beschr="Ne 1"/>
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="A\" SignalTyp="13" BoundingR="10">
 <p X="3510.4329" Y="1928.4355" Z="364.9366"/>
 <phi Z="1.081717"/>
 <SignalFrame>
@@ -32785,7 +32793,7 @@
 <b X="3389.061" Y="1685.2751" Z="363.984"/>
 <InfoNormRichtung vMax="27.7778" km="49.5271"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Schwarzenfeld" Stellwerk="Schwarzenfeld Sf" Signalname="500 Hz (A)" SignalTyp="14" BoundingR="3">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="500 Hz (A)" SignalTyp="14" BoundingR="3">
 <p X="3399.2471" Y="1704.4146" Z="364.0571"/>
 <phi Y="-0.00337" Z="1.081717"/>
 <SignalFrame>
@@ -39232,22 +39240,10 @@
 <Datei Dateiname="Terrain\General\People\1975\Travellers\travellers01-b.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-1.2888" Y="-2.3121" Z="-0.0051"/>
-<phi Z="3.074587"/>
-<sk/>
-<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-10a.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
 <p X="3.8652" Y="6.508" Z="0.0146"/>
 <phi Z="2.373561"/>
 <sk/>
 <Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-03b.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-5.8228" Y="-9.7842" Z="-0.0197"/>
-<phi Z="2.33799"/>
-<sk/>
-<Datei Dateiname="Terrain\General\People\1975\Adults\woman02-c.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-2.6584" Y="-4.2844" Z="-0.0097"/>
@@ -39275,22 +39271,10 @@
 <Datei Dateiname="Terrain\General\People\1975\Adults\woman02-b.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-6.354" Y="-11.4805" Z="-0.023"/>
-<phi Z="-0.082882"/>
-<sk/>
-<Datei Dateiname="Terrain\General\People\2000\Travellers\Travellers_2000_Pram_1.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
 <p X="3.0215" Y="6.6673" Z="0.0128"/>
 <phi Z="-0.058528"/>
 <sk/>
 <Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-06a.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="1.3494" Y="1.8256" Z="0.0039"/>
-<phi Z="-0.859058"/>
-<sk/>
-<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-02b.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff VsigGeschw="-1"/>
@@ -42464,18 +42448,6 @@
 <phi Z="-0.402685"/>
 <sk/>
 <Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-05a.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="4.2927" Y="2" Z="-0.01"/>
-<phi Z="-0.103119"/>
-<sk/>
-<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-02b.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-3.7231" Y="-8.4292" Z="-0.0222"/>
-<phi Z="-0.018007"/>
-<sk/>
-<Datei Dateiname="Terrain\General\People\2000\Travellers\travellers_2000-06a.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff VsigGeschw="-1"/>
@@ -50090,6 +50062,9 @@
 <g X="3512.3867" Y="1954.0966" Z="366.3404"/>
 <b X="3504.4707" Y="1939.0903" Z="366.2631"/>
 <NachNorm Nr="7435"/>
+<NachGegenModul Nr="117">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="7431" kr="0.000457" spTrass="27.7778" Fkt="2">
 <g X="3440.4082" Y="1818.7592" Z="365.2069"/>
@@ -50219,6 +50194,9 @@
 <g X="3534.3462" Y="1937.8429" Z="365.6374"/>
 <b X="3536.3086" Y="1941.3314" Z="365.6507"/>
 <NachGegen Nr="7456"/>
+<NachNormModul Nr="119">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="7456" kr="0.00048" spTrass="27.7778" Fkt="2">
 <g X="3534.3457" Y="1937.8427" Z="365.6373"/>
@@ -50495,7 +50473,8 @@
 <g X="3041.2114" Y="1040.1934" Z="363.9182"/>
 <b X="3041.916" Y="1041.5175" Z="363.9183"/>
 <InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Schwarzenfeld" Stellwerk="Schwarzenfeld Sf" SignalTyp="6" BoundingR="3">
+<Ereignis Er="6" Beschr="Ne 2"/>
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" SignalTyp="6" BoundingR="3">
 <p X="3041.916" Y="1041.5175" Z="363.9183"/>
 <phi Z="1.081778"/>
 <SignalFrame>
@@ -50594,6 +50573,7 @@
 <g X="3047.5264" Y="1043.5461" Z="363.9186"/>
 <b X="3046.8215" Y="1042.222" Z="363.9185"/>
 <InfoNormRichtung vMax="-1">
+<Ereignis Er="6" Beschr="Ne 2"/>
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" SignalTyp="6" BoundingR="3">
 <p X="3046.8215" Y="1042.222" Z="363.9185"/>
 <phi Z="-2.05996"/>
@@ -50687,7 +50667,7 @@
 </Signal>
 </InfoNormRichtung>
 <NachNorm Nr="7502"/>
-<NachGegen Nr="723"/>
+<NachGegen Nr="7582"/>
 </StrElement>
 <StrElement Nr="7502" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="3046.8215" Y="1042.222" Z="363.9185"/>
@@ -50731,6 +50711,9 @@
 <g X="3417.9519" Y="2004.3511" Z="369.6508"/>
 <b X="3408.7937" Y="1985.8171" Z="369.4237"/>
 <NachNorm Nr="7518"/>
+<NachGegenModul Nr="118">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="7513" kr="0.000277" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="3363.9668" Y="1897.0919" Z="367.9396"/>
@@ -51163,6 +51146,71 @@
 <b X="1835.0249" Y="-2405.885" Z="363.0641"/>
 <NachGegen Nr="7580"/>
 </StrElement>
+<StrElement Nr="7582" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="3057.4863" Y="1062.2609" Z="363.92"/>
+<b X="3047.5264" Y="1043.5461" Z="363.9186"/>
+<InfoNormRichtung vMax="-1"/>
+<InfoGegenRichtung vMax="-1">
+<Ereignis Er="4001"/>
+<Ereignis Er="4000" Wert="44.4444"/>
+<Signal SignalTyp="14" BoundingR="4">
+<p X="3057.5332" Y="1062.3492" Z="363.92"/>
+<phi Z="1.081722"/>
+<SignalFrame>
+<p X="-1.6"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Balise\Eurobalise_S21_Festdaten.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="1.6"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Balise\Eurobalise_S21_Festdaten.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="7501"/>
+<NachGegen Nr="723"/>
+</StrElement>
+<StrElement Nr="7583" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="2998.3665" Y="959.6887" Z="363.9124"/>
+<b X="3016.7351" Y="994.2029" Z="363.9149"/>
+<InfoNormRichtung vMax="27.7778" km="48.6813" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Ereignis Er="4011"/>
+<Ereignis Er="4010" Wert="44.4444"/>
+</InfoGegenRichtung>
+<NachNorm Nr="872"/>
+<NachGegen Nr="871"/>
+</StrElement>
+<StrElement Nr="7584" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 SKL-Oberbau">
+<g X="2278.6003" Y="-363.6727" Z="363.183"/>
+<b X="2273.791" Y="-370.6328" Z="363.1651"/>
+<InfoNormRichtung vMax="-1" km="47.1799"/>
+<InfoGegenRichtung vMax="-1">
+<Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" Signalname="N5" SignalTyp="9" BoundingR="10">
+<p X="2278.6003" Y="-363.6727" Z="363.183"/>
+<phi Z="0.966148"/>
+<HsigBegriff HsigGeschw="6.9444"/>
+<HsigBegriff/>
+<HsigBegriff HsigGeschw="11.1111"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag MatrixGeschw="6.9444">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag>
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag MatrixGeschw="11.1111"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="1399"/>
+<NachGegen Nr="1393"/>
+</StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Irrenlohe G" FahrstrTyp="TypZug" Laenge="2005.8">
 <FahrstrStart Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
@@ -51221,7 +51269,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Irrenlohe Ls g" FahrstrTyp="TypZug" Laenge="2005.5999">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Irrenlohe Ls g" FahrstrTyp="TypZug" Laenge="2005.6">
 <FahrstrStart Ref="264">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51264,7 +51312,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7465.8003">
+<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7465.7998">
 <FahrstrStart Ref="125">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51332,7 +51380,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Schwarzenfeld A\" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.5">
+<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2700.5">
 <FahrstrStart Ref="125">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51366,6 +51414,12 @@
 <FahrstrRegister Ref="174">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -51384,17 +51438,11 @@
 <FahrstrWeiche Ref="14" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="125" FahrstrSignalZeile="2">
+<FahrstrSignal Ref="125" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="239" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="64" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Schwarzenfeld A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.6001">
+<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.6001">
 <FahrstrStart Ref="125">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51431,6 +51479,15 @@
 <FahrstrRegister Ref="171">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -51530,7 +51587,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 5I -&gt; Schwarzenfeld A\" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.7">
+<Fahrstrasse FahrstrName="Irrenlohe 5I -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2700.7">
 <FahrstrStart Ref="131">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51564,6 +51621,12 @@
 <FahrstrRegister Ref="174">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -51582,17 +51645,11 @@
 <FahrstrWeiche Ref="14" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="131" FahrstrSignalZeile="2">
+<FahrstrSignal Ref="131" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="242" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="64" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 5I -&gt; Schwarzenfeld A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.8">
+<Fahrstrasse FahrstrName="Irrenlohe 5I -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.8">
 <FahrstrStart Ref="131">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51629,6 +51686,15 @@
 <FahrstrRegister Ref="171">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -51660,7 +51726,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe A -&gt; Irrenlohe N1" FahrstrTyp="TypZug" Laenge="1639.1001">
+<Fahrstrasse FahrstrName="Irrenlohe A -&gt; Irrenlohe N1" FahrstrTyp="TypZug" Laenge="1639.1">
 <FahrstrStart Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52027,7 +52093,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe A -&gt; Irrenlohe 5I" FahrstrTyp="TypZug" Laenge="1676.9001">
+<Fahrstrasse FahrstrName="Irrenlohe A -&gt; Irrenlohe 5I" FahrstrTyp="TypZug" Laenge="1676.9">
 <FahrstrStart Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52205,7 +52271,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe F -&gt; Irrenlohe P3" FahrstrTyp="TypZug" Laenge="1352.0999">
+<Fahrstrasse FahrstrName="Irrenlohe F -&gt; Irrenlohe P3" FahrstrTyp="TypZug" Laenge="1352.1">
 <FahrstrStart Ref="164">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52267,7 +52333,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe F -&gt; Irrenlohe P3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1352.0999">
+<Fahrstrasse FahrstrName="Irrenlohe F -&gt; Irrenlohe P3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1352.1">
 <FahrstrStart Ref="164">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52471,7 +52537,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe G -&gt; Irrenlohe P2" FahrstrTyp="TypZug" Laenge="1382.0999">
+<Fahrstrasse FahrstrName="Irrenlohe G -&gt; Irrenlohe P2" FahrstrTyp="TypZug" Laenge="1382.1">
 <FahrstrStart Ref="161">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52539,7 +52605,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe G -&gt; Irrenlohe P2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1382.0999">
+<Fahrstrasse FahrstrName="Irrenlohe G -&gt; Irrenlohe P2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1382.1">
 <FahrstrStart Ref="161">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -53065,7 +53131,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N3" FahrstrTyp="TypZug" Laenge="1768.0999">
+<Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N3" FahrstrTyp="TypZug" Laenge="1768.1">
 <FahrstrStart Ref="61">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -53139,7 +53205,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1768.0999">
+<Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1768.1">
 <FahrstrStart Ref="61">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -53434,15 +53500,9 @@
 <FahrstrSignal Ref="200" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="158">
+<FahrstrSignal Ref="158" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrVSignal Ref="272" FahrstrSignalSpalte="1">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
-<FahrstrVSignal Ref="275" FahrstrSignalSpalte="5">
-<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
-</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls g -&gt; Irrenlohe P2" FahrstrTyp="TypZug" Laenge="1382.5">
 <FahrstrStart Ref="158">
@@ -53903,7 +53963,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N1 -&gt; Schwarzenfeld A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6001">
+<Fahrstrasse FahrstrName="Irrenlohe N1 -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6001">
 <FahrstrStart Ref="110">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -53934,6 +53994,15 @@
 <FahrstrRegister Ref="171">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -53956,7 +54025,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N1 -&gt; Schwarzenfeld A\" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.7">
+<Fahrstrasse FahrstrName="Irrenlohe N1 -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2726.7">
 <FahrstrStart Ref="110">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -53993,6 +54062,12 @@
 <FahrstrRegister Ref="174">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -54011,11 +54086,11 @@
 <FahrstrSignal Ref="140">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="110" FahrstrSignalErsatzsignal="1">
+<FahrstrSignal Ref="110" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld A\" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.3999">
+<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2726.3999">
 <FahrstrStart Ref="113">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54049,6 +54124,12 @@
 <FahrstrRegister Ref="174">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -54064,11 +54145,11 @@
 <FahrstrSignal Ref="140">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
-<FahrstrSignal Ref="113" FahrstrSignalErsatzsignal="1">
+<FahrstrSignal Ref="113" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6001">
+<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6001">
 <FahrstrStart Ref="113">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54105,6 +54186,15 @@
 <FahrstrRegister Ref="171">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -54195,7 +54285,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Schwarzenfeld A\" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2603.6001">
+<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2603.6001">
 <FahrstrStart Ref="128">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54226,6 +54316,12 @@
 <FahrstrRegister Ref="174">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="187">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -54241,11 +54337,11 @@
 <FahrstrWeiche Ref="14" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="128" FahrstrSignalErsatzsignal="1">
+<FahrstrSignal Ref="128" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Schwarzenfeld A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2603.7">
+<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2603.7">
 <FahrstrStart Ref="128">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54279,6 +54375,15 @@
 <FahrstrRegister Ref="171">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -54614,6 +54719,168 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrSignal Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schwarzenfeld (Oberpf) A -&gt; Schwarzenfeld (Oberpf) N1" FahrstrTyp="TypZug" Laenge="1426.8">
+<FahrstrStart Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="83">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="3" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="243" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="168">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schwarzenfeld (Oberpf) A -&gt; Schwarzenfeld (Oberpf) Gleis 2" FahrstrTyp="TypZug" Laenge="1426.7">
+<FahrstrStart Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="47">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="3" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="45" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="89" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="169" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schwarzenfeld (Oberpf) A\ -&gt; Schwarzenfeld (Oberpf) Gleis 2" FahrstrTyp="TypZug" Laenge="1426.9">
+<FahrstrStart Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="268">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="47">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="45" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="89" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="172" FahrstrSignalErsatzsignal="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>

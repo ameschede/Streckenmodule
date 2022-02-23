@@ -3,16 +3,21 @@
 <Info DateiTyp="Buchfahrplan" Version="A.4" MinVersion="A.0">
 <AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" />
 </Info>
-<Buchfahrplan Gattung="RE" Nummer="3693" Zuglauf="Hof Hbf - Regensburg Hbf" BR="612" Masse="216000" spMax="44.4444" Bremsh="2.1111" MBrh="1.95" Laenge="103.5" kmStart="49.7771" BremsstellungZug="5" LaengeLoks="103.5">
+<Buchfahrplan Gattung="RE" Nummer="3693" Zuglauf="Hof Hbf - Regensburg Hbf" BR="612" Masse="216000" spMax="44.4444" Bremsh="2.1111" MBrh="1.95" Laenge="103.5" kmStart="49.7771" BremsstellungZug="5" GNTSpalte="1" LaengeLoks="103.5">
 <Datei_fpn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr.fpn" NurInfo="1" />
 <Datei_trn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe_2014_Di_00-24Uhr\RE3693.trn" NurInfo="1" />
 <FplZeile FplLaufweg="25.5985">
 <FplvMax vMax="36.1111" />
 <Fplkm km="-0.0491" />
 </FplZeile>
+<FplZeile FplLaufweg="1095.754">
+<Fplkm km="48.6813" />
+<FplIcon FplIconNr="3" />
+</FplZeile>
 <FplZeile FplLaufweg="1105.754">
 <FplvMax vMax="38.8889" />
-<Fplkm km="48.6713" />
+<FplvMaxGNT vMax="44.4444" />
+<Fplkm km="48.6322" />
 </FplZeile>
 <FplZeile FplLaufweg="2005.84827">
 <Fplkm km="47.7713" />
