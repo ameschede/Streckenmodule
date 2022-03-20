@@ -10,6 +10,11 @@
 <LoeschFahrstrasse FahrstrName="Obernjesa A -&gt; Obernjesa N2 -&gt; Rosdorf B"/>
 <LoeschFahrstrasse FahrstrName="Obernjesa B -&gt; Obernjesa N2 -&gt; Rosdorf B"/>
 <LoeschFahrstrasse FahrstrName="Obernjesa R -&gt; Obernjesa N2"/>
+<LoeschFahrstrasse FahrstrName="Obernjesa A -&gt; Obernjesa N2 (Bahnsteigkreuzung) -&gt; Sbk 31 31"/>
+<LoeschFahrstrasse FahrstrName="Obernjesa B -&gt; Obernjesa N2 (Bahnsteigkreuzung) -&gt; Sbk 31 31"/>
+<LoeschFahrstrasse FahrstrName="Obernjesa A -&gt; Obernjesa N2 (Bahnsteigkreuzung) -&gt; Rosdorf B"/>
+<LoeschFahrstrasse FahrstrName="Obernjesa B -&gt; Obernjesa N2 (Bahnsteigkreuzung) -&gt; Rosdorf B"/>
+<LoeschFahrstrasse FahrstrName="Obernjesa R -&gt; Obernjesa N2 (Bahnsteigkreuzung)"/>
 <HintergrundDatei/>
 <BefehlsKonfiguration Dateiname="Signals\Deutschland\Befehle\408_2015.authority.xml"/>
 <Kachelpfad Dateiname="Kacheln\" NurInfo="1"/>
@@ -2130,10 +2135,13 @@
 <StrElement Nr="134" spTrass="36.1111" Anschluss="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4888">
 <g X="-48.2947" Y="-533.64" Z="166.5026"/>
 <b X="-49.6736" Y="-519.766" Z="166.4767"/>
-<InfoNormRichtung vMax="36.1111" km="237.9857" pos="1" Reg="1">
+<InfoNormRichtung vMax="36.1111" km="237.9857" pos="1">
 <Ereignis Er="1000011"/>
+<Ereignis Er="35" Wert="263" Beschr="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="36.1111" km="237.9997" Reg="1"/>
+<InfoGegenRichtung vMax="36.1111" km="237.9997">
+<Ereignis Er="35" Wert="263" Beschr="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3"/>
+</InfoGegenRichtung>
 <NachNorm Nr="78"/>
 <NachGegen Nr="128"/>
 </StrElement>
@@ -25759,10 +25767,99 @@
 <FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="259">
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="270">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="284">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="304">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="177">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="84" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="90" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="252" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="217" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="173">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa A -&gt; Obernjesa N2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1498.3">
+<FahrstrStart Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="178">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="285">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="279">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="26">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="283">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="256">
@@ -25990,10 +26087,108 @@
 <FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="259">
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="270">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="284">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="304">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="174">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="75" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="84" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="90" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="252" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="66" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="216" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="176" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="235" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="143" FahrstrSignalSpalte="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa B -&gt; Obernjesa N2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1498.8">
+<FahrstrStart Ref="66">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="16">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="175">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="285">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="279">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="26">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="283">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="256">
@@ -26256,7 +26451,84 @@
 <FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="265">
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="282">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="278">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="274">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="281">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="180">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="240" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="253" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="220" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa G -&gt; Obernjesa P2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1803.2">
+<FahrstrStart Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="130">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="305">
@@ -26269,6 +26541,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="278">
@@ -26339,7 +26614,114 @@
 <FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="265">
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="56">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="201">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="294">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="293">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="274">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="295">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="180">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="51" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="240" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="253" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="115" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="220" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="84" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa G -&gt; Obernjesa P3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="2414.2">
+<FahrstrStart Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="15">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="258">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="130">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="305">
@@ -26370,6 +26752,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="294">
@@ -27131,10 +27516,111 @@
 <FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="259">
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="275">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="257">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="113">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="181">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="304">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="256">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="13">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="51" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="252" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="16" FahrstrSignalZeile="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="241" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="229" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="33" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="218" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="78" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="66" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa R -&gt; Obernjesa N2 (Bahnsteigkreuzung) -&gt; Sbk 31 31" FahrstrStrecke="23a" RglGgl="2" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="2055.6001">
+<FahrstrStart Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="296">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="275">
@@ -27235,10 +27721,144 @@
 <FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="259">
+<FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="275">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="148">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="151">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="144">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="157">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="203">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="168">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="91">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="234">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="304">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="146">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="277">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="240">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="199">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="51" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="137" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="4" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="252" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="16" FahrstrSignalZeile="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="243" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="231" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="33" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="218" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="78" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="66" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa R -&gt; Obernjesa N2 (Bahnsteigkreuzung) -&gt; Rosdorf B" FahrstrStrecke="23a" RglGgl="3" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="4106.7002">
+<FahrstrStart Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005706_Rosdorf\Rosdorf_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="296">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="52">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="32">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="306">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="275">
@@ -27440,7 +28060,84 @@
 <FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="265">
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="282">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="278">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="274">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="281">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="137" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="242" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="253" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="150" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="219" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="156" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa S11 -&gt; Obernjesa P2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="740.6">
+<FahrstrStart Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="130">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="305">
@@ -27453,6 +28150,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="278">
@@ -27523,7 +28223,114 @@
 <FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="265">
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="56">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="201">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="294">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="293">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="274">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="295">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="137" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="51" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="242" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="253" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="150" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="219" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="156" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa S11 -&gt; Obernjesa P3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1351.6">
+<FahrstrStart Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="130">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="305">
@@ -27554,6 +28361,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="294">
@@ -27707,7 +28517,87 @@
 <FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="265">
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="282">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="278">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="274">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="281">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="137" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="244" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="253" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="140" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="222" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="156" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa S12 -&gt; Obernjesa P2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="739.3">
+<FahrstrStart Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="25">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="160">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="272">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="130">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="305">
@@ -27720,6 +28610,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="278">
@@ -27793,7 +28686,117 @@
 <FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="265">
+<FahrstrRegister Ref="305">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="56">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="53">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="35">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="201">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="294">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="293">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="274">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="295">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="159">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="137" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="128" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="30" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="51" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="36" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="244" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="253" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="140" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="222" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="156" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Obernjesa S12 -&gt; Obernjesa P3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1350.3">
+<FahrstrStart Ref="140">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="160">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="272">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="130">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="276">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="305">
@@ -27824,6 +28827,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrAufloesung Ref="294">
