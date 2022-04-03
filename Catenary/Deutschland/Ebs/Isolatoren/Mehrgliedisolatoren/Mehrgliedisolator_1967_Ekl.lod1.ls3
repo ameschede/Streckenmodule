@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+  <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+    <AutorEintrag AutorID="81" AutorName="Fabian Schöpflin" AutorEmail="fbashl@outlook.com"/>
+  </Info>
+  <Landschaft>
+    <lsb Dateiname="Mehrgliedisolator_1967_Ekl.lod1.lsb"/>
+    <SubSet MeshV="1152" MeshI="2976">
+      <RenderFlags TexVoreinstellung="1"/>
+    </SubSet>
+    <SubSet Cd="FFFFFFFF" MeshV="784" MeshI="2544">
+      <RenderFlags TexVoreinstellung="1"/>
+      <Textur>
+        <Datei Dateiname="Catenary\Deutschland\Ebs\Textur_Ebs.dds"/>
+      </Textur>
+    </SubSet>
+  </Landschaft>
+</Zusi>

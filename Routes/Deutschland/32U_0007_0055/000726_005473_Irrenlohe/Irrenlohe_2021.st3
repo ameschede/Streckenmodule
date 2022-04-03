@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
-<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorAufwandStunden="16"/>
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorAufwandStunden="17"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.ls3"/>
@@ -70,6 +70,9 @@
 </ModulDateien>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
 </ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000719_005476_Freihoels\Freihoels_2021.st3"/>
 <ReferenzElemente ReferenzNr="2" StrElement="390" StrNorm="1" RefTyp="3" Info="Weiche Irrenlohe 1"/>
@@ -353,6 +356,8 @@
 <ReferenzElemente ReferenzNr="283" StrElement="7511" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3"/>
 <ReferenzElemente ReferenzNr="284" StrElement="7453" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3"/>
 <ReferenzElemente ReferenzNr="285" StrElement="7584" RefTyp="4" Info="Signal: Irrenlohe N5"/>
+<ReferenzElemente ReferenzNr="286" StrElement="1207" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\5860_Module\Schwandorf\Schwandorf.st3"/>
+<ReferenzElemente ReferenzNr="287" StrElement="1225" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\5860_Module\Schwandorf\Schwandorf.st3"/>
 <StrElement Nr="1" spTrass="33.3333" Oberbau="B70 SKL-Oberbau">
 <g X="-2874.6001" Y="3226.9851" Z="383.8636"/>
 <b X="-2827.387" Y="3218.134" Z="383.6091"/>
@@ -724,10 +729,9 @@
 </StrElement>
 <StrElement Nr="30" Ueberh="0.0083" kr="-0.000118" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2296.865" Y="3118.6721" Z="380.7494"/>
-<b X="-2287.4309" Y="3116.895" Z="380.6982"/>
-<InfoNormRichtung vMax="33.3333" km="82.7875" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="82.7971"/>
-<NachNorm Nr="31"/>
+<b X="-2290.9141" Y="3117.5525" Z="380.7171"/>
+<InfoGegenRichtung vMax="33.3333" km="82.7935"/>
+<NachNorm Nr="7586"/>
 <NachGegen Nr="29"/>
 </StrElement>
 <StrElement Nr="31" Ueberh="0.0138" kr="-0.000196" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
@@ -736,7 +740,7 @@
 <InfoNormRichtung vMax="33.3333" km="82.7972" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="82.8068"/>
 <NachNorm Nr="32"/>
-<NachGegen Nr="30"/>
+<NachGegen Nr="7586"/>
 </StrElement>
 <StrElement Nr="32" Ueberh="0.0193" kr="-0.000275" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2278" Y="3115.103" Z="380.6478"/>
@@ -788,10 +792,9 @@
 </StrElement>
 <StrElement Nr="38" Ueberh="0.0523" kr="-0.000747" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2221.55" Y="3103.6582" Z="380.3429"/>
-<b X="-2212.1799" Y="3101.5681" Z="380.2921"/>
-<InfoNormRichtung vMax="33.3333" km="82.8642" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="82.8738"/>
-<NachNorm Nr="39"/>
+<b X="-2217.3958" Y="3102.7402" Z="380.3204"/>
+<InfoGegenRichtung vMax="33.3333" km="82.8685"/>
+<NachNorm Nr="7587"/>
 <NachGegen Nr="37"/>
 </StrElement>
 <StrElement Nr="39" Ueberh="0.0578" kr="-0.000825" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
@@ -800,7 +803,7 @@
 <InfoNormRichtung vMax="33.3333" km="82.8738" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="82.8834"/>
 <NachNorm Nr="40"/>
-<NachGegen Nr="38"/>
+<NachGegen Nr="7587"/>
 </StrElement>
 <StrElement Nr="40" Ueberh="0.0634" kr="-0.000904" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2202.8269" Y="3099.4077" Z="380.2409"/>
@@ -822,7 +825,21 @@
 <g X="-2184.376" Y="3094.9009" Z="380.1408"/>
 <b X="-2175.282" Y="3092.55" Z="380.0911"/>
 <InfoNormRichtung vMax="33.3333" km="82.9024" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="82.9118"/>
+<InfoGegenRichtung vMax="33.3333" km="82.9118">
+<Signal SignalTyp="14" BoundingR="1">
+<p X="-2184.376" Y="3094.9009" Z="380.1408"/>
+<phi Z="2.888626"/>
+<SignalFrame>
+<p/>
+<phi X="-0.066101"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Balise\ZUB123_Gleiskoppelspule.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="43"/>
 <NachGegen Nr="41"/>
 </StrElement>
@@ -852,10 +869,9 @@
 </StrElement>
 <StrElement Nr="46" Ueberh="0.0661" kr="-0.000943" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2148.1289" Y="3085.0164" Z="379.9421"/>
-<b X="-2139.124" Y="3082.3452" Z="379.8924"/>
-<InfoNormRichtung vMax="33.3333" km="82.9399" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="82.9493"/>
-<NachNorm Nr="47"/>
+<b X="-2144.7825" Y="3084.0337" Z="379.9236"/>
+<InfoGegenRichtung vMax="33.3333" km="82.9434"/>
+<NachNorm Nr="7588"/>
 <NachGegen Nr="45"/>
 </StrElement>
 <StrElement Nr="47" Ueberh="0.0661" kr="-0.000943" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
@@ -864,7 +880,7 @@
 <InfoNormRichtung vMax="33.3333" km="82.9493" pos="1"/>
 <InfoGegenRichtung vMax="33.3333" km="82.9587"/>
 <NachNorm Nr="48"/>
-<NachGegen Nr="46"/>
+<NachGegen Nr="7588"/>
 </StrElement>
 <StrElement Nr="48" Ueberh="0.0661" kr="-0.000943" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-2130.1421" Y="3079.594" Z="379.8427"/>
@@ -899,12 +915,6 @@
 <p X="-2095.4832" Y="3064.8679" Z="380.144"/>
 <phi Z="-0.332609"/>
 <SignalFrame>
-<p/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\86_DB_Bue3_breit.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
 <p X="-0.025" Z="1.325"/>
 <phi/>
 <sk/>
@@ -922,69 +932,9 @@
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Gleisanschlussgehaeuse_flach.ls3"/>
 </SignalFrame>
-<SignalFrame>
-<p Z="1.825"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.905"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.745"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.025" Z="2.065"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.495"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.04" Z="1.315"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Komma.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.415"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ge.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.125" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_8.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.025" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_3.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.105" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_2.ls3"/>
-</SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="16383" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="82.9962"/>
@@ -1337,13 +1287,7 @@
 <Ereignis Er="27" Wert="220" Beschr="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
 <Signal NameBetriebsstelle="BÜ km 83,242" Stellwerk="BÜ km 83,242" Signalname="BÜ km 83,242 Schranke2" SignalTyp="1" BoundingR="10">
 <p X="-585.2132" Y="2087.387" Z="370.5569"/>
-<phi Z="2.298081"/>
-<SignalFrame>
-<p/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\86_DB_Bue3_breit.lod.ls3"/>
-</SignalFrame>
+<phi Z="2.29808"/>
 <SignalFrame>
 <p X="-0.025" Z="1.325"/>
 <phi/>
@@ -1362,69 +1306,9 @@
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Gleisanschlussgehaeuse_flach.ls3"/>
 </SignalFrame>
-<SignalFrame>
-<p Z="1.825"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.905"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.745"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.025" Z="2.065"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.495"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.04" Z="1.315"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Komma.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.415"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ge.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.125" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_8.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.025" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_4.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.105" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_6.ls3"/>
-</SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="16383" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="84"/>
@@ -1504,12 +1388,6 @@
 <p X="-1290.0627" Y="2710.6016" Z="375.4815"/>
 <phi Z="2.712313"/>
 <SignalFrame>
-<p/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\86_DB_Bue3_breit.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
 <p X="-0.025" Z="1.325"/>
 <phi/>
 <sk/>
@@ -1527,69 +1405,9 @@
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Gleisanschlussgehaeuse_flach.ls3"/>
 </SignalFrame>
-<SignalFrame>
-<p Z="1.825"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.905"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.745"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.025" Z="2.065"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.495"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.04" Z="1.315"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Komma.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.415"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ge.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.125" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_8.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.105" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_2.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.025" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_3.ls3"/>
-</SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="16383" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="93"/>
@@ -2101,19 +1919,32 @@
 </StrElement>
 <StrElement Nr="156" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="332.2207" Y="1473.3062" Z="368.9141"/>
-<b X="379.2522" Y="1456.826" Z="368.8742"/>
-<InfoNormRichtung vMax="33.3333" km="85.9584" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="86.0082"/>
-<NachNorm Nr="157"/>
+<b X="371.3859" Y="1459.5825" Z="368.8809"/>
+<InfoNormRichtung vMax="-1">
+<Signal SignalTyp="14" BoundingR="1">
+<p X="371.3859" Y="1459.5825" Z="368.8809"/>
+<phi Z="-0.337035"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Balise\ZUB123_Gleiskoppelspule.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="33.3333" km="85.9999"/>
+<NachNorm Nr="7585"/>
 <NachGegen Nr="155"/>
 </StrElement>
 <StrElement Nr="157" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="379.2522" Y="1456.826" Z="368.8742"/>
-<b X="426.2837" Y="1440.347" Z="368.8343"/>
-<InfoNormRichtung vMax="33.3333" km="86.0082" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="86.0581"/>
-<NachNorm Nr="158"/>
-<NachGegen Nr="156"/>
+<b X="407.5646" Y="1446.9059" Z="368.8502"/>
+<InfoGegenRichtung vMax="33.3333" km="86.0383"/>
+<NachNorm Nr="7589"/>
+<NachGegen Nr="7585"/>
 </StrElement>
 <StrElement Nr="158" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="426.2837" Y="1440.347" Z="368.8343"/>
@@ -2149,7 +1980,7 @@
 </Signal>
 </InfoGegenRichtung>
 <NachNorm Nr="159"/>
-<NachGegen Nr="157"/>
+<NachGegen Nr="7589"/>
 </StrElement>
 <StrElement Nr="159" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="473.3152" Y="1423.8669" Z="368.7944"/>
@@ -2163,100 +1994,7 @@
 <g X="520.3466" Y="1407.3879" Z="368.7546"/>
 <b X="567.3781" Y="1390.908" Z="368.7147"/>
 <InfoNormRichtung vMax="33.3333" km="86.1577" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="86.2076">
-<Ereignis Er="27" Wert="228" Beschr="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3"/>
-<Signal NameBetriebsstelle="BÜ km 84,595" Stellwerk="BÜ km 84,595" Signalname="BÜ km 84,595 Schranke2" SignalTyp="1" BoundingR="10">
-<p X="521.3718" Y="1410.3135" Z="369.2546"/>
-<phi Z="2.804559"/>
-<SignalFrame>
-<p/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\86_DB_Bue3_breit.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.025" Z="1.325"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="0.01" Y="3.1" Z="-0.5"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Achszaehler_einfach.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="0.3" Z="-0.6"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Gleisanschlussgehaeuse_flach.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.825"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ws.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.905"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.745"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p X="-0.025" Z="2.065"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.495"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Bue.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.04" Z="1.315"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_Komma.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Z="1.415"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_Bue-Tafel-ge.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.125" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_8.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="0.025" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_4.ls3"/>
-</SignalFrame>
-<SignalFrame>
-<p Y="-0.105" Z="1.335"/>
-<phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Bahnuebergangssignale\Bue-Tafel\86_BUE_KZ_6.ls3"/>
-</SignalFrame>
-<HsigBegriff HsigGeschw="-1"/>
-<VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="16383" MatrixGeschw="-1"/>
-</Signal>
-</InfoGegenRichtung>
+<InfoGegenRichtung vMax="33.3333" km="86.2076"/>
 <NachNorm Nr="161"/>
 <NachGegen Nr="1536"/>
 </StrElement>
@@ -2391,7 +2129,21 @@
 <StrElement Nr="177" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="1178.787" Y="1176.674" Z="367.7258"/>
 <b X="1225.819" Y="1160.1949" Z="367.6199"/>
-<InfoNormRichtung vMax="33.3333" km="86.8554" pos="1"/>
+<InfoNormRichtung vMax="33.3333" km="86.8554" pos="1">
+<Signal SignalTyp="14" BoundingR="1">
+<p X="1225.819" Y="1160.1949" Z="367.6199"/>
+<phi Z="-0.337013"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Balise\ZUB123_Gleiskoppelspule.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="86.9053"/>
 <NachNorm Nr="178"/>
 <NachGegen Nr="176"/>
@@ -3048,7 +2800,21 @@
 <g X="2124.6741" Y="562.1903" Z="366.1426"/>
 <b X="2127.3149" Y="559.7156" Z="366.1343"/>
 <InfoNormRichtung vMax="33.3333" km="87.9998" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="88.0034"/>
+<InfoGegenRichtung vMax="33.3333" km="88.0034">
+<Signal SignalTyp="14" BoundingR="1">
+<p X="2124.6741" Y="562.1903" Z="366.1426"/>
+<phi Z="2.38866"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Balise\ZUB123_Gleiskoppelspule.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="260"/>
 <NachGegen Nr="258"/>
 </StrElement>
@@ -3128,7 +2894,21 @@
 <g X="1829.297" Y="838.366" Z="366.4173"/>
 <b X="1820.059" Y="846.6707" Z="366.4256"/>
 <InfoNormRichtung vMax="33.3333" km="87.5954"/>
-<InfoGegenRichtung vMax="33.3333" km="87.583" pos="1"/>
+<InfoGegenRichtung vMax="33.3333" km="87.583" pos="1">
+<Signal SignalTyp="14" BoundingR="1">
+<p X="1829.297" Y="838.366" Z="366.4173"/>
+<phi Z="5.550941"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Balise\ZUB123_Gleiskoppelspule.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="270"/>
 <NachGegen Nr="268"/>
 </StrElement>
@@ -10794,7 +10574,7 @@
 <g X="3390.563" Y="1696.6071" Z="364.0137"/>
 <b X="3395.7158" Y="1706.2896" Z="364.0525"/>
 <InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="500 Hz (Ne1 a)" SignalTyp="14" BoundingR="3">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) Sf" Signalname="500 Hz (Ne1 a)" SignalTyp="14" BoundingR="3">
 <p X="3395.7158" Y="1706.2896" Z="364.0525"/>
 <phi Y="-0.00354" Z="1.081718"/>
 <SignalFrame>
@@ -15894,6 +15674,7 @@
 <g X="1829.368" Y="-2575.812" Z="359.369"/>
 <b X="1828.1884" Y="-2581.6948" Z="359.3483"/>
 <InfoNormRichtung vMax="27.7778">
+<Ereignis Er="6" Beschr="Ne 2"/>
 <Signal NameBetriebsstelle="Irrenlohe" Stellwerk="Irrenlohe If" SignalTyp="6" BoundingR="3">
 <p X="1828.1884" Y="-2581.6948" Z="359.3483"/>
 <phi Z="-1.768703"/>
@@ -16004,6 +15785,9 @@
 <InfoNormRichtung vMax="38.8889" km="43.9233" pos="1" Reg="5032"/>
 <InfoGegenRichtung vMax="27.7778" km="43.9351" Reg="5032"/>
 <NachNorm Nr="1208"/>
+<NachGegenModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="1208" Ueberh="0.0314" kr="-0.000588" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="1866.847" Y="-3505.46" Z="359.3091"/>
@@ -16147,6 +15931,9 @@
 <InfoNormRichtung vMax="27.7778" km="43.9233" pos="1" Reg="5033"/>
 <InfoGegenRichtung vMax="38.8889" km="43.9351" Reg="5033"/>
 <NachNorm Nr="1226"/>
+<NachGegenModul Nr="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="1226" Ueberh="0.0314" kr="-0.000587" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="1863.0229" Y="-3506.634" Z="359.3091"/>
@@ -19003,7 +18790,9 @@
 <StrElement Nr="1448" spTrass="3.8889" Anschluss="257" Oberbau="Holz K-Oberbau">
 <g X="1926.222" Y="-1105.9871" Z="361.8314"/>
 <b X="1927.426" Y="-1100.656" Z="361.8391"/>
-<InfoNormRichtung vMax="-1" km="46.3584" pos="1"/>
+<InfoNormRichtung vMax="-1" km="46.3584" pos="1">
+<Ereignis Er="13"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="46.3639"/>
 <NachNorm Nr="1441"/>
 <NachGegen Nr="1518"/>
@@ -19644,7 +19433,7 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
-<Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
+<Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
 <MatrixEintrag Signalbild="8099" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="28" Wert="6"/>
@@ -19667,7 +19456,9 @@
 <StrElement Nr="1503" kr="-0.002273" spTrass="3.8889" Anschluss="256" Oberbau="Holz K-Oberbau">
 <g X="1922.286" Y="-1102.048" Z="361.8356"/>
 <b X="1923.184" Y="-1096.583" Z="361.8434"/>
-<InfoNormRichtung vMax="-1" km="46.3618" pos="1"/>
+<InfoNormRichtung vMax="-1" km="46.3618" pos="1">
+<Ereignis Er="13"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="46.3673"/>
 <NachNorm Nr="1504"/>
 <NachGegen Nr="1522"/>
@@ -20663,6 +20454,7 @@
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
 <HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
@@ -20681,6 +20473,10 @@
 <Ereignis Er="23"/>
 <Ereignis Er="32" Wert="500" Beschr="10710"/>
 <Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="2" MatrixGeschw="11.1111">
+<Ereignis Er="23"/>
+<Ereignis Er="32" Wert="500" Beschr="710"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="00000710">
 <MatrixEintrag MatrixGeschw="11.1111">
@@ -21445,7 +21241,7 @@
 <b X="3042.3601" Y="1033.839" Z="363.9179"/>
 <InfoNormRichtung vMax="27.7778" km="48.7755"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="a" SignalTyp="6" BoundingR="10">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) Sf" Signalname="a" SignalTyp="6" BoundingR="10">
 <p X="3048.8538" Y="1039.4414" Z="363.9184"/>
 <phi Z="1.081708"/>
 <SignalFrame>
@@ -21713,7 +21509,7 @@
 <b X="3504.6279" Y="1902.42" Z="364.8457"/>
 <InfoNormRichtung vMax="27.7778" km="49.7771" Reg="5061"/>
 <InfoGegenRichtung vMax="-1" Reg="5061">
-<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="A" SignalTyp="7" BoundingR="10">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) Sf" Signalname="A" SignalTyp="7" BoundingR="10">
 <p X="3519.437" Y="1923.6476" Z="364.9366"/>
 <phi Z="1.08172"/>
 <SignalFrame>
@@ -22401,7 +22197,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" Reg="5062">
 <Ereignis Er="6" Beschr="Ne 1"/>
-<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="A\" SignalTyp="13" BoundingR="10">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) Sf" Signalname="A\" SignalTyp="13" BoundingR="10">
 <p X="3510.4329" Y="1928.4355" Z="364.9366"/>
 <phi Z="1.081717"/>
 <SignalFrame>
@@ -32793,7 +32589,7 @@
 <b X="3389.061" Y="1685.2751" Z="363.984"/>
 <InfoNormRichtung vMax="27.7778" km="49.5271"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" Signalname="500 Hz (A)" SignalTyp="14" BoundingR="3">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) Sf" Signalname="500 Hz (A)" SignalTyp="14" BoundingR="3">
 <p X="3399.2471" Y="1704.4146" Z="364.0571"/>
 <phi Y="-0.00337" Z="1.081717"/>
 <SignalFrame>
@@ -50474,7 +50270,7 @@
 <b X="3041.916" Y="1041.5175" Z="363.9183"/>
 <InfoNormRichtung vMax="-1">
 <Ereignis Er="6" Beschr="Ne 2"/>
-<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) DRSTW" SignalTyp="6" BoundingR="3">
+<Signal NameBetriebsstelle="Schwarzenfeld (Oberpf)" Stellwerk="Schwarzenfeld (Oberpf) Sf" SignalTyp="6" BoundingR="3">
 <p X="3041.916" Y="1041.5175" Z="363.9183"/>
 <phi Z="1.081778"/>
 <SignalFrame>
@@ -51211,6 +51007,132 @@
 <NachNorm Nr="1399"/>
 <NachGegen Nr="1393"/>
 </StrElement>
+<StrElement Nr="7585" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="371.3859" Y="1459.5825" Z="368.8809"/>
+<b X="379.2522" Y="1456.826" Z="368.8742"/>
+<InfoNormRichtung vMax="33.3333" km="85.9999" pos="1"/>
+<NachNorm Nr="157"/>
+<NachGegen Nr="156"/>
+</StrElement>
+<StrElement Nr="7586" Ueberh="0.0083" kr="-0.000118" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="-2290.9141" Y="3117.5525" Z="380.7171"/>
+<b X="-2287.4309" Y="3116.895" Z="380.6982"/>
+<InfoNormRichtung vMax="33.3333" km="82.7936" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-2290.9141" Y="3117.5525" Z="380.7171"/>
+<phi Z="2.95503"/>
+<SignalFrame>
+<p Y="-3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="31"/>
+<NachGegen Nr="30"/>
+</StrElement>
+<StrElement Nr="7587" Ueberh="0.0523" kr="-0.000747" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="-2217.3958" Y="3102.7402" Z="380.3204"/>
+<b X="-2212.1799" Y="3101.5681" Z="380.2921"/>
+<InfoNormRichtung vMax="33.3333" km="82.8685" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-2217.3958" Y="3102.7402" Z="380.3204"/>
+<phi Z="2.920541"/>
+<SignalFrame>
+<p Y="-3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="39"/>
+<NachGegen Nr="38"/>
+</StrElement>
+<StrElement Nr="7588" Ueberh="0.0661" kr="-0.000943" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="-2144.7825" Y="3084.0337" Z="379.9236"/>
+<b X="-2139.124" Y="3082.3452" Z="379.8924"/>
+<InfoNormRichtung vMax="33.3333" km="82.9434" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-2144.7825" Y="3084.0337" Z="379.9236"/>
+<phi Z="2.851605"/>
+<SignalFrame>
+<p Y="-3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="47"/>
+<NachGegen Nr="46"/>
+</StrElement>
+<StrElement Nr="7589" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau">
+<g X="407.5646" Y="1446.9059" Z="368.8502"/>
+<b X="426.2837" Y="1440.347" Z="368.8343"/>
+<InfoNormRichtung vMax="33.3333" km="86.0382" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Ereignis Er="27" Wert="228"/>
+<Signal NameBetriebsstelle="BÜ km 84,595" Stellwerk="BÜ km 84,595" SignalTyp="1" BoundingR="10">
+<p X="408.5897" Y="1449.8315" Z="369.3582"/>
+<phi Z="2.804578"/>
+<SignalFrame>
+<p X="-0.025" Z="1.325"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.01" Y="3.1" Z="-0.5"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Achszaehler_einfach.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="0.3" Z="-0.6"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Gleisschaltmittel\Gleisanschlussgehaeuse_flach.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="158"/>
+<NachGegen Nr="157"/>
+</StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Irrenlohe G" FahrstrTyp="TypZug" Laenge="2005.8">
 <FahrstrStart Ref="263">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
@@ -51312,7 +51234,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7465.7998">
+<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7465.8">
 <FahrstrStart Ref="125">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51442,7 +51364,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.6001">
+<Fahrstrasse FahrstrName="Irrenlohe 4II -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2700.6">
 <FahrstrStart Ref="125">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -51519,7 +51441,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe 5I -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7466">
+<Fahrstrasse FahrstrName="Irrenlohe 5I -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7466.0">
 <FahrstrStart Ref="131">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -52182,7 +52104,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe A -&gt; Irrenlohe 4II" FahrstrTyp="TypZug" Laenge="1675">
+<Fahrstrasse FahrstrName="Irrenlohe A -&gt; Irrenlohe 4II" FahrstrTyp="TypZug" Laenge="1675.0">
 <FahrstrStart Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -53010,6 +52932,68 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Irrenlohe Gleis 1 -&gt; Schwandorf Lsf g" FahrstrStrecke="5860b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2762.9">
+<FahrstrStart Ref="200">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="394">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="46">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="396">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="424">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="472">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="505">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="502">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="200" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N2" FahrstrTyp="TypZug" Laenge="1641.2">
 <FahrstrStart Ref="61">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
@@ -53067,6 +53051,9 @@
 </FahrstrVSignal>
 <FahrstrVSignal Ref="48" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="421" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1641.2">
@@ -53129,6 +53116,9 @@
 </FahrstrVSignal>
 <FahrstrVSignal Ref="48" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="421" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N3" FahrstrTyp="TypZug" Laenge="1768.1">
@@ -53203,6 +53193,9 @@
 </FahrstrVSignal>
 <FahrstrVSignal Ref="48" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="421" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe N3 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1768.1">
@@ -53284,6 +53277,9 @@
 <FahrstrVSignal Ref="48" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="421" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe 5I" FahrstrTyp="TypZug" Laenge="1676.3">
 <FahrstrStart Ref="61">
@@ -53364,6 +53360,9 @@
 <FahrstrVSignal Ref="48" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="421" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls a -&gt; Irrenlohe 4II" FahrstrTyp="TypZug" Laenge="1674.4">
 <FahrstrStart Ref="61">
@@ -53443,6 +53442,9 @@
 </FahrstrVSignal>
 <FahrstrVSignal Ref="48" FahrstrSignalSpalte="5">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="421" FahrstrSignalSpalte="5">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe Ls g -&gt; Irrenlohe Gleis 1" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1381.5">
@@ -53963,7 +53965,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N1 -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6001">
+<Fahrstrasse FahrstrName="Irrenlohe N1 -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6">
 <FahrstrStart Ref="110">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54090,7 +54092,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2726.3999">
+<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2726.4">
 <FahrstrStart Ref="113">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54149,7 +54151,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6001">
+<Fahrstrasse FahrstrName="Irrenlohe N2 -&gt; Schwarzenfeld (Oberpf) A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2726.6">
 <FahrstrStart Ref="113">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54223,7 +54225,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7368.7998">
+<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Freihöls K" FahrstrStrecke="5904b" RglGgl="1" FahrstrTyp="TypZug" Laenge="7368.8">
 <FahrstrStart Ref="128">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54285,7 +54287,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2603.6001">
+<Fahrstrasse FahrstrName="Irrenlohe N3 -&gt; Schwarzenfeld (Oberpf) A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="2603.6">
 <FahrstrStart Ref="128">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54465,7 +54467,81 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Irrenlohe P3 -&gt; Sbk 2 Sbk 2" FahrstrStrecke="5860b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1522">
+<Fahrstrasse FahrstrName="Irrenlohe P2 -&gt; Schwandorf Lsf g" FahrstrStrecke="5860b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2764.5">
+<FahrstrStart Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="394">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="46">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="396">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="424">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="472">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="505">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="502">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="8" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="90" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Irrenlohe P3 -&gt; Sbk 2 Sbk 2" FahrstrStrecke="5860b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1522.0">
 <FahrstrStart Ref="81">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -54538,6 +54614,95 @@
 <FahrstrVSignal Ref="161" FahrstrSignalSpalte="11">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Irrenlohe P3 -&gt; Schwandorf Lsf g" FahrstrStrecke="5860b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2766.4">
+<FahrstrStart Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="394">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="46">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="396">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="424">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="472">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="505">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="502">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="8" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="81" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe P4 -&gt; Sbk 2 Sbk 2" FahrstrStrecke="5860b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1539.2">
 <FahrstrStart Ref="84">
@@ -54613,6 +54778,101 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Irrenlohe P4 -&gt; Schwandorf Lsf g" FahrstrStrecke="5860b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2783.5">
+<FahrstrStart Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="394">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="46">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="396">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="424">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="472">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="505">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="502">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="38" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="8" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="84" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Irrenlohe P5 -&gt; Sbk 2 Sbk 2" FahrstrStrecke="5860b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1539.2">
 <FahrstrStart Ref="87">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
@@ -54687,6 +54947,101 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Irrenlohe P5 -&gt; Schwandorf Lsf g" FahrstrStrecke="5860b" RglGgl="3" FahrstrTyp="TypZug" Laenge="2783.5">
+<FahrstrStart Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="394">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="10">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="46">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="51">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="396">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="424">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="472">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="505">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="502">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="38" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="8" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="5" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="2" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="87" FahrstrSignalZeile="1" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Sbk 1 Sbk 1 -&gt; Irrenlohe A" FahrstrTyp="TypZug" Laenge="980.4">
 <FahrstrStart Ref="45">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
@@ -54721,6 +55076,53 @@
 <FahrstrSignal Ref="45">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrVSignal Ref="384">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="421">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 2 Sbk 2 -&gt; Schwandorf G" FahrstrTyp="TypZug" Laenge="1245.7">
+<FahrstrStart Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="385">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="198">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="271">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="387">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="424">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="472">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="505">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="502">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="197">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSignal Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Schwarzenfeld (Oberpf) A -&gt; Schwarzenfeld (Oberpf) N1" FahrstrTyp="TypZug" Laenge="1426.8">
 <FahrstrStart Ref="169">
@@ -54744,10 +55146,16 @@
 <FahrstrRegister Ref="69">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="99">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="152">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="84">
@@ -54765,6 +55173,9 @@
 <FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="150" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="169">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -54827,6 +55238,74 @@
 <FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="149" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="89" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="169" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schwarzenfeld (Oberpf) A -&gt; Schwarzenfeld (Oberpf) Gleis 2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1426.7">
+<FahrstrStart Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="266">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="4">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="47">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="153">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="3" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="45" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="149" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="89" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -54877,6 +55356,65 @@
 <FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="149" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="89" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="172" FahrstrSignalErsatzsignal="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Schwarzenfeld (Oberpf) A\ -&gt; Schwarzenfeld (Oberpf) Gleis 2 (Bahnsteigkreuzung)" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1426.9">
+<FahrstrStart Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="268">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Irrenlohe_2021.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="47">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="54">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="153">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="45" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="18" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="149" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="89" FahrstrSignalZeile="3">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005478_Schwarzenfeld\Schwarzenfeld_2022.st3" NurInfo="1"/>
 </FahrstrSignal>
