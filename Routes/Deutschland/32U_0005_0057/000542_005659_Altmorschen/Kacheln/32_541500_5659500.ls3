@@ -1450,6 +1450,18 @@
 <phi Z="-1.446664"/>
 <sk X="0.979" Y="0.979" Z="0.979"/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="10" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Tunnel\2gleisig\Tunnel_2gl_Beton-SFS\Tunnellicht.lod.ls3"/>
+<p X="-448.5509" Y="93.5532" Z="238.7933"/>
+<phi Z="-1.509529"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="10" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Tunnel\2gleisig\Tunnel_2gl_Beton-SFS\Tunnellicht.lod.ls3"/>
+<p X="-433.2887" Y="-406.0917" Z="233.9837"/>
+<phi Z="-1.574256"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" Zwangshelligkeit="0.07" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -15009,7 +15021,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="8.7299" V="9.4275">
 <p X="-442.7547" Y="372.9948" Z="451.0849"/>
@@ -15561,7 +15573,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="8.4884" V="10">
 <p X="-500" Y="348.8376" Z="442.1799"/>
@@ -15758,7 +15770,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="60.114">
 <p X="500" Y="-229.9546" Z="316.1059"/>
