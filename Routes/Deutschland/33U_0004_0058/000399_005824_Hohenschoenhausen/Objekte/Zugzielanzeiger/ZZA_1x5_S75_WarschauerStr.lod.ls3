@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung=";">
+<AutorEintrag AutorID="12" AutorName="Immo Birnbaum" AutorEmail="Immo.Birnbaum@freenet.de" AutorBeschreibung="Grundmodell"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorAufwandStunden="0.38" AutorBeschreibung="Texturvariante"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="2" SichtbarBis="20" Vorlade="1" LODbit="8">
+<Datei Dateiname="ZZA_1x5_S75_WarschauerStr.lod0.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="2" SichtbarAb="20" SichtbarBis="75" Vorlade="1" LODbit="4">
+<Datei Dateiname="ZZA_1x5_S75_WarschauerStr.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="2" SichtbarAb="75" SichtbarBis="500" Vorlade="1" LODbit="2">
+<Datei Dateiname="ZZA_1x5_S75_WarschauerStr.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="2" SichtbarAb="500" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="ZZA_1x5_S75_WarschauerStr.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+</Landschaft>
+</Zusi>

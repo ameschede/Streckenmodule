@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet C="0FFFFFFFF" E="0FF000000" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Plakat_Zonengrenze.dds"/>
+</Textur>
+<Vertex U="0.9987" V="0.0012">
+<p X="1.78" Y="-0.12" Z="3.26"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.9987" V="0.7063">
+<p X="1.78" Y="-0.12" Z="0.74"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.0026" V="0.7063">
+<p X="-1.78" Y="-0.12" Z="0.74"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.0026" V="0.0012">
+<p X="-1.78" Y="-0.12" Z="3.26"/>
+<n Y="-1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="0;2;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>

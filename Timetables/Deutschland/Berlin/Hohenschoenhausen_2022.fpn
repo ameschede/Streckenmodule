@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrplan" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Fahrplan AnfangsZeit="2022-06-15 03:45:00">
+<BefehlsKonfiguration Dateiname="Signals\Deutschland\Befehle\408_2015.authority.xml"/>
+<LaPDF/>
+<StrebuPDF/>
+<ErsatzfahrplaenePDF/>
+<Begruessungsdatei/>
+<trn Gattung="S" Nummer="75020" Zuglauf="Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" Verkehrstage="als Ls von Bln-Lichtenberg" spZugNiedriger="22.2222" APBeschl="1" ReisendenDichte="0.2" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 03:45:30" Abf="2022-06-15 03:45:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-06-15 03:47:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 03:49:00" Abf="2022-06-15 03:56:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 03:57:00" Abf="2022-06-15 03:58:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:00:00" Abf="2022-06-15 04:00:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 04:00:30" Abf="2022-06-15 04:00:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="2" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75022" Zuglauf="Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" Verkehrstage="als Ls von Bln-Lichtenberg" spZugNiedriger="22.2222" APBeschl="1" ReisendenDichte="0.2" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 04:05:30" Abf="2022-06-15 04:05:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-06-15 04:07:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:09:00" Abf="2022-06-15 04:16:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 11"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:17:00" Abf="2022-06-15 04:18:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:20:00" Abf="2022-06-15 04:20:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 04:20:30" Abf="2022-06-15 04:20:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="2" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75024" Zuglauf="Warschauer Str - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" spZugNiedriger="22.2222" APBeschl="1" ReisendenDichte="0.2" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 04:22:30" Abf="2022-06-15 04:24:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 04:25:30" Abf="2022-06-15 04:25:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:26:00" Abf="2022-06-15 04:27:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:29:00" Abf="2022-06-15 04:36:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:37:00" Abf="2022-06-15 04:38:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:40:00" Abf="2022-06-15 04:40:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 04:40:30" Abf="2022-06-15 04:40:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="2" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75026" Zuglauf="Warschauer Str - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" spZugNiedriger="22.2222" APBeschl="1" ReisendenDichte="0.2" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 04:42:30" Abf="2022-06-15 04:44:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 04:45:30" Abf="2022-06-15 04:45:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:46:00" Abf="2022-06-15 04:47:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:49:00" Abf="2022-06-15 04:56:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:57:00" Abf="2022-06-15 04:58:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:00:00" Abf="2022-06-15 05:00:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:00:30" Abf="2022-06-15 05:00:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="2" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="482 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" Gedreht="1" NVRNummer="481 ***-*">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75532" Zuglauf="Bln-Lichtenberg - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.2" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 04:52:30" Abf="2022-06-15 04:54:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 04:55:30" Abf="2022-06-15 04:55:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:56:00" Abf="2022-06-15 04:57:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:59:00" Abf="2022-06-15 05:06:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 11"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:07:00" Abf="2022-06-15 05:08:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:10:00" Abf="2022-06-15 05:10:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:10:30" Abf="2022-06-15 05:10:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75028" Zuglauf="Warschauer Str - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.2" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:02:30" Abf="2022-06-15 05:04:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:05:30" Abf="2022-06-15 05:05:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:06:00" Abf="2022-06-15 05:07:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:09:00" Abf="2022-06-15 05:16:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:17:00" Abf="2022-06-15 05:18:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:20:00" Abf="2022-06-15 05:20:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:20:30" Abf="2022-06-15 05:20:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75534" Zuglauf="Ostbahnhof - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.2" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:12:30" Abf="2022-06-15 05:14:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:15:30" Abf="2022-06-15 05:15:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:16:00" Abf="2022-06-15 05:17:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:19:00" Abf="2022-06-15 05:26:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 11"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:27:00" Abf="2022-06-15 05:28:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:30:00" Abf="2022-06-15 05:30:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:30:30" Abf="2022-06-15 05:30:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75030" Zuglauf="Warschauer Str - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.3" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:22:30" Abf="2022-06-15 05:24:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:25:30" Abf="2022-06-15 05:25:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:26:00" Abf="2022-06-15 05:27:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:29:00" Abf="2022-06-15 05:36:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:37:00" Abf="2022-06-15 05:38:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:40:00" Abf="2022-06-15 05:40:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:40:30" Abf="2022-06-15 05:40:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75536" Zuglauf="Ostbahnhof - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.35" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:32:30" Abf="2022-06-15 05:34:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:35:30" Abf="2022-06-15 05:35:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:36:00" Abf="2022-06-15 05:37:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:39:00" Abf="2022-06-15 05:46:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 11"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:47:00" Abf="2022-06-15 05:48:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:50:00" Abf="2022-06-15 05:50:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:50:30" Abf="2022-06-15 05:50:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75032" Zuglauf="Warschauer Str - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.4" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:42:30" Abf="2022-06-15 05:44:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:45:30" Abf="2022-06-15 05:45:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:46:00" Abf="2022-06-15 05:47:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:49:00" Abf="2022-06-15 05:56:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:57:00" Abf="2022-06-15 05:58:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 06:00:00" Abf="2022-06-15 06:00:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 06:00:30" Abf="2022-06-15 06:00:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75538" Zuglauf="Warschauer Str - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.35" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:52:30" Abf="2022-06-15 05:54:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:55:30" Abf="2022-06-15 05:55:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:56:00" Abf="2022-06-15 05:57:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:59:00" Abf="2022-06-15 06:06:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 11"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 06:07:00" Abf="2022-06-15 06:08:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 06:10:00" Abf="2022-06-15 06:10:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 06:10:30" Abf="2022-06-15 06:10:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="S" Nummer="75034" Zuglauf="Warschauer Str - Wartenberg - Warschauer Str" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="22.2222" APBeschl="1" ReisendenDichte="0.4" FahrplanGruppe="S-Bahn" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Hohenschhsn (S) 5413" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 06:02:30" Abf="2022-06-15 06:04:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 06:05:30" Abf="2022-06-15 06:05:30" Betrst="Hohenschhsn (S)" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="5413"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 06:06:00" Abf="2022-06-15 06:07:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5417"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 06:09:00" Abf="2022-06-15 06:16:00" Betrst="Bft Wartenberg" FzgVerbandAktion="2">
+<FahrplanSignalEintrag FahrplanSignal="Gleis 12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 06:17:00" Abf="2022-06-15 06:18:00" Betrst="Hohenschhsn (S)">
+<FahrplanSignalEintrag FahrplanSignal="5418"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 06:20:00" Abf="2022-06-15 06:20:30" Betrst="Gehrenseestr Hp"/>
+<FahrplanEintrag Ank="2022-06-15 06:20:30" Abf="2022-06-15 06:20:30" Betrst="Sbk 5406">
+<FahrplanSignalEintrag FahrplanSignal="5406"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" EigeneZugart="1" DotraModus="1" SASchaltung="3" NVRNummer="481 112-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+<ZugdatenZBS ZBSBetriebszustand="8" ZugsicherungHS="2" Lufthahn="2" ZBSStoerschalter="2"/>
+<ZugdatenFahrsperre/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 112-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 354-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 354-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="481 425-7">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="482 425-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="482 380-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\482.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="481 380-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\481\481.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="RB" Nummer="61101" Zuglauf="Bln-Ostkreuz - Templin Stadt" Prio="2500" Standortmodus="1" BremsstellungZug="3" spAnfang="27.7778" MBrh="1.855" APBeschl="1" ReisendenDichte="0.4" FahrplanGruppe="Regionalverkehr nach Norden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 503 503" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 04:57:30" Abf="2022-06-15 04:57:30" Betrst="Sbk 503" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="503"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-06-15 04:58:30" Betrst="Abzw Hohensch Hp">
+<FahrplanSignalEintrag FahrplanSignal="509"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 04:59:00" Abf="2022-06-15 05:00:00" Betrst="Abzw Hohensch Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:01:00" Abf="2022-06-15 05:01:00" Betrst="Sbk 513">
+<FahrplanSignalEintrag FahrplanSignal="513"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\Talent\Talent_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\Talent\Talent_Mittelwagen_80.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\Talent\Talent_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="RB" Nummer="61100" Zuglauf="Oranienburg - Bln-Ostkreuz" Prio="2500" Standortmodus="1" BremsstellungZug="3" spAnfang="27.7778" MBrh="1.8353" APBeschl="1" ReisendenDichte="0.6" FahrplanGruppe="Regionalverkehr nach Süden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Abzw Hohensch Hp 506" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 04:59:30" Abf="2022-06-15 04:59:30" Betrst="Abzw Hohensch Hp" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="506"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:01:00" Abf="2022-06-15 05:02:00" Betrst="Abzw Hohensch Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:04:30" Abf="2022-06-15 05:04:30" Betrst="Sbk 500" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="500"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\Talent\Talent_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\Talent\Talent_Mittelwagen_80.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\Talent\Talent_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="RB" Nummer="18341" Zuglauf="Lübbenau - Eberswalde Hbf" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="27.7778" MBrh="1.855" APBeschl="1" ReisendenDichte="0.4" FahrplanGruppe="Regionalverkehr nach Norden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Sbk 503 503" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:13:30" Abf="2022-06-15 05:13:30" Betrst="Sbk 503" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="503"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-06-15 05:14:30" Betrst="Abzw Hohensch Hp">
+<FahrplanSignalEintrag FahrplanSignal="509"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:15:00" Abf="2022-06-15 05:17:00" Betrst="Abzw Hohensch Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:18:00" Abf="2022-06-15 05:18:00" Betrst="Sbk 513" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="513"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="94 80 0442 270-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="94 80 0443 700-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittellaufwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="94 80 0443 287-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittelantriebswagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="2" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="94 80 0442 723-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="RB" Nummer="18344" Zuglauf="Eberswalde Hbf - Senftenberg" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="27.7778" MBrh="1.8353" APBeschl="1" ReisendenDichte="0.6" FahrplanGruppe="Regionalverkehr nach Süden" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Abzw Hohensch Hp 506" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Berlin\Hohenschoenhausen_2022.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-06-15 05:40:30" Abf="2022-06-15 05:40:30" Betrst="Abzw Hohensch Hp" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="506"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-06-15 05:42:00" Abf="2022-06-15 05:44:00" Betrst="Abzw Hohensch Hp"/>
+<FahrplanEintrag Ank="2022-06-15 05:46:00" Abf="2022-06-15 05:46:00" Betrst="Sbk 500">
+<FahrplanSignalEintrag FahrplanSignal="500"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" NVRNummer="94 80 0442 266-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="94 80 0443 708-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittellaufwagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="94 80 0443 272-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Mittelantriebswagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="2" DotraModus="1" SASchaltung="3" Gedreht="1" NVRNummer="94 80 0442 782-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\Talent2\Talent2-Endwagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<StrModul>
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000399_005824_Hohenschoenhausen\Hohenschoenhausen_2020.st3"/>
+<p/>
+<phi/>
+</StrModul>
+<UTM UTM_WE="399" UTM_NS="5824" UTM_Zone="33" UTM_Zone2="U"/>
+</Fahrplan>
+</Zusi>

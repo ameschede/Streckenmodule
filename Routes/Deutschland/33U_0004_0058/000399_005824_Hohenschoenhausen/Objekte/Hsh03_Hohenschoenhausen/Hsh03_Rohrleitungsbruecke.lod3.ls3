@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF" Ce="FF000000" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Hsh03_Rohrleitungsbruecke.dds"/>
+</Textur>
+<Vertex V="1">
+<p X="-3" Y="43" Z="7"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="43" Z="7"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="-43" Z="7"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-3" Y="-43" Z="7"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="11">
+<p X="-3" Y="-43" Z="9"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="-11">
+<p X="-3" Y="43" Z="9"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="-11" V="0.6187">
+<p X="-3" Y="43" Z="7"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="11" V="0.6187">
+<p X="-3" Y="-43" Z="7"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="-11" V="0">
+<p X="3" Y="43" Z="9"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="11" V="0">
+<p X="3" Y="-43" Z="9"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="11" V="0.6187">
+<p X="3" Y="-43" Z="7"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="-11" V="0.6187">
+<p X="3" Y="43" Z="7"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="7.1375" V="0.0148">
+<p X="-2.7" Y="-43" Z="9"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="7.1375" V="0.261">
+<p X="-2.7" Y="-43" Z="7.4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="-6.0966" V="0.261">
+<p X="-2.7" Y="43" Z="7.4"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="-6.0966" V="0.0148">
+<p X="-2.7" Y="43" Z="9"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="7.1375" V="0.0148">
+<p X="2.7" Y="-43" Z="9"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="-6.0966" V="0.0148">
+<p X="2.7" Y="43" Z="9"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="-6.0966" V="0.261">
+<p X="2.7" Y="43" Z="7.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="7.1375" V="0.261">
+<p X="2.7" Y="-43" Z="7.4"/>
+<n X="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="43" Z="7.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="-43" Z="7.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="-43" Z="7.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="43" Z="7.4"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="-43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-3" Y="43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-3" Y="-43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="-43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="-43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="43" Z="9"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="-43" Z="9"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-3" Y="-43" Z="9"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-3" Y="-43" Z="7"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="-43" Z="7.4"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="-43" Z="9"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="-43" Z="9"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="-43" Z="7.4"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="-43" Z="7"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="43" Z="9"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="43" Z="9"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Vertex V="1">
+<p X="3" Y="43" Z="7"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Vertex V="1">
+<p X="2.7" Y="43" Z="7.4"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Vertex V="1">
+<p X="-3" Y="43" Z="9"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="43" Z="9"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Vertex V="1">
+<p X="-2.7" Y="43" Z="7.4"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Vertex V="1">
+<p X="-3" Y="43" Z="7"/>
+<n X="0" Y="1" Z="0"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="3;1;0"/>
+<Face i="7;6;5"/>
+<Face i="7;5;4"/>
+<Face i="11;10;9"/>
+<Face i="11;9;8"/>
+<Face i="15;14;13"/>
+<Face i="15;13;12"/>
+<Face i="19;18;17"/>
+<Face i="19;17;16"/>
+<Face i="23;22;21"/>
+<Face i="23;21;20"/>
+<Face i="27;26;25"/>
+<Face i="27;25;24"/>
+<Face i="31;30;29"/>
+<Face i="31;29;28"/>
+<Face i="35;34;33"/>
+<Face i="35;33;32"/>
+<Face i="39;38;37"/>
+<Face i="39;37;36"/>
+<Face i="39;34;35"/>
+<Face i="39;35;38"/>
+<Face i="43;42;41"/>
+<Face i="43;41;40"/>
+<Face i="47;46;45"/>
+<Face i="47;45;44"/>
+<Face i="47;42;43"/>
+<Face i="47;43;46"/>
+</SubSet>
+</Landschaft>
+</Zusi>

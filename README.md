@@ -17,17 +17,12 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Schwarzenbach bei Pressath
 * Großwudicke
 * Schönhauser Damm
-* Hiltersdorf
-* Freihöls
 * Schönhausen
-* Luitpoldhütte
-* Irrenlohe
 * Friedland
-* Amberg
-* Wahlitz
 * Körle Ost
 * Altmorschen
 * Regensburg Ost
+* Hohenschönhausen
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -35,8 +30,6 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
 
-Die Module Luitpoldhütte, Amberg, Hiltersdorf, Freihöls und Irrenlohe bilden ein zusammenhängendes Netz mit 37 km Länge. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
-
 Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.
 
-Das Modul Wahlitz schließt an das Modul Gommern des Bestandsnetzes an.
+Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
