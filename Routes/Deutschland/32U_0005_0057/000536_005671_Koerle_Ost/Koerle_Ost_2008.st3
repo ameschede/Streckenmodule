@@ -46,6 +46,9 @@
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="58" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3"/>
 <ReferenzElemente ReferenzNr="2" StrElement="182" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3"/>
 <ReferenzElemente ReferenzNr="3" StrElement="1" RefTyp="5" Info="Auflösepunkt"/>
@@ -473,14 +476,20 @@
 <ReferenzElemente ReferenzNr="425" StrElement="171" StrNorm="1" RefTyp="2" Info="Register-Nr. 3"/>
 <ReferenzElemente ReferenzNr="426" StrElement="172" StrNorm="1" RefTyp="2" Info="Register-Nr. 4"/>
 <ReferenzElemente ReferenzNr="427" StrElement="912" RefTyp="4" Info="Fahrweg: Körle Ost Bbf Gleistor Uw"/>
+<ReferenzElemente ReferenzNr="428" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3"/>
+<ReferenzElemente ReferenzNr="429" StrElement="278" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3"/>
 <StrElement Nr="1" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3214">
 <g X="-1947.288" Y="2900.6909" Z="206.2712"/>
 <b X="-1944.224" Y="2895.6816" Z="206.3417"/>
 <InfoNormRichtung vMax="77.7778" km="155.7166" pos="1" Reg="5001"/>
-<InfoGegenRichtung vMax="77.7778" km="155.7225" Reg="5001">
+<InfoGegenRichtung vMax="58.3333" km="155.7225" Reg="5001">
 <Ereignis Er="4"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: Version 1.0.0.19, (DLLs: ZusiBfpl 3.0.9.22) Durchgeführte Aktionen: Anpassung gemäß Vorlage Gr0 Anpassung gemäß Vorlage Nebenrot "/>
 </InfoGegenRichtung>
 <NachNorm Nr="259"/>
+<NachGegenModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="2" spTrass="77.7778" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2856">
 <g X="335.9799" Y="-55.8018" Z="249.8522"/>
@@ -1075,7 +1084,7 @@
 <g X="-1590.1821" Y="2316.9709" Z="214.4827"/>
 <b X="-1577.2382" Y="2295.8169" Z="214.78"/>
 <InfoNormRichtung vMax="77.7778" km="156.4009" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4257"/>
+<InfoGegenRichtung vMax="69.4444" km="156.4257"/>
 <NachNorm Nr="60"/>
 <NachGegen Nr="258"/>
 </StrElement>
@@ -1083,7 +1092,7 @@
 <g X="-1577.2382" Y="2295.8169" Z="214.78"/>
 <b X="-1564.286" Y="2274.667" Z="215.079"/>
 <InfoNormRichtung vMax="77.7778" km="156.4257" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4505"/>
+<InfoGegenRichtung vMax="69.4444" km="156.4505"/>
 <NachNorm Nr="61"/>
 <NachGegen Nr="59"/>
 </StrElement>
@@ -1091,7 +1100,7 @@
 <g X="-1564.286" Y="2274.667" Z="215.079"/>
 <b X="-1551.318" Y="2253.5291" Z="215.3754"/>
 <InfoNormRichtung vMax="77.7778" km="156.4506" pos="1" Reg="5006"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4754" Reg="5006">
+<InfoGegenRichtung vMax="69.4444" km="156.4754" Reg="5006">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="62"/>
@@ -1101,7 +1110,7 @@
 <g X="-1551.318" Y="2253.5291" Z="215.3754"/>
 <b X="-1543.1976" Y="2240.3279" Z="215.5611"/>
 <InfoNormRichtung vMax="-1" Reg="5007"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4908" Reg="5007">
+<InfoGegenRichtung vMax="69.4444" km="156.4908" Reg="5007">
 <Ereignis Er="3" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="933"/>
@@ -1113,7 +1122,7 @@
 <InfoNormRichtung vMax="77.7778" km="156.5001" pos="1">
 <Ereignis Er="39" Beschr="1733a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="156.5249"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5249"/>
 <NachNorm Nr="64"/>
 <NachGegen Nr="933"/>
 </StrElement>
@@ -1121,7 +1130,7 @@
 <g X="-1525.297" Y="2211.302" Z="215.9692"/>
 <b X="-1512.229" Y="2190.2241" Z="216.2691"/>
 <InfoNormRichtung vMax="77.7778" km="156.5248" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.5496"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5496"/>
 <NachNorm Nr="65"/>
 <NachGegen Nr="63"/>
 </StrElement>
@@ -1129,7 +1138,7 @@
 <g X="-1512.229" Y="2190.2241" Z="216.2691"/>
 <b X="-1499.1108" Y="2169.178" Z="216.5653"/>
 <InfoNormRichtung vMax="77.7778" km="156.5498" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.5746"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5746"/>
 <NachNorm Nr="66"/>
 <NachGegen Nr="64"/>
 </StrElement>
@@ -1137,7 +1146,7 @@
 <g X="-1499.1108" Y="2169.178" Z="216.5653"/>
 <b X="-1485.9351" Y="2148.167" Z="216.8643"/>
 <InfoNormRichtung vMax="77.7778" km="156.5745" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.5993"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5993"/>
 <NachNorm Nr="67"/>
 <NachGegen Nr="65"/>
 </StrElement>
@@ -1145,7 +1154,7 @@
 <g X="-1485.9351" Y="2148.167" Z="216.8643"/>
 <b X="-1472.6929" Y="2127.199" Z="217.1607"/>
 <InfoNormRichtung vMax="77.7778" km="156.5994" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.6242"/>
+<InfoGegenRichtung vMax="69.4444" km="156.6242"/>
 <NachNorm Nr="68"/>
 <NachGegen Nr="66"/>
 </StrElement>
@@ -1153,7 +1162,7 @@
 <g X="-1472.689" Y="2127.1941" Z="217.1607"/>
 <b X="-1459.368" Y="2106.262" Z="217.4583"/>
 <InfoNormRichtung vMax="77.7778" km="156.6241" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.6489"/>
+<InfoGegenRichtung vMax="69.4444" km="156.6489"/>
 <NachNorm Nr="69"/>
 <NachGegen Nr="67"/>
 </StrElement>
@@ -1161,7 +1170,7 @@
 <g X="-1459.368" Y="2106.262" Z="217.4583"/>
 <b X="-1445.972" Y="2085.376" Z="217.7559"/>
 <InfoNormRichtung vMax="77.7778" km="156.6489" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.6737"/>
+<InfoGegenRichtung vMax="69.4444" km="156.6737"/>
 <NachNorm Nr="70"/>
 <NachGegen Nr="68"/>
 </StrElement>
@@ -1169,7 +1178,7 @@
 <g X="-1445.972" Y="2085.376" Z="217.7559"/>
 <b X="-1432.5031" Y="2064.5391" Z="218.0535"/>
 <InfoNormRichtung vMax="77.7778" km="156.6737" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.6985"/>
+<InfoGegenRichtung vMax="69.4444" km="156.6985"/>
 <NachNorm Nr="71"/>
 <NachGegen Nr="69"/>
 </StrElement>
@@ -1177,21 +1186,21 @@
 <g X="-1432.5031" Y="2064.5391" Z="218.0535"/>
 <b X="-1418.96" Y="2043.7501" Z="218.3512"/>
 <InfoNormRichtung vMax="77.7778" km="156.6985" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7233"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7233"/>
 <NachNorm Nr="72"/>
 <NachGegen Nr="70"/>
 </StrElement>
 <StrElement Nr="72" Ueberh="-0.0453" kr="0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2881">
 <g X="-1418.96" Y="2043.7501" Z="218.3512"/>
 <b X="-1409.4003" Y="2029.1709" Z="218.5603"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7407"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7407"/>
 <NachNorm Nr="984"/>
 <NachGegen Nr="71"/>
 </StrElement>
 <StrElement Nr="73" Ueberh="-0.0453" kr="0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2951">
 <g X="-1405.344" Y="2023.0081" Z="218.6488"/>
 <b X="-1391.6541" Y="2002.3149" Z="218.9464"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7686"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7686"/>
 <NachNorm Nr="74"/>
 <NachGegen Nr="984"/>
 </StrElement>
@@ -1199,7 +1208,7 @@
 <g X="-1391.6541" Y="2002.3149" Z="218.9464"/>
 <b X="-1377.891" Y="1981.67" Z="219.2441"/>
 <InfoNormRichtung vMax="77.7778" km="156.7729" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7977"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7977"/>
 <NachNorm Nr="75"/>
 <NachGegen Nr="73"/>
 </StrElement>
@@ -1207,14 +1216,14 @@
 <g X="-1377.891" Y="1981.67" Z="219.2441"/>
 <b X="-1364.0551" Y="1961.075" Z="219.5417"/>
 <InfoNormRichtung vMax="77.7778" km="156.7977" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.8225"/>
+<InfoGegenRichtung vMax="69.4444" km="156.8225"/>
 <NachNorm Nr="77"/>
 <NachGegen Nr="74"/>
 </StrElement>
 <StrElement Nr="77" Ueberh="-0.0453" kr="0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3016">
 <g X="-1364.0551" Y="1961.075" Z="219.5417"/>
 <b X="-1361.8125" Y="1957.7631" Z="219.5897"/>
-<InfoGegenRichtung vMax="77.7778" km="156.8265"/>
+<InfoGegenRichtung vMax="69.4444" km="156.8265"/>
 <NachNorm Nr="1015"/>
 <NachGegen Nr="75"/>
 </StrElement>
@@ -1224,7 +1233,7 @@
 <InfoNormRichtung vMax="77.7778" km="156.8721" pos="1" Reg="5008">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="156.8969" Reg="5008"/>
+<InfoGegenRichtung vMax="69.4444" km="156.8969" Reg="5008"/>
 <NachNorm Nr="79"/>
 <NachGegen Nr="972"/>
 </StrElement>
@@ -1232,7 +1241,7 @@
 <g X="-1322.11" Y="1899.584" Z="220.4347"/>
 <b X="-1307.9832" Y="1879.187" Z="220.7323"/>
 <InfoNormRichtung vMax="77.7778" km="156.8969" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9217"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9217"/>
 <NachNorm Nr="80"/>
 <NachGegen Nr="78"/>
 </StrElement>
@@ -1240,7 +1249,7 @@
 <g X="-1307.9832" Y="1879.187" Z="220.7323"/>
 <b X="-1293.7841" Y="1858.839" Z="221.0299"/>
 <InfoNormRichtung vMax="77.7778" km="156.9217" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9465"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9465"/>
 <NachNorm Nr="81"/>
 <NachGegen Nr="79"/>
 </StrElement>
@@ -1248,14 +1257,14 @@
 <g X="-1293.7841" Y="1858.839" Z="221.0299"/>
 <b X="-1279.5142" Y="1838.543" Z="221.3276"/>
 <InfoNormRichtung vMax="77.7778" km="156.9465" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9713"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9713"/>
 <NachNorm Nr="82"/>
 <NachGegen Nr="80"/>
 </StrElement>
 <StrElement Nr="82" Ueberh="-0.0453" kr="0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3012">
 <g X="-1279.5142" Y="1838.543" Z="221.3276"/>
 <b X="-1277.0325" Y="1835.0302" Z="221.3792"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9756"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9756"/>
 <NachNorm Nr="993"/>
 <NachGegen Nr="81"/>
 </StrElement>
@@ -1263,7 +1272,7 @@
 <g X="-1265.171" Y="1818.2971" Z="221.6252"/>
 <b X="-1250.757" Y="1798.101" Z="221.9229"/>
 <InfoNormRichtung vMax="77.7778" km="156.9961" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.021"/>
+<InfoGegenRichtung vMax="69.4444" km="157.021"/>
 <NachNorm Nr="84"/>
 <NachGegen Nr="993"/>
 </StrElement>
@@ -1271,7 +1280,7 @@
 <g X="-1250.757" Y="1798.101" Z="221.9229"/>
 <b X="-1236.271" Y="1777.957" Z="222.2205"/>
 <InfoNormRichtung vMax="77.7778" km="157.0209" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.0457"/>
+<InfoGegenRichtung vMax="69.4444" km="157.0457"/>
 <NachNorm Nr="85"/>
 <NachGegen Nr="83"/>
 </StrElement>
@@ -1279,7 +1288,7 @@
 <g X="-1236.271" Y="1777.957" Z="222.2205"/>
 <b X="-1221.714" Y="1757.865" Z="222.5182"/>
 <InfoNormRichtung vMax="77.7778" km="157.0457" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.0706"/>
+<InfoGegenRichtung vMax="69.4444" km="157.0706"/>
 <NachNorm Nr="86"/>
 <NachGegen Nr="84"/>
 </StrElement>
@@ -1287,7 +1296,7 @@
 <g X="-1221.714" Y="1757.865" Z="222.5182"/>
 <b X="-1207.0861" Y="1737.824" Z="222.8158"/>
 <InfoNormRichtung vMax="77.7778" km="157.0705" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.0954"/>
+<InfoGegenRichtung vMax="69.4444" km="157.0954"/>
 <NachNorm Nr="87"/>
 <NachGegen Nr="85"/>
 </StrElement>
@@ -1295,7 +1304,7 @@
 <g X="-1207.0861" Y="1737.824" Z="222.8158"/>
 <b X="-1192.3868" Y="1717.835" Z="223.1134"/>
 <InfoNormRichtung vMax="77.7778" km="157.0954" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.1202"/>
+<InfoGegenRichtung vMax="69.4444" km="157.1202"/>
 <NachNorm Nr="88"/>
 <NachGegen Nr="86"/>
 </StrElement>
@@ -1305,7 +1314,7 @@
 <InfoNormRichtung vMax="77.7778" pos="1">
 <Ereignis Er="6" Beschr="@tunnel=Kehrenberg-T@"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="157.1362"/>
+<InfoGegenRichtung vMax="69.4444" km="157.1362"/>
 <NachNorm Nr="916"/>
 <NachGegen Nr="87"/>
 </StrElement>
@@ -1573,7 +1582,7 @@
 <Ereignis Er="6" Beschr="Üst Schwarzenb"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="155.9205" Reg="5009"/>
+<InfoGegenRichtung vMax="58.3333" km="155.9205" Reg="5009"/>
 <NachNorm Nr="118"/>
 <NachGegen Nr="280"/>
 </StrElement>
@@ -1581,7 +1590,7 @@
 <g X="-1836.894" Y="2729.2471" Z="208.7175"/>
 <b X="-1812.948" Y="2690.106" Z="209.2681"/>
 <InfoNormRichtung vMax="77.7778" km="155.9205" pos="1" Reg="5010"/>
-<InfoGegenRichtung vMax="77.7778" km="155.9664" Reg="5010">
+<InfoGegenRichtung vMax="58.3333" km="155.9664" Reg="5010">
 <Ereignis Er="6" Beschr="Üst Schwarzenb"/>
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
@@ -1838,7 +1847,7 @@
 <p X="-0.405" Z="4.2"/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp_Doppelrot.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
@@ -1924,36 +1933,37 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="528482421" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="528482419">
+<MatrixEintrag Signalbild="1056964837" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="1056964835">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="528482681" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="528482937" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="528483449" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="528482425" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="528486521" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="528490617" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="528498805" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="528515189" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="528547957" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="528613493" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="528744565" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="529006709" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="529530997" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="530579573" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="532676725" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="1056965353" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="1056965865" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="1056966889" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="1056964841" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="1056973033" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="1056981225" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="1056997605" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="1057030373" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="1057095909" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="1057226981" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="1057489125" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="1058013413" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="1059061989" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="1061159141" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="1065353445" MatrixGeschw="41.6667"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs7" ErsatzsigID="00000002">
-<MatrixEintrag Signalbild="528482547" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="1056965105" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="17" Wert="400"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="528482419" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="1056964835" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -2295,7 +2305,7 @@
 <g X="-1586.173" Y="2319.4241" Z="214.4827"/>
 <b X="-1573.234" Y="2298.2771" Z="214.78"/>
 <InfoNormRichtung vMax="77.7778" km="156.4009" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4257"/>
+<InfoGegenRichtung vMax="69.4444" km="156.4257"/>
 <NachNorm Nr="184"/>
 <NachGegen Nr="305"/>
 </StrElement>
@@ -2303,7 +2313,7 @@
 <g X="-1573.234" Y="2298.2771" Z="214.78"/>
 <b X="-1560.286" Y="2277.135" Z="215.0763"/>
 <InfoNormRichtung vMax="77.7778" km="156.4257" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4505"/>
+<InfoGegenRichtung vMax="69.4444" km="156.4505"/>
 <NachNorm Nr="185"/>
 <NachGegen Nr="183"/>
 </StrElement>
@@ -2311,7 +2321,7 @@
 <g X="-1560.286" Y="2277.135" Z="215.0763"/>
 <b X="-1547.3221" Y="2256.0029" Z="215.3754"/>
 <InfoNormRichtung vMax="77.7778" km="156.4504" pos="1" Reg="5016"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4752" Reg="5016">
+<InfoGegenRichtung vMax="69.4444" km="156.4752" Reg="5016">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="186"/>
@@ -2321,7 +2331,7 @@
 <g X="-1547.3221" Y="2256.0029" Z="215.3754"/>
 <b X="-1539.2019" Y="2242.8015" Z="215.5612"/>
 <InfoNormRichtung vMax="-1" Reg="5017"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4908" Reg="5017">
+<InfoGegenRichtung vMax="69.4444" km="156.4908" Reg="5017">
 <Ereignis Er="3" Wert="1"/>
 </InfoGegenRichtung>
 <NachNorm Nr="932"/>
@@ -2333,7 +2343,7 @@
 <InfoNormRichtung vMax="77.7778" km="156.5001" pos="1">
 <Ereignis Er="28" Beschr="1733a"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="156.5249"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5249"/>
 <NachNorm Nr="188"/>
 <NachGegen Nr="932"/>
 </StrElement>
@@ -2341,7 +2351,7 @@
 <g X="-1521.3101" Y="2213.79" Z="215.9692"/>
 <b X="-1508.246" Y="2192.719" Z="216.2691"/>
 <InfoNormRichtung vMax="77.7778" km="156.5248" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.5496"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5496"/>
 <NachNorm Nr="189"/>
 <NachGegen Nr="187"/>
 </StrElement>
@@ -2349,7 +2359,7 @@
 <g X="-1508.246" Y="2192.719" Z="216.2691"/>
 <b X="-1495.1331" Y="2171.6799" Z="216.5653"/>
 <InfoNormRichtung vMax="77.7778" km="156.5498" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.5746"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5746"/>
 <NachNorm Nr="190"/>
 <NachGegen Nr="188"/>
 </StrElement>
@@ -2357,7 +2367,7 @@
 <g X="-1495.1331" Y="2171.6799" Z="216.5653"/>
 <b X="-1481.9611" Y="2150.677" Z="216.8616"/>
 <InfoNormRichtung vMax="77.7778" km="156.5745" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.5993"/>
+<InfoGegenRichtung vMax="69.4444" km="156.5993"/>
 <NachNorm Nr="191"/>
 <NachGegen Nr="189"/>
 </StrElement>
@@ -2365,7 +2375,7 @@
 <g X="-1481.9611" Y="2150.677" Z="216.8616"/>
 <b X="-1468.724" Y="2129.7151" Z="217.1607"/>
 <InfoNormRichtung vMax="77.7778" km="156.5992" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.624"/>
+<InfoGegenRichtung vMax="69.4444" km="156.624"/>
 <NachNorm Nr="192"/>
 <NachGegen Nr="190"/>
 </StrElement>
@@ -2373,7 +2383,7 @@
 <g X="-1468.7198" Y="2129.71" Z="217.1607"/>
 <b X="-1455.407" Y="2108.792" Z="217.4583"/>
 <InfoNormRichtung vMax="77.7778" km="156.6241" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.6489"/>
+<InfoGegenRichtung vMax="69.4444" km="156.6489"/>
 <NachNorm Nr="193"/>
 <NachGegen Nr="191"/>
 </StrElement>
@@ -2381,7 +2391,7 @@
 <g X="-1455.407" Y="2108.792" Z="217.4583"/>
 <b X="-1442.021" Y="2087.9209" Z="217.7559"/>
 <InfoNormRichtung vMax="77.7778" km="156.6489" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.6737"/>
+<InfoGegenRichtung vMax="69.4444" km="156.6737"/>
 <NachNorm Nr="194"/>
 <NachGegen Nr="192"/>
 </StrElement>
@@ -2389,7 +2399,7 @@
 <g X="-1442.021" Y="2087.9209" Z="217.7559"/>
 <b X="-1428.561" Y="2067.0969" Z="218.0535"/>
 <InfoNormRichtung vMax="77.7778" km="156.6737" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.6985"/>
+<InfoGegenRichtung vMax="69.4444" km="156.6985"/>
 <NachNorm Nr="195"/>
 <NachGegen Nr="193"/>
 </StrElement>
@@ -2397,14 +2407,14 @@
 <g X="-1428.561" Y="2067.0969" Z="218.0535"/>
 <b X="-1415.027" Y="2046.321" Z="218.3512"/>
 <InfoNormRichtung vMax="77.7778" km="156.6985" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7233"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7233"/>
 <NachNorm Nr="196"/>
 <NachGegen Nr="194"/>
 </StrElement>
 <StrElement Nr="196" Ueberh="-0.0453" kr="0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2886">
 <g X="-1415.027" Y="2046.321" Z="218.3512"/>
 <b X="-1405.403" Y="2031.6453" Z="218.5618"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7408"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7408"/>
 <NachNorm Nr="983"/>
 <NachGegen Nr="195"/>
 </StrElement>
@@ -2412,7 +2422,7 @@
 <g X="-1401.42" Y="2025.594" Z="218.6488"/>
 <b X="-1387.74" Y="2004.915" Z="218.9464"/>
 <InfoNormRichtung vMax="77.7778" km="156.7481" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7729"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7729"/>
 <NachNorm Nr="198"/>
 <NachGegen Nr="983"/>
 </StrElement>
@@ -2420,7 +2430,7 @@
 <g X="-1387.74" Y="2004.915" Z="218.9464"/>
 <b X="-1373.986" Y="1984.2841" Z="219.2441"/>
 <InfoNormRichtung vMax="77.7778" km="156.7729" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.7977"/>
+<InfoGegenRichtung vMax="69.4444" km="156.7977"/>
 <NachNorm Nr="199"/>
 <NachGegen Nr="197"/>
 </StrElement>
@@ -2428,14 +2438,14 @@
 <g X="-1373.986" Y="1984.2841" Z="219.2441"/>
 <b X="-1360.1591" Y="1963.702" Z="219.5417"/>
 <InfoNormRichtung vMax="77.7778" km="156.7977" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.8225"/>
+<InfoGegenRichtung vMax="69.4444" km="156.8225"/>
 <NachNorm Nr="201"/>
 <NachGegen Nr="198"/>
 </StrElement>
 <StrElement Nr="201" Ueberh="-0.0453" kr="0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.302">
 <g X="-1360.1591" Y="1963.702" Z="219.5417"/>
 <b X="-1357.9164" Y="1960.3903" Z="219.5897"/>
-<InfoGegenRichtung vMax="77.7778" km="156.8265"/>
+<InfoGegenRichtung vMax="69.4444" km="156.8265"/>
 <NachNorm Nr="1016"/>
 <NachGegen Nr="199"/>
 </StrElement>
@@ -2445,7 +2455,7 @@
 <InfoNormRichtung vMax="77.7778" km="156.8721" pos="1" Reg="5018">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="156.8969" Reg="5018"/>
+<InfoGegenRichtung vMax="69.4444" km="156.8969" Reg="5018"/>
 <NachNorm Nr="203"/>
 <NachGegen Nr="973"/>
 </StrElement>
@@ -2453,7 +2463,7 @@
 <g X="-1318.2419" Y="1902.2531" Z="220.4347"/>
 <b X="-1304.125" Y="1881.869" Z="220.7323"/>
 <InfoNormRichtung vMax="77.7778" km="156.8969" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9217"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9217"/>
 <NachNorm Nr="204"/>
 <NachGegen Nr="202"/>
 </StrElement>
@@ -2461,7 +2471,7 @@
 <g X="-1304.125" Y="1881.869" Z="220.7323"/>
 <b X="-1289.936" Y="1861.535" Z="221.0299"/>
 <InfoNormRichtung vMax="77.7778" km="156.9217" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9465"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9465"/>
 <NachNorm Nr="205"/>
 <NachGegen Nr="203"/>
 </StrElement>
@@ -2469,14 +2479,14 @@
 <g X="-1289.936" Y="1861.535" Z="221.0299"/>
 <b X="-1275.674" Y="1841.252" Z="221.3276"/>
 <InfoNormRichtung vMax="77.7778" km="156.9465" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9713"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9713"/>
 <NachNorm Nr="206"/>
 <NachGegen Nr="204"/>
 </StrElement>
 <StrElement Nr="206" Ueberh="-0.0453" kr="0.000143" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3009">
 <g X="-1275.674" Y="1841.252" Z="221.3276"/>
 <b X="-1273.0292" Y="1837.5083" Z="221.3826"/>
-<InfoGegenRichtung vMax="77.7778" km="156.9759"/>
+<InfoGegenRichtung vMax="69.4444" km="156.9759"/>
 <NachNorm Nr="992"/>
 <NachGegen Nr="205"/>
 </StrElement>
@@ -2484,7 +2494,7 @@
 <g X="-1261.3409" Y="1821.0201" Z="221.6252"/>
 <b X="-1246.937" Y="1800.838" Z="221.9229"/>
 <InfoNormRichtung vMax="77.7778" km="156.9961" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.0209"/>
+<InfoGegenRichtung vMax="69.4444" km="157.0209"/>
 <NachNorm Nr="208"/>
 <NachGegen Nr="992"/>
 </StrElement>
@@ -2492,7 +2502,7 @@
 <g X="-1246.937" Y="1800.838" Z="221.9229"/>
 <b X="-1232.4611" Y="1780.708" Z="222.2205"/>
 <InfoNormRichtung vMax="77.7778" km="157.0209" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.0457"/>
+<InfoGegenRichtung vMax="69.4444" km="157.0457"/>
 <NachNorm Nr="209"/>
 <NachGegen Nr="207"/>
 </StrElement>
@@ -2500,7 +2510,7 @@
 <g X="-1232.4611" Y="1780.708" Z="222.2205"/>
 <b X="-1217.913" Y="1760.6292" Z="222.5182"/>
 <InfoNormRichtung vMax="77.7778" km="157.0457" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.0705"/>
+<InfoGegenRichtung vMax="69.4444" km="157.0705"/>
 <NachNorm Nr="210"/>
 <NachGegen Nr="208"/>
 </StrElement>
@@ -2508,7 +2518,7 @@
 <g X="-1217.913" Y="1760.6292" Z="222.5182"/>
 <b X="-1203.295" Y="1740.601" Z="222.8158"/>
 <InfoNormRichtung vMax="77.7778" km="157.0705" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.0953"/>
+<InfoGegenRichtung vMax="69.4444" km="157.0953"/>
 <NachNorm Nr="211"/>
 <NachGegen Nr="209"/>
 </StrElement>
@@ -2516,7 +2526,7 @@
 <g X="-1203.295" Y="1740.601" Z="222.8158"/>
 <b X="-1188.606" Y="1720.6259" Z="223.1134"/>
 <InfoNormRichtung vMax="77.7778" km="157.0954" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="157.1201"/>
+<InfoGegenRichtung vMax="69.4444" km="157.1201"/>
 <NachNorm Nr="212"/>
 <NachGegen Nr="210"/>
 </StrElement>
@@ -2526,7 +2536,7 @@
 <InfoNormRichtung vMax="77.7778" pos="1">
 <Ereignis Er="6" Beschr="@tunnel=Kehrenberg-T@"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="157.1361"/>
+<InfoGegenRichtung vMax="69.4444" km="157.1361"/>
 <NachNorm Nr="917"/>
 <NachGegen Nr="211"/>
 </StrElement>
@@ -2915,7 +2925,7 @@
 <StrElement Nr="253" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2988">
 <g X="-1737.5811" Y="2557.906" Z="211.0934"/>
 <b X="-1727.6666" Y="2541.6995" Z="211.3214"/>
-<InfoGegenRichtung vMax="77.7778" km="156.1374"/>
+<InfoGegenRichtung vMax="69.4444" km="156.1374"/>
 <NachNorm Nr="1014"/>
 <NachGegen Nr="331"/>
 </StrElement>
@@ -2923,7 +2933,7 @@
 <g X="-1713.0151" Y="2517.75" Z="211.6582"/>
 <b X="-1688.448" Y="2477.594" Z="212.2231"/>
 <InfoNormRichtung vMax="77.7778" km="156.1655" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.2126"/>
+<InfoGegenRichtung vMax="69.4444" km="156.2126"/>
 <NachNorm Nr="255"/>
 <NachGegen Nr="1014"/>
 </StrElement>
@@ -2931,7 +2941,7 @@
 <g X="-1688.448" Y="2477.594" Z="212.2231"/>
 <b X="-1663.882" Y="2437.438" Z="212.788"/>
 <InfoNormRichtung vMax="77.7778" km="156.2126" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.2597"/>
+<InfoGegenRichtung vMax="69.4444" km="156.2597"/>
 <NachNorm Nr="256"/>
 <NachGegen Nr="254"/>
 </StrElement>
@@ -2939,7 +2949,7 @@
 <g X="-1663.882" Y="2437.438" Z="212.788"/>
 <b X="-1639.3149" Y="2397.283" Z="213.3529"/>
 <InfoNormRichtung vMax="77.7778" km="156.2597" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.3067"/>
+<InfoGegenRichtung vMax="69.4444" km="156.3067"/>
 <NachNorm Nr="257"/>
 <NachGegen Nr="255"/>
 </StrElement>
@@ -2947,7 +2957,7 @@
 <g X="-1639.3149" Y="2397.283" Z="213.3529"/>
 <b X="-1614.749" Y="2357.127" Z="213.9178"/>
 <InfoNormRichtung vMax="77.7778" km="156.3067" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.3538"/>
+<InfoGegenRichtung vMax="69.4444" km="156.3538"/>
 <NachNorm Nr="258"/>
 <NachGegen Nr="256"/>
 </StrElement>
@@ -2955,7 +2965,7 @@
 <g X="-1614.749" Y="2357.127" Z="213.9178"/>
 <b X="-1590.1821" Y="2316.9709" Z="214.4827"/>
 <InfoNormRichtung vMax="77.7778" km="156.3538" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4009"/>
+<InfoGegenRichtung vMax="69.4444" km="156.4009"/>
 <NachNorm Nr="59"/>
 <NachGegen Nr="257"/>
 </StrElement>
@@ -3057,7 +3067,7 @@
 <MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="155.7237" Reg="5019">
+<InfoGegenRichtung vMax="58.3333" km="155.7237" Reg="5019">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="260"/>
@@ -3068,7 +3078,7 @@
 <g X="-1943.582" Y="2894.6331" Z="206.3565"/>
 <b X="-1940.1219" Y="2888.9771" Z="206.436"/>
 <InfoNormRichtung vMax="-1" km="155.7237" pos="1" Reg="5020"/>
-<InfoGegenRichtung vMax="-1" km="155.7303" Reg="5020"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7303" Reg="5020"/>
 <NachNorm Nr="261"/>
 <NachGegen Nr="259"/>
 </StrElement>
@@ -3076,7 +3086,7 @@
 <g X="-1940.1219" Y="2888.9771" Z="206.436"/>
 <b X="-1937.6151" Y="2884.8779" Z="206.4937"/>
 <InfoNormRichtung vMax="-1" km="155.7303" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7352"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7352"/>
 <NachNorm Nr="262"/>
 <NachGegen Nr="260"/>
 </StrElement>
@@ -3084,7 +3094,7 @@
 <g X="-1937.6151" Y="2884.8779" Z="206.4937"/>
 <b X="-1931.6219" Y="2875.083" Z="206.6315"/>
 <InfoNormRichtung vMax="-1" km="155.7352" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7466"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7466"/>
 <NachNorm Nr="263"/>
 <NachGegen Nr="261"/>
 </StrElement>
@@ -3092,7 +3102,7 @@
 <g X="-1931.6219" Y="2875.083" Z="206.6315"/>
 <b X="-1925.344" Y="2864.821" Z="206.7758"/>
 <InfoNormRichtung vMax="-1" km="155.7466" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7587"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7587"/>
 <NachNorm Nr="264"/>
 <NachGegen Nr="262"/>
 </StrElement>
@@ -3100,7 +3110,7 @@
 <g X="-1925.344" Y="2864.821" Z="206.7758"/>
 <b X="-1919.063" Y="2854.554" Z="206.9203"/>
 <InfoNormRichtung vMax="-1" km="155.7587" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7707"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7707"/>
 <NachNorm Nr="265"/>
 <NachGegen Nr="263"/>
 </StrElement>
@@ -3108,7 +3118,7 @@
 <g X="-1919.063" Y="2854.554" Z="206.9203"/>
 <b X="-1916.1571" Y="2849.804" Z="206.9871"/>
 <InfoNormRichtung vMax="-1" km="155.7707" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7763"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7763"/>
 <NachNorm Nr="266"/>
 <NachGegen Nr="264"/>
 </StrElement>
@@ -3116,7 +3126,7 @@
 <g X="-1916.1571" Y="2849.804" Z="206.9871"/>
 <b X="-1913.5811" Y="2845.594" Z="207.0463"/>
 <InfoNormRichtung vMax="-1" km="155.7763" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7812"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7812"/>
 <NachNorm Nr="267"/>
 <NachGegen Nr="265"/>
 </StrElement>
@@ -3124,7 +3134,7 @@
 <g X="-1913.5811" Y="2845.594" Z="207.0463"/>
 <b X="-1911.649" Y="2842.436" Z="207.0907"/>
 <InfoNormRichtung vMax="-1" km="155.7812" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7849"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7849"/>
 <NachNorm Nr="268"/>
 <NachGegen Nr="266"/>
 </StrElement>
@@ -3132,7 +3142,7 @@
 <g X="-1911.649" Y="2842.436" Z="207.0907"/>
 <b X="-1910.3979" Y="2840.3911" Z="207.1195"/>
 <InfoNormRichtung vMax="-1" km="155.7849" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7873"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7873"/>
 <NachNorm Nr="325"/>
 <NachGegen Nr="267"/>
 </StrElement>
@@ -3142,7 +3152,7 @@
 <InfoNormRichtung vMax="-1" km="155.7237" pos="1">
 <Ereignis Er="1" Wert="27.7778"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="155.7352">
+<InfoGegenRichtung vMax="58.3333" km="155.7352">
 <Ereignis Er="1" Wert="27.7778"/>
 </InfoGegenRichtung>
 <NachNorm Nr="270"/>
@@ -3152,7 +3162,7 @@
 <g X="-1937.514" Y="2884.844" Z="206.4947"/>
 <b X="-1931.416" Y="2875.2119" Z="206.6315"/>
 <InfoNormRichtung vMax="-1" km="155.7352" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7466"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7466"/>
 <NachNorm Nr="271"/>
 <NachGegen Nr="269"/>
 </StrElement>
@@ -3160,7 +3170,7 @@
 <g X="-1931.416" Y="2875.2119" Z="206.6315"/>
 <b X="-1924.882" Y="2865.1111" Z="206.7758"/>
 <InfoNormRichtung vMax="-1" km="155.7466" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7587"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7587"/>
 <NachNorm Nr="272"/>
 <NachGegen Nr="270"/>
 </StrElement>
@@ -3168,7 +3178,7 @@
 <g X="-1924.882" Y="2865.1111" Z="206.7758"/>
 <b X="-1918.2469" Y="2855.0759" Z="206.92"/>
 <InfoNormRichtung vMax="-1" km="155.7587" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7707"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7707"/>
 <NachNorm Nr="273"/>
 <NachGegen Nr="271"/>
 </StrElement>
@@ -3176,7 +3186,7 @@
 <g X="-1918.2469" Y="2855.0759" Z="206.92"/>
 <b X="-1915.144" Y="2850.4561" Z="206.9868"/>
 <InfoNormRichtung vMax="-1" km="155.7707" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7762"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7762"/>
 <NachNorm Nr="274"/>
 <NachGegen Nr="272"/>
 </StrElement>
@@ -3184,7 +3194,7 @@
 <g X="-1915.144" Y="2850.4561" Z="206.9868"/>
 <b X="-1912.3751" Y="2846.373" Z="207.0459"/>
 <InfoNormRichtung vMax="-1" km="155.7762" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7812"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7812"/>
 <NachNorm Nr="275"/>
 <NachGegen Nr="273"/>
 </StrElement>
@@ -3192,7 +3202,7 @@
 <g X="-1912.3751" Y="2846.373" Z="207.0459"/>
 <b X="-1910.287" Y="2843.3181" Z="207.0902"/>
 <InfoNormRichtung vMax="-1" km="155.7812" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7849"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7849"/>
 <NachNorm Nr="276"/>
 <NachGegen Nr="274"/>
 </StrElement>
@@ -3200,7 +3210,7 @@
 <g X="-1910.287" Y="2843.3181" Z="207.0902"/>
 <b X="-1908.931" Y="2841.344" Z="207.1189"/>
 <InfoNormRichtung vMax="-1" km="155.7849" pos="1"/>
-<InfoGegenRichtung vMax="-1" km="155.7872"/>
+<InfoGegenRichtung vMax="58.3333" km="155.7872"/>
 <NachNorm Nr="277"/>
 <NachGegen Nr="275"/>
 </StrElement>
@@ -3208,7 +3218,7 @@
 <g X="-1908.931" Y="2841.344" Z="207.1189"/>
 <b X="-1896.132" Y="2822.7261" Z="207.3897"/>
 <InfoNormRichtung vMax="77.7778" km="155.7872" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="155.8098"/>
+<InfoGegenRichtung vMax="58.3333" km="155.8098"/>
 <NachNorm Nr="297"/>
 <NachGegen Nr="276"/>
 </StrElement>
@@ -3216,16 +3226,19 @@
 <g X="-1943.2802" Y="2903.144" Z="206.2712"/>
 <b X="-1918.973" Y="2863.4121" Z="206.8302"/>
 <InfoNormRichtung vMax="77.7778" km="155.7166" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="155.7632">
+<InfoGegenRichtung vMax="58.3333" km="155.7632">
 <Ereignis Er="1000002"/>
 </InfoGegenRichtung>
 <NachNorm Nr="279"/>
+<NachGegenModul Nr="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="279" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2941">
 <g X="-1918.973" Y="2863.4121" Z="206.8302"/>
 <b X="-1894.665" Y="2823.679" Z="207.3891"/>
 <InfoNormRichtung vMax="77.7778" km="155.7632" pos="1" Reg="5021"/>
-<InfoGegenRichtung vMax="77.7778" km="155.8098" Reg="5021">
+<InfoGegenRichtung vMax="58.3333" km="155.8098" Reg="5021">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="289"/>
@@ -3234,7 +3247,7 @@
 <StrElement Nr="280" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.287">
 <g X="-1860.8389" Y="2768.3879" Z="208.1669"/>
 <b X="-1861.481" Y="2769.437" Z="208.1521"/>
-<InfoNormRichtung vMax="-1" km="155.8746" pos="1" Reg="5022">
+<InfoNormRichtung vMax="58.3333" km="155.8746" pos="1" Reg="5022">
 <Signal NameBetriebsstelle="Üst Schwarzenb" Stellwerk="Keilsberg" Signalname="752" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-1860.8389" Y="2768.3879" Z="208.1669"/>
 <phi Y="0.012" Z="-4.163354"/>
@@ -3337,7 +3350,7 @@
 <StrElement Nr="281" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2869">
 <g X="-1861.481" Y="2769.437" Z="208.1521"/>
 <b X="-1864.941" Y="2775.093" Z="208.0726"/>
-<InfoNormRichtung vMax="-1" km="155.8734" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8734" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8667" pos="1"/>
 <NachNorm Nr="282"/>
 <NachGegen Nr="280"/>
@@ -3345,7 +3358,7 @@
 <StrElement Nr="282" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2869">
 <g X="-1864.941" Y="2775.093" Z="208.0726"/>
 <b X="-1867.448" Y="2779.1919" Z="208.0149"/>
-<InfoNormRichtung vMax="-1" km="155.8667" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8667" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8619" pos="1"/>
 <NachNorm Nr="283"/>
 <NachGegen Nr="281"/>
@@ -3353,7 +3366,7 @@
 <StrElement Nr="283" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2869">
 <g X="-1867.448" Y="2779.1919" Z="208.0149"/>
 <b X="-1873.441" Y="2788.9871" Z="207.8771"/>
-<InfoNormRichtung vMax="-1" km="155.8619" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8619" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8504" pos="1"/>
 <NachNorm Nr="284"/>
 <NachGegen Nr="282"/>
@@ -3361,7 +3374,7 @@
 <StrElement Nr="284" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2868">
 <g X="-1873.441" Y="2788.9871" Z="207.8771"/>
 <b X="-1879.7191" Y="2799.249" Z="207.7328"/>
-<InfoNormRichtung vMax="-1" km="155.8504" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8504" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8384" pos="1"/>
 <NachNorm Nr="285"/>
 <NachGegen Nr="283"/>
@@ -3369,7 +3382,7 @@
 <StrElement Nr="285" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2897">
 <g X="-1879.7191" Y="2799.249" Z="207.7328"/>
 <b X="-1886" Y="2809.5161" Z="207.5883"/>
-<InfoNormRichtung vMax="-1" km="155.8384" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8384" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8264" pos="1"/>
 <NachNorm Nr="286"/>
 <NachGegen Nr="284"/>
@@ -3377,7 +3390,7 @@
 <StrElement Nr="286" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2988">
 <g X="-1886" Y="2809.5161" Z="207.5883"/>
 <b X="-1888.906" Y="2814.2661" Z="207.5215"/>
-<InfoNormRichtung vMax="-1" km="155.8264" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8264" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8208" pos="1"/>
 <NachNorm Nr="287"/>
 <NachGegen Nr="285"/>
@@ -3385,7 +3398,7 @@
 <StrElement Nr="287" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2981">
 <g X="-1888.906" Y="2814.2661" Z="207.5215"/>
 <b X="-1891.4821" Y="2818.4761" Z="207.4623"/>
-<InfoNormRichtung vMax="-1" km="155.8208" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8208" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8159" pos="1"/>
 <NachNorm Nr="288"/>
 <NachGegen Nr="286"/>
@@ -3393,7 +3406,7 @@
 <StrElement Nr="288" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2975">
 <g X="-1891.4821" Y="2818.4761" Z="207.4623"/>
 <b X="-1893.4139" Y="2821.634" Z="207.4179"/>
-<InfoNormRichtung vMax="-1" km="155.8159" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8159" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8121" pos="1"/>
 <NachNorm Nr="289"/>
 <NachGegen Nr="287"/>
@@ -3401,7 +3414,7 @@
 <StrElement Nr="289" spTrass="27.7778" Anschluss="257" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2971">
 <g X="-1893.4139" Y="2821.634" Z="207.4179"/>
 <b X="-1894.665" Y="2823.679" Z="207.3891"/>
-<InfoNormRichtung vMax="-1" km="155.8122" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8122" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8098" pos="1"/>
 <NachNorm Nr="279"/>
 <NachGegen Nr="288"/>
@@ -3409,7 +3422,7 @@
 <StrElement Nr="290" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.287">
 <g X="-1861.481" Y="2769.437" Z="208.1521"/>
 <b X="-1867.549" Y="2779.2261" Z="208.0139"/>
-<InfoNormRichtung vMax="-1" km="155.8734" pos="1">
+<InfoNormRichtung vMax="58.3333" km="155.8734" pos="1">
 <Ereignis Er="1" Wert="27.7778"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="155.8618" pos="1">
@@ -3421,7 +3434,7 @@
 <StrElement Nr="291" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2869">
 <g X="-1867.549" Y="2779.2261" Z="208.0139"/>
 <b X="-1873.647" Y="2788.8579" Z="207.8772"/>
-<InfoNormRichtung vMax="-1" km="155.8618" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8618" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8504" pos="1"/>
 <NachNorm Nr="292"/>
 <NachGegen Nr="290"/>
@@ -3429,7 +3442,7 @@
 <StrElement Nr="292" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2868">
 <g X="-1873.647" Y="2788.8579" Z="207.8772"/>
 <b X="-1880.181" Y="2798.959" Z="207.7328"/>
-<InfoNormRichtung vMax="-1" km="155.8504" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8504" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8384" pos="1"/>
 <NachNorm Nr="293"/>
 <NachGegen Nr="291"/>
@@ -3437,7 +3450,7 @@
 <StrElement Nr="293" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2897">
 <g X="-1880.181" Y="2798.959" Z="207.7328"/>
 <b X="-1886.816" Y="2808.9939" Z="207.5886"/>
-<InfoNormRichtung vMax="-1" km="155.8384" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8384" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8264" pos="1"/>
 <NachNorm Nr="294"/>
 <NachGegen Nr="292"/>
@@ -3445,7 +3458,7 @@
 <StrElement Nr="294" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2921">
 <g X="-1886.816" Y="2808.9939" Z="207.5886"/>
 <b X="-1889.9189" Y="2813.614" Z="207.5219"/>
-<InfoNormRichtung vMax="-1" km="155.8264" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8264" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8208" pos="1"/>
 <NachNorm Nr="295"/>
 <NachGegen Nr="293"/>
@@ -3453,7 +3466,7 @@
 <StrElement Nr="295" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
 <g X="-1889.9189" Y="2813.614" Z="207.5219"/>
 <b X="-1892.688" Y="2817.697" Z="207.4627"/>
-<InfoNormRichtung vMax="-1" km="155.8208" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8208" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8159" pos="1"/>
 <NachNorm Nr="296"/>
 <NachGegen Nr="294"/>
@@ -3461,7 +3474,7 @@
 <StrElement Nr="296" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2948">
 <g X="-1892.688" Y="2817.697" Z="207.4627"/>
 <b X="-1894.776" Y="2820.751" Z="207.4184"/>
-<InfoNormRichtung vMax="-1" km="155.8159" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8159" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8122" pos="1"/>
 <NachNorm Nr="297"/>
 <NachGegen Nr="295"/>
@@ -3469,7 +3482,7 @@
 <StrElement Nr="297" spTrass="27.7778" Anschluss="257" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2956">
 <g X="-1894.776" Y="2820.751" Z="207.4184"/>
 <b X="-1896.132" Y="2822.7261" Z="207.3897"/>
-<InfoNormRichtung vMax="-1" km="155.8122" pos="1"/>
+<InfoNormRichtung vMax="58.3333" km="155.8122" pos="1"/>
 <InfoGegenRichtung vMax="-1" km="155.8098" pos="1"/>
 <NachNorm Nr="277"/>
 <NachGegen Nr="296"/>
@@ -3480,7 +3493,7 @@
 <InfoNormRichtung vMax="77.7778" km="156.0312" pos="1" Reg="5023">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="156.0774" Reg="5023"/>
+<InfoGegenRichtung vMax="69.4444" km="156.0774" Reg="5023"/>
 <NachNorm Nr="299"/>
 <NachGegen Nr="315"/>
 </StrElement>
@@ -3488,7 +3501,7 @@
 <g X="-1755.0031" Y="2595.3911" Z="210.6005"/>
 <b X="-1730.885" Y="2555.967" Z="211.1551"/>
 <InfoNormRichtung vMax="77.7778" km="156.0774" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.1236"/>
+<InfoGegenRichtung vMax="69.4444" km="156.1236"/>
 <NachNorm Nr="300"/>
 <NachGegen Nr="298"/>
 </StrElement>
@@ -3498,7 +3511,7 @@
 <InfoNormRichtung vMax="77.7778" km="156.1236" pos="1">
 <Ereignis Er="1000002"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="156.1698"/>
+<InfoGegenRichtung vMax="69.4444" km="156.1698"/>
 <NachNorm Nr="301"/>
 <NachGegen Nr="299"/>
 </StrElement>
@@ -3506,7 +3519,7 @@
 <g X="-1706.7661" Y="2516.543" Z="211.7097"/>
 <b X="-1682.6469" Y="2477.1201" Z="212.2643"/>
 <InfoNormRichtung vMax="77.7778" km="156.1698" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.216"/>
+<InfoGegenRichtung vMax="69.4444" km="156.216"/>
 <NachNorm Nr="302"/>
 <NachGegen Nr="300"/>
 </StrElement>
@@ -3514,7 +3527,7 @@
 <g X="-1682.6469" Y="2477.1201" Z="212.2643"/>
 <b X="-1658.5291" Y="2437.696" Z="212.8189"/>
 <InfoNormRichtung vMax="77.7778" km="156.216" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.2623"/>
+<InfoGegenRichtung vMax="69.4444" km="156.2623"/>
 <NachNorm Nr="303"/>
 <NachGegen Nr="301"/>
 </StrElement>
@@ -3522,7 +3535,7 @@
 <g X="-1658.5291" Y="2437.696" Z="212.8189"/>
 <b X="-1634.4102" Y="2398.272" Z="213.3735"/>
 <InfoNormRichtung vMax="77.7778" km="156.2623" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.3085"/>
+<InfoGegenRichtung vMax="69.4444" km="156.3085"/>
 <NachNorm Nr="304"/>
 <NachGegen Nr="302"/>
 </StrElement>
@@ -3530,7 +3543,7 @@
 <g X="-1634.4102" Y="2398.272" Z="213.3735"/>
 <b X="-1610.292" Y="2358.8479" Z="213.9281"/>
 <InfoNormRichtung vMax="77.7778" km="156.3085" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.3547"/>
+<InfoGegenRichtung vMax="69.4444" km="156.3547"/>
 <NachNorm Nr="305"/>
 <NachGegen Nr="303"/>
 </StrElement>
@@ -3538,7 +3551,7 @@
 <g X="-1610.292" Y="2358.8479" Z="213.9281"/>
 <b X="-1586.173" Y="2319.4241" Z="214.4827"/>
 <InfoNormRichtung vMax="77.7778" km="156.3547" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.4009"/>
+<InfoGegenRichtung vMax="69.4444" km="156.4009"/>
 <NachNorm Nr="183"/>
 <NachGegen Nr="304"/>
 </StrElement>
@@ -3783,7 +3796,7 @@
 <g X="-1780.639" Y="2633.9419" Z="210.0454"/>
 <b X="-1769.8901" Y="2614.0701" Z="210.3161"/>
 <InfoNormRichtung vMax="77.7778" km="156.0311" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.0537"/>
+<InfoGegenRichtung vMax="69.4444" km="156.0537"/>
 <NachNorm Nr="348"/>
 <NachGegen Nr="323"/>
 </StrElement>
@@ -3793,7 +3806,7 @@
 <InfoNormRichtung vMax="77.7778" km="155.7873" pos="1" Reg="5025">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="155.8317" Reg="5025"/>
+<InfoGegenRichtung vMax="58.3333" km="155.8317" Reg="5025"/>
 <NachNorm Nr="326"/>
 <NachGegen Nr="268"/>
 </StrElement>
@@ -3801,7 +3814,7 @@
 <g X="-1887.233" Y="2802.5239" Z="207.6522"/>
 <b X="-1864.068" Y="2764.6589" Z="208.1849"/>
 <InfoNormRichtung vMax="77.7778" km="155.8317" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="155.8761"/>
+<InfoGegenRichtung vMax="58.3333" km="155.8761"/>
 <NachNorm Nr="327"/>
 <NachGegen Nr="325"/>
 </StrElement>
@@ -3811,7 +3824,7 @@
 <InfoNormRichtung vMax="77.7778" km="155.8761" pos="1">
 <Ereignis Er="6" Beschr="Üst Schwarzenb"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="155.9205"/>
+<InfoGegenRichtung vMax="58.3333" km="155.9205"/>
 <NachNorm Nr="328"/>
 <NachGegen Nr="326"/>
 </StrElement>
@@ -3819,7 +3832,7 @@
 <g X="-1840.902" Y="2726.793" Z="208.7175"/>
 <b X="-1817.7371" Y="2688.928" Z="209.2502"/>
 <InfoNormRichtung vMax="77.7778" km="155.9205" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="155.9649">
+<InfoGegenRichtung vMax="58.3333" km="155.9649">
 <Ereignis Er="6" Beschr="Üst Schwarzenb"/>
 </InfoGegenRichtung>
 <NachNorm Nr="329"/>
@@ -3829,7 +3842,7 @@
 <g X="-1817.7371" Y="2688.928" Z="209.2502"/>
 <b X="-1794.572" Y="2651.063" Z="209.7829"/>
 <InfoNormRichtung vMax="77.7778" km="155.9649" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="156.0092"/>
+<InfoGegenRichtung vMax="69.4444" km="156.0092"/>
 <NachNorm Nr="330"/>
 <NachGegen Nr="328"/>
 </StrElement>
@@ -3837,7 +3850,7 @@
 <g X="-1794.572" Y="2651.063" Z="209.7829"/>
 <b X="-1771.407" Y="2613.197" Z="210.3156"/>
 <InfoNormRichtung vMax="77.7778" km="156.0092" pos="1" Reg="5026"/>
-<InfoGegenRichtung vMax="77.7778" km="156.0536" Reg="5026">
+<InfoGegenRichtung vMax="69.4444" km="156.0536" Reg="5026">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="340"/>
@@ -4819,7 +4832,7 @@
 <p X="-0.405" Z="4.2"/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp_Doppelrot.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
@@ -4905,36 +4918,37 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="528482421" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="528482419">
+<MatrixEintrag Signalbild="1056964837" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="1056964835">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="528482681" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="528482937" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="528483449" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="528482425" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="528486521" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="528490617" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="528498805" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="528515189" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="528547957" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="528613493" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="528744565" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="529006709" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="529530997" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="530579573" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="532676725" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="1056965353" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="1056965865" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="1056966889" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="1056964841" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="1056973033" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="1056981225" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="1056997605" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="1057030373" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="1057095909" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="1057226981" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="1057489125" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="1058013413" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="1059061989" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="1061159141" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="1065353445" MatrixGeschw="41.6667"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs7" ErsatzsigID="00000002">
-<MatrixEintrag Signalbild="528482547" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="1056965105" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="17" Wert="400"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="528482419" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="1056964835" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
-<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="28" Wert="9"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 9"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -8975,8 +8989,8 @@
 <b X="1491.7111" Y="-1351.196" Z="251.7341"/>
 <InfoNormRichtung vMax="77.7778" km="161.1924" pos="1">
 <Signal SignalTyp="1" BoundingR="10">
-<p X="1489.2631" Y="-1353.0979" Z="253.5841"/>
-<phi Z="-0.910309"/>
+<p X="1489.579" Y="-1352.8525" Z="253.5841"/>
+<phi Z="-0.91031"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -11803,7 +11817,7 @@
 <g X="-1539.2019" Y="2242.8013" Z="215.5612"/>
 <b X="-1534.3331" Y="2234.8857" Z="215.6726"/>
 <InfoNormRichtung vMax="77.7778" km="156.4908" pos="1" Reg="5094"/>
-<InfoGegenRichtung vMax="-1" Reg="5094">
+<InfoGegenRichtung vMax="69.4444" Reg="5094">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Schwarzenb" Stellwerk="Keilsberg" Signalname="754" SignalTyp="10" BoundingR="10">
 <p X="-1536.5355" Y="2244.4412" Z="215.7612"/>
@@ -11930,7 +11944,7 @@
 <g X="-1543.1976" Y="2240.3279" Z="215.5611"/>
 <b X="-1538.324" Y="2232.4048" Z="215.6726"/>
 <InfoNormRichtung vMax="77.7778" km="156.4908" pos="1" Reg="5095"/>
-<InfoGegenRichtung vMax="-1" Reg="5095">
+<InfoGegenRichtung vMax="69.4444" Reg="5095">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
 <Signal NameBetriebsstelle="Üst Schwarzenb" Stellwerk="Keilsberg" Signalname="784" SignalTyp="10" BoundingR="10">
 <p X="-1545.8635" Y="2238.688" Z="215.7611"/>
@@ -14057,7 +14071,7 @@
 <p X="-0.455" Z="6.19"/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp_Doppelrot.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="-0.4" Z="1.65"/>
@@ -14143,34 +14157,35 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="1056964725" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="1056964723">
+<MatrixEintrag Signalbild="2113929445" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2113929443">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1056965241" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="1056965753" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="1056966777" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="1056964729" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="1056972921" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="1056981113" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="1056997493" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="1057030261" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="1057095797" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="1057226869" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="1057489013" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="1058013301" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="1059061877" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="1061159029" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="1065353333" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="2113930473" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="2113931497" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="2113933545" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="2113929449" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2113945833" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="2113962217" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2113994981" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="2114060517" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="2114191589" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="2114453733" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="2114978021" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="2116026597" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="2118123749" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="2122318053" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="2130706661" MatrixGeschw="41.6667"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="1056964851" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2113929713" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
-<MatrixEintrag Signalbild="1056964979" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2113929969" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -14196,7 +14211,7 @@
 <p X="-0.455" Z="6.19"/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp_Doppelrot.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="0.4" Z="1.65"/>
@@ -14282,34 +14297,35 @@
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="1056964725" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="1056964723">
+<MatrixEintrag Signalbild="2113929445" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2113929443">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="1056965241" MatrixGeschw="2.7778"/>
-<MatrixEintrag Signalbild="1056965753" MatrixGeschw="5.5556"/>
-<MatrixEintrag Signalbild="1056966777" MatrixGeschw="8.3333"/>
-<MatrixEintrag Signalbild="1056964729" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="1056972921" MatrixGeschw="13.8889"/>
-<MatrixEintrag Signalbild="1056981113" MatrixGeschw="16.6667"/>
-<MatrixEintrag Signalbild="1056997493" MatrixGeschw="19.4444"/>
-<MatrixEintrag Signalbild="1057030261" MatrixGeschw="22.2222"/>
-<MatrixEintrag Signalbild="1057095797" MatrixGeschw="25"/>
-<MatrixEintrag Signalbild="1057226869" MatrixGeschw="27.7778"/>
-<MatrixEintrag Signalbild="1057489013" MatrixGeschw="30.5556"/>
-<MatrixEintrag Signalbild="1058013301" MatrixGeschw="33.3333"/>
-<MatrixEintrag Signalbild="1059061877" MatrixGeschw="36.1111"/>
-<MatrixEintrag Signalbild="1061159029" MatrixGeschw="38.8889"/>
-<MatrixEintrag Signalbild="1065353333" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="2113930473" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="2113931497" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="2113933545" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="2113929449" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2113945833" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="2113962217" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2113994981" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="2114060517" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="2114191589" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="2114453733" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="2114978021" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="2116026597" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="2118123749" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="2122318053" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="2130706661" MatrixGeschw="41.6667"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="1056964851" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2113929713" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="Zs8" ErsatzsigID="00000001">
-<MatrixEintrag Signalbild="1056964979" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2113929969" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
-<Ereignis Er="28" Wert="7"/>
+<Ereignis Er="28" Wert="8"/>
+<Ereignis Er="19" Beschr="ZusiStellwerkNachbearbeiter: SignalbildWertErhöht: 28, Beschr: , Alter Wert: 8"/>
 </MatrixEintrag>
 </Ersatzsignal>
 </Signal>
@@ -14516,7 +14532,7 @@
 <g X="-1405.403" Y="2031.6453" Z="218.5618"/>
 <b X="-1401.42" Y="2025.594" Z="218.6488"/>
 <InfoNormRichtung vMax="77.7778" km="156.7408" pos="1"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="69.4444">
 <Signal NameBetriebsstelle="Üst Schwarzenb" Stellwerk="Keilsberg" Signalname="500 Hz (754)" SignalTyp="14" BoundingR="3">
 <p X="-1405.403" Y="2031.6453" Z="218.5618"/>
 <phi X="0.0453" Y="0.012003" Z="2.15291"/>
@@ -14542,7 +14558,7 @@
 <g X="-1409.4003" Y="2029.1709" Z="218.5603"/>
 <b X="-1405.344" Y="2023.0081" Z="218.6488"/>
 <InfoNormRichtung vMax="77.7778" km="156.7407" pos="1"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="69.4444">
 <Signal NameBetriebsstelle="Üst Schwarzenb" Stellwerk="Keilsberg" Signalname="500 Hz (784)" SignalTyp="14" BoundingR="3">
 <p X="-1409.4003" Y="2029.1709" Z="218.5603"/>
 <phi X="0.0453" Y="0.011995" Z="2.152902"/>
@@ -14750,7 +14766,7 @@
 <g X="-1273.0292" Y="1837.5083" Z="221.3826"/>
 <b X="-1261.3409" Y="1821.0201" Z="221.6252"/>
 <InfoNormRichtung vMax="77.7778" km="156.9759" pos="1"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="69.4444">
 <Signal NameBetriebsstelle="Üst Schwarzenb" Stellwerk="Keilsberg" Signalname="GÜ 120 754" SignalTyp="14" BoundingR="25">
 <p X="-1273.0292" Y="1837.5083" Z="221.3826"/>
 <phi X="0.0453" Y="0.012003" Z="2.187461"/>
@@ -14788,7 +14804,7 @@
 <g X="-1277.0325" Y="1835.0302" Z="221.3792"/>
 <b X="-1265.171" Y="1818.2971" Z="221.6252"/>
 <InfoNormRichtung vMax="77.7778" km="156.9756" pos="1"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="69.4444">
 <Signal NameBetriebsstelle="Üst Schwarzenb" Stellwerk="Keilsberg" Signalname="GÜ 120 784" SignalTyp="14" BoundingR="25">
 <p X="-1277.0325" Y="1835.0302" Z="221.3792"/>
 <phi X="0.0453" Y="0.011994" Z="2.187451"/>
@@ -15057,7 +15073,7 @@
 <Ereignis Er="1000002"/>
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5119"/>
+<InfoGegenRichtung vMax="69.4444" Reg="5119"/>
 <NachNorm Nr="254"/>
 <NachGegen Nr="253"/>
 </StrElement>
@@ -15104,7 +15120,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5120"/>
+<InfoGegenRichtung vMax="69.4444" Reg="5120"/>
 <NachNorm Nr="972"/>
 <NachGegen Nr="77"/>
 </StrElement>
@@ -15151,7 +15167,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5121"/>
+<InfoGegenRichtung vMax="69.4444" Reg="5121"/>
 <NachNorm Nr="973"/>
 <NachGegen Nr="201"/>
 </StrElement>
@@ -26334,7 +26350,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Körle Ost Bbf A812 -&gt; Körle Ost Bbf N802" FahrstrTyp="TypZug" Laenge="1960.9999">
+<Fahrstrasse FahrstrName="Körle Ost Bbf A812 -&gt; Körle Ost Bbf N802" FahrstrTyp="TypZug" Laenge="1961">
 <FahrstrStart Ref="107">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -27222,7 +27238,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Körle Ost Bbf F872 -&gt; Körle Ost Bbf P801" FahrstrTyp="TypZug" Laenge="1740.3999">
+<Fahrstrasse FahrstrName="Körle Ost Bbf F872 -&gt; Körle Ost Bbf P801" FahrstrTyp="TypZug" Laenge="1740.4">
 <FahrstrStart Ref="362">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -27757,7 +27773,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Körle Ost Bbf F873 -&gt; Körle Ost Bbf P804" FahrstrTyp="TypZug" Laenge="1740.3999">
+<Fahrstrasse FahrstrName="Körle Ost Bbf F873 -&gt; Körle Ost Bbf P804" FahrstrTyp="TypZug" Laenge="1740.4">
 <FahrstrStart Ref="359">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -29114,7 +29130,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf N801 -&gt; LZB-Bk 893 893" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1717.4001">
+<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf N801 -&gt; LZB-Bk 893 893" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1717.4">
 <FahrstrStart Ref="143">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -29626,7 +29642,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf N802 -&gt; LZB-Bk 893 893" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1808.5999">
+<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf N802 -&gt; LZB-Bk 893 893" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1808.6">
 <FahrstrStart Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -30537,7 +30553,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf N804 -&gt; LZB-Bk 893 893" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1777.0999">
+<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf N804 -&gt; LZB-Bk 893 893" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1777.1">
 <FahrstrStart Ref="155">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -30748,7 +30764,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Körle Ost Bbf P800 -&gt; Üst Schwarzenb 784" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3873.1997">
+<Fahrstrasse FahrstrName="Körle Ost Bbf P800 -&gt; Üst Schwarzenb 784" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3873.2">
 <FahrstrStart Ref="323">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -31664,7 +31680,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Körle Ost Bbf P802 -&gt; Üst Schwarzenb 784" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3930.6997">
+<Fahrstrasse FahrstrName="Körle Ost Bbf P802 -&gt; Üst Schwarzenb 784" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3930.7">
 <FahrstrStart Ref="329">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -32593,6 +32609,568 @@
 <FahrstrSignal Ref="368" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Schwarzenb 754 -&gt; Üst Keilsberg 704" FahrstrTyp="TypZug" Laenge="6334.7002">
+<FahrstrStart Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="82" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="390" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="399" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="303">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Schwarzenb 754 -&gt; Üst Keilsberg 734" FahrstrTyp="TypZug" Laenge="6335.7002">
+<FahrstrStart Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="3">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="82" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="76" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="70" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="297" FahrstrSignalZeile="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="390" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="303" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 754 -&gt; Üst Keilsberg 704" FahrstrTyp="TypAnzeige" Laenge="6334.7002">
+<FahrstrStart Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="82" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="297" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="390" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="399" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="303" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 754 -&gt; Üst Keilsberg 734" FahrstrTyp="TypAnzeige" Laenge="6335.7002">
+<FahrstrStart Ref="297">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="81">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="55">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="3">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="82" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="76" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="70" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="297" FahrstrSignalZeile="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="390" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="303" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Schwarzenb 784 -&gt; Üst Keilsberg 734" FahrstrTyp="TypZug" Laenge="6335.7002">
+<FahrstrStart Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="416">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="413">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="3">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="70" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="391" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="400" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="304">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Üst Schwarzenb 784 -&gt; Üst Keilsberg 704" FahrstrTyp="TypZug" Laenge="6334.7998">
+<FahrstrStart Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="416">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="82" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="300" FahrstrSignalZeile="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="391" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="304" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 784 -&gt; Üst Keilsberg 734" FahrstrTyp="TypAnzeige" Laenge="6335.7002">
+<FahrstrStart Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="416">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="90">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="413">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="74">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="3">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="70" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="300" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="391" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="400" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="304" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 784 -&gt; Üst Keilsberg 704" FahrstrTyp="TypAnzeige" Laenge="6334.7998">
+<FahrstrStart Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="21">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="416">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="71">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="34">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="73">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="91" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="82" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="300" FahrstrSignalZeile="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="391" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="304" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 </Strecke>
 </Zusi>

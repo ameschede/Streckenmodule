@@ -490,6 +490,24 @@
 <phi Z="1.631294"/>
 <sk/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="10" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000480_005694_Messinghausen\Objekte_Messinghausen\Messinghausen17_Mitte-2\Messinghausen17_WHaus43-c.lod.ls3"/>
+<p X="-486.5464" Y="131.5806" Z="32.9796"/>
+<phi Z="7.863799"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="10" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000392_005691_Hagen_Hbf\Objekte\Hagen_Hbf_23_Stadtkulisse_3\Wehrstr_7\Hagen_Hbf_23_Wehrstr_7_Schuppen_2.lod.ls3"/>
+<p X="-496.8164" Y="96.4116" Z="32.771"/>
+<phi Z="3.220132"/>
+<sk X="0.7" Y="0.7" Z="0.7"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1701" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000392_005694_Hagen_Gbf\Objekte\Hagen_Gbf_12_FaPlate\Hagen_Gbf_12_WStatt_2.lod.ls3"/>
+<p X="-489.8696" Y="115.2622" Z="32.8978"/>
+<phi Z="1.616611"/>
+<sk X="0.9" Y="0.9" Z="0.66"/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -2727,8 +2745,8 @@
 <p X="-338.09" Y="376.2197" Z="31.8684"/>
 <n X="-0.0009" Y="0.0022" Z="1"/>
 </Vertex>
-<Vertex U="1" V="3616.865">
-<p X="-341.5225" Y="382.6943" Z="31.8336"/>
+<Vertex U="1.0025" V="3612.7944">
+<p X="-342.7959" Y="380.0001" Z="31.8503"/>
 <n X="0.0008" Y="0.0058" Z="1"/>
 </Vertex>
 <Vertex V="3616.865">
@@ -2839,9 +2857,9 @@
 <p X="-318.343" Y="421.0104" Z="31.8181"/>
 <n X="-0.0123" Y="0.0068" Z="0.9999"/>
 </Vertex>
-<Vertex U="1" V="3680.2898">
-<p X="-323.0086" Y="425.1254" Z="31.7329"/>
-<n X="-0.0123" Y="0.0068" Z="0.9999"/>
+<Vertex U="1.0134" V="3682.2339">
+<p X="-322.491" Y="426.441" Z="31.7305"/>
+<n X="-0.0123" Y="0.0067" Z="0.9999"/>
 </Vertex>
 <Vertex V="3680.2898">
 <p X="-322.3281" Y="424.8529" Z="31.7431"/>
@@ -2871,9 +2889,9 @@
 <p X="-315.3639" Y="428.4723" Z="31.8047"/>
 <n X="-0.0123" Y="0.0067" Z="0.9999"/>
 </Vertex>
-<Vertex U="1" V="3695.8059">
-<p X="-318.8555" Y="435.6705" Z="31.7122"/>
-<n X="-0.0123" Y="0.0069" Z="0.9999"/>
+<Vertex U="1.0427" V="3695.3162">
+<p X="-319.003" Y="435.3336" Z="31.7113"/>
+<n X="-0.0123" Y="0.0072" Z="0.9999"/>
 </Vertex>
 <Vertex V="3695.8059">
 <p X="-318.1719" Y="435.4061" Z="31.7224"/>
@@ -3023,9 +3041,9 @@
 <p X="-298.9291" Y="491.3892" Z="31.5266"/>
 <n X="-0.0014" Y="0.0014" Z="1"/>
 </Vertex>
-<Vertex U="1" V="3776.8274">
-<p X="-293.3234" Y="489.6578" Z="31.5368"/>
-<n X="-0.0043" Y="0.0096" Z="0.9999"/>
+<Vertex U="1.1873" V="3772.8975">
+<p X="-294.1419" Y="487.0256" Z="31.5711"/>
+<n X="-0.0066" Y="0.0022" Z="1"/>
 </Vertex>
 <Vertex V="3776.8274">
 <p X="-294.0238" Y="489.8741" Z="31.5355"/>
@@ -10598,7 +10616,7 @@
 </Vertex>
 <Vertex U="-109.3215" V="95.5336">
 <p X="-430.7" Y="353.7097" Z="32.3783"/>
-<n X="0.0092" Y="0" Z="1"/>
+<n X="0.0092" Z="1"/>
 </Vertex>
 <Vertex U="-106.2178" V="81.1467">
 <p X="-414.5606" Y="499.9999" Z="32.2834"/>
