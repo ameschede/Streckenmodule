@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.2" MinVersion="A.2">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+<Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="15"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.ls3"/>
@@ -262,6 +262,8 @@
 <ReferenzElemente ReferenzNr="225" StrElement="1565" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="226" StrElement="1565" StrNorm="1" RefTyp="2" Info="Register-Nr. 5062"/>
 <ReferenzElemente ReferenzNr="227" StrElement="1565" RefTyp="2" Info="Register-Nr. 5062"/>
+<ReferenzElemente ReferenzNr="228" StrElement="1591" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3"/>
+<ReferenzElemente ReferenzNr="229" StrElement="1617" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3"/>
 <StrElement Nr="1" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.2623">
 <g X="-683.5847" Y="2148.1399" Z="350.1785"/>
 <b X="-692.6182" Y="2102.2629" Z="350.763"/>
@@ -291,62 +293,73 @@
 <b X="-714.5486" Y="1990.8883" Z="352.182"/>
 <InfoNormRichtung vMax="69.4444" km="183.1376" pos="1" Reg="5001">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="259" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="259" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-717.4922" Y="1991.4679" Z="352.182"/>
 <phi Z="-1.765214"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_5-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -514,6 +527,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -543,6 +557,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -564,6 +579,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -587,42 +603,49 @@
 <g X="-881.5093" Y="-2059.6299" Z="366.4745"/>
 <b X="-876.707" Y="-2093.2886" Z="366.2974"/>
 <InfoNormRichtung vMax="69.4444" km="187.2481" pos="1">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="v309" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="v309" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-879.6769" Y="-2093.7124" Z="366.2974"/>
 <phi Z="-1.429076"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="0.5" Y="-1.25" Z="1.1"/>
 <phi Z="1.58"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -844,27 +867,31 @@
 <InfoGegenRichtung vMax="69.4444" km="188.2481" Reg="5004">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 336"/>
-<Signal NameBetriebsstelle="LZB-Bk 336" Stellwerk="ESTW Mühlbach" Signalname="336" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 336" Stellwerk="ESTW-A Mühlbach" Signalname="336" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-750.5934" Y="-3000.571" Z="364.528"/>
 <phi Z="1.712515"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -885,22 +912,25 @@
 <b X="-733.202" Y="-3099.103" Z="361.0073"/>
 <InfoNormRichtung vMax="69.4444" km="188.2481" pos="1">
 <Ereignis Er="1003001"/>
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="GÜ 120 309" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="GÜ 120 309" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-733.202" Y="-3099.103" Z="361.0073"/>
 <phi Y="0.005206" Z="-1.429079"/>
 <SignalFrame>
 <p X="-24.1997"/>
 <phi Y="0.010413"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3.0002" Y="-0.0001"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -927,6 +957,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Bereichskennzeichen\LZB_Bereich-doppelt.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -967,12 +998,13 @@
 <g X="-704.9529" Y="-3297.0979" Z="359.9659"/>
 <b X="-700.009" Y="-3331.7498" Z="359.7837"/>
 <InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="500 Hz (309)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="500 Hz (309)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-700.009" Y="-3331.7498" Z="359.7837"/>
 <phi Y="0.005206" Z="-1.429079"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -1025,67 +1057,79 @@
 <b X="-664.6982" Y="-3579.24" Z="358.4819"/>
 <InfoNormRichtung vMax="69.4444" km="188.7482" pos="1" Reg="5005">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="309" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="309" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-667.6681" Y="-3579.6636" Z="358.4819"/>
 <phi Z="-1.429077"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="0.5" Y="-1.25" Z="1.1"/>
 <phi Z="1.58"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.0519" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_3-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_0-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0521" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -1235,12 +1279,13 @@
 <g X="-659.0486" Y="2272.7471" Z="348.591"/>
 <b X="-666.253" Y="2236.1592" Z="349.0571"/>
 <InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="500 Hz (259)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="500 Hz (259)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-666.253" Y="2236.1592" Z="349.0571"/>
 <phi Y="-0.012498" Z="-1.765216"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -1387,37 +1432,43 @@
 <b X="-529.647" Y="4319.209" Z="322.8591"/>
 <InfoNormRichtung vMax="69.4444" km="180.7876" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="180.8123">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="Vp200II" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Vp200II" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-534.7391" Y="4343.6021" Z="322.5498"/>
 <phi Z="1.655913"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -1742,27 +1793,31 @@
 <InfoNormRichtung vMax="69.4444" km="181.5792" pos="1" Reg="5010">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 255"/>
 <Ereignis Er="1000002" Beschr="A"/>
-<Signal NameBetriebsstelle="LZB-Bk 255" Stellwerk="ESTW Licherode" Signalname="255" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 255" Stellwerk="ESTW-A Licherode" Signalname="255" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-511.7544" Y="3528.4192" Z="335.7577"/>
 <phi Z="-1.598798"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -1797,6 +1852,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -1834,6 +1890,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -1871,6 +1928,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -1910,37 +1968,43 @@
 <g X="-521.8416" Y="3256.5647" Z="336.1604"/>
 <b X="-522.7119" Y="3244.2268" Z="336.315"/>
 <InfoNormRichtung vMax="69.4444" km="181.8761" pos="1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="v259" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="v259" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-525.7045" Y="3244.4382" Z="336.315"/>
 <phi Z="-1.641219"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -2234,6 +2298,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2273,6 +2338,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2337,27 +2403,31 @@
 <InfoNormRichtung vMax="69.4444" km="182.7134" Reg="5012">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 256"/>
-<Signal NameBetriebsstelle="LZB-Bk 256" Stellwerk="ESTW Licherode" Signalname="256" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 256" Stellwerk="ESTW-A Licherode" Signalname="256" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-616.8207" Y="2448.3796" Z="349.3359"/>
 <phi Z="1.384739"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -2443,27 +2513,31 @@
 <InfoNormRichtung vMax="69.4444" km="186.8049" pos="1" Reg="5013">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 305"/>
-<Signal NameBetriebsstelle="LZB-Bk 305" Stellwerk="ESTW Mühlbach" Signalname="305" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 305" Stellwerk="ESTW-A Mühlbach" Signalname="305" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-946.3187" Y="-1628.7491" Z="371.0579"/>
 <phi Z="-1.429063"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -2696,12 +2770,13 @@
 <b X="-970.0465" Y="656.5938" Z="358.9142"/>
 <InfoNormRichtung vMax="69.4444" km="184.493" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="184.5178">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="500 Hz (290)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="500 Hz (290)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-966.3073" Y="681.0453" Z="358.8151"/>
 <phi X="0.0453" Y="0.004007" Z="1.419049"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -2849,27 +2924,31 @@
 <InfoNormRichtung vMax="69.4444" km="184.9135" pos="1" Reg="5015">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 301"/>
-<Signal NameBetriebsstelle="LZB-Bk 301" Stellwerk="ESTW Mühlbach" Signalname="301" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 301" Stellwerk="ESTW-A Mühlbach" Signalname="301" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-1023.6491" Y="239.4749" Z="363.5982"/>
 <phi Z="-1.662533"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -3272,27 +3351,31 @@
 <InfoGegenRichtung vMax="69.4444" km="186.1256" Reg="5018">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 332"/>
-<Signal NameBetriebsstelle="LZB-Bk 331" Stellwerk="ESTW Mühlbach" Signalname="332" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 331" Stellwerk="ESTW-A Mühlbach" Signalname="332" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-1031.6899" Y="-922.2968" Z="368.2539"/>
 <phi Z="1.648615"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -3539,6 +3622,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -3568,6 +3652,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -3589,6 +3674,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -3612,42 +3698,49 @@
 <g X="-876.8564" Y="-2058.9661" Z="366.4745"/>
 <b X="-872.0541" Y="-2092.6248" Z="366.2974"/>
 <InfoNormRichtung vMax="69.4444" km="187.2465" pos="1">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="v339" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="v339" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-869.0842" Y="-2092.2009" Z="366.2974"/>
 <phi Z="-1.429076"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="0.5" Y="1.25" Z="1.1"/>
 <phi Z="-1.58"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -3869,27 +3962,31 @@
 <InfoGegenRichtung vMax="69.4444" km="188.2465" Reg="5021">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 306"/>
-<Signal NameBetriebsstelle="LZB-Bk 306" Stellwerk="ESTW Mühlbach" Signalname="306" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 306" Stellwerk="ESTW-A Mühlbach" Signalname="306" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-739.4067" Y="-2998.9751" Z="364.528"/>
 <phi Z="1.712515"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -3910,22 +4007,25 @@
 <b X="-728.549" Y="-3098.439" Z="361.0073"/>
 <InfoNormRichtung vMax="69.4444" km="188.2465" pos="1">
 <Ereignis Er="1003001"/>
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="GÜ 120 339" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="GÜ 120 339" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-728.549" Y="-3098.439" Z="361.0073"/>
 <phi Y="0.005206" Z="-1.429077"/>
 <SignalFrame>
 <p X="-24.1997" Y="-0.0001"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3.0002" Y="-0.0002"/>
 <phi Z="-0.000002"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -3952,6 +4052,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Bereichskennzeichen\LZB_Bereich-doppelt.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -3992,12 +4093,13 @@
 <g X="-700.3" Y="-3296.4341" Z="359.9659"/>
 <b X="-695.3561" Y="-3331.0854" Z="359.7837"/>
 <InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="500 Hz (339)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="500 Hz (339)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-695.3561" Y="-3331.0854" Z="359.7837"/>
 <phi Y="0.005206" Z="-1.429079"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -4050,67 +4152,79 @@
 <b X="-660.0453" Y="-3578.5757" Z="358.4819"/>
 <InfoNormRichtung vMax="69.4444" km="188.7465" pos="1" Reg="5022">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="339" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="339" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-657.0754" Y="-3578.1516" Z="358.4819"/>
 <phi Z="-1.429077"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="0.5" Y="1.25" Z="1.1"/>
 <phi Z="-1.58"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_3-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_3-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -4261,12 +4375,13 @@
 <g X="-654.4372" Y="2271.8391" Z="348.591"/>
 <b X="-661.556" Y="2235.6858" Z="349.0515"/>
 <InfoNormRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="500 Hz (289)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="500 Hz (289)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-661.556" Y="2235.6858" Z="349.0515"/>
 <phi Y="-0.012497" Z="-1.765214"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -4413,37 +4528,43 @@
 <b X="-524.9641" Y="4319.6001" Z="322.8591"/>
 <InfoNormRichtung vMax="69.4444" km="180.7877" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="180.8125">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="Vp200I" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Vp200I" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-524.0793" Y="4344.519" Z="322.5498"/>
 <phi Z="1.655911"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -4768,27 +4889,31 @@
 <InfoNormRichtung vMax="69.4444" km="181.5799" pos="1" Reg="5026">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 285"/>
 <Ereignis Er="1000002" Beschr="A"/>
-<Signal NameBetriebsstelle="LZB-Bk 285" Stellwerk="ESTW Licherode" Signalname="285" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 285" Stellwerk="ESTW-A Licherode" Signalname="285" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-500.4599" Y="3528.0945" Z="335.7577"/>
 <phi Z="-1.5988"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -4823,6 +4948,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -4860,6 +4986,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -4897,6 +5024,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -4936,37 +5064,43 @@
 <g X="-517.1534" Y="3256.2417" Z="336.1604"/>
 <b X="-518.0244" Y="3243.896" Z="336.3151"/>
 <InfoNormRichtung vMax="69.4444" km="181.877" pos="1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="v289" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="v289" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-515.0318" Y="3243.6848" Z="336.3151"/>
 <phi Z="-1.641227"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -5285,6 +5419,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -5349,27 +5484,31 @@
 <InfoNormRichtung vMax="69.4444" km="182.712" Reg="5028">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 286"/>
-<Signal NameBetriebsstelle="LZB-Bk 286" Stellwerk="ESTW Licherode" Signalname="286" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 286" Stellwerk="ESTW-A Licherode" Signalname="286" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-627.9282" Y="2450.4573" Z="349.337"/>
 <phi Z="1.384734"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -5455,27 +5594,31 @@
 <InfoNormRichtung vMax="69.4444" km="186.8032" pos="1" Reg="5029">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=@LZB-Bk 335"/>
-<Signal NameBetriebsstelle="LZB-Bk 335" Stellwerk="ESTW Mühlbach" Signalname="335" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 335" Stellwerk="ESTW-A Mühlbach" Signalname="335" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-935.1321" Y="-1627.153" Z="371.0579"/>
 <phi Z="-1.429076"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -5708,12 +5851,13 @@
 <b X="-965.4001" Y="655.8917" Z="358.9142"/>
 <InfoNormRichtung vMax="69.4444" km="184.4927" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="184.5175">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="500 Hz (260)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="500 Hz (260)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-961.6633" Y="680.3267" Z="358.8151"/>
 <phi X="0.0453" Y="0.004009" Z="1.419045"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -5861,27 +6005,31 @@
 <InfoNormRichtung vMax="69.4444" km="184.913" pos="1" Reg="5031">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 331"/>
 <Ereignis Er="1000002" Beschr="A"/>
-<Signal NameBetriebsstelle="LZB-Bk 331" Stellwerk="ESTW Mühlbach" Signalname="331" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 331" Stellwerk="ESTW-A Mühlbach" Signalname="331" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-1012.3957" Y="238.4484" Z="363.5982"/>
 <phi Z="-1.662468"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -6284,27 +6432,31 @@
 <InfoGegenRichtung vMax="69.4444" km="186.1242" Reg="5034">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=@LZB-Bk 302"/>
-<Signal NameBetriebsstelle="LZB-Bk 302" Stellwerk="ESTW Mühlbach" Signalname="302" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="LZB-Bk 302" Stellwerk="ESTW-A Mühlbach" Signalname="302" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
 <p X="-1020.425" Y="-921.4263" Z="368.2539"/>
 <phi Z="1.648669"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -6536,77 +6688,91 @@
 <g X="-546.208" Y="-4376.4541" Z="349.7842"/>
 <b X="-546.3817" Y="-4375.2358" Z="349.7996"/>
 <InfoNormRichtung vMax="69.4444" km="189.5875" Reg="5035">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="314" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="314" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-546.208" Y="-4376.4541" Z="349.7842"/>
 <phi Y="-0.012498" Z="1.712515"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="-2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
 <p X="61.418" Y="-2.07"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="57"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -6814,77 +6980,91 @@
 <g X="-572.3448" Y="-4226.5381" Z="351.6854"/>
 <b X="-572.1711" Y="-4227.7559" Z="351.67"/>
 <InfoNormRichtung vMax="69.4444" km="189.4355" pos="1" Reg="5038">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="313" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="313" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-572.3448" Y="-4226.5381" Z="351.6854"/>
 <phi Y="0.012497" Z="-1.429077"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="-2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
 <p X="61.418" Y="-2.07"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="57"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -7097,72 +7277,85 @@
 <g X="-602.1327" Y="-3984.48" Z="354.7331"/>
 <b X="-601.959" Y="-3985.698" Z="354.7178"/>
 <InfoNormRichtung vMax="69.4444" km="189.1915" pos="1" Reg="5041">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="311" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="311" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-602.1327" Y="-3984.48" Z="354.7331"/>
 <phi Y="0.012497" Z="-1.429077"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Rechts_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit links (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück links, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="61.618" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="-0.023911"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="57"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_links.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -7401,77 +7594,91 @@
 <g X="-585.2971" Y="-4135.7568" Z="352.8316"/>
 <b X="-585.4708" Y="-4134.5391" Z="352.847"/>
 <InfoNormRichtung vMax="69.4444" km="189.3438" Reg="5043">
-<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW Mühlbach" Signalname="312" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<Signal NameBetriebsstelle="Üst Mühlbach" Stellwerk="ESTW-A Mühlbach" Signalname="312" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-585.2971" Y="-4135.7568" Z="352.8316"/>
 <phi Y="-0.012496" Z="-4.57067"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Rechts_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit links (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück links, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="61.618" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="-0.023911"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="57"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_links.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -7648,77 +7855,91 @@
 <g X="-782.9525" Y="1643.495" Z="354.8903"/>
 <b X="-783.1901" Y="1642.2878" Z="354.8953"/>
 <InfoNormRichtung vMax="69.4444" km="183.5116" pos="1" Reg="5044">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="251" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="251" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-782.9525" Y="1643.495" Z="354.8903"/>
 <phi Y="-0.004007" Z="-1.765216"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="-2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
 <p X="61.418" Y="-2.07"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="57"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -7912,62 +8133,73 @@
 <b X="-709.8516" Y="1990.415" Z="352.1765"/>
 <InfoNormRichtung vMax="69.4444" km="183.1376" pos="1" Reg="5045">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="289" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="289" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-706.908" Y="1989.8354" Z="352.1765"/>
 <phi Z="-1.765214"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_8-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -8146,77 +8378,91 @@
 <g X="-807.7222" Y="1493.374" Z="355.4995"/>
 <b X="-807.4846" Y="1494.5811" Z="355.4946"/>
 <InfoNormRichtung vMax="69.4444" km="183.6652" Reg="5047">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="252" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="252" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="-807.7222" Y="1493.374" Z="355.4995"/>
 <phi Y="0.004004" Z="-4.906808"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="-2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
 <p X="61.418" Y="-2.07"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="57"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -8396,67 +8642,79 @@
 <g X="-825.4962" Y="1403.1071" Z="355.8681"/>
 <b X="-825.7339" Y="1401.9" Z="355.873"/>
 <InfoNormRichtung vMax="69.4444" km="183.7572" pos="1" Reg="5049">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="253" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="253" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-825.4962" Y="1403.1071" Z="355.8681"/>
 <phi Y="-0.004007" Z="-1.765214"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Rechts_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit links (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück links, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="61.618" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="-0.023911"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -8679,67 +8937,79 @@
 <g X="-859.4917" Y="1254.787" Z="356.4774"/>
 <b X="-859.2541" Y="1255.994" Z="356.4725"/>
 <InfoNormRichtung vMax="69.4444" km="183.9094" Reg="5052">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="254" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="254" SignalFlags="3" SignalTyp="2" BoundingR="66" Zwangshelligkeit="0.07">
 <p X="-859.4917" Y="1254.787" Z="356.4774"/>
 <phi Y="0.004007" Z="-4.906808"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Rechts_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit links (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück links, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="61.618" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="-0.023911"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -9081,67 +9351,79 @@
 <b X="-506.5193" Y="4023.1509" Z="326.5711"/>
 <InfoNormRichtung vMax="69.4444" km="181.0893" pos="1" Reg="5054"/>
 <InfoGegenRichtung vMax="69.4444" km="181.1095" Reg="5054">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="F252" SignalTyp="7" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="F252" SignalTyp="7" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-504.3866" Y="4043.5144" Z="326.3179"/>
 <phi Z="1.613494"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.46"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_F-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.0525" Z="2.34"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.34"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_5-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0525" Z="2.34"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9196,67 +9478,79 @@
 <b X="-511.2146" Y="4022.959" Z="326.5711"/>
 <InfoNormRichtung vMax="69.4444" km="181.0889" pos="1" Reg="5055"/>
 <InfoGegenRichtung vMax="69.4444" km="181.1092" Reg="5055">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="F251" SignalTyp="7" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="F251" SignalTyp="7" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-515.0757" Y="4043.0505" Z="326.318"/>
 <phi Z="1.613492"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\EsigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Z="2.46"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_F-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Y="0.0525" Z="2.34"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Z="2.34"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_5-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Y="-0.0525" Z="2.34"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_1-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9327,37 +9621,43 @@
 <b X="-572.0241" Y="2739.438" Z="342.6563"/>
 <InfoNormRichtung vMax="69.4444" km="182.3931" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="182.3968">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="Vf252" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Vf252" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-568.5258" Y="2742.7336" Z="342.6094"/>
 <phi Z="1.429674"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9429,37 +9729,43 @@
 <b X="-576.6755" Y="2740.1069" Z="342.6563"/>
 <InfoNormRichtung vMax="69.4444" km="182.3919" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="182.3956">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="Vf251" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Vf251" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-579.1198" Y="2744.2302" Z="342.6096"/>
 <phi Z="1.429666"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9548,62 +9854,73 @@
 <InfoNormRichtung vMax="69.4444" km="184.2416" pos="1" Reg="5056"/>
 <InfoGegenRichtung vMax="69.4444" km="184.2507" Reg="5056">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="260" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="260" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-915.8886" Y="927.1723" Z="357.8087"/>
 <phi Z="1.382362"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_0-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9658,62 +9975,73 @@
 <InfoNormRichtung vMax="69.4444" km="184.2418" pos="1" Reg="5057"/>
 <InfoGegenRichtung vMax="69.4444" km="184.2509" Reg="5057">
 <Ereignis Er="6" Beschr="@signal=0@Bksig ohne Zs 6"/>
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="290" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="290" SignalTyp="10" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-926.4009" Y="929.1677" Z="357.8088"/>
 <phi Z="1.382367"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="-0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="0.0519" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="-0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="-0.0521" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_0-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9767,37 +10095,43 @@
 <b X="-1046.178" Y="-576.2332" Z="363.8671"/>
 <InfoNormRichtung vMax="69.4444" km="185.7368" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="185.7546">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="v290" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="v290" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-1049.6179" Y="-558.5776" Z="363.7961"/>
 <phi Z="1.595659"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9869,37 +10203,43 @@
 <b X="-1041.481" Y="-576.108" Z="363.8671"/>
 <InfoNormRichtung vMax="69.4444" km="185.7357" pos="1"/>
 <InfoGegenRichtung vMax="69.4444" km="185.7534">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="v260" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="v260" SignalTyp="6" BoundingR="10" Zwangshelligkeit="0.07">
 <p X="-1038.9221" Y="-558.3199" Z="363.7961"/>
 <phi Z="1.595641"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -11141,14 +11481,14 @@
 <b X="-519.2223" Y="4547.1841" Z="324"/>
 </StrElement>
 <StrElement Nr="971" spTrass="27.7778" Fkt="2">
-<g X="-615.967" Y="4454.9697" Z="339.3844"/>
-<b X="-621.8484" Y="4440.6255" Z="340.6241"/>
+<g X="-615.9671" Y="4454.9707" Z="334.789"/>
+<b X="-621.8485" Y="4440.6265" Z="335.2566"/>
 <NachNorm Nr="1008"/>
 <NachGegen Nr="988"/>
 </StrElement>
 <StrElement Nr="972" spTrass="27.7778" Anschluss="1" Fkt="2">
 <g X="-598.6516" Y="4543.9312" Z="335.1039"/>
-<b X="-598.4795" Y="4529.2314" Z="334.9519"/>
+<b X="-598.4795" Y="4529.2314" Z="334.7772"/>
 <NachNorm Nr="1005"/>
 <NachGegen Nr="975"/>
 </StrElement>
@@ -11156,7 +11496,7 @@
 <g X="-617.7342" Y="4600.5425" Z="337.4907"/>
 <b X="-611.689" Y="4593.8862" Z="336.4496"/>
 <NachNorm Nr="986"/>
-<NachGegen Nr="1017"/>
+<NachGegen Nr="1593"/>
 </StrElement>
 <StrElement Nr="975" spTrass="13.8889" Fkt="2">
 <g X="-598.6516" Y="4543.9302" Z="335.1039"/>
@@ -11243,306 +11583,184 @@
 <NachGegen Nr="985"/>
 </StrElement>
 <StrElement Nr="988" spTrass="13.8889" Fkt="2">
-<g X="-615.9668" Y="4454.9688" Z="339.3843"/>
-<b X="-615.0185" Y="4457.2817" Z="339.1782"/>
+<g X="-615.9669" Y="4454.9697" Z="334.7889"/>
+<b X="-615.0186" Y="4457.2827" Z="334.7307"/>
 <InfoNormRichtung vMax="13.8889" pos="1"/>
 <NachNorm Nr="989"/>
 <NachGegen Nr="971"/>
 </StrElement>
 <StrElement Nr="989" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-615.0185" Y="4457.2817" Z="339.1782"/>
-<b X="-613.747" Y="4460.3823" Z="338.8823"/>
+<g X="-615.0186" Y="4457.2827" Z="334.7307"/>
+<b X="-613.7471" Y="4460.3828" Z="334.6412"/>
 <InfoNormRichtung vMax="13.8889" km="0.0025" pos="1"/>
 <NachNorm Nr="990"/>
 <NachGegen Nr="988"/>
 </StrElement>
 <StrElement Nr="990" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-613.747" Y="4460.3823" Z="338.8823"/>
-<b X="-609.7794" Y="4470.0596" Z="337.9201"/>
+<g X="-613.7471" Y="4460.3828" Z="334.6412"/>
+<b X="-609.7795" Y="4470.0601" Z="334.369"/>
 <InfoNormRichtung vMax="13.8889" km="0.0059" pos="1"/>
 <NachNorm Nr="991"/>
 <NachGegen Nr="989"/>
 </StrElement>
 <StrElement Nr="991" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-609.7794" Y="4470.0596" Z="337.9201"/>
-<b X="-608.311" Y="4473.7798" Z="337.556"/>
+<g X="-609.7795" Y="4470.0601" Z="334.369"/>
+<b X="-608.311" Y="4473.7803" Z="334.2805"/>
 <InfoNormRichtung vMax="8.3333" km="0.0163" pos="1"/>
 <NachNorm Nr="992"/>
 <NachGegen Nr="990"/>
 </StrElement>
 <StrElement Nr="992" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-608.311" Y="4473.7798" Z="337.556"/>
-<b X="-606.9416" Y="4477.5381" Z="337.188"/>
+<g X="-608.311" Y="4473.7803" Z="334.2805"/>
+<b X="-606.9417" Y="4477.5386" Z="334.1911"/>
 <InfoNormRichtung vMax="8.3333" km="0.0203" pos="1"/>
 <NachNorm Nr="993"/>
 <NachGegen Nr="991"/>
 </StrElement>
 <StrElement Nr="993" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-606.9416" Y="4477.5381" Z="337.188"/>
-<b X="-605.7418" Y="4481.1133" Z="336.8495"/>
+<g X="-606.9417" Y="4477.5386" Z="334.1911"/>
+<b X="-605.7419" Y="4481.1138" Z="334.1155"/>
 <InfoNormRichtung vMax="8.3333" km="0.0243" pos="1"/>
 <NachNorm Nr="994"/>
 <NachGegen Nr="992"/>
 </StrElement>
 <StrElement Nr="994" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-605.7418" Y="4481.1133" Z="336.8495"/>
-<b X="-604.5669" Y="4484.9365" Z="336.5149"/>
+<g X="-605.7419" Y="4481.1138" Z="334.1155"/>
+<b X="-604.567" Y="4484.937" Z="334.0576"/>
 <InfoNormRichtung vMax="8.3333" km="0.0281" pos="1"/>
 <NachNorm Nr="995"/>
 <NachGegen Nr="993"/>
 </StrElement>
 <StrElement Nr="995" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-604.5669" Y="4484.9365" Z="336.5149"/>
-<b X="-603.4936" Y="4488.79" Z="336.2122"/>
+<g X="-604.567" Y="4484.937" Z="334.0576"/>
+<b X="-603.4937" Y="4488.7905" Z="334.0271"/>
 <InfoNormRichtung vMax="8.3333" km="0.0321" pos="1"/>
 <NachNorm Nr="996"/>
 <NachGegen Nr="994"/>
 </StrElement>
 <StrElement Nr="996" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-603.4936" Y="4488.79" Z="336.2122"/>
-<b X="-602.5226" Y="4492.6699" Z="335.9414"/>
+<g X="-603.4937" Y="4488.7905" Z="334.0271"/>
+<b X="-602.5226" Y="4492.6704" Z="334.0214"/>
 <InfoNormRichtung vMax="8.3333" km="0.0361" pos="1"/>
 <NachNorm Nr="997"/>
 <NachGegen Nr="995"/>
 </StrElement>
 <StrElement Nr="997" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-602.5226" Y="4492.6699" Z="335.9414"/>
-<b X="-601.6545" Y="4496.5747" Z="335.7026"/>
+<g X="-602.5226" Y="4492.6704" Z="334.0214"/>
+<b X="-601.6545" Y="4496.5752" Z="334.0384"/>
 <InfoNormRichtung vMax="8.3333" km="0.0401" pos="1"/>
 <NachNorm Nr="998"/>
 <NachGegen Nr="996"/>
 </StrElement>
 <StrElement Nr="998" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-601.6545" Y="4496.5747" Z="335.7026"/>
-<b X="-600.8898" Y="4500.501" Z="335.4957"/>
+<g X="-601.6545" Y="4496.5752" Z="334.0384"/>
+<b X="-600.8898" Y="4500.501" Z="334.0757"/>
 <InfoNormRichtung vMax="8.3333" km="0.0441" pos="1"/>
 <NachNorm Nr="999"/>
 <NachGegen Nr="997"/>
 </StrElement>
 <StrElement Nr="999" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-600.8898" Y="4500.501" Z="335.4957"/>
-<b X="-600.2293" Y="4504.4458" Z="335.3207"/>
+<g X="-600.8898" Y="4500.501" Z="334.0757"/>
+<b X="-600.2293" Y="4504.4458" Z="334.1313"/>
 <InfoNormRichtung vMax="8.3333" km="0.0481" pos="1"/>
 <NachNorm Nr="1000"/>
 <NachGegen Nr="998"/>
 </StrElement>
 <StrElement Nr="1000" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-600.2293" Y="4504.4458" Z="335.3207"/>
-<b X="-599.6732" Y="4508.4067" Z="335.1777"/>
+<g X="-600.2293" Y="4504.4458" Z="334.1313"/>
+<b X="-599.6732" Y="4508.4067" Z="334.2031"/>
 <InfoNormRichtung vMax="8.3333" km="0.0521" pos="1"/>
 <NachNorm Nr="1001"/>
 <NachGegen Nr="999"/>
 </StrElement>
 <StrElement Nr="1001" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-599.6732" Y="4508.4067" Z="335.1777"/>
-<b X="-599.222" Y="4512.3813" Z="335.0668"/>
+<g X="-599.6732" Y="4508.4067" Z="334.2031"/>
+<b X="-599.222" Y="4512.3813" Z="334.2894"/>
 <InfoNormRichtung vMax="8.3333" km="0.0561" pos="1"/>
 <NachNorm Nr="1002"/>
 <NachGegen Nr="1000"/>
 </StrElement>
 <StrElement Nr="1002" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-599.222" Y="4512.3813" Z="335.0668"/>
-<b X="-598.8762" Y="4516.3662" Z="334.9878"/>
+<g X="-599.222" Y="4512.3813" Z="334.2894"/>
+<b X="-598.8762" Y="4516.3662" Z="334.3884"/>
 <InfoNormRichtung vMax="8.3333" km="0.0601" pos="1"/>
 <NachNorm Nr="1003"/>
 <NachGegen Nr="1001"/>
 </StrElement>
 <StrElement Nr="1003" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-598.8762" Y="4516.3662" Z="334.9878"/>
-<b X="-598.6356" Y="4520.3589" Z="334.9407"/>
+<g X="-598.8762" Y="4516.3662" Z="334.3884"/>
+<b X="-598.6356" Y="4520.3589" Z="334.4984"/>
 <InfoNormRichtung vMax="8.3333" km="0.0641" pos="1"/>
 <NachNorm Nr="1004"/>
 <NachGegen Nr="1002"/>
 </StrElement>
 <StrElement Nr="1004" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-598.6356" Y="4520.3589" Z="334.9407"/>
-<b X="-598.5008" Y="4524.3564" Z="334.9257"/>
+<g X="-598.6356" Y="4520.3589" Z="334.4984"/>
+<b X="-598.5008" Y="4524.3564" Z="334.6183"/>
 <InfoNormRichtung vMax="8.3333" km="0.0681" pos="1"/>
 <NachNorm Nr="1005"/>
 <NachGegen Nr="1003"/>
 </StrElement>
 <StrElement Nr="1005" spTrass="8.3333" Anschluss="257" Fkt="2">
-<g X="-598.5008" Y="4524.3564" Z="334.9257"/>
-<b X="-598.4794" Y="4529.2305" Z="334.9507"/>
+<g X="-598.5008" Y="4524.3564" Z="334.6183"/>
+<b X="-598.4794" Y="4529.2305" Z="334.776"/>
 <InfoNormRichtung vMax="8.3333" km="0.0721" pos="1"/>
 <NachNorm Nr="972"/>
 <NachGegen Nr="1004"/>
 </StrElement>
 <StrElement Nr="1006" spTrass="27.7778" Anschluss="1" Fkt="2">
-<g X="-635.3823" Y="4402.4424" Z="343.865"/>
-<b X="-629.5571" Y="4415.5391" Z="342.416"/>
+<g X="-635.3823" Y="4402.4424" Z="336.5"/>
+<b X="-629.5571" Y="4415.5391" Z="336.5"/>
 <NachNorm Nr="1014"/>
 </StrElement>
 <StrElement Nr="1008" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-621.8482" Y="4440.6245" Z="340.6241"/>
-<b X="-623.2089" Y="4436.875" Z="340.9138"/>
+<g X="-621.8483" Y="4440.6255" Z="335.2566"/>
+<b X="-623.209" Y="4436.876" Z="335.3959"/>
 <InfoNormRichtung vMax="5.5556" pos="1"/>
 <NachNorm Nr="1009"/>
 <NachGegen Nr="971"/>
 </StrElement>
 <StrElement Nr="1009" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-623.2089" Y="4436.875" Z="340.9138"/>
-<b X="-624.3332" Y="4433.0449" Z="341.1587"/>
+<g X="-623.209" Y="4436.876" Z="335.3959"/>
+<b X="-624.3333" Y="4433.0459" Z="335.5131"/>
 <InfoNormRichtung vMax="5.5556" km="0.004" pos="1"/>
 <NachNorm Nr="1010"/>
 <NachGegen Nr="1008"/>
 </StrElement>
 <StrElement Nr="1010" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-624.3332" Y="4433.0449" Z="341.1587"/>
-<b X="-625.33" Y="4429.1777" Z="341.3839"/>
+<g X="-624.3333" Y="4433.0459" Z="335.5131"/>
+<b X="-625.3301" Y="4429.1787" Z="335.6342"/>
 <InfoNormRichtung vMax="8.3333" km="0.008" pos="1"/>
 <NachNorm Nr="1011"/>
 <NachGegen Nr="1009"/>
 </StrElement>
 <StrElement Nr="1011" kr="-0.001026" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-625.33" Y="4429.1777" Z="341.3839"/>
-<b X="-625.9361" Y="4426.7632" Z="341.5254"/>
+<g X="-625.3301" Y="4429.1787" Z="335.6342"/>
+<b X="-625.9362" Y="4426.7642" Z="335.7233"/>
 <InfoNormRichtung vMax="13.8889" km="0.012" pos="1"/>
 <NachNorm Nr="1012"/>
 <NachGegen Nr="1010"/>
 </StrElement>
 <StrElement Nr="1012" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-625.9361" Y="4426.7632" Z="341.5254"/>
-<b X="-626.9637" Y="4422.9053" Z="341.7725"/>
+<g X="-625.9362" Y="4426.7642" Z="335.7233"/>
+<b X="-626.9638" Y="4422.9063" Z="335.9067"/>
 <InfoNormRichtung vMax="8.3333" km="0.0145" pos="1"/>
 <NachNorm Nr="1013"/>
 <NachGegen Nr="1011"/>
 </StrElement>
 <StrElement Nr="1013" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-626.9637" Y="4422.9053" Z="341.7725"/>
-<b X="-628.1564" Y="4419.0991" Z="342.0666"/>
+<g X="-626.9638" Y="4422.9063" Z="335.9067"/>
+<b X="-628.1565" Y="4419.1001" Z="336.1628"/>
 <InfoNormRichtung vMax="5.5556" km="0.0185" pos="1"/>
 <NachNorm Nr="1014"/>
 <NachGegen Nr="1012"/>
 </StrElement>
 <StrElement Nr="1014" spTrass="5.5556" Anschluss="257" Fkt="2">
-<g X="-628.1564" Y="4419.0991" Z="342.0666"/>
-<b X="-629.557" Y="4415.5381" Z="342.4159"/>
+<g X="-628.1565" Y="4419.1001" Z="336.1628"/>
+<b X="-629.5571" Y="4415.5391" Z="336.5"/>
 <InfoNormRichtung vMax="5.5556" km="0.0224" pos="1"/>
 <NachNorm Nr="1006"/>
 <NachGegen Nr="1013"/>
-</StrElement>
-<StrElement Nr="1015" spTrass="27.7778" Anschluss="1" Fkt="2">
-<g X="-645.5424" Y="4671.1597" Z="341.1521"/>
-<b X="-643.8665" Y="4661.9282" Z="340.902"/>
-<NachNorm Nr="1032"/>
-</StrElement>
-<StrElement Nr="1017" spTrass="8.3333" Fkt="2">
-<g X="-617.7341" Y="4600.5415" Z="337.4906"/>
-<b X="-620.3618" Y="4603.5571" Z="337.922"/>
-<InfoNormRichtung vMax="8.3333" pos="1"/>
-<NachNorm Nr="1018"/>
-<NachGegen Nr="973"/>
-</StrElement>
-<StrElement Nr="1018" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-620.3618" Y="4603.5571" Z="337.922"/>
-<b X="-622.8633" Y="4606.6777" Z="338.2896"/>
-<InfoNormRichtung vMax="8.3333" km="0.004" pos="1"/>
-<NachNorm Nr="1019"/>
-<NachGegen Nr="1017"/>
-</StrElement>
-<StrElement Nr="1019" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-622.8633" Y="4606.6777" Z="338.2896"/>
-<b X="-625.2345" Y="4609.8989" Z="338.5935"/>
-<InfoNormRichtung vMax="8.3333" km="0.008" pos="1"/>
-<NachNorm Nr="1020"/>
-<NachGegen Nr="1018"/>
-</StrElement>
-<StrElement Nr="1020" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-625.2345" Y="4609.8989" Z="338.5935"/>
-<b X="-627.4712" Y="4613.2148" Z="338.8335"/>
-<InfoNormRichtung vMax="8.3333" km="0.012" pos="1"/>
-<NachNorm Nr="1021"/>
-<NachGegen Nr="1019"/>
-</StrElement>
-<StrElement Nr="1021" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-627.4712" Y="4613.2148" Z="338.8335"/>
-<b X="-629.0793" Y="4615.7954" Z="338.9733"/>
-<InfoNormRichtung vMax="8.3333" km="0.016" pos="1"/>
-<NachNorm Nr="1022"/>
-<NachGegen Nr="1020"/>
-</StrElement>
-<StrElement Nr="1022" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-629.0793" Y="4615.7954" Z="338.9733"/>
-<b X="-631.0705" Y="4619.2642" Z="339.1329"/>
-<InfoNormRichtung vMax="8.3333" km="0.019" pos="1"/>
-<NachNorm Nr="1023"/>
-<NachGegen Nr="1021"/>
-</StrElement>
-<StrElement Nr="1023" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-631.0705" Y="4619.2642" Z="339.1329"/>
-<b X="-632.9175" Y="4622.812" Z="339.2925"/>
-<InfoNormRichtung vMax="8.3333" km="0.023" pos="1"/>
-<NachNorm Nr="1024"/>
-<NachGegen Nr="1022"/>
-</StrElement>
-<StrElement Nr="1024" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-632.9175" Y="4622.812" Z="339.2925"/>
-<b X="-634.6172" Y="4626.4326" Z="339.4522"/>
-<InfoNormRichtung vMax="8.3333" km="0.027" pos="1"/>
-<NachNorm Nr="1025"/>
-<NachGegen Nr="1023"/>
-</StrElement>
-<StrElement Nr="1025" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-634.6172" Y="4626.4326" Z="339.4522"/>
-<b X="-636.1665" Y="4630.1201" Z="339.6118"/>
-<InfoNormRichtung vMax="8.3333" km="0.031" pos="1"/>
-<NachNorm Nr="1026"/>
-<NachGegen Nr="1024"/>
-</StrElement>
-<StrElement Nr="1026" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-636.1665" Y="4630.1201" Z="339.6118"/>
-<b X="-637.563" Y="4633.8682" Z="339.7714"/>
-<InfoNormRichtung vMax="8.3333" km="0.035" pos="1"/>
-<NachNorm Nr="1027"/>
-<NachGegen Nr="1025"/>
-</StrElement>
-<StrElement Nr="1027" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-637.563" Y="4633.8682" Z="339.7714"/>
-<b X="-638.8044" Y="4637.6699" Z="339.931"/>
-<InfoNormRichtung vMax="8.3333" km="0.039" pos="1"/>
-<NachNorm Nr="1028"/>
-<NachGegen Nr="1026"/>
-</StrElement>
-<StrElement Nr="1028" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-638.8044" Y="4637.6699" Z="339.931"/>
-<b X="-639.8884" Y="4641.52" Z="340.0906"/>
-<InfoNormRichtung vMax="8.3333" km="0.043" pos="1"/>
-<NachNorm Nr="1029"/>
-<NachGegen Nr="1027"/>
-</StrElement>
-<StrElement Nr="1029" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-639.8884" Y="4641.52" Z="340.0906"/>
-<b X="-640.8134" Y="4645.4116" Z="340.2502"/>
-<InfoNormRichtung vMax="8.3333" km="0.047" pos="1"/>
-<NachNorm Nr="1030"/>
-<NachGegen Nr="1028"/>
-</StrElement>
-<StrElement Nr="1030" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-640.8134" Y="4645.4116" Z="340.2502"/>
-<b X="-641.4431" Y="4648.5801" Z="340.3791"/>
-<InfoNormRichtung vMax="8.3333" km="0.051" pos="1"/>
-<NachNorm Nr="1031"/>
-<NachGegen Nr="1029"/>
-</StrElement>
-<StrElement Nr="1031" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-641.4431" Y="4648.5801" Z="340.3791"/>
-<b X="-643.2939" Y="4658.7744" Z="340.7912"/>
-<InfoNormRichtung vMax="13.8889" km="0.0543" pos="1"/>
-<NachNorm Nr="1032"/>
-<NachGegen Nr="1030"/>
-</StrElement>
-<StrElement Nr="1032" spTrass="13.8889" Anschluss="257" Fkt="2">
-<g X="-643.2939" Y="4658.7744" Z="340.7912"/>
-<b X="-643.8664" Y="4661.9272" Z="340.8984"/>
-<InfoNormRichtung vMax="13.8889" km="0.0646" pos="1"/>
-<NachNorm Nr="1015"/>
-<NachGegen Nr="1031"/>
-</StrElement>
-<StrElement Nr="1033" spTrass="27.7778" Fkt="2">
-<g X="-433.1485" Y="4717.2974" Z="322.8012"/>
-<b X="-440.6283" Y="4705.5513" Z="323.0458"/>
-<NachNorm Nr="1037"/>
 </StrElement>
 <StrElement Nr="1034" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-508.648" Y="4576.3618" Z="327.4792"/>
@@ -11552,132 +11770,119 @@
 <NachGegen Nr="1054"/>
 <NachGegen Nr="1056"/>
 </StrElement>
-<StrElement Nr="1035" spTrass="27.7778" Anschluss="1" Fkt="2">
-<g X="-512.788" Y="4716.5557" Z="323.5859"/>
-<b X="-513.342" Y="4698.0552" Z="323.4401"/>
-<NachNorm Nr="1072"/>
-</StrElement>
-<StrElement Nr="1037" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-440.6282" Y="4705.5503" Z="323.0458"/>
-<b X="-441.7025" Y="4703.8633" Z="323.0808"/>
-<InfoNormRichtung vMax="13.8889" pos="1"/>
-<NachNorm Nr="1038"/>
-<NachGegen Nr="1033"/>
-</StrElement>
-<StrElement Nr="1038" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-441.7025" Y="4703.8633" Z="323.0808"/>
-<b X="-464.6354" Y="4667.8511" Z="323.8289"/>
+<StrElement Nr="1038" spTrass="13.8889" Fkt="2">
+<g X="-441.7025" Y="4703.8633" Z="314.29"/>
+<b X="-464.6354" Y="4667.8511" Z="318.08"/>
 <InfoNormRichtung vMax="13.8889" km="0.002" pos="1"/>
 <NachNorm Nr="1039"/>
-<NachGegen Nr="1037"/>
 </StrElement>
 <StrElement Nr="1039" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-464.6354" Y="4667.8511" Z="323.8289"/>
-<b X="-481.4366" Y="4641.4673" Z="324.377"/>
+<g X="-464.6354" Y="4667.8511" Z="318.08"/>
+<b X="-481.4366" Y="4641.4673" Z="320.5254"/>
 <InfoNormRichtung vMax="13.8889" km="0.0447" pos="1"/>
 <NachNorm Nr="1040"/>
 <NachGegen Nr="1038"/>
 </StrElement>
 <StrElement Nr="1040" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-481.4366" Y="4641.4673" Z="324.377"/>
-<b X="-487.5682" Y="4631.8384" Z="324.5768"/>
+<g X="-481.4366" Y="4641.4673" Z="320.5254"/>
+<b X="-487.5682" Y="4631.8384" Z="321.4207"/>
 <InfoNormRichtung vMax="13.8889" km="0.076" pos="1"/>
 <NachNorm Nr="1041"/>
 <NachGegen Nr="1039"/>
 </StrElement>
 <StrElement Nr="1041" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-487.5682" Y="4631.8384" Z="324.5768"/>
-<b X="-490.2539" Y="4627.6206" Z="324.6769"/>
+<g X="-487.5682" Y="4631.8384" Z="321.4207"/>
+<b X="-490.2539" Y="4627.6206" Z="321.8131"/>
 <InfoNormRichtung vMax="13.8889" km="0.0874" pos="1"/>
 <NachNorm Nr="1042"/>
 <NachGegen Nr="1040"/>
 </StrElement>
 <StrElement Nr="1042" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-490.2539" Y="4627.6206" Z="324.6769"/>
-<b X="-492.9395" Y="4623.4033" Z="324.802"/>
+<g X="-490.2539" Y="4627.6206" Z="321.8131"/>
+<b X="-492.9395" Y="4623.4033" Z="322.2057"/>
 <InfoNormRichtung vMax="13.8889" km="0.0924" pos="1"/>
 <NachNorm Nr="1043"/>
 <NachGegen Nr="1041"/>
 </StrElement>
 <StrElement Nr="1043" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-492.9395" Y="4623.4033" Z="324.802"/>
-<b X="-495.5887" Y="4619.2432" Z="324.9499"/>
+<g X="-492.9395" Y="4623.4033" Z="322.2057"/>
+<b X="-495.5887" Y="4619.2432" Z="322.5931"/>
 <InfoNormRichtung vMax="13.8889" km="0.0974" pos="1"/>
 <NachNorm Nr="1044"/>
 <NachGegen Nr="1042"/>
 </StrElement>
 <StrElement Nr="1044" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-495.5887" Y="4619.2432" Z="324.9499"/>
-<b X="-498.2378" Y="4615.0835" Z="325.122"/>
+<g X="-495.5887" Y="4619.2432" Z="322.5931"/>
+<b X="-498.2378" Y="4615.0835" Z="323.1819"/>
 <InfoNormRichtung vMax="13.8889" km="0.1023" pos="1"/>
 <NachNorm Nr="1045"/>
 <NachGegen Nr="1043"/>
 </StrElement>
 <StrElement Nr="1045" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-498.2378" Y="4615.0835" Z="325.122"/>
-<b X="-500.2842" Y="4611.647" Z="325.2796"/>
+<g X="-498.2378" Y="4615.0835" Z="323.1819"/>
+<b X="-500.2842" Y="4611.647" Z="323.6625"/>
 <InfoNormRichtung vMax="5.5556" km="0.1073" pos="1"/>
 <NachNorm Nr="1046"/>
 <NachGegen Nr="1044"/>
 </StrElement>
 <StrElement Nr="1046" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-500.2842" Y="4611.647" Z="325.2796"/>
-<b X="-502.1216" Y="4608.0947" Z="325.453"/>
+<g X="-500.2842" Y="4611.647" Z="323.6625"/>
+<b X="-502.1216" Y="4608.0947" Z="324.1404"/>
 <InfoNormRichtung vMax="5.5556" km="0.1113" pos="1"/>
 <NachNorm Nr="1047"/>
 <NachGegen Nr="1045"/>
 </StrElement>
 <StrElement Nr="1047" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-502.1216" Y="4608.0947" Z="325.453"/>
-<b X="-503.7435" Y="4604.439" Z="325.6425"/>
+<g X="-502.1216" Y="4608.0947" Z="324.1404"/>
+<b X="-503.7435" Y="4604.439" Z="324.6112"/>
 <InfoNormRichtung vMax="5.5556" km="0.1153" pos="1"/>
 <NachNorm Nr="1048"/>
 <NachGegen Nr="1046"/>
 </StrElement>
 <StrElement Nr="1048" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-503.7435" Y="4604.439" Z="325.6425"/>
-<b X="-505.1438" Y="4600.6929" Z="325.8479"/>
+<g X="-503.7435" Y="4604.439" Z="324.6112"/>
+<b X="-505.1438" Y="4600.6929" Z="325.0708"/>
 <InfoNormRichtung vMax="5.5556" km="0.1193" pos="1"/>
 <NachNorm Nr="1049"/>
 <NachGegen Nr="1047"/>
 </StrElement>
 <StrElement Nr="1049" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-505.1438" Y="4600.6929" Z="325.8479"/>
-<b X="-506.3179" Y="4596.8696" Z="326.0694"/>
+<g X="-505.1438" Y="4600.6929" Z="325.0708"/>
+<b X="-506.3179" Y="4596.8696" Z="325.5155"/>
 <InfoNormRichtung vMax="5.5556" km="0.1233" pos="1"/>
 <NachNorm Nr="1050"/>
 <NachGegen Nr="1048"/>
 </StrElement>
 <StrElement Nr="1050" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-506.3179" Y="4596.8696" Z="326.0694"/>
-<b X="-507.2613" Y="4592.9829" Z="326.3068"/>
+<g X="-506.3179" Y="4596.8696" Z="325.5155"/>
+<b X="-507.2613" Y="4592.9829" Z="325.9418"/>
 <InfoNormRichtung vMax="5.5556" km="0.1273" pos="1"/>
 <NachNorm Nr="1051"/>
 <NachGegen Nr="1049"/>
 </StrElement>
 <StrElement Nr="1051" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-507.2613" Y="4592.9829" Z="326.3068"/>
-<b X="-507.9708" Y="4589.0469" Z="326.5601"/>
+<g X="-507.2613" Y="4592.9829" Z="325.9418"/>
+<b X="-507.9708" Y="4589.0469" Z="326.3468"/>
 <InfoNormRichtung vMax="5.5556" km="0.1312" pos="1"/>
 <NachNorm Nr="1052"/>
 <NachGegen Nr="1050"/>
 </StrElement>
 <StrElement Nr="1052" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-507.9708" Y="4589.0469" Z="326.5601"/>
-<b X="-508.4437" Y="4585.0757" Z="326.8295"/>
+<g X="-507.9708" Y="4589.0469" Z="326.3468"/>
+<b X="-508.4437" Y="4585.0757" Z="326.7285"/>
 <InfoNormRichtung vMax="5.5556" km="0.1352" pos="1"/>
 <NachNorm Nr="1053"/>
 <NachGegen Nr="1051"/>
 </StrElement>
 <StrElement Nr="1053" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-508.4437" Y="4585.0757" Z="326.8295"/>
-<b X="-508.6785" Y="4581.083" Z="327.1147"/>
+<g X="-508.4437" Y="4585.0757" Z="326.7285"/>
+<b X="-508.6785" Y="4581.083" Z="327.085"/>
 <InfoNormRichtung vMax="5.5556" km="0.1392" pos="1"/>
 <NachNorm Nr="1054"/>
 <NachGegen Nr="1052"/>
 </StrElement>
 <StrElement Nr="1054" spTrass="5.5556" Anschluss="256" Fkt="2">
-<g X="-508.6785" Y="4581.083" Z="327.1147"/>
+<g X="-508.6785" Y="4581.083" Z="327.085"/>
 <b X="-508.648" Y="4576.3608" Z="327.4722"/>
 <InfoNormRichtung vMax="5.5556" km="0.1432" pos="1"/>
 <NachNorm Nr="1034"/>
@@ -11748,59 +11953,9 @@
 </StrElement>
 <StrElement Nr="1065" spTrass="13.8889" Anschluss="256" Fkt="2">
 <g X="-509.6118" Y="4599.418" Z="326.2078"/>
-<b X="-511.2581" Y="4638.7998" Z="324.9442"/>
-<InfoNormRichtung vMax="13.8889" km="0.0231" pos="1"/>
-<NachNorm Nr="1066"/>
+<b X="-510.6137" Y="4623.3848" Z="325.4388"/>
+<NachNorm Nr="1576"/>
 <NachGegen Nr="1064"/>
-</StrElement>
-<StrElement Nr="1066" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-511.2581" Y="4638.7998" Z="324.9442"/>
-<b X="-512.9043" Y="4678.1821" Z="323.682"/>
-<InfoNormRichtung vMax="13.8889" km="0.0625" pos="1"/>
-<NachNorm Nr="1067"/>
-<NachGegen Nr="1065"/>
-</StrElement>
-<StrElement Nr="1067" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-512.9043" Y="4678.1821" Z="323.682"/>
-<b X="-513.0087" Y="4680.6797" Z="323.6081"/>
-<InfoNormRichtung vMax="13.8889" km="0.1019" pos="1"/>
-<NachNorm Nr="1068"/>
-<NachGegen Nr="1066"/>
-</StrElement>
-<StrElement Nr="1068" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-513.0087" Y="4680.6797" Z="323.6081"/>
-<b X="-513.1131" Y="4683.1777" Z="323.5468"/>
-<InfoNormRichtung vMax="13.8889" km="0.1044" pos="1"/>
-<NachNorm Nr="1069"/>
-<NachGegen Nr="1067"/>
-</StrElement>
-<StrElement Nr="1069" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-513.1131" Y="4683.1777" Z="323.5468"/>
-<b X="-513.277" Y="4687.0972" Z="323.4757"/>
-<InfoNormRichtung vMax="13.8889" km="0.1069" pos="1"/>
-<NachNorm Nr="1070"/>
-<NachGegen Nr="1068"/>
-</StrElement>
-<StrElement Nr="1070" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-513.277" Y="4687.0972" Z="323.4757"/>
-<b X="-513.3917" Y="4691.0952" Z="323.4349"/>
-<InfoNormRichtung vMax="8.3333" km="0.1108" pos="1"/>
-<NachNorm Nr="1071"/>
-<NachGegen Nr="1069"/>
-</StrElement>
-<StrElement Nr="1071" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-513.3917" Y="4691.0952" Z="323.4349"/>
-<b X="-513.4018" Y="4695.0952" Z="323.4261"/>
-<InfoNormRichtung vMax="8.3333" km="0.1148" pos="1"/>
-<NachNorm Nr="1072"/>
-<NachGegen Nr="1070"/>
-</StrElement>
-<StrElement Nr="1072" spTrass="8.3333" Anschluss="257" Fkt="2">
-<g X="-513.4018" Y="4695.0952" Z="323.4261"/>
-<b X="-513.3418" Y="4698.0542" Z="323.4401"/>
-<InfoNormRichtung vMax="8.3333" km="0.1188" pos="1"/>
-<NachNorm Nr="1035"/>
-<NachGegen Nr="1071"/>
 </StrElement>
 <StrElement Nr="1073" spTrass="27.7778" Fkt="2">
 <g X="-526.9871" Y="4546.3877" Z="323.4525"/>
@@ -12137,208 +12292,208 @@
 <NachGegen Nr="1121"/>
 </StrElement>
 <StrElement Nr="1123" spTrass="27.7778" Fkt="2">
-<g X="-588.7927" Y="-4493.8604" Z="354.7111"/>
-<b X="-591.5923" Y="-4488.6528" Z="354.9147"/>
+<g X="-588.7927" Y="-4493.8604" Z="349.6"/>
+<b X="-591.5923" Y="-4488.6528" Z="349.15"/>
 <NachNorm Nr="1126"/>
 </StrElement>
 <StrElement Nr="1124" spTrass="27.7778" Anschluss="1" Fkt="2">
 <g X="-633.8178" Y="-4375.5713" Z="347.9222"/>
-<b X="-628.3855" Y="-4384.0815" Z="348.0812"/>
+<b X="-628.3855" Y="-4384.0815" Z="347.9842"/>
 <NachNorm Nr="1153"/>
 <NachGegen Nr="1156"/>
 </StrElement>
 <StrElement Nr="1126" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-591.5922" Y="-4488.6519" Z="354.9147"/>
-<b X="-593.4369" Y="-4485.1025" Z="355.0204"/>
+<g X="-591.5923" Y="-4488.6528" Z="349.15"/>
+<b X="-593.437" Y="-4485.1035" Z="349.271"/>
 <InfoNormRichtung vMax="8.3333" pos="1"/>
 <NachNorm Nr="1127"/>
 <NachGegen Nr="1123"/>
 </StrElement>
 <StrElement Nr="1127" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-593.4369" Y="-4485.1025" Z="355.0204"/>
-<b X="-595.1822" Y="-4481.5039" Z="355.0622"/>
+<g X="-593.437" Y="-4485.1035" Z="349.271"/>
+<b X="-595.1823" Y="-4481.5049" Z="349.3585"/>
 <InfoNormRichtung vMax="8.3333" km="0.004" pos="1"/>
 <NachNorm Nr="1128"/>
 <NachGegen Nr="1126"/>
 </StrElement>
 <StrElement Nr="1128" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-595.1822" Y="-4481.5039" Z="355.0622"/>
-<b X="-596.8266" Y="-4477.8574" Z="355.04"/>
+<g X="-595.1823" Y="-4481.5049" Z="349.3585"/>
+<b X="-596.8267" Y="-4477.8584" Z="349.412"/>
 <InfoNormRichtung vMax="8.3333" km="0.008" pos="1"/>
 <NachNorm Nr="1129"/>
 <NachGegen Nr="1127"/>
 </StrElement>
 <StrElement Nr="1129" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-596.8266" Y="-4477.8574" Z="355.04"/>
-<b X="-598.3689" Y="-4474.167" Z="354.9538"/>
+<g X="-596.8267" Y="-4477.8584" Z="349.412"/>
+<b X="-598.369" Y="-4474.168" Z="349.4305"/>
 <InfoNormRichtung vMax="8.3333" km="0.012" pos="1"/>
 <NachNorm Nr="1130"/>
 <NachGegen Nr="1128"/>
 </StrElement>
 <StrElement Nr="1130" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-598.3689" Y="-4474.167" Z="354.9538"/>
-<b X="-599.8079" Y="-4470.4351" Z="354.8036"/>
+<g X="-598.369" Y="-4474.168" Z="349.4305"/>
+<b X="-599.808" Y="-4470.436" Z="349.4132"/>
 <InfoNormRichtung vMax="8.3333" km="0.016" pos="1"/>
 <NachNorm Nr="1131"/>
 <NachGegen Nr="1129"/>
 </StrElement>
 <StrElement Nr="1131" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-599.8079" Y="-4470.4351" Z="354.8036"/>
-<b X="-601.1422" Y="-4466.6641" Z="354.5895"/>
+<g X="-599.808" Y="-4470.436" Z="349.4132"/>
+<b X="-601.1423" Y="-4466.665" Z="349.3588"/>
 <InfoNormRichtung vMax="8.3333" km="0.02" pos="1"/>
 <NachNorm Nr="1132"/>
 <NachGegen Nr="1130"/>
 </StrElement>
 <StrElement Nr="1132" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-601.1422" Y="-4466.6641" Z="354.5895"/>
-<b X="-602.191" Y="-4463.4399" Z="354.358"/>
+<g X="-601.1423" Y="-4466.665" Z="349.3588"/>
+<b X="-602.191" Y="-4463.4409" Z="349.2824"/>
 <InfoNormRichtung vMax="8.3333" km="0.024" pos="1"/>
 <NachNorm Nr="1133"/>
 <NachGegen Nr="1131"/>
 </StrElement>
 <StrElement Nr="1133" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-602.191" Y="-4463.4399" Z="354.358"/>
-<b X="-603.1634" Y="-4460.1919" Z="354.0881"/>
+<g X="-602.191" Y="-4463.4409" Z="349.2824"/>
+<b X="-603.1635" Y="-4460.1929" Z="349.1846"/>
 <InfoNormRichtung vMax="8.3333" km="0.0274" pos="1"/>
 <NachNorm Nr="1134"/>
 <NachGegen Nr="1132"/>
 </StrElement>
 <StrElement Nr="1134" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-603.1634" Y="-4460.1919" Z="354.0881"/>
-<b X="-604.2114" Y="-4456.332" Z="353.7646"/>
+<g X="-603.1635" Y="-4460.1929" Z="349.1846"/>
+<b X="-604.2115" Y="-4456.333" Z="349.084"/>
 <InfoNormRichtung vMax="8.3333" km="0.0308" pos="1"/>
 <NachNorm Nr="1135"/>
 <NachGegen Nr="1133"/>
 </StrElement>
 <StrElement Nr="1135" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-604.2114" Y="-4456.332" Z="353.7646"/>
-<b X="-605.1516" Y="-4452.4438" Z="353.4412"/>
+<g X="-604.2115" Y="-4456.333" Z="349.084"/>
+<b X="-605.1517" Y="-4452.4448" Z="349.0027"/>
 <InfoNormRichtung vMax="8.3333" km="0.0348" pos="1"/>
 <NachNorm Nr="1136"/>
 <NachGegen Nr="1134"/>
 </StrElement>
 <StrElement Nr="1136" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-605.1516" Y="-4452.4438" Z="353.4412"/>
-<b X="-605.9833" Y="-4448.5317" Z="353.1178"/>
+<g X="-605.1517" Y="-4452.4448" Z="349.0027"/>
+<b X="-605.9833" Y="-4448.5322" Z="348.9379"/>
 <InfoNormRichtung vMax="8.3333" km="0.0388" pos="1"/>
 <NachNorm Nr="1137"/>
 <NachGegen Nr="1135"/>
 </StrElement>
 <StrElement Nr="1137" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-605.9833" Y="-4448.5317" Z="353.1178"/>
-<b X="-606.7058" Y="-4444.5977" Z="352.7944"/>
+<g X="-605.9833" Y="-4448.5322" Z="348.9379"/>
+<b X="-606.7059" Y="-4444.5981" Z="348.887"/>
 <InfoNormRichtung vMax="8.3333" km="0.0428" pos="1"/>
 <NachNorm Nr="1138"/>
 <NachGegen Nr="1136"/>
 </StrElement>
 <StrElement Nr="1138" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-606.7058" Y="-4444.5977" Z="352.7944"/>
-<b X="-607.2675" Y="-4441.0034" Z="352.5003"/>
+<g X="-606.7059" Y="-4444.5981" Z="348.887"/>
+<b X="-607.2676" Y="-4441.0039" Z="348.8504"/>
 <InfoNormRichtung vMax="8.3333" km="0.0468" pos="1"/>
 <NachNorm Nr="1139"/>
 <NachGegen Nr="1137"/>
 </StrElement>
 <StrElement Nr="1139" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-607.2675" Y="-4441.0034" Z="352.5003"/>
-<b X="-607.8902" Y="-4437.0522" Z="352.1825"/>
+<g X="-607.2676" Y="-4441.0039" Z="348.8504"/>
+<b X="-607.8903" Y="-4437.0527" Z="348.8233"/>
 <InfoNormRichtung vMax="8.3333" km="0.0504" pos="1"/>
 <NachNorm Nr="1140"/>
 <NachGegen Nr="1138"/>
 </StrElement>
 <StrElement Nr="1140" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-607.8902" Y="-4437.0522" Z="352.1825"/>
-<b X="-608.6225" Y="-4433.1196" Z="351.8591"/>
+<g X="-607.8903" Y="-4437.0527" Z="348.8233"/>
+<b X="-608.6226" Y="-4433.1201" Z="348.7959"/>
 <InfoNormRichtung vMax="8.3333" km="0.0544" pos="1"/>
 <NachNorm Nr="1141"/>
 <NachGegen Nr="1139"/>
 </StrElement>
 <StrElement Nr="1141" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-608.6225" Y="-4433.1196" Z="351.8591"/>
-<b X="-609.464" Y="-4429.2095" Z="351.5357"/>
+<g X="-608.6226" Y="-4433.1201" Z="348.7959"/>
+<b X="-609.464" Y="-4429.21" Z="348.7703"/>
 <InfoNormRichtung vMax="8.3333" km="0.0584" pos="1"/>
 <NachNorm Nr="1142"/>
 <NachGegen Nr="1140"/>
 </StrElement>
 <StrElement Nr="1142" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-609.464" Y="-4429.2095" Z="351.5357"/>
-<b X="-610.4142" Y="-4425.3242" Z="351.2123"/>
+<g X="-609.464" Y="-4429.21" Z="348.7703"/>
+<b X="-610.4142" Y="-4425.3247" Z="348.7435"/>
 <InfoNormRichtung vMax="8.3333" km="0.0624" pos="1"/>
 <NachNorm Nr="1143"/>
 <NachGegen Nr="1141"/>
 </StrElement>
 <StrElement Nr="1143" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-610.4142" Y="-4425.3242" Z="351.2123"/>
-<b X="-611.472" Y="-4421.4668" Z="350.8889"/>
+<g X="-610.4142" Y="-4425.3247" Z="348.7435"/>
+<b X="-611.472" Y="-4421.4673" Z="348.7122"/>
 <InfoNormRichtung vMax="8.3333" km="0.0664" pos="1"/>
 <NachNorm Nr="1144"/>
 <NachGegen Nr="1142"/>
 </StrElement>
 <StrElement Nr="1144" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-611.472" Y="-4421.4668" Z="350.8889"/>
-<b X="-612.6367" Y="-4417.6401" Z="350.5655"/>
+<g X="-611.472" Y="-4421.4673" Z="348.7122"/>
+<b X="-612.6367" Y="-4417.6406" Z="348.6734"/>
 <InfoNormRichtung vMax="8.3333" km="0.0704" pos="1"/>
 <NachNorm Nr="1145"/>
 <NachGegen Nr="1143"/>
 </StrElement>
 <StrElement Nr="1145" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-612.6367" Y="-4417.6401" Z="350.5655"/>
-<b X="-613.9074" Y="-4413.8477" Z="350.2421"/>
+<g X="-612.6367" Y="-4417.6406" Z="348.6734"/>
+<b X="-613.9074" Y="-4413.8481" Z="348.6241"/>
 <InfoNormRichtung vMax="8.3333" km="0.0744" pos="1"/>
 <NachNorm Nr="1146"/>
 <NachGegen Nr="1144"/>
 </StrElement>
 <StrElement Nr="1146" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-613.9074" Y="-4413.8477" Z="350.2421"/>
-<b X="-615.2835" Y="-4410.0918" Z="349.9186"/>
+<g X="-613.9074" Y="-4413.8481" Z="348.6241"/>
+<b X="-615.2835" Y="-4410.0918" Z="348.5612"/>
 <InfoNormRichtung vMax="8.3333" km="0.0784" pos="1"/>
 <NachNorm Nr="1147"/>
 <NachGegen Nr="1145"/>
 </StrElement>
 <StrElement Nr="1147" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-615.2835" Y="-4410.0918" Z="349.9186"/>
-<b X="-616.7634" Y="-4406.3755" Z="349.5953"/>
+<g X="-615.2835" Y="-4410.0918" Z="348.5612"/>
+<b X="-616.7634" Y="-4406.3755" Z="348.4821"/>
 <InfoNormRichtung vMax="8.3333" km="0.0824" pos="1"/>
 <NachNorm Nr="1148"/>
 <NachGegen Nr="1146"/>
 </StrElement>
 <StrElement Nr="1148" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-616.7634" Y="-4406.3755" Z="349.5953"/>
-<b X="-618.3462" Y="-4402.7021" Z="349.2718"/>
+<g X="-616.7634" Y="-4406.3755" Z="348.4821"/>
+<b X="-618.3462" Y="-4402.7021" Z="348.384"/>
 <InfoNormRichtung vMax="8.3333" km="0.0864" pos="1"/>
 <NachNorm Nr="1149"/>
 <NachGegen Nr="1147"/>
 </StrElement>
 <StrElement Nr="1149" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-618.3462" Y="-4402.7021" Z="349.2718"/>
-<b X="-620.0305" Y="-4399.0742" Z="348.9484"/>
+<g X="-618.3462" Y="-4402.7021" Z="348.384"/>
+<b X="-620.0305" Y="-4399.0742" Z="348.2647"/>
 <InfoNormRichtung vMax="8.3333" km="0.0904" pos="1"/>
 <NachNorm Nr="1150"/>
 <NachGegen Nr="1148"/>
 </StrElement>
 <StrElement Nr="1150" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-620.0305" Y="-4399.0742" Z="348.9484"/>
-<b X="-621.4528" Y="-4396.2021" Z="348.7097"/>
+<g X="-620.0305" Y="-4399.0742" Z="348.2647"/>
+<b X="-621.4528" Y="-4396.2021" Z="348.1726"/>
 <InfoNormRichtung vMax="8.3333" km="0.0944" pos="1"/>
 <NachNorm Nr="1151"/>
 <NachGegen Nr="1149"/>
 </StrElement>
 <StrElement Nr="1151" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-621.4528" Y="-4396.2021" Z="348.7097"/>
-<b X="-623.3169" Y="-4392.6631" Z="348.4511"/>
+<g X="-621.4528" Y="-4396.2021" Z="348.1726"/>
+<b X="-623.3169" Y="-4392.6631" Z="348.0742"/>
 <InfoNormRichtung vMax="8.3333" km="0.0976" pos="1"/>
 <NachNorm Nr="1152"/>
 <NachGegen Nr="1150"/>
 </StrElement>
 <StrElement Nr="1152" spTrass="8.3333" Anschluss="256" Fkt="2">
-<g X="-623.3169" Y="-4392.6631" Z="348.4511"/>
-<b X="-625.2789" Y="-4389.1777" Z="348.2565"/>
+<g X="-623.3169" Y="-4392.6631" Z="348.0742"/>
+<b X="-625.2789" Y="-4389.1777" Z="348.013"/>
 <InfoNormRichtung vMax="8.3333" km="0.1016" pos="1"/>
 <NachNorm Nr="1153"/>
 <NachGegen Nr="1151"/>
 </StrElement>
 <StrElement Nr="1153" spTrass="8.3333" Anschluss="257" Fkt="2">
-<g X="-625.2789" Y="-4389.1777" Z="348.2565"/>
-<b X="-628.3854" Y="-4384.0806" Z="348.085"/>
+<g X="-625.2789" Y="-4389.1777" Z="348.013"/>
+<b X="-628.3854" Y="-4384.0806" Z="347.988"/>
 <InfoNormRichtung vMax="8.3333" km="0.1056" pos="1"/>
 <NachNorm Nr="1124"/>
 <NachGegen Nr="1152"/>
@@ -14846,22 +15001,25 @@
 <b X="-503.0655" Y="3552.9309" Z="332.4484"/>
 <InfoNormRichtung vMax="69.4444" km="181.5742" pos="1"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="GÜ 120 F252" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="GÜ 120 F252" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-502.921" Y="3558.5415" Z="332.3783"/>
 <phi X="-0.0453" Y="0.012495" Z="1.545047"/>
 <SignalFrame>
 <p X="-24.1997" Y="0.0419" Z="0.0019"/>
 <phi Y="0.000176" Z="-0.003903"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3.0002" Y="0.011" Z="0.0005"/>
 <phi Y="0.024963"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -14881,22 +15039,25 @@
 <b X="-507.7631" Y="3553.054" Z="332.4484"/>
 <InfoNormRichtung vMax="69.4444" km="181.574" pos="1"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="GÜ 120 F251" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="GÜ 120 F251" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-507.627" Y="3558.3337" Z="332.3824"/>
 <phi X="-0.0453" Y="0.012504" Z="1.545034"/>
 <SignalFrame>
 <p X="-24.2002" Y="0.0424" Z="0.0019"/>
 <phi Y="0.000176" Z="-0.003878"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3" Y="0.0107" Z="0.0005"/>
 <phi Y="0.024981"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -14944,12 +15105,13 @@
 <b X="-500.7642" Y="3775.6931" Z="329.6644"/>
 <InfoNormRichtung vMax="69.4444" km="181.3392" pos="1"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="500 Hz (F252)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="500 Hz (F252)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-500.8866" Y="3793.5034" Z="329.4419"/>
 <phi X="-0.0453" Y="0.012495" Z="1.577668"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -14969,12 +15131,13 @@
 <b X="-505.4633" Y="3775.667" Z="329.6644"/>
 <InfoNormRichtung vMax="69.4444" km="181.3389" pos="1"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW Licherode" Signalname="500 Hz (F251)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="500 Hz (F251)" SignalTyp="14" BoundingR="3" Zwangshelligkeit="0.07">
 <p X="-505.5843" Y="3793.2957" Z="329.444"/>
 <phi X="-0.0453" Y="0.012504" Z="1.577661"/>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -14994,22 +15157,25 @@
 <b X="-999.8074" Y="435.9808" Z="359.8057"/>
 <InfoNormRichtung vMax="69.4444" km="184.7268" pos="1"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="GÜ 120 290" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="GÜ 120 290" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-998.1887" Y="449.5008" Z="359.7512"/>
 <phi X="0.0453" Y="0.004002" Z="1.451636"/>
 <SignalFrame>
 <p X="-24.2" Y="-0.0287" Z="0.0013"/>
 <phi Y="0.000204" Z="0.004491"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3" Y="-0.0131" Z="0.0006"/>
 <phi Y="0.007997"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15029,22 +15195,25 @@
 <b X="-995.1411" Y="435.4266" Z="359.8057"/>
 <InfoNormRichtung vMax="69.4444" km="184.7266" pos="1"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="GÜ 120 260" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="GÜ 120 260" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-993.5607" Y="448.6279" Z="359.7524"/>
 <phi X="0.0453" Y="0.004006" Z="1.451645"/>
 <SignalFrame>
 <p X="-24.2" Y="-0.0297" Z="0.0014"/>
 <phi Y="0.000202" Z="0.004482"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3" Y="-0.0133" Z="0.0006"/>
 <phi Y="0.008002"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15064,22 +15233,25 @@
 <b X="-620.6538" Y="2471.593" Z="346.059"/>
 <InfoNormRichtung vMax="69.4444" km="182.6725"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="GÜ 120 259" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="GÜ 120 259" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-621.5289" Y="2466.8438" Z="346.1197"/>
 <phi X="0.042501" Y="-0.012568" Z="-1.753017"/>
 <SignalFrame>
 <p X="-24.2009" Y="-0.0414" Z="0.003"/>
 <phi Y="-0.025114"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3.0002" Y="-0.0085" Z="0.0004"/>
 <phi X="0.000014" Y="-0.025114"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15099,22 +15271,25 @@
 <b X="-616.0314" Y="2470.7429" Z="346.059"/>
 <InfoNormRichtung vMax="69.4444" km="182.6736"/>
 <InfoGegenRichtung vMax="-1">
-<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW Licherode" Signalname="GÜ 120 289" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
+<Signal NameBetriebsstelle="Üst Ersrode" Stellwerk="ESTW-A Licherode" Signalname="GÜ 120 289" SignalTyp="14" BoundingR="25" Zwangshelligkeit="0.07">
 <p X="-616.8368" Y="2466.3713" Z="346.1146"/>
 <phi X="0.042501" Y="-0.012516" Z="-1.752993"/>
 <SignalFrame>
 <p X="-24.2004" Y="-0.0424" Z="0.0022"/>
 <phi Y="-0.025007"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="2.9998" Y="-0.0081" Z="0.0003"/>
 <phi Y="-0.025007"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15232,6 +15407,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15253,6 +15429,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15274,6 +15451,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15295,6 +15473,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15316,6 +15495,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15337,6 +15517,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15358,6 +15539,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15379,6 +15561,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15400,6 +15583,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15409,6 +15593,186 @@
 </InfoGegenRichtung>
 <NachNorm Nr="537"/>
 <NachGegen Nr="536"/>
+</StrElement>
+<StrElement Nr="1576" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-510.6137" Y="4623.3848" Z="325.4388"/>
+<b X="-511.1556" Y="4631.3647" Z="325.364"/>
+<InfoNormRichtung vMax="8.3333" km="0.024" pos="1"/>
+<NachNorm Nr="1578"/>
+<NachGegen Nr="1065"/>
+</StrElement>
+<StrElement Nr="1578" spTrass="11.1111" Anschluss="256" Fkt="2">
+<g X="-511.1556" Y="4631.3647" Z="325.364"/>
+<b X="-511.5557" Y="4635.3438" Z="325.4485"/>
+<InfoNormRichtung vMax="11.1111" km="0.032" pos="1"/>
+<NachNorm Nr="1579"/>
+<NachGegen Nr="1576"/>
+</StrElement>
+<StrElement Nr="1579" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-511.5557" Y="4635.3438" Z="325.4485"/>
+<b X="-512.0181" Y="4639.314" Z="325.6011"/>
+<InfoNormRichtung vMax="13.8889" km="0.036" pos="1"/>
+<NachNorm Nr="1580"/>
+<NachGegen Nr="1578"/>
+</StrElement>
+<StrElement Nr="1580" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-512.0181" Y="4639.314" Z="325.6011"/>
+<b X="-512.5252" Y="4643.2759" Z="325.812"/>
+<InfoNormRichtung vMax="13.8889" km="0.04" pos="1"/>
+<NachNorm Nr="1581"/>
+<NachGegen Nr="1579"/>
+</StrElement>
+<StrElement Nr="1581" spTrass="19.4444" Anschluss="256" Fkt="2">
+<g X="-512.5252" Y="4643.2759" Z="325.812"/>
+<b X="-513.3599" Y="4649.415" Z="326.2322"/>
+<InfoNormRichtung vMax="19.4444" km="0.044" pos="1"/>
+<NachNorm Nr="1583"/>
+<NachGegen Nr="1580"/>
+</StrElement>
+<StrElement Nr="1583" kr="-0.000053" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-513.3599" Y="4649.415" Z="326.2322"/>
+<b X="-514.1699" Y="4655.3521" Z="326.7172"/>
+<InfoNormRichtung vMax="27.7778" km="0.0502" pos="1"/>
+<NachNorm Nr="1585"/>
+<NachGegen Nr="1581"/>
+</StrElement>
+<StrElement Nr="1585" kr="0.001578" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-514.1699" Y="4655.3521" Z="326.7172"/>
+<b X="-515.0186" Y="4662.1094" Z="327.3212"/>
+<InfoNormRichtung vMax="13.8889" km="0.0562" pos="1"/>
+<NachNorm Nr="1586"/>
+<NachGegen Nr="1583"/>
+</StrElement>
+<StrElement Nr="1586" kr="0.003451" spTrass="11.1111" Anschluss="256" Fkt="2">
+<g X="-515.0186" Y="4662.1094" Z="327.3212"/>
+<b X="-515.5723" Y="4667.374" Z="327.8007"/>
+<InfoNormRichtung vMax="11.1111" km="0.063" pos="1"/>
+<NachNorm Nr="1587"/>
+<NachGegen Nr="1585"/>
+</StrElement>
+<StrElement Nr="1587" kr="0.004925" spTrass="11.1111" Anschluss="256" Fkt="2">
+<g X="-515.5723" Y="4667.374" Z="327.8007"/>
+<b X="-515.9198" Y="4671.6211" Z="328.1762"/>
+<InfoNormRichtung vMax="11.1111" km="0.0683" pos="1"/>
+<NachNorm Nr="1588"/>
+<NachGegen Nr="1586"/>
+</StrElement>
+<StrElement Nr="1588" kr="0.00612" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-515.9198" Y="4671.6211" Z="328.1762"/>
+<b X="-516.1186" Y="4675.0225" Z="328.4611"/>
+<InfoNormRichtung vMax="8.3333" km="0.0725" pos="1"/>
+<NachNorm Nr="1589"/>
+<NachGegen Nr="1587"/>
+</StrElement>
+<StrElement Nr="1589" kr="0.007074" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-516.1186" Y="4675.0225" Z="328.4611"/>
+<b X="-516.2561" Y="4679.7803" Z="328.8234"/>
+<InfoNormRichtung vMax="8.3333" km="0.0759" pos="1"/>
+<NachNorm Nr="1591"/>
+<NachGegen Nr="1588"/>
+</StrElement>
+<StrElement Nr="1591" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-516.2561" Y="4679.7803" Z="328.8234"/>
+<b X="-516.1589" Y="4685.6865" Z="329.1923"/>
+<InfoNormRichtung vMax="8.3333" km="0.0807" pos="1"/>
+<NachGegen Nr="1589"/>
+</StrElement>
+<StrElement Nr="1593" spTrass="8.3333" Fkt="2">
+<g X="-617.7342" Y="4600.5425" Z="337.4907"/>
+<b X="-620.3476" Y="4603.5381" Z="337.9301"/>
+<InfoNormRichtung vMax="8.3333"/>
+<NachNorm Nr="1594"/>
+<NachGegen Nr="973"/>
+</StrElement>
+<StrElement Nr="1594" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-620.3476" Y="4603.5381" Z="337.9301"/>
+<b X="-622.8444" Y="4606.6377" Z="338.325"/>
+<InfoNormRichtung vMax="8.3333" km="-0.004"/>
+<NachNorm Nr="1595"/>
+<NachGegen Nr="1593"/>
+</StrElement>
+<StrElement Nr="1595" kr="0.009526" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-622.8444" Y="4606.6377" Z="338.325"/>
+<b X="-625.3611" Y="4610.0259" Z="338.6994"/>
+<InfoNormRichtung vMax="8.3333" km="-0.008"/>
+<NachNorm Nr="1597"/>
+<NachGegen Nr="1594"/>
+</StrElement>
+<StrElement Nr="1597" kr="0.00926" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-625.3611" Y="4610.0259" Z="338.6994"/>
+<b X="-628.0727" Y="4614.0161" Z="339.0781"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0122"/>
+<NachNorm Nr="1599"/>
+<NachGegen Nr="1595"/>
+</StrElement>
+<StrElement Nr="1599" kr="0.008989" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-628.0727" Y="4614.0161" Z="339.0781"/>
+<b X="-631.0436" Y="4618.8662" Z="339.4671"/>
+<InfoNormRichtung vMax="8.3333" km="-0.017"/>
+<NachNorm Nr="1601"/>
+<NachGegen Nr="1597"/>
+</StrElement>
+<StrElement Nr="1601" kr="0.008718" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-631.0436" Y="4618.8662" Z="339.4671"/>
+<b X="-633.9291" Y="4624.1685" Z="339.8248"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0227"/>
+<NachNorm Nr="1603"/>
+<NachGegen Nr="1599"/>
+</StrElement>
+<StrElement Nr="1603" kr="0.008491" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-633.9291" Y="4624.1685" Z="339.8248"/>
+<b X="-636.6017" Y="4629.7529" Z="340.147"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0287"/>
+<NachNorm Nr="1605"/>
+<NachGegen Nr="1601"/>
+</StrElement>
+<StrElement Nr="1605" kr="0.008323" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-636.6017" Y="4629.7529" Z="340.147"/>
+<b X="-639.0241" Y="4635.5757" Z="340.444"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0349"/>
+<NachNorm Nr="1607"/>
+<NachGegen Nr="1603"/>
+</StrElement>
+<StrElement Nr="1607" kr="0.008219" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-639.0241" Y="4635.5757" Z="340.444"/>
+<b X="-641.1619" Y="4641.5796" Z="340.7277"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0412"/>
+<NachNorm Nr="1609"/>
+<NachGegen Nr="1605"/>
+</StrElement>
+<StrElement Nr="1609" kr="0.008185" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-641.1619" Y="4641.5796" Z="340.7277"/>
+<b X="-642.9826" Y="4647.6855" Z="341.0106"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0476"/>
+<NachNorm Nr="1611"/>
+<NachGegen Nr="1607"/>
+</StrElement>
+<StrElement Nr="1611" kr="0.008223" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-642.9826" Y="4647.6855" Z="341.0106"/>
+<b X="-644.4655" Y="4653.8086" Z="341.3052"/>
+<InfoNormRichtung vMax="8.3333" km="-0.054"/>
+<NachNorm Nr="1613"/>
+<NachGegen Nr="1609"/>
+</StrElement>
+<StrElement Nr="1613" kr="0.008333" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-644.4655" Y="4653.8086" Z="341.3052"/>
+<b X="-645.6048" Y="4659.8799" Z="341.6238"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0603"/>
+<NachNorm Nr="1615"/>
+<NachGegen Nr="1611"/>
+</StrElement>
+<StrElement Nr="1615" kr="0.008514" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-645.6048" Y="4659.8799" Z="341.6238"/>
+<b X="-646.4049" Y="4665.8364" Z="341.9768"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0664"/>
+<NachNorm Nr="1617"/>
+<NachGegen Nr="1613"/>
+</StrElement>
+<StrElement Nr="1617" kr="0.008763" spTrass="8.3333" Anschluss="256" Fkt="2">
+<g X="-646.4049" Y="4665.8364" Z="341.9768"/>
+<b X="-646.8005" Y="4670.3564" Z="342.2805"/>
+<InfoNormRichtung vMax="8.3333" km="-0.0725"/>
+<NachGegen Nr="1615"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Ersrode 259" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2688.6001">
 <FahrstrStart Ref="1">

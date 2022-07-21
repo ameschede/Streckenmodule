@@ -24,6 +24,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Regensburg Ost
 * Hohenschönhausen
 * Klardorf
+* Licherode
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -34,3 +35,5 @@ Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenh
 Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.
 
 Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
+
+Die Module Altmorschen, Licherode und Ersrode bilden ein zusammenhängendes Netz (längste Strecke 18,4 km). 

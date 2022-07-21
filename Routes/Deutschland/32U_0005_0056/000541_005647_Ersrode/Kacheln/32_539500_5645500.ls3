@@ -2901,5 +2901,34 @@
 <Face i="39;38;37"/>
 <Face i="41;38;40"/>
 </SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="-100" V="100">
+<p X="500" Y="500" Z="444.2571"/>
+<n X="0.1176" Y="-0.0546" Z="0.9916"/>
+</Vertex>
+<Vertex U="-108" V="100">
+<p X="500" Y="420" Z="439.8524"/>
+<n X="0.1176" Y="-0.0546" Z="0.9916"/>
+</Vertex>
+<Vertex U="-140" V="116">
+<p X="340" Y="100" Z="441.2086"/>
+<n X="0.1176" Y="-0.0546" Z="0.9916"/>
+</Vertex>
+<Vertex U="-100" V="116">
+<p X="340" Y="500" Z="463.2321"/>
+<n X="0.1176" Y="-0.0546" Z="0.9916"/>
+</Vertex>
+<Vertex U="-140" V="100">
+<p X="500" Y="100" Z="439.4131"/>
+<n X="0.0644" Y="-0.028" Z="0.9957"/>
+</Vertex>
+<Face i="1;2;3"/>
+<Face i="1;3;0"/>
+<Face i="2;1;4"/>
+</SubSet>
 </Landschaft>
 </Zusi>

@@ -211,11 +211,21 @@
 <ReferenzElemente ReferenzNr="177" StrElement="220" StrNorm="1" RefTyp="4" Info="Bü km 231,716"/>
 <ReferenzElemente ReferenzNr="178" StrElement="1162" RefTyp="4" Info="Bü km 231,716"/>
 <ReferenzElemente ReferenzNr="179" StrElement="1162" StrNorm="1" RefTyp="4" Info="Bü km 231,716"/>
+<ReferenzElemente ReferenzNr="180" StrElement="648" StrNorm="1" RefTyp="2" Info="Register-Nr. 1"/>
+<ReferenzElemente ReferenzNr="181" StrElement="574" StrNorm="1" RefTyp="2" Info="Register-Nr. 2"/>
+<ReferenzElemente ReferenzNr="182" StrElement="550" StrNorm="1" RefTyp="2" Info="Register-Nr. 3"/>
+<ReferenzElemente ReferenzNr="183" StrElement="551" StrNorm="1" RefTyp="2" Info="Register-Nr. 4"/>
+<ReferenzElemente ReferenzNr="184" StrElement="130" StrNorm="1" RefTyp="2" Info="Register-Nr. 5"/>
+<ReferenzElemente ReferenzNr="185" StrElement="56" StrNorm="1" RefTyp="2" Info="Register-Nr. 6"/>
+<ReferenzElemente ReferenzNr="186" StrElement="32" StrNorm="1" RefTyp="2" Info="Register-Nr. 7"/>
+<ReferenzElemente ReferenzNr="187" StrElement="33" StrNorm="1" RefTyp="2" Info="Register-Nr. 8"/>
 <StrElement Nr="1" spTrass="69.4444" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3249">
 <g X="-1019.236" Y="1703.408" Z="249.4191"/>
 <b X="-1016.145" Y="1654.932" Z="248.919"/>
 <InfoNormRichtung vMax="69.4444" km="171.3" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="171.3486"/>
+<InfoGegenRichtung vMax="69.4444" km="171.3486">
+<Ereignis Er="34" Wert="207" Beschr="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3"/>
+</InfoGegenRichtung>
 <NachNorm Nr="2"/>
 <NachGegenModul Nr="190">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
@@ -225,7 +235,9 @@
 <g X="-1016.145" Y="1654.932" Z="248.919"/>
 <b X="-1013.054" Y="1606.4561" Z="248.4552"/>
 <InfoNormRichtung vMax="69.4444" km="171.3486" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="171.3971"/>
+<InfoGegenRichtung vMax="69.4444" km="171.3971">
+<Ereignis Er="34" Wert="204" Beschr="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3"/>
+</InfoGegenRichtung>
 <NachNorm Nr="3"/>
 <NachGegen Nr="1"/>
 </StrElement>
@@ -583,7 +595,7 @@
 <StrElement Nr="32" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3147">
 <g X="-934.1027" Y="238.7359" Z="235.3659"/>
 <b X="-933.75" Y="213.9663" Z="235.1295"/>
-<InfoNormRichtung vMax="69.4444" km="172.7673" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="172.7673" pos="1" Reg="7"/>
 <InfoGegenRichtung vMax="69.4444" km="172.7921"/>
 <NachNorm Nr="33"/>
 <NachGegen Nr="31"/>
@@ -591,7 +603,7 @@
 <StrElement Nr="33" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3303">
 <g X="-933.75" Y="213.9663" Z="235.1295"/>
 <b X="-933.485" Y="189.1957" Z="234.8931"/>
-<InfoNormRichtung vMax="69.4444" km="172.7921" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="172.7921" pos="1" Reg="8"/>
 <InfoGegenRichtung vMax="69.4444" km="172.8169"/>
 <NachNorm Nr="34"/>
 <NachGegen Nr="32"/>
@@ -807,7 +819,7 @@
 <StrElement Nr="56" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3217">
 <g X="-943.2507" Y="-248.0852" Z="231.2964"/>
 <b X="-943.7076" Y="-256.5091" Z="231.2801"/>
-<InfoNormRichtung vMax="69.4444" km="173.2545" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="173.2545" pos="1" Reg="6"/>
 <InfoGegenRichtung vMax="69.4444" km="173.2629"/>
 <NachNorm Nr="57"/>
 <NachGegen Nr="55"/>
@@ -1342,24 +1354,24 @@
 <p/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel_Ring_dick.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
-<sk/>
+<sk X="0.66" Y="0.66" Z="0.66"/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
-<sk/>
+<sk X="0.66" Y="0.66" Z="0.66"/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
-<sk/>
+<sk X="0.66" Y="0.66" Z="0.66"/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -1398,7 +1410,7 @@
 <StrElement Nr="130" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2962">
 <g X="-1208.3549" Y="-1816.241" Z="248.3193"/>
 <b X="-1215.275" Y="-1840.026" Z="248.629"/>
-<InfoNormRichtung vMax="69.4444" km="174.8489" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="174.8489" pos="1" Reg="5"/>
 <InfoGegenRichtung vMax="69.4444" km="174.8736"/>
 <NachNorm Nr="131"/>
 <NachGegen Nr="129"/>
@@ -5552,7 +5564,7 @@
 <StrElement Nr="550" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2704">
 <g X="-929.4031" Y="238.8111" Z="235.3659"/>
 <b X="-929.0501" Y="214.0249" Z="235.1295"/>
-<InfoNormRichtung vMax="69.4444" km="172.7673" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="172.7673" pos="1" Reg="3"/>
 <InfoGegenRichtung vMax="69.4444" km="172.7921"/>
 <NachNorm Nr="551"/>
 <NachGegen Nr="549"/>
@@ -5560,7 +5572,7 @@
 <StrElement Nr="551" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2855">
 <g X="-929.0501" Y="214.0249" Z="235.1295"/>
 <b X="-928.785" Y="189.2376" Z="234.8931"/>
-<InfoNormRichtung vMax="69.4444" km="172.7921" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="172.7921" pos="1" Reg="4"/>
 <InfoGegenRichtung vMax="69.4444" km="172.8169"/>
 <NachNorm Nr="552"/>
 <NachGegen Nr="550"/>
@@ -5776,7 +5788,7 @@
 <StrElement Nr="574" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3078">
 <g X="-938.5316" Y="-247.8608" Z="231.2978"/>
 <b X="-939.0145" Y="-256.7665" Z="231.2801"/>
-<InfoNormRichtung vMax="69.4444" km="173.254" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="173.254" pos="1" Reg="2"/>
 <InfoGegenRichtung vMax="69.4444" km="173.2629"/>
 <NachNorm Nr="575"/>
 <NachGegen Nr="573"/>
@@ -6306,29 +6318,29 @@
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 235"/>
 <Signal NameBetriebsstelle="LZB-Bk 235" Stellwerk="ESTW-A Licherode" Signalname="235" SignalTyp="12" BoundingR="1">
 <p X="-1184.1501" Y="-1759.4941" Z="250.8061"/>
-<phi Z="-1.843437"/>
+<phi Z="-1.843438"/>
 <SignalFrame>
 <p/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel_Ring_dick.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
-<sk/>
+<sk X="0.66" Y="0.66" Z="0.66"/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
-<sk/>
+<sk X="0.66" Y="0.66" Z="0.66"/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
-<sk/>
+<sk X="0.66" Y="0.66" Z="0.66"/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -6367,7 +6379,7 @@
 <StrElement Nr="648" Ueberh="0.0453" kr="-0.000143" spTrass="69.4444" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2956">
 <g X="-1203.84" Y="-1817.546" Z="248.3193"/>
 <b X="-1210.765" Y="-1841.347" Z="248.629"/>
-<InfoNormRichtung vMax="69.4444" km="174.8489" pos="1"/>
+<InfoNormRichtung vMax="69.4444" km="174.8489" pos="1" Reg="1"/>
 <InfoGegenRichtung vMax="69.4444" km="174.8737"/>
 <NachNorm Nr="649"/>
 <NachGegen Nr="647"/>
@@ -6746,7 +6758,9 @@
 <g X="-1014.5453" Y="1703.7076" Z="249.4191"/>
 <b X="-1011.505" Y="1656.01" Z="248.9264"/>
 <InfoNormRichtung vMax="69.4444" km="171.3" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="171.3478"/>
+<InfoGegenRichtung vMax="69.4444" km="171.3478">
+<Ereignis Er="34" Wert="203" Beschr="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3"/>
+</InfoGegenRichtung>
 <NachNorm Nr="686"/>
 <NachGegenModul Nr="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
@@ -6756,7 +6770,9 @@
 <g X="-1011.505" Y="1656.01" Z="248.9264"/>
 <b X="-1008.464" Y="1608.313" Z="248.4701"/>
 <InfoNormRichtung vMax="69.4444" km="171.3478" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="171.3956"/>
+<InfoGegenRichtung vMax="69.4444" km="171.3956">
+<Ereignis Er="34" Wert="200" Beschr="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3"/>
+</InfoGegenRichtung>
 <NachNorm Nr="687"/>
 <NachGegen Nr="685"/>
 </StrElement>
@@ -13094,7 +13110,7 @@
 <StrElement Nr="1297" spTrass="36.1111" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.5216">
 <g X="875.127" Y="-1589.8549" Z="181.5945"/>
 <b X="864.4969" Y="-1578.5745" Z="181.6216"/>
-<InfoNormRichtung vMax="-1">
+<InfoNormRichtung vMax="-1" Reg="5046">
 <Ereignis Er="1000010" Beschr="Altmorschen Hp"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" Reg="5046">
@@ -16332,7 +16348,7 @@
 <StrElement Nr="1804" spTrass="36.1111" Anschluss="256" Oberbau="B55 SKL-Oberbau" Volt="2" Drahthoehe="5.5216">
 <g X="864.4969" Y="-1578.5745" Z="181.6216"/>
 <b X="861.2" Y="-1575.076" Z="181.63"/>
-<InfoNormRichtung vMax="27.7778" km="228.2611" pos="1" Reg="5046"/>
+<InfoNormRichtung vMax="27.7778" km="228.2611" pos="1"/>
 <InfoGegenRichtung vMax="-1">
 <Ereignis Er="1000009" Beschr="Altmorschen Hp"/>
 </InfoGegenRichtung>
@@ -27382,6 +27398,9 @@
 <FahrstrRegister Ref="68">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="71">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -27443,6 +27462,9 @@
 <FahrstrRegister Ref="77">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="178">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -27467,6 +27489,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="181">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="100">
@@ -27530,6 +27555,9 @@
 <FahrstrRegister Ref="106">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="180">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -27543,7 +27571,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Wildsberg 115 -&gt; Licherode A211" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6924.1001">
+<Fahrstrasse FahrstrName="Üst Wildsberg 115 -&gt; Licherode A211" FahrstrStrecke="1733a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6924.1001">
 <FahrstrStart Ref="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -27577,10 +27605,19 @@
 <FahrstrRegister Ref="45">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="65">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="71">
@@ -27593,6 +27630,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="178">
@@ -27665,7 +27705,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Wildsberg 115 -&gt; Licherode A212" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6924.1001">
+<Fahrstrasse FahrstrName="Üst Wildsberg 115 -&gt; Licherode A212" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6924.1001">
 <FahrstrStart Ref="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -27705,10 +27745,19 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="181">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="100">
@@ -27721,6 +27770,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="180">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
@@ -27824,6 +27876,12 @@
 <FahrstrRegister Ref="45">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="65">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -27899,6 +27957,12 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="183">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="94">
@@ -27978,6 +28042,12 @@
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="200">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="203">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -27985,6 +28055,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="202">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="145">
@@ -28097,10 +28170,19 @@
 <FahrstrRegister Ref="7">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="204">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="207">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="206">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="112">
@@ -28213,6 +28295,12 @@
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="200">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="203">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -28293,6 +28381,12 @@
 <FahrstrRegister Ref="7">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="204">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="207">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -28330,7 +28424,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Wildsberg 145 -&gt; Licherode A212" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6924.1001">
+<Fahrstrasse FahrstrName="Üst Wildsberg 145 -&gt; Licherode A212" FahrstrStrecke="1733a" RglGgl="3" FahrstrTyp="TypZug" Laenge="6924.1001">
 <FahrstrStart Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -28370,10 +28464,19 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="97">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="181">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="100">
@@ -28386,6 +28489,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="180">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
@@ -28455,7 +28561,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Wildsberg 145 -&gt; Licherode A211" FahrstrStrecke="300a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6924.2998">
+<Fahrstrasse FahrstrName="Üst Wildsberg 145 -&gt; Licherode A211" FahrstrStrecke="1733a" RglGgl="2" FahrstrTyp="TypZug" Laenge="6924.2998">
 <FahrstrStart Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -28495,10 +28601,19 @@
 <FahrstrRegister Ref="45">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="65">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="68">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="71">
@@ -28511,6 +28626,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="77">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="184">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="178">
@@ -28623,6 +28741,12 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="182">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="183">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="94">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -28700,6 +28824,12 @@
 <FahrstrRegister Ref="45">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="65">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -28771,10 +28901,19 @@
 <FahrstrRegister Ref="7">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="204">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="207">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="206">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="112">
@@ -28887,6 +29026,12 @@
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="200">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="203">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -28894,6 +29039,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="202">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="145">
@@ -29000,6 +29148,12 @@
 <FahrstrRegister Ref="7">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="204">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="207">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -29076,6 +29230,12 @@
 </FahrstrRegister>
 <FahrstrRegister Ref="21">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="200">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="203">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005665_Kaiserau\Kaiserau_1992.st3" NurInfo="1"/>

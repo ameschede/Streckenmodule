@@ -191,13 +191,13 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-456.7873" Y="10.3021" Z="374.519"/>
 <phi X="0.014962" Z="3.295042"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-456.2733" Y="13.4045" Z="373.5306"/>
 <phi X="0.009164" Z="3.321571"/>
 <sk/>
@@ -209,13 +209,13 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-463.9083" Y="9.2845" Z="374.5176"/>
 <phi X="0.015654" Z="3.241624"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-465.261" Y="12.1185" Z="373.5289"/>
 <phi X="0.010014" Z="3.211004"/>
 <sk/>
@@ -269,13 +269,13 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-486.5088" Y="226.9519" Z="373.6522"/>
 <phi X="0.007597" Z="0.086915"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-485.1968" Y="224.0988" Z="372.6648"/>
 <phi X="0.001312" Z="0.056399"/>
 <sk/>
@@ -293,13 +293,13 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-493.6419" Y="226.0375" Z="373.6523"/>
 <phi X="0.00757" Z="0.140681"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" GruppenName="Fahrleitung" BoundingR="1" SichtbarBis="3000" Vorlade="1" Helligkeit="0.07">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Isolator.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Isolatoren\Stabisolatoren\Stabisolator_1998_Ekl.lod.ls3"/>
 <p X="-494.2003" Y="222.943" Z="372.665"/>
 <phi X="0.001204" Z="0.167322"/>
 <sk/>
@@ -9050,6 +9050,40 @@
 <Face i="129;131;132"/>
 <Face i="129;132;130"/>
 <Face i="133;130;132"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="-100" V="96">
+<p X="-460" Y="500" Z="439.5133"/>
+<n X="0.1176" Y="-0.0546" Z="0.9916"/>
+</Vertex>
+<Vertex U="-108" V="100">
+<p X="-500" Y="420" Z="439.8524"/>
+<n X="0.1176" Y="-0.0546" Z="0.9916"/>
+</Vertex>
+<Vertex U="-100" V="100">
+<p X="-500" Y="500" Z="444.2571"/>
+<n X="0.1176" Y="-0.0546" Z="0.9916"/>
+</Vertex>
+<Vertex U="-140" V="100">
+<p X="-500" Y="100" Z="439.4131"/>
+<n X="0.0644" Y="-0.028" Z="0.9957"/>
+</Vertex>
+<Vertex U="-100" V="84">
+<p X="-340" Y="500" Z="438.1667"/>
+<n X="0.0777" Y="-0.0346" Z="0.9947"/>
+</Vertex>
+<Vertex U="-140" V="84">
+<p X="-340" Y="100" Z="437.6176"/>
+<n X="0.0112" Y="-0.0014" Z="0.9999"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="4;5;3"/>
+<Face i="4;3;1"/>
+<Face i="0;4;1"/>
 </SubSet>
 </Landschaft>
 </Zusi>
