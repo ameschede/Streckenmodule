@@ -3538,7 +3538,9 @@
 <StrElement Nr="296" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2944">
 <g X="304.6419" Y="-1237.348" Z="304.7101"/>
 <b X="307.9738" Y="-1265.6504" Z="305.0663"/>
-<InfoGegenRichtung vMax="77.7778" km="179.3887"/>
+<InfoGegenRichtung vMax="77.7778" km="179.3887">
+<Ereignis Er="57" Wert="89"/>
+</InfoGegenRichtung>
 <NachNorm Nr="571"/>
 <NachGegen Nr="590"/>
 </StrElement>
@@ -5201,7 +5203,9 @@
 <StrElement Nr="405" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2937">
 <g X="296.0801" Y="-1233.901" Z="304.6548"/>
 <b X="299.9381" Y="-1266.6721" Z="305.0673"/>
-<InfoGegenRichtung vMax="77.7778" km="179.3888"/>
+<InfoGegenRichtung vMax="77.7778" km="179.3888">
+<Ereignis Er="57" Wert="89"/>
+</InfoGegenRichtung>
 <NachNorm Nr="572"/>
 <NachGegen Nr="591"/>
 </StrElement>
@@ -7385,6 +7389,7 @@
 <b X="310.3128" Y="-1285.519" Z="305.3164"/>
 <InfoNormRichtung vMax="77.7778" km="179.3887" pos="1" Reg="5042"/>
 <InfoGegenRichtung vMax="-1" Reg="5042">
+<Ereignis Er="57" Wert="-89"/>
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="P241" SignalTyp="9" BoundingR="10">
 <p X="310.2083" Y="-1265.3873" Z="305.0663"/>
 <phi Z="1.687981"/>
@@ -7527,6 +7532,7 @@
 <b X="301.8329" Y="-1282.767" Z="305.2699"/>
 <InfoNormRichtung vMax="77.7778" km="179.3888" pos="1" Reg="5043"/>
 <InfoGegenRichtung vMax="-1" Reg="5043">
+<Ereignis Er="57" Wert="-89"/>
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="P240" SignalTyp="9" BoundingR="10">
 <p X="303.0466" Y="-1266.3062" Z="305.0673"/>
 <phi Z="1.687981"/>
@@ -7666,7 +7672,7 @@
 <g X="323.1215" Y="-1354.121" Z="306.1868"/>
 <b X="326.8406" Y="-1385.713" Z="306.5844"/>
 <InfoNormRichtung vMax="77.7778" km="179.4783" pos="1" Reg="5044"/>
-<InfoGegenRichtung vMax="-1" Reg="5044">
+<InfoGegenRichtung vMax="-1" km="179.5101" Reg="5044">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="P242" SignalTyp="9" BoundingR="10">
 <p X="326.23" Y="-1353.755" Z="306.1868"/>
 <phi Z="1.68798"/>
