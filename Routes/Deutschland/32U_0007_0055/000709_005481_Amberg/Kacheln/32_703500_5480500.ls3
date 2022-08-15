@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="7" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="-500.0001" V="-100">
+<p X="500.0001" Y="-500" Z="385.912"/>
+<n X="-0.001" Y="0.0026" Z="1"/>
+</Vertex>
+<Vertex U="-524.5366" V="-100">
+<p X="254.6348" Y="-500" Z="384.8626"/>
+<n X="-0.0043" Y="-0.0136" Z="0.9999"/>
+</Vertex>
+<Vertex U="-500.0001" V="-76.1352">
+<p X="500.0001" Y="-261.3521" Z="389.1597"/>
+<n X="-0.0007" Y="-0.0354" Z="0.9994"/>
+</Vertex>
+<Face i="0;1;2"/>
+</SubSet>
+</Landschaft>
+</Zusi>

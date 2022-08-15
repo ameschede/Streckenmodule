@@ -4,37 +4,37 @@
 <AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
 </Info>
 <Landschaft>
-<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730125_5431375.ls3"/>
 <p X="-375" Y="-125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730125_5431625.ls3"/>
 <p X="-375" Y="125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730375_5431125.ls3"/>
 <p X="-125" Y="-375"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730125_5431125.ls3"/>
 <p X="-375" Y="-375"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="138" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="138" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730375_5431375.ls3"/>
 <p X="-125" Y="-125"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="139" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="139" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730625_5431375.ls3"/>
 <p X="125" Y="-125"/>
 <phi/>
@@ -6544,12 +6544,6 @@
 <phi Z="3.228741"/>
 <sk X="1.0609" Y="1.0609" Z="1.0609"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Bushes\Bush03-1m5.lod.ls3"/>
-<p X="-360.7569" Y="-36.8089" Z="336.7346"/>
-<phi Z="-0.113503"/>
-<sk X="1.095" Y="1.095" Z="1.095"/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush02-1m5.lod.ls3"/>
 <p X="-353.9277" Y="-56.7342" Z="336.8836"/>
@@ -9028,25 +9022,13 @@
 <phi Z="0.27101"/>
 <sk X="1.15" Y="1.15"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\110kV_Bahnstrommast86\Tragmast30000_T25.lod.ls3"/>
-<p X="-361.0782" Y="391.8323" Z="333.4424"/>
-<phi Z="0.217996"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\110kV_Bahnstrommast86\Tragmast30000_T25.lod.ls3"/>
-<p X="-193.6149" Y="417.7226" Z="334.0104"/>
-<phi Z="0.94678"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="132" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="132" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730125_5431875.ls3"/>
 <p X="-375" Y="375"/>
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="177" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730375_5431875.ls3"/>
 <p X="-125" Y="375"/>
 <phi/>
@@ -11596,10 +11578,28 @@
 <phi Z="5.06264"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1134" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Schilder\Schild_DB_Unfallgefahr.lod.ls3"/>
 <p X="-346.9301" Y="-253.1062" Z="336.571"/>
 <phi Z="5.387835"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Industrie\Saegewerk\Eichenstapel_2.lod.ls3"/>
+<p X="-362.3035" Y="-32.5235" Z="336.82"/>
+<phi Y="0.008727" Z="1.884956"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Objekte\NROB_Freileitung\NROB_Saal-Regensburg_110kV_260.lod.ls3"/>
+<p X="-361.0782" Y="391.8323" Z="333.4424"/>
+<phi Z="1.788793"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Objekte\NROB_Freileitung\NROB_Saal-Regensburg_110kV_260.lod.ls3"/>
+<p X="-193.6149" Y="417.7226" Z="333.8"/>
+<phi Z="2.517576"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
@@ -53686,9 +53686,9 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\embankment.dds"/>
 </Textur>
-<Vertex U="-55.04" V="85.549">
-<p X="-355.4926" Y="-50.4013" Z="336.9068"/>
-<n X="-0.1048" Y="-0.0295" Z="0.9941"/>
+<Vertex U="-54.9785" V="85.7599">
+<p X="-357.508" Y="-49.7605" Z="336.6099"/>
+<n X="0.008" Y="0.0115" Z="0.9999"/>
 </Vertex>
 <Vertex U="-58.347" V="84.618">
 <p X="-346.1817" Y="-83.4666" Z="336.9063"/>
@@ -53702,9 +53702,9 @@
 <p X="-364.9649" Y="-31.7332" Z="336.4628"/>
 <n X="-0.1048" Y="-0.0295" Z="0.9941"/>
 </Vertex>
-<Vertex U="-51.346" V="86.724">
-<p X="-367.2388" Y="-13.4589" Z="336.6762"/>
-<n X="-0.0922" Y="-0.0231" Z="0.9955"/>
+<Vertex U="-51.2888" V="87.0879">
+<p X="-370.8635" Y="-12.8181" Z="336.3792"/>
+<n X="-0.0367" Y="-0.007" Z="0.9993"/>
 </Vertex>
 <Vertex U="-49.182" V="87.946">
 <p X="-379.456" Y="8.1786" Z="336.1204"/>
@@ -53960,17 +53960,17 @@
 <p X="-346.1817" Y="-83.4666" Z="336.9063"/>
 <n X="-0.0028" Y="-0.0083" Z="1"/>
 </Vertex>
-<Vertex U="28.902" V="89.92">
-<p X="-355.4925" Y="-50.4013" Z="336.9068"/>
-<n X="-0.0074" Y="-0.0021" Z="1"/>
+<Vertex U="28.4393" V="90.0399">
+<p X="-357.508" Y="-49.7605" Z="336.6099"/>
+<n X="-0.0124" Y="0.0046" Z="0.9999"/>
 </Vertex>
 <Vertex U="33.237" V="94.419">
 <p X="-333.8131" Y="-27.903" Z="336.797"/>
 <n X="-0.0053" Y="0.01" Z="0.9999"/>
 </Vertex>
-<Vertex U="26.552" V="97.308">
-<p X="-367.2387" Y="-13.4589" Z="336.6762"/>
-<n X="-0.0011" Y="0.0059" Z="1"/>
+<Vertex U="25.7654" V="97.4276">
+<p X="-370.8635" Y="-12.8181" Z="336.3792"/>
+<n X="-0.0102" Y="0.0025" Z="0.9999"/>
 </Vertex>
 <Face i="2;0;1"/>
 <Face i="3;0;2"/>
@@ -62931,9 +62931,9 @@
 <p X="-155.1609" Y="-500" Z="330.199"/>
 <n X="-0.1305" Y="0.227" Z="0.9113"/>
 </Vertex>
-<Vertex U="-66.2663" V="-100">
-<p X="-162.663" Y="-500" Z="325.9289"/>
-<n X="-0.229" Y="0.3645" Z="0.886"/>
+<Vertex U="-66.2959" V="-100.0267">
+<p X="-162.6629" Y="-499.3593" Z="325.632"/>
+<n X="-0.4791" Y="0.828" Z="0.2915"/>
 </Vertex>
 <Vertex U="-60" V="-96.2848">
 <p X="-99.9999" Y="-462.8484" Z="324.9185"/>

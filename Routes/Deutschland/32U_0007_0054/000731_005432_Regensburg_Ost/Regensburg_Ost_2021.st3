@@ -35,8 +35,8 @@
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
 <StreckenStandort StrInfo="Blick von Brücke B15">
-<p X="-1860.23" Y="726.56" Z="351.61"/>
-<lookat X="-1844.53" Y="707.18" Z="349.99"/>
+<p X="-1860.2301" Y="726.56" Z="351.61"/>
+<lookat X="-1844.5302" Y="707.18" Z="349.99"/>
 <up X="-1859.8199" Y="726.06" Z="361.59"/>
 </StreckenStandort>
 <StreckenStandort StrInfo="Blick von Brücke A3">
@@ -51,11 +51,11 @@
 </StreckenStandort>
 <StreckenStandort StrInfo="Containerbrücke">
 <p X="-1371.49" Y="283.42" Z="337.77"/>
-<lookat X="-1346.85" Y="282.47" Z="341.9"/>
+<lookat X="-1346.8499" Y="282.47" Z="341.9"/>
 <up X="-1373.14" Y="283.49" Z="347.63"/>
 </StreckenStandort>
 <StreckenStandort StrInfo="Luftansicht Ubf">
-<p X="-1354.22" Y="499.69" Z="426.19"/>
+<p X="-1354.2198" Y="499.69" Z="426.19"/>
 <lookat X="-1254.0601" Y="312.33" Z="345.21"/>
 <up X="-1352.54" Y="496.54" Z="435.54"/>
 </StreckenStandort>
@@ -70,13 +70,13 @@
 <up X="-2062.1101" Y="1149.7" Z="351.38"/>
 </StreckenStandort>
 <StreckenStandort StrInfo="BÜ km 135,236">
-<p X="-1772.14" Y="706.38" Z="338.92"/>
+<p X="-1772.1401" Y="706.38" Z="338.92"/>
 <lookat X="-1746.8" Y="701.32" Z="335.94"/>
 <up X="-1771.02" Y="706.15" Z="348.86"/>
 </StreckenStandort>
 <StreckenStandort StrInfo="Knape Gleisbau (ehem. Wagenwerk)">
 <p X="-1620.1" Y="607.96" Z="343.91"/>
-<lookat X="-1605.99" Y="587.52" Z="341.05"/>
+<lookat X="-1605.99" Y="587.5201" Z="341.05"/>
 <up X="-1619.45" Y="607.01" Z="353.85"/>
 </StreckenStandort>
 <StreckenStandort StrInfo="Gleis 323">
@@ -1289,7 +1289,7 @@
 <p/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-10.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-16.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.025" Z="-2.1"/>
@@ -1476,7 +1476,7 @@
 <g X="-1040.0201" Y="-507.837" Z="338.3975"/>
 <b X="-1014.7219" Y="-544.982" Z="338.5887"/>
 <InfoNormRichtung vMax="44.4444" km="133.8363"/>
-<InfoGegenRichtung vMax="44.4444" km="133.7914" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.7914" pos="1"/>
 <NachNorm Nr="61"/>
 <NachGegen Nr="5651"/>
 </StrElement>
@@ -1484,7 +1484,7 @@
 <g X="-1014.7219" Y="-544.982" Z="338.5887"/>
 <b X="-989.4239" Y="-582.127" Z="338.78"/>
 <InfoNormRichtung vMax="44.4444" km="133.7914"/>
-<InfoGegenRichtung vMax="44.4444" km="133.7464" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.7464" pos="1"/>
 <NachNorm Nr="62"/>
 <NachGegen Nr="60"/>
 </StrElement>
@@ -1492,7 +1492,7 @@
 <g X="-989.4239" Y="-582.127" Z="338.78"/>
 <b X="-964.1259" Y="-619.272" Z="338.9713"/>
 <InfoNormRichtung vMax="44.4444" km="133.7464"/>
-<InfoGegenRichtung vMax="44.4444" km="133.7015" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.7015" pos="1"/>
 <NachNorm Nr="673"/>
 <NachGegen Nr="61"/>
 </StrElement>
@@ -8465,7 +8465,7 @@
 <g X="-768.2888" Y="-908.25" Z="339.9002"/>
 <b X="-742.1502" Y="-946.62" Z="339.9001"/>
 <InfoNormRichtung vMax="44.4444" km="133.3524"/>
-<InfoGegenRichtung vMax="44.4444" km="133.306" pos="1">
+<InfoGegenRichtung vMax="27.7778" km="133.306" pos="1">
 <Ereignis Er="1000011"/>
 </InfoGegenRichtung>
 <NachNorm Nr="657"/>
@@ -8475,7 +8475,7 @@
 <g X="-742.1502" Y="-946.62" Z="339.9001"/>
 <b X="-716.0116" Y="-984.99" Z="339.9001"/>
 <InfoNormRichtung vMax="44.4444" km="133.306"/>
-<InfoGegenRichtung vMax="44.4444" km="133.2595" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.2595" pos="1"/>
 <NachNorm Nr="658"/>
 <NachGegen Nr="656"/>
 </StrElement>
@@ -8483,9 +8483,9 @@
 <g X="-716.0116" Y="-984.99" Z="339.9001"/>
 <b X="-708.6926" Y="-995.7339" Z="339.9001"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000009"/>
+<Ereignis Er="1000009" Beschr="Reg-Burgw Hp"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4444" km="133.2465" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.2465" pos="1"/>
 <NachNorm Nr="7657"/>
 <NachGegen Nr="657"/>
 </StrElement>
@@ -8516,9 +8516,9 @@
 <StrElement Nr="662" kr="-0.00002" spTrass="44.4444" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-768.2861" Y="-908.2483" Z="339.9002"/>
 <b X="-786.6483" Y="-881.2748" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.3524" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.3524" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.385">
-<Ereignis Er="1000008"/>
+<Ereignis Er="1000008" Beschr="Reg-Burgw Hp"/>
 </InfoGegenRichtung>
 <NachNorm Nr="663"/>
 <NachGegen Nr="656"/>
@@ -8526,7 +8526,7 @@
 <StrElement Nr="663" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-786.6483" Y="-881.2748" Z="339.9003"/>
 <b X="-790.7975" Y="-875.1747" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.385" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.385" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.3924"/>
 <NachNorm Nr="664"/>
 <NachGegen Nr="662"/>
@@ -8534,7 +8534,7 @@
 <StrElement Nr="664" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-790.7975" Y="-875.1747" Z="339.9003"/>
 <b X="-794.3686" Y="-869.9232" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.3924" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.3924" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.3987">
 <Ereignis Er="6" Beschr="Reg-Burgw Hp"/>
 </InfoGegenRichtung>
@@ -8544,7 +8544,7 @@
 <StrElement Nr="665" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-794.3686" Y="-869.9232" Z="339.9003"/>
 <b X="-794.9458" Y="-869.074" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.3988" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.3988" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.3998"/>
 <NachNorm Nr="666"/>
 <NachGegen Nr="664"/>
@@ -8552,7 +8552,7 @@
 <StrElement Nr="666" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-794.9458" Y="-869.074" Z="339.9003"/>
 <b X="-799.0931" Y="-862.9727" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.3998" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.3998" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.4072"/>
 <NachNorm Nr="667"/>
 <NachGegen Nr="665"/>
@@ -8560,7 +8560,7 @@
 <StrElement Nr="667" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-799.0931" Y="-862.9727" Z="339.9003"/>
 <b X="-803.2395" Y="-856.8707" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.4072" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.4072" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.4145"/>
 <NachNorm Nr="668"/>
 <NachGegen Nr="666"/>
@@ -8568,7 +8568,7 @@
 <StrElement Nr="668" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-803.2395" Y="-856.8707" Z="339.9003"/>
 <b X="-804.9252" Y="-854.3893" Z="339.9003"/>
-<InfoNormRichtung vMax="-1">
+<InfoNormRichtung vMax="27.7778">
 <Ereignis Er="1000012"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="44.4444" km="133.4175"/>
@@ -8578,7 +8578,7 @@
 <StrElement Nr="669" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-807.3852" Y="-850.7679" Z="339.9003"/>
 <b X="-811.5298" Y="-844.6648" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.4219" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.4219" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.4293"/>
 <NachNorm Nr="670"/>
 <NachGegen Nr="7656"/>
@@ -8586,7 +8586,7 @@
 <StrElement Nr="670" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-811.5298" Y="-844.6648" Z="339.9003"/>
 <b X="-820.4152" Y="-831.574" Z="339.9004"/>
-<InfoNormRichtung vMax="44.4444" km="133.4293" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.4293" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.4451"/>
 <NachNorm Nr="671"/>
 <NachGegen Nr="669"/>
@@ -8594,7 +8594,7 @@
 <StrElement Nr="671" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-820.4152" Y="-831.574" Z="339.9004"/>
 <b X="-846.4264" Y="-793.2006" Z="339.8551"/>
-<InfoNormRichtung vMax="44.4444" km="133.4451" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.4451" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.4915"/>
 <NachNorm Nr="672"/>
 <NachGegen Nr="670"/>
@@ -8602,7 +8602,7 @@
 <StrElement Nr="672" kr="-0.00002" spTrass="44.4444" Anschluss="257" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-846.4264" Y="-793.2006" Z="339.8551"/>
 <b X="-872.402" Y="-754.8033" Z="339.6678"/>
-<InfoNormRichtung vMax="44.4444" km="133.4915" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.4915" pos="1"/>
 <InfoGegenRichtung vMax="44.4444" km="133.5378"/>
 <NachNorm Nr="677"/>
 <NachGegen Nr="671"/>
@@ -8611,7 +8611,7 @@
 <g X="-964.1229" Y="-619.2728" Z="338.9713"/>
 <b X="-948.3693" Y="-642.4487" Z="339.0905"/>
 <InfoNormRichtung vMax="44.4444" km="133.7015"/>
-<InfoGegenRichtung vMax="44.4444" km="133.6735" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.6735" pos="1"/>
 <NachNorm Nr="674"/>
 <NachGegen Nr="62"/>
 </StrElement>
@@ -8619,7 +8619,7 @@
 <g X="-948.3693" Y="-642.4487" Z="339.0905"/>
 <b X="-932.6572" Y="-665.6527" Z="339.2098"/>
 <InfoNormRichtung vMax="44.4444" km="133.6734"/>
-<InfoGegenRichtung vMax="44.4444" km="133.6454" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.6454" pos="1"/>
 <NachNorm Nr="675"/>
 <NachGegen Nr="673"/>
 </StrElement>
@@ -8627,7 +8627,7 @@
 <g X="-932.6599" Y="-665.652" Z="339.2098"/>
 <b X="-912.5739" Y="-695.3733" Z="339.3625"/>
 <InfoNormRichtung vMax="44.4444" km="133.6454"/>
-<InfoGegenRichtung vMax="44.4444" km="133.6095" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.6095" pos="1"/>
 <NachNorm Nr="676"/>
 <NachGegen Nr="674"/>
 </StrElement>
@@ -8635,7 +8635,7 @@
 <g X="-912.5739" Y="-695.3733" Z="339.3625"/>
 <b X="-892.488" Y="-725.0947" Z="339.5151"/>
 <InfoNormRichtung vMax="44.4444" km="133.6095"/>
-<InfoGegenRichtung vMax="44.4444" km="133.5737" pos="1">
+<InfoGegenRichtung vMax="27.7778" km="133.5737" pos="1">
 <Signal NameBetriebsstelle="Regensburg Ost" Stellwerk="Regensburg Ost Stw 2" Signalname="500 Hz (D\)" SignalTyp="14" BoundingR="3">
 <p X="-912.5739" Y="-695.3733" Z="339.3625"/>
 <phi Y="0.004254" Z="2.1651"/>
@@ -8661,7 +8661,7 @@
 <g X="-892.488" Y="-725.0947" Z="339.5151"/>
 <b X="-872.402" Y="-754.816" Z="339.6678"/>
 <InfoNormRichtung vMax="44.4444" km="133.5737"/>
-<InfoGegenRichtung vMax="44.4444" km="133.5378" pos="1"/>
+<InfoGegenRichtung vMax="27.7778" km="133.5378" pos="1"/>
 <NachNorm Nr="672"/>
 <NachGegen Nr="676"/>
 </StrElement>
@@ -8705,7 +8705,7 @@
 <b X="-849.8362" Y="-778.9191" Z="339.8066"/>
 <InfoNormRichtung vMax="44.4444" km="133.5257"/>
 <InfoGegenRichtung vMax="44.4444" km="133.5052" pos="1">
-<Ereignis Er="1000008"/>
+<Ereignis Er="1000008" Beschr="Reg-Burgw Hp"/>
 </InfoGegenRichtung>
 <NachNorm Nr="683"/>
 <NachGegen Nr="681"/>
@@ -8772,7 +8772,7 @@
 <g X="-824.786" Y="-815.4138" Z="339.9004"/>
 <b X="-822.81" Y="-818.3027" Z="339.9004"/>
 <InfoGegenRichtung vMax="44.4444" km="133.4575" pos="1">
-<Ereignis Er="1000007"/>
+<Ereignis Er="1000007" Beschr="Reg-Burgw Hp"/>
 </InfoGegenRichtung>
 <NachNorm Nr="5668"/>
 <NachGegen Nr="689"/>
@@ -20177,7 +20177,7 @@
 </StrElement>
 <StrElement Nr="1751" Ueberh="-0.0973" kr="0.001282" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-2470.8081" Y="1402.528" Z="334.1453"/>
-<b X="-2473.3633" Y="1403.6754" Z="334.1437"/>
+<b X="-2473.3633" Y="1403.6755" Z="334.1437"/>
 <InfoGegenRichtung vMax="33.3333" km="136.2416"/>
 <NachNorm Nr="8944"/>
 <NachGegen Nr="1750"/>
@@ -57667,7 +57667,7 @@
 <InfoNormRichtung vMax="44.4444" km="133.8583" Reg="5201">
 <Ereignis Er="39" Beschr="5500b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5201">
+<InfoGegenRichtung vMax="27.7778" Reg="5201">
 <Ereignis Er="6" Beschr="Ne 1"/>
 <Signal NameBetriebsstelle="Regensburg Ost" Stellwerk="Regensburg Ost Stw 2" Signalname="D\" SignalTyp="13" BoundingR="10">
 <p X="-1054.9335" Y="-491.4468" Z="338.3041"/>
@@ -68844,9 +68844,9 @@
 <StrElement Nr="7656" kr="-0.00002" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
 <g X="-804.9252" Y="-854.3893" Z="339.9003"/>
 <b X="-807.3852" Y="-850.7679" Z="339.9003"/>
-<InfoNormRichtung vMax="44.4444" km="133.4175" pos="1"/>
+<InfoNormRichtung vMax="27.7778" km="133.4175" pos="1"/>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000007"/>
+<Ereignis Er="1000007" Beschr="Reg-Burgw Hp"/>
 </InfoGegenRichtung>
 <NachNorm Nr="669"/>
 <NachGegen Nr="668"/>
@@ -68855,7 +68855,7 @@
 <g X="-708.6926" Y="-995.7339" Z="339.9001"/>
 <b X="-689.873" Y="-1023.36" Z="339.9"/>
 <InfoNormRichtung vMax="44.4444" km="133.2465"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="27.7778">
 <Ereignis Er="1000010"/>
 </InfoGegenRichtung>
 <NachGegen Nr="658"/>
@@ -68865,7 +68865,7 @@
 <b X="-913.8308" Y="-685.7214" Z="339.3254"/>
 <InfoNormRichtung vMax="44.4444" km="133.6321"/>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000009"/>
+<Ereignis Er="1000009" Beschr="Reg-Burgw Hp"/>
 </InfoGegenRichtung>
 <NachNorm Nr="679"/>
 <NachGegen Nr="678"/>
@@ -75296,12 +75296,12 @@
 <NachGegen Nr="1938"/>
 </StrElement>
 <StrElement Nr="8944" Ueberh="-0.0973" kr="0.001282" spTrass="33.3333" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5">
-<g X="-2473.3633" Y="1403.6754" Z="334.1437"/>
+<g X="-2473.3633" Y="1403.6755" Z="334.1437"/>
 <b X="-2478.2759" Y="1405.851" Z="334.1407"/>
 <InfoNormRichtung vMax="33.3333" km="136.2416" pos="1"/>
 <InfoGegenRichtung vMax="-1">
 <Signal NameBetriebsstelle="Regensburg Ost" Stellwerk="Regensburg Ost Fdl Stw 3" Signalname="500 Hz (N\)" SignalTyp="14" BoundingR="3">
-<p X="-2473.3633" Y="1403.6754" Z="334.1437"/>
+<p X="-2473.3633" Y="1403.6755" Z="334.1437"/>
 <phi X="0.0973" Y="-0.000562" Z="-0.416891"/>
 <SignalFrame>
 <p/>
@@ -76868,7 +76868,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost D\ -&gt; Regensburg Ost K" FahrstrTyp="TypZug" Laenge="1283.4">
+<Fahrstrasse FahrstrName="Regensburg Ost D\ -&gt; Regensburg Ost K" FahrstrTyp="TypZug" Laenge="1283.4001">
 <FahrstrStart Ref="461">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -78486,7 +78486,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost N -&gt; Regensburg Ost Hs 8I" FahrstrTyp="TypZug" Laenge="1499">
+<Fahrstrasse FahrstrName="Regensburg Ost N -&gt; Regensburg Ost Hs 8I" FahrstrTyp="TypZug" Laenge="1498.9999">
 <FahrstrStart Ref="377">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -78599,7 +78599,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost N -&gt; Regensburg Ost Hs 6I" FahrstrTyp="TypZug" Laenge="1586.5">
+<Fahrstrasse FahrstrName="Regensburg Ost N -&gt; Regensburg Ost Hs 6I" FahrstrTyp="TypZug" Laenge="1586.4999">
 <FahrstrStart Ref="377">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -80592,7 +80592,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost N\ -&gt; Regensburg Ost F4" FahrstrTyp="TypZug" Laenge="1466.4">
+<Fahrstrasse FahrstrName="Regensburg Ost N\ -&gt; Regensburg Ost F4" FahrstrTyp="TypZug" Laenge="1466.4001">
 <FahrstrStart Ref="391">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -81360,7 +81360,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Ls 309I" FahrstrTyp="TypZug" Laenge="1915.4">
+<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Ls 309I" FahrstrTyp="TypZug" Laenge="1915.4001">
 <FahrstrStart Ref="444">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -81491,7 +81491,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Ls 310I" FahrstrTyp="TypZug" Laenge="1859.5">
+<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Ls 310I" FahrstrTyp="TypZug" Laenge="1859.5001">
 <FahrstrStart Ref="444">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -81616,7 +81616,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Ls 311I" FahrstrTyp="TypZug" Laenge="1859.4">
+<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Ls 311I" FahrstrTyp="TypZug" Laenge="1859.4001">
 <FahrstrStart Ref="444">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -81738,7 +81738,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Hs 8I" FahrstrTyp="TypZug" Laenge="1243.1">
+<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Hs 8I" FahrstrTyp="TypZug" Laenge="1243.0999">
 <FahrstrStart Ref="444">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -81809,7 +81809,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Hs 6I" FahrstrTyp="TypZug" Laenge="1330.6">
+<Fahrstrasse FahrstrName="Regensburg Ost O -&gt; Regensburg Ost Hs 6I" FahrstrTyp="TypZug" Laenge="1330.5999">
 <FahrstrStart Ref="444">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Regensburg_Ost_2021.st3" NurInfo="1"/>
 </FahrstrStart>

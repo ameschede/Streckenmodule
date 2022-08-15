@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="300" V="-316.5195">
+<p X="-500.0001" Y="334.8052" Z="355.3384"/>
+<n X="0.0011" Y="-0.0132" Z="0.9999"/>
+</Vertex>
+<Vertex U="320" V="-300">
+<p X="-300.0005" Y="500.0001" Z="355.8639"/>
+<n X="-0.0003" Y="-0.0013" Z="1"/>
+</Vertex>
+<Vertex U="320" V="-310.2931">
+<p X="-300.0003" Y="397.0694" Z="355.8785"/>
+<n X="-0.0006" Z="1"/>
+</Vertex>
+<Vertex U="300" V="-300">
+<p X="-500.0001" Y="500.0001" Z="355.8959"/>
+<n X="0.0005" Y="-0.0019" Z="1"/>
+</Vertex>
+<Vertex U="339.9999" V="-300">
+<p X="-100.0007" Y="500.0001" Z="355.7944"/>
+<n X="0.0004" Y="-0.0006" Z="1"/>
+</Vertex>
+<Vertex U="340" V="-304.0667">
+<p X="-100.0003" Y="459.3333" Z="355.7786"/>
+<n X="0.0006" Y="-0.0004" Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="3;1;0"/>
+<Face i="1;4;2"/>
+<Face i="5;2;4"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="6" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="353.0626" V="-300">
+<p X="30.626" Y="500.0001" Z="355.7555"/>
+<n X="0.0003" Y="-0.0099" Z="1"/>
+</Vertex>
+<Vertex U="340" V="-304.0667">
+<p X="-100.0003" Y="459.3333" Z="355.7786"/>
+<n X="0.0003" Y="-0.0004" Z="1"/>
+</Vertex>
+<Vertex U="340" V="-300">
+<p X="-100.0003" Y="500.0001" Z="355.7944"/>
+<n X="-0.0009" Y="-0.0072" Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="7" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="339.9998" V="-300">
+<p X="-100.0017" Y="500.0001" Z="320.0094"/>
+<n X="0.0076" Y="-0.0729" Z="0.9973"/>
+</Vertex>
+<Vertex U="300" V="-316.5194">
+<p X="-500.0001" Y="334.8059" Z="314.9327"/>
+<n X="0.0098" Y="-0.0265" Z="0.9996"/>
+</Vertex>
+<Vertex U="300" V="-300">
+<p X="-500.0001" Y="500.0001" Z="320.1108"/>
+<n X="0.0139" Y="-0.0271" Z="0.9995"/>
+</Vertex>
+<Vertex U="340" V="-300">
+<p X="-100.0005" Y="500.0001" Z="320.0094"/>
+<n X="0.0076" Y="-0.0729" Z="0.9973"/>
+</Vertex>
+<Vertex U="340" V="-304.0667">
+<p X="-100.0005" Y="459.3338" Z="319.3186"/>
+<n X="0.0164" Y="-0.017" Z="0.9997"/>
+</Vertex>
+<Vertex U="353.0625" V="-300">
+<p X="30.6252" Y="500.0001" Z="314.9705"/>
+<n X="0.038" Y="-0.1672" Z="0.9852"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="4;1;0"/>
+<Face i="3;4;0"/>
+<Face i="3;5;4"/>
+</SubSet>
+</Landschaft>
+</Zusi>

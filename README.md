@@ -25,6 +25,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Hohenschönhausen
 * Klardorf
 * Licherode
+* Schwarzenfeld
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -36,4 +37,6 @@ Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.
 
 Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 
-Die Module Altmorschen, Licherode und Ersrode bilden ein zusammenhängendes Netz (längste Strecke 18,4 km). 
+Die Module Altmorschen, Licherode und Ersrode bilden ein zusammenhängendes Netz (längste Strecke 18,4 km).
+
+Das Modul Schwarzenfeld schließt bei Irrenlohe ans Bestandsnetz an.

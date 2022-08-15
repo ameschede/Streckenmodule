@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="7" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="120" V="200">
+<p X="-299.9999" Y="-499.9999" Z="419.7212"/>
+<n X="-0.0154" Y="-0.0506" Z="0.9986"/>
+</Vertex>
+<Vertex U="100" V="200">
+<p X="-500" Y="-499.9999" Z="415.1159"/>
+<n X="-0.0351" Y="-0.0369" Z="0.9986"/>
+</Vertex>
+<Vertex U="100" V="220">
+<p X="-500" Y="-300.0003" Z="424.7173"/>
+<n X="-0.0489" Y="-0.0305" Z="0.9983"/>
+</Vertex>
+<Vertex U="140" V="220">
+<p X="-100.0001" Y="-300.0003" Z="433.9279"/>
+<n X="-0.0094" Y="-0.0579" Z="0.9983"/>
+</Vertex>
+<Vertex U="140" V="200">
+<p X="-100.0001" Y="-499.9999" Z="422.6825"/>
+<n X="-0.0286" Y="-0.0316" Z="0.9986"/>
+</Vertex>
+<Vertex U="140" V="260">
+<p X="-100.0001" Y="99.9998" Z="462.5278"/>
+<n X="-0.056" Y="-0.0383" Z="0.9977"/>
+</Vertex>
+<Vertex U="100" V="260">
+<p X="-500" Y="99.9998" Z="426.8145"/>
+<n X="-0.0665" Y="-0.0026" Z="0.9978"/>
+</Vertex>
+<Vertex U="160" V="200">
+<p X="100.0001" Y="-499.9999" Z="418.0161"/>
+<n X="-0.0505" Y="0.012" Z="0.9985"/>
+</Vertex>
+<Vertex U="180" V="220">
+<p X="299.9999" Y="-300.0003" Z="424.5951"/>
+<n X="-0.0531" Y="0.0292" Z="0.9982"/>
+</Vertex>
+<Vertex U="180" V="200">
+<p X="299.9999" Y="-499.9999" Z="439.0466"/>
+<n X="-0.0633" Y="0.0293" Z="0.9975"/>
+</Vertex>
+<Vertex U="200" V="200">
+<p X="500.0001" Y="-499.9999" Z="454.6691"/>
+<n X="-0.0627" Y="0.0289" Z="0.9976"/>
+</Vertex>
+<Vertex U="200" V="220">
+<p X="500.0001" Y="-300.0003" Z="440.2175"/>
+<n X="-0.0524" Y="0.0288" Z="0.9982"/>
+</Vertex>
+<Face i="2;3;0"/>
+<Face i="1;2;0"/>
+<Face i="0;3;4"/>
+<Face i="2;5;3"/>
+<Face i="6;5;2"/>
+<Face i="9;7;8"/>
+<Face i="3;8;7"/>
+<Face i="4;3;7"/>
+<Face i="9;8;11"/>
+<Face i="10;9;11"/>
+</SubSet>
+</Landschaft>
+</Zusi>

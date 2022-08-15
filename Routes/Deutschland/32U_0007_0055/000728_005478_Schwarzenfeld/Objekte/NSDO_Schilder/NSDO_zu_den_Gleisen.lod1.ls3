@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="118" AutorName="Markus"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="NSDO_zu_den_Gleisen.dds"/>
+</Textur>
+<Vertex U="0.166" V="0.857">
+<p X="-0.0075" Y="-0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.208" V="0.861">
+<p X="-0.0075" Y="-0.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.617" V="0.946">
+<p X="-0.0075" Y="-0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.809" V="0.841">
+<p X="-0.0075" Y="-0.3" Z="0.42"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.766" V="0.861">
+<p X="-0.0075" Y="-0.3" Z="0.42"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.617" V="0.733">
+<p X="-0.0075" Y="-0.3" Z="0.42"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.809" V="0.857">
+<p X="-0.0075" Y="0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.208" V="0.881">
+<p X="-0.0075" Y="0.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.313" V="0.946">
+<p X="-0.0075" Y="0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.809" V="0.857">
+<p X="-0.0075" Y="0.3" Z="0.42"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.766" V="0.881">
+<p X="-0.0075" Y="0.3" Z="0.42"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.313" V="0.733">
+<p X="-0.0075" Y="0.3" Z="0.42"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.166" V="0.841">
+<p X="0.0075" Y="-0.3" Z="0.42"/>
+<n Z="1"/>
+</Vertex>
+<Vertex>
+<p X="0.0075" Y="-0.3" Z="0.42"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.766" V="0.881">
+<p X="0.0075" Y="-0.3" Z="0.42"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.166" V="0.841">
+<p X="0.0075" Y="-0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex V="0.7">
+<p X="0.0075" Y="-0.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.208" V="0.881">
+<p X="0.0075" Y="-0.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.809" V="0.841">
+<p X="0.0075" Y="0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.208" V="0.861">
+<p X="0.0075" Y="0.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="1" V="0.7">
+<p X="0.0075" Y="0.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.166" V="0.857">
+<p X="0.0075" Y="0.3" Z="0.42"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.766" V="0.861">
+<p X="0.0075" Y="0.3" Z="0.42"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="1">
+<p X="0.0075" Y="0.3" Z="0.42"/>
+<n X="1"/>
+</Vertex>
+<Face i="15;18;6"/>
+<Face i="6;0;15"/>
+<Face i="12;3;9"/>
+<Face i="9;21;12"/>
+<Face i="22;10;7"/>
+<Face i="7;19;22"/>
+<Face i="13;23;20"/>
+<Face i="20;16;13"/>
+<Face i="4;14;17"/>
+<Face i="17;1;4"/>
+<Face i="2;8;11"/>
+<Face i="11;5;2"/>
+</SubSet>
+</Landschaft>
+</Zusi>

@@ -4,7 +4,7 @@
 <AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
 </Info>
 <Landschaft>
-<Verknuepfte Flags="32" BoundingR="169" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="169" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730125_5432125.ls3"/>
 <p X="-375" Y="-375"/>
 <phi/>
@@ -1168,13 +1168,7 @@
 <phi Z="-0.167363"/>
 <sk X="0.8567" Y="0.8567" Z="0.8567"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\110kV_Bahnstrommast86\Tragmast30000_T25.lod.ls3"/>
-<p X="-163.6309" Y="-349.752" Z="332.8287"/>
-<phi Z="1.446162"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="141" SichtbarBis="300" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="141" SichtbarBis="350" Vorlade="1">
 <Datei Dateiname="Detail_32_730375_5432125.ls3"/>
 <p X="-125" Y="-375"/>
 <phi/>
@@ -2343,6 +2337,12 @@
 <p X="-485.024" Y="-226.1759" Z="333.8521"/>
 <phi Z="4.253372"/>
 <sk X="1" Y="1" Z="1"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="8" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0054\000731_005432_Regensburg_Ost\Objekte\NROB_Freileitung\NROB_Saal-Regensburg_110kV_260.lod.ls3"/>
+<p X="-163.6309" Y="-349.752" Z="332.8287"/>
+<phi Z="3.016959"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
