@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben-2.dds"/>
+</Textur>
+<Vertex U="-72.3281" V="33.3333">
+<p X="500" Y="330.156" Z="48.908"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-72.8414" V="33.3333">
+<p X="500" Y="314.7568" Z="48.8654"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-71.8671" V="39.1993">
+<p X="324.0215" Y="343.9866" Z="48.911"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-68.7756" V="39.0475">
+<p X="328.5754" Y="436.7319" Z="49.1688"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-66.6667" V="35.1832">
+<p X="444.5035" Y="500" Z="48.8764"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-66.6667" V="33.3333">
+<p X="500" Y="500" Z="48.7624"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-66.6667" V="38.1038">
+<p X="356.887" Y="500" Z="48.8382"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-66.6667" V="38.9255">
+<p X="332.2339" Y="500" Z="48.7805"/>
+<n Z="1"/>
+</Vertex>
+<Vertex>
+<p X="324.0215" Y="343.9866" Z="48.911"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.4667">
+<p X="321.9365" Y="342.3054" Z="34.911"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="3.0928">
+<p X="328.5754" Y="436.7319" Z="49.1688"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="3.0928" V="0.4667">
+<p X="326.5787" Y="436.8469" Z="35.1688"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.2036">
+<p X="332.2339" Y="500" Z="48.7805"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.2013" V="0.274">
+<p X="331.0575" Y="500" Z="40.5597"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.1788" V="0.4667">
+<p X="330.2306" Y="500" Z="34.785"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="79.9224">
+<p X="500" Y="314.7568" Z="48.8654"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="79.9099" V="0.3923">
+<p X="500" Y="313.0525" Z="37.0962"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="85.8641">
+<p X="324.0215" Y="343.9866" Z="48.911"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="79.8988" V="0.4667">
+<p X="500" Y="312.7295" Z="34.8652"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="85.8641" V="0.4667">
+<p X="321.9365" Y="342.3054" Z="34.911"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;3;0"/>
+<Face i="1;2;0"/>
+<Face i="5;0;3"/>
+<Face i="5;3;4"/>
+<Face i="6;4;3"/>
+<Face i="6;3;7"/>
+<Face i="9;10;8"/>
+<Face i="10;9;11"/>
+<Face i="10;11;13"/>
+<Face i="12;10;13"/>
+<Face i="13;11;14"/>
+<Face i="16;17;15"/>
+<Face i="18;19;17"/>
+<Face i="18;17;16"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="15" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="2"/>
+<Textur>
+<Datei Dateiname="Terrain\General\forest\Wald_rand.dds"/>
+</Textur>
+<Vertex V="0.3553">
+<p X="321.9365" Y="342.3054" Z="51.911"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.6667">
+<p X="321.9365" Y="342.3054" Z="34.911"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="3.0928" V="0.3553">
+<p X="326.5787" Y="436.8469" Z="52.1688"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="3.0928" V="0.6667">
+<p X="326.5787" Y="436.8469" Z="35.1688"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.1788" V="0.3553">
+<p X="330.2306" Y="500" Z="51.785"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.1788" V="0.5395">
+<p X="330.2306" Y="500" Z="41.7271"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="5.1788" V="0.6667">
+<p X="330.2306" Y="500" Z="34.785"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="79.8988" V="0.3553">
+<p X="500" Y="312.7295" Z="51.8652"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="79.8988" V="0.6175">
+<p X="500" Y="312.7295" Z="37.5475"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="85.8641" V="0.3553">
+<p X="321.9365" Y="342.3054" Z="51.911"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="79.8988" V="0.6667">
+<p X="500" Y="312.7295" Z="34.8652"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="85.8641" V="0.6667">
+<p X="321.9365" Y="342.3054" Z="34.911"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="2;1;3"/>
+<Face i="2;3;5"/>
+<Face i="4;2;5"/>
+<Face i="5;3;6"/>
+<Face i="8;9;7"/>
+<Face i="11;9;8"/>
+<Face i="10;11;8"/>
+</SubSet>
+</Landschaft>
+</Zusi>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\soil01.dds"/>
+</Textur>
+<Vertex U="312.6858" V="100">
+<p X="500" Y="-373.1418" Z="30.9162"/>
+<n X="0.0001" Y="0" Z="1"/>
+</Vertex>
+<Vertex U="309.1345" V="100">
+<p X="500" Y="-408.6555" Z="30.9158"/>
+<n X="0.0001" Y="0" Z="1"/>
+</Vertex>
+<Vertex U="315.3365" V="105.056">
+<p X="449.4396" Y="-346.6355" Z="30.9218"/>
+<n X="0.0001" Y="0" Z="1"/>
+</Vertex>
+<Vertex U="320.0229" V="100">
+<p X="500" Y="-299.7708" Z="31.0105"/>
+<n X="0" Y="-0.0003" Z="1"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="2;3;0"/>
+</SubSet>
+</Landschaft>
+</Zusi>

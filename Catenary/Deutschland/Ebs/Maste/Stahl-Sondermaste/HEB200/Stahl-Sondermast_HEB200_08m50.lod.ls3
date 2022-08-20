@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="81" AutorName="Fabian Schöpflin" AutorEmail="fschoepflin@t-online.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="Stahl-Sondermast_HEB200_08m50.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="250" SichtbarBis="1000" Vorlade="1" LODbit="3">
+<Datei Dateiname="Stahl-Sondermast_HEB200_08m50.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt>
+<p Y="-3.2057"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1" Beschreibung="Festpunktanker">
+<p X="0.21" Y="-3.2057" Z="6.8"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1" Beschreibung="Festpunktanker">
+<p X="-0.21" Y="-3.2057" Z="6.8"/>
+<phi Z="-3.141593"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 250, Re 330">
+<p Y="-3.306" Z="7.1"/>
+<phi Z="-1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re250" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re330" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Stahl-Sondermaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 250, Re 330">
+<p Y="-3.106" Z="7.1"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re250" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re330" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Stahl-Sondermaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel">
+<p X="-0.1025" Y="-3.2057" Z="3.15"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel">
+<p X="0.1025" Y="-3.2057" Z="3.15"/>
+<phi Z="3.141593"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="11" AnkerKat="1">
+<p X="0.1" Y="-3.2057" Z="6.75"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_if.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_gf.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="11" AnkerKat="1">
+<p X="-0.1" Y="-3.2057" Z="6.75"/>
+<phi Z="3.141593"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_if.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_gf.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

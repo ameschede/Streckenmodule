@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Kettenwerk Re 160" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="125" Y="-118.6411" Z="50.2285"/>
+<n X="0.3065" Y="0.0162" Z="-0.7547"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-118.738" Z="50.2322"/>
+<n X="-0.9982" Y="-0.0594" Z="0.0002"/>
+</Vertex>
+<Vertex>
+<p X="124.4163" Y="-108.9321" Z="50.2056"/>
+<n X="-0.9982" Y="-0.0594" Z="0.0002"/>
+</Vertex>
+<Vertex>
+<p X="124.4229" Y="-108.9316" Z="50.2017"/>
+<n X="0.4991" Y="0.0274" Z="-0.8661"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-118.6267" Z="50.228"/>
+<n X="0.4991" Y="0.0274" Z="-0.8661"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-118.6267" Z="50.2348"/>
+<n X="0.4991" Y="0.0315" Z="0.6435"/>
+</Vertex>
+<Vertex>
+<p X="124.4229" Y="-108.9316" Z="50.2095"/>
+<n X="0.4991" Y="0.0321" Z="0.8659"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-118.6267" Z="50.2358"/>
+<n X="0.4991" Y="0.0321" Z="0.8659"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-118.7236" Z="50.2327"/>
+<n X="-0.804" Y="-0.0476" Z="0.1125"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="0;3;4"/>
+<Face i="4;3;6"/>
+<Face i="4;6;5"/>
+<Face i="5;6;7"/>
+<Face i="2;8;7"/>
+<Face i="2;7;6"/>
+<Face i="8;2;1"/>
+</SubSet>
+</Landschaft>
+</Zusi>
