@@ -478,6 +478,10 @@
 <ReferenzElemente ReferenzNr="427" StrElement="912" RefTyp="4" Info="Fahrweg: Körle Ost Bbf Gleistor Uw"/>
 <ReferenzElemente ReferenzNr="428" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3"/>
 <ReferenzElemente ReferenzNr="429" StrElement="278" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3"/>
+<ReferenzElemente ReferenzNr="430" StrElement="141" RefTyp="2" Info="Register-Nr. 5"/>
+<ReferenzElemente ReferenzNr="431" StrElement="187" StrNorm="1" RefTyp="2" Info="Register-Nr. 5"/>
+<ReferenzElemente ReferenzNr="432" StrElement="409" RefTyp="2" Info="Register-Nr. 6"/>
+<ReferenzElemente ReferenzNr="433" StrElement="63" StrNorm="1" RefTyp="2" Info="Register-Nr. 6"/>
 <StrElement Nr="1" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3214">
 <g X="-1947.288" Y="2900.6909" Z="206.2712"/>
 <b X="-1944.224" Y="2895.6816" Z="206.3417"/>
@@ -1119,7 +1123,7 @@
 <StrElement Nr="63" Ueberh="-0.0227" kr="0.000071" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2945">
 <g X="-1538.324" Y="2232.4048" Z="215.6726"/>
 <b X="-1525.297" Y="2211.302" Z="215.9692"/>
-<InfoNormRichtung vMax="77.7778" km="156.5001" pos="1">
+<InfoNormRichtung vMax="77.7778" km="156.5001" pos="1" Reg="6">
 <Ereignis Er="39" Beschr="1733a"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="156.5249"/>
@@ -1824,7 +1828,7 @@
 <g X="-20.429" Y="355.509" Z="244.6832"/>
 <b X="11.9858" Y="318.7472" Z="245.2714"/>
 <InfoNormRichtung vMax="69.4444" km="158.9176" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="158.9667">
+<InfoGegenRichtung vMax="69.4444" km="158.9667" Reg="5">
 <Ereignis Er="39" Beschr="1733b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="142"/>
@@ -2340,7 +2344,7 @@
 <StrElement Nr="187" Ueberh="-0.0227" kr="0.000071" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2941">
 <g X="-1534.3331" Y="2234.886" Z="215.6726"/>
 <b X="-1521.3101" Y="2213.79" Z="215.9692"/>
-<InfoNormRichtung vMax="77.7778" km="156.5001" pos="1">
+<InfoNormRichtung vMax="77.7778" km="156.5001" pos="1" Reg="5">
 <Ereignis Er="28" Beschr="1733a"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="69.4444" km="156.5249"/>
@@ -4809,7 +4813,7 @@
 <g X="-28.8242" Y="357.9237" Z="244.5949"/>
 <b X="3.3693" Y="321.4129" Z="245.179"/>
 <InfoNormRichtung vMax="69.4444" km="158.9103" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="158.959">
+<InfoGegenRichtung vMax="69.4444" km="158.959" Reg="6">
 <Ereignis Er="28" Beschr="1733b"/>
 </InfoGegenRichtung>
 <NachNorm Nr="410"/>
@@ -26313,6 +26317,9 @@
 <FahrstrRegister Ref="301">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="433">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="418">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -30816,6 +30823,9 @@
 <FahrstrRegister Ref="109">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="370">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -30936,6 +30946,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="430">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="367">
@@ -31060,6 +31073,9 @@
 <FahrstrRegister Ref="109">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="370">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31159,6 +31175,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="430">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="367">
@@ -31263,6 +31282,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="432">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="370">
@@ -31393,6 +31415,9 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="367">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31521,6 +31546,9 @@
 <FahrstrRegister Ref="109">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="370">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31628,6 +31656,9 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="367">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31724,6 +31755,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="432">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="370">
@@ -31842,6 +31876,9 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="367">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31955,6 +31992,9 @@
 <FahrstrRegister Ref="109">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="370">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -32050,6 +32090,9 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="367">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -32137,6 +32180,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="430">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="367">
@@ -32243,6 +32289,9 @@
 <FahrstrRegister Ref="42">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="430">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="367">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -32327,6 +32376,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="430">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="367">
@@ -32437,6 +32489,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="430">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="367">
@@ -32610,7 +32665,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Schwarzenb 754 -&gt; Üst Keilsberg 704" FahrstrTyp="TypZug" Laenge="6334.7002">
+<Fahrstrasse FahrstrName="Üst Schwarzenb 754 -&gt; Üst Keilsberg 704" FahrstrStrecke="1733b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6334.7002">
 <FahrstrStart Ref="297">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -32644,9 +32699,39 @@
 <FahrstrRegister Ref="24">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="71">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000532_005681_Oberzwehren\Oberzwehren_1999.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -32655,6 +32740,12 @@
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="73">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrSigHaltfall Ref="58">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
@@ -32665,6 +32756,12 @@
 <FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="137" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="148" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="297">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -32678,7 +32775,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Schwarzenb 754 -&gt; Üst Keilsberg 734" FahrstrTyp="TypZug" Laenge="6335.7002">
+<Fahrstrasse FahrstrName="Üst Schwarzenb 754 -&gt; Üst Keilsberg 734" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6335.7002">
 <FahrstrStart Ref="297">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -32715,9 +32812,42 @@
 <FahrstrRegister Ref="6">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="233">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="74">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="153">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000532_005681_Oberzwehren\Oberzwehren_1999.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -32726,6 +32856,12 @@
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrSigHaltfall Ref="58">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
@@ -32739,6 +32875,12 @@
 <FahrstrWeiche Ref="70" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="140" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="145" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="297" FahrstrSignalZeile="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -32749,11 +32891,11 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 754 -&gt; Üst Keilsberg 704" FahrstrTyp="TypAnzeige" Laenge="6334.7002">
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 754 -&gt; LZB-Bk 712 712" FahrstrTyp="TypAnzeige" Laenge="2047.4">
 <FahrstrStart Ref="297">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="69">
+<FahrstrZiel Ref="137">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="60">
@@ -32783,9 +32925,15 @@
 <FahrstrRegister Ref="24">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="71">
+<FahrstrRegister Ref="226">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -32817,11 +32965,11 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 754 -&gt; Üst Keilsberg 734" FahrstrTyp="TypAnzeige" Laenge="6335.7002">
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 754 -&gt; LZB-Bk 742 742" FahrstrTyp="TypAnzeige" Laenge="2048.5">
 <FahrstrStart Ref="297">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="72">
+<FahrstrZiel Ref="140">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="60">
@@ -32854,9 +33002,15 @@
 <FahrstrRegister Ref="6">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="74">
+<FahrstrRegister Ref="233">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="55">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -32888,7 +33042,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Schwarzenb 784 -&gt; Üst Keilsberg 734" FahrstrTyp="TypZug" Laenge="6335.7002">
+<Fahrstrasse FahrstrName="Üst Schwarzenb 784 -&gt; Üst Keilsberg 734" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6335.7002">
 <FahrstrStart Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -32925,9 +33079,42 @@
 <FahrstrRegister Ref="6">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="233">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="101">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="74">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="153">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000532_005681_Oberzwehren\Oberzwehren_1999.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -32936,6 +33123,12 @@
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="3">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrSigHaltfall Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
@@ -32946,6 +33139,12 @@
 <FahrstrWeiche Ref="70" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="140" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="145" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -32959,7 +33158,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Üst Schwarzenb 784 -&gt; Üst Keilsberg 704" FahrstrTyp="TypZug" Laenge="6334.7998">
+<Fahrstrasse FahrstrName="Üst Schwarzenb 784 -&gt; Üst Keilsberg 704" FahrstrStrecke="1733b" RglGgl="2" FahrstrTyp="TypZug" Laenge="6334.7998">
 <FahrstrStart Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -32996,9 +33195,39 @@
 <FahrstrRegister Ref="24">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="226">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="129">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="126">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="120">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="71">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="147">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000532_005681_Oberzwehren\Oberzwehren_1999.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -33007,6 +33236,12 @@
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="73">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrSigHaltfall Ref="22">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
@@ -33020,6 +33255,12 @@
 <FahrstrWeiche Ref="76" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="137" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="148" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="300" FahrstrSignalZeile="5">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -33030,11 +33271,11 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 784 -&gt; Üst Keilsberg 734" FahrstrTyp="TypAnzeige" Laenge="6335.7002">
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 784 -&gt; LZB-Bk 742 742" FahrstrTyp="TypAnzeige" Laenge="2048.3999">
 <FahrstrStart Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="72">
+<FahrstrZiel Ref="140">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="24">
@@ -33067,9 +33308,15 @@
 <FahrstrRegister Ref="6">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="74">
+<FahrstrRegister Ref="233">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="142">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -33101,11 +33348,11 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 784 -&gt; Üst Keilsberg 704" FahrstrTyp="TypAnzeige" Laenge="6334.7998">
+<Fahrstrasse FahrstrName="Anzeige: Üst Schwarzenb 784 -&gt; LZB-Bk 712 712" FahrstrTyp="TypAnzeige" Laenge="2047.5">
 <FahrstrStart Ref="300">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrStart>
-<FahrstrZiel Ref="69">
+<FahrstrZiel Ref="137">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="24">
@@ -33138,9 +33385,15 @@
 <FahrstrRegister Ref="24">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="71">
+<FahrstrRegister Ref="226">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="127">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000533_005677_Rengershausen\Rengershausen_2001.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>

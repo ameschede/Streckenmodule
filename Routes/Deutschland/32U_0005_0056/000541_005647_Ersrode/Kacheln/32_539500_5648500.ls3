@@ -507,7 +507,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="3.167">
 <p X="500" Y="345.2046" Z="374.8655"/>
@@ -595,7 +595,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="18.7002" V="14.7708">
 <p X="22.9222" Y="370.0205" Z="409.813"/>
@@ -1172,7 +1172,7 @@
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="Terrain\General\forest\Wald_oben.dds"/>
+<Datei Dateiname="Terrain\General\Forest\Wald_oben.dds"/>
 </Textur>
 <Vertex U="13.1058">
 <p X="-48.2595" Y="-500" Z="513.079"/>
@@ -2625,6 +2625,114 @@
 <Face i="66;61;65"/>
 <Face i="62;61;66"/>
 <Face i="67;62;66"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="15" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="2"/>
+<Textur AnzahlMipMapLevel="3">
+<Datei Dateiname="Terrain\General\Forest\waldkronen.dds"/>
+</Textur>
+<Vertex U="-6.4151" V="0.0446" U2="-6.4151" V2="0.0446">
+<p X="500" Y="-152.5215" Z="411.6638"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.4141" V="0.15" U2="-6.4141" V2="0.15">
+<p X="500" Y="-152.4832" Z="406.3879"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.5734" V="0.15" U2="-6.5734" V2="0.15">
+<p X="492.8436" Y="-155.8988" Z="407.4041"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.5734" U2="-6.5734">
+<p X="492.91" Y="-155.9218" Z="414.9041"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.415" U2="-6.415">
+<p X="500" Y="-152.5444" Z="413.894"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.4161" V="0.1057" U2="-6.4161" V2="0.1057">
+<p X="500" Y="-152.5829" Z="408.6178"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.5734" V="0.15" U2="-6.5734" V2="0.15">
+<p X="492.9763" Y="-155.9447" Z="407.4041"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.416" V="0.15" U2="-6.416" V2="0.15">
+<p X="500" Y="-152.6057" Z="406.4002"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.8964" V="0.0957" U2="-6.8964" V2="0.0957">
+<p X="500" Y="-170.2957" Z="411.8437"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.8978" V="0.15" U2="-6.8978" V2="0.15">
+<p X="500" Y="-170.376" Z="409.1346"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.8945" U2="-6.8945">
+<p X="500" Y="-170.2249" Z="416.6172"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.8932" V="0.0538" U2="-6.8932" V2="0.0538">
+<p X="500" Y="-170.1455" Z="413.9211"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-6.8913" V="0.15" U2="-6.8913" V2="0.15">
+<p X="500" Y="-170.0746" Z="409.0997"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-19.054" V="0.0891" U2="-19.054" V2="0.0891">
+<p X="500" Y="-325.3597" Z="441.9123"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-19.0543" V="0.15" U2="-19.0543" V2="0.15">
+<p X="500" Y="-325.3163" Z="438.8702"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-21.0337" V="0.15" U2="-21.0337" V2="0.15">
+<p X="407.4808" Y="-290.4569" Z="443.5933"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-21.0337" U2="-21.0337">
+<p X="407.4456" Y="-290.5505" Z="451.0933"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-19.0533" U2="-19.0533">
+<p X="500" Y="-325.4211" Z="446.368"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-19.053" V="0.0608" U2="-19.053" V2="0.0608">
+<p X="500" Y="-325.4645" Z="443.3266"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-21.0337" V="0.15" U2="-21.0337" V2="0.15">
+<p X="407.4103" Y="-290.6442" Z="443.5933"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-19.0524" V="0.15" U2="-19.0524" V2="0.15">
+<p X="500" Y="-325.526" Z="438.8657"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;3;0"/>
+<Face i="1;2;0"/>
+<Face i="0;3;4"/>
+<Face i="3;6;5"/>
+<Face i="4;3;5"/>
+<Face i="5;6;7"/>
+<Face i="8;2;9"/>
+<Face i="3;2;8"/>
+<Face i="10;3;8"/>
+<Face i="11;3;10"/>
+<Face i="12;6;3"/>
+<Face i="12;3;11"/>
+<Face i="15;16;13"/>
+<Face i="14;15;13"/>
+<Face i="13;16;17"/>
+<Face i="17;16;19"/>
+<Face i="17;19;18"/>
+<Face i="18;19;20"/>
 </SubSet>
 </Landschaft>
 </Zusi>

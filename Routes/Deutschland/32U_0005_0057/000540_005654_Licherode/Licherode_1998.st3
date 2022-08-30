@@ -22,6 +22,16 @@
 <MondTex Dateiname="_Setup\sky\moon.dds"/>
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
+<StreckenStandort StrInfo="Brücke Bahnhof Blickrichtung Kassel">
+<p X="306.35" Y="-1392.02" Z="322.47"/>
+<lookat X="306.96" Y="-1367.12" Z="320.28"/>
+<up X="306.37" Y="-1391.15" Z="332.43"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Brücke Bahnhof Blickrichtung Fulda">
+<p X="303.52" Y="-1394.0699" Z="322.4"/>
+<lookat X="310" Y="-1418.05" Z="319.59"/>
+<up X="303.81" Y="-1395.16" Z="332.33"/>
+</StreckenStandort>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </ModulDateien>
