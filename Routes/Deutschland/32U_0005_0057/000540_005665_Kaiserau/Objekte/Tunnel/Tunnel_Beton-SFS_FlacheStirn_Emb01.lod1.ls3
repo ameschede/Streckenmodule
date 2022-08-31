@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="2" AutorName="Andreas Brandtner" AutorEmail="andreas-brandtner@t-online.de"/>
+</Info>
+<Landschaft>
+<lsb Dateiname="Tunnel_Beton-SFS_FlacheStirn_Emb01.lod1.lsb"/>
+<SubSet Cd="FFFFFFFF" TypLs3="2" TypGF="1" MeshV="23" MeshI="63">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment01.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="FFFFFFFF" TypLs3="13" MeshV="356" MeshI="798">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Tunnel\2gleisig\Tunnel_2gl_Beton-SFS\Tunnel_Beton-SFS.dds"/>
+</Textur>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10" MeshV="25" MeshI="69">
+<RenderFlags TexVoreinstellung="11"/>
+</SubSet>
+</Landschaft>
+</Zusi>
