@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="24.77"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="26.35"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.ls3"/>
@@ -482,6 +482,14 @@
 <ReferenzElemente ReferenzNr="431" StrElement="187" StrNorm="1" RefTyp="2" Info="Register-Nr. 5"/>
 <ReferenzElemente ReferenzNr="432" StrElement="409" RefTyp="2" Info="Register-Nr. 6"/>
 <ReferenzElemente ReferenzNr="433" StrElement="63" StrNorm="1" RefTyp="2" Info="Register-Nr. 6"/>
+<ReferenzElemente ReferenzNr="434" StrElement="942" RefTyp="4" Info="Signal: Körle Ost Bbf Zs 6 PI"/>
+<ReferenzElemente ReferenzNr="435" StrElement="3295" StrNorm="1" RefTyp="3" Info="Weiche Körle Ost Bbf 813"/>
+<ReferenzElemente ReferenzNr="436" StrElement="3295" StrNorm="1" RefTyp="2" Info="Register-Nr. 5122"/>
+<ReferenzElemente ReferenzNr="437" StrElement="3295" RefTyp="2" Info="Register-Nr. 5122"/>
+<ReferenzElemente ReferenzNr="438" StrElement="3314" StrNorm="1" RefTyp="3" Info="Weiche Körle Ost Bbf 814"/>
+<ReferenzElemente ReferenzNr="439" StrElement="3314" StrNorm="1" RefTyp="2" Info="Register-Nr. 5123"/>
+<ReferenzElemente ReferenzNr="440" StrElement="3314" RefTyp="2" Info="Register-Nr. 5123"/>
+<ReferenzElemente ReferenzNr="441" StrElement="3334" RefTyp="4" Info="Signal: Körle Ost Bbf GÜ 120 P803"/>
 <StrElement Nr="1" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3214">
 <g X="-1947.288" Y="2900.6909" Z="206.2712"/>
 <b X="-1944.224" Y="2895.6816" Z="206.3417"/>
@@ -509,38 +517,22 @@
 <g X="344.3578" Y="-65.3031" Z="249.875"/>
 <b X="370.1721" Y="-94.5792" Z="249.9171"/>
 <InfoNormRichtung vMax="69.4444" km="159.4746" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="159.5094"/>
+<InfoGegenRichtung vMax="69.4444" km="159.5136"/>
 <NachNorm Nr="931"/>
 <NachGegen Nr="2"/>
 </StrElement>
-<StrElement Nr="5" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
-<g X="398.8347" Y="-127.0856" Z="249.9639"/>
-<b X="430.2621" Y="-162.7275" Z="250.0151"/>
-<InfoNormRichtung vMax="77.7778" km="159.5569" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="159.6045"/>
-<NachNorm Nr="6"/>
-<NachGegen Nr="929"/>
-</StrElement>
-<StrElement Nr="6" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
-<g X="430.2621" Y="-162.7275" Z="250.0151"/>
-<b X="461.6895" Y="-198.3694" Z="250.0664"/>
-<InfoNormRichtung vMax="77.7778" km="159.6045" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="159.652"/>
-<NachNorm Nr="7"/>
-<NachGegen Nr="5"/>
-</StrElement>
-<StrElement Nr="7" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
-<g X="461.6895" Y="-198.3694" Z="250.0664"/>
+<StrElement Nr="7" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
+<g X="482.6862" Y="-222.1818" Z="250.1006"/>
 <b X="493.1169" Y="-234.0114" Z="250.1176"/>
-<InfoNormRichtung vMax="77.7778" km="159.652" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="159.6837" pos="1"/>
 <InfoGegenRichtung vMax="77.7778" km="159.6995"/>
 <NachNorm Nr="8"/>
-<NachGegen Nr="6"/>
+<NachGegen Nr="3294"/>
 </StrElement>
 <StrElement Nr="8" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3541">
 <g X="493.1169" Y="-234.0114" Z="250.1176"/>
 <b X="505.0215" Y="-247.5125" Z="250.137"/>
-<InfoNormRichtung vMax="-1">
+<InfoNormRichtung vMax="-1" km="159.6995" pos="1">
 <Signal NameBetriebsstelle="Körle Ost Bbf" Stellwerk="Körle Ost Kof" Signalname="nII" SignalTyp="6" BoundingR="10">
 <p X="502.6739" Y="-249.5826" Z="250.137"/>
 <phi Z="-0.848154"/>
@@ -4135,7 +4127,7 @@
 <g X="343.933" Y="-57.715" Z="249.8642"/>
 <b X="347.8832" Y="-62.1949" Z="249.875"/>
 <InfoNormRichtung vMax="69.4444" km="159.4686" pos="1"/>
-<InfoGegenRichtung vMax="69.4444" km="159.4745"/>
+<InfoGegenRichtung vMax="69.4444" km="159.4746"/>
 <NachNorm Nr="924"/>
 <NachGegen Nr="352"/>
 </StrElement>
@@ -4145,34 +4137,18 @@
 <NachNorm Nr="923"/>
 <NachGegen Nr="924"/>
 </StrElement>
-<StrElement Nr="356" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
-<g X="406.1071" Y="-128.2269" Z="249.97"/>
-<b X="437.1942" Y="-163.4828" Z="250.0207"/>
-<InfoNormRichtung vMax="77.7778" km="159.5626" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="159.6096"/>
-<NachNorm Nr="357"/>
-<NachGegen Nr="922"/>
-</StrElement>
-<StrElement Nr="357" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
-<g X="437.1942" Y="-163.4828" Z="250.0207"/>
-<b X="468.2813" Y="-198.7387" Z="250.0714"/>
-<InfoNormRichtung vMax="77.7778" km="159.6096" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="159.6566"/>
-<NachNorm Nr="358"/>
-<NachGegen Nr="356"/>
-</StrElement>
-<StrElement Nr="358" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
-<g X="468.2813" Y="-198.7387" Z="250.0714"/>
+<StrElement Nr="358" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
+<g X="486.2115" Y="-219.0734" Z="250.1006"/>
 <b X="499.3683" Y="-233.9946" Z="250.1221"/>
-<InfoNormRichtung vMax="77.7778" km="159.6566" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="159.6837" pos="1"/>
 <InfoGegenRichtung vMax="77.7778" km="159.7036"/>
 <NachNorm Nr="359"/>
-<NachGegen Nr="357"/>
+<NachGegen Nr="3314"/>
 </StrElement>
 <StrElement Nr="359" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2943">
 <g X="499.3683" Y="-233.9946" Z="250.1221"/>
 <b X="508.6274" Y="-244.4954" Z="250.1372"/>
-<InfoNormRichtung vMax="-1">
+<InfoNormRichtung vMax="-1" km="159.7036" pos="1">
 <Signal NameBetriebsstelle="Körle Ost Bbf" Stellwerk="Körle Ost Kof" Signalname="nI" SignalTyp="6" BoundingR="10">
 <p X="506.9398" Y="-245.9835" Z="250.1372"/>
 <phi Z="-0.848155"/>
@@ -6649,10 +6625,9 @@
 </StrElement>
 <StrElement Nr="535" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
 <g X="1271.0671" Y="-1109.1812" Z="251.3808"/>
-<b X="1303.076" Y="-1145.4821" Z="251.433"/>
-<InfoNormRichtung vMax="77.7778" km="160.8704" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="160.9188"/>
-<NachNorm Nr="536"/>
+<b X="1294.5587" Y="-1135.8226" Z="251.4191"/>
+<InfoGegenRichtung vMax="77.7778" km="160.9059"/>
+<NachNorm Nr="3334"/>
 <NachGegen Nr="534"/>
 </StrElement>
 <StrElement Nr="536" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
@@ -6801,7 +6776,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="77.7778" km="160.9598" Reg="5052"/>
 <NachNorm Nr="957"/>
-<NachGegen Nr="535"/>
+<NachGegen Nr="3334"/>
 </StrElement>
 <StrElement Nr="537" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2938">
 <g X="1335.084" Y="-1181.783" Z="251.4852"/>
@@ -11766,52 +11741,33 @@
 <NachNorm Nr="214"/>
 <NachGegen Nr="919"/>
 </StrElement>
-<StrElement Nr="922" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2948">
-<g X="388.2474" Y="-107.9721" Z="249.9409"/>
-<b X="406.1071" Y="-128.2269" Z="249.97"/>
-<InfoNormRichtung vMax="77.7778" km="159.5355" pos="1"/>
-<InfoGegenRichtung vMax="77.7778">
-<Ereignis Er="6" Beschr="@tunnel=Kehrenberg-T@"/>
-</InfoGegenRichtung>
-<NachNorm Nr="356"/>
-<NachGegen Nr="923"/>
-</StrElement>
-<StrElement Nr="923" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2966">
+<StrElement Nr="923" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
 <g X="381.6338" Y="-100.4715" Z="249.9301"/>
 <b X="388.2474" Y="-107.9721" Z="249.9409"/>
-<InfoNormRichtung vMax="69.4444" pos="1">
+<InfoNormRichtung vMax="69.4444" km="159.5256" pos="1">
 <Ereignis Er="6" Beschr="@tunnelende@"/>
 </InfoNormRichtung>
-<NachNorm Nr="922"/>
+<InfoGegenRichtung vMax="69.4444"/>
+<NachNorm Nr="3332"/>
 <NachGegen Nr="355"/>
 </StrElement>
 <StrElement Nr="924" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3094">
 <g X="347.8832" Y="-62.1949" Z="249.875"/>
 <b X="373.6974" Y="-91.4708" Z="249.9171"/>
-<InfoGegenRichtung vMax="69.4444" km="159.5135"/>
+<InfoGegenRichtung vMax="69.4444" km="159.5136"/>
 <NachNorm Nr="355"/>
 <NachGegen Nr="353"/>
 </StrElement>
-<StrElement Nr="929" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
-<g X="384.7221" Y="-111.0806" Z="249.9409"/>
-<b X="398.8347" Y="-127.0856" Z="249.9639"/>
-<InfoNormRichtung vMax="77.7778"/>
-<InfoGegenRichtung vMax="77.7778">
-<Ereignis Er="6" Beschr="@tunnel=Kehrenberg-T@"/>
-</InfoGegenRichtung>
-<NachNorm Nr="5"/>
-<NachGegen Nr="930"/>
-</StrElement>
-<StrElement Nr="930" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2946">
+<StrElement Nr="930" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
 <g X="378.1085" Y="-103.5799" Z="249.9301"/>
-<b X="384.7221" Y="-111.0806" Z="249.9409"/>
-<InfoNormRichtung vMax="69.4444" pos="1">
+<b X="382.5368" Y="-108.6021" Z="249.9373"/>
+<InfoNormRichtung vMax="69.4444" km="159.5256" pos="1">
 <Ereignis Er="6" Beschr="@tunnelende@"/>
 </InfoNormRichtung>
-<NachNorm Nr="929"/>
+<NachNorm Nr="3295"/>
 <NachGegen Nr="931"/>
 </StrElement>
-<StrElement Nr="931" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.295">
+<StrElement Nr="931" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
 <g X="370.1721" Y="-94.5792" Z="249.9171"/>
 <b X="378.1085" Y="-103.5799" Z="249.9301"/>
 <NachNorm Nr="930"/>
@@ -12549,7 +12505,7 @@
 <StrElement Nr="941" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3417">
 <g X="505.0215" Y="-247.5125" Z="250.137"/>
 <b X="519.9023" Y="-264.3888" Z="250.1613"/>
-<InfoGegenRichtung vMax="-1">
+<InfoGegenRichtung vMax="-1" km="159.74">
 <Signal NameBetriebsstelle="Körle Ost Bbf" Stellwerk="Körle Ost Kof" Signalname="Zs 6 PII" SignalTyp="7" BoundingR="10">
 <p X="506.9252" Y="-245.9671" Z="250.137"/>
 <phi Z="2.293441"/>
@@ -12582,6 +12538,45 @@
 <StrElement Nr="942" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2943">
 <g X="508.6274" Y="-244.4954" Z="250.1372"/>
 <b X="523.4276" Y="-261.2803" Z="250.1613"/>
+<InfoGegenRichtung vMax="-1">
+<Signal NameBetriebsstelle="Körle Ost Bbf" Stellwerk="Körle Ost Kof" Signalname="Zs 6 PI" SignalTyp="1" BoundingR="10">
+<p X="511.0276" Y="-242.379" Z="252.4372"/>
+<phi Z="2.293441"/>
+<SignalFrame>
+<p X="-0.175" Z="1.59"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Einzelteile\Zs_E-Schirm.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.225" Z="1.59"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Symbole\Zs6_l.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.025" Z="-2.1"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Mast4m15-Randweg.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="-1.8"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="12"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="12"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="13" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="2854"/>
 <NachGegen Nr="359"/>
 </StrElement>
@@ -13315,19 +13310,31 @@
 <p Y="-1" Z="0.125"/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-d.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3.13"/>
 <phi/>
 <sk/>
-<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="6.19"/>
 <phi/>
 <sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.515" Z="6.79"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.515" Z="6.79"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_oben.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Z="4.2"/>
@@ -13378,37 +13385,39 @@
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="6.9444" FahrstrTyp="2"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
+<HsigBegriff HsigGeschw="27.7778" FahrstrTyp="8"/>
 <VsigBegriff VsigGeschw="-1"/>
-<MatrixEintrag Signalbild="31969" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31971">
+<MatrixEintrag Signalbild="2113929445" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2113929443">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="31977" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="31977" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="31977" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="31977" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="31977" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="31977" MatrixGeschw="11.1111"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
-<MatrixEintrag Signalbild="31985" MatrixGeschw="6.9444">
+<MatrixEintrag Signalbild="2113930473" MatrixGeschw="2.7778"/>
+<MatrixEintrag Signalbild="2113931497" MatrixGeschw="5.5556"/>
+<MatrixEintrag Signalbild="2113933545" MatrixGeschw="8.3333"/>
+<MatrixEintrag Signalbild="2113929449" MatrixGeschw="11.1111"/>
+<MatrixEintrag Signalbild="2113945833" MatrixGeschw="13.8889"/>
+<MatrixEintrag Signalbild="2113962217" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="2113994981" MatrixGeschw="19.4444"/>
+<MatrixEintrag Signalbild="2114060517" MatrixGeschw="22.2222"/>
+<MatrixEintrag Signalbild="2114191589" MatrixGeschw="25"/>
+<MatrixEintrag Signalbild="2114453733" MatrixGeschw="27.7778"/>
+<MatrixEintrag Signalbild="2114978021" MatrixGeschw="30.5556"/>
+<MatrixEintrag Signalbild="2116026597" MatrixGeschw="33.3333"/>
+<MatrixEintrag Signalbild="2118123749" MatrixGeschw="36.1111"/>
+<MatrixEintrag Signalbild="2122318053" MatrixGeschw="38.8889"/>
+<MatrixEintrag Signalbild="2130706661" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="2113929457" MatrixGeschw="6.9444">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
-<MatrixEintrag Signalbild="31973" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2113929441" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2113929441" MatrixGeschw="27.7778"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
-<MatrixEintrag Signalbild="32227" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2113929699" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 </Ersatzsignal>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="0001050D">
-<MatrixEintrag Signalbild="31971" MatrixGeschw="11.1111">
+<MatrixEintrag Signalbild="2113929443" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
 <Ereignis Er="32" Wert="70"/>
 <Ereignis Er="28" Wert="10"/>
@@ -15178,7 +15187,7 @@
 <StrElement Nr="1017" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2948">
 <g X="519.9023" Y="-264.3888" Z="250.1613"/>
 <b X="524.5443" Y="-269.6533" Z="250.1689"/>
-<InfoNormRichtung vMax="77.7778" km="159.7399" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="159.74" pos="1"/>
 <NachNorm Nr="9"/>
 <NachGegen Nr="941"/>
 </StrElement>
@@ -24241,7 +24250,7 @@
 <StrElement Nr="2854" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2943">
 <g X="523.4276" Y="-261.2803" Z="250.1613"/>
 <b X="530.4554" Y="-269.2506" Z="250.1728"/>
-<InfoNormRichtung vMax="77.7778" km="159.7416" pos="1"/>
+<InfoNormRichtung vMax="77.7778" km="159.74" pos="1"/>
 <NachNorm Nr="360"/>
 <NachGegen Nr="942"/>
 </StrElement>
@@ -26289,6 +26298,564 @@
 <g X="-2154.5291" Y="2225.4028" Z="179.5038"/>
 <b X="-2132.2178" Y="2274.1858" Z="181.6011"/>
 </StrElement>
+<StrElement Nr="3293" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="425.4052" Y="-157.2192" Z="250.0072"/>
+<b X="454.0457" Y="-189.7005" Z="250.0539"/>
+<InfoNormRichtung vMax="77.7778" km="159.5971" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="159.6404"/>
+<NachNorm Nr="3294"/>
+<NachGegen Nr="3304"/>
+</StrElement>
+<StrElement Nr="3294" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
+<g X="454.0457" Y="-189.7005" Z="250.0539"/>
+<b X="482.6862" Y="-222.1818" Z="250.1006"/>
+<InfoNormRichtung vMax="77.7778" km="159.6404" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="159.6837"/>
+<NachNorm Nr="7"/>
+<NachGegen Nr="3293"/>
+</StrElement>
+<StrElement Nr="3295" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="382.5368" Y="-108.6021" Z="249.9373"/>
+<b X="383.3503" Y="-109.5247" Z="249.9386"/>
+<InfoNormRichtung vMax="69.4444" km="159.5323" pos="1" Reg="5122">
+<Signal NameBetriebsstelle="Körle Ost Bbf" Stellwerk="Körle Ost Kof" Signalname="813" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<p X="382.5368" Y="-108.6021" Z="249.9373"/>
+<phi Y="-0.001079" Z="-0.848153"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (L700H, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.11" Y="0.1"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.23"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1">
+<p X="1.69" Y="-2.17"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="6.06"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="4" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, L700H" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="57.95"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1">
+<p X="61.418" Y="-2.07"/>
+<phi Z="-0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p/>
+<phi Z="0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="57"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff FahrstrTyp="1"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="28395" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="30581" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="69.4444" km="159.5335" Reg="5122"/>
+<NachNorm Nr="3296"/>
+<NachNorm Nr="3305"/>
+<NachGegen Nr="930"/>
+</StrElement>
+<StrElement Nr="3296" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="383.3503" Y="-109.5247" Z="249.9386"/>
+<b X="387.7352" Y="-114.4976" Z="249.9458"/>
+<InfoNormRichtung vMax="77.7778" km="159.5335" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5402"/>
+<NachNorm Nr="3297"/>
+<NachGegen Nr="3295"/>
+</StrElement>
+<StrElement Nr="3297" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="387.7352" Y="-114.4976" Z="249.9458"/>
+<b X="390.9131" Y="-118.1016" Z="249.9509"/>
+<InfoNormRichtung vMax="-1" km="159.5402" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.545"/>
+<NachNorm Nr="3298"/>
+<NachGegen Nr="3296"/>
+</StrElement>
+<StrElement Nr="3298" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="390.9131" Y="-118.1016" Z="249.9509"/>
+<b X="398.5075" Y="-126.7146" Z="249.9633"/>
+<InfoNormRichtung vMax="-1" km="159.545" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5564"/>
+<NachNorm Nr="3299"/>
+<NachGegen Nr="3297"/>
+</StrElement>
+<StrElement Nr="3299" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="398.5075" Y="-126.7146" Z="249.9633"/>
+<b X="406.4638" Y="-135.7378" Z="249.9763"/>
+<InfoNormRichtung vMax="-1" km="159.5564" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5685"/>
+<NachNorm Nr="3300"/>
+<NachGegen Nr="3298"/>
+</StrElement>
+<StrElement Nr="3300" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="406.4638" Y="-135.7378" Z="249.9763"/>
+<b X="414.4239" Y="-144.7653" Z="249.9893"/>
+<InfoNormRichtung vMax="-1" km="159.5685" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5805"/>
+<NachNorm Nr="3301"/>
+<NachGegen Nr="3299"/>
+</StrElement>
+<StrElement Nr="3301" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="414.4239" Y="-144.7653" Z="249.9893"/>
+<b X="418.1066" Y="-148.9419" Z="249.9953"/>
+<InfoNormRichtung vMax="-1" km="159.5805" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5861"/>
+<NachNorm Nr="3302"/>
+<NachGegen Nr="3300"/>
+</StrElement>
+<StrElement Nr="3302" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="418.1066" Y="-148.9419" Z="249.9953"/>
+<b X="421.3711" Y="-152.6442" Z="250.0006"/>
+<InfoNormRichtung vMax="-1" km="159.5861" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.591"/>
+<NachNorm Nr="3303"/>
+<NachGegen Nr="3301"/>
+</StrElement>
+<StrElement Nr="3303" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="421.3711" Y="-152.6442" Z="250.0006"/>
+<b X="423.8195" Y="-155.4209" Z="250.0046"/>
+<InfoNormRichtung vMax="-1" km="159.591" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5947"/>
+<NachNorm Nr="3304"/>
+<NachGegen Nr="3302"/>
+</StrElement>
+<StrElement Nr="3304" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="423.8195" Y="-155.4209" Z="250.0046"/>
+<b X="425.4052" Y="-157.2192" Z="250.0072"/>
+<InfoNormRichtung vMax="-1" km="159.5947" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5971"/>
+<NachNorm Nr="3293"/>
+<NachGegen Nr="3303"/>
+</StrElement>
+<StrElement Nr="3305" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
+<g X="383.3503" Y="-109.5247" Z="249.9386"/>
+<b X="391.0182" Y="-118.1179" Z="249.951"/>
+<InfoNormRichtung vMax="77.7778" km="159.5335" pos="1">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="159.545">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoGegenRichtung>
+<NachNorm Nr="3306"/>
+<NachGegen Nr="3295"/>
+</StrElement>
+<StrElement Nr="3306" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="391.0182" Y="-118.1179" Z="249.951"/>
+<b X="398.6881" Y="-126.552" Z="249.9633"/>
+<InfoNormRichtung vMax="-1" km="159.545" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5564"/>
+<NachNorm Nr="3307"/>
+<NachGegen Nr="3305"/>
+</StrElement>
+<StrElement Nr="3307" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.299">
+<g X="398.6881" Y="-126.552" Z="249.9633"/>
+<b X="406.8687" Y="-135.3725" Z="249.9763"/>
+<InfoNormRichtung vMax="-1" km="159.5564" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5685"/>
+<NachNorm Nr="3308"/>
+<NachGegen Nr="3306"/>
+</StrElement>
+<StrElement Nr="3308" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2993">
+<g X="406.8687" Y="-135.3725" Z="249.9763"/>
+<b X="415.1372" Y="-144.1104" Z="249.9893"/>
+<InfoNormRichtung vMax="-1" km="159.5685" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5805"/>
+<NachNorm Nr="3309"/>
+<NachGegen Nr="3307"/>
+</StrElement>
+<StrElement Nr="3309" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2996">
+<g X="415.1372" Y="-144.1104" Z="249.9893"/>
+<b X="418.9922" Y="-148.1249" Z="249.9953"/>
+<InfoNormRichtung vMax="-1" km="159.5805" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5861"/>
+<NachNorm Nr="3310"/>
+<NachGegen Nr="3308"/>
+</StrElement>
+<StrElement Nr="3310" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2996">
+<g X="418.9922" Y="-148.1249" Z="249.9953"/>
+<b X="422.4247" Y="-151.6683" Z="250.0006"/>
+<InfoNormRichtung vMax="-1" km="159.5861" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.591"/>
+<NachNorm Nr="3311"/>
+<NachGegen Nr="3309"/>
+</StrElement>
+<StrElement Nr="3311" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2995">
+<g X="422.4247" Y="-151.6683" Z="250.0006"/>
+<b X="425.0084" Y="-154.3163" Z="250.0046"/>
+<InfoNormRichtung vMax="-1" km="159.591" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5947"/>
+<NachNorm Nr="3312"/>
+<NachGegen Nr="3310"/>
+</StrElement>
+<StrElement Nr="3312" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2995">
+<g X="425.0084" Y="-154.3163" Z="250.0046"/>
+<b X="426.6859" Y="-156.0268" Z="250.0071"/>
+<InfoNormRichtung vMax="-1" km="159.5947" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.5971"/>
+<NachNorm Nr="3313"/>
+<NachGegen Nr="3311"/>
+</StrElement>
+<StrElement Nr="3313" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2992">
+<g X="426.6859" Y="-156.0269" Z="250.0071"/>
+<b X="442.0623" Y="-171.6487" Z="250.0308"/>
+<InfoNormRichtung vMax="77.7778" km="159.5971" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="159.619"/>
+<NachNorm Nr="3331"/>
+<NachGegen Nr="3312"/>
+</StrElement>
+<StrElement Nr="3314" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
+<g X="486.2115" Y="-219.0734" Z="250.1006"/>
+<b X="485.398" Y="-218.1508" Z="250.0993"/>
+<InfoNormRichtung vMax="-1" km="159.6837" Reg="5123">
+<Signal NameBetriebsstelle="Körle Ost Bbf" Stellwerk="Körle Ost Kof" Signalname="814" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<p X="486.2115" Y="-219.0734" Z="250.1006"/>
+<phi Y="0.001079" Z="2.293439"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (L700H, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.11"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.23"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1">
+<p X="1.69" Y="-2.27"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="6.06"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="4" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, L700H" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="57.95"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1">
+<p X="61.418" Y="-2.07"/>
+<phi Z="-0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="4" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p/>
+<phi Z="0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="57"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff FahrstrTyp="1"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="61163" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="159.6825" pos="1" Reg="5123"/>
+<NachNorm Nr="3315"/>
+<NachNorm Nr="3324"/>
+<NachGegen Nr="358"/>
+</StrElement>
+<StrElement Nr="3315" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
+<g X="485.398" Y="-218.1508" Z="250.0993"/>
+<b X="481.0131" Y="-213.1779" Z="250.0921"/>
+<InfoNormRichtung vMax="-1" km="159.6825"/>
+<InfoGegenRichtung vMax="-1" km="159.6759" pos="1"/>
+<NachNorm Nr="3316"/>
+<NachGegen Nr="3314"/>
+</StrElement>
+<StrElement Nr="3316" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
+<g X="481.0131" Y="-213.1779" Z="250.0921"/>
+<b X="477.8352" Y="-209.5739" Z="250.087"/>
+<InfoNormRichtung vMax="-1" km="159.6759"/>
+<InfoGegenRichtung vMax="-1" km="159.6711" pos="1"/>
+<NachNorm Nr="3317"/>
+<NachGegen Nr="3315"/>
+</StrElement>
+<StrElement Nr="3317" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
+<g X="477.8352" Y="-209.5739" Z="250.087"/>
+<b X="470.2408" Y="-200.9609" Z="250.0746"/>
+<InfoNormRichtung vMax="-1" km="159.6711"/>
+<InfoGegenRichtung vMax="-1" km="159.6596" pos="1"/>
+<NachNorm Nr="3318"/>
+<NachGegen Nr="3316"/>
+</StrElement>
+<StrElement Nr="3318" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
+<g X="470.2408" Y="-200.9609" Z="250.0746"/>
+<b X="462.2845" Y="-191.9377" Z="250.0616"/>
+<InfoNormRichtung vMax="-1" km="159.6596"/>
+<InfoGegenRichtung vMax="-1" km="159.6476" pos="1"/>
+<NachNorm Nr="3319"/>
+<NachGegen Nr="3317"/>
+</StrElement>
+<StrElement Nr="3319" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2984">
+<g X="462.2845" Y="-191.9377" Z="250.0616"/>
+<b X="454.3244" Y="-182.9102" Z="250.0486"/>
+<InfoNormRichtung vMax="-1" km="159.6476"/>
+<InfoGegenRichtung vMax="-1" km="159.6355" pos="1"/>
+<NachNorm Nr="3320"/>
+<NachGegen Nr="3318"/>
+</StrElement>
+<StrElement Nr="3320" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2985">
+<g X="454.3244" Y="-182.9102" Z="250.0486"/>
+<b X="450.6417" Y="-178.7336" Z="250.0426"/>
+<InfoNormRichtung vMax="-1" km="159.6355"/>
+<InfoGegenRichtung vMax="-1" km="159.6299" pos="1"/>
+<NachNorm Nr="3321"/>
+<NachGegen Nr="3319"/>
+</StrElement>
+<StrElement Nr="3321" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2985">
+<g X="450.6417" Y="-178.7336" Z="250.0426"/>
+<b X="447.3772" Y="-175.0313" Z="250.0373"/>
+<InfoNormRichtung vMax="-1" km="159.6299"/>
+<InfoGegenRichtung vMax="-1" km="159.625" pos="1"/>
+<NachNorm Nr="3322"/>
+<NachGegen Nr="3320"/>
+</StrElement>
+<StrElement Nr="3322" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
+<g X="447.3772" Y="-175.0313" Z="250.0373"/>
+<b X="444.9288" Y="-172.2546" Z="250.0333"/>
+<InfoNormRichtung vMax="-1" km="159.625"/>
+<InfoGegenRichtung vMax="-1" km="159.6213" pos="1"/>
+<NachNorm Nr="3323"/>
+<NachGegen Nr="3321"/>
+</StrElement>
+<StrElement Nr="3323" spTrass="27.7778" Anschluss="257" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="444.9288" Y="-172.2546" Z="250.0333"/>
+<b X="443.3431" Y="-170.4563" Z="250.0307"/>
+<InfoNormRichtung vMax="-1" km="159.6213"/>
+<InfoGegenRichtung vMax="-1" km="159.6189" pos="1"/>
+<NachNorm Nr="3333"/>
+<NachGegen Nr="3322"/>
+</StrElement>
+<StrElement Nr="3324" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2985">
+<g X="485.398" Y="-218.1508" Z="250.0993"/>
+<b X="477.7301" Y="-209.5576" Z="250.0869"/>
+<InfoNormRichtung vMax="-1" km="159.6824" pos="1">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="159.6709" pos="1">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoGegenRichtung>
+<NachNorm Nr="3325"/>
+<NachGegen Nr="3314"/>
+</StrElement>
+<StrElement Nr="3325" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2985">
+<g X="477.7301" Y="-209.5576" Z="250.0869"/>
+<b X="470.0602" Y="-201.1235" Z="250.0746"/>
+<InfoNormRichtung vMax="-1" km="159.6709" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="159.6595" pos="1"/>
+<NachNorm Nr="3326"/>
+<NachGegen Nr="3324"/>
+</StrElement>
+<StrElement Nr="3326" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
+<g X="470.0602" Y="-201.1235" Z="250.0746"/>
+<b X="461.8796" Y="-192.303" Z="250.0616"/>
+<InfoNormRichtung vMax="-1" km="159.6597"/>
+<InfoGegenRichtung vMax="-1" km="159.6476" pos="1"/>
+<NachNorm Nr="3327"/>
+<NachGegen Nr="3325"/>
+</StrElement>
+<StrElement Nr="3327" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
+<g X="461.8796" Y="-192.303" Z="250.0616"/>
+<b X="453.6111" Y="-183.5651" Z="250.0486"/>
+<InfoNormRichtung vMax="-1" km="159.6476"/>
+<InfoGegenRichtung vMax="-1" km="159.6356" pos="1"/>
+<NachNorm Nr="3328"/>
+<NachGegen Nr="3326"/>
+</StrElement>
+<StrElement Nr="3328" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2986">
+<g X="453.6111" Y="-183.5651" Z="250.0486"/>
+<b X="449.756" Y="-179.5506" Z="250.0426"/>
+<InfoNormRichtung vMax="-1" km="159.6356"/>
+<InfoGegenRichtung vMax="-1" km="159.6301" pos="1"/>
+<NachNorm Nr="3329"/>
+<NachGegen Nr="3327"/>
+</StrElement>
+<StrElement Nr="3329" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="449.756" Y="-179.5506" Z="250.0426"/>
+<b X="446.3235" Y="-176.0072" Z="250.0373"/>
+<InfoNormRichtung vMax="-1" km="159.6301"/>
+<InfoGegenRichtung vMax="-1" km="159.6251" pos="1"/>
+<NachNorm Nr="3330"/>
+<NachGegen Nr="3328"/>
+</StrElement>
+<StrElement Nr="3330" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2988">
+<g X="446.3235" Y="-176.0072" Z="250.0373"/>
+<b X="443.7399" Y="-173.3592" Z="250.0333"/>
+<InfoNormRichtung vMax="-1" km="159.6251"/>
+<InfoGegenRichtung vMax="-1" km="159.6214" pos="1"/>
+<NachNorm Nr="3331"/>
+<NachGegen Nr="3329"/>
+</StrElement>
+<StrElement Nr="3331" spTrass="27.7778" Anschluss="257" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2989">
+<g X="443.7399" Y="-173.3592" Z="250.0333"/>
+<b X="442.0623" Y="-171.6487" Z="250.0308"/>
+<InfoNormRichtung vMax="-1" km="159.6214"/>
+<InfoGegenRichtung vMax="-1" km="159.619" pos="1"/>
+<NachNorm Nr="3313"/>
+<NachGegen Nr="3330"/>
+</StrElement>
+<StrElement Nr="3332" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2987">
+<g X="388.2474" Y="-107.9721" Z="249.9409"/>
+<b X="414.7026" Y="-137.975" Z="249.984"/>
+<InfoNormRichtung vMax="77.7778" km="159.5356" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="159.5756"/>
+<NachNorm Nr="3333"/>
+<NachGegen Nr="923"/>
+</StrElement>
+<StrElement Nr="3333" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2992">
+<g X="414.7026" Y="-137.975" Z="249.984"/>
+<b X="443.3431" Y="-170.4563" Z="250.0307"/>
+<InfoNormRichtung vMax="77.7778" km="159.5756" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="159.6189"/>
+<NachNorm Nr="3323"/>
+<NachGegen Nr="3332"/>
+</StrElement>
+<StrElement Nr="3334" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2942">
+<g X="1294.5587" Y="-1135.8226" Z="251.4191"/>
+<b X="1303.076" Y="-1145.4821" Z="251.433"/>
+<InfoNormRichtung vMax="77.7778" km="160.9059" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal NameBetriebsstelle="Körle Ost Bbf" Stellwerk="Körle Ost Kof" Signalname="GÜ 120 P803" SignalTyp="14" BoundingR="25">
+<p X="1294.5587" Y="-1135.8226" Z="251.4191"/>
+<phi Y="0.001079" Z="2.293445"/>
+<SignalFrame>
+<p X="-24.2" Y="0.0001"/>
+<phi Z="-0.000016"/>
+<sk/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="3"/>
+<phi Y="0.002157"/>
+<sk/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff/>
+<VsigBegriff VsigGeschw="30.5556"/>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1">
+<Ereignis Er="2000" Wert="120"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="536"/>
+<NachGegen Nr="535"/>
+</StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Körle Ost Bbf A812" FahrstrStrecke="1733a" RglGgl="2" FahrstrTyp="TypZug" Laenge="3269.2">
 <FahrstrStart Ref="411">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
@@ -26382,6 +26949,9 @@
 <FahrstrRegister Ref="7">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="436">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -26427,6 +26997,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -26466,6 +27039,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="436">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
@@ -26525,6 +27101,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -26567,6 +27146,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="436">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
@@ -26629,6 +27211,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -26654,6 +27239,205 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Körle Ost Bbf A812 -&gt; Körle Ost Bbf N803" FahrstrTyp="TypZug" Laenge="1961">
+<FahrstrStart Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="170">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="308">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="111">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="436">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="440">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="162">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="314">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="165">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="168">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="333">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="171">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="173">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="307">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="339">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="107" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="382" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="305" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Körle Ost Bbf A812 -&gt; Körle Ost Bbf N804" FahrstrTyp="TypZug" Laenge="1993">
+<FahrstrStart Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="155">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="308">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="111">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="115">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="436">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="440">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="135">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="243">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="247">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="250">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="150">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="153">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="336">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="156">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="158">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="6">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="242">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="307">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="342">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="245" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="248" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="107" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="382" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="305" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Körle Ost Bbf A813 -&gt; Körle Ost Bbf N803" FahrstrTyp="TypZug" Laenge="1960.7">
 <FahrstrStart Ref="40">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
@@ -26674,6 +27458,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="440">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="99">
@@ -26721,6 +27508,9 @@
 <FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="134" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -26760,6 +27550,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="440">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="99">
@@ -26810,6 +27603,9 @@
 <FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -26855,6 +27651,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="436">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
@@ -26905,6 +27704,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -26944,6 +27746,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="436">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
@@ -27006,6 +27811,9 @@
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -27051,6 +27859,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="436">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="11">
@@ -27114,6 +27925,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
@@ -30802,6 +31616,9 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -30874,6 +31691,9 @@
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -30925,6 +31745,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="8">
@@ -30996,6 +31819,9 @@
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -31052,6 +31878,9 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31106,6 +31935,9 @@
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -31154,6 +31986,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="8">
@@ -31205,6 +32040,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
@@ -31261,6 +32099,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="8">
@@ -31333,6 +32174,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
@@ -31394,6 +32238,9 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31461,6 +32308,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
@@ -31525,6 +32375,9 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31577,6 +32430,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
@@ -31635,6 +32491,9 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -31686,6 +32545,9 @@
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -31734,6 +32596,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="8">
@@ -31802,6 +32667,9 @@
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
@@ -31853,6 +32721,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="12">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="8">
@@ -31916,6 +32787,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
@@ -31971,6 +32845,9 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -32017,6 +32894,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
@@ -32069,6 +32949,9 @@
 <FahrstrRegister Ref="12">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="8">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -32112,6 +32995,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="127" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="120" FahrstrWeichenlage="2">
@@ -32164,6 +33050,9 @@
 <FahrstrRegister Ref="100">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="96">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -32224,10 +33113,16 @@
 <FahrstrWeiche Ref="134" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="313">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="434">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="365" FahrstrSignalZeile="1">
@@ -32239,10 +33134,141 @@
 <FahrstrVSignal Ref="395" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="441" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
 <FahrstrVSignal Ref="358">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="357">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Körle Ost Bbf P803 -&gt; Üst Schwarzenb 784" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3930.8">
+<FahrstrStart Ref="332">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="166">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="315">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="163">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="309">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="370">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="30">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="419">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="302">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="164">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="167">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="313">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="434" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="368" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="332" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="395" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="358" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="357" FahrstrSignalSpalte="11">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
@@ -32269,6 +33295,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="439">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="96">
@@ -32313,13 +33342,129 @@
 <FahrstrWeiche Ref="134" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="313">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
+<FahrstrSignal Ref="434">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="332" FahrstrSignalZeile="18">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="395" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="441" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="358" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="357" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf P803 -&gt; LZB-Bk 788 788" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1634.8">
+<FahrstrStart Ref="332">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="368">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="169">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="166">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="315">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="163">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="309">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="370">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="164">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="167">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="313">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="434" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="332" FahrstrSignalZeile="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="395" FahrstrSignalSpalte="1">
@@ -32358,6 +33503,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="439">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="96">
@@ -32426,10 +33574,150 @@
 <FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="434">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="365" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="335" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="396" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="358" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="357" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Körle Ost Bbf P804 -&gt; Üst Schwarzenb 784" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="3930.8">
+<FahrstrStart Ref="335">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="300">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="154">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="151">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="249">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="246">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="244">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="309">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="370">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="30">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="419">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="302">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="152">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="22">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="248" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="245" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="434" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="368" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="335" FahrstrSignalZeile="11">
@@ -32473,6 +33761,9 @@
 <FahrstrRegister Ref="100">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="96">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -32521,9 +33812,128 @@
 <FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="101" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="434">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="335" FahrstrSignalZeile="18">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="396" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="358" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="357" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Körle Ost Bbf P804 -&gt; LZB-Bk 788 788" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1634.8">
+<FahrstrStart Ref="335">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="368">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="154">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="151">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="249">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="246">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="244">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="100">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="439">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="437">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="116">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="309">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="109">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="432">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="370">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="149">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="98">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="114">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="152">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="248" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="245" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="134" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="438" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="435" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="120" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="434" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="335" FahrstrSignalZeile="18">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000536_005671_Koerle_Ost\Koerle_Ost_2008.st3" NurInfo="1"/>
 </FahrstrSignal>
