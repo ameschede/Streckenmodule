@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="81" AutorName="Fabian Schöpflin" AutorEmail="fschoepflin@t-online.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="Aufsetz-Rahmenflachmast_U100_06m50.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="250" SichtbarBis="750" Vorlade="1" LODbit="2">
+<Datei Dateiname="Aufsetz-Rahmenflachmast_U100_06m50.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="750" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="Aufsetz-Rahmenflachmast_U100_06m50.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt>
+<p Y="-3.1899"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1" Beschreibung="Festpunktanker">
+<p X="0.05" Y="-3.1899" Z="6.92"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Einzelteile\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1" Beschreibung="Festpunktanker">
+<p X="-0.05" Y="-3.1899" Z="6.92"/>
+<phi Z="-3.141593"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Einzelteile\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 75, Re 100">
+<p Y="-3.278" Z="6.85"/>
+<phi Z="-1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re75" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re100" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 250, Re 330">
+<p Y="-3.274" Z="7.1"/>
+<phi Z="-1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re250" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re330" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 160, Re 200, Re 200 mod">
+<p Y="-3.272" Z="7.25"/>
+<phi Z="-1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re160" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200mod" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 75, Re 100">
+<p Y="-3.102" Z="6.85"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re75" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re100" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 250, Re 330">
+<p Y="-3.106" Z="7.1"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re250" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re330" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 160, Re 200, Re 200 mod">
+<p Y="-3.108" Z="7.25"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re160" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200mod" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel">
+<p X="-0.0525" Y="-3.1899" Z="3.15"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel">
+<p X="0.0525" Y="-3.1899" Z="3.15"/>
+<phi Z="3.141593"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>
