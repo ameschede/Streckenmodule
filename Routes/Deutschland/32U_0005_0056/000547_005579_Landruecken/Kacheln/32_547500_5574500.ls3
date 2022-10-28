@@ -6287,5 +6287,39 @@
 <Face i="714;661;660"/>
 <Face i="714;660;712"/>
 </SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="-400" V="-1.068">
+<p X="-489.3199" Y="500" Z="345.1609"/>
+<n X="0.0916" Y="-0.1055" Z="0.9902"/>
+</Vertex>
+<Vertex U="-405.0139" V="0">
+<p X="-500" Y="449.8608" Z="340.8047"/>
+<n X="0.0916" Y="-0.1055" Z="0.9902"/>
+</Vertex>
+<Vertex U="-400" V="0">
+<p X="-500" Y="500" Z="346.1488"/>
+<n X="0.0916" Y="-0.1055" Z="0.9902"/>
+</Vertex>
+<Vertex U="-413.9642" V="0">
+<p X="-500" Y="360.3579" Z="331.0611"/>
+<n X="0.0935" Y="-0.1059" Z="0.99"/>
+</Vertex>
+<Vertex U="-400" V="-7.3204">
+<p X="-426.7962" Y="500" Z="338.7092"/>
+<n X="0.0979" Y="-0.1068" Z="0.9894"/>
+</Vertex>
+<Vertex U="-414.24" V="-8.4287">
+<p X="-415.7128" Y="357.6001" Z="322.0634"/>
+<n X="0.102" Y="-0.1077" Z="0.9889"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="4;5;3"/>
+<Face i="4;3;1"/>
+<Face i="0;4;1"/>
+</SubSet>
 </Landschaft>
 </Zusi>

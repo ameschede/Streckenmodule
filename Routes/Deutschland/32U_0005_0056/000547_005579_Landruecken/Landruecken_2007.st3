@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.3">
+<Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Strecke Himmelsmodell="2">
@@ -592,21 +592,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -1098,6 +1102,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -1135,6 +1140,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -1172,6 +1178,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -1195,21 +1202,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -1424,16 +1435,19 @@
 <SignalFrame>
 <p X="-24.2002" Y="0.0001"/>
 <phi Y="-0.008098"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="2.9998"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -1485,6 +1499,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -1543,56 +1558,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Y="0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Y="0.0521" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Y="0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_1-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1504" Y="-0.0519" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_0-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -1869,56 +1895,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.0521" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_0-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0519" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -2048,21 +2085,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -2331,6 +2372,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2368,6 +2410,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2413,6 +2456,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2705,56 +2749,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.0519" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_3-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.0521" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_9-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -2874,21 +2929,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -3102,16 +3161,19 @@
 <SignalFrame>
 <p X="-24.2"/>
 <phi Y="-0.008098"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3" Y="0.0001"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -3163,6 +3225,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -3181,6 +3244,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Bereichskennzeichen\LZB_Bereich-doppelt.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -3244,56 +3308,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1501" Y="0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1501" Y="0.0521" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1501" Y="0.0001" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_4-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1501" Y="-0.0519" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_0-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -3411,61 +3486,73 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="-2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
 <p X="61.418" Y="-2.07"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -3656,61 +3743,73 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="-2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
 <p X="61.418" Y="-2.07"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -3914,61 +4013,73 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Rechts_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit links (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück links, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="61.618" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="-0.023911"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -4181,61 +4292,73 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Rechts_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit links (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.23"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="1.69" Y="2.27"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="6.06"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück links, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="58.018"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1">
 <p X="61.618" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi Z="-0.023911"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -4684,21 +4807,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -5200,21 +5327,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -5253,21 +5384,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr4.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr4.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -5310,6 +5445,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -5339,6 +5475,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -5360,6 +5497,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -5389,31 +5527,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -5613,21 +5757,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr4.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -5647,16 +5795,19 @@
 <SignalFrame>
 <p X="-24.2" Y="0.0001" Z="-0.0001"/>
 <phi Z="-0.000007"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3"/>
 <phi Y="0.024956"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -5713,6 +5864,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -5771,56 +5923,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_5-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.15" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_3-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -6234,21 +6397,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr4.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -6483,6 +6650,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -6510,6 +6678,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -6622,6 +6791,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Bereichskennzeichen\LZB_Bereich-doppelt.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -6647,21 +6817,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -6690,21 +6864,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr4.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -6742,21 +6920,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr4.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -6784,56 +6966,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_8-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_3-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -6925,31 +7118,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7029,21 +7228,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -7072,21 +7275,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -7114,56 +7321,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-Tunnel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_5-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_4-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7224,56 +7442,67 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\BksigKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Hp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.405" Z="4.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Zs1_8Komp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Y="-0.15" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.465" Z="4.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs-oben-TunnelLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KSo.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_6-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_8-klein.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1499" Y="-0.052" Z="2.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_4-klein.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7333,31 +7562,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7435,31 +7670,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7588,31 +7829,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="-0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7690,31 +7937,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelauslegerKompKsLi.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.415" Z="4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vsigkomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1" Y="0.71" Z="2.12"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Tunnel\TunnelMastschKompKs-Vr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.045" Z="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7827,6 +8080,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7852,6 +8106,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7877,6 +8132,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -7923,6 +8179,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -7944,6 +8201,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -7965,6 +8223,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -7986,6 +8245,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8009,6 +8269,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8030,6 +8291,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8051,6 +8313,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8074,6 +8337,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8095,6 +8359,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_SFS-Tunnel.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8131,21 +8396,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr4.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -8184,16 +8453,19 @@
 <SignalFrame>
 <p X="-24.2002"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3"/>
 <phi Y="-0.024946"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8219,16 +8491,19 @@
 <SignalFrame>
 <p X="-24.2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3"/>
 <phi Y="-0.024948"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8289,21 +8564,25 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.01" Y="-0.13"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
@@ -8323,16 +8602,19 @@
 <SignalFrame>
 <p X="-24.2"/>
 <phi Z="-0.000002"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="3" Z="0.0001"/>
 <phi Y="0.024949"/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -10067,71 +10349,85 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500_1_26-5fb_Links_Schienen.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500L_Herzstueck_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500L_Herzstueck_Abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700K rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="7.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="13.62"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="19.42"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Weichensignal reflektierend rechts" WeichenbaugruppePos0="1">
 <p X="3.45" Y="-2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="3" WeichenbaugruppeBeschreibung="Mittelverschluss rechts (gleiche Seite wie Antrieb)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss2500_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="3" WeichenbaugruppeBeschreibung="Antrieb Herzstück (Elektrischer Antrieb S700K) rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="83.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="25.95" Y="0.2"/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="5" WeichenbaugruppeBeschreibung="Weichensignal reflektierend rechts Herzstueck" WeichenbaugruppePos0="1">
 <p X="84.418" Y="-2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -10264,71 +10560,85 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500_1_26-5fb_Links_Schienen.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500L_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500L_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500L_Herzstueck_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500L_Herzstueck_Abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700K rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="7.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="13.62"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="19.42"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Weichensignal reflektierend rechts" WeichenbaugruppePos0="1">
 <p X="3.45" Y="-2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="3" WeichenbaugruppeBeschreibung="Mittelverschluss rechts (gleiche Seite wie Antrieb)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss2500_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="3" WeichenbaugruppeBeschreibung="Antrieb Herzstück (Elektrischer Antrieb S700K) rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="83.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_rechts.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="25.95" Y="0.2"/>
 <phi Z="0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="5" WeichenbaugruppeBeschreibung="Weichensignal reflektierend rechts Herzstueck" WeichenbaugruppePos0="1">
 <p X="84.418" Y="-2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -10481,71 +10791,85 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500_1_26-5fb_Rechts_Schienen.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500R_Herzstueck_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500R_Herzstueck_Abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700K links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="7.75"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="13.62"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="19.42"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Weichensignal reflektierend links" WeichenbaugruppePos0="1">
 <p X="3.45" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Mittelverschluss links (gleiche Seite wie Antrieb)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss2500_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Antrieb Herzstück (Elektrischer Antrieb S700K) links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="83.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="25.95"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="5" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Weichensignal reflektierend links Herzstueck" WeichenbaugruppePos0="1">
 <p X="84.418" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -10678,71 +11002,85 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500_1_26-5fb_Rechts_Schienen.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500R_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="1.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\Zunge_2500R_abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500R_Herzstueck_gerade.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\2500\60_2500R_Herzstueck_Abzweig.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700K links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="3"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="7.75"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="13.62"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="3" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="19.42"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Weichensignal reflektierend links" WeichenbaugruppePos0="1">
 <p X="3.45" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Mittelverschluss links (gleiche Seite wie Antrieb)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss2500_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="2" WeichenbaugruppeBeschreibung="Antrieb Herzstück (Elektrischer Antrieb S700K) links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="83.8"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_L700H_links.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="25.95"/>
 <phi Z="-0.023387"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckL_Li.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="5" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Weichensignal reflektierend links Herzstueck" WeichenbaugruppePos0="1">
 <p X="84.418" Y="2.07"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Re.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -10912,6 +11250,10 @@
 <InfoGegenRichtung vMax="-1" Reg="5066"/>
 <NachNorm Nr="1146"/>
 <NachGegen Nr="1145"/>
+</StrElement>
+<StrElement Nr="1211" spTrass="27.7778" Fkt="2">
+<g X="259.4238" Y="-5598.5488" Z="293.9628"/>
+<b X="260.1788" Y="-5460.0527" Z="294.7851"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Üst Landrücken N 609" FahrstrTyp="TypZug" Laenge="264.1">
 <FahrstrStart Ref="1">
