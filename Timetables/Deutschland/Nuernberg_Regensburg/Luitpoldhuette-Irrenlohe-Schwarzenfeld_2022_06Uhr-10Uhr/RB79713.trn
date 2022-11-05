@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="RB" Nummer="79713" Zuglauf="RB 23 Neustadt (Waldnaab) - Regensburg Hbf" Prio="2500" Standortmodus="1" BremsstellungZug="5" spAnfang="27.7778" MBrh="1.55" APBeschl="0.5" LODzug="2" ReisendenDichte="0.8" FahrplanGruppe="3. Nabburg - Irrenlohe" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Schwarzenfeld F" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe-Schwarzenfeld_2022_06Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Irrenlohe-Schwarzenfeld_2022_06Uhr-10Uhr\RB79713.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 08:22:00" Abf="2022-01-11 08:25:00" Betrst="Schwarzenfeld" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 08:25:30" Abf="2022-01-11 08:26:00" Betrst="Schwarzenfeld"/>
+<FahrplanEintrag Betrst="Schwarzenfeld" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="P2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="G"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 08:29:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="P2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 08:31:00" Betrst="Sbk 2">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 2"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\LINT\LINT41_A-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="4" IDNeben="1" DotraModus="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Dieseltriebwagen\LINT\LINT41_B-Wagen.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>
