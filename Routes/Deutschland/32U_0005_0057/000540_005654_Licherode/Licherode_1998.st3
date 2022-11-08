@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="12.75"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="14.00"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.ls3"/>
@@ -221,6 +221,24 @@
 <ReferenzElemente ReferenzNr="181" StrElement="120" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3"/>
 <ReferenzElemente ReferenzNr="182" StrElement="1013" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3"/>
 <ReferenzElemente ReferenzNr="183" StrElement="2674" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3"/>
+<ReferenzElemente ReferenzNr="184" StrElement="2821" RefTyp="4" Info="Signal: Licherode Ls 222II"/>
+<ReferenzElemente ReferenzNr="185" StrElement="2821" StrNorm="1" RefTyp="2" Info="Register-Nr. 5051"/>
+<ReferenzElemente ReferenzNr="186" StrElement="2821" RefTyp="2" Info="Register-Nr. 5051"/>
+<ReferenzElemente ReferenzNr="187" StrElement="2824" StrNorm="1" RefTyp="3" Info="Weiche Licherode 213"/>
+<ReferenzElemente ReferenzNr="188" StrElement="2824" StrNorm="1" RefTyp="2" Info="Register-Nr. 5052"/>
+<ReferenzElemente ReferenzNr="189" StrElement="2824" RefTyp="2" Info="Register-Nr. 5052"/>
+<ReferenzElemente ReferenzNr="190" StrElement="2844" StrNorm="1" RefTyp="3" Info="Weiche Licherode 212"/>
+<ReferenzElemente ReferenzNr="191" StrElement="2844" StrNorm="1" RefTyp="2" Info="Register-Nr. 5053"/>
+<ReferenzElemente ReferenzNr="192" StrElement="2844" RefTyp="2" Info="Register-Nr. 5053"/>
+<ReferenzElemente ReferenzNr="193" StrElement="361" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="194" StrElement="361" StrNorm="1" RefTyp="2" Info="Register-Nr. 5024"/>
+<ReferenzElemente ReferenzNr="195" StrElement="361" RefTyp="2" Info="Register-Nr. 5024"/>
+<ReferenzElemente ReferenzNr="196" StrElement="569" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="197" StrElement="569" StrNorm="1" RefTyp="2" Info="Register-Nr. 5042"/>
+<ReferenzElemente ReferenzNr="198" StrElement="569" RefTyp="2" Info="Register-Nr. 5042"/>
+<ReferenzElemente ReferenzNr="199" StrElement="2863" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="200" StrElement="2863" StrNorm="1" RefTyp="2" Info="Register-Nr. 5056"/>
+<ReferenzElemente ReferenzNr="201" StrElement="2863" RefTyp="2" Info="Register-Nr. 5056"/>
 <StrElement Nr="1" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
 <g X="677.6254" Y="2818.2219" Z="253.1277"/>
 <b X="664.3946" Y="2777.105" Z="253.6676"/>
@@ -249,7 +267,7 @@
 <NachNorm Nr="539"/>
 <NachGegen Nr="2"/>
 </StrElement>
-<StrElement Nr="4" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2974">
+<StrElement Nr="4" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2947">
 <g X="255.242" Y="-817.7261" Z="299.4286"/>
 <b X="255.5343" Y="-820.2087" Z="299.4598"/>
 <InfoNormRichtung vMax="-1" pos="1" Reg="5002">
@@ -258,21 +276,6 @@
 <InfoGegenRichtung vMax="77.7778" km="178.9402" Reg="5002"/>
 <NachNorm Nr="569"/>
 <NachGegen Nr="258"/>
-</StrElement>
-<StrElement Nr="5" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2893">
-<g X="259.7311" Y="-855.8585" Z="299.9086"/>
-<b X="264.2203" Y="-893.9911" Z="300.3885"/>
-<InfoNormRichtung vMax="77.7778" km="178.9761" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="179.0145"/>
-<NachNorm Nr="6"/>
-<NachGegen Nr="569"/>
-</StrElement>
-<StrElement Nr="6" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.286">
-<g X="264.2203" Y="-893.9911" Z="300.3885"/>
-<b X="267.7275" Y="-923.783" Z="300.7635"/>
-<InfoGegenRichtung vMax="77.7778" km="179.0445"/>
-<NachNorm Nr="589"/>
-<NachGegen Nr="5"/>
 </StrElement>
 <StrElement Nr="7" Ueberh="-0.0026" kr="0.000007" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2632">
 <g X="495.1611" Y="2251.1851" Z="260.3236"/>
@@ -666,7 +669,7 @@
 <NachNorm Nr="47"/>
 <NachGegen Nr="45"/>
 </StrElement>
-<StrElement Nr="47" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2582">
+<StrElement Nr="47" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.266">
 <g X="266.3069" Y="1375.181" Z="271.6465"/>
 <b X="265.0164" Y="1368.1495" Z="271.7359"/>
 <InfoNormRichtung vMax="-1">
@@ -704,7 +707,7 @@
 <NachNorm Nr="50"/>
 <NachGegen Nr="48"/>
 </StrElement>
-<StrElement Nr="50" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2819">
+<StrElement Nr="50" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2861">
 <g X="254.1884" Y="1307.194" Z="272.5094"/>
 <b X="251.9805" Y="1294.2976" Z="272.6729"/>
 <InfoNormRichtung vMax="-1">
@@ -1376,7 +1379,7 @@
 <NachNorm Nr="110"/>
 <NachGegen Nr="559"/>
 </StrElement>
-<StrElement Nr="110" Ueberh="0.0131" kr="-0.000035" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3472">
+<StrElement Nr="110" Ueberh="0.0131" kr="-0.000035" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3476">
 <g X="217.909" Y="-500.5298" Z="295.4351"/>
 <b X="215.381" Y="-478.8769" Z="295.164"/>
 <InfoNormRichtung vMax="77.7778" km="178.6182"/>
@@ -1384,7 +1387,7 @@
 <NachNorm Nr="111"/>
 <NachGegen Nr="109"/>
 </StrElement>
-<StrElement Nr="111" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3749">
+<StrElement Nr="111" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3752">
 <g X="215.381" Y="-478.8769" Z="295.164"/>
 <b X="214.5756" Y="-471.9239" Z="295.0765"/>
 <InfoGegenRichtung vMax="77.7778" km="178.5895" pos="1"/>
@@ -1631,7 +1634,7 @@
 <NachNorm Nr="135"/>
 <NachGegen Nr="133"/>
 </StrElement>
-<StrElement Nr="135" Ueberh="-0.0549" kr="0.000146" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3242">
+<StrElement Nr="135" Ueberh="-0.0549" kr="0.000146" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3243">
 <g X="433.9318" Y="2041.974" Z="263.048"/>
 <b X="427.6039" Y="2021.1219" Z="263.3214"/>
 <InfoNormRichtung vMax="69.4444" km="176.0472" pos="1"/>
@@ -1639,7 +1642,7 @@
 <NachNorm Nr="136"/>
 <NachGegen Nr="134"/>
 </StrElement>
-<StrElement Nr="136" Ueberh="-0.0601" kr="0.00016" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3429">
+<StrElement Nr="136" Ueberh="-0.0601" kr="0.00016" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3434">
 <g X="427.6039" Y="2021.1219" Z="263.3214"/>
 <b X="421.3456" Y="2000.248" Z="263.5929"/>
 <InfoNormRichtung vMax="69.4444" km="176.0691" pos="1"/>
@@ -1929,7 +1932,7 @@
 <NachNorm Nr="165"/>
 <NachGegen Nr="163"/>
 </StrElement>
-<StrElement Nr="165" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.33">
+<StrElement Nr="165" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3385">
 <g X="270.9301" Y="1374.323" Z="271.6466"/>
 <b X="269.6619" Y="1367.4132" Z="271.7345"/>
 <InfoNormRichtung vMax="-1">
@@ -1967,7 +1970,7 @@
 <NachNorm Nr="168"/>
 <NachGegen Nr="166"/>
 </StrElement>
-<StrElement Nr="168" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3408">
+<StrElement Nr="168" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3452">
 <g X="258.821" Y="1306.389" Z="272.5095"/>
 <b X="256.625" Y="1293.5614" Z="272.6722"/>
 <InfoNormRichtung vMax="-1">
@@ -2655,7 +2658,7 @@
 <NachNorm Nr="230"/>
 <NachGegen Nr="228"/>
 </StrElement>
-<StrElement Nr="230" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3758">
+<StrElement Nr="230" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3761">
 <g X="220.0517" Y="-478.3528" Z="295.164"/>
 <b X="219.2463" Y="-471.3998" Z="295.0765"/>
 <InfoGegenRichtung vMax="77.7778" km="178.5895" pos="1"/>
@@ -2990,7 +2993,7 @@
 <NachNorm Nr="269"/>
 <NachGegen Nr="256"/>
 </StrElement>
-<StrElement Nr="258" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2977">
+<StrElement Nr="258" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2954">
 <g X="255.2421" Y="-817.7261" Z="299.4286"/>
 <b X="254.9729" Y="-815.4399" Z="299.3999"/>
 <InfoNormRichtung vMax="-1" km="178.9377" Reg="5013">
@@ -3105,7 +3108,7 @@
 <NachNorm Nr="261"/>
 <NachGegen Nr="4"/>
 </StrElement>
-<StrElement Nr="259" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.299">
+<StrElement Nr="259" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2979">
 <g X="254.9729" Y="-815.4399" Z="299.3999"/>
 <b X="253.1784" Y="-800.1961" Z="299.208"/>
 <InfoNormRichtung vMax="-1" km="178.9354"/>
@@ -3121,7 +3124,7 @@
 <NachNorm Nr="263"/>
 <NachGegen Nr="259"/>
 </StrElement>
-<StrElement Nr="261" kr="-0.0004" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2989">
+<StrElement Nr="261" kr="-0.0004" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2978">
 <g X="254.9729" Y="-815.4399" Z="299.3999"/>
 <b X="253.366" Y="-801.324" Z="299.2223"/>
 <InfoNormRichtung vMax="-1" km="178.9354">
@@ -3355,7 +3358,7 @@
 <InfoGegenRichtung vMax="-1" km="179.0541" Reg="5015"/>
 <NachNorm Nr="273"/>
 <NachNorm Nr="282"/>
-<NachGegen Nr="589"/>
+<NachGegen Nr="2843"/>
 </StrElement>
 <StrElement Nr="273" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.286">
 <g X="268.8532" Y="-933.345" Z="300.8839"/>
@@ -4530,37 +4533,21 @@
 </StrElement>
 <StrElement Nr="356" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="256.9593" Y="-792.1136" Z="299.1132"/>
-<b X="262.7827" Y="-841.5802" Z="299.7358"/>
+<b X="261.562" Y="-831.2106" Z="299.6053"/>
 <InfoNormRichtung vMax="77.7778" km="178.9124" pos="1"/>
 <InfoGegenRichtung vMax="77.7778" km="178.9622"/>
-<NachNorm Nr="357"/>
+<NachNorm Nr="2862"/>
 <NachGegen Nr="355"/>
 </StrElement>
-<StrElement Nr="357" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
-<g X="262.7827" Y="-841.5802" Z="299.7358"/>
-<b X="268.6062" Y="-891.0468" Z="300.3584"/>
-<InfoNormRichtung vMax="77.7778" km="178.9622" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="179.0121"/>
-<NachNorm Nr="358"/>
-<NachGegen Nr="356"/>
-</StrElement>
-<StrElement Nr="358" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
-<g X="268.6062" Y="-891.0468" Z="300.3584"/>
-<b X="274.4296" Y="-940.5135" Z="300.981"/>
-<InfoNormRichtung vMax="77.7778" km="179.0121" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="179.0619"/>
-<NachNorm Nr="359"/>
-<NachGegen Nr="357"/>
-</StrElement>
-<StrElement Nr="359" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
-<g X="274.4296" Y="-940.5135" Z="300.981"/>
+<StrElement Nr="359" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="279.3406" Y="-982.229" Z="301.506"/>
 <b X="280.2531" Y="-989.98" Z="301.6036"/>
-<InfoNormRichtung vMax="77.7778" km="179.0619" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="179.1117"/>
+<InfoNormRichtung vMax="77.7778" pos="1"/>
+<InfoGegenRichtung vMax="77.7778"/>
 <NachNorm Nr="360"/>
-<NachGegen Nr="358"/>
+<NachGegen Nr="2824"/>
 </StrElement>
-<StrElement Nr="360" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2912">
+<StrElement Nr="360" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.297">
 <g X="280.2531" Y="-989.98" Z="301.6036"/>
 <b X="286.0765" Y="-1039.447" Z="302.2262"/>
 <InfoNormRichtung vMax="77.7778" km="179.1117" pos="1"/>
@@ -4568,12 +4555,14 @@
 <NachNorm Nr="361"/>
 <NachGegen Nr="359"/>
 </StrElement>
-<StrElement Nr="361" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.286">
+<StrElement Nr="361" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.288">
 <g X="286.0765" Y="-1039.447" Z="302.2262"/>
-<b X="291.9" Y="-1088.9128" Z="302.8488"/>
-<InfoNormRichtung vMax="77.7778" km="179.1615" pos="1"/>
-<InfoGegenRichtung vMax="77.7778" km="179.2113"/>
-<NachNorm Nr="362"/>
+<b X="287.3625" Y="-1050.3707" Z="302.3637"/>
+<InfoNormRichtung vMax="-1" pos="1" Reg="5024">
+<Ereignis Er="4"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="77.7778" km="179.1725" Reg="5024"/>
+<NachNorm Nr="2821"/>
 <NachGegen Nr="360"/>
 </StrElement>
 <StrElement Nr="362" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.304">
@@ -4582,7 +4571,7 @@
 <InfoNormRichtung vMax="77.7778" km="179.2113" pos="1"/>
 <InfoGegenRichtung vMax="77.7778" km="179.2611"/>
 <NachNorm Nr="363"/>
-<NachGegen Nr="361"/>
+<NachGegen Nr="2821"/>
 </StrElement>
 <StrElement Nr="363" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3009">
 <g X="297.7234" Y="-1138.38" Z="303.4714"/>
@@ -4611,8 +4600,8 @@
 <StrElement Nr="366" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
 <g X="315.1937" Y="-1286.78" Z="305.3392"/>
 <b X="321.0172" Y="-1336.2458" Z="305.9618"/>
-<InfoNormRichtung vMax="77.7778" km="179.4105" pos="1" Reg="5024"/>
-<InfoGegenRichtung vMax="77.7778" km="179.4603" Reg="5024">
+<InfoNormRichtung vMax="77.7778" km="179.4105" pos="1" Reg="5025"/>
+<InfoGegenRichtung vMax="77.7778" km="179.4603" Reg="5025">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="367"/>
@@ -4711,7 +4700,7 @@
 <StrElement Nr="376" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="373.4282" Y="-1781.446" Z="311.5652"/>
 <b X="376.9939" Y="-1811.7345" Z="311.9464"/>
-<InfoNormRichtung vMax="-1" Reg="5025">
+<InfoNormRichtung vMax="-1" Reg="5026">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="N242" SignalTyp="9" BoundingR="10">
 <p X="374.7593" Y="-1811.9976" Z="311.9464"/>
 <phi Z="-1.453611"/>
@@ -4832,17 +4821,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="179.9391" Reg="5025"/>
+<InfoGegenRichtung vMax="77.7778" km="179.9391" Reg="5026"/>
 <NachNorm Nr="561"/>
 <NachGegen Nr="375"/>
 </StrElement>
 <StrElement Nr="377" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2872">
 <g X="379.2516" Y="-1830.9119" Z="312.1878"/>
 <b X="385.0751" Y="-1880.3789" Z="312.8104"/>
-<InfoNormRichtung vMax="77.7778" km="179.9584" pos="1" Reg="5026">
+<InfoNormRichtung vMax="77.7778" km="179.9584" pos="1" Reg="5027">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="180.0082" Reg="5026"/>
+<InfoGegenRichtung vMax="77.7778" km="180.0082" Reg="5027"/>
 <NachNorm Nr="378"/>
 <NachGegen Nr="561"/>
 </StrElement>
@@ -4881,7 +4870,7 @@
 <StrElement Nr="383" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2931">
 <g X="408.3689" Y="-2078.2451" Z="315.3008"/>
 <b X="414.4845" Y="-2130.1946" Z="315.9547"/>
-<InfoNormRichtung vMax="-1" Reg="5027">
+<InfoNormRichtung vMax="-1" Reg="5028">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Ls 272I" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="412.7465" Y="-2130.3992" Z="315.9547"/>
 <phi Z="-1.453614"/>
@@ -4940,7 +4929,7 @@
 <MatrixEintrag Signalbild="507"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="180.2597" Reg="5027"/>
+<InfoGegenRichtung vMax="77.7778" km="180.2597" Reg="5028"/>
 <NachNorm Nr="564"/>
 <NachGegen Nr="381"/>
 </StrElement>
@@ -4955,7 +4944,7 @@
 <StrElement Nr="385" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2961">
 <g X="433.4175" Y="-2291.0181" Z="317.9789"/>
 <b X="433.2737" Y="-2289.7959" Z="317.9635"/>
-<InfoNormRichtung vMax="-1" km="180.4217" pos="1" Reg="5028">
+<InfoNormRichtung vMax="-1" km="180.4217" pos="1" Reg="5029">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="236" SignalFlags="3" SignalTyp="2" BoundingR="66">
 <p X="433.4175" Y="-2291.0181" Z="317.9789"/>
 <phi Y="0.012499" Z="-4.595204"/>
@@ -5050,7 +5039,7 @@
 <MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="180.4204" pos="1" Reg="5028"/>
+<InfoGegenRichtung vMax="-1" km="180.4204" pos="1" Reg="5029"/>
 <NachNorm Nr="386"/>
 <NachNorm Nr="395"/>
 <NachGegen Nr="239"/>
@@ -5323,7 +5312,7 @@
 <StrElement Nr="416" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="359.36" Y="-1771.4261" Z="311.4203"/>
 <b X="364.3286" Y="-1813.6312" Z="311.9515"/>
-<InfoNormRichtung vMax="-1" Reg="5029">
+<InfoNormRichtung vMax="-1" Reg="5030">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="N240" SignalTyp="9" BoundingR="10">
 <p X="361.2201" Y="-1813.9971" Z="311.9515"/>
 <phi Z="-1.45361"/>
@@ -5462,17 +5451,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="179.9395" Reg="5029"/>
+<InfoGegenRichtung vMax="77.7778" km="179.9395" Reg="5030"/>
 <NachNorm Nr="563"/>
 <NachGegen Nr="415"/>
 </StrElement>
 <StrElement Nr="417" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="365.1128" Y="-1820.292" Z="312.0353"/>
 <b X="370.8655" Y="-1869.158" Z="312.6504"/>
-<InfoNormRichtung vMax="77.7778" km="179.9462" pos="1" Reg="5030">
+<InfoNormRichtung vMax="77.7778" km="179.9462" pos="1" Reg="5031">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="179.9954" Reg="5030"/>
+<InfoGegenRichtung vMax="77.7778" km="179.9954" Reg="5031"/>
 <NachNorm Nr="418"/>
 <NachGegen Nr="563"/>
 </StrElement>
@@ -5487,10 +5476,10 @@
 <StrElement Nr="419" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2968">
 <g X="277.8628" Y="-1056.424" Z="302.425"/>
 <b X="278.1422" Y="-1061.5229" Z="302.4887"/>
-<InfoNormRichtung vMax="77.7778" km="179.1774" pos="1" Reg="5031">
+<InfoNormRichtung vMax="77.7778" km="179.1774" pos="1" Reg="5032">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="179.1825" Reg="5031"/>
+<InfoGegenRichtung vMax="77.7778" km="179.1825" Reg="5032"/>
 <NachNorm Nr="420"/>
 <NachGegen Nr="438"/>
 </StrElement>
@@ -5587,8 +5576,8 @@
 <StrElement Nr="428" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2916">
 <g X="387.5907" Y="-1991.538" Z="314.1941"/>
 <b X="388.6959" Y="-1997.641" Z="314.2714"/>
-<InfoNormRichtung vMax="77.7778" km="180.1189" pos="1" Reg="5032"/>
-<InfoGegenRichtung vMax="77.7778" km="180.1251" Reg="5032">
+<InfoNormRichtung vMax="77.7778" km="180.1189" pos="1" Reg="5033"/>
+<InfoGegenRichtung vMax="77.7778" km="180.1251" Reg="5033">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="466"/>
@@ -5668,7 +5657,7 @@
 <StrElement Nr="438" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2976">
 <g X="277.8628" Y="-1056.424" Z="302.425"/>
 <b X="277.7643" Y="-1054.627" Z="302.4025"/>
-<InfoNormRichtung vMax="-1" km="179.1774" pos="1" Reg="5033">
+<InfoNormRichtung vMax="-1" km="179.1774" pos="1" Reg="5034">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="218" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="277.8628" Y="-1056.424" Z="302.425"/>
 <phi Y="0.012475" Z="-4.657648"/>
@@ -5703,7 +5692,7 @@
 <MatrixEintrag Signalbild="11" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="179.1756" pos="1" Reg="5033"/>
+<InfoGegenRichtung vMax="-1" km="179.1756" pos="1" Reg="5034"/>
 <NachNorm Nr="439"/>
 <NachNorm Nr="441"/>
 <NachGegen Nr="419"/>
@@ -5975,7 +5964,7 @@
 <StrElement Nr="466" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.291">
 <g X="388.6959" Y="-1997.641" Z="314.2714"/>
 <b X="389.0166" Y="-1999.4119" Z="314.2939"/>
-<InfoNormRichtung vMax="-1" km="180.1251" pos="1" Reg="5034">
+<InfoNormRichtung vMax="-1" km="180.1251" pos="1" Reg="5035">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="230" SignalFlags="3" SignalTyp="2" BoundingR="34">
 <p X="388.6959" Y="-1997.641" Z="314.2714"/>
 <phi Y="-0.012475" Z="-1.39166"/>
@@ -6010,7 +5999,7 @@
 <MatrixEintrag Signalbild="11" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="180.1269" Reg="5034"/>
+<InfoGegenRichtung vMax="-1" km="180.1269" Reg="5035"/>
 <NachNorm Nr="467"/>
 <NachNorm Nr="469"/>
 <NachGegen Nr="428"/>
@@ -6473,7 +6462,7 @@
 <StrElement Nr="522" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.302">
 <g X="188.4234" Y="-218.6588" Z="291.8945"/>
 <b X="190.1905" Y="-239.0809" Z="292.1506"/>
-<InfoNormRichtung vMax="-1" Reg="5035">
+<InfoNormRichtung vMax="-1" Reg="5036">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="A211" SignalTyp="7" BoundingR="10">
 <p X="187.0721" Y="-239.3507" Z="292.4006"/>
 <phi Z="-1.484485"/>
@@ -6607,17 +6596,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="178.3554" Reg="5035"/>
+<InfoGegenRichtung vMax="77.7778" km="178.3554" Reg="5036"/>
 <NachNorm Nr="557"/>
 <NachGegen Nr="521"/>
 </StrElement>
 <StrElement Nr="524" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3194">
 <g X="192.2623" Y="-262.1067" Z="292.4395"/>
 <b X="194.3001" Y="-283.8199" Z="292.712"/>
-<InfoNormRichtung vMax="77.7778" km="178.3785" pos="1" Reg="5036">
+<InfoNormRichtung vMax="77.7778" km="178.3785" pos="1" Reg="5037">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="178.4003" Reg="5036"/>
+<InfoGegenRichtung vMax="77.7778" km="178.4003" Reg="5037"/>
 <NachNorm Nr="119"/>
 <NachGegen Nr="557"/>
 </StrElement>
@@ -6701,7 +6690,7 @@
 <StrElement Nr="534" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3019">
 <g X="193.1088" Y="-218.2628" Z="291.8945"/>
 <b X="194.8759" Y="-238.6849" Z="292.1508"/>
-<InfoNormRichtung vMax="-1" Reg="5037">
+<InfoNormRichtung vMax="-1" Reg="5038">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="A212" SignalTyp="7" BoundingR="10">
 <p X="197.9942" Y="-238.4151" Z="292.4008"/>
 <phi Z="-1.484485"/>
@@ -6835,17 +6824,17 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="178.3554" Reg="5037"/>
+<InfoGegenRichtung vMax="77.7778" km="178.3554" Reg="5038"/>
 <NachNorm Nr="558"/>
 <NachGegen Nr="533"/>
 </StrElement>
 <StrElement Nr="536" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3203">
 <g X="196.9444" Y="-261.6732" Z="292.4395"/>
 <b X="198.9805" Y="-283.3676" Z="292.7119"/>
-<InfoNormRichtung vMax="77.7778" km="178.3785" pos="1" Reg="5038">
+<InfoNormRichtung vMax="77.7778" km="178.3785" pos="1" Reg="5039">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="77.7778" km="178.4003" Reg="5038"/>
+<InfoGegenRichtung vMax="77.7778" km="178.4003" Reg="5039"/>
 <NachNorm Nr="238"/>
 <NachGegen Nr="558"/>
 </StrElement>
@@ -6961,14 +6950,14 @@
 <NachNorm Nr="527"/>
 <NachGegen Nr="526"/>
 </StrElement>
-<StrElement Nr="553" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3369">
+<StrElement Nr="553" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3371">
 <g X="214.5756" Y="-471.9239" Z="295.0765"/>
 <b X="212.8726" Y="-457.2216" Z="294.8915"/>
 <InfoNormRichtung vMax="77.7778" km="178.5895"/>
 <NachNorm Nr="112"/>
 <NachGegen Nr="111"/>
 </StrElement>
-<StrElement Nr="554" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3374">
+<StrElement Nr="554" Ueberh="0.0183" kr="-0.000049" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3375">
 <g X="219.2463" Y="-471.3998" Z="295.0765"/>
 <b X="217.5443" Y="-456.7061" Z="294.8915"/>
 <InfoNormRichtung vMax="77.7778" km="178.5895"/>
@@ -7243,7 +7232,7 @@
 <StrElement Nr="564" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2931">
 <g X="414.4845" Y="-2130.1946" Z="315.9547"/>
 <b X="414.9522" Y="-2134.1667" Z="316.0046"/>
-<InfoNormRichtung vMax="-1" Reg="5039">
+<InfoNormRichtung vMax="-1" Reg="5040">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Zs 6 nI" BoundingR="10">
 <p X="412.607" Y="-2134.2922" Z="320.8846"/>
 <phi Z="-1.453589"/>
@@ -7270,7 +7259,7 @@
 </MatrixEintrag>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5039">
+<InfoGegenRichtung vMax="-1" Reg="5040">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="565"/>
@@ -7293,10 +7282,10 @@
 <StrElement Nr="567" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2932">
 <g X="427.6305" Y="-2282.061" Z="317.8592"/>
 <b X="429.8517" Y="-2300.9294" Z="318.0897"/>
-<InfoNormRichtung vMax="-1" Reg="5040">
+<InfoNormRichtung vMax="-1" Reg="5041">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" Reg="5040"/>
+<InfoGegenRichtung vMax="-1" Reg="5041"/>
 <NachNorm Nr="334"/>
 <NachGegen Nr="333"/>
 </StrElement>
@@ -7350,11 +7339,12 @@
 <NachNorm Nr="481"/>
 <NachGegen Nr="480"/>
 </StrElement>
-<StrElement Nr="569" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2946">
+<StrElement Nr="569" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2927">
 <g X="255.5343" Y="-820.2087" Z="299.4598"/>
-<b X="259.7311" Y="-855.8585" Z="299.9086"/>
-<InfoNormRichtung vMax="77.7778" km="178.9402" pos="1"/>
-<InfoGegenRichtung vMax="-1">
+<b X="256.8942" Y="-831.7601" Z="299.6053"/>
+<InfoNormRichtung vMax="-1" Reg="5042"/>
+<InfoGegenRichtung vMax="-1" Reg="5042">
+<Ereignis Er="4"/>
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Zs 6 p" BoundingR="10">
 <p X="257.8951" Y="-820.0819" Z="304.3398"/>
 <phi Z="1.68798"/>
@@ -7381,14 +7371,14 @@
 </MatrixEintrag>
 </Signal>
 </InfoGegenRichtung>
-<NachNorm Nr="5"/>
+<NachNorm Nr="2844"/>
 <NachGegen Nr="4"/>
 </StrElement>
 <StrElement Nr="570" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2944">
 <g X="395.2577" Y="-2007.0746" Z="314.3981"/>
 <b X="398.4143" Y="-2033.8873" Z="314.7356"/>
-<InfoNormRichtung vMax="-1" Reg="5041"/>
-<InfoGegenRichtung vMax="-1" Reg="5041">
+<InfoNormRichtung vMax="-1" Reg="5043"/>
+<InfoGegenRichtung vMax="-1" Reg="5043">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="579"/>
@@ -7397,8 +7387,8 @@
 <StrElement Nr="571" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
 <g X="307.9738" Y="-1265.6504" Z="305.0663"/>
 <b X="310.3128" Y="-1285.519" Z="305.3164"/>
-<InfoNormRichtung vMax="77.7778" km="179.3887" pos="1" Reg="5042"/>
-<InfoGegenRichtung vMax="-1" Reg="5042">
+<InfoNormRichtung vMax="77.7778" km="179.3887" pos="1" Reg="5044"/>
+<InfoGegenRichtung vMax="-1" Reg="5044">
 <Ereignis Er="57" Wert="-89"/>
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="P241" SignalTyp="9" BoundingR="10">
 <p X="310.2083" Y="-1265.3873" Z="305.0663"/>
@@ -7540,8 +7530,8 @@
 <StrElement Nr="572" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2937">
 <g X="299.9381" Y="-1266.6721" Z="305.0673"/>
 <b X="301.8329" Y="-1282.767" Z="305.2699"/>
-<InfoNormRichtung vMax="77.7778" km="179.3888" pos="1" Reg="5043"/>
-<InfoGegenRichtung vMax="-1" Reg="5043">
+<InfoNormRichtung vMax="77.7778" km="179.3888" pos="1" Reg="5045"/>
+<InfoGegenRichtung vMax="-1" Reg="5045">
 <Ereignis Er="57" Wert="-89"/>
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="P240" SignalTyp="9" BoundingR="10">
 <p X="303.0466" Y="-1266.3062" Z="305.0673"/>
@@ -7681,11 +7671,11 @@
 <StrElement Nr="573" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2936">
 <g X="323.1215" Y="-1354.121" Z="306.1868"/>
 <b X="326.8406" Y="-1385.713" Z="306.5844"/>
-<InfoNormRichtung vMax="77.7778" km="179.4783" pos="1" Reg="5044"/>
-<InfoGegenRichtung vMax="-1" km="179.5101" Reg="5044">
+<InfoNormRichtung vMax="77.7778" km="179.4783" pos="1" Reg="5046"/>
+<InfoGegenRichtung vMax="-1" km="179.5101" Reg="5046">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="P242" SignalTyp="9" BoundingR="10">
 <p X="326.23" Y="-1353.755" Z="306.1868"/>
-<phi Z="1.68798"/>
+<phi Z="1.687979"/>
 <SignalFrame>
 <p/>
 <phi/>
@@ -7783,6 +7773,7 @@
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="6.9444" FahrstrTyp="2"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
+<HsigBegriff HsigGeschw="27.7778" FahrstrTyp="8"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="2113929445" MatrixGeschw="-1"/>
 <MatrixEintrag Signalbild="2113929443">
@@ -7807,6 +7798,7 @@
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="2113929441" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="2113929441" MatrixGeschw="27.7778"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="2113929699" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
@@ -7827,8 +7819,8 @@
 <StrElement Nr="574" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.286">
 <g X="282.7184" Y="-1051.1219" Z="302.3662"/>
 <b X="287.6294" Y="-1092.8372" Z="302.8913"/>
-<InfoNormRichtung vMax="77.7778" km="179.1727" pos="1" Reg="5045"/>
-<InfoGegenRichtung vMax="-1" Reg="5045">
+<InfoNormRichtung vMax="77.7778" km="179.1727" pos="1" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" Reg="5047">
 <Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Ls 221II" SignalFlags="4" SignalTyp="5" BoundingR="10">
 <p X="284.4564" Y="-1050.9174" Z="302.3662"/>
 <phi Z="1.687983"/>
@@ -7906,8 +7898,8 @@
 <StrElement Nr="576" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2934">
 <g X="233.1388" Y="-589.7734" Z="296.5665"/>
 <b X="234.2864" Y="-599.5211" Z="296.6892"/>
-<InfoNormRichtung vMax="77.7778" km="178.7087" pos="1" Reg="5046"/>
-<InfoGegenRichtung vMax="-1" Reg="5046">
+<InfoNormRichtung vMax="77.7778" km="178.7087" pos="1" Reg="5048"/>
+<InfoGegenRichtung vMax="-1" Reg="5048">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="240"/>
@@ -7958,8 +7950,8 @@
 <StrElement Nr="583" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3204">
 <g X="215.898" Y="1014.5373" Z="276.1986"/>
 <b X="215.408" Y="1010.5641" Z="276.2487"/>
-<InfoNormRichtung vMax="69.4444" km="177.0992" pos="1" Reg="5047"/>
-<InfoGegenRichtung vMax="-1" Reg="5047">
+<InfoNormRichtung vMax="69.4444" km="177.0992" pos="1" Reg="5049"/>
+<InfoGegenRichtung vMax="-1" Reg="5049">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 208"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 208" Stellwerk="ESTW-A Licherode" Signalname="208" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -8005,8 +7997,8 @@
 <StrElement Nr="584" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2635">
 <g X="211.2335" Y="1015.1314" Z="276.1984"/>
 <b X="210.7413" Y="1011.14" Z="276.2486"/>
-<InfoNormRichtung vMax="69.4444" km="177.0992" pos="1" Reg="5048"/>
-<InfoGegenRichtung vMax="-1" Reg="5048">
+<InfoNormRichtung vMax="69.4444" km="177.0992" pos="1" Reg="5050"/>
+<InfoGegenRichtung vMax="-1" Reg="5050">
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 238"/>
 <Ereignis Er="1000002" Beschr="A"/>
 <Signal NameBetriebsstelle="LZB-Bk 238" Stellwerk="ESTW-A Licherode" Signalname="238" SignalTyp="12" BoundingR="1" Zwangshelligkeit="0.07">
@@ -8103,21 +8095,11 @@
 <NachNorm Nr="370"/>
 <NachGegen Nr="369"/>
 </StrElement>
-<StrElement Nr="589" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.286">
-<g X="267.7275" Y="-923.783" Z="300.7635"/>
-<b X="268.7094" Y="-932.1235" Z="300.8685"/>
-<InfoNormRichtung vMax="77.7778" km="179.0445" pos="1" Reg="5049"/>
-<InfoGegenRichtung vMax="-1" Reg="5049">
-<Ereignis Er="4"/>
-</InfoGegenRichtung>
-<NachNorm Nr="272"/>
-<NachGegen Nr="6"/>
-</StrElement>
 <StrElement Nr="590" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2983">
 <g X="301.8065" Y="-1213.2629" Z="304.407"/>
 <b X="304.6419" Y="-1237.348" Z="304.7101"/>
-<InfoNormRichtung vMax="77.7778" km="179.336" pos="1" Reg="5050"/>
-<InfoGegenRichtung vMax="-1" Reg="5050">
+<InfoNormRichtung vMax="77.7778" km="179.336" pos="1" Reg="5051"/>
+<InfoGegenRichtung vMax="-1" Reg="5051">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="296"/>
@@ -8126,8 +8108,8 @@
 <StrElement Nr="591" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2937">
 <g X="292.6656" Y="-1204.8964" Z="304.2898"/>
 <b X="296.0801" Y="-1233.901" Z="304.6548"/>
-<InfoNormRichtung vMax="77.7778" km="179.3266" pos="1" Reg="5051"/>
-<InfoGegenRichtung vMax="-1" Reg="5051">
+<InfoNormRichtung vMax="77.7778" km="179.3266" pos="1" Reg="5052"/>
+<InfoGegenRichtung vMax="-1" Reg="5052">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="405"/>
@@ -8319,28 +8301,28 @@
 <NachNorm Nr="373"/>
 <NachGegen Nr="372"/>
 </StrElement>
-<StrElement Nr="606" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2819">
+<StrElement Nr="606" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2773">
 <g X="251.9805" Y="1294.2976" Z="272.6729"/>
 <b X="250.3228" Y="1284.502" Z="272.7971"/>
 <InfoNormRichtung vMax="69.4444" km="176.8172" pos="1"/>
 <NachNorm Nr="51"/>
 <NachGegen Nr="50"/>
 </StrElement>
-<StrElement Nr="607" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2582">
+<StrElement Nr="607" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.2551">
 <g X="265.0164" Y="1368.1495" Z="271.7359"/>
 <b X="262.1805" Y="1352.535" Z="271.9342"/>
 <InfoNormRichtung vMax="69.4444" km="176.7423" pos="1"/>
 <NachNorm Nr="48"/>
 <NachGegen Nr="47"/>
 </StrElement>
-<StrElement Nr="608" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3408">
+<StrElement Nr="608" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3358">
 <g X="256.625" Y="1293.5614" Z="272.6722"/>
 <b X="254.9585" Y="1283.714" Z="272.7971"/>
 <InfoNormRichtung vMax="69.4444" km="176.8171" pos="1"/>
 <NachNorm Nr="169"/>
 <NachGegen Nr="168"/>
 </StrElement>
-<StrElement Nr="609" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.33">
+<StrElement Nr="609" Ueberh="-0.0628" kr="0.000167" spTrass="77.7778" Anschluss="256" Fkt="1" Oberbau="Feste Fahrbahn Rheda-Sengeberg" Volt="2" Drahthoehe="5.3267">
 <g X="269.6619" Y="1367.4132" Z="271.7345"/>
 <b X="266.8069" Y="1351.694" Z="271.9343"/>
 <InfoNormRichtung vMax="69.4444" km="176.7421" pos="1"/>
@@ -19827,6 +19809,598 @@
 <NachNorm Nr="2816"/>
 <NachGegen Nr="2819"/>
 </StrElement>
+<StrElement Nr="2821" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.286">
+<g X="287.3625" Y="-1050.3707" Z="302.3637"/>
+<b X="291.9" Y="-1088.9128" Z="302.8488"/>
+<InfoNormRichtung vMax="77.7778" km="179.1725" pos="1" Reg="5053"/>
+<InfoGegenRichtung vMax="-1" Reg="5053">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="Ls 222II" SignalFlags="4" SignalTyp="5" BoundingR="10">
+<p X="290.0936" Y="-1050.0492" Z="302.3637"/>
+<phi Z="1.687985"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\GsSELSiemens_Sockel1958-n.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Z="0.24"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\GsSiemens_Schirm1958-n.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.05" Y="-0.25" Z="0.05"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\Gs_Schild_wrw-n.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.075" Z="0.085"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_Lsp_ESTW.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.04" Z="0.12"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.075" Z="0.12"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.11" Z="0.12"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_2-klein.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.065" Z="0.045"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_I_Abteil.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p X="-0.035" Y="-0.085" Z="0.045"/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Klein\Sigbeschr_I_Abteil.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="2"/>
+<HsigBegriff FahrstrTyp="2"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="1021" MatrixGeschw="6.9444"/>
+<MatrixEintrag Signalbild="1019"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="362"/>
+<NachGegen Nr="361"/>
+</StrElement>
+<StrElement Nr="2824" spTrass="27.7778" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="279.3406" Y="-982.229" Z="301.506"/>
+<b X="279.1968" Y="-981.0074" Z="301.4907"/>
+<InfoNormRichtung vMax="-1" km="179.1039" pos="1" Reg="5054">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="213" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<p X="279.3406" Y="-982.229" Z="301.506"/>
+<phi Y="0.012499" Z="1.687982"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.23"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.23"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
+<p X="1.69" Y="-2.27"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="6.06"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="58.018"/>
+<phi Z="-0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
+<p X="61.418" Y="-2.07"/>
+<phi Z="-0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p/>
+<phi Z="0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="57"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff FahrstrTyp="1"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="61163" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="179.1026" pos="1" Reg="5054"/>
+<NachNorm Nr="2825"/>
+<NachNorm Nr="2834"/>
+<NachGegen Nr="359"/>
+</StrElement>
+<StrElement Nr="2825" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="279.1968" Y="-981.0074" Z="301.4907"/>
+<b X="278.4216" Y="-974.4229" Z="301.4078"/>
+<InfoNormRichtung vMax="-1" km="179.1026" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.096" pos="1"/>
+<NachNorm Nr="2826"/>
+<NachGegen Nr="2824"/>
+</StrElement>
+<StrElement Nr="2826" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="278.4216" Y="-974.4229" Z="301.4078"/>
+<b X="277.8599" Y="-969.6509" Z="301.3477"/>
+<InfoNormRichtung vMax="-1" km="179.096" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0912" pos="1"/>
+<NachNorm Nr="2827"/>
+<NachGegen Nr="2825"/>
+</StrElement>
+<StrElement Nr="2827" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="277.8599" Y="-969.6509" Z="301.3477"/>
+<b X="276.5173" Y="-958.2466" Z="301.2042"/>
+<InfoNormRichtung vMax="-1" km="179.0912" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0797" pos="1"/>
+<NachNorm Nr="2828"/>
+<NachGegen Nr="2826"/>
+</StrElement>
+<StrElement Nr="2828" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="276.5173" Y="-958.2466" Z="301.2042"/>
+<b X="275.1108" Y="-946.2991" Z="301.0538"/>
+<InfoNormRichtung vMax="-1" km="179.0797" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0677" pos="1"/>
+<NachNorm Nr="2829"/>
+<NachGegen Nr="2827"/>
+</StrElement>
+<StrElement Nr="2829" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2881">
+<g X="275.1108" Y="-946.2991" Z="301.0538"/>
+<b X="273.7036" Y="-934.3459" Z="300.9034"/>
+<InfoNormRichtung vMax="-1" km="179.0677" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0556" pos="1"/>
+<NachNorm Nr="2830"/>
+<NachGegen Nr="2828"/>
+</StrElement>
+<StrElement Nr="2830" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2992">
+<g X="273.7036" Y="-934.3459" Z="300.9034"/>
+<b X="273.0526" Y="-928.8159" Z="300.8338"/>
+<InfoNormRichtung vMax="-1" km="179.0556" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0501" pos="1"/>
+<NachNorm Nr="2831"/>
+<NachGegen Nr="2829"/>
+</StrElement>
+<StrElement Nr="2831" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2985">
+<g X="273.0526" Y="-928.8159" Z="300.8338"/>
+<b X="272.4755" Y="-923.9137" Z="300.7721"/>
+<InfoNormRichtung vMax="-1" km="179.0501" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0452" pos="1"/>
+<NachNorm Nr="2832"/>
+<NachGegen Nr="2830"/>
+</StrElement>
+<StrElement Nr="2832" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2978">
+<g X="272.4755" Y="-923.9137" Z="300.7721"/>
+<b X="272.0426" Y="-920.2371" Z="300.7258"/>
+<InfoNormRichtung vMax="-1" km="179.0452" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0414" pos="1"/>
+<NachNorm Nr="2833"/>
+<NachGegen Nr="2831"/>
+</StrElement>
+<StrElement Nr="2833" spTrass="27.7778" Anschluss="257" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2974">
+<g X="272.0426" Y="-920.2371" Z="300.7258"/>
+<b X="271.7623" Y="-917.856" Z="300.6958"/>
+<InfoNormRichtung vMax="-1" km="179.0414" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.039" pos="1"/>
+<NachNorm Nr="2863"/>
+<NachGegen Nr="2832"/>
+</StrElement>
+<StrElement Nr="2834" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="279.1968" Y="-981.0074" Z="301.4907"/>
+<b X="277.7827" Y="-969.5776" Z="301.3467"/>
+<InfoNormRichtung vMax="-1" km="179.1026" pos="1">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="179.0911" pos="1">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoGegenRichtung>
+<NachNorm Nr="2835"/>
+<NachGegen Nr="2824"/>
+</StrElement>
+<StrElement Nr="2835" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="277.7827" Y="-969.5776" Z="301.3467"/>
+<b X="276.2763" Y="-958.2775" Z="301.2042"/>
+<InfoNormRichtung vMax="-1" km="179.0911" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0797" pos="1"/>
+<NachNorm Nr="2836"/>
+<NachGegen Nr="2834"/>
+</StrElement>
+<StrElement Nr="2836" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.3018">
+<g X="276.2763" Y="-958.2775" Z="301.2042"/>
+<b X="274.5699" Y="-946.369" Z="301.0539"/>
+<InfoNormRichtung vMax="-1" km="179.0797" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0677" pos="1"/>
+<NachNorm Nr="2837"/>
+<NachGegen Nr="2835"/>
+</StrElement>
+<StrElement Nr="2837" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2881">
+<g X="274.5699" Y="-946.369" Z="301.0539"/>
+<b X="272.7443" Y="-934.4785" Z="300.9036"/>
+<InfoNormRichtung vMax="-1" km="179.0677" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0557" pos="1"/>
+<NachNorm Nr="2838"/>
+<NachGegen Nr="2836"/>
+</StrElement>
+<StrElement Nr="2838" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2894">
+<g X="272.7443" Y="-934.4785" Z="300.9036"/>
+<b X="271.8594" Y="-928.9835" Z="300.8341"/>
+<InfoNormRichtung vMax="-1" km="179.0557" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0501" pos="1"/>
+<NachNorm Nr="2839"/>
+<NachGegen Nr="2837"/>
+</StrElement>
+<StrElement Nr="2839" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2902">
+<g X="271.8594" Y="-928.9835" Z="300.8341"/>
+<b X="271.0537" Y="-924.1165" Z="300.7725"/>
+<InfoNormRichtung vMax="-1" km="179.0501" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0452" pos="1"/>
+<NachNorm Nr="2840"/>
+<NachGegen Nr="2838"/>
+</StrElement>
+<StrElement Nr="2840" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2908">
+<g X="271.0537" Y="-924.1165" Z="300.7725"/>
+<b X="270.4364" Y="-920.4687" Z="300.7263"/>
+<InfoNormRichtung vMax="-1" km="179.0452" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0415" pos="1"/>
+<NachNorm Nr="2841"/>
+<NachGegen Nr="2839"/>
+</StrElement>
+<StrElement Nr="2841" spTrass="27.7778" Anschluss="257" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2913">
+<g X="270.4364" Y="-920.4687" Z="300.7263"/>
+<b X="270.0305" Y="-918.1074" Z="300.6964"/>
+<InfoNormRichtung vMax="-1" km="179.0415" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0391" pos="1"/>
+<NachNorm Nr="2842"/>
+<NachGegen Nr="2840"/>
+</StrElement>
+<StrElement Nr="2842" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.293">
+<g X="266.2042" Y="-895.8817" Z="300.4149"/>
+<b X="270.0305" Y="-918.1074" Z="300.6964"/>
+<InfoNormRichtung vMax="77.7778" km="179.0166" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="179.0391"/>
+<NachNorm Nr="2841"/>
+<NachGegen Nr="2861"/>
+</StrElement>
+<StrElement Nr="2843" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.286">
+<g X="264.4724" Y="-896.1331" Z="300.4155"/>
+<b X="268.7094" Y="-932.1235" Z="300.8685"/>
+<InfoNormRichtung vMax="77.7778" km="179.0166" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="179.0529"/>
+<NachNorm Nr="272"/>
+<NachGegen Nr="2853"/>
+</StrElement>
+<StrElement Nr="2844" spTrass="27.7778" Anschluss="256" Fkt="4" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2908">
+<g X="256.8942" Y="-831.7601" Z="299.6053"/>
+<b X="257.038" Y="-832.9816" Z="299.6207"/>
+<InfoNormRichtung vMax="-1" km="178.9518" pos="1" Reg="5055">
+<Signal NameBetriebsstelle="Licherode" Stellwerk="ESTW-A Licherode" Signalname="212" SignalFlags="3" SignalTyp="2" BoundingR="66">
+<p X="256.8942" Y="-831.7601" Z="299.6053"/>
+<phi Y="-0.012499" Z="-1.453611"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\60_1200_1-18_5fb_Links_Schienen_K-Oberbau.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Zunge_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_gerade.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\1200\Herzstueck_1200L_abzweig.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeBeschreibung="Antriebseinheit rechts (S700, Mittelverschlußantrieb, Zungenprüfer ELP319, Laterne)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.23"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="1.23"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1">
+<p X="1.69" Y="-2.27"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="6.06"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeBeschreibung="Antriebseinheit Herzstück rechts, S700" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="58.018"/>
+<phi Z="-0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1">
+<p X="61.418" Y="-2.07"/>
+<phi Z="-0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Weichensignal_reflekt_Li.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p/>
+<phi Z="0.023387"/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss1200HerzstueckR_Re.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="3" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Zungenantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_Antrieb_rechts.lod.ls3"/>
+</SignalFrame>
+<SignalFrame WeichenbaugruppeIndex="4" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Aufschüttung Herzstückantrieb Schotter rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
+<p X="57"/>
+<phi/>
+<sk/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Aufschuettung\Aufschuettung_1200_EW_AntriebHZ_rechts.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff FahrstrTyp="1"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="61163" MatrixGeschw="-1"/>
+<MatrixEintrag Signalbild="63349" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="178.953" Reg="5055"/>
+<NachNorm Nr="2845"/>
+<NachNorm Nr="2854"/>
+<NachGegen Nr="569"/>
+</StrElement>
+<StrElement Nr="2845" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2896">
+<g X="257.038" Y="-832.9816" Z="299.6207"/>
+<b X="257.8132" Y="-839.5662" Z="299.7035"/>
+<InfoNormRichtung vMax="-1" km="178.953" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="178.9597"/>
+<NachNorm Nr="2846"/>
+<NachGegen Nr="2844"/>
+</StrElement>
+<StrElement Nr="2846" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.288">
+<g X="257.8132" Y="-839.5662" Z="299.7035"/>
+<b X="258.3749" Y="-844.3382" Z="299.7636"/>
+<InfoNormRichtung vMax="-1" km="178.9597" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="178.9645"/>
+<NachNorm Nr="2847"/>
+<NachGegen Nr="2845"/>
+</StrElement>
+<StrElement Nr="2847" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2868">
+<g X="258.3749" Y="-844.3382" Z="299.7636"/>
+<b X="259.7175" Y="-855.7424" Z="299.9071"/>
+<InfoNormRichtung vMax="-1" km="178.9645" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="178.976"/>
+<NachNorm Nr="2848"/>
+<NachGegen Nr="2846"/>
+</StrElement>
+<StrElement Nr="2848" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2868">
+<g X="259.7175" Y="-855.7424" Z="299.9071"/>
+<b X="261.124" Y="-867.6899" Z="300.0575"/>
+<InfoNormRichtung vMax="-1" km="178.976" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="178.988"/>
+<NachNorm Nr="2849"/>
+<NachGegen Nr="2847"/>
+</StrElement>
+<StrElement Nr="2849" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2868">
+<g X="261.124" Y="-867.6899" Z="300.0575"/>
+<b X="262.5312" Y="-879.6431" Z="300.2079"/>
+<InfoNormRichtung vMax="-1" km="178.988" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179"/>
+<NachNorm Nr="2850"/>
+<NachGegen Nr="2848"/>
+</StrElement>
+<StrElement Nr="2850" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2868">
+<g X="262.5312" Y="-879.6431" Z="300.2079"/>
+<b X="263.1823" Y="-885.1732" Z="300.2776"/>
+<InfoNormRichtung vMax="-1" km="179" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0056"/>
+<NachNorm Nr="2851"/>
+<NachGegen Nr="2849"/>
+</StrElement>
+<StrElement Nr="2851" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2867">
+<g X="263.1823" Y="-885.1732" Z="300.2776"/>
+<b X="263.7593" Y="-890.0754" Z="300.3393"/>
+<InfoNormRichtung vMax="-1" km="179.0056" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0105"/>
+<NachNorm Nr="2852"/>
+<NachGegen Nr="2850"/>
+</StrElement>
+<StrElement Nr="2852" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2867">
+<g X="263.7593" Y="-890.0754" Z="300.3393"/>
+<b X="264.1922" Y="-893.752" Z="300.3855"/>
+<InfoNormRichtung vMax="-1" km="179.0105" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0142"/>
+<NachNorm Nr="2853"/>
+<NachGegen Nr="2851"/>
+</StrElement>
+<StrElement Nr="2853" spTrass="27.7778" Anschluss="256" Fkt="20" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2867">
+<g X="264.1922" Y="-893.752" Z="300.3855"/>
+<b X="264.4725" Y="-896.1331" Z="300.4155"/>
+<InfoNormRichtung vMax="-1" km="179.0142" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0166"/>
+<NachNorm Nr="2843"/>
+<NachGegen Nr="2852"/>
+</StrElement>
+<StrElement Nr="2854" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2889">
+<g X="257.038" Y="-832.9816" Z="299.6207"/>
+<b X="258.4521" Y="-844.4115" Z="299.7646"/>
+<InfoNormRichtung vMax="-1" km="178.953" pos="1">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="-1" km="178.9646">
+<Ereignis Er="1" Wert="27.7778"/>
+</InfoGegenRichtung>
+<NachNorm Nr="2855"/>
+<NachGegen Nr="2844"/>
+</StrElement>
+<StrElement Nr="2855" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2869">
+<g X="258.4521" Y="-844.4115" Z="299.7646"/>
+<b X="259.9585" Y="-855.7115" Z="299.9071"/>
+<InfoNormRichtung vMax="-1" km="178.9646" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="178.976"/>
+<NachNorm Nr="2856"/>
+<NachGegen Nr="2854"/>
+</StrElement>
+<StrElement Nr="2856" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.287">
+<g X="259.9585" Y="-855.7115" Z="299.9071"/>
+<b X="261.6649" Y="-867.6201" Z="300.0574"/>
+<InfoNormRichtung vMax="-1" km="178.976" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="178.988"/>
+<NachNorm Nr="2857"/>
+<NachGegen Nr="2855"/>
+</StrElement>
+<StrElement Nr="2857" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2977">
+<g X="261.6649" Y="-867.6201" Z="300.0574"/>
+<b X="263.4905" Y="-879.5106" Z="300.2077"/>
+<InfoNormRichtung vMax="-1" km="178.988" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179"/>
+<NachNorm Nr="2858"/>
+<NachGegen Nr="2856"/>
+</StrElement>
+<StrElement Nr="2858" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2964">
+<g X="263.4905" Y="-879.5106" Z="300.2077"/>
+<b X="264.3754" Y="-885.0056" Z="300.2772"/>
+<InfoNormRichtung vMax="-1" km="179" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0056"/>
+<NachNorm Nr="2859"/>
+<NachGegen Nr="2857"/>
+</StrElement>
+<StrElement Nr="2859" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2957">
+<g X="264.3754" Y="-885.0056" Z="300.2772"/>
+<b X="265.1811" Y="-889.8726" Z="300.3388"/>
+<InfoNormRichtung vMax="-1" km="179.0056" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0105"/>
+<NachNorm Nr="2860"/>
+<NachGegen Nr="2858"/>
+</StrElement>
+<StrElement Nr="2860" kr="0.0008" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2951">
+<g X="265.1811" Y="-889.8726" Z="300.3388"/>
+<b X="265.7984" Y="-893.5204" Z="300.385"/>
+<InfoNormRichtung vMax="-1" km="179.0105" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0142"/>
+<NachNorm Nr="2861"/>
+<NachGegen Nr="2859"/>
+</StrElement>
+<StrElement Nr="2861" spTrass="27.7778" Anschluss="256" Fkt="12" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2947">
+<g X="265.7984" Y="-893.5204" Z="300.385"/>
+<b X="266.2043" Y="-895.8817" Z="300.4149"/>
+<InfoNormRichtung vMax="-1" km="179.0142" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="179.0166"/>
+<NachNorm Nr="2842"/>
+<NachGegen Nr="2860"/>
+</StrElement>
+<StrElement Nr="2862" spTrass="77.7778" Anschluss="256" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
+<g X="261.562" Y="-831.2106" Z="299.6053"/>
+<b X="266.6622" Y="-874.5333" Z="300.1505"/>
+<InfoNormRichtung vMax="77.7778" km="178.9518" pos="1"/>
+<InfoGegenRichtung vMax="77.7778" km="178.9954"/>
+<NachNorm Nr="2863"/>
+<NachGegen Nr="356"/>
+</StrElement>
+<StrElement Nr="2863" spTrass="77.7778" Anschluss="257" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2935">
+<g X="266.6622" Y="-874.5333" Z="300.1505"/>
+<b X="271.7623" Y="-917.856" Z="300.6958"/>
+<InfoNormRichtung vMax="77.7778" km="178.9954" pos="1" Reg="5056"/>
+<InfoGegenRichtung vMax="77.7778" km="179.039" Reg="5056">
+<Ereignis Er="4"/>
+</InfoGegenRichtung>
+<NachNorm Nr="2833"/>
+<NachGegen Nr="2862"/>
+</StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Licherode A211" FahrstrStrecke="1733a" RglGgl="2" FahrstrTyp="TypZug" Laenge="3079.8">
 <FahrstrStart Ref="177">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
@@ -20015,7 +20589,10 @@
 <FahrstrRegister Ref="88">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="155">
+<FahrstrRegister Ref="197">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="22">
@@ -20049,6 +20626,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
@@ -20089,7 +20669,10 @@
 <FahrstrRegister Ref="88">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="155">
+<FahrstrRegister Ref="197">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="22">
@@ -20125,10 +20708,87 @@
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="51" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="58" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="165" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="6" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Licherode A211 -&gt; Licherode N242" FahrstrTyp="TypZug" Laenge="1584">
+<FahrstrStart Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="39">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="137">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="19">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="88">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="197">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="194">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="76">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="124">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="87">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="187" FahrstrWeichenlage="2">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="58" FahrstrSignalZeile="11">
@@ -20163,6 +20823,18 @@
 <FahrstrRegister Ref="119">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrRegister Ref="200">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="189">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="194">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
 <FahrstrRegister Ref="122">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
@@ -20181,7 +20853,13 @@
 <FahrstrTeilaufloesung Ref="118">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
 <FahrstrWeiche Ref="14" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="187" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrSignal Ref="7">
@@ -20228,7 +20906,10 @@
 <FahrstrRegister Ref="88">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="155">
+<FahrstrRegister Ref="197">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="22">
@@ -20265,6 +20946,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
@@ -20311,7 +20995,10 @@
 <FahrstrRegister Ref="88">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="155">
+<FahrstrRegister Ref="197">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="22">
@@ -20348,6 +21035,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
@@ -21178,6 +21868,9 @@
 <FahrstrVSignal Ref="65">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Anzeige: Licherode N242 -&gt; LZB-Bk 285 285" FahrstrStrecke="300a" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="1666.5">
 <FahrstrStart Ref="39">
@@ -21240,6 +21933,9 @@
 <FahrstrVSignal Ref="65" FahrstrSignalSpalte="17">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="64" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
 <Fahrstrasse FahrstrName="Licherode P240 -&gt; Üst Wildsberg 146" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6657.7002">
 <FahrstrStart Ref="72">
@@ -21260,7 +21956,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -21332,7 +22031,7 @@
 <FahrstrTeilaufloesung Ref="160">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="105">
@@ -21351,6 +22050,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
@@ -21397,7 +22099,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -21472,7 +22177,7 @@
 <FahrstrTeilaufloesung Ref="160">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="151">
@@ -21491,6 +22196,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
@@ -21540,7 +22248,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -21576,7 +22287,7 @@
 <FahrstrTeilaufloesung Ref="160">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="105">
@@ -21586,6 +22297,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
@@ -21626,7 +22340,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -21668,7 +22385,7 @@
 <FahrstrTeilaufloesung Ref="160">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="151">
@@ -21678,6 +22395,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
@@ -21721,7 +22441,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -21793,7 +22516,7 @@
 <FahrstrTeilaufloesung Ref="157">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="105">
@@ -21809,6 +22532,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
@@ -21861,7 +22587,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -21936,7 +22665,7 @@
 <FahrstrTeilaufloesung Ref="157">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="151">
@@ -21952,6 +22681,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
@@ -22004,7 +22736,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -22040,13 +22775,16 @@
 <FahrstrTeilaufloesung Ref="157">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="105">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
@@ -22093,7 +22831,10 @@
 <FahrstrRegister Ref="23">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
-<FahrstrRegister Ref="156">
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="89">
@@ -22135,13 +22876,16 @@
 <FahrstrTeilaufloesung Ref="157">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
-<FahrstrTeilaufloesung Ref="154">
+<FahrstrTeilaufloesung Ref="196">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="151">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
 <FahrstrWeiche Ref="21" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
 <FahrstrWeiche Ref="17" FahrstrWeichenlage="2">
@@ -22177,6 +22921,18 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="201">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="120">
@@ -22248,6 +23004,9 @@
 <FahrstrTeilaufloesung Ref="121">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="199">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="151">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -22260,9 +23019,15 @@
 <FahrstrSigHaltfall Ref="90">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
+<FahrstrWeiche Ref="187" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="14" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="81" FahrstrSignalZeile="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrSignal>
@@ -22279,6 +23044,146 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Licherode P242 -&gt; Üst Wildsberg 146" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypZug" Laenge="6747.2002">
+<FahrstrStart Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="95">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="5">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="179">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="78">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="72">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="69">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="66">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="46">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="58">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="196">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="70">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="61">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="187" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="68" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="84" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="136" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="75" FahrstrSignalZeile="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="176" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="78" FahrstrSignalSpalte="11">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Anzeige: Licherode P242 -&gt; LZB-Bk 208 208" FahrstrStrecke="1733b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2378.7">
 <FahrstrStart Ref="75">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
@@ -22287,6 +23192,18 @@
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="201">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="120">
@@ -22325,13 +23242,111 @@
 <FahrstrTeilaufloesung Ref="121">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="199">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
 <FahrstrTeilaufloesung Ref="151">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="187" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
 <FahrstrWeiche Ref="14" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrWeiche>
+<FahrstrSignal Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
 <FahrstrSignal Ref="75" FahrstrSignalZeile="18">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="176" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="78" FahrstrSignalSpalte="17">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0056\000541_005647_Ersrode\Ersrode_1998.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Anzeige: Licherode P242 -&gt; LZB-Bk 238 238" FahrstrStrecke="1733b" RglGgl="3" FahrstrTyp="TypAnzeige" Laenge="2379.8999">
+<FahrstrStart Ref="75">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="123">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="186">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="195">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="188">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="192">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="198">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="89">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="107">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="185">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000542_005659_Altmorschen\Altmorschen_2006.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="93">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="196">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrTeilaufloesung Ref="105">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrWeiche Ref="187" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="190" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="17" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="68" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="75" FahrstrSignalZeile="19">
 <Datei Dateiname="Routes\Deutschland\32U_0005_0057\000540_005654_Licherode\Licherode_1998.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="176" FahrstrSignalSpalte="1">
