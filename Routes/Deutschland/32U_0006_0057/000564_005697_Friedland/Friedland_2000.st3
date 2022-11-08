@@ -52,6 +52,9 @@
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3" NurInfo="1"/>
 </ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="252" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3"/>
 <ReferenzElemente ReferenzNr="2" StrElement="471" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000564_005703_Obernjesa\Obernjesa_1996.st3"/>
 <ReferenzElemente ReferenzNr="3" StrElement="552" StrNorm="1" RefTyp="3" Info="Weiche  1"/>
@@ -294,6 +297,10 @@
 <ReferenzElemente ReferenzNr="240" StrElement="1087" RefTyp="2" Info="Register-Nr. 1"/>
 <ReferenzElemente ReferenzNr="241" StrElement="1149" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="242" StrElement="2430" RefTyp="4" Info="Reisende"/>
+<ReferenzElemente ReferenzNr="243" StrElement="1175" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3"/>
+<ReferenzElemente ReferenzNr="244" StrElement="1186" StrNorm="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3"/>
+<ReferenzElemente ReferenzNr="245" StrElement="2432" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3"/>
+<ReferenzElemente ReferenzNr="246" StrElement="2462" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3"/>
 <StrElement Nr="1" spTrass="30.5556" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.494">
 <g X="-230.688" Y="-1137.384" Z="189.5587"/>
 <b X="-228.2219" Y="-1134.771" Z="189.5224"/>
@@ -8976,8 +8983,12 @@
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Zusatzsignale\Lichtsignale_5x7Matrix\Symbole\Zs6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="1" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="1"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1">
 <Ereignis Er="28" Wert="1"/>
 </MatrixEintrag>
 </Signal>
@@ -16419,7 +16430,9 @@
 <g X="-431.2953" Y="-1600.1578" Z="194.6158"/>
 <b X="-430.9804" Y="-1607.8809" Z="194.6924"/>
 <InfoNormRichtung vMax="30.5556" km="231.511"/>
-<InfoGegenRichtung vMax="30.5556" km="231.5032" pos="1"/>
+<InfoGegenRichtung vMax="30.5556" km="231.5032" pos="1">
+<Ereignis Er="20"/>
+</InfoGegenRichtung>
 <NachNorm Nr="1175"/>
 <NachGegen Nr="1173"/>
 </StrElement>
@@ -16429,6 +16442,9 @@
 <InfoNormRichtung vMax="30.5556" km="231.5033" Reg="5054"/>
 <InfoGegenRichtung vMax="30.5556" km="231.4955" pos="1" Reg="5054"/>
 <NachGegen Nr="1174"/>
+<NachNormModul Nr="4">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="1176" Ueberh="-0.1042" kr="0.001739" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5447">
 <g X="-425.4713" Y="-1531.0028" Z="193.9259"/>
@@ -16536,6 +16552,9 @@
 <InfoNormRichtung vMax="30.5556" km="231.5033" Reg="5055"/>
 <InfoGegenRichtung vMax="30.5556" km="231.4956" pos="1" Reg="5055"/>
 <NachGegen Nr="1185"/>
+<NachNormModul Nr="3">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</NachNormModul>
 </StrElement>
 <StrElement Nr="1187" Ueberh="-0.1042" kr="0.001739" spTrass="30.5556" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5394">
 <g X="-431.5445" Y="-1590.3816" Z="194.5188"/>
@@ -20069,7 +20088,7 @@
 <StrElement Nr="1662" spTrass="27.7778" Anschluss="256" Fkt="2">
 <g X="-393.4698" Y="-1249.0616" Z="191"/>
 <b X="-501.4428" Y="-1209.6584" Z="193"/>
-<NachNorm Nr="1728"/>
+<NachNorm Nr="2434"/>
 <NachGegen Nr="1766"/>
 </StrElement>
 <StrElement Nr="1678" spTrass="27.7778" Anschluss="256" Fkt="2">
@@ -20267,198 +20286,10 @@
 <NachGegen Nr="1722"/>
 </StrElement>
 <StrElement Nr="1726" spTrass="27.7778" Anschluss="1" Fkt="2">
-<g X="-682.644" Y="-1207.312" Z="201.6"/>
-<b X="-667.5714" Y="-1203.2189" Z="201.0216"/>
-<NachNorm Nr="1754"/>
-</StrElement>
-<StrElement Nr="1728" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-501.4428" Y="-1209.6582" Z="193"/>
-<b X="-506.1552" Y="-1207.9875" Z="193.0995"/>
-<InfoNormRichtung vMax="13.8889" km="0.1149" pos="1"/>
-<NachNorm Nr="1729"/>
-<NachGegen Nr="1662"/>
-</StrElement>
-<StrElement Nr="1729" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-506.1552" Y="-1207.9875" Z="193.0995"/>
-<b X="-510.8977" Y="-1206.4038" Z="193.2239"/>
-<InfoNormRichtung vMax="13.8889" km="0.1199" pos="1"/>
-<NachNorm Nr="1730"/>
-<NachGegen Nr="1728"/>
-</StrElement>
-<StrElement Nr="1730" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-510.8977" Y="-1206.4038" Z="193.2239"/>
-<b X="-515.6684" Y="-1204.9078" Z="193.3734"/>
-<InfoNormRichtung vMax="13.8889" km="0.1249" pos="1"/>
-<NachNorm Nr="1731"/>
-<NachGegen Nr="1729"/>
-</StrElement>
-<StrElement Nr="1731" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-515.6684" Y="-1204.9078" Z="193.3734"/>
-<b X="-520.466" Y="-1203.4999" Z="193.5479"/>
-<InfoNormRichtung vMax="13.8889" km="0.1299" pos="1"/>
-<NachNorm Nr="1732"/>
-<NachGegen Nr="1730"/>
-</StrElement>
-<StrElement Nr="1732" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-520.466" Y="-1203.4999" Z="193.5479"/>
-<b X="-525.2887" Y="-1202.1805" Z="193.7473"/>
-<InfoNormRichtung vMax="13.8889" km="0.1349" pos="1"/>
-<NachNorm Nr="1733"/>
-<NachGegen Nr="1731"/>
-</StrElement>
-<StrElement Nr="1733" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-525.2887" Y="-1202.1805" Z="193.7473"/>
-<b X="-529.8017" Y="-1201.0319" Z="193.9555"/>
-<InfoNormRichtung vMax="13.8889" km="0.1399" pos="1"/>
-<NachNorm Nr="1734"/>
-<NachGegen Nr="1732"/>
-</StrElement>
-<StrElement Nr="1734" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-529.8017" Y="-1201.0319" Z="193.9555"/>
-<b X="-534.3337" Y="-1199.9607" Z="194.1854"/>
-<InfoNormRichtung vMax="13.8889" km="0.1446" pos="1"/>
-<NachNorm Nr="1735"/>
-<NachGegen Nr="1733"/>
-</StrElement>
-<StrElement Nr="1735" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-534.3337" Y="-1199.9607" Z="194.1854"/>
-<b X="-541.2835" Y="-1198.4764" Z="194.5532"/>
-<InfoNormRichtung vMax="13.8889" km="0.1493" pos="1"/>
-<NachNorm Nr="1736"/>
-<NachGegen Nr="1734"/>
-</StrElement>
-<StrElement Nr="1736" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-541.2835" Y="-1198.4764" Z="194.5532"/>
-<b X="-548.2698" Y="-1197.1746" Z="194.921"/>
-<InfoNormRichtung vMax="13.8889" km="0.1564" pos="1"/>
-<NachNorm Nr="1737"/>
-<NachGegen Nr="1735"/>
-</StrElement>
-<StrElement Nr="1737" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-548.2698" Y="-1197.1746" Z="194.921"/>
-<b X="-555.2878" Y="-1196.0558" Z="195.2889"/>
-<InfoNormRichtung vMax="13.8889" km="0.1635" pos="1"/>
-<NachNorm Nr="1738"/>
-<NachGegen Nr="1736"/>
-</StrElement>
-<StrElement Nr="1738" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-555.2878" Y="-1196.0558" Z="195.2889"/>
-<b X="-562.3326" Y="-1195.1212" Z="195.6567"/>
-<InfoNormRichtung vMax="13.8889" km="0.1706" pos="1"/>
-<NachNorm Nr="1739"/>
-<NachGegen Nr="1737"/>
-</StrElement>
-<StrElement Nr="1739" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-562.3326" Y="-1195.1212" Z="195.6567"/>
-<b X="-569.3996" Y="-1194.3715" Z="196.0246"/>
-<InfoNormRichtung vMax="13.8889" km="0.1777" pos="1"/>
-<NachNorm Nr="1740"/>
-<NachGegen Nr="1738"/>
-</StrElement>
-<StrElement Nr="1740" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-569.3996" Y="-1194.3715" Z="196.0246"/>
-<b X="-576.4837" Y="-1193.8069" Z="196.3924"/>
-<InfoNormRichtung vMax="13.8889" km="0.1848" pos="1"/>
-<NachNorm Nr="1741"/>
-<NachGegen Nr="1739"/>
-</StrElement>
-<StrElement Nr="1741" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-576.4837" Y="-1193.8069" Z="196.3924"/>
-<b X="-583.5802" Y="-1193.428" Z="196.7602"/>
-<InfoNormRichtung vMax="13.8889" km="0.1919" pos="1"/>
-<NachNorm Nr="1742"/>
-<NachGegen Nr="1740"/>
-</StrElement>
-<StrElement Nr="1742" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-583.5802" Y="-1193.428" Z="196.7602"/>
-<b X="-590.6842" Y="-1193.2349" Z="197.1281"/>
-<InfoNormRichtung vMax="13.8889" km="0.199" pos="1"/>
-<NachNorm Nr="1743"/>
-<NachGegen Nr="1741"/>
-</StrElement>
-<StrElement Nr="1743" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-590.6842" Y="-1193.2349" Z="197.1281"/>
-<b X="-597.7907" Y="-1193.228" Z="197.4959"/>
-<InfoNormRichtung vMax="13.8889" km="0.2061" pos="1"/>
-<NachNorm Nr="1744"/>
-<NachGegen Nr="1742"/>
-</StrElement>
-<StrElement Nr="1744" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-597.7907" Y="-1193.228" Z="197.4959"/>
-<b X="-604.895" Y="-1193.4071" Z="197.8637"/>
-<InfoNormRichtung vMax="13.8889" km="0.2132" pos="1"/>
-<NachNorm Nr="1745"/>
-<NachGegen Nr="1743"/>
-</StrElement>
-<StrElement Nr="1745" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-604.895" Y="-1193.4071" Z="197.8637"/>
-<b X="-611.9922" Y="-1193.772" Z="198.2316"/>
-<InfoNormRichtung vMax="13.8889" km="0.2203" pos="1"/>
-<NachNorm Nr="1746"/>
-<NachGegen Nr="1744"/>
-</StrElement>
-<StrElement Nr="1746" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-611.9922" Y="-1193.772" Z="198.2316"/>
-<b X="-619.0774" Y="-1194.3226" Z="198.5994"/>
-<InfoNormRichtung vMax="13.8889" km="0.2274" pos="1"/>
-<NachNorm Nr="1747"/>
-<NachGegen Nr="1745"/>
-</StrElement>
-<StrElement Nr="1747" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-619.0774" Y="-1194.3226" Z="198.5994"/>
-<b X="-626.1458" Y="-1195.0585" Z="198.9672"/>
-<InfoNormRichtung vMax="13.8889" km="0.2345" pos="1"/>
-<NachNorm Nr="1748"/>
-<NachGegen Nr="1746"/>
-</StrElement>
-<StrElement Nr="1748" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-626.1458" Y="-1195.0585" Z="198.9672"/>
-<b X="-633.1925" Y="-1195.9792" Z="199.3351"/>
-<InfoNormRichtung vMax="13.8889" km="0.2416" pos="1"/>
-<NachNorm Nr="1749"/>
-<NachGegen Nr="1747"/>
-</StrElement>
-<StrElement Nr="1749" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-633.1925" Y="-1195.9792" Z="199.3351"/>
-<b X="-640.2126" Y="-1197.084" Z="199.7029"/>
-<InfoNormRichtung vMax="13.8889" km="0.2487" pos="1"/>
-<NachNorm Nr="1750"/>
-<NachGegen Nr="1748"/>
-</StrElement>
-<StrElement Nr="1750" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-640.2126" Y="-1197.084" Z="199.7029"/>
-<b X="-647.2015" Y="-1198.3722" Z="200.0707"/>
-<InfoNormRichtung vMax="13.8889" km="0.2558" pos="1"/>
-<NachNorm Nr="1751"/>
-<NachGegen Nr="1749"/>
-</StrElement>
-<StrElement Nr="1751" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-647.2015" Y="-1198.3722" Z="200.0707"/>
-<b X="-652.2904" Y="-1199.4299" Z="200.3315"/>
-<InfoNormRichtung vMax="13.8889" km="0.263" pos="1"/>
-<NachNorm Nr="1752"/>
-<NachGegen Nr="1750"/>
-</StrElement>
-<StrElement Nr="1752" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-652.2904" Y="-1199.4299" Z="200.3315"/>
-<b X="-657.1657" Y="-1200.5393" Z="200.5775"/>
-<InfoNormRichtung vMax="13.8889" km="0.2682" pos="1"/>
-<NachNorm Nr="1753"/>
-<NachGegen Nr="1751"/>
-</StrElement>
-<StrElement Nr="1753" kr="0.003684" spTrass="13.8889" Anschluss="256" Fkt="2">
-<g X="-657.1657" Y="-1200.5393" Z="200.5775"/>
-<b X="-661.4122" Y="-1201.5829" Z="200.7721"/>
-<InfoNormRichtung vMax="13.8889" km="0.2732" pos="1"/>
-<NachNorm Nr="1754"/>
-<NachGegen Nr="1752"/>
-</StrElement>
-<StrElement Nr="1754" spTrass="13.8889" Anschluss="257" Fkt="2">
-<g X="-661.4122" Y="-1201.5829" Z="200.7721"/>
-<b X="-667.5714" Y="-1203.2189" Z="201.0216"/>
-<InfoNormRichtung vMax="13.8889" km="0.2775" pos="1"/>
-<NachNorm Nr="1726"/>
-<NachGegen Nr="1753"/>
+<g X="-683.5368" Y="-1204.025" Z="203.21"/>
+<b X="-668.4642" Y="-1199.9319" Z="202.24"/>
+<NachNorm Nr="2459"/>
+<NachGegen Nr="2497"/>
 </StrElement>
 <StrElement Nr="1756" spTrass="11.1111" Fkt="2">
 <g X="-354.9112" Y="-1268.1156" Z="191.565"/>
@@ -23941,6 +23772,536 @@
 <NachNorm Nr="1142"/>
 <NachGegen Nr="1141"/>
 </StrElement>
+<StrElement Nr="2434" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-501.4428" Y="-1209.6584" Z="193"/>
+<b X="-509.6417" Y="-1206.6664" Z="193.1709"/>
+<InfoNormRichtung vMax="27.7778" km="0.1149" pos="1"/>
+<NachNorm Nr="2435"/>
+<NachGegen Nr="1662"/>
+</StrElement>
+<StrElement Nr="2435" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-509.6417" Y="-1206.6664" Z="193.1709"/>
+<b X="-516.1292" Y="-1204.3947" Z="193.3323"/>
+<InfoNormRichtung vMax="13.8889" km="0.1237" pos="1"/>
+<NachNorm Nr="2436"/>
+<NachGegen Nr="2434"/>
+</StrElement>
+<StrElement Nr="2436" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-516.1292" Y="-1204.3947" Z="193.3323"/>
+<b X="-522.6739" Y="-1202.2935" Z="193.5173"/>
+<InfoNormRichtung vMax="13.8889" km="0.1305" pos="1"/>
+<NachNorm Nr="2437"/>
+<NachGegen Nr="2435"/>
+</StrElement>
+<StrElement Nr="2437" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-522.6739" Y="-1202.2935" Z="193.5173"/>
+<b X="-529.2714" Y="-1200.3644" Z="193.7259"/>
+<InfoNormRichtung vMax="13.8889" km="0.1374" pos="1"/>
+<NachNorm Nr="2438"/>
+<NachGegen Nr="2436"/>
+</StrElement>
+<StrElement Nr="2438" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-529.2714" Y="-1200.3644" Z="193.7259"/>
+<b X="-535.9171" Y="-1198.6086" Z="193.9581"/>
+<InfoNormRichtung vMax="13.8889" km="0.1443" pos="1"/>
+<NachNorm Nr="2439"/>
+<NachGegen Nr="2437"/>
+</StrElement>
+<StrElement Nr="2439" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-535.9171" Y="-1198.6086" Z="193.9581"/>
+<b X="-542.6065" Y="-1197.0275" Z="194.214"/>
+<InfoNormRichtung vMax="13.8889" km="0.1512" pos="1"/>
+<NachNorm Nr="2440"/>
+<NachGegen Nr="2438"/>
+</StrElement>
+<StrElement Nr="2440" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-542.6065" Y="-1197.0275" Z="194.214"/>
+<b X="-549.335" Y="-1195.6219" Z="194.4934"/>
+<InfoNormRichtung vMax="13.8889" km="0.158" pos="1"/>
+<NachNorm Nr="2441"/>
+<NachGegen Nr="2439"/>
+</StrElement>
+<StrElement Nr="2441" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-549.335" Y="-1195.6219" Z="194.4934"/>
+<b X="-556.098" Y="-1194.3931" Z="194.7965"/>
+<InfoNormRichtung vMax="13.8889" km="0.1649" pos="1"/>
+<NachNorm Nr="2442"/>
+<NachGegen Nr="2440"/>
+</StrElement>
+<StrElement Nr="2442" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-556.098" Y="-1194.3931" Z="194.7965"/>
+<b X="-562.8909" Y="-1193.3417" Z="195.1232"/>
+<InfoNormRichtung vMax="13.8889" km="0.1718" pos="1"/>
+<NachNorm Nr="2443"/>
+<NachGegen Nr="2441"/>
+</StrElement>
+<StrElement Nr="2443" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-562.8909" Y="-1193.3417" Z="195.1232"/>
+<b X="-569.7089" Y="-1192.4684" Z="195.4734"/>
+<InfoNormRichtung vMax="13.8889" km="0.1787" pos="1"/>
+<NachNorm Nr="2444"/>
+<NachGegen Nr="2442"/>
+</StrElement>
+<StrElement Nr="2444" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-569.7089" Y="-1192.4684" Z="195.4734"/>
+<b X="-576.5474" Y="-1191.7738" Z="195.8473"/>
+<InfoNormRichtung vMax="13.8889" km="0.1855" pos="1"/>
+<NachNorm Nr="2445"/>
+<NachGegen Nr="2443"/>
+</StrElement>
+<StrElement Nr="2445" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-576.5474" Y="-1191.7738" Z="195.8473"/>
+<b X="-583.4019" Y="-1191.2587" Z="196.2447"/>
+<InfoNormRichtung vMax="13.8889" km="0.1924" pos="1"/>
+<NachNorm Nr="2446"/>
+<NachGegen Nr="2444"/>
+</StrElement>
+<StrElement Nr="2446" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-583.4019" Y="-1191.2587" Z="196.2447"/>
+<b X="-590.2674" Y="-1190.923" Z="196.6657"/>
+<InfoNormRichtung vMax="13.8889" km="0.1993" pos="1"/>
+<NachNorm Nr="2447"/>
+<NachGegen Nr="2445"/>
+</StrElement>
+<StrElement Nr="2447" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-590.2674" Y="-1190.923" Z="196.6657"/>
+<b X="-597.1393" Y="-1190.7672" Z="197.1103"/>
+<InfoNormRichtung vMax="13.8889" km="0.2062" pos="1"/>
+<NachNorm Nr="2448"/>
+<NachGegen Nr="2446"/>
+</StrElement>
+<StrElement Nr="2448" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-597.1393" Y="-1190.7672" Z="197.1103"/>
+<b X="-603.944" Y="-1190.7902" Z="197.5737"/>
+<InfoNormRichtung vMax="13.8889" km="0.213" pos="1"/>
+<NachNorm Nr="2449"/>
+<NachGegen Nr="2447"/>
+</StrElement>
+<StrElement Nr="2449" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-603.944" Y="-1190.7902" Z="197.5737"/>
+<b X="-610.7458" Y="-1190.9895" Z="198.0601"/>
+<InfoNormRichtung vMax="13.8889" km="0.2198" pos="1"/>
+<NachNorm Nr="2450"/>
+<NachGegen Nr="2448"/>
+</StrElement>
+<StrElement Nr="2450" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-610.7458" Y="-1190.9895" Z="198.0601"/>
+<b X="-617.609" Y="-1191.3698" Z="198.5645"/>
+<InfoNormRichtung vMax="13.8889" km="0.2266" pos="1"/>
+<NachNorm Nr="2451"/>
+<NachGegen Nr="2449"/>
+</StrElement>
+<StrElement Nr="2451" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-617.609" Y="-1191.3698" Z="198.5645"/>
+<b X="-624.4599" Y="-1191.9294" Z="199.0689"/>
+<InfoNormRichtung vMax="13.8889" km="0.2335" pos="1"/>
+<NachNorm Nr="2452"/>
+<NachGegen Nr="2450"/>
+</StrElement>
+<StrElement Nr="2452" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-624.4599" Y="-1191.9294" Z="199.0689"/>
+<b X="-631.2938" Y="-1192.6683" Z="199.5733"/>
+<InfoNormRichtung vMax="13.8889" km="0.2404" pos="1"/>
+<NachNorm Nr="2453"/>
+<NachGegen Nr="2451"/>
+</StrElement>
+<StrElement Nr="2453" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-631.2938" Y="-1192.6683" Z="199.5733"/>
+<b X="-638.106" Y="-1193.5859" Z="200.0777"/>
+<InfoNormRichtung vMax="13.8889" km="0.2473" pos="1"/>
+<NachNorm Nr="2454"/>
+<NachGegen Nr="2452"/>
+</StrElement>
+<StrElement Nr="2454" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-638.106" Y="-1193.5859" Z="200.0777"/>
+<b X="-644.8919" Y="-1194.6815" Z="200.5821"/>
+<InfoNormRichtung vMax="13.8889" km="0.2541" pos="1"/>
+<NachNorm Nr="2455"/>
+<NachGegen Nr="2453"/>
+</StrElement>
+<StrElement Nr="2455" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-644.8919" Y="-1194.6815" Z="200.5821"/>
+<b X="-647.0981" Y="-1195.077" Z="200.7394"/>
+<InfoNormRichtung vMax="13.8889" km="0.261" pos="1"/>
+<NachNorm Nr="2456"/>
+<NachGegen Nr="2454"/>
+</StrElement>
+<StrElement Nr="2456" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-647.0981" Y="-1195.077" Z="200.7394"/>
+<b X="-653.8418" Y="-1196.4075" Z="201.2307"/>
+<InfoNormRichtung vMax="13.8889" km="0.2632" pos="1"/>
+<NachNorm Nr="2457"/>
+<NachGegen Nr="2455"/>
+</StrElement>
+<StrElement Nr="2457" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-653.8418" Y="-1196.4075" Z="201.2307"/>
+<b X="-660.5484" Y="-1197.9139" Z="201.6983"/>
+<InfoNormRichtung vMax="13.8889" km="0.2701" pos="1"/>
+<NachNorm Nr="2458"/>
+<NachGegen Nr="2456"/>
+</StrElement>
+<StrElement Nr="2458" kr="0.003809" spTrass="13.8889" Anschluss="256" Fkt="2">
+<g X="-660.5484" Y="-1197.9139" Z="201.6983"/>
+<b X="-664.5142" Y="-1198.8922" Z="201.9651"/>
+<InfoNormRichtung vMax="13.8889" km="0.277" pos="1"/>
+<NachNorm Nr="2459"/>
+<NachGegen Nr="2457"/>
+</StrElement>
+<StrElement Nr="2459" kr="0.003809" spTrass="13.8889" Anschluss="257" Fkt="2">
+<g X="-664.5142" Y="-1198.8922" Z="201.9651"/>
+<b X="-668.4642" Y="-1199.9319" Z="202.2235"/>
+<InfoNormRichtung vMax="13.8889" km="0.2811" pos="1"/>
+<NachNorm Nr="1726"/>
+<NachGegen Nr="2458"/>
+</StrElement>
+<StrElement Nr="2460" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-808.1021" Y="-1280.1127" Z="200.3269"/>
+<b X="-816.1111" Y="-1267.1241" Z="200.5848"/>
+<NachNorm Nr="2482"/>
+<NachGegen Nr="2479"/>
+</StrElement>
+<StrElement Nr="2462" spTrass="27.7778" Fkt="2">
+<g X="-532.7465" Y="-1627.2632" Z="203"/>
+<b X="-539.7723" Y="-1619.9788" Z="202.9208"/>
+<InfoNormRichtung vMax="27.7778" km="0.0305" pos="1"/>
+<NachNorm Nr="2463"/>
+</StrElement>
+<StrElement Nr="2463" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-539.7723" Y="-1619.9788" Z="202.9208"/>
+<b X="-563.2606" Y="-1595.6261" Z="202.6133"/>
+<InfoNormRichtung vMax="27.7778" km="0.0406" pos="1"/>
+<NachNorm Nr="2464"/>
+<NachGegen Nr="2462"/>
+</StrElement>
+<StrElement Nr="2464" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-563.2606" Y="-1595.6261" Z="202.6133"/>
+<b X="-583.8785" Y="-1573.9027" Z="202.341"/>
+<InfoNormRichtung vMax="27.7778" km="0.0744" pos="1"/>
+<NachNorm Nr="2465"/>
+<NachGegen Nr="2463"/>
+</StrElement>
+<StrElement Nr="2465" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-583.8785" Y="-1573.9027" Z="202.341"/>
+<b X="-604.1445" Y="-1551.8507" Z="202.0687"/>
+<InfoNormRichtung vMax="27.7778" km="0.1044" pos="1"/>
+<NachNorm Nr="2466"/>
+<NachGegen Nr="2464"/>
+</StrElement>
+<StrElement Nr="2466" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-604.1445" Y="-1551.8507" Z="202.0687"/>
+<b X="-624.0533" Y="-1529.4757" Z="201.7965"/>
+<InfoNormRichtung vMax="27.7778" km="0.1343" pos="1"/>
+<NachNorm Nr="2467"/>
+<NachGegen Nr="2465"/>
+</StrElement>
+<StrElement Nr="2467" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-624.0533" Y="-1529.4757" Z="201.7965"/>
+<b X="-643.5999" Y="-1506.7836" Z="201.5242"/>
+<InfoNormRichtung vMax="27.7778" km="0.1643" pos="1"/>
+<NachNorm Nr="2468"/>
+<NachGegen Nr="2466"/>
+</StrElement>
+<StrElement Nr="2468" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-643.5999" Y="-1506.7836" Z="201.5242"/>
+<b X="-662.7792" Y="-1483.7802" Z="201.252"/>
+<InfoNormRichtung vMax="27.7778" km="0.1942" pos="1"/>
+<NachNorm Nr="2469"/>
+<NachGegen Nr="2467"/>
+</StrElement>
+<StrElement Nr="2469" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-662.7792" Y="-1483.7802" Z="201.252"/>
+<b X="-681.5861" Y="-1460.4713" Z="200.9797"/>
+<InfoNormRichtung vMax="27.7778" km="0.2242" pos="1"/>
+<NachNorm Nr="2470"/>
+<NachGegen Nr="2468"/>
+</StrElement>
+<StrElement Nr="2470" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-681.5861" Y="-1460.4713" Z="200.9797"/>
+<b X="-700.016" Y="-1436.8633" Z="200.7075"/>
+<InfoNormRichtung vMax="27.7778" km="0.2541" pos="1"/>
+<NachNorm Nr="2471"/>
+<NachGegen Nr="2469"/>
+</StrElement>
+<StrElement Nr="2471" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-700.016" Y="-1436.8633" Z="200.7075"/>
+<b X="-718.0639" Y="-1412.9619" Z="200.4352"/>
+<InfoNormRichtung vMax="27.7778" km="0.2841" pos="1"/>
+<NachNorm Nr="2472"/>
+<NachGegen Nr="2470"/>
+</StrElement>
+<StrElement Nr="2472" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-718.0639" Y="-1412.9619" Z="200.4352"/>
+<b X="-734.7622" Y="-1390.1139" Z="200.1779"/>
+<InfoNormRichtung vMax="27.7778" km="0.314" pos="1"/>
+<NachNorm Nr="2473"/>
+<NachGegen Nr="2471"/>
+</StrElement>
+<StrElement Nr="2473" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-734.7622" Y="-1390.1139" Z="200.1779"/>
+<b X="-751.1115" Y="-1367.0148" Z="199.9208"/>
+<InfoNormRichtung vMax="27.7778" km="0.3423" pos="1"/>
+<NachNorm Nr="2474"/>
+<NachGegen Nr="2472"/>
+</StrElement>
+<StrElement Nr="2474" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-751.1115" Y="-1367.0148" Z="199.9208"/>
+<b X="-762.4532" Y="-1350.5419" Z="199.789"/>
+<InfoNormRichtung vMax="27.7778" km="0.3706" pos="1"/>
+<NachNorm Nr="2475"/>
+<NachGegen Nr="2473"/>
+</StrElement>
+<StrElement Nr="2475" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-762.4532" Y="-1350.5419" Z="199.789"/>
+<b X="-773.6174" Y="-1333.9482" Z="199.7572"/>
+<InfoNormRichtung vMax="27.7778" km="0.3906" pos="1"/>
+<NachNorm Nr="2476"/>
+<NachGegen Nr="2474"/>
+</StrElement>
+<StrElement Nr="2476" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-773.6174" Y="-1333.9482" Z="199.7572"/>
+<b X="-784.6028" Y="-1317.2356" Z="199.8254"/>
+<InfoNormRichtung vMax="27.7778" km="0.4106" pos="1"/>
+<NachNorm Nr="2477"/>
+<NachGegen Nr="2475"/>
+</StrElement>
+<StrElement Nr="2477" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-784.6028" Y="-1317.2356" Z="199.8254"/>
+<b X="-795.4081" Y="-1300.4061" Z="199.9936"/>
+<InfoNormRichtung vMax="27.7778" km="0.4306" pos="1"/>
+<NachNorm Nr="2478"/>
+<NachGegen Nr="2476"/>
+</StrElement>
+<StrElement Nr="2478" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-795.4081" Y="-1300.4061" Z="199.9936"/>
+<b X="-801.7877" Y="-1290.2798" Z="200.1421"/>
+<InfoNormRichtung vMax="27.7778" km="0.4506" pos="1"/>
+<NachNorm Nr="2479"/>
+<NachGegen Nr="2477"/>
+</StrElement>
+<StrElement Nr="2479" kr="-0.000537" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-801.7877" Y="-1290.2798" Z="200.1421"/>
+<b X="-808.1021" Y="-1280.1127" Z="200.3264"/>
+<InfoNormRichtung vMax="27.7778" km="0.4626" pos="1"/>
+<NachNorm Nr="2460"/>
+<NachGegen Nr="2478"/>
+</StrElement>
+<StrElement Nr="2480" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-940.6287" Y="-1043.6459" Z="202.4617"/>
+<b X="-952.6371" Y="-1018.9567" Z="202.4532"/>
+<NachGegen Nr="2493"/>
+</StrElement>
+<StrElement Nr="2482" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-816.1111" Y="-1267.1241" Z="200.5848"/>
+<b X="-823.8022" Y="-1254.651" Z="200.8056"/>
+<InfoNormRichtung vMax="27.7778" km="0.0153" pos="1"/>
+<NachNorm Nr="2483"/>
+<NachGegen Nr="2460"/>
+</StrElement>
+<StrElement Nr="2483" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-823.8022" Y="-1254.651" Z="200.8056"/>
+<b X="-831.4934" Y="-1242.1777" Z="200.9727"/>
+<InfoNormRichtung vMax="27.7778" km="0.0299" pos="1"/>
+<NachNorm Nr="2484"/>
+<NachGegen Nr="2482"/>
+</StrElement>
+<StrElement Nr="2484" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-831.4934" Y="-1242.1777" Z="200.9727"/>
+<b X="-836.9247" Y="-1233.3243" Z="201.0586"/>
+<InfoNormRichtung vMax="27.7778" km="0.0446" pos="1"/>
+<NachNorm Nr="2485"/>
+<NachGegen Nr="2483"/>
+</StrElement>
+<StrElement Nr="2485" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-836.9247" Y="-1233.3243" Z="201.0586"/>
+<b X="-852.6495" Y="-1207.1655" Z="201.2715"/>
+<InfoNormRichtung vMax="27.7778" km="0.055" pos="1"/>
+<NachNorm Nr="2486"/>
+<NachGegen Nr="2484"/>
+</StrElement>
+<StrElement Nr="2486" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-852.6495" Y="-1207.1655" Z="201.2715"/>
+<b X="-868.0212" Y="-1180.7976" Z="201.4844"/>
+<InfoNormRichtung vMax="27.7778" km="0.0855" pos="1"/>
+<NachNorm Nr="2487"/>
+<NachGegen Nr="2485"/>
+</StrElement>
+<StrElement Nr="2487" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-868.0212" Y="-1180.7976" Z="201.4844"/>
+<b X="-883.0369" Y="-1154.2255" Z="201.6973"/>
+<InfoNormRichtung vMax="27.7778" km="0.116" pos="1"/>
+<NachNorm Nr="2488"/>
+<NachGegen Nr="2486"/>
+</StrElement>
+<StrElement Nr="2488" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-883.0369" Y="-1154.2255" Z="201.6973"/>
+<b X="-897.6939" Y="-1127.4537" Z="201.9101"/>
+<InfoNormRichtung vMax="27.7778" km="0.1465" pos="1"/>
+<NachNorm Nr="2489"/>
+<NachGegen Nr="2487"/>
+</StrElement>
+<StrElement Nr="2489" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-897.6939" Y="-1127.4537" Z="201.9101"/>
+<b X="-911.9896" Y="-1100.4873" Z="202.123"/>
+<InfoNormRichtung vMax="27.7778" km="0.177" pos="1"/>
+<NachNorm Nr="2490"/>
+<NachGegen Nr="2488"/>
+</StrElement>
+<StrElement Nr="2490" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-911.9896" Y="-1100.4873" Z="202.123"/>
+<b X="-925.9214" Y="-1073.3312" Z="202.3359"/>
+<InfoNormRichtung vMax="27.7778" km="0.2076" pos="1"/>
+<NachNorm Nr="2491"/>
+<NachGegen Nr="2489"/>
+</StrElement>
+<StrElement Nr="2491" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-925.9214" Y="-1073.3312" Z="202.3359"/>
+<b X="-934.2158" Y="-1056.724" Z="202.4388"/>
+<InfoNormRichtung vMax="27.7778" km="0.2381" pos="1"/>
+<NachNorm Nr="2493"/>
+<NachGegen Nr="2490"/>
+</StrElement>
+<StrElement Nr="2493" kr="-0.000441" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-934.2158" Y="-1056.724" Z="202.4388"/>
+<b X="-940.6287" Y="-1043.6459" Z="202.4609"/>
+<InfoNormRichtung vMax="27.7778" km="0.2566" pos="1"/>
+<NachNorm Nr="2480"/>
+<NachGegen Nr="2491"/>
+</StrElement>
+<StrElement Nr="2494" spTrass="27.7778" Anschluss="1" Fkt="2">
+<g X="-741.7145" Y="-1210.4661" Z="206.9331"/>
+<b X="-735.3391" Y="-1211.5519" Z="206.6018"/>
+<NachNorm Nr="2505"/>
+</StrElement>
+<StrElement Nr="2497" spTrass="27.7778" Fkt="2">
+<g X="-683.5368" Y="-1204.025" Z="203.21"/>
+<b X="-706.0471" Y="-1210.1378" Z="204.7251"/>
+<InfoNormRichtung vMax="27.7778"/>
+<NachNorm Nr="2499"/>
+<NachGegen Nr="1726"/>
+</StrElement>
+<StrElement Nr="2499" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-706.0471" Y="-1210.1378" Z="204.7251"/>
+<b X="-713.8727" Y="-1211.7769" Z="205.2424"/>
+<InfoNormRichtung vMax="5.5556" km="-0.0233"/>
+<NachNorm Nr="2501"/>
+<NachGegen Nr="2497"/>
+</StrElement>
+<StrElement Nr="2501" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-713.8727" Y="-1211.7769" Z="205.2424"/>
+<b X="-721.8365" Y="-1212.4877" Z="205.7628"/>
+<InfoNormRichtung vMax="5.5556" km="-0.0313"/>
+<NachNorm Nr="2503"/>
+<NachGegen Nr="2499"/>
+</StrElement>
+<StrElement Nr="2503" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-721.8365" Y="-1212.4877" Z="205.7628"/>
+<b X="-728.6487" Y="-1212.3533" Z="206.2031"/>
+<InfoNormRichtung vMax="5.5556" km="-0.0393"/>
+<NachNorm Nr="2505"/>
+<NachGegen Nr="2501"/>
+</StrElement>
+<StrElement Nr="2505" spTrass="5.5556" Anschluss="257" Fkt="2">
+<g X="-728.6487" Y="-1212.3533" Z="206.2031"/>
+<b X="-735.3391" Y="-1211.5519" Z="206.5952"/>
+<InfoNormRichtung vMax="5.5556" km="-0.0461"/>
+<NachNorm Nr="2494"/>
+<NachGegen Nr="2503"/>
+</StrElement>
+<StrElement Nr="2506" spTrass="27.7778" Fkt="2">
+<g X="-803.587" Y="-1231.6501" Z="207.18"/>
+<b X="-807.0949" Y="-1235.0011" Z="207.18"/>
+<NachNorm Nr="2509"/>
+</StrElement>
+<StrElement Nr="2509" spTrass="27.7778" Anschluss="256" Fkt="2">
+<g X="-807.0949" Y="-1235.0011" Z="207.18"/>
+<b X="-810.1172" Y="-1237.8474" Z="207.1886"/>
+<InfoNormRichtung vMax="27.7778" km="0.0049" pos="1"/>
+<NachNorm Nr="2510"/>
+<NachGegen Nr="2506"/>
+</StrElement>
+<StrElement Nr="2510" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-810.1172" Y="-1237.8474" Z="207.1886"/>
+<b X="-814.5999" Y="-1241.6405" Z="207.2201"/>
+<InfoNormRichtung vMax="5.5556" km="0.009" pos="1"/>
+<NachNorm Nr="2512"/>
+<NachGegen Nr="2509"/>
+</StrElement>
+<StrElement Nr="2512" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-814.5999" Y="-1241.6405" Z="207.2201"/>
+<b X="-818.2134" Y="-1244.3423" Z="207.2449"/>
+<InfoNormRichtung vMax="5.5556" km="0.0149" pos="1"/>
+<NachNorm Nr="2514"/>
+<NachGegen Nr="2510"/>
+</StrElement>
+<StrElement Nr="2514" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-818.2134" Y="-1244.3423" Z="207.2449"/>
+<b X="-821.9634" Y="-1246.8512" Z="207.2698"/>
+<InfoNormRichtung vMax="5.5556" km="0.0194" pos="1"/>
+<NachNorm Nr="2516"/>
+<NachGegen Nr="2512"/>
+</StrElement>
+<StrElement Nr="2516" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-821.9634" Y="-1246.8512" Z="207.2698"/>
+<b X="-825.8395" Y="-1249.1604" Z="207.2947"/>
+<InfoNormRichtung vMax="5.5556" km="0.0239" pos="1"/>
+<NachNorm Nr="2518"/>
+<NachGegen Nr="2514"/>
+</StrElement>
+<StrElement Nr="2518" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-825.8395" Y="-1249.1604" Z="207.2947"/>
+<b X="-829.8311" Y="-1251.2635" Z="207.3196"/>
+<InfoNormRichtung vMax="5.5556" km="0.0284" pos="1"/>
+<NachNorm Nr="2520"/>
+<NachGegen Nr="2516"/>
+</StrElement>
+<StrElement Nr="2520" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-829.8311" Y="-1251.2635" Z="207.3196"/>
+<b X="-833.9274" Y="-1253.155" Z="207.3445"/>
+<InfoNormRichtung vMax="5.5556" km="0.0329" pos="1"/>
+<NachNorm Nr="2522"/>
+<NachGegen Nr="2518"/>
+</StrElement>
+<StrElement Nr="2522" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-833.9274" Y="-1253.155" Z="207.3445"/>
+<b X="-838.1169" Y="-1254.8295" Z="207.3693"/>
+<InfoNormRichtung vMax="5.5556" km="0.0374" pos="1"/>
+<NachNorm Nr="2524"/>
+<NachGegen Nr="2520"/>
+</StrElement>
+<StrElement Nr="2524" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-838.1169" Y="-1254.8295" Z="207.3693"/>
+<b X="-842.3885" Y="-1256.2823" Z="207.3942"/>
+<InfoNormRichtung vMax="5.5556" km="0.0419" pos="1"/>
+<NachNorm Nr="2526"/>
+<NachGegen Nr="2522"/>
+</StrElement>
+<StrElement Nr="2526" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-842.3885" Y="-1256.2823" Z="207.3942"/>
+<b X="-846.7648" Y="-1257.5184" Z="207.4167"/>
+<InfoNormRichtung vMax="5.5556" km="0.0465" pos="1"/>
+<NachNorm Nr="2528"/>
+<NachGegen Nr="2524"/>
+</StrElement>
+<StrElement Nr="2528" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-846.7648" Y="-1257.5184" Z="207.4167"/>
+<b X="-851.1652" Y="-1258.515" Z="207.4212"/>
+<InfoNormRichtung vMax="5.5556" km="0.051" pos="1"/>
+<NachNorm Nr="2530"/>
+<NachGegen Nr="2526"/>
+</StrElement>
+<StrElement Nr="2530" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-851.1652" Y="-1258.515" Z="207.4212"/>
+<b X="-855.6117" Y="-1259.2799" Z="207.4054"/>
+<InfoNormRichtung vMax="5.5556" km="0.0555" pos="1"/>
+<NachNorm Nr="2532"/>
+<NachGegen Nr="2528"/>
+</StrElement>
+<StrElement Nr="2532" kr="-0.011604" spTrass="5.5556" Anschluss="256" Fkt="2">
+<g X="-855.6117" Y="-1259.2799" Z="207.4054"/>
+<b X="-859.981" Y="-1259.8008" Z="207.3703"/>
+<InfoNormRichtung vMax="5.5556" km="0.06" pos="1"/>
+<NachGegen Nr="2530"/>
+</StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Friedland A" FahrstrTyp="TypZug" Laenge="1265.6">
 <FahrstrStart Ref="189">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
@@ -23961,7 +24322,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Friedland B" FahrstrTyp="TypZug" Laenge="1264.4001">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Friedland B" FahrstrTyp="TypZug" Laenge="1264.4">
 <FahrstrStart Ref="190">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -24541,7 +24902,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Friedland F -&gt; Friedland P1" FahrstrTyp="TypZug" Laenge="1448.4001">
+<Fahrstrasse FahrstrName="Friedland F -&gt; Friedland P1" FahrstrTyp="TypZug" Laenge="1448.4">
 <FahrstrStart Ref="80">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25414,7 +25775,194 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Friedland P2 -&gt; Sbk 6 6" FahrstrStrecke="3600b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1904.9999">
+<Fahrstrasse FahrstrName="Friedland P2 -&gt; Eichenberg FF" FahrstrStrecke="3600b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4843">
+<FahrstrStart Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="148">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="565">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="566">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="122" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="209" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="205" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="229" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Friedland P2 -&gt; Eichenberg FF (Bahnsteigkreuzung)" FahrstrStrecke="3600b" RglGgl="3" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="4843">
+<FahrstrStart Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="227">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="148">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="240">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="565">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="225">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="566">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="9" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="122" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="209" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="205" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="161">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="229" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="117">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Friedland P2 -&gt; Sbk 6 6" FahrstrStrecke="3600b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1905">
 <FahrstrStart Ref="161">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25491,7 +26039,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Friedland P2 -&gt; Sbk 6 6 (Bahnsteigkreuzung)" FahrstrStrecke="3600b" RglGgl="2" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1904.9999">
+<Fahrstrasse FahrstrName="Friedland P2 -&gt; Sbk 6 6 (Bahnsteigkreuzung)" FahrstrStrecke="3600b" RglGgl="2" FahrstrTyp="TypZug" ZufallsWert="1" Laenge="1905">
 <FahrstrStart Ref="161">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25571,7 +26119,96 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Friedland P3 -&gt; Sbk 6 6" FahrstrStrecke="3600b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1829.4001">
+<Fahrstrasse FahrstrName="Friedland P3 -&gt; Eichenberg FF" FahrstrStrecke="3600b" RglGgl="3" FahrstrTyp="TypZug" Laenge="4767.3999">
+<FahrstrStart Ref="139">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="43">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="138">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="106">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="172">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="102">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="99">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="96">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="193">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="11">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="36">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="44">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="565">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="104">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="136">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="566">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="9" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="6" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="122" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="209" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="205" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="139" FahrstrSignalZeile="7">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="238" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="117" FahrstrSignalSpalte="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="80" FahrstrSignalSpalte="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Friedland P3 -&gt; Sbk 6 6" FahrstrStrecke="3600b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1829.4">
 <FahrstrStart Ref="139">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -25734,6 +26371,59 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 <FahrstrVSignal Ref="80" FahrstrSignalSpalte="6">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Sbk 6 6 -&gt; Sbk 4 4" FahrstrStrecke="3600b" RglGgl="2" FahrstrTyp="TypZug" Laenge="1502">
+<FahrstrStart Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="17">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="63">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="66">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="191">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="18">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="62">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSigHaltfall Ref="20">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000563_005692_Eichenberg\Eichenberg_2004.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSignal Ref="59">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="57">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="79">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="233" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="92">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="80">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="224" FahrstrSignalSpalte="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
