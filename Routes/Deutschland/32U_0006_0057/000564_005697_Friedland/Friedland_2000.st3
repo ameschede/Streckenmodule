@@ -2926,7 +2926,7 @@
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_B.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
-<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="2.7778" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="5.5556" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="8.3333" FahrstrTyp="4"/>
@@ -2942,6 +2942,7 @@
 <HsigBegriff HsigGeschw="36.1111" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="38.8889" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="41.6667" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="-999" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="2.7778"/>
@@ -3526,6 +3527,60 @@
 <MatrixEintrag Signalbild="15525" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="15525" MatrixGeschw="41.6667"/>
 <MatrixEintrag Signalbild="15493" MatrixGeschw="41.6667"/>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="15491">
+<Ereignis Er="2000"/>
+</MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="15747" MatrixGeschw="11.1111">
 <Ereignis Er="2000"/>
@@ -6260,7 +6315,7 @@
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_A.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
-<HsigBegriff FahrstrTyp="6"/>
+<HsigBegriff FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="2.7778" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="5.5556" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="8.3333" FahrstrTyp="4"/>
@@ -24348,6 +24403,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 <FahrstrSignal Ref="197" FahrstrSignalZeile="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="70" FahrstrSignalZeile="17">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000564_005697_Friedland\Friedland_2000.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
