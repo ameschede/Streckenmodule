@@ -3438,10 +3438,10 @@
 </StrElement>
 <StrElement Nr="340" Ueberh="-0.0523" kr="0.000587" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3219">
 <g X="-353.3661" Y="-452.2938" Z="174.7245"/>
-<b X="-354.696" Y="-463.0706" Z="174.8148"/>
-<InfoNormRichtung vMax="36.1111" km="8.0644" pos="1"/>
-<InfoGegenRichtung vMax="27.7778" km="8.0752"/>
-<NachNorm Nr="341"/>
+<b X="-354.1009" Y="-458.1786" Z="174.7738"/>
+<InfoNormRichtung vMax="-1"/>
+<InfoGegenRichtung vMax="27.7778" km="8.0703"/>
+<NachNorm Nr="3767"/>
 <NachGegen Nr="339"/>
 </StrElement>
 <StrElement Nr="341" Ueberh="-0.0558" kr="0.000625" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.403">
@@ -3450,7 +3450,7 @@
 <InfoNormRichtung vMax="36.1111" km="8.0753" pos="1"/>
 <InfoGegenRichtung vMax="27.7778" km="8.0869"/>
 <NachNorm Nr="342"/>
-<NachGegen Nr="340"/>
+<NachGegen Nr="3767"/>
 </StrElement>
 <StrElement Nr="342" Ueberh="-0.0558" kr="0.000625" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4576">
 <g X="-356.0466" Y="-474.6707" Z="174.9117"/>
@@ -3587,7 +3587,27 @@
 <StrElement Nr="346" Ueberh="-0.0558" kr="0.000625" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4936">
 <g X="-360.5999" Y="-521.1597" Z="175.2992"/>
 <b X="-361.526" Y="-532.8011" Z="175.396"/>
-<InfoNormRichtung vMax="36.1111" km="8.1336" pos="1"/>
+<InfoNormRichtung vMax="36.1111" km="8.1336" pos="1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-361.526" Y="-532.8011" Z="175.396"/>
+<phi Z="-1.650181"/>
+<SignalFrame>
+<p Y="-3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="8.1453"/>
 <NachNorm Nr="347"/>
 <NachGegen Nr="345"/>
@@ -3644,10 +3664,30 @@
 </StrElement>
 <StrElement Nr="353" Ueberh="-0.0558" kr="0.000625" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4876">
 <g X="-365.2962" Y="-602.7637" Z="175.9772"/>
-<b X="-365.6266" Y="-614.4372" Z="176.0741"/>
-<InfoNormRichtung vMax="36.1111" km="8.2152" pos="1"/>
-<InfoGegenRichtung vMax="27.7778" km="8.2269"/>
-<NachNorm Nr="354"/>
+<b X="-365.4511" Y="-607.869" Z="176.0196"/>
+<InfoNormRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-365.4511" Y="-607.869" Z="176.0196"/>
+<phi Z="-1.601136"/>
+<SignalFrame>
+<p Y="-3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
+</Signal>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="27.7778" km="8.2203"/>
+<NachNorm Nr="3766"/>
 <NachGegen Nr="352"/>
 </StrElement>
 <StrElement Nr="354" Ueberh="-0.0558" kr="0.000625" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4952">
@@ -3656,7 +3696,7 @@
 <InfoNormRichtung vMax="36.1111" km="8.2269" pos="1"/>
 <InfoGegenRichtung vMax="27.7778" km="8.2386"/>
 <NachNorm Nr="355"/>
-<NachGegen Nr="353"/>
+<NachGegen Nr="3766"/>
 </StrElement>
 <StrElement Nr="355" Ueberh="-0.0558" kr="0.000625" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4982">
 <g X="-365.8717" Y="-626.1129" Z="176.171"/>
@@ -4123,10 +4163,9 @@
 </StrElement>
 <StrElement Nr="406" Ueberh="-0.0558" kr="0.000623" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4928">
 <g X="-276.9581" Y="-1161.8929" Z="181.1855"/>
-<b X="-272.9476" Y="-1172.854" Z="181.3111"/>
-<InfoNormRichtung vMax="36.1111" km="8.7841" pos="1"/>
-<InfoGegenRichtung vMax="27.7778" km="8.7958"/>
-<NachNorm Nr="407"/>
+<b X="-274.0054" Y="-1169.9856" Z="181.2782"/>
+<InfoGegenRichtung vMax="27.7778" km="8.7927"/>
+<NachNorm Nr="3764"/>
 <NachGegen Nr="405"/>
 </StrElement>
 <StrElement Nr="407" Ueberh="-0.0558" kr="0.000623" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4843">
@@ -4135,7 +4174,7 @@
 <InfoNormRichtung vMax="36.1111" km="8.7958" pos="1"/>
 <InfoGegenRichtung vMax="27.7778" km="8.8074"/>
 <NachNorm Nr="408"/>
-<NachGegen Nr="406"/>
+<NachGegen Nr="3764"/>
 </StrElement>
 <StrElement Nr="408" Ueberh="-0.0558" kr="0.000623" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4911">
 <g X="-268.8575" Y="-1183.787" Z="181.4366"/>
@@ -4181,7 +4220,27 @@
 <g X="-247.2196" Y="-1237.986" Z="182.0642"/>
 <b X="-242.6562" Y="-1248.729" Z="182.1897"/>
 <InfoNormRichtung vMax="36.1111" km="8.8657" pos="1"/>
-<InfoGegenRichtung vMax="27.7778" km="8.8774"/>
+<InfoGegenRichtung vMax="27.7778" km="8.8774">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-247.2196" Y="-1237.986" Z="182.0642"/>
+<phi Z="1.972478"/>
+<SignalFrame>
+<p Y="3.1" Z="2.4"/>
+<phi Z="0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="0.8"/>
+<phi Z="0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
 <NachNorm Nr="414"/>
 <NachGegen Nr="412"/>
 </StrElement>
@@ -4243,10 +4302,9 @@
 </StrElement>
 <StrElement Nr="421" Ueberh="-0.0837" kr="0.001046" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4116">
 <g X="-217.5126" Y="-1303.556" Z="182.8384"/>
-<b X="-213.541" Y="-1311.491" Z="182.9337"/>
-<InfoNormRichtung vMax="36.1111" km="8.9376" pos="1"/>
-<InfoGegenRichtung vMax="27.7778" km="8.9465"/>
-<NachNorm Nr="422"/>
+<b X="-216.1776" Y="-1306.2434" Z="182.8706"/>
+<InfoGegenRichtung vMax="27.7778" km="8.9406"/>
+<NachNorm Nr="3765"/>
 <NachGegen Nr="420"/>
 </StrElement>
 <StrElement Nr="422" Ueberh="-0.0837" kr="0.001046" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4874">
@@ -4255,7 +4313,7 @@
 <InfoNormRichtung vMax="36.1111" km="8.9465" pos="1"/>
 <InfoGegenRichtung vMax="27.7778" km="8.9553"/>
 <NachNorm Nr="423"/>
-<NachGegen Nr="421"/>
+<NachGegen Nr="3765"/>
 </StrElement>
 <StrElement Nr="423" Ueberh="-0.0837" kr="0.001046" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.5004">
 <g X="-209.496" Y="-1319.389" Z="183.0291"/>
@@ -12320,19 +12378,17 @@
 </StrElement>
 <StrElement Nr="1155" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4971">
 <g X="-206.8842" Y="126.7913" Z="168.8977"/>
-<b X="-219.1113" Y="78.5686" Z="169.4002"/>
-<InfoNormRichtung vMax="27.7778" km="7.4702" pos="1"/>
-<InfoGegenRichtung vMax="36.1111" km="7.52"/>
-<NachNorm Nr="1156"/>
+<b X="-207.9448" Y="122.6085" Z="168.9413"/>
+<InfoGegenRichtung vMax="36.1111" km="7.4746"/>
+<NachNorm Nr="3761"/>
 <NachGegen Nr="1154"/>
 </StrElement>
 <StrElement Nr="1156" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
 <g X="-219.1113" Y="78.5686" Z="169.4002"/>
-<b X="-231.3384" Y="30.3458" Z="169.9028"/>
-<InfoNormRichtung vMax="27.7778" km="7.52" pos="1"/>
-<InfoGegenRichtung vMax="36.1111" km="7.5697"/>
-<NachNorm Nr="1157"/>
-<NachGegen Nr="1155"/>
+<b X="-226.3771" Y="49.9128" Z="169.6989"/>
+<InfoGegenRichtung vMax="36.1111" km="7.5495"/>
+<NachNorm Nr="3762"/>
+<NachGegen Nr="3761"/>
 </StrElement>
 <StrElement Nr="1157" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
 <g X="-231.3384" Y="30.3458" Z="169.9028"/>
@@ -12342,16 +12398,15 @@
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1158"/>
-<NachGegen Nr="1156"/>
+<NachGegen Nr="3762"/>
 </StrElement>
 <StrElement Nr="1158" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
 <g X="-243.5656" Y="-17.8769" Z="170.4054"/>
-<b X="-255.7927" Y="-66.0997" Z="170.908"/>
-<InfoNormRichtung vMax="27.7778" km="7.6195" pos="1" Reg="5054"/>
-<InfoGegenRichtung vMax="36.1111" km="7.6692" Reg="5054">
+<b X="-244.8096" Y="-22.783" Z="170.4565"/>
+<InfoGegenRichtung vMax="36.1111" km="7.6245" Reg="5054">
 <Ereignis Er="3" Wert="1"/>
 </InfoGegenRichtung>
-<NachNorm Nr="1159"/>
+<NachNorm Nr="3763"/>
 <NachGegen Nr="1157"/>
 </StrElement>
 <StrElement Nr="1159" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
@@ -12359,7 +12414,7 @@
 <b X="-256.7758" Y="-69.9768" Z="170.9484"/>
 <InfoGegenRichtung vMax="36.1111" km="7.6732"/>
 <NachNorm Nr="1949"/>
-<NachGegen Nr="1158"/>
+<NachGegen Nr="3763"/>
 </StrElement>
 <StrElement Nr="1160" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
 <g X="-268.0199" Y="-114.3225" Z="171.4106"/>
@@ -34782,6 +34837,154 @@
 <MatrixEintrag Signalbild="-1" MatrixGeschw="-1"/>
 </Signal>
 </InfoGegenRichtung>
+</StrElement>
+<StrElement Nr="3761" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4971">
+<g X="-207.9448" Y="122.6085" Z="168.9413"/>
+<b X="-219.1113" Y="78.5686" Z="169.4002"/>
+<InfoNormRichtung vMax="27.7778" km="7.4745" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-207.9448" Y="122.6085" Z="168.9413"/>
+<phi Z="1.322475"/>
+<SignalFrame>
+<p Y="-3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="1156"/>
+<NachGegen Nr="1155"/>
+</StrElement>
+<StrElement Nr="3762" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
+<g X="-226.3771" Y="49.9128" Z="169.6989"/>
+<b X="-231.3384" Y="30.3458" Z="169.9028"/>
+<InfoNormRichtung vMax="27.7778" km="7.5496" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-226.3771" Y="49.9128" Z="169.6989"/>
+<phi Z="1.322475"/>
+<SignalFrame>
+<p Y="-3.1" Z="2.4"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="1157"/>
+<NachGegen Nr="1156"/>
+</StrElement>
+<StrElement Nr="3763" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.4948">
+<g X="-244.8096" Y="-22.783" Z="170.4565"/>
+<b X="-255.7927" Y="-66.0997" Z="170.908"/>
+<InfoNormRichtung vMax="27.7778" km="7.6246" pos="1" Reg="5054"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-244.9065" Y="-22.7584" Z="170.4565"/>
+<phi Z="1.322474"/>
+<SignalFrame>
+<p Y="-3.1" Z="0.8"/>
+<phi Z="-0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="1" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="1159"/>
+<NachGegen Nr="1158"/>
+</StrElement>
+<StrElement Nr="3764" Ueberh="-0.0558" kr="0.000623" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4928">
+<g X="-274.0054" Y="-1169.9856" Z="181.2782"/>
+<b X="-272.9476" Y="-1172.854" Z="181.3111"/>
+<InfoNormRichtung vMax="36.1111" km="8.7927" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-274.0054" Y="-1169.9856" Z="181.2782"/>
+<phi Z="1.924099"/>
+<SignalFrame>
+<p Y="3.1" Z="2.4"/>
+<phi Z="0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="0.8"/>
+<phi Z="0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="235" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="407"/>
+<NachGegen Nr="406"/>
+</StrElement>
+<StrElement Nr="3765" Ueberh="-0.0837" kr="0.001046" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4116">
+<g X="-216.1776" Y="-1306.2434" Z="182.8706"/>
+<b X="-213.541" Y="-1311.491" Z="182.9337"/>
+<InfoNormRichtung vMax="36.1111" km="8.9406" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Signal SignalTyp="1" BoundingR="10">
+<p X="-216.1776" Y="-1306.2434" Z="182.8706"/>
+<phi Z="2.036394"/>
+<SignalFrame>
+<p Y="3.1" Z="2.4"/>
+<phi Z="0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="0.8"/>
+<phi Z="0.349066"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_reflekt.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="3" MatrixGeschw="-1"/>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="422"/>
+<NachGegen Nr="421"/>
+</StrElement>
+<StrElement Nr="3766" Ueberh="-0.0558" kr="0.000625" spTrass="36.1111" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.4876">
+<g X="-365.4511" Y="-607.869" Z="176.0196"/>
+<b X="-365.6266" Y="-614.4372" Z="176.0741"/>
+<InfoNormRichtung vMax="36.1111" km="8.2203" pos="1"/>
+<NachNorm Nr="354"/>
+<NachGegen Nr="353"/>
+</StrElement>
+<StrElement Nr="3767" Ueberh="-0.0523" kr="0.000587" spTrass="36.1111" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.3219">
+<g X="-354.1009" Y="-458.1786" Z="174.7738"/>
+<b X="-354.696" Y="-463.0706" Z="174.8148"/>
+<InfoNormRichtung vMax="36.1111" km="8.0703" pos="1"/>
+<NachNorm Nr="341"/>
+<NachGegen Nr="340"/>
 </StrElement>
 <Fahrstrasse FahrstrName="Abzw Ksl-Oberzw 682 -&gt; Üst Keilsberg 703" FahrstrStrecke="1733a" RglGgl="2" FahrstrTyp="TypZug" Laenge="2111.8">
 <FahrstrStart Ref="62">
