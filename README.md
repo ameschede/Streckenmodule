@@ -29,6 +29,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Bindfelde
 * Kaiserau
 * Rengershausen
+* Oberzwehren
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -40,6 +41,6 @@ Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.
 
 Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 
-Die Module Rengershausen, Körle Ost, Kaiserau, Altmorschen, Licherode und Ersrode bilden ein zusammenhängendes Netz (längste Strecke 39,5 km).
+Die Module Oberzwehren, Rengershausen, Körle Ost, Kaiserau, Altmorschen, Licherode und Ersrode schließen bei Kassel-Wilhlmshöhe ans Bestandsnetz an.
 
 Das Modul Schwarzenfeld schließt bei Irrenlohe ans Bestandsnetz an.
