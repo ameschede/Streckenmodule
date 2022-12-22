@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\rail_rust.dds"/>
+</Textur>
+<Vertex U="0.537" V="0.5349">
+<p X="125" Y="-84.9277" Z="356.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="0.5327">
+<p X="125" Y="-85.0382" Z="356.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="0.68">
+<p X="124.0034" Y="-77.7402" Z="356.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="0.68">
+<p X="124.0728" Y="-77.7307" Z="356.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="0.5429">
+<p X="125" Y="-84.5207" Z="356.65"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.9086">
+<p X="125" Y="-84.8339" Z="356.5316"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.1422">
+<p X="125" Y="-84.7794" Z="356.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1">
+<p X="124.0381" Y="-77.7354" Z="356.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.3427" V="0.68">
+<p X="125" Y="-84.5732" Z="356.6195"/>
+<n Z="1"/>
+</Vertex>
+<Vertex>
+<p X="124.0381" Y="-77.7354" Z="356.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.1422">
+<p X="125" Y="-84.7794" Z="356.5"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="4;0;2"/>
+<Face i="3;4;2"/>
+<Face i="6;7;5"/>
+<Face i="2;1;5"/>
+<Face i="2;5;7"/>
+<Face i="9;10;8"/>
+<Face i="9;8;3"/>
+<Face i="4;3;8"/>
+</SubSet>
+</Landschaft>
+</Zusi>

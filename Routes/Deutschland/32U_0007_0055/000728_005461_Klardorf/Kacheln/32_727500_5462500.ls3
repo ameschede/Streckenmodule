@@ -718,6 +718,30 @@
 <phi Z="-0.693728"/>
 <sk X="0.9859" Y="0.9859" Z="0.9859"/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\Leitpfosten_Schutzplanke.lod.ls3"/>
+<p X="-495.7818" Y="59.3077" Z="355.7036"/>
+<phi Z="2.870258"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\Leitpfosten_Schutzplanke.lod.ls3"/>
+<p X="-447.5976" Y="45.9489" Z="355.2303"/>
+<phi Z="2.871684"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\Leitpfosten_Schutzplanke.lod.ls3"/>
+<p X="-493.8788" Y="66.1479" Z="355.7036"/>
+<phi Z="-0.271335"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\Leitpfosten_Schutzplanke.lod.ls3"/>
+<p X="-445.7044" Y="52.7917" Z="355.2303"/>
+<phi Z="-0.269908"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -4970,7 +4994,7 @@
 </Vertex>
 <Vertex U="-95.2436" V="134.011">
 <p X="-450.552" Y="-159.2233" Z="354.6763"/>
-<n X="0" Y="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex U="-95.2374" V="133.9927">
 <p X="-452.374" Y="-160.0731" Z="354.6763"/>

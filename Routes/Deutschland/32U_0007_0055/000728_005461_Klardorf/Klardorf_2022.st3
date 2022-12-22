@@ -27,13 +27,51 @@
 <MondTex Dateiname="_Setup\sky\moon.dds"/>
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
-<StreckenStandort StrInfo="Bü Test">
-<p X="-1629.63" Y="4055.8501" Z="359.42"/>
-<lookat X="-1658.76" Y="4048.6797" Z="359.11"/>
-<up X="-1629.73" Y="4055.8301" Z="369.42"/>
+<StreckenStandort StrInfo="Baumschulen Donhauser">
+<p X="-1720.51" Y="4595.0098" Z="356.89"/>
+<lookat X="-1720.8" Y="4620" Z="356.3"/>
+<up X="-1720.52" Y="4595.2402" Z="366.89"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Bü km 39,0">
+<p X="-1708.48" Y="4056.6699" Z="358.39"/>
+<lookat X="-1687.42" Y="4043.2" Z="358.54"/>
+<up X="-1708.53" Y="4056.7" Z="368.39"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Anrufschranke">
+<p X="-1491.3199" Y="2688.9099" Z="357.82"/>
+<lookat X="-1472.88" Y="2672.0701" Z="358.93"/>
+<up X="-1491.65" Y="2689.21" Z="367.81"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Ehemalige Laderampe">
+<p X="-1280.9399" Y="1150.55" Z="357.79"/>
+<lookat X="-1264.4399" Y="1131.77" Z="357.67"/>
+<up X="-1280.91" Y="1150.51" Z="367.79"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Hundepension Hecht (Stellwerk)">
+<p X="-1107.54" Y="226.79" Z="360.33"/>
+<lookat X="-1122.8" Y="246.37" Z="357.34"/>
+<up X="-1108.28" Y="227.74" Z="370.26"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Brücke Loisnitzer Straße">
+<p X="-228.65" Y="-1722.78" Z="371.39"/>
+<lookat X="-234.01" Y="-1698.37" Z="371.99"/>
+<up X="-228.6" Y="-1723.01" Z="381.39"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Blick aus einem Hochsitz">
+<p X="-165.64" Y="-3009.1499" Z="376.49"/>
+<lookat X="-181.26" Y="-3028.52" Z="378.9"/>
+<up X="-165.03" Y="-3008.3999" Z="386.45"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Einfahrvorsignal Maxhütte-Haidhof">
+<p X="-1143.45" Y="-5071.4399" Z="383.49"/>
+<lookat X="-1166.09" Y="-5081.9702" Z="382.22"/>
+<up X="-1143.91" Y="-5071.6602" Z="393.48"/>
 </StreckenStandort>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3" NurInfo="1"/>
+</ModulDateien>
+<ModulDateien>
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
 </ModulDateien>
 <ReferenzElemente ReferenzNr="1" StrElement="1" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3"/>
 <ReferenzElemente ReferenzNr="2" StrElement="20" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000726_005468_Schwandorf\Schwandorf_2022.st3"/>
@@ -135,6 +173,17 @@
 <ReferenzElemente ReferenzNr="99" StrElement="1" StrNorm="1" RefTyp="2" Info="Register-Nr. 5001"/>
 <ReferenzElemente ReferenzNr="100" StrElement="1" RefTyp="2" Info="Register-Nr. 5001"/>
 <ReferenzElemente ReferenzNr="101" StrElement="3757" RefTyp="4" Info="Fahrweg: Klardorf Gs"/>
+<ReferenzElemente ReferenzNr="102" StrElement="959" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3"/>
+<ReferenzElemente ReferenzNr="103" StrElement="965" RefTyp="1" Info="Modulgrenze nach Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3"/>
+<ReferenzElemente ReferenzNr="104" StrElement="236" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="105" StrElement="236" StrNorm="1" RefTyp="2" Info="Register-Nr. 5008"/>
+<ReferenzElemente ReferenzNr="106" StrElement="236" RefTyp="2" Info="Register-Nr. 5008"/>
+<ReferenzElemente ReferenzNr="107" StrElement="443" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="108" StrElement="443" StrNorm="1" RefTyp="2" Info="Register-Nr. 5010"/>
+<ReferenzElemente ReferenzNr="109" StrElement="443" RefTyp="2" Info="Register-Nr. 5010"/>
+<ReferenzElemente ReferenzNr="110" StrElement="134" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
+<ReferenzElemente ReferenzNr="111" StrElement="134" StrNorm="1" RefTyp="2" Info="Register-Nr. 5004"/>
+<ReferenzElemente ReferenzNr="112" StrElement="134" RefTyp="2" Info="Register-Nr. 5004"/>
 <StrElement Nr="1" spTrass="36.1111" Oberbau="B55 SKL-Oberbau">
 <g X="-1779.467" Y="4896.9028" Z="356.2"/>
 <b X="-1772.6411" Y="4848.666" Z="356.2"/>
@@ -1324,7 +1373,7 @@
 <VsigBegriff VsigGeschw="-1"/>
 <MatrixEintrag Signalbild="511" MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Wert="70" Beschr="10A"/>
+<Ereignis Er="32" Beschr="10A" Wert="70"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="511">
@@ -1337,7 +1386,7 @@
 </MatrixEintrag>
 <MatrixEintrag Signalbild="511" MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Wert="70" Beschr="10A"/>
+<Ereignis Er="32" Beschr="10A" Wert="70"/>
 <Ereignis Er="2000"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="Befehl" ErsatzsigID="0000010A">
@@ -1390,7 +1439,7 @@
 <g X="-1244.995" Y="1178.0179" Z="354.4813"/>
 <b X="-1238.184" Y="1129.896" Z="354.4848"/>
 <InfoNormRichtung vMax="38.8889" km="36.1207">
-<Ereignis Er="1000027" Wert="93" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="93"/>
 <Signal NameBetriebsstelle="BÜ km 36,097" Stellwerk="BÜ km 36,097" Signalname="BÜ km 36,097 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1241.91" Y="1156.24" Z="354.48"/>
 <phi/>
@@ -1406,7 +1455,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="38.8889" km="36.0721" pos="1">
 <Ereignis Er="6" Beschr="Klardorf"/>
-<Ereignis Er="1000027" Wert="92" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="92"/>
 <Signal NameBetriebsstelle="BÜ km 36,097" Stellwerk="BÜ km 36,097" Signalname="BÜ km 36,097 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1241.91" Y="1156.24" Z="354.48"/>
 <phi Z="3.141593"/>
@@ -1631,8 +1680,10 @@
 <StrElement Nr="134" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1136.0179" Y="408.0626" Z="354.2247"/>
 <b X="-1129.207" Y="359.9404" Z="354.2262"/>
-<InfoNormRichtung vMax="38.8889" km="35.3431"/>
-<InfoGegenRichtung vMax="38.8889" km="35.2945" pos="1"/>
+<InfoNormRichtung vMax="38.8889" km="35.3431" Reg="5004">
+<Ereignis Er="4"/>
+</InfoNormRichtung>
+<InfoGegenRichtung vMax="38.8889" km="35.2945" pos="1" Reg="5004"/>
 <NachNorm Nr="135"/>
 <NachGegen Nr="1442"/>
 </StrElement>
@@ -1663,10 +1714,10 @@
 <StrElement Nr="138" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1317.6021" Y="1658.0699" Z="354.64"/>
 <b X="-1309.484" Y="1609.9919" Z="354.64"/>
-<InfoNormRichtung vMax="38.8889" km="36.6062" Reg="5004">
+<InfoNormRichtung vMax="38.8889" km="36.6062" Reg="5005">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="36.5575" pos="1" Reg="5004"/>
+<InfoGegenRichtung vMax="38.8889" km="36.5575" pos="1" Reg="5005"/>
 <NachNorm Nr="139"/>
 <NachGegen Nr="1440"/>
 </StrElement>
@@ -1961,7 +2012,7 @@
 <b X="-1515.726" Y="3004.665" Z="355.3897"/>
 <InfoNormRichtung vMax="38.8889" km="38.0166"/>
 <InfoGegenRichtung vMax="27.7778" km="37.9674" pos="1">
-<Ereignis Er="27" Wert="80" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="27" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="80"/>
 <Signal NameBetriebsstelle="BÜ km 39,017" Stellwerk="BÜ km 39,017" SignalTyp="1" BoundingR="10">
 <p X="-1525.6925" Y="3052.9646" Z="355.9184"/>
 <phi Z="1.711389"/>
@@ -2440,7 +2491,7 @@
 <StrElement Nr="201" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1329.519" Y="1688.851" Z="354.64"/>
 <b X="-1326.6324" Y="1668.4543" Z="354.64"/>
-<InfoNormRichtung vMax="-1" km="36.6384" Reg="5005">
+<InfoNormRichtung vMax="-1" km="36.6384" Reg="5006">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" Signalname="57F" SignalTyp="7" BoundingR="10">
 <p X="-1329.7316" Y="1668.0157" Z="354.64"/>
 <phi Z="-1.430207"/>
@@ -3132,7 +3183,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="27.7778" km="36.6178" pos="1" Reg="5005"/>
+<InfoGegenRichtung vMax="27.7778" km="36.6178" pos="1" Reg="5006"/>
 <NachNorm Nr="1439"/>
 <NachGegen Nr="200"/>
 </StrElement>
@@ -3179,8 +3230,8 @@
 <StrElement Nr="207" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1288.14" Y="1396.448" Z="354.5302"/>
 <b X="-1282.5349" Y="1356.8427" Z="354.4923"/>
-<InfoNormRichtung vMax="-1" Reg="5006"/>
-<InfoGegenRichtung vMax="27.7778" km="36.303" pos="1" Reg="5006">
+<InfoNormRichtung vMax="-1" Reg="5007"/>
+<InfoGegenRichtung vMax="27.7778" km="36.303" pos="1" Reg="5007">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" SignalTyp="5" BoundingR="10">
 <p X="-1291.3085" Y="1395.9996" Z="354.5302"/>
 <phi Z="1.711388"/>
@@ -3229,7 +3280,7 @@
 <b X="-1253.657" Y="1152.778" Z="354.483"/>
 <InfoNormRichtung vMax="38.8889" km="36.1462">
 <Ereignis Er="6" Beschr="Klardorf"/>
-<Ereignis Er="1000027" Wert="95" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="95"/>
 <Signal NameBetriebsstelle="BÜ km 36,097" Stellwerk="BÜ km 36,097" Signalname="BÜ km 36,097 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1253.88" Y="1154.36" Z="354.48"/>
 <phi/>
@@ -3245,7 +3296,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="27.7778" km="36.097" pos="1">
 <Ereignis Er="6" Beschr="Klardorf"/>
-<Ereignis Er="1000027" Wert="94" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="94"/>
 <Signal NameBetriebsstelle="BÜ km 36,097" Stellwerk="BÜ km 36,097" Signalname="BÜ km 36,097 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1253.88" Y="1154.36" Z="354.48"/>
 <phi Z="3.141593"/>
@@ -3304,7 +3355,7 @@
 <StrElement Nr="217" spTrass="27.7778" Fkt="4" Oberbau="B55 SKL-Oberbau">
 <g X="-1213.9449" Y="872.16" Z="354.5799"/>
 <b X="-1214.113" Y="873.3481" Z="354.5801"/>
-<InfoNormRichtung vMax="-1" km="35.8135" pos="1" Reg="5007">
+<InfoNormRichtung vMax="-1" km="35.8135" pos="1" Reg="5008">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" Signalname="57W8" SignalFlags="3" SignalTyp="2" BoundingR="28">
 <p X="-1213.9449" Y="872.16" Z="354.5799"/>
 <phi Y="-0.000024" Z="-4.571808"/>
@@ -3351,7 +3402,7 @@
 <MatrixEintrag Signalbild="181" MatrixGeschw="-1"/>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="35.8147" Reg="5007"/>
+<InfoGegenRichtung vMax="-1" km="35.8147" Reg="5008"/>
 <NachNorm Nr="218"/>
 <NachNorm Nr="220"/>
 <NachGegen Nr="39"/>
@@ -3565,10 +3616,10 @@
 <StrElement Nr="242" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1085.355" Y="23.5156" Z="354.2365"/>
 <b X="-1082.2113" Y="-3.8041" Z="354.2374"/>
-<InfoNormRichtung vMax="-1" Reg="5008">
+<InfoNormRichtung vMax="-1" Reg="5009">
 <Ereignis Er="28" Beschr="5860b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="34.9277" pos="1" Reg="5008">
+<InfoGegenRichtung vMax="38.8889" km="34.9277" pos="1" Reg="5009">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1447"/>
@@ -5577,10 +5628,10 @@
 <StrElement Nr="448" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1086.7419" Y="-26.7071" Z="354.238"/>
 <b X="-1082.791" Y="-54.629" Z="354.2389"/>
-<InfoNormRichtung vMax="-1" Reg="5009">
+<InfoNormRichtung vMax="-1" Reg="5010">
 <Ereignis Er="39" Beschr="5860b"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="34.8773" pos="1" Reg="5009">
+<InfoGegenRichtung vMax="38.8889" km="34.8773" pos="1" Reg="5010">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1446"/>
@@ -9723,7 +9774,9 @@
 <g X="-284.5338" Y="-2390.521" Z="365.8116"/>
 <b X="-285.9288" Y="-2383.679" Z="365.7862"/>
 <InfoNormRichtung vMax="30.5556" km="32.2968" pos="1"/>
-<InfoGegenRichtung vMax="33.3333" km="32.3038"/>
+<InfoGegenRichtung vMax="33.3333" km="32.3038">
+<Ereignis Er="4010" Wert="41.6667"/>
+</InfoGegenRichtung>
 <NachNorm Nr="948"/>
 <NachGegen Nr="946"/>
 </StrElement>
@@ -9821,13 +9874,16 @@
 <InfoNormRichtung vMax="-1" km="28.3836" pos="1"/>
 <InfoGegenRichtung vMax="30.5556" km="28.4042"/>
 <NachNorm Nr="1458"/>
+<NachGegenModul Nr="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="960" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1630.864" Y="-5633.4551" Z="384.8632"/>
-<b X="-1616.809" Y="-5594.7012" Z="384.7072"/>
-<InfoNormRichtung vMax="30.5556" km="28.4249" pos="1"/>
-<InfoGegenRichtung vMax="30.5556" km="28.4661"/>
-<NachNorm Nr="961"/>
+<b X="-1627.7955" Y="-5624.9946" Z="384.8291"/>
+<InfoNormRichtung vMax="-1" km="28.4249" pos="1"/>
+<InfoGegenRichtung vMax="30.5556" km="28.4339"/>
+<NachNorm Nr="4098"/>
 <NachGegen Nr="1458"/>
 </StrElement>
 <StrElement Nr="961" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
@@ -9836,7 +9892,7 @@
 <InfoNormRichtung vMax="30.5556" km="28.4661" pos="1"/>
 <InfoGegenRichtung vMax="30.5556" km="28.5073"/>
 <NachNorm Nr="962"/>
-<NachGegen Nr="960"/>
+<NachGegen Nr="4098"/>
 </StrElement>
 <StrElement Nr="962" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1602.755" Y="-5555.9482" Z="384.5513"/>
@@ -9868,13 +9924,16 @@
 <InfoNormRichtung vMax="30.5556" km="28.3836" pos="1"/>
 <InfoGegenRichtung vMax="30.5556" km="28.4042"/>
 <NachNorm Nr="1459"/>
+<NachGegenModul Nr="2">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</NachGegenModul>
 </StrElement>
 <StrElement Nr="966" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1634.624" Y="-5632.0908" Z="384.8632"/>
-<b X="-1620.569" Y="-5593.3379" Z="384.7072"/>
-<InfoNormRichtung vMax="30.5556" km="28.4249" pos="1"/>
-<InfoGegenRichtung vMax="30.5556" km="28.4661"/>
-<NachNorm Nr="967"/>
+<b X="-1631.5554" Y="-5623.6304" Z="384.8291"/>
+<InfoNormRichtung vMax="-1" km="28.4249" pos="1"/>
+<InfoGegenRichtung vMax="30.5556" km="28.4339"/>
+<NachNorm Nr="4097"/>
 <NachGegen Nr="1459"/>
 </StrElement>
 <StrElement Nr="967" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
@@ -9883,7 +9942,7 @@
 <InfoNormRichtung vMax="30.5556" km="28.4661" pos="1"/>
 <InfoGegenRichtung vMax="30.5556" km="28.5073"/>
 <NachNorm Nr="968"/>
-<NachGegen Nr="966"/>
+<NachGegen Nr="4097"/>
 </StrElement>
 <StrElement Nr="968" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1606.515" Y="-5554.584" Z="384.5513"/>
@@ -11937,7 +11996,9 @@
 <StrElement Nr="1214" Ueberh="0.0713" kr="-0.001111" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-540.8708" Y="-4624.8931" Z="377.0488"/>
 <b X="-542.6567" Y="-4631.3311" Z="377.0853"/>
-<InfoNormRichtung vMax="36.1111" km="30.014"/>
+<InfoNormRichtung vMax="36.1111" km="30.014">
+<Ereignis Er="4010" Wert="38.8889"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="30.5556" km="30.0073" pos="1"/>
 <NachNorm Nr="1215"/>
 <NachGegen Nr="1213"/>
@@ -13748,10 +13809,10 @@
 <StrElement Nr="1439" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1326.6324" Y="1668.4543" Z="354.64"/>
 <b X="-1322.6219" Y="1640.1169" Z="354.64"/>
-<InfoNormRichtung vMax="38.8889" km="36.6178" Reg="5010">
+<InfoNormRichtung vMax="38.8889" km="36.6178" Reg="5011">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="27.7778" km="36.5892" pos="1" Reg="5010">
+<InfoGegenRichtung vMax="27.7778" km="36.5892" pos="1" Reg="5011">
 <Ereignis Er="28" Beschr="5860a"/>
 </InfoGegenRichtung>
 <NachNorm Nr="202"/>
@@ -13790,18 +13851,18 @@
 <StrElement Nr="1443" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1148.6453" Y="410.7256" Z="354.2246"/>
 <b X="-1144.955" Y="384.6485" Z="354.2254"/>
-<InfoNormRichtung vMax="38.8889" km="35.3476" Reg="5011">
+<InfoNormRichtung vMax="38.8889" km="35.3476" Reg="5012">
 <Ereignis Er="4"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="-1" km="35.3212" pos="1" Reg="5011"/>
+<InfoGegenRichtung vMax="-1" km="35.3212" pos="1" Reg="5012"/>
 <NachNorm Nr="50"/>
 <NachGegen Nr="1441"/>
 </StrElement>
 <StrElement Nr="1444" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1233.5874" Y="1097.4196" Z="354.4872"/>
 <b X="-1231.373" Y="1081.774" Z="354.4883"/>
-<InfoNormRichtung vMax="38.8889" km="36.0393" Reg="5012"/>
-<InfoGegenRichtung vMax="-1" Reg="5012">
+<InfoNormRichtung vMax="38.8889" km="36.0393" Reg="5013"/>
+<InfoGegenRichtung vMax="-1" Reg="5013">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" Signalname="57N1" SignalTyp="9" BoundingR="10">
 <p X="-1230.5675" Y="1097.8473" Z="354.4872"/>
 <phi Z="1.711395"/>
@@ -13932,8 +13993,8 @@
 <StrElement Nr="1445" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1245.6111" Y="1095.9259" Z="354.4872"/>
 <b X="-1239.864" Y="1055.311" Z="354.4905"/>
-<InfoNormRichtung vMax="38.8889" km="36.0395" Reg="5013"/>
-<InfoGegenRichtung vMax="-1" km="35.9985" pos="1" Reg="5013">
+<InfoNormRichtung vMax="38.8889" km="36.0395" Reg="5014"/>
+<InfoGegenRichtung vMax="-1" km="35.9985" pos="1" Reg="5014">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" Signalname="Gleis 3" SignalTyp="13" BoundingR="10">
 <p X="-1245.6111" Y="1095.9259" Z="354.4872"/>
 <phi Z="1.711365"/>
@@ -13965,7 +14026,7 @@
 </MatrixEintrag>
 <MatrixEintrag MatrixGeschw="11.1111">
 <Ereignis Er="23"/>
-<Ereignis Er="32" Wert="500" Beschr="3010710"/>
+<Ereignis Er="32" Beschr="3010710" Wert="500"/>
 <Ereignis Er="28" Wert="1"/>
 </MatrixEintrag>
 <Ersatzsignal ErsatzsigBezeichnung="BefehlGegengleis" ErsatzsigID="03010710">
@@ -13982,8 +14043,8 @@
 <StrElement Nr="1446" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-1082.791" Y="-54.629" Z="354.2389"/>
 <b X="-1080.49" Y="-70.8907" Z="354.2394"/>
-<InfoNormRichtung vMax="38.8889" km="34.8773" Reg="5014"/>
-<InfoGegenRichtung vMax="30.5556" Reg="5014">
+<InfoNormRichtung vMax="38.8889" km="34.8773" Reg="5015"/>
+<InfoGegenRichtung vMax="30.5556" Reg="5015">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" Signalname="57AA" SignalTyp="7" BoundingR="10">
 <p X="-1085.8901" Y="-55.0675" Z="354.2389"/>
 <phi Z="1.711363"/>
@@ -14674,8 +14735,8 @@
 <StrElement Nr="1447" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1082.2113" Y="-3.8041" Z="354.2374"/>
 <b X="-1080.299" Y="-20.4228" Z="354.2379"/>
-<InfoNormRichtung vMax="38.8889" km="34.9278" Reg="5015"/>
-<InfoGegenRichtung vMax="-1" Reg="5015">
+<InfoNormRichtung vMax="38.8889" km="34.9278" Reg="5016"/>
+<InfoGegenRichtung vMax="-1" Reg="5016">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" Signalname="57A" SignalTyp="7" BoundingR="10">
 <p X="-1079.1018" Y="-3.4463" Z="354.2374"/>
 <phi Z="1.685365"/>
@@ -15392,8 +15453,8 @@
 <StrElement Nr="1450" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1250.2085" Y="1128.4115" Z="354.4848"/>
 <b X="-1246.76" Y="1104.045" Z="354.4865"/>
-<InfoNormRichtung vMax="38.8889" km="36.0723" Reg="5016"/>
-<InfoGegenRichtung vMax="27.7778" pos="1" Reg="5016">
+<InfoNormRichtung vMax="38.8889" km="36.0723" Reg="5017"/>
+<InfoGegenRichtung vMax="27.7778" pos="1" Reg="5017">
 <Ereignis Er="4"/>
 </InfoGegenRichtung>
 <NachNorm Nr="213"/>
@@ -15670,16 +15731,16 @@
 <StrElement Nr="1458" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1637.8914" Y="-5652.8315" Z="384.9412"/>
 <b X="-1630.864" Y="-5633.4551" Z="384.8632"/>
-<InfoNormRichtung vMax="30.5556" km="28.4042" pos="1" Reg="5017"/>
-<InfoGegenRichtung vMax="-1" km="28.4249" Reg="5017"/>
+<InfoNormRichtung vMax="30.5556" km="28.4042" pos="1" Reg="5018"/>
+<InfoGegenRichtung vMax="-1" km="28.4249" Reg="5018"/>
 <NachNorm Nr="960"/>
 <NachGegen Nr="959"/>
 </StrElement>
 <StrElement Nr="1459" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1641.6514" Y="-5651.4678" Z="384.9412"/>
 <b X="-1634.624" Y="-5632.0908" Z="384.8632"/>
-<InfoNormRichtung vMax="30.5556" km="28.4042" pos="1" Reg="5018"/>
-<InfoGegenRichtung vMax="-1" km="28.4249" Reg="5018"/>
+<InfoNormRichtung vMax="30.5556" km="28.4042" pos="1" Reg="5019"/>
+<InfoGegenRichtung vMax="-1" km="28.4249" Reg="5019"/>
 <NachNorm Nr="966"/>
 <NachGegen Nr="965"/>
 </StrElement>
@@ -15762,7 +15823,7 @@
 <StrElement Nr="1465" spTrass="38.8889" Anschluss="256" Oberbau="B70 SKL-Oberbau">
 <g X="-254.7576" Y="-1890.0696" Z="363.1599"/>
 <b X="-254.9829" Y="-1891.5526" Z="363.1682"/>
-<InfoNormRichtung vMax="30.5556">
+<InfoNormRichtung vMax="33.3333">
 <Signal SignalTyp="14" BoundingR="1">
 <p X="-254.9829" Y="-1891.5526" Z="363.1682"/>
 <phi Z="-1.721572"/>
@@ -16150,7 +16211,7 @@
 <StrElement Nr="1483" spTrass="38.8889" Anschluss="256" Oberbau="B55 SKL-Oberbau">
 <g X="-1137.5035" Y="418.5599" Z="354.2244"/>
 <b X="-1137.2935" Y="417.0747" Z="354.2244"/>
-<InfoNormRichtung vMax="38.8889" km="35.3537" Reg="5019">
+<InfoNormRichtung vMax="38.8889" km="35.3537" Reg="5020">
 <Signal NameBetriebsstelle="Klardorf" Stellwerk="Steuerbereich 57 Klardorf" Signalname="57P1" SignalTyp="9" BoundingR="10">
 <p X="-1139.5212" Y="416.7594" Z="354.2244"/>
 <phi Z="-1.430194"/>
@@ -16315,7 +16376,7 @@
 </Ersatzsignal>
 </Signal>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="38.8889" km="35.3522" pos="1" Reg="5019"/>
+<InfoGegenRichtung vMax="38.8889" km="35.3522" pos="1" Reg="5020"/>
 <NachNorm Nr="1442"/>
 <NachGegen Nr="133"/>
 </StrElement>
@@ -21152,7 +21213,7 @@
 <b X="-1474.2283" Y="2739.967" Z="355.2338"/>
 <InfoNormRichtung vMax="27.7778" km="37.7142"/>
 <InfoGegenRichtung vMax="36.1111" km="37.6995" pos="1">
-<Ereignis Er="27" Wert="78" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="27" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="78"/>
 <Signal NameBetriebsstelle="BÜ km 39,017" Stellwerk="BÜ km 39,017" SignalTyp="1" BoundingR="10">
 <p X="-1473.2186" Y="2754.9563" Z="355.7423"/>
 <phi Z="1.711383"/>
@@ -21346,7 +21407,7 @@
 <g X="-1660.3375" Y="4055.0898" Z="356.0069"/>
 <b X="-1657.8156" Y="4037.2676" Z="355.9965"/>
 <InfoNormRichtung vMax="-1">
-<Ereignis Er="1000027" Wert="79" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="79"/>
 <Signal NameBetriebsstelle="BÜ km 39,017" Stellwerk="BÜ km 39,017" Signalname="BÜ km 39,017 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1659.0699" Y="4046.1699" Z="356"/>
 <phi/>
@@ -21361,7 +21422,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Wert="78" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="78"/>
 <Signal NameBetriebsstelle="BÜ km 39,017" Stellwerk="BÜ km 39,017" Signalname="BÜ km 39,017 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1659.0699" Y="4046.1699" Z="356"/>
 <phi Z="3.141593"/>
@@ -21383,7 +21444,7 @@
 <b X="-1661.7754" Y="4036.7075" Z="355.9965"/>
 <InfoNormRichtung vMax="36.1111" km="39.0277">
 <Ereignis Er="4010" Wert="44.4444"/>
-<Ereignis Er="1000027" Wert="81" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="81"/>
 <Signal NameBetriebsstelle="BÜ km 39,017" Stellwerk="BÜ km 39,017" Signalname="BÜ km 39,017 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1663.04" Y="4045.6299" Z="356"/>
 <phi/>
@@ -21398,7 +21459,7 @@
 </Signal>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1">
-<Ereignis Er="1000027" Wert="80" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3"/>
+<Ereignis Er="1000027" Beschr="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" Wert="80"/>
 <Signal NameBetriebsstelle="BÜ km 39,017" Stellwerk="BÜ km 39,017" Signalname="BÜ km 39,017 Schranke 1" SignalTyp="14" BoundingR="1">
 <p X="-1663.04" Y="4045.6299" Z="356"/>
 <phi Z="3.141593"/>
@@ -31623,7 +31684,51 @@
 <NachNorm Nr="4085"/>
 <NachGegen Nr="4095"/>
 </StrElement>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Klardorf 57A" FahrstrTyp="TypZug" Laenge="6503.8999">
+<StrElement Nr="4097" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
+<g X="-1631.5554" Y="-5623.6304" Z="384.8291"/>
+<b X="-1620.569" Y="-5593.3379" Z="384.7072"/>
+<InfoNormRichtung vMax="30.5556" km="28.4339" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="28.4661">
+<Signal NameBetriebsstelle="Maxhütte-Haidhof" Stellwerk="Steuerbereich 56 Maxhütte-Haidhof" SignalTyp="1" BoundingR="3">
+<p X="-1634.4697" Y="-5622.5732" Z="386.5791"/>
+<phi Z="-1.918722"/>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Langsamfahrsignale\DB_86_Lf1_Tafel_Rw.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p/>
+<phi/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Langsamfahrsignale\Ziffer\Lf_Ziffer-7.lod.ls3"/>
+</SignalFrame>
+<SignalFrame>
+<p Y="3.1" Z="-1.75"/>
+<phi/>
+<sk/>
+<Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_gr.lod.ls3"/>
+</SignalFrame>
+<HsigBegriff HsigGeschw="-1"/>
+<VsigBegriff VsigGeschw="-1"/>
+<MatrixEintrag Signalbild="7" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+</Signal>
+</InfoGegenRichtung>
+<NachNorm Nr="967"/>
+<NachGegen Nr="966"/>
+</StrElement>
+<StrElement Nr="4098" spTrass="30.5556" Anschluss="256" Oberbau="B55 SKL-Oberbau">
+<g X="-1627.7955" Y="-5624.9946" Z="384.8291"/>
+<b X="-1616.809" Y="-5594.7012" Z="384.7072"/>
+<InfoNormRichtung vMax="30.5556" km="28.4339" pos="1"/>
+<InfoGegenRichtung vMax="-1" km="28.4661"/>
+<NachNorm Nr="961"/>
+<NachGegen Nr="960"/>
+</StrElement>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Klardorf 57A" FahrstrTyp="TypZug" Laenge="6503.9">
 <FahrstrStart Ref="58">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -31637,7 +31742,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrAufloesung>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Klardorf 57AA" FahrstrTyp="TypZug" Laenge="6451.6001">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Klardorf 57AA" FahrstrTyp="TypZug" Laenge="6451.6">
 <FahrstrStart Ref="82">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -31659,6 +31764,9 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrZiel>
 <FahrstrRegister Ref="40">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="112">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrRegister>
 <FahrstrRegister Ref="67">
@@ -31685,8 +31793,14 @@
 <FahrstrVSignal Ref="61">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrVSignal>
+<FahrstrVSignal Ref="64">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="86">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Klardorf 57AA -&gt; Klardorf Gleis 3" FahrstrTyp="TypZug" Laenge="1162">
+<Fahrstrasse FahrstrName="Klardorf 57AA -&gt; Klardorf Gleis 3" FahrstrTyp="TypZug" Laenge="1162.0">
 <FahrstrStart Ref="44">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -31790,6 +31904,9 @@
 <FahrstrRegister Ref="66">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrRegister>
+<FahrstrAufloesung Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
 <FahrstrTeilaufloesung Ref="17">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrTeilaufloesung>
@@ -31803,7 +31920,7 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Klardorf 57N1 -&gt; Schwandorf A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="5609.2998">
+<Fahrstrasse FahrstrName="Klardorf 57N1 -&gt; Schwandorf A" FahrstrStrecke="5860a" RglGgl="2" FahrstrTyp="TypZug" Laenge="5609.3">
 <FahrstrStart Ref="29">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -31871,7 +31988,107 @@
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Klardorf Gleis 3 -&gt; Schwandorf A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="5610.1001">
+<Fahrstrasse FahrstrName="Klardorf 57P1 -&gt; Maxhütte-Haidhof 56FF" FahrstrStrecke="5860b" RglGgl="3" FahrstrTyp="TypZug" Laenge="7289.3">
+<FahrstrStart Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="118">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="111">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="39">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="48">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="60">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="119">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="184">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="154">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="157">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="175">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="110">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="160">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSignal Ref="65">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="70" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Klardorf 57P3 -&gt; Maxhütte-Haidhof 56F" FahrstrStrecke="5860b" RglGgl="2" FahrstrTyp="TypZug" Laenge="7284.9">
+<FahrstrStart Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="121">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="24">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="42">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="45">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="84">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="122">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="187">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="154">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="157">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrAufloesung Ref="175">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrTeilaufloesung Ref="23">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="163">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000727_005454_Maxhuette-Haidhof\Maxhuette-Haidhof_2022.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrSignal Ref="14">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="68" FahrstrSignalSpalte="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="8">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Klardorf Gleis 3 -&gt; Schwandorf A\" FahrstrStrecke="5860a" RglGgl="3" FahrstrTyp="TypZug" Laenge="5610.1">
 <FahrstrStart Ref="32">
 <Datei Dateiname="Routes\Deutschland\32U_0007_0055\000728_005461_Klardorf\Klardorf_2022.st3" NurInfo="1"/>
 </FahrstrStart>

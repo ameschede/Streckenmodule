@@ -382,12 +382,6 @@
 <phi Z="0.373083"/>
 <sk X="1.041" Y="1.041" Z="1.041"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="6" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Trees\Spruce\Spruce03-16m.lod.ls3"/>
-<p X="-28.5212" Y="414.7241" Z="362.2861"/>
-<phi Z="-1.383495"/>
-<sk X="1.1028" Y="1.1028" Z="1.1028"/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\Fir\Fir01-12m.lod.ls3"/>
 <p X="-32.457" Y="402.3557" Z="362.3037"/>
@@ -402,21 +396,9 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\Spruce\Spruce02-12m.lod.ls3"/>
-<p X="-33.5815" Y="419.3903" Z="362.3523"/>
+<p X="-33.5815" Y="413.7059" Z="362.3523"/>
 <phi Z="1.129148"/>
-<sk X="0.9678" Y="0.9678" Z="0.9678"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Trees\Spruce\Spruce02-12m.lod.ls3"/>
-<p X="-37.0024" Y="423.1652" Z="362.3774"/>
-<phi Z="-1.017941"/>
-<sk X="0.9046" Y="0.9046" Z="0.9046"/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\General\Trees\Spruce\Spruce02-12m.lod.ls3"/>
-<p X="-26.8203" Y="425.7775" Z="362.2046"/>
-<phi Z="1.075048"/>
-<sk X="1.1675" Y="1.1675" Z="1.1675"/>
+<sk X="0.878" Y="0.878" Z="0.878"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush05-03m.lod.ls3"/>
@@ -446,7 +428,7 @@
 <Datei Dateiname="Terrain\General\Bushes\Bush03-5m.lod.ls3"/>
 <p X="-47.8711" Y="409.9438" Z="362.6605"/>
 <phi Z="-1.303607"/>
-<sk X="0.9973" Y="0.9973" Z="0.9973"/>
+<sk X="0.973" Y="0.973" Z="0.973"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Bushes\Bush02-1m5.lod.ls3"/>
@@ -1162,18 +1144,6 @@
 <phi Z="1.402496"/>
 <sk X="1.0899" Y="1.0899" Z="1.0899"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Hochspannung_Donau_50m_380kV\Mast_380kV_50m_Donaumast.lod.ls3"/>
-<p X="-1.4204" Y="92.2834" Z="361.2264"/>
-<phi Z="-1.648931"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Hochspannung_Donau_50m_380kV\Mast_380kV_50m_Donaumast.lod.ls3"/>
-<p X="-40.7764" Y="-448.9646" Z="359.3209"/>
-<phi Z="-1.648931"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="32" BoundingR="177" SichtbarBis="500" Vorlade="1">
 <Datei Dateiname="Detail_32_725625_5472625.ls3"/>
 <p X="125" Y="125"/>
@@ -1186,7 +1156,7 @@
 <phi/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="32" BoundingR="167" SichtbarBis="500" Vorlade="1">
+<Verknuepfte Flags="32" BoundingR="168" SichtbarBis="500" Vorlade="1">
 <Datei Dateiname="Detail_32_725375_5472125.ls3"/>
 <p X="-125" Y="-375"/>
 <phi/>
@@ -9021,6 +8991,48 @@
 <p X="-294.3895" Y="-91.1848" Z="361.6134"/>
 <phi Z="2.652511"/>
 <sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Objekte\NIR_Hochspannung\Schwandorf_Etzenricht_380_220kV.lod.ls3"/>
+<p X="-40.7764" Y="-448.9646" Z="359.3209"/>
+<phi Z="-0.078135"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="14" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0007_0055\000726_005473_Irrenlohe\Objekte\NIR_Hochspannung\Schwandorf_Etzenricht_380_220kV.lod.ls3"/>
+<p X="-1.4204" Y="92.2834" Z="361"/>
+<phi Z="-0.078135"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush02-1m5.lod.ls3"/>
+<p X="-36.8843" Y="428.0139" Z="362.3441"/>
+<phi Z="0.999899"/>
+<sk X="1.1009" Y="1.1009" Z="1.1009"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-03m.lod.ls3"/>
+<p X="-32.825" Y="423.9724" Z="362.3086"/>
+<phi Z="-0.760029"/>
+<sk X="1.2365" Y="1.2365" Z="1.2365"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Trees\Birch\Birch02-4m.lod.ls3"/>
+<p X="-30.7473" Y="416.652" Z="362.3282"/>
+<phi Z="0.025026"/>
+<sk X="0.7252" Y="0.7252" Z="0.7252"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-03m.lod.ls3"/>
+<p X="-26.8108" Y="418.6004" Z="362.2545"/>
+<phi Z="0.637048"/>
+<sk X="0.9035" Y="0.9035" Z="0.9035"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2475" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush01-1m5.lod.ls3"/>
+<p X="-26.9783" Y="411.4043" Z="362.2456"/>
+<phi Z="0.183661"/>
+<sk X="0.8389" Y="0.8389" Z="0.8389"/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
@@ -43940,7 +43952,7 @@
 <p X="-300.0005" Y="300" Z="330.6155"/>
 <n X="0.0193" Y="-0.0092" Z="0.9998"/>
 </Vertex>
-<Vertex U="200" V="0">
+<Vertex U="200">
 <p X="-499.9999" Y="500" Z="341.2696"/>
 <n X="0.012" Y="-0.0029" Z="0.9999"/>
 </Vertex>
@@ -43980,11 +43992,11 @@
 <p X="500.0001" Y="300.0005" Z="334.5207"/>
 <n X="-0.0066" Y="0.0041" Z="1"/>
 </Vertex>
-<Vertex U="280" V="0">
+<Vertex U="280">
 <p X="299.9995" Y="500" Z="329.6167"/>
 <n X="-0.008" Y="0.0048" Z="0.9999"/>
 </Vertex>
-<Vertex U="300" V="0">
+<Vertex U="300">
 <p X="500.0001" Y="500" Z="333.6755"/>
 <n X="-0.0082" Y="0.0026" Z="1"/>
 </Vertex>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="91" AutorName="Maik Feller" AutorEmail="weichenbaer@yahoo.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="NSCH_Bahnsteigzugang.dds"/>
+</Textur>
+<Vertex U="0.8104" V="0.0403">
+<p X="-1.535" Y="6.2275" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.8104" V="0.0651">
+<p X="-1.535" Y="-6.2275" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.5688" V="0.0502">
+<p X="-1.535" Y="-6.2275" Z="0.1"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.5688" V="0.0552">
+<p X="-1.535" Y="-6.2275"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.1712" V="0.0553">
+<p X="-1.535" Y="-6.2275"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.1712" V="0.0501">
+<p X="-1.535" Y="-6.2275" Z="0.1"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.8104" V="0.0501">
+<p X="-1.535" Y="6.2275" Z="0.1"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.8104" V="0.0553">
+<p X="-1.535" Y="6.2275"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.5688" V="0.0502">
+<p X="-1.535" Y="6.2275" Z="0.1"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.5688" V="0.0552">
+<p X="-1.535" Y="6.2275"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.1712" V="0.0651">
+<p X="1.535" Y="-6.2275" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.1712" V="0.0403">
+<p X="1.535" Y="6.2275" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.4127" V="0.0552">
+<p X="1.535" Y="-6.2275"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.4127" V="0.0502">
+<p X="1.535" Y="-6.2275" Z="0.1"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.8104" V="0.0501">
+<p X="1.535" Y="-6.2275" Z="0.1"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.8104" V="0.0553">
+<p X="1.535" Y="-6.2275"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.1712" V="0.0553">
+<p X="1.535" Y="6.2275"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.1712" V="0.0501">
+<p X="1.535" Y="6.2275" Z="0.1"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.4127" V="0.0552">
+<p X="1.535" Y="6.2275"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.4127" V="0.0502">
+<p X="1.535" Y="6.2275" Z="0.1"/>
+<n Y="-1"/>
+</Vertex>
+<Face i="10;1;0"/>
+<Face i="0;11;10"/>
+<Face i="2;13;12"/>
+<Face i="12;3;2"/>
+<Face i="6;5;4"/>
+<Face i="4;7;6"/>
+<Face i="16;15;14"/>
+<Face i="14;17;16"/>
+<Face i="8;19;18"/>
+<Face i="18;9;8"/>
+</SubSet>
+</Landschaft>
+</Zusi>

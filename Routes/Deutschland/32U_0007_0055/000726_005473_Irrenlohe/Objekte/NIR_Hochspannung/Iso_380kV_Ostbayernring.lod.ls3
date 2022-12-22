@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="117" AutorName="Dieter Kalender" AutorEmail="info@dk-nbahn.de" AutorBeschreibung="Grundbauteile"/>
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorAufwandStunden="0.5" AutorLizenz="255" AutorBeschreibung="Neu zusammengestellt"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="5" SichtbarAb="250" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="Iso_380kV_Ostbayernring.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="1" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="Iso_380kV_Ostbayernring.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt AnkerKat="3" Beschreibung="Montagepunkt">
+<p/>
+<phi Y="1.570796"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="18" Beschreibung="Strom">
+<p Z="-4.25"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="18" Beschreibung="Strom">
+<p Z="-4.65"/>
+<phi/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

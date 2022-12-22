@@ -550,18 +550,6 @@
 <phi Z="1.143931"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="15" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Hochspannung_Donau_50m_380kV\Mast_380kV_50m_Donaumast.lod.ls3"/>
-<p X="109.7744" Y="170.989" Z="396.8702"/>
-<phi Z="2.524631"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="15" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Hochspannung_Donau_50m_380kV\Mast_380kV_50m_Donaumast.lod.ls3"/>
-<p X="-119.3813" Y="329.6365" Z="408.222"/>
-<phi Z="2.524631"/>
-<sk/>
-</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="15" TypGF="4" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -2997,11 +2985,11 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\terrain.dds"/>
 </Textur>
-<Vertex U="0" V="300">
+<Vertex V="300">
 <p X="-500" Y="-500.0001" Z="346.5697"/>
 <n X="-0.0024" Y="-0.0044" Z="1"/>
 </Vertex>
-<Vertex U="0" V="320">
+<Vertex V="320">
 <p X="-500" Y="-300.0005" Z="348.6313"/>
 <n X="-0.0052" Y="-0.0185" Z="0.9997"/>
 </Vertex>

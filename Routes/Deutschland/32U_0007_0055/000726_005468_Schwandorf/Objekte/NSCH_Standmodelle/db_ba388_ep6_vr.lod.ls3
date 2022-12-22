@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="Einheitshilfsgerätewagen Epoche 6 verkehrsrot Plattenwand">
+<AutorEintrag AutorID="11" AutorName="Hans-Peter Schramm" AutorBeschreibung="neue Textur"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="20" SichtbarBis="50" Vorlade="1" LODbit="8">
+<Datei Dateiname="db_ba388_ep6_vr.lod0.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="20" SichtbarAb="50" SichtbarBis="200" Vorlade="1" LODbit="4">
+<Datei Dateiname="db_ba388_ep6_vr.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="20" SichtbarAb="200" SichtbarBis="800" Vorlade="1" LODbit="2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\3D_Dateien\4-achser\MD-Wagen\db_ba388_ep6_vr.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="20" SichtbarAb="800" SichtbarBis="3000" Vorlade="1" LODbit="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\Umbauwagen\3D_Dateien\4-achser\MD-Wagen\db_ba388_vr.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+</Landschaft>
+</Zusi>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="118" AutorName="Markus"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Leitpfosten.dds"/>
+</Textur>
+<Vertex U="0.154" V="0.059">
+<p X="-0.0448" Y="0.12" Z="1.075"/>
+<n X="-0.6488" Y="0.3967" Z="0.6494"/>
+</Vertex>
+<Vertex U="0.229" V="0.526">
+<p X="-0.0448" Y="0.12" Z="1.075"/>
+<n X="-0.6488" Y="0.3967" Z="0.6494"/>
+</Vertex>
+<Vertex U="0.077" V="0.53">
+<p X="-0.0448" Y="0.12" Z="1.075"/>
+<n X="-0.6488" Y="0.3967" Z="0.6494"/>
+</Vertex>
+<Vertex U="0.229" V="0.736">
+<p X="-0.0447" Y="0.12" Z="0.53"/>
+<n X="-0.8214" Y="0.5703"/>
+</Vertex>
+<Vertex U="0.077" V="0.733">
+<p X="-0.0447" Y="0.12" Z="0.53"/>
+<n X="-0.8214" Y="0.5703"/>
+</Vertex>
+<Vertex U="0.121" V="0.733">
+<p Z="0.53"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.016" V="0.732">
+<p Z="0.53"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.05" V="0.169">
+<p Z="1.03"/>
+<n Y="-0.9283" Z="0.3719"/>
+</Vertex>
+<Vertex U="0.121" V="0.546">
+<p Z="1.03"/>
+<n Y="-0.9283" Z="0.3719"/>
+</Vertex>
+<Vertex U="0.016" V="0.546">
+<p Z="1.03"/>
+<n Y="-0.9283" Z="0.3719"/>
+</Vertex>
+<Vertex U="0.213" V="0.736">
+<p X="0.0447" Y="0.12" Z="0.53"/>
+<n X="0.8214" Y="0.5703"/>
+</Vertex>
+<Vertex U="0.061" V="0.732">
+<p X="0.0447" Y="0.12" Z="0.53"/>
+<n X="0.8214" Y="0.5703"/>
+</Vertex>
+<Vertex U="0.154" V="0.192">
+<p X="0.0448" Y="0.12" Z="1.075"/>
+<n X="0.6488" Y="0.3967" Z="0.6494"/>
+</Vertex>
+<Vertex U="0.213" V="0.526">
+<p X="0.0448" Y="0.12" Z="1.075"/>
+<n X="0.6488" Y="0.3967" Z="0.6494"/>
+</Vertex>
+<Vertex U="0.061" V="0.53">
+<p X="0.0448" Y="0.12" Z="1.075"/>
+<n X="0.6488" Y="0.3967" Z="0.6494"/>
+</Vertex>
+<Face i="12;7;0"/>
+<Face i="3;10;13"/>
+<Face i="13;1;3"/>
+<Face i="2;8;5"/>
+<Face i="5;4;2"/>
+<Face i="14;11;6"/>
+<Face i="6;9;14"/>
+</SubSet>
+</Landschaft>
+</Zusi>

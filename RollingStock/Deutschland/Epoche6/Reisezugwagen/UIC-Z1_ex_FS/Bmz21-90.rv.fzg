@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrzeug" Version="A.5" MinVersion="A.1">
+<AutorEintrag AutorID="69" AutorName="Markus Egger" AutorEmail="markus.egger@gmx.de"/>
+</Info>
+<Fahrzeug MaxIDHaupt="4">
+<FahrzeugVariante BR="Bmz 21-90" NVRNummer="61 83 2190 ***-*" FzgGattung="B" Beschreibung="Die Länderbahn, Alex" Farbgebung="grau" EinsatzAb="2017-07-03" IDHaupt="1" IDNeben="1" SitzeKlasseB="66" Fuehrerstandsmodus="1">
+<DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche6\Reisezugwagen\UIC-Z1_ex_FS\3D_Dateien\Bmz21-90_Alex.lod.ls3"/>
+<DateiFuehrerstand/>
+<DateiFuehrerstandRueckwaerts/>
+</FahrzeugVariante>
+<FahrzeugGrunddaten Masse="52000" Achsstandsumme="5.12" RotationsZuschlag="3960" cwA="2" Rollwiderstand="1079.1" Laenge="26.4" spMax="55.5556" HBLVorhanden="1" FesselAnfg="3.7" FesselEnde="3.7" AnzahlAchsen="4"/>
+<Bremse_KE_GPR_Scheibe VolumenR="150" VolumenA="10" AnzahlAchsen="4" Bremsbauart="1" VolumenZylinder="16" FBremsuebersetzung="17995.5293">
+<BremsenKennungV>
+<Pkt PktY="1.1"/>
+<Pkt PktX="1.5475" PktY="1.072"/>
+<Pkt PktX="2.6308" PktY="1.053"/>
+<Pkt PktX="2.7856" PktY="1.05"/>
+<Pkt PktX="5.4164" PktY="1.012"/>
+<Pkt PktX="5.5711" PktY="1.01"/>
+<Pkt PktX="10.9872" PktY="1"/>
+<Pkt PktX="11.1419" PktY="1"/>
+<Pkt PktX="55.5556" PktY="1"/>
+<Stufe StufenWert="1"/>
+</BremsenKennungV>
+<BremseP BremsGewicht="60000"/>
+<BremseR BremsGewicht="81000"/>
+</Bremse_KE_GPR_Scheibe>
+<MgBremse BremsGewicht="36000" spUmschalt="13.8889">
+<BremsenKennungV>
+<Stufe/>
+</BremsenKennungV>
+</MgBremse>
+<Handbremse BremsGewicht="10000">
+<BremsenKennungV>
+<Stufe/>
+</BremsenKennungV>
+</Handbremse>
+<FzgTuersystemTB0/>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Rollgeraeusch_Rz.fzg"/>
+</ExterneDatei>
+<ExterneDatei>
+<Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Komponenten\fzg-Komponenten\Bremsgeraeusch_Scheibenbremse.fzg"/>
+</ExterneDatei>
+</Fahrzeug>
+</Zusi>

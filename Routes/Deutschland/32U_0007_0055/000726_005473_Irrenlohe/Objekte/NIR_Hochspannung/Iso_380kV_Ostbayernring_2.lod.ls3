@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="117" AutorName="Dieter Kalender" AutorEmail="info@dk-nbahn.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="5" SichtbarAb="300" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Iso_380kV\Isolator-2x3-H_380kV.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="1" SichtbarAb="80" SichtbarBis="300" Vorlade="1" LODbit="2">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Iso_380kV\Isolator-2x3-H_380kV.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="1" SichtbarBis="80" Vorlade="1" LODbit="4">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Iso_380kV\Isolator-2x3-H_380kV.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt AnkerKat="3" Beschreibung="Montagepunkt">
+<p/>
+<phi Y="1.570796"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="18" Beschreibung="Strom">
+<p Z="-4.25"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="18" Beschreibung="Strom">
+<p Z="-4.65"/>
+<phi/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

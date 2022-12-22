@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="117" AutorName="Dieter Kalender" AutorEmail="info@dk-nbahn.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="1" SichtbarAb="200" SichtbarBis="1000" Vorlade="1" LODbit="3">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Iso_220kV\HaengeIso2x3_220kv.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="1" SichtbarBis="200" Vorlade="1" LODbit="4">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\Iso_220kV\HaengeIso2x3_220kv.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt AnkerKat="3" Beschreibung="Montagepunkt">
+<p/>
+<phi Y="1.570796"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="18" Beschreibung="220kVb">
+<p Z="-3.7"/>
+<phi Y="1.570796"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>
