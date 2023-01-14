@@ -829,5 +829,29 @@
 <Face i="23;20;22"/>
 <Face i="22;16;19"/>
 </SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\terrain.dds"/>
+</Textur>
+<Vertex U="73.1225" V="-100">
+<p X="-500" Y="231.2247" Z="428.0133"/>
+<n X="-0.0437" Y="-0.0123" Z="0.999"/>
+</Vertex>
+<Vertex U="72" V="-103.0954">
+<p X="-469.0462" Y="220.0004" Z="431.0658"/>
+<n X="-0.0871" Y="0.0305" Z="0.9957"/>
+</Vertex>
+<Vertex U="67.4316" V="-100.8132">
+<p X="-491.8676" Y="174.3161" Z="430.4689"/>
+<n X="-0.0871" Y="0.0305" Z="0.9957"/>
+</Vertex>
+<Vertex U="67.7767" V="-100">
+<p X="-500" Y="177.7673" Z="429.8505"/>
+<n X="-0.0843" Y="0.0309" Z="0.9959"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="3;0;2"/>
+</SubSet>
 </Landschaft>
 </Zusi>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="2" AutorName="Andreas Brandtner"/>
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de" AutorAufwandStunden="0.25" AutorLizenz="255" AutorBeschreibung="Variante Maxhütte-Haidhof"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="50" Vorlade="1" LODbit="4">
+<Datei Dateiname="Schirm_56LW29Y.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarAb="50" SichtbarBis="150" Vorlade="1" LODbit="2">
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\GsSEL_Schirm-h.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarAb="150" SichtbarBis="500" Vorlade="1" LODbit="1">
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Rangierdienst\Lichtgleissperrsignale\GsSEL_Schirm-h.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="1000" Vorlade="1" LODbit="7">
+<Datei Dateiname="Signals\Deutschland\Optiken\Optik_Lichtgleisspersignal-Sh0.ls3"/>
+<p X="-0.031" Y="0.155"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="1000" Vorlade="1" LODbit="7">
+<Datei Dateiname="Signals\Deutschland\Optiken\Optik_Lichtgleisspersignal-Sh0.ls3"/>
+<p X="-0.031" Y="-0.155"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="1000" Vorlade="1" LODbit="7">
+<Datei Dateiname="Signals\Deutschland\Optiken\Optik_Lichtgleisspersignal-Sh1.ls3"/>
+<p X="-0.031" Y="-0.038"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="1000" Vorlade="1" LODbit="7">
+<Datei Dateiname="Signals\Deutschland\Optiken\Optik_Lichtgleisspersignal-Sh1.ls3"/>
+<p X="-0.031" Y="0.155" Z="-0.17"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt AnkerTyp="19" Beschreibung="Signalbeschriftung">
+<p X="-0.035" Y="-0.075" Z="-0.155"/>
+<phi/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Sig_Beschr-Licht-Lsp58.signal.xml" NurInfo="1"/>
+</Ankerpunkt>
+<Animation AniBeschreibung="Sh0">
+<AniNrs AniNr="1"/>
+</Animation>
+<Animation AniBeschreibung="Sh1">
+<AniNrs AniNr="5"/>
+</Animation>
+<VerknAnimation AniIndex="3" AniNr="1" AniGeschw="1">
+<AniPunkt AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.8" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1.2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+</VerknAnimation>
+<VerknAnimation AniIndex="4" AniNr="1" AniGeschw="1">
+<AniPunkt AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.8" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1.2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+</VerknAnimation>
+<VerknAnimation AniIndex="5" AniNr="5" AniGeschw="1">
+<AniPunkt AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.8" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1.2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+</VerknAnimation>
+<VerknAnimation AniIndex="6" AniNr="5" AniGeschw="1">
+<AniPunkt AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.8" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1.2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="2" AniDimmung="1">
+<p/>
+<q W="1"/>
+</AniPunkt>
+</VerknAnimation>
+</Landschaft>
+</Zusi>

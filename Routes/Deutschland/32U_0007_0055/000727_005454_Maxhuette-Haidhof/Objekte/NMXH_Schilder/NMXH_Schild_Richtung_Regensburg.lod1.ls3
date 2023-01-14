@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="118" AutorName="Markus"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="NMXH_Gleisnummernschilder_Richtung.dds"/>
+</Textur>
+<Vertex U="0.001" V="0.171">
+<p X="-0.051" Y="-0.1" Z="-0.04"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.999" V="0.171">
+<p X="-0.051" Y="-0.5" Z="-0.04"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.001" V="0.57">
+<p X="-0.051" Y="-0.1" Z="-0.2"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.999" V="0.57">
+<p X="-0.051" Y="-0.5" Z="-0.2"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.999" V="0.569">
+<p X="0.051" Y="-0.1" Z="-0.2"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.001" V="0.569">
+<p X="0.051" Y="-0.5" Z="-0.2"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="1" V="0.347">
+<p X="0.051" Y="-0.1" Z="-0.111"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="1" V="0.17">
+<p X="0.051" Y="-0.1" Z="-0.04"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.002" V="0.347">
+<p X="0.051" Y="-0.5" Z="-0.111"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.002" V="0.17">
+<p X="0.051" Y="-0.5" Z="-0.04"/>
+<n X="1"/>
+</Vertex>
+<Face i="4;5;8"/>
+<Face i="8;6;4"/>
+<Face i="3;2;0"/>
+<Face i="0;1;3"/>
+<Face i="6;8;9"/>
+<Face i="9;7;6"/>
+</SubSet>
+</Landschaft>
+</Zusi>

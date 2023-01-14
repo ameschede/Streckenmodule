@@ -31,6 +31,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Rengershausen
 * Oberzwehren
 * Schwandorf
+* Maxhütte-Haidhof
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -44,4 +45,4 @@ Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 
 Die Module Oberzwehren, Rengershausen, Körle Ost, Kaiserau, Altmorschen, Licherode und Ersrode schließen bei Kassel-Wilhlmshöhe ans Bestandsnetz an.
 
-Die Module Schwarzenfeld, Schwandorf und Klardorf schließen bei Irrenlohe ans Bestandsnetz an.
+Die Module Schwarzenfeld, Schwandorf, Klardorf und Maxhütte-Haidhof schließen bei Irrenlohe ans Bestandsnetz an.

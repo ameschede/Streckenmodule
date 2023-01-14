@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="	  l=4,15945816040039  kr=-2,25366802624194E-5  ue=-6,9662917212554E-8	  l=4,15945816040039  kr=-6,76124618621543E-5  ue=0,00301417009904981	  l=4,15945816040039  kr=-0,000112688197987154  ue=0,00602841097861528	  l=4,15945816040039  kr=-0,00015776400687173  ue=0,0090426504611969	  l=4,15945816040039  kr=-0,000202839801204391  ue=0,0120568899437785	  l=4,15945816040039  kr=-0,000247915595537052  ue=0,0150711303576827	  l=4,15945816040039  kr=-0,000292991288006306  ue=0,0180853698402643	  l=4,15945816040039  kr=-0,000338067096890882  ue=0,0210996102541685	  l=4,15945816040039  kr=-0,000383142905775458  ue=0,0241138506680727	  l=4,45945692062378  kr=-0,000428218685556203  ue=0,0271280892193317	">
+<AutorEintrag AutorID="8" AutorName="Joerg Sanftleben" AutorEmail="joergsanftleben@aol.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="5" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\lod\Weichensignal_reflekt_Li.lod1.ls3"/>
+<p X="-0.0001" Y="0" Z="-0.0025"/>
+<phi Z="-0.000038"/>
+<sk/>
+</Verknuepfte>
+<Animation AniBeschreibung="Grundstellung"/>
+<Animation AniBeschreibung="Umgestellt">
+<AniNrs AniNr="1"/>
+</Animation>
+<VerknAnimation AniNr="1" AniGeschw="1">
+<AniPunkt>
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q Z="-0.707107" W="0.707107"/>
+</AniPunkt>
+</VerknAnimation>
+</Landschaft>
+</Zusi>
