@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="x-Deko" Nummer="NSCH1" BRAngabe="Gleis 76" Prio="1500" BremsstellungZug="2" APBeschl="0.5" Dekozug="1" FahrplanGruppe="9. Stehende Deko" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Schwandorf HilfSig 76" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_0Debug.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr\x-DekoNSCH1.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 05:50:00" Abf="2022-01-11 10:10:00" Betrst="Schwandorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="HilfSig 76"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 5376 174-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 5376 545-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 5376 811-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Buchfahrplan" Version="A.4" MinVersion="A.0">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Buchfahrplan Gattung="RE" Nummer="3595_3544" Zuglauf="RE 40 Nürnberg Hbf - Schwandorf - Nürnberg Hbf" BR="612" Masse="108000" spMax="44.4444" Bremsh="2.1111" MBrh="1.7204" Laenge="51.75" kmStart="61.8975" BremsstellungZug="5" GNTSpalte="1" LaengeLoks="51.75">
+<Datei_fpn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr.fpn" NurInfo="1"/>
+<Datei_trn Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr\RE3595_3544.trn" NurInfo="1"/>
+<FplZeile FplLaufweg="90.8783">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="0.0093"/>
+<FplIcon FplIconNr="3"/>
+</FplZeile>
+<FplZeile FplLaufweg="100.1366">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="61.9884"/>
+</FplZeile>
+<FplZeile FplLaufweg="889.9725">
+<Fplkm km="62.7873"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 50"/>
+</FplZeile>
+<FplZeile FplLaufweg="1921.41931">
+<Fplkm km="63.8197"/>
+<FplName FplNameText="Luitpoldhütte"/>
+<FplAbf Abf="2022-01-11 06:52:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="2218.17383">
+<Fplkm km="64.1153"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2510.44727" FahrstrStrecke="5904a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="64.4074"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="2548.50659" FahrstrStrecke="5904a">
+<Fplkm km="64.4455"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="2593.52954" FahrstrStrecke="5904a">
+<Fplkm km="64.4905"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3129.588" FahrstrStrecke="5904a">
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="65.0214"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="3356.24976" FahrstrStrecke="5904a">
+<Fplkm km="65.2533"/>
+<FplIcon FplIconNr="9"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="3845.53125" FahrstrStrecke="5904a">
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="65.6998"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4337.808" FahrstrStrecke="5904a">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="66.2358"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="4347.011" FahrstrStrecke="5904a">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="66.2446"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="4359.808" FahrstrStrecke="5904a">
+<FplvMaxGNT vMax="22.2222"/>
+<Fplkm km="66.2558"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 50"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="4361.24" FahrstrStrecke="5904a">
+<Fplkm km="66.2589"/>
+<FplIcon FplIconNr="31"/>
+<FplSignaltyp FplSignaltypNr="5"/>
+</FplZeile>
+<FplZeile FplLaufweg="5232.71729">
+<Fplkm km="67.1289"/>
+<FplName FplNameText="Amberg"/>
+<FplAnk Ank="2022-01-11 06:54:00"/>
+<FplAbf Abf="2022-01-11 07:04:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="5386.838">
+<Fplkm km="67.2844"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="5508.879" FahrstrStrecke="5904a">
+<FplvMax vMax="30.5556"/>
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="67.4648"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="5602.38525" FahrstrStrecke="5904a">
+<Fplkm km="67.5"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="8775.394" FahrstrStrecke="5904a">
+<FplvMax vMax="33.3333"/>
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="70.7305"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="9609.039" FahrstrStrecke="5904a">
+<FplvMax vMax="36.1111"/>
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="71.5067"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="11413.2656" FahrstrStrecke="5904a">
+<Fplkm km="73.3103"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 60"/>
+</FplZeile>
+<FplZeile FplLaufweg="12170.81">
+<Fplkm km="74.0676"/>
+<FplName FplNameText="Hiltersdorf"/>
+<FplAbf Abf="2022-01-11 07:08:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="12433.9355">
+<Fplkm km="74.3309"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="12588.7178" FahrstrStrecke="5904a">
+<Fplkm km="74.4857"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="16511.3066" FahrstrStrecke="5904a">
+<FplvMax vMax="33.3333"/>
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="78.3908"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="18130.0723" FahrstrStrecke="5904a">
+<Fplkm km="80.0252"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 60"/>
+</FplZeile>
+<FplZeile FplLaufweg="18848.9043">
+<Fplkm km="80.7439"/>
+<FplName FplNameText="Freihöls"/>
+<FplAnk Ank="2022-01-11 07:12:00" FplEintrag="3"/>
+<FplAbf Abf="2022-01-11 07:18:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="19268.89">
+<Fplkm km="81.1639"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="19543.3555" FahrstrStrecke="5904a">
+<Fplkm km="81.4383"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="25325.1914" FahrstrStrecke="5904a">
+<FplvMaxGNT vMax="36.1111"/>
+<Fplkm km="87.2097"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="26262.4316" FahrstrStrecke="5904a">
+<FplvMax vMax="27.7778"/>
+<FplvMaxGNT vMax="36.1111"/>
+<Fplkm km="88.159"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="26596.1836" FahrstrStrecke="5904a">
+<Fplkm km="88.4884"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+</FplZeile>
+<FplZeile FplLaufweg="26889">
+<FplvMaxGNT vMax="27.7778"/>
+<Fplkm km="88.7736"/>
+</FplZeile>
+<FplZeile FplLaufweg="26991.4043">
+<Fplkm km="88.8697" FplSprung="1" FplkmNeu="47.3493"/>
+</FplZeile>
+<FplZeile FplLaufweg="27500.42">
+<Fplkm km="46.8403"/>
+<FplName FplNameText="Irrenlohe"/>
+<FplAbf Abf="2022-01-11 07:23:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="27948.2656">
+<Fplkm km="46.3923"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="28085.9316" FahrstrStrecke="5860b">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="46.2573"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="28087.3633" FahrstrStrecke="5860b">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="46.2573"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="28500.9316" FahrstrStrecke="5860b">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="45.8204"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="28520.1348" FahrstrStrecke="5860b">
+<FplvMax vMax="38.8889"/>
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="45.8109"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="28524.1465" FahrstrStrecke="5860b">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="45.818"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="28539.5938" FahrstrStrecke="5860b">
+<Fplkm km="45.8009"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="28592.59" FahrstrStrecke="5860b">
+<Fplkm km="45.7496"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="29464.3125" FahrstrStrecke="5860b">
+<Fplkm km="44.8759"/>
+<FplName FplNameText="Sbk 2"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="29470.3125" FahrstrStrecke="5860b">
+<Fplkm km="44.8699"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="29472.77" FahrstrStrecke="5860b">
+<Fplkm km="44.8699"/>
+<FplIcon FplIconNr="9"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="30418.4023" FahrstrStrecke="5860b">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="43.9243"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="30715.9688" FahrstrStrecke="5860b">
+<Fplkm km="43.6056"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="30716.127" FahrstrStrecke="5860b">
+<Fplkm km="43.6056"/>
+<FplIcon FplIconNr="31"/>
+<FplSignaltyp FplSignaltypNr="5"/>
+</FplZeile>
+<FplZeile FplLaufweg="31179.5645">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="43.1421"/>
+</FplZeile>
+<FplZeile FplLaufweg="31183.5645">
+<FplvMaxGNT vMax="22.2222"/>
+<Fplkm km="43.1421"/>
+</FplZeile>
+<FplZeile FplLaufweg="31716.7422">
+<Fplkm km="42.605"/>
+<FplName FplNameText="Schwandorf"/>
+<FplAnk Ank="2022-01-11 07:27:00"/>
+<FplAbf Abf="2022-01-11 07:39:00"/>
+<FplRichtungswechsel/>
+</FplZeile>
+<FplZeile FplLaufweg="31957.416">
+<Fplkm km="42.3013"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="31960.7656" FahrstrStrecke="5860a">
+<Fplkm km="42.3046" FplSprung="1" FplkmNeu="42.7076"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="31960.9238" FahrstrStrecke="5860a">
+<Fplkm km="42.3046" FplSprung="1" FplkmNeu="42.7076"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="32350.57" FahrstrStrecke="5860a">
+<FplvMax vMax="38.8889"/>
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="43.0972"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="32351.05" FahrstrStrecke="5860a">
+<FplvMax vMax="38.8889"/>
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="43.0978"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="32612.5938" FahrstrStrecke="5860a">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="43.3593"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="32656.8574" FahrstrStrecke="5860a">
+<Fplkm km="43.4036"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="33653.4258" FahrstrStrecke="5860a">
+<Fplkm km="44.422"/>
+<FplName FplNameText="Sbk 1"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="33661.3828" FahrstrStrecke="5860a">
+<Fplkm km="44.4299"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="33664.36" FahrstrStrecke="5860a">
+<Fplkm km="44.43"/>
+<FplIcon FplIconNr="9"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="34627.6133" FahrstrStrecke="5860a">
+<Fplkm km="45.3965"/>
+<FplIcon FplIconNr="4"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="34638.78" FahrstrStrecke="5860a">
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="45.3965"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="34641.78" FahrstrStrecke="5860a">
+<Fplkm km="45.4107"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="34645.17" FahrstrStrecke="5860a">
+<FplvMax vMax="38.8889"/>
+<Fplkm km="45.4035"/>
+<FplIcon FplIconNr="31"/>
+<FplSignaltyp FplSignaltypNr="5"/>
+</FplZeile>
+<FplZeile FplLaufweg="35177.5039">
+<FplvMax vMax="33.3333"/>
+<Fplkm km="45.9458"/>
+</FplZeile>
+<FplZeile FplLaufweg="35486.27">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="46.2546"/>
+</FplZeile>
+<FplZeile FplLaufweg="36104.5938">
+<Fplkm km="46.8731"/>
+<FplName FplNameText="Irrenlohe"/>
+<FplAbf Abf="2022-01-11 07:44:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="36410.46">
+<Fplkm km="47.179"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="36600.99" FahrstrStrecke="5904b">
+<Fplkm km="47.3695" FplSprung="1" FplkmNeu="88.8489"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="36696.8555" FahrstrStrecke="5904b">
+<Fplkm km="88.7666"/>
+<FplIcon FplIconNr="3"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="36701.1133" FahrstrStrecke="5904b">
+<FplvMaxGNT vMax="36.1111"/>
+<Fplkm km="88.7666"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="37309.74" FahrstrStrecke="5904b">
+<FplvMax vMax="33.3333"/>
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="88.159"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="43518.043" FahrstrStrecke="5904b">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="82.0123"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="43779.42" FahrstrStrecke="5904b">
+<Fplkm km="81.6878"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 60"/>
+</FplZeile>
+<FplZeile FplLaufweg="44814.3867">
+<Fplkm km="80.6527"/>
+<FplName FplNameText="Freihöls"/>
+<FplAbf Abf="2022-01-11 07:48:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="44960.35">
+<Fplkm km="80.5067"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="45134.9336" FahrstrStrecke="5904b">
+<Fplkm km="80.3322"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="47060.7578" FahrstrStrecke="5904b">
+<FplvMax vMax="36.1111"/>
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="78.3907"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="50684.6055" FahrstrStrecke="5904b">
+<Fplkm km="74.7848"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 60"/>
+</FplZeile>
+<FplZeile FplLaufweg="51499.0078">
+<Fplkm km="73.9699"/>
+<FplName FplNameText="Hiltersdorf"/>
+<FplAbf Abf="2022-01-11 07:51:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="51795.3242">
+<Fplkm km="73.6738"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="51935.37" FahrstrStrecke="5904b">
+<Fplkm km="73.5338"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="53963.08" FahrstrStrecke="5904b">
+<FplvMax vMax="30.5556"/>
+<FplvMaxGNT vMax="38.8889"/>
+<Fplkm km="71.5066"/>
+</FplZeile>
+<FplZeile FplRglGgl="1" FplLaufweg="57460.8555" FahrstrStrecke="5904b">
+<Fplkm km="68.009"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+</FplZeile>
+<FplZeile FplLaufweg="58063.3477">
+<FplvMax vMax="22.2222"/>
+<Fplkm km="67.4725"/>
+</FplZeile>
+<FplZeile FplLaufweg="58065.3477">
+<FplvMaxGNT vMax="22.2222"/>
+<Fplkm km="67.4065"/>
+</FplZeile>
+<FplZeile FplLaufweg="58407.3555">
+<Fplkm km="67.0625"/>
+<FplName FplNameText="Amberg"/>
+<FplAnk Ank="2022-01-11 07:54:00"/>
+<FplAbf Abf="2022-01-11 07:55:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="58734.7344">
+<Fplkm km="66.7349"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 50"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="58906.375" FahrstrStrecke="5904b">
+<Fplkm km="66.5708"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="58964.98" FahrstrStrecke="5904b">
+<Fplkm km="66.5088"/>
+<FplIcon FplIconNr="17"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="59137.7" FahrstrStrecke="5904b">
+<FplvMax vMax="27.7778"/>
+<Fplkm km="66.3376"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="59171.2539" FahrstrStrecke="5904b">
+<FplvMax vMax="30.5556"/>
+<FplvMaxGNT vMax="33.3333"/>
+<Fplkm km="66.2745"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="59589.3828" FahrstrStrecke="5904b">
+<Fplkm km="65.8858"/>
+<FplName FplNameText="Ne 2"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="60477.9727" FahrstrStrecke="5904b">
+<FplvMaxGNT vMax="44.4444"/>
+<Fplkm km="65.0014"/>
+</FplZeile>
+<FplZeile FplRglGgl="2" FplLaufweg="60700.3" FahrstrStrecke="5904b">
+<Fplkm km="64.7691"/>
+<FplSignaltyp FplSignaltypNr="7"/>
+<FplNameRechts FplNameText="E 60"/>
+</FplZeile>
+<FplZeile FplRglGgl="3" FplLaufweg="60706.207" FahrstrStrecke="5904b">
+<FplvMax vMax="30.5556"/>
+<Fplkm km="64.7936"/>
+<FplIcon FplIconNr="31"/>
+<FplSignaltyp FplSignaltypNr="5"/>
+</FplZeile>
+<FplZeile FplLaufweg="61740.94">
+<Fplkm km="63.728"/>
+<FplName FplNameText="Luitpoldhütte"/>
+<FplAbf Abf="2022-01-11 07:59:00"/>
+</FplZeile>
+<FplZeile FplLaufweg="62096.16">
+<Fplkm km="63.3728"/>
+<FplSignaltyp FplSignaltypNr="9"/>
+<FplNameRechts FplNameText="A 50"/>
+</FplZeile>
+</Buchfahrplan>
+</Zusi>

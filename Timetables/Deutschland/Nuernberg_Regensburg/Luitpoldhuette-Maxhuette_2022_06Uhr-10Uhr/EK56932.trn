@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="56932" Zuglauf="Schwandorf - Hirschau" Prio="2500" BremsstellungZug="2" MBrh="1.7204" APBeschl="0.5" LODzug="3" ReisendenDichte="0.6" FahrplanGruppe="2. Maxhütte-Haidhof - Luitpoldhütte" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Schwandorf F11" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr\EK56932.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 05:50:00" Abf="2022-01-11 09:00:00" Betrst="Schwandorf">
+<FahrplanSignalEintrag FahrplanSignal="F11"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Sbk 1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:05:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="N3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Freihöls" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="K"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 09:12:00" Abf="2022-01-11 09:19:00" Betrst="Freihöls" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="C"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Hiltersdorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:25:00" Betrst="Hiltersdorf">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Amberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="G"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 09:31:00" Abf="2022-01-11 10:10:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="D6"/>
+<FahrplanSignalEintrag FahrplanSignal="D5"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="3" IDNeben="1" NVRNummer="31 80 0695 308-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V90\V90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 0689 112-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Tanoos896\Tanoos896.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 0689 142-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Tanoos896\Tanoos896.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" NVRNummer="31 80 0695 308-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 0695 244-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 0689 112-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 0884 170-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\T-Wagen\Tadgs959\Tadgs959.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="2" NVRNummer="33 80 7837 081-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 5376 540-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

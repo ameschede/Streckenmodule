@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="56925" Zuglauf="Freihöls - Schwandorf" Prio="2500" BremsstellungZug="2" APBeschl="0.5" LODzug="3" FahrplanGruppe="1. Luitpoldhütte - Maxhütte-Haidhof" Rekursionstiefe="5" FahrstrName="Freihöls A -&gt; Freihöls H" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_0Debug.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr\EK56925.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 05:50:00" Abf="2022-01-11 06:22:00" Betrst="Freihöls">
+<FahrplanSignalEintrag FahrplanSignal="H"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 06:29:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="P3"/>
+<FahrplanSignalEintrag FahrplanSignal="P5"/>
+<FahrplanSignalEintrag FahrplanSignal="P4"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Sbk 2">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Schwandorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="G"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 06:33:00" Abf="2022-01-11 10:10:00" Betrst="Schwandorf">
+<FahrplanSignalEintrag FahrplanSignal="D6"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="9" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V90\V90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags17m.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

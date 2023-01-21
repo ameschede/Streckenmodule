@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="EK" Nummer="56918" Zuglauf="Schwandorf - Luitpoldhütte" Prio="2500" BremsstellungZug="2" APBeschl="0.5" LODzug="3" FahrplanGruppe="2. Maxhütte-Haidhof - Luitpoldhütte" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Schwandorf F12" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_0Debug.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr\EK56918.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 05:50:00" Abf="2022-01-11 09:20:00" Betrst="Schwandorf">
+<FahrplanSignalEintrag FahrplanSignal="F12"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Sbk 1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:25:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="N3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Freihöls" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="K"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 09:32:00" Abf="2022-01-11 09:46:00" Betrst="Freihöls" FplEintrag="3">
+<FahrplanSignalEintrag FahrplanSignal="C"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Hiltersdorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:52:00" Betrst="Hiltersdorf">
+<FahrplanSignalEintrag FahrplanSignal="N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Amberg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="G"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 09:57:00" Betrst="Amberg">
+<FahrplanSignalEintrag FahrplanSignal="D2"/>
+<FahrplanSignalEintrag FahrplanSignal="D3"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Luitpoldhütte" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 10:01:00" Abf="2022-01-11 10:10:00" Betrst="Luitpoldhütte">
+<FahrplanSignalEintrag FahrplanSignal="N4"/>
+<FahrplanSignalEintrag FahrplanSignal="N5"/>
+<FahrplanSignalEintrag FahrplanSignal="N3"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Dieselloks\DDR\132\132.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="21 80 2457 471-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\H-Wagen\Hbbillns305\Hbbillns305.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="33 80 2743 477-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\H-Wagen\Habbiins14\Habbiins14.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="31 80 5376 783-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="33 80 7837 713-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zans_95\Zans95.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="22">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="22">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="20">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Gueterwagen\BRD\SS-Wagen\SSylms01\SSylms01.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="8" IDNeben="1" NVRNummer="33 80 3547 570-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\R-Wagen\Rilnss\Rilnss3.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="7" IDNeben="1" NVRNummer="33 82 3547 187-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\R-Wagen\Rilnss\Rilnss3.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="3" IDNeben="4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\Z-Wagen\Zags\Zags18m.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" NVRNummer="31 80 5376 531-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Gueterwagen\BRD\E-Wagen\Eanos052\Eanos052.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="31 80 0695 677-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="2" NVRNummer="31 80 0695 853-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Taoos-z894\Taoos894.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="2" NVRNummer="33 80 0689 607-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche5\Gueterwagen\T-Wagen\Tanoos896\Tanoos896.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

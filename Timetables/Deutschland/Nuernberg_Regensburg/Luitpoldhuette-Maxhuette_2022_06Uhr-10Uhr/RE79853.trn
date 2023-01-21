@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Zug" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="104" AutorName="Thomas Richter" AutorEmail="th.richter@gmx.de"/>
+</Info>
+<Zug Gattung="RE" Nummer="79853" Zuglauf="RE 2 München Hbf - Hof Hbf" Prio="2500" Standortmodus="1" BremsstellungZug="5" MBrh="1.55" APBeschl="0.5" LODzug="3" ReisendenDichte="0.6" FahrplanGruppe="4. Maxhütte-Haidhof - Nabburg" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Maxhütte-Haidhof 56A" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr.fpn" NurInfo="1"/>
+<BuchfahrplanRohDatei Dateiname="Timetables\Deutschland\Nuernberg_Regensburg\Luitpoldhuette-Maxhuette_2022_06Uhr-10Uhr\RE79853.timetable.xml"/>
+<FahrplanEintrag Ank="2022-01-11 08:32:00" Abf="2022-01-11 08:33:00" Betrst="Maxhütte-Haidhof" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="56A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 08:34:00" Betrst="Maxhütte-Haidhof">
+<FahrplanSignalEintrag FahrplanSignal="56N2"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Klardorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="57A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 08:39:00" Betrst="Klardorf">
+<FahrplanSignalEintrag FahrplanSignal="57N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Schwandorf" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2022-01-11 08:42:00" Abf="2022-01-11 08:46:00" Betrst="Schwandorf">
+<FahrplanSignalEintrag FahrplanSignal="F1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Sbk 1">
+<FahrplanSignalEintrag FahrplanSignal="Sbk 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Irrenlohe" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 08:50:00" Betrst="Irrenlohe">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Betrst="Schwarzenfeld" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 08:52:00" Betrst="Schwarzenfeld">
+<FahrplanSignalEintrag FahrplanSignal="N1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-01-11 08:56:00" Betrst="Nabburg" FplEintrag="1">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1" NVRNummer="92 80 0253 010-3">
+<Datei Dateiname="RollingStock\Oesterreich\Epoche5\Dieselloks\Eurorunner\Eurorunner.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1" NVRNummer="61 83 2190 734-6">
+<Datei Dateiname="ROLLINGSTOCK\DEUTSCHLAND\Epoche6\Reisezugwagen\UIC-Z1_ex_FS\Bmz21-90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1" NVRNummer="61 83 2190 171-1">
+<Datei Dateiname="ROLLINGSTOCK\DEUTSCHLAND\Epoche6\Reisezugwagen\UIC-Z1_ex_FS\Bmz21-90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1" NVRNummer="61 83 2190 742-9">
+<Datei Dateiname="ROLLINGSTOCK\DEUTSCHLAND\Epoche6\Reisezugwagen\UIC-Z1_ex_FS\Bmz21-90.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" Gedreht="1" NVRNummer="61 83 2190 476-4">
+<Datei Dateiname="ROLLINGSTOCK\DEUTSCHLAND\Epoche6\Reisezugwagen\UIC-Z1_ex_FS\ABbmdz21-90.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</Zug>
+</Zusi>

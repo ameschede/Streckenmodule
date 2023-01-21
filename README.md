@@ -45,4 +45,4 @@ Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 
 Die Module Oberzwehren, Rengershausen, Körle Ost, Kaiserau, Altmorschen, Licherode und Ersrode schließen bei Kassel-Wilhlmshöhe ans Bestandsnetz an.
 
-Die Module Schwarzenfeld, Schwandorf, Klardorf und Maxhütte-Haidhof schließen bei Irrenlohe ans Bestandsnetz an.
+Die Module Schwarzenfeld, Schwandorf, Klardorf und Maxhütte-Haidhof schließen bei Irrenlohe ans Bestandsnetz an. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
