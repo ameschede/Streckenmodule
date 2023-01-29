@@ -10,7 +10,6 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 Aktuell liegen in diesem Repository folgende Streckenmodule:
 
 * Landrücken
-* Ersrode
 * Selmig
 * Hamm Rbf
 * Parkstein-Hütten
@@ -18,19 +17,9 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Großwudicke
 * Schönhauser Damm
 * Schönhausen
-* Friedland
-* Körle Ost
-* Altmorschen
 * Regensburg Ost
 * Hohenschönhausen
-* Klardorf
-* Licherode
-* Schwarzenfeld
 * Bindfelde
-* Kaiserau
-* Rengershausen
-* Oberzwehren
-* Schwandorf
 * Maxhütte-Haidhof
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
@@ -39,10 +28,6 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
 
-Das Modul Friedland schließt bei Obernjesa ans Bestandsnetz an.
-
 Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 
-Die Module Oberzwehren, Rengershausen, Körle Ost, Kaiserau, Altmorschen, Licherode und Ersrode schließen bei Kassel-Wilhlmshöhe ans Bestandsnetz an.
-
-Die Module Schwarzenfeld, Schwandorf, Klardorf und Maxhütte-Haidhof schließen bei Irrenlohe ans Bestandsnetz an. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
+Das Modul Maxhütte-Haidhof schließt bei Klardorf ans Bestandsnetz an. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
