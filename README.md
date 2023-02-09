@@ -21,6 +21,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Hohenschönhausen
 * Bindfelde
 * Maxhütte-Haidhof
+* Northeim
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -31,3 +32,5 @@ Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenh
 Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 
 Das Modul Maxhütte-Haidhof schließt bei Klardorf ans Bestandsnetz an. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
+
+Das Modul Northeim schließt bei Edesheim und Sudheim ans Bestandsnetz an.

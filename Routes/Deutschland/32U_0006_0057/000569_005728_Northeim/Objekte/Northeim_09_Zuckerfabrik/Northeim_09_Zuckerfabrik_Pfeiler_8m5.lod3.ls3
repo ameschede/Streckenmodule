@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Northeim_09_Zuckerfabrik_Pfeiler.dds"/>
+</Textur>
+<Vertex U="0.9384" V="0.9986">
+<p X="-0.3" Y="-4.25" Z="-3.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.9384" V="0.0212">
+<p X="-0.3" Y="-4.25" Z="-1"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="-0.8333" V="1">
+<p X="-0.3" Y="-4.25" Z="-1"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="1.8333" V="1">
+<p X="-0.3" Y="4.25" Z="-1"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="1.8333" V="0.0195">
+<p X="-0.3" Y="4.25" Z="-3.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="-0.8333" V="0.0195">
+<p X="-0.3" Y="-4.25" Z="-3.5"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.9384" V="0.0212">
+<p X="-0.3" Y="4.25" Z="-1"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.9384" V="0.9986">
+<p X="-0.3" Y="4.25" Z="-3.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="1.7609" V="0.0198">
+<p X="-0.3" Y="4.25" Z="-1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.7609" V="0.0198">
+<p X="-0.3" Y="-4.25" Z="-1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.7038" V="0.9986">
+<p X="0.3" Y="-4.25" Z="-3.5"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.7038" V="0.0212">
+<p X="0.3" Y="-4.25" Z="-1"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.7038" V="0.0212">
+<p X="0.3" Y="4.25" Z="-1"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.7038" V="0.9986">
+<p X="0.3" Y="4.25" Z="-3.5"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="1.8333" V="0.0195">
+<p X="0.3" Y="-4.25" Z="-3.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="-0.8333" V="0.0195">
+<p X="0.3" Y="4.25" Z="-3.5"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="-0.8333" V="1">
+<p X="0.3" Y="4.25" Z="-1"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="1.8333" V="1">
+<p X="0.3" Y="-4.25" Z="-1"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="1.7609" V="0.1153">
+<p X="0.3" Y="4.25" Z="-1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.7609" V="0.1153">
+<p X="0.3" Y="-4.25" Z="-1"/>
+<n Z="1"/>
+</Vertex>
+<Face i="11;10;0"/>
+<Face i="0;1;11"/>
+<Face i="4;3;2"/>
+<Face i="2;5;4"/>
+<Face i="13;12;6"/>
+<Face i="6;7;13"/>
+<Face i="16;15;14"/>
+<Face i="14;17;16"/>
+<Face i="9;8;18"/>
+<Face i="18;19;9"/>
+</SubSet>
+</Landschaft>
+</Zusi>
