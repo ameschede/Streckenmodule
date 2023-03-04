@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="110" AutorName="Valentin" AutorAufwandStunden="1"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="1000" Vorlade="1" LODbit="15">
+<Datei Dateiname="Signals\France\Ligne_normale\Panneau\Couleur\Blanc.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="50" Vorlade="1" LODbit="8">
+<Datei Dateiname="Feu_de_franchissement-a_droite.lod0.ls3"/>
+<p/>
+<phi/>
+<sk X="0.5" Y="0.5" Z="0.5"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarAb="50" SichtbarBis="200" Vorlade="1" LODbit="4">
+<Datei Dateiname="Feu_de_franchissement-a_droite.lod3.ls3"/>
+<p/>
+<phi/>
+<sk X="0.5" Y="0.5" Z="0.5"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarAb="200" SichtbarBis="1000" Vorlade="1" LODbit="3">
+<Datei Dateiname="Feu_de_franchissement-a_droite.lod1.ls3"/>
+<p/>
+<phi/>
+<sk X="0.5" Y="0.5" Z="0.5"/>
+</Verknuepfte>
+<Animation AniBeschreibung="Feu de franchissement">
+<AniNrs AniNr="21"/>
+</Animation>
+<VerknAnimation AniNr="21" AniGeschw="1">
+<AniPunkt AniDimmung="1">
+<p/>
+<q W="-1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="-1"/>
+</AniPunkt>
+</VerknAnimation>
+</Landschaft>
+</Zusi>

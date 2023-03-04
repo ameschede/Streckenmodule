@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="110" AutorName="Valentin"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="-28.8838" Y="1.3723" Z="-0.3161"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-28.8838" Y="1.3723" Z="2.3839"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-28.8877" Y="1.3123" Z="2.3839"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="-28.8877" Y="1.3123" Z="-0.3161"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-14.4586" V="1" U2="-14.4586" V2="1">
+<p X="0.001" Y="0.03" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-14.4586" V="0.12" U2="-14.4586" V2="0.12">
+<p X="0.001" Y="0.03" Z="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-14.4586" V="0.12" U2="-14.4586" V2="0.12">
+<p X="-0.001" Y="-0.03" Z="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-14.4586" V="1" U2="-14.4586" V2="1">
+<p X="-0.001" Y="-0.03" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-26.3783" V="1" U2="-26.3783" V2="1">
+<p X="23.8252" Y="-0.834" Z="-0.0268"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-26.3783" V="0.12" U2="-26.3783" V2="0.12">
+<p X="23.8252" Y="-0.834" Z="2.6732"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-26.3783" V="0.12" U2="-26.3783" V2="0.12">
+<p X="23.8213" Y="-0.894" Z="2.6732"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-26.3783" V="1" U2="-26.3783" V2="1">
+<p X="23.8213" Y="-0.894" Z="-0.0268"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-41.7449" V="1" U2="-41.7449" V2="1">
+<p X="54.5205" Y="-2.3383" Z="0.2292"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-41.7449" V="0.12" U2="-41.7449" V2="0.12">
+<p X="54.5205" Y="-2.3383" Z="2.9292"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-41.7449" V="0.12" U2="-41.7449" V2="0.12">
+<p X="54.5166" Y="-2.3983" Z="2.9292"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-41.7449" V="1" U2="-41.7449" V2="1">
+<p X="54.5166" Y="-2.3983" Z="0.2292"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+<Face i="4;8;9"/>
+<Face i="4;9;5"/>
+<Face i="5;9;10"/>
+<Face i="5;10;6"/>
+<Face i="6;10;11"/>
+<Face i="6;11;7"/>
+<Face i="8;12;13"/>
+<Face i="8;13;9"/>
+<Face i="9;13;14"/>
+<Face i="9;14;10"/>
+<Face i="10;14;15"/>
+<Face i="10;15;11"/>
+</SubSet>
+</Landschaft>
+</Zusi>

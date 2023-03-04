@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="	  l=48,2230987548828  kr=0,00100000004749745  ue=0	">
+<AutorEintrag AutorID="131" AutorName="Maurice Schlorke" AutorEmail="maurisch42@gmail.com"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="1000" Vorlade="1" LODbit="4">
+<Datei Dateiname="PermanentWay\France\1435mm\Appareils_de_voie_unifies\Accessoires\Mecanisme_Electrique_d-Aiguillage\lod\MCEM91_levier_a_gauche.lod1.ls3"/>
+<p X="0.006" Y="-0.0044"/>
+<phi Z="0.00297"/>
+<sk/>
+</Verknuepfte>
+<Animation AniBeschreibung="Grundstellung"/>
+<Animation AniBeschreibung="Umgestellt">
+<AniNrs AniNr="1"/>
+</Animation>
+<VerknAnimation AniNr="1" AniGeschw="1">
+<AniPunkt>
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q X="-0.500001" W="0.866025"/>
+</AniPunkt>
+</VerknAnimation>
+</Landschaft>
+</Zusi>

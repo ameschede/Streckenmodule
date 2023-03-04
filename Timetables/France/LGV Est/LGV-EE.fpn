@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrplan" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="110" AutorName="Valentin" AutorAufwandStunden="50"/>
+</Info>
+<Fahrplan AnfangsZeit="2022-12-22 05:00:00">
+<BefehlsKonfiguration Dateiname="signals\Deutschland\Befehle\408_2015.authority.xml"/>
+<LaPDF/>
+<StrebuPDF/>
+<ErsatzfahrplaenePDF/>
+<Begruessungsdatei Dateiname="Timetables\France\LGV Est\LGV-EE\info.htm"/>
+<trn Gattung="ICE" Nummer="9553" Zuglauf="Paris Est - Frankfurt(Main)Hbf" Prio="9000" Standortmodus="1" BremsstellungZug="5" spAnfang="11.1111" MBrh="1.8554" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Ouest - Est (Raccordement Baudrecourt)" Rekursionstiefe="50" FahrstrName="1953 1953 -&gt; 1957 1957" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\France\LGV Est\LGV-EE.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-12-22 13:49:00" Abf="2022-12-22 13:49:00" Betrst="1957">
+<FahrplanSignalEintrag FahrplanSignal="1957"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-12-22 13:54:00" Betrst="Tilloy-et-Bellay"/>
+<FahrplanEintrag Abf="2022-12-22 13:59:00" Betrst="Villers-en-Argonne"/>
+<FahrplanEintrag Abf="2022-12-22 14:04:00" Betrst="2189">
+<FahrplanSignalEintrag FahrplanSignal="2189"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="3" EigeneZugart="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 511-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ETCSLSS="2" ETCSCEASchalter="2" Lufthahn="2" ETCSPassivschalter="2"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="7" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 611-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 711-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 811-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="93 80 5407 311-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 211-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 111-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 011-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="ICE" Nummer="9555" Zuglauf="Paris Est - Frankfurt(Main)Hbf" Prio="9000" Standortmodus="1" BremsstellungZug="5" spAnfang="11.1111" MBrh="1.8554" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Ouest - Est (Raccordement Baudrecourt)" Rekursionstiefe="50" FahrstrName="1953 1953 -&gt; 1957 1957" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\France\LGV Est\LGV-EE.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-12-22 17:51:00" Abf="2022-12-22 17:51:00" Betrst="1957">
+<FahrplanSignalEintrag FahrplanSignal="1957"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-12-22 17:56:00" Betrst="Tilloy-et-Bellay"/>
+<FahrplanEintrag Abf="2022-12-22 18:01:00" Betrst="Villers-en-Argonne"/>
+<FahrplanEintrag Abf="2022-12-22 18:06:00" Betrst="2189">
+<FahrplanSignalEintrag FahrplanSignal="2189"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="3" EigeneZugart="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 511-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ETCSLSS="2" ETCSCEASchalter="2" Lufthahn="2" ETCSPassivschalter="2"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="7" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 611-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 711-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 811-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="93 80 5407 311-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 211-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 111-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 011-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="ICE" Nummer="9557" Zuglauf="Paris Est - Frankfurt(Main)Hbf" Prio="9000" Standortmodus="1" BremsstellungZug="5" spAnfang="11.1111" MBrh="1.8554" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Ouest - Est (Raccordement Baudrecourt)" Rekursionstiefe="50" FahrstrName="1953 1953 -&gt; 1957 1957" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\France\LGV Est\LGV-EE.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-12-22 19:48:00" Abf="2022-12-22 19:48:00" Betrst="1957">
+<FahrplanSignalEintrag FahrplanSignal="1957"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-12-22 19:53:00" Betrst="Tilloy-et-Bellay"/>
+<FahrplanEintrag Abf="2022-12-22 19:58:00" Betrst="Villers-en-Argonne"/>
+<FahrplanEintrag Abf="2022-12-22 20:03:00" Betrst="2189">
+<FahrplanSignalEintrag FahrplanSignal="2189"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="3" EigeneZugart="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 511-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ETCSLSS="2" ETCSCEASchalter="2" Lufthahn="2" ETCSPassivschalter="2"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="7" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 611-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 711-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 811-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="93 80 5407 311-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 211-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 111-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 011-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="ICE" Nummer="9558" Zuglauf="Frankfurt(Main)Hbf - Paris Est" Prio="9000" Standortmodus="1" BremsstellungZug="5" spAnfang="11.1111" MBrh="1.8554" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Est - Ouest (Raccordement Baudrecourt)" Rekursionstiefe="50" FahrstrName="2202 2202 -&gt; 2184 2184" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\France\LGV Est\LGV-EE.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-12-22 08:55:00" Abf="2022-12-22 08:55:00" Betrst="2184">
+<FahrplanSignalEintrag FahrplanSignal="2184"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-12-22 09:00:00" Betrst="Villers-en-Argonne"/>
+<FahrplanEintrag Abf="2022-12-22 09:05:00" Betrst="Tilloy-et-Bellay"/>
+<FahrplanEintrag Abf="2022-12-22 09:10:00" Betrst="1954">
+<FahrplanSignalEintrag FahrplanSignal="1954"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="3" EigeneZugart="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 511-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ETCSLSS="2" ETCSCEASchalter="2" Lufthahn="2" ETCSPassivschalter="2"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="7" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 611-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 711-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 811-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="93 80 5407 311-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 211-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 111-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 011-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="ICE" Nummer="9568" Zuglauf="Frankfurt(Main)Hbf - Paris Est" Prio="9000" Standortmodus="1" BremsstellungZug="5" spAnfang="11.1111" MBrh="1.8554" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Est - Ouest (Raccordement Baudrecourt)" Rekursionstiefe="50" FahrstrName="2202 2202 -&gt; 2184 2184" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\France\LGV Est\LGV-EE.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-12-22 09:42:00" Abf="2022-12-22 09:42:00" Betrst="2184">
+<FahrplanSignalEintrag FahrplanSignal="2184"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-12-22 09:47:00" Betrst="Villers-en-Argonne"/>
+<FahrplanEintrag Abf="2022-12-22 09:52:00" Betrst="Tilloy-et-Bellay"/>
+<FahrplanEintrag Abf="2022-12-22 09:57:00" Betrst="1954">
+<FahrplanSignalEintrag FahrplanSignal="1954"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="3" EigeneZugart="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 511-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ETCSLSS="2" ETCSCEASchalter="2" Lufthahn="2" ETCSPassivschalter="2"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="7" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 611-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 711-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 811-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="93 80 5407 311-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 211-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 111-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 011-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="ICE" Nummer="9556" Zuglauf="Frankfurt(Main)Hbf - Paris Est" Prio="9000" Standortmodus="1" BremsstellungZug="5" spAnfang="11.1111" MBrh="1.8554" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Est - Ouest (Raccordement Baudrecourt)" Rekursionstiefe="50" FahrstrName="2202 2202 -&gt; 2184 2184" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_DB_2006.dll">
+<Datei Dateiname="Timetables\France\LGV Est\LGV-EE.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2022-12-22 11:56:00" Abf="2022-12-22 11:56:00" Betrst="2184">
+<FahrplanSignalEintrag FahrplanSignal="2184"/>
+</FahrplanEintrag>
+<FahrplanEintrag Abf="2022-12-22 12:01:00" Betrst="Villers-en-Argonne"/>
+<FahrplanEintrag Abf="2022-12-22 12:06:00" Betrst="Tilloy-et-Bellay"/>
+<FahrplanEintrag Abf="2022-12-22 12:11:00" Betrst="1954">
+<FahrplanSignalEintrag FahrplanSignal="1954"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="2" IDNeben="3" EigeneZugart="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 511-5">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+<ZugdatenETCS ETCSLevel="4" ETCSModus="1" Startsystem="PZB/LZB" ETCSLSS="2" ETCSCEASchalter="2" Lufthahn="2" ETCSPassivschalter="2"/>
+<ZugdatenLZB80 LZBStoerschalter="2" BRA="7" ZugsicherungHS="2" Lufthahn="2" PZBStoerschalter="2"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 611-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 711-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="2" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 811-9">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="2" NVRNummer="93 80 5407 311-0">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_MW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 211-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_SW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" SASchaltung="1" NVRNummer="93 80 5407 111-4">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_TW.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="3" DotraModus="1" SASchaltung="1" Gedreht="1" NVRNummer="93 80 5407 011-6">
+<Datei Dateiname="RollingStock\Deutschland\Epoche6\Elektrotriebwagen\VelaroD\VelaroD_EW.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<StrModul>
+<Datei Dateiname="routes\France\31U_0006_0054\000613_005433_Tilloy-et-Bellay\Tilloy-et-Bellay_2020.st3"/>
+<p/>
+<phi/>
+</StrModul>
+<StrModul>
+<Datei Dateiname="routes\France\31U_0006_0054\000625_005431_Villers-en-Argonne\Villers-en-Argonne_2022.st3"/>
+<p/>
+<phi/>
+</StrModul>
+<StrModul>
+<Datei Dateiname="routes\France\31U_0006_0054\000643_005431_Brizeaux\Brizeaux_2022.st3"/>
+<p/>
+<phi/>
+</StrModul>
+<UTM UTM_WE="629" UTM_NS="5431" UTM_Zone="31" UTM_Zone2="U"/>
+</Fahrplan>
+</Zusi>

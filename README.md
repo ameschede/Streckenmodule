@@ -22,6 +22,9 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Bindfelde
 * Maxhütte-Haidhof
 * Northeim
+* Tilloy-et-Bellay
+* Villers-en-Argonne
+* Brizeaux
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -34,3 +37,5 @@ Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 Das Modul Maxhütte-Haidhof schließt bei Klardorf ans Bestandsnetz an. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
 
 Das Modul Northeim schließt bei Edesheim und Sudheim ans Bestandsnetz an.
+
+Die Module Tilloy-et-Bellay, Villers-en-Argonne und Brizeaux bilden ein zusammenhängendes Netz von 61,6 km Länge. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.

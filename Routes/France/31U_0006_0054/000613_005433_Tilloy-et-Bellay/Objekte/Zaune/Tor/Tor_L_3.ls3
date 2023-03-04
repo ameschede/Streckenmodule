@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="110" AutorName="Valentin"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_tor_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="5.939" Y="-0.8545" Z="-0.1976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="5.939" Y="-0.8545" Z="2.5024"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="5.9468" Y="-0.7952" Z="2.5024"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="5.9468" Y="-0.7952" Z="-0.1976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9999" V="1" U2="-2.9999" V2="1">
+<p X="-0.0039" Y="-0.0297" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9999" V="0.12" U2="-2.9999" V2="0.12">
+<p X="-0.0039" Y="-0.0297" Z="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9999" V="0.12" U2="-2.9999" V2="0.12">
+<p X="0.0039" Y="0.0297" Z="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9999" V="1" U2="-2.9999" V2="1">
+<p X="0.0039" Y="0.0297" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="5.9448" Y="-0.7949" Z="-0.1976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="5.9448" Y="-0.7949" Z="2.5024"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="5.9409" Y="-0.8547" Z="2.5024"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="5.9409" Y="-0.8547" Z="-0.1976"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9036" V="1" U2="-2.9036" V2="1">
+<p X="11.7368" Y="-1.2145" Z="-0.2265"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9036" V="0.12" U2="-2.9036" V2="0.12">
+<p X="11.7368" Y="-1.2145" Z="2.4735"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9036" V="0.12" U2="-2.9036" V2="0.12">
+<p X="11.7329" Y="-1.2743" Z="2.4735"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9036" V="1" U2="-2.9036" V2="1">
+<p X="11.7329" Y="-1.2743" Z="-0.2265"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="13.5723" Y="-1.2576" Z="-0.2413"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="13.5723" Y="-1.2576" Z="2.4587"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="13.5713" Y="-1.1975" Z="2.4587"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="13.5713" Y="-1.1975" Z="-0.2413"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.9185" V="1" U2="-0.9185" V2="1">
+<p X="11.7354" Y="-1.2744" Z="-0.2265"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.9185" V="0.12" U2="-0.9185" V2="0.12">
+<p X="11.7354" Y="-1.2744" Z="2.4735"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.9185" V="0.12" U2="-0.9185" V2="0.12">
+<p X="11.7344" Y="-1.2144" Z="2.4735"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.9185" V="1" U2="-0.9185" V2="1">
+<p X="11.7344" Y="-1.2144" Z="-0.2265"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="-0.0039" Y="-0.0297" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-0.0039" Y="-0.0297" Z="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="0.0039" Y="0.0297" Z="2.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="0.0039" Y="0.0297" Z="-0.2"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.0685" V="1" U2="-1.0685" V2="1">
+<p X="-2.1206" Y="0.264" Z="-0.2009"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.0685" V="0.12" U2="-1.0685" V2="0.12">
+<p X="-2.1206" Y="0.264" Z="2.4991"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.0685" V="0.12" U2="-1.0685" V2="0.12">
+<p X="-2.1128" Y="0.3234" Z="2.4991"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.0685" V="1" U2="-1.0685" V2="1">
+<p X="-2.1128" Y="0.3234" Z="-0.2009"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="-2.1196" Y="0.2639" Z="-0.2009"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-2.1196" Y="0.2639" Z="2.4991"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-2.1138" Y="0.3235" Z="2.4991"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="-2.1138" Y="0.3235" Z="-0.2009"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9215" V="1" U2="-2.9215" V2="1">
+<p X="-7.9316" Y="0.8645" Z="-0.1865"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9215" V="0.12" U2="-2.9215" V2="0.12">
+<p X="-7.9316" Y="0.8645" Z="2.5135"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9215" V="0.12" U2="-2.9215" V2="0.12">
+<p X="-7.9258" Y="0.9241" Z="2.5135"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-2.9215" V="1" U2="-2.9215" V2="1">
+<p X="-7.9258" Y="0.9241" Z="-0.1865"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="-10.46" Y="1.4811" Z="-0.1982"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-10.46" Y="1.4811" Z="2.5018"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="-10.4727" Y="1.4225" Z="2.5018"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="-10.4727" Y="1.4225" Z="-0.1982"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.2991" V="1" U2="-1.2991" V2="1">
+<p X="-7.9224" Y="0.9236" Z="-0.1865"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.2991" V="0.12" U2="-1.2991" V2="0.12">
+<p X="-7.9224" Y="0.9236" Z="2.5135"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.2991" V="0.12" U2="-1.2991" V2="0.12">
+<p X="-7.9351" Y="0.865" Z="2.5135"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.2991" V="1" U2="-1.2991" V2="1">
+<p X="-7.9351" Y="0.865" Z="-0.1865"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>

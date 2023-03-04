@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+  <Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+    <AutorEintrag AutorID="131" AutorName="Maurice Schlorke" AutorEmail="maurisch42@gmail.com" AutorLizenz="0"/>
+  </Info>
+  <Landschaft>
+    <lsb Dateiname="Pont_Rue_Beton_Butee_12m00.lod1.lsb"/>
+    <SubSet Cd="FFFFFFFF" Ca="FFFFFFFF" Ce="00000000" MeshV="16" MeshI="24">
+      <RenderFlags TexVoreinstellung="1"/>
+      <Textur>
+        <Datei Dateiname="Terrain\Default\embankment.dds"/>
+      </Textur>
+    </SubSet>
+    <SubSet Cd="FFFFFFFF" Ca="FFFFFFFF" Ce="00000000" MeshV="136" MeshI="216">
+      <RenderFlags TexVoreinstellung="1"/>
+      <Textur>
+        <Datei Dateiname="Routes\Deutschland\32U_0006_0058\000569_005802_Lehrte_Ost\Objekte\LehrteOst01_KrBw\Lehrte_KrBw_C.dds"/>
+      </Textur>
+    </SubSet>
+  </Landschaft>
+</Zusi>

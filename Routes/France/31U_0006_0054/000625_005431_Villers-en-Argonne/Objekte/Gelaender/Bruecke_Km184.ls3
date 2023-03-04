@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="110" AutorName="Valentin"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Bruecken\Gelaender\gelaender01.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="5.4307" Y="27.2444" Z="0.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.82" V2="0.82">
+<p X="5.4307" Y="27.2444" Z="1.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.82" V2="0.82">
+<p X="5.4102" Y="27.2457" Z="1.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="5.4102" Y="27.2457" Z="0.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="1" U2="-4.5884" V2="1">
+<p X="3.7129" Y="-0.2321" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="0.82" U2="-4.5884" V2="0.82">
+<p X="3.7129" Y="-0.2321" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="0.82" U2="-4.5884" V2="0.82">
+<p X="3.6924" Y="-0.2308" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="1" U2="-4.5884" V2="1">
+<p X="3.6924" Y="-0.2308" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="1" U2="-9.1768" V2="1">
+<p X="1.9951" Y="-27.7089" Z="0.1086"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="0.82" U2="-9.1768" V2="0.82">
+<p X="1.9951" Y="-27.7089" Z="1.1086"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="0.82" U2="-9.1768" V2="0.82">
+<p X="1.9746" Y="-27.7076" Z="1.1086"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="1" U2="-9.1768" V2="1">
+<p X="1.9746" Y="-27.7076" Z="0.1086"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+<Face i="4;8;9"/>
+<Face i="4;9;5"/>
+<Face i="5;9;10"/>
+<Face i="5;10;6"/>
+<Face i="6;10;11"/>
+<Face i="6;11;7"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Bruecken\Gelaender\gelaender01.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="-1.9746" Y="27.7079" Z="0.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.82" V2="0.82">
+<p X="-1.9746" Y="27.7079" Z="1.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.82" V2="0.82">
+<p X="-1.9951" Y="27.7092" Z="1.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="-1.9951" Y="27.7092" Z="0.0915"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="1" U2="-4.5884" V2="1">
+<p X="-3.6924" Y="0.2308" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="0.82" U2="-4.5884" V2="0.82">
+<p X="-3.6924" Y="0.2308" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="0.82" U2="-4.5884" V2="0.82">
+<p X="-3.7129" Y="0.2321" Z="1.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-4.5884" V="1" U2="-4.5884" V2="1">
+<p X="-3.7129" Y="0.2321" Z="0.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="1" U2="-9.1768" V2="1">
+<p X="-5.4102" Y="-27.2461" Z="0.1086"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="0.82" U2="-9.1768" V2="0.82">
+<p X="-5.4102" Y="-27.2461" Z="1.1086"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="0.82" U2="-9.1768" V2="0.82">
+<p X="-5.4307" Y="-27.2448" Z="1.1086"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-9.1768" V="1" U2="-9.1768" V2="1">
+<p X="-5.4307" Y="-27.2448" Z="0.1086"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+<Face i="4;8;9"/>
+<Face i="4;9;5"/>
+<Face i="5;9;10"/>
+<Face i="5;10;6"/>
+<Face i="6;10;11"/>
+<Face i="6;11;7"/>
+</SubSet>
+</Landschaft>
+</Zusi>

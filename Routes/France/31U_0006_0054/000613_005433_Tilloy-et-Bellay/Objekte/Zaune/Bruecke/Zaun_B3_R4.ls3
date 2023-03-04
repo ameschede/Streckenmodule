@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="110" AutorName="Valentin"/>
+</Info>
+<Landschaft>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="4"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Industriezaun_weiss.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="5.3992" Y="-6.5037" Z="1.2625"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="5.3992" Y="-6.5037" Z="3.9625"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.12" V2="0.12">
+<p X="5.4578" Y="-6.5154" Z="3.9625"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="5.4578" Y="-6.5154" Z="1.2625"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.4269" V="1" U2="-1.4269" V2="1">
+<p X="5.9587" Y="-3.7053" Z="1.2625"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.4269" V="0.12" U2="-1.4269" V2="0.12">
+<p X="5.9587" Y="-3.7053" Z="3.9625"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.4269" V="0.12" U2="-1.4269" V2="0.12">
+<p X="6.0173" Y="-3.717" Z="3.9625"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-1.4269" V="1" U2="-1.4269" V2="1">
+<p X="6.0173" Y="-3.717" Z="1.2625"/>
+<n Z="1"/>
+</Vertex>
+<Face i="0;4;5"/>
+<Face i="0;5;1"/>
+<Face i="1;5;6"/>
+<Face i="1;6;2"/>
+<Face i="2;6;7"/>
+<Face i="2;7;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>

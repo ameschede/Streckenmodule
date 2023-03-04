@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="110" AutorName="Valentin"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="1000" Vorlade="1" LODbit="4">
+<Datei Dateiname="Feu_blanc.lod1.ls3"/>
+<p/>
+<phi/>
+<sk X="0.5" Y="0.5" Z="0.5"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="708" SichtbarBis="1000" Vorlade="1" LODbit="4">
+<Datei Dateiname="Signals\Deutschland\Optiken\Optik-weiss.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Animation AniBeschreibung="Manoeuvre">
+<AniNrs AniNr="10"/>
+</Animation>
+<VerknAnimation AniIndex="1" AniNr="10" AniGeschw="0.25">
+<AniPunkt AniDimmung="1">
+<p/>
+<q W="-1"/>
+</AniPunkt>
+<AniPunkt AniZeit="0.15">
+<p/>
+<q W="0.999962"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q W="-1"/>
+</AniPunkt>
+</VerknAnimation>
+</Landschaft>
+</Zusi>

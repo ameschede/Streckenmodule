@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="131" AutorName="Maurice Schlorke" AutorEmail="maurisch42@gmail.com"/>
+</Info>
+<Landschaft>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="124.3672" Y="-125" Z="175.945"/>
+<n X="-0.0087" Y="0.1663" Z="0.6734"/>
+</Vertex>
+<Vertex>
+<p X="124.6123" Y="-125" Z="175.9375"/>
+<n X="0.0527" Y="-0.9986"/>
+</Vertex>
+<Vertex>
+<p X="124.9805" Y="-124.9806" Z="175.9374"/>
+<n X="0.0527" Y="-0.9986"/>
+</Vertex>
+<Vertex>
+<p X="124.9795" Y="-124.964" Z="175.947"/>
+<n X="-0.0262" Y="0.4993" Z="0.866"/>
+</Vertex>
+<Vertex>
+<p X="124.2979" Y="-125" Z="175.9471"/>
+<n X="-0.025" Y="0.4993" Z="0.8661"/>
+</Vertex>
+<Vertex>
+<p X="124.2979" Y="-125" Z="175.9327"/>
+<n X="-0.0252" Y="0.4993" Z="-0.437"/>
+</Vertex>
+<Vertex>
+<p X="124.9795" Y="-124.964" Z="175.9279"/>
+<n X="-0.0265" Y="0.4993" Z="-0.866"/>
+</Vertex>
+<Vertex>
+<p X="124.2979" Y="-125" Z="175.928"/>
+<n X="-0.0277" Y="0.4993" Z="-0.866"/>
+</Vertex>
+<Vertex>
+<p X="124.5654" Y="-125" Z="175.9361"/>
+<n X="0.04" Y="-0.7727" Z="-0.1306"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-124.9794" Z="175.9376"/>
+<n X="0.0521" Y="-0.988" Z="0.0061"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-124.963" Z="175.9471"/>
+<n X="-0.0262" Y="0.4993" Z="0.866"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-124.963" Z="175.928"/>
+<n X="-0.0265" Y="0.4993" Z="-0.866"/>
+</Vertex>
+<Face i="3;0;1"/>
+<Face i="3;1;2"/>
+<Face i="0;3;4"/>
+<Face i="3;6;5"/>
+<Face i="4;3;5"/>
+<Face i="5;6;7"/>
+<Face i="8;7;6"/>
+<Face i="2;8;6"/>
+<Face i="8;2;1"/>
+<Face i="9;10;3"/>
+<Face i="2;9;3"/>
+<Face i="11;6;3"/>
+<Face i="11;3;10"/>
+<Face i="6;11;9"/>
+<Face i="6;9;2"/>
+</SubSet>
+</Landschaft>
+</Zusi>
