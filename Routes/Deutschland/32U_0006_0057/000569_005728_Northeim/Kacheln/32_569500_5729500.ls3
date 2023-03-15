@@ -1464,7 +1464,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="27" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32T_0005_0053\000463_005293_Grimmelshofen\ObjekteWeizen\Industrie\Sto_4_halle.lod.ls3"/>
-<p X="-134.0288" Y="-401.9994" Z="118.99"/>
+<p X="-134.0288" Y="-401.9994" Z="118.6263"/>
 <phi Z="0.075135"/>
 <sk X="2" Y="1.5"/>
 </Verknuepfte>
@@ -3616,6 +3616,54 @@
 <phi Z="-3.385039"/>
 <sk X="1.0626" Y="1.0626" Z="1.0626"/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="15" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000444_005689_Wennemen\Objekte\Wennemen_13_Haus3\Wennemen_13_WHaus_3.lod.ls3"/>
+<p X="-67.5665" Y="-306.4968" Z="119.2859"/>
+<phi Z="1.938794"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="15" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0004_0057\000397_005698_Westhofen\Objekte\Westhofen_20_Hagener-Str\Westhofen_20_WH_328\Westhofen_20_WH_328.lod.ls3"/>
+<p X="-98.9367" Y="-297.3179" Z="120.0003"/>
+<phi Z="3.534134"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000569_005728_Northeim\Objekte\Northeim_06_Posten_89c\Northeim_06_Posten_89c.lod.ls3"/>
+<p X="-401.6317" Y="-384.2504" Z="119.1"/>
+<phi Z="4.787519"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Bahnsteiglaterne_6m.lod.ls3"/>
+<p X="-393.1881" Y="-385.2958" Z="119.1361"/>
+<phi Z="1.645912"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\General\Bushes\Bush05-03m.lod.ls3"/>
+<p X="-395.0482" Y="-385.2821" Z="119.1208"/>
+<phi Z="0.075127"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Drahtmatten\drahtmattenzaun_1mhoch_2m.lod.ls3"/>
+<p X="-396.5126" Y="-386.9773" Z="119.0922"/>
+<phi Z="0.07339"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Drahtmatten\drahtmattenzaun_1mhoch_2m.lod.ls3"/>
+<p X="-394.518" Y="-386.8306" Z="119.0843"/>
+<phi Z="0.07339"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Zaeune\Drahtmatten\drahtmattenzaun_1mhoch_2m.lod.ls3"/>
+<p X="-392.5234" Y="-386.684" Z="119.0765"/>
+<phi Z="0.07339"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -4870,6 +4918,10 @@
 <p X="-176.6863" Y="-380.4363" Z="118.8361"/>
 <n X="0.0398" Y="-0.5533" Z="0.832"/>
 </Vertex>
+<Vertex U="0" V="-208.3637">
+<p X="-408.7426" Y="-388.7408" Z="118.3902"/>
+<n X="-0.0425" Y="0.553" Z="0.8321"/>
+</Vertex>
 <Face i="3;0;1"/>
 <Face i="3;1;2"/>
 <Face i="0;3;4"/>
@@ -5054,9 +5106,10 @@
 <Face i="143;139;144"/>
 <Face i="140;145;144"/>
 <Face i="140;144;139"/>
-<Face i="8;146;12"/>
+<Face i="149;146;12"/>
 <Face i="11;147;15"/>
 <Face i="102;148;103"/>
+<Face i="8;149;12"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="6" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -5491,6 +5544,10 @@
 <p X="-177.0466" Y="-381.1982" Z="118.8345"/>
 <n X="-0.002" Y="-0.0027" Z="1"/>
 </Vertex>
+<Vertex U="1" V="-1459.1886">
+<p X="-409.1147" Y="-388.0338" Z="118.3898"/>
+<n X="-0.0011" Y="-0.0001" Z="1"/>
+</Vertex>
 <Face i="3;0;1"/>
 <Face i="3;1;2"/>
 <Face i="0;3;4"/>
@@ -5584,7 +5641,7 @@
 <Face i="92;95;94"/>
 <Face i="92;94;91"/>
 <Face i="29;96;32"/>
-<Face i="5;97;8"/>
+<Face i="107;97;8"/>
 <Face i="7;98;10"/>
 <Face i="56;99;55"/>
 <Face i="57;100;58"/>
@@ -5594,6 +5651,7 @@
 <Face i="17;104;20"/>
 <Face i="101;105;17"/>
 <Face i="103;106;68"/>
+<Face i="5;107;8"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="7" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -10014,7 +10072,7 @@
 <n Z="1"/>
 </Vertex>
 <Vertex U="-19.5229" V="0.13" U2="-19.5229" V2="0.13">
-<p X="-415.0898" Y="-361.9335" Z="118.7166"/>
+<p X="-415.0189" Y="-361.9862" Z="118.7815"/>
 <n Z="1"/>
 </Vertex>
 <Vertex U="-22.9986" V="1" U2="-22.9986" V2="1">
@@ -10225,35 +10283,21 @@
 <p X="-420.5471" Y="-380.0024" Z="118.8"/>
 <n X="-0.0167" Y="-0.0016" Z="0.9999"/>
 </Vertex>
+<Vertex U="0.7991" V="-0.1826" V2="0.0565">
+<p X="-397.9117" Y="-380.052" Z="119.1804"/>
+<n X="-0.0155" Y="-0.0165" Z="0.9997"/>
+</Vertex>
+<Vertex U="3.4461" V="-0.1851" V2="0.0565">
+<p X="-405.8222" Y="-380.7361" Z="119.0463"/>
+<n X="-0.0155" Y="-0.0165" Z="0.9997"/>
+</Vertex>
 <Face i="2;0;1"/>
-<Face i="3;4;2"/>
+<Face i="8;4;2"/>
 <Face i="2;4;0"/>
 <Face i="0;4;5"/>
 <Face i="6;5;4"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\embankment.dds"/>
-</Textur>
-<Vertex U="111.3114" V="-10.614">
-<p X="-393.8605" Y="-386.8856" Z="118.4066"/>
-<n X="-0.3714" Y="-0.0525" Z="0.927"/>
-</Vertex>
-<Vertex U="112.0395" V="-10.7261">
-<p X="-392.739" Y="-379.605" Z="119.2681"/>
-<n X="-0.3714" Y="-0.0525" Z="0.927"/>
-</Vertex>
-<Vertex U="111.155" V="-10.8183">
-<p X="-391.8174" Y="-388.4498" Z="119.1367"/>
-<n X="-0.3714" Y="-0.0525" Z="0.927"/>
-</Vertex>
-<Vertex U="111.2401" V="-10.6424">
-<p X="-393.5757" Y="-387.5991" Z="118.4069"/>
-<n X="-0.4499" Y="-0.1792" Z="0.8749"/>
-</Vertex>
-<Face i="0;1;2"/>
-<Face i="0;2;3"/>
+<Face i="3;7;2"/>
+<Face i="7;8;2"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -11510,7 +11554,7 @@
 <Face i="4;0;3"/>
 <Face i="0;4;5"/>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10">
 <RenderFlags TexVoreinstellung="8"/>
 <Textur>
 <Datei Dateiname="Terrain\Deutschland\Asphalt\ASPHALT-hellgrau.dds"/>
@@ -11592,19 +11636,19 @@
 <n X="-0.0097" Y="-0.0203" Z="0.9997"/>
 </Vertex>
 <Vertex U="110.9703" V="-34.0624">
-<p X="-159.3761" Y="-390.2969" Z="118.6298"/>
+<p X="-159.3761" Y="-390.2969" Z="119.43"/>
 <n X="-0.0173" Y="-0.0124" Z="0.9998"/>
 </Vertex>
 <Vertex U="108.3132" V="-34.0209">
-<p X="-159.7913" Y="-416.8676" Z="117.9104"/>
+<p X="-159.7913" Y="-416.8676" Z="119.43"/>
 <n X="-0.0507" Y="-0.0262" Z="0.9984"/>
 </Vertex>
 <Vertex U="110.5065" V="-33.7495">
-<p X="-162.5052" Y="-394.9352" Z="118.4178"/>
+<p X="-162.5052" Y="-394.9352" Z="119.4"/>
 <n X="-0.0283" Y="-0.0266" Z="0.9992"/>
 </Vertex>
 <Vertex U="108.7924" V="-33.5923">
-<p X="-164.0773" Y="-412.0764" Z="117.9835"/>
+<p X="-164.0773" Y="-412.0764" Z="119.4"/>
 <n X="-0.0102" Y="-0.0244" Z="0.9997"/>
 </Vertex>
 <Vertex U="110.9702" V="-52.1419">
@@ -17679,6 +17723,94 @@
 <Face i="0;2;3"/>
 <Face i="2;5;3"/>
 <Face i="5;2;6"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="2" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Pflaster\Verbundsteinpflaster\Verbundsteinpflaster_01.dds"/>
+</Textur>
+<Vertex U="559.632" V="-47.0889">
+<p X="-405.8222" Y="-380.7361" Z="119.0463"/>
+<n X="-0.0158" Y="-0.0137" Z="0.9998"/>
+</Vertex>
+<Vertex U="559.974" V="-51.0442">
+<p X="-397.9117" Y="-380.052" Z="119.1804"/>
+<n X="-0.0158" Y="-0.0137" Z="0.9998"/>
+</Vertex>
+<Vertex U="556.4819" V="-51.2906">
+<p X="-397.4434" Y="-387.0597" Z="119.1"/>
+<n X="-0.0159" Y="-0.0125" Z="0.9998"/>
+</Vertex>
+<Vertex U="556.1805" V="-47.2677">
+<p X="-405.4451" Y="-387.6205" Z="119.1"/>
+<n X="-0.0005" Y="0.0078" Z="1"/>
+</Vertex>
+<Vertex U="556.2203" V="-47.8546">
+<p X="-404.2908" Y="-387.5593" Z="119.1"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="556.438" V="-50.7464">
+<p X="-398.5072" Y="-387.1239" Z="119.1"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="3;2;4"/>
+<Face i="5;4;2"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="2" TypGF="1" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Terrain\Default\embankment.dds"/>
+</Textur>
+<Vertex U="111.1259" V="-9.1257">
+<p X="-408.7426" Y="-388.7408" Z="118.3902"/>
+<n X="-0.179" Y="-0.0937" Z="0.9794"/>
+</Vertex>
+<Vertex U="111.1966" V="-9.0885">
+<p X="-409.1147" Y="-388.0338" Z="118.3898"/>
+<n X="-0.179" Y="-0.0937" Z="0.9794"/>
+</Vertex>
+<Vertex U="111.238" V="-9.4555">
+<p X="-405.4451" Y="-387.6205" Z="119.1"/>
+<n X="-0.179" Y="-0.0937" Z="0.9794"/>
+</Vertex>
+<Vertex U="111.146" V="-10.6986">
+<p X="-393.0138" Y="-388.5399" Z="118.9854"/>
+<n X="-0.0272" Y="-0.4767" Z="0.8786"/>
+</Vertex>
+<Vertex U="111.2441" V="-9.5709">
+<p X="-404.2908" Y="-387.5593" Z="119.1"/>
+<n X="0.0038" Y="-0.0724" Z="0.9974"/>
+</Vertex>
+<Vertex U="111.2876" V="-10.1493">
+<p X="-398.5072" Y="-387.1239" Z="119.1"/>
+<n X="0.0047" Y="-0.0625" Z="0.998"/>
+</Vertex>
+<Vertex U="111.294" V="-10.2557">
+<p X="-397.4434" Y="-387.0597" Z="119.1"/>
+<n X="0.0039" Y="-0.0654" Z="0.9978"/>
+</Vertex>
+<Vertex U="112.0395" V="-10.726">
+<p X="-392.7395" Y="-379.6046" Z="119.2681"/>
+<n X="-0.1234" Y="-0.0276" Z="0.992"/>
+</Vertex>
+<Vertex U="111.155" V="-10.8183">
+<p X="-391.8174" Y="-388.4498" Z="119.1367"/>
+<n X="-0.1234" Y="-0.0276" Z="0.992"/>
+</Vertex>
+<Vertex U="111.9948" V="-10.2088">
+<p X="-397.9117" Y="-380.052" Z="119.1804"/>
+<n X="-0.0159" Y="-0.0125" Z="0.9998"/>
+</Vertex>
+<Face i="1;2;0"/>
+<Face i="2;3;0"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;3;5"/>
+<Face i="3;7;8"/>
+<Face i="6;7;3"/>
+<Face i="7;6;9"/>
 </SubSet>
 </Landschaft>
 </Zusi>

@@ -12,13 +12,13 @@
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastleuchte_11m_2neon.lod.ls3"/>
-<p X="487.9769" Y="480.0944" Z="120.2819"/>
+<p X="487.9769" Y="480.0944" Z="120.1354"/>
 <phi Z="1.213036"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastleuchte_11m_2neon.lod.ls3"/>
-<p X="463.7549" Y="415.813" Z="120.3164"/>
+<p X="463.7549" Y="415.813" Z="120.1631"/>
 <phi Z="1.213036"/>
 <sk/>
 </Verknuepfte>
@@ -72,20 +72,14 @@
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Schaltschrank\KVz59.lod.ls3"/>
-<p X="436.2389" Y="342.8327" Z="120.3556"/>
+<p X="436.2389" Y="342.8327" Z="120.1913"/>
 <phi Z="1.213036"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Gittermastleuchte_11m_2neon.lod.ls3"/>
-<p X="438.0079" Y="347.9001" Z="120.3529"/>
+<p X="438.0079" Y="347.9001" Z="120.1892"/>
 <phi Z="1.213036"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Wechselsprecher\Ws-Saeule_ANT.lod.ls3"/>
-<p X="421.7618" Y="309.1803" Z="120.374"/>
-<phi Z="1.213035"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
@@ -131,14 +125,8 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Wechselsprecher\Ws-Saeule_ANT.lod.ls3"/>
-<p X="387.4629" Y="210.7713" Z="120.4263"/>
-<phi Z="1.213036"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Schaltschrank\KVz59.lod.ls3"/>
-<p X="390.9469" Y="222.8319" Z="120.4201"/>
+<p X="390.9469" Y="222.8319" Z="120.2473"/>
 <phi Z="1.213035"/>
 <sk/>
 </Verknuepfte>
@@ -9596,6 +9584,18 @@
 <Datei Dateiname="Terrain\Deutschland\Strassen\Strassenbeleuchtung\Pilzleuchte01_5m.lod.ls3"/>
 <p X="261.5389" Y="109.6658" Z="120"/>
 <phi Z="-1.928555"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Fernsprecher\F-Kasten-einfachfuss.lod.ls3"/>
+<p X="387.4629" Y="210.7713" Z="120.2408"/>
+<phi Z="4.354628"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Fernsprecher\F-Kasten-einfachfuss.lod.ls3"/>
+<p X="421.7618" Y="309.1803" Z="120.216"/>
+<phi Z="1.213035"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
@@ -43775,10 +43775,10 @@
 <Face i="1509;1507;1508"/>
 <Face i="909;902;908"/>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="7" TypGF="3" MeterProTex="10" MeterProTex2="10">
+<SubSet Cd="00FFFFFF" TypLs3="7" TypGF="3" MeterProTex="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
-<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
+<Datei Dateiname="Terrain\Default\embankment01.dds"/>
 </Textur>
 <Vertex U="-144.8884" V="54.0377">
 <p X="289.8113" Y="-44.4417" Z="120.5372"/>
