@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="	  l=2,58619999885559  kr=-1,03838046925375E-5  ue=-2,00910061920467E-8	  l=2,58619999885559  kr=-3,11519033857621E-5  ue=0,00189176248386502	  l=2,58619999885559  kr=-5,19200038979761E-5  ue=0,00378354522399604	  l=2,58619999885559  kr=-7,26881044101901E-5  ue=0,00567532796412706	  l=2,58619999885559  kr=-9,34562049224041E-5  ue=0,00756711047142744	  l=2,58619999885559  kr=-0,000114224298158661  ue=0,00945889297872782	  l=2,58619999885559  kr=-0,000134992398670875  ue=0,0113506754860282	  l=2,58619999885559  kr=-0,000155760499183089  ue=0,0132424579933286	  l=2,58619999885559  kr=-0,000176528599695303  ue=0,0151342414319515	  l=2,88619923591614  kr=-0,000197296700207517  ue=0,0170260239392519	">
+<AutorEintrag AutorID="8" AutorName="Joerg Sanftleben" AutorEmail="joergsanftleben@aol.com"/>
+<AutorEintrag AutorID="36" AutorName="Johannes Jung" AutorBeschreibung="Normalenkorrektur"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="3" SichtbarBis="500" Vorlade="1" LODbit="14">
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Manuell\lod\Umstellgewicht_weissschwarz.lod1.ls3"/>
+<p X="0.3" Y="0" Z="-0.002"/>
+<phi Z="3.141578"/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt>
+<p X="0.3"/>
+<phi/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Laternenbock_Li.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Laternenbock_Re.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Animation AniBeschreibung="Grundstellung"/>
+<Animation AniBeschreibung="Umgestellt">
+<AniNrs AniNr="1"/>
+</Animation>
+<VerknAnimation AniNr="1" AniGeschw="1">
+<AniPunkt>
+<p/>
+<q W="1"/>
+</AniPunkt>
+<AniPunkt AniZeit="1">
+<p/>
+<q X="-0.866025" W="-0.5"/>
+</AniPunkt>
+</VerknAnimation>
+</Landschaft>
+</Zusi>
