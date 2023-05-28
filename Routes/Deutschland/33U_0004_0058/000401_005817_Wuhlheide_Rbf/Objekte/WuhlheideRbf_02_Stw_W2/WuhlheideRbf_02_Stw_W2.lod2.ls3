@@ -4,59 +4,6 @@
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
-<SubSet Cd="FFFFFFFF" TypLs3="16" TypGF="1">
-<RenderFlags TexVoreinstellung="1"/>
-<Vertex>
-<p X="-6.9" Y="-9"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="-6.9"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="-1"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="-1" Y="14"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="-0.5" Y="-10.5"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="-0.5" Y="-9"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="2.7" Y="-10.5"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="2.7" Y="-9"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="6.9" Y="-9"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="6.9"/>
-<n Z="-1"/>
-</Vertex>
-<Vertex>
-<p X="6.9" Y="14"/>
-<n Z="-1"/>
-</Vertex>
-<Face i="1;0;8"/>
-<Face i="8;9;1"/>
-<Face i="3;2;9"/>
-<Face i="9;10;3"/>
-<Face i="5;4;6"/>
-<Face i="6;7;5"/>
-</SubSet>
 <SubSet Cd="FFFFFFFF">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
@@ -152,11 +99,11 @@
 </Vertex>
 <Vertex V="1">
 <p X="-6.9" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex V="1">
 <p X="-6.9" Y="-9" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex U="0.775" V="0.0216">
 <p X="-6.9" Y="-9" Z="6.5"/>
@@ -355,11 +302,11 @@
 <n X="-1"/>
 </Vertex>
 <Vertex U="0.6209" V="0.0216">
-<p X="-6.9" Y="0" Z="6.5"/>
+<p X="-6.9" Z="6.5"/>
 <n X="-1"/>
 </Vertex>
 <Vertex U="0.6209" V="0.5999">
-<p X="-6.9" Y="0"/>
+<p X="-6.9"/>
 <n X="-1"/>
 </Vertex>
 <Vertex U="0.5082" V="0.5999">
@@ -520,11 +467,11 @@
 </Vertex>
 <Vertex V="1">
 <p X="-6.5" Y="-8.6" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex V="1">
 <p X="-6.5" Y="-0.4" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex U="0.7869" V="0.1442">
 <p X="-6.5" Y="-1.425" Z="6.5"/>
@@ -1976,11 +1923,11 @@
 </Vertex>
 <Vertex V="1">
 <p X="6.5" Y="-0.4" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex V="1">
 <p X="6.5" Y="-8.6" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex U="0.8531" V="0.1442">
 <p X="6.5" Y="-8.6" Z="6.5"/>
@@ -2564,11 +2511,11 @@
 </Vertex>
 <Vertex V="1">
 <p X="6.9" Y="-9" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex V="1">
 <p X="6.9" Z="6.5"/>
-<n X="0" Z="1"/>
+<n Z="1"/>
 </Vertex>
 <Vertex U="0.4201" V="0.001">
 <p X="6.9" Y="-9" Z="8"/>
