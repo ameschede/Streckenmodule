@@ -11330,7 +11330,9 @@
 <StrElement Nr="990" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.7059">
 <g X="681.7767" Y="-1991.679" Z="38.8326"/>
 <b X="680.2207" Y="-1983.874" Z="38.8231"/>
-<InfoNormRichtung vMax="22.2222" km="27.3053" pos="1"/>
+<InfoNormRichtung vMax="22.2222" km="27.3053" pos="1">
+<Ereignis Er="21"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="22.2222" km="27.3133"/>
 <NachNorm Nr="1003"/>
 <NachGegen Nr="1000"/>
@@ -11471,9 +11473,7 @@
 <StrElement Nr="1001" spTrass="22.2222" Anschluss="256" Oberbau="Holz K-Oberbau" Volt="2" Drahthoehe="5.944">
 <g X="673.7234" Y="-1951.2841" Z="38.7835"/>
 <b X="668.6902" Y="-1926.038" Z="38.7528"/>
-<InfoNormRichtung vMax="22.2222" km="27.3463" pos="1">
-<Ereignis Er="21"/>
-</InfoNormRichtung>
+<InfoNormRichtung vMax="22.2222" km="27.3463" pos="1"/>
 <InfoGegenRichtung vMax="22.2222" km="27.372"/>
 <NachNorm Nr="1002"/>
 <NachGegen Nr="1012"/>
@@ -62987,7 +62987,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Biesd Kr S 312" FahrstrStrecke="6069b" RglGgl="1" FahrstrTyp="TypZug" Laenge="890.0">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Biesd Kr S 312" FahrstrStrecke="6069b" RglGgl="1" FahrstrTyp="TypZug" Laenge="890">
 <FahrstrStart Ref="520">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -63204,6 +63204,47 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrWeiche>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Biesdf Kr Nord 375" FahrstrTyp="TypZug" Laenge="1387.9">
+<FahrstrStart Ref="41">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="357">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="716">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="530">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="423">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="704">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="330">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="358">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="703">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="715">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="422" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="41">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="462">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Biesdf Kr Nord 377" FahrstrTyp="TypZug" Laenge="1538.7">
 <FahrstrStart Ref="41">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
@@ -63257,7 +63298,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Abzw Biesd Kr O 359" FahrstrTyp="TypZug" Laenge="1370.0">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Abzw Biesd Kr O 359" FahrstrTyp="TypZug" Laenge="1370">
 <FahrstrStart Ref="41">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -63972,6 +64013,68 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 321 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1506.5">
+<FahrstrStart Ref="222">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="655">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="760">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="221">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="661">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="527">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="665">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="660">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="654">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="222" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="225" FahrstrSignalSpalte="3">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Abzw Biesd Kr SW 321 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1485.2">
 <FahrstrStart Ref="222">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
@@ -64034,6 +64137,68 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 323 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1506.7">
+<FahrstrStart Ref="213">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="652">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="658">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="221">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="661">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="527">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="665">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrTeilaufloesung Ref="660">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrTeilaufloesung>
+<FahrstrSigHaltfall Ref="651">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="219" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="213" FahrstrSignalZeile="3">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="462" FahrstrSignalSpalte="3">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Abzw Biesd Kr SW 323 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1485.3">
 <FahrstrStart Ref="213">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
@@ -64093,6 +64258,65 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="462" FahrstrSignalSpalte="3">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1185.9">
+<FahrstrStart Ref="26">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="592">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrSigHaltfall Ref="591">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="26">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="280">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="289">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="292">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="274">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="262">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+<FahrstrVSignal Ref="259">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
@@ -64421,7 +64645,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 291 -&gt; Bln Wuhlhde Rbf W2 Gleis 123 Ausfahrt" FahrstrTyp="TypZug" Laenge="1155.0">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 291 -&gt; Bln Wuhlhde Rbf W2 Gleis 123 Ausfahrt" FahrstrTyp="TypZug" Laenge="1155">
 <FahrstrStart Ref="550">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -64480,6 +64704,74 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="301" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 123 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1372.9">
+<FahrstrStart Ref="292">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="288">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="285">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="592">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrSigHaltfall Ref="591">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="286" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="283" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="35" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="26" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="292" FahrstrSignalZeile="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
@@ -64545,6 +64837,74 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="292" FahrstrSignalZeile="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 124 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1372.2">
+<FahrstrStart Ref="289">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="288">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="285">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="592">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrSigHaltfall Ref="591">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="286" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="283" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="35" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="26" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="289" FahrstrSignalZeile="2">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
@@ -64619,6 +64979,68 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 125 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1333.1">
+<FahrstrStart Ref="280">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="285">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="592">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrSigHaltfall Ref="591">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="283" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="35" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="26" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="280" FahrstrSignalZeile="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 125 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1311.8">
 <FahrstrStart Ref="280">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
@@ -64675,6 +65097,68 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="280" FahrstrSignalZeile="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 126 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1347.8">
+<FahrstrStart Ref="259">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="592">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrSigHaltfall Ref="591">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="265" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="35" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="26" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="259" FahrstrSignalZeile="2">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
@@ -64743,6 +65227,74 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 127 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1382.2">
+<FahrstrStart Ref="262">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="270">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="592">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrSigHaltfall Ref="591">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="268" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="265" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="35" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="26" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="262" FahrstrSignalZeile="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 127 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1360.8">
 <FahrstrStart Ref="262">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
@@ -64805,6 +65357,80 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrSignal Ref="262" FahrstrSignalZeile="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrVSignal>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 128 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1425.2">
+<FahrstrStart Ref="274">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="273">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="270">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="267">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="37">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="27">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="33">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="592">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="31">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="28">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="205">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrRegister Ref="355">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrSigHaltfall Ref="591">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+<FahrstrWeiche Ref="271" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="268" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="265" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="35" FahrstrWeichenlage="2">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="32" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="29" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrWeiche Ref="27" FahrstrWeichenlage="1">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
+</FahrstrWeiche>
+<FahrstrSignal Ref="26" FahrstrSignalZeile="6">
+<Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
+</FahrstrSignal>
+<FahrstrSignal Ref="274" FahrstrSignalZeile="2">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="550" FahrstrSignalSpalte="2">
@@ -66270,7 +66896,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 271 -&gt; Bln Wuhlhde Rbf W2 291" FahrstrTyp="TypZug" Laenge="1839.0">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 271 -&gt; Bln Wuhlhde Rbf W2 291" FahrstrTyp="TypZug" Laenge="1839">
 <FahrstrStart Ref="47">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -66353,7 +66979,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 271 -&gt; Abzw Biesd Kr S 303" FahrstrStrecke="6080a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1754.0">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 271 -&gt; Abzw Biesd Kr S 303" FahrstrStrecke="6080a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1754">
 <FahrstrStart Ref="47">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -67342,7 +67968,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 280 -&gt; Bln Wuhlhde Rbf B8 268" FahrstrTyp="TypZug" Laenge="1473.0">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 280 -&gt; Bln Wuhlhde Rbf B8 268" FahrstrTyp="TypZug" Laenge="1473">
 <FahrstrStart Ref="50">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -67698,7 +68324,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 280 -&gt; Bln Wuhlhde Rbf B8 260" FahrstrTyp="TypZug" Laenge="1541.0">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W6 280 -&gt; Bln Wuhlhde Rbf B8 260" FahrstrTyp="TypZug" Laenge="1541">
 <FahrstrStart Ref="50">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>

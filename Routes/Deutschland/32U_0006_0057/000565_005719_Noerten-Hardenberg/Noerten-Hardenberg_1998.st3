@@ -919,6 +919,8 @@
 <ReferenzElemente ReferenzNr="860" StrElement="18" StrNorm="1" RefTyp="5" Info="Auflösepunkt"/>
 <ReferenzElemente ReferenzNr="861" StrElement="18" StrNorm="1" RefTyp="2" Info="Register-Nr. 5001"/>
 <ReferenzElemente ReferenzNr="862" StrElement="18" RefTyp="2" Info="Register-Nr. 5001"/>
+<ReferenzElemente ReferenzNr="863" StrElement="1613" Info="Nörten-Hardenbg S058"/>
+<ReferenzElemente ReferenzNr="864" StrElement="2498" Info="Nörten-Hardenbg S057"/>
 <StrElement Nr="1" spTrass="77.7778" Oberbau="B70 W-Oberbau SFS" Volt="2" Drahthoehe="5.2998">
 <g X="-1082.3739" Y="-4834.9434" Z="140.4561"/>
 <b X="-1075.582" Y="-4786.189" Z="140.4526"/>
@@ -76443,6 +76445,40 @@
 <b X="-448.607" Y="972.8322" Z="133.6465"/>
 <NachGegen Nr="7461"/>
 </StrElement>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Nörten-Hardenbg S057" FahrstrTyp="TypZug" Laenge="670.8">
+<FahrstrStart Ref="864">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="354">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="356">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="588">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrSigHaltfall Ref="741">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+</Fahrstrasse>
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Nörten-Hardenbg S058" FahrstrTyp="TypZug" Laenge="669.2">
+<FahrstrStart Ref="863">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrStart>
+<FahrstrZiel Ref="357">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrZiel>
+<FahrstrRegister Ref="359">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrRegister>
+<FahrstrAufloesung Ref="588">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrAufloesung>
+<FahrstrSigHaltfall Ref="578">
+<Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>
+</FahrstrSigHaltfall>
+</Fahrstrasse>
 <Fahrstrasse FahrstrName="Anzeige: LZB-Bk 202 202 -&gt; Üst Sudheim 112" FahrstrStrecke="300b" RglGgl="2" FahrstrTyp="TypAnzeige" Laenge="2594.6001">
 <FahrstrStart Ref="756">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0057\000565_005719_Noerten-Hardenberg\Noerten-Hardenberg_1998.st3" NurInfo="1"/>

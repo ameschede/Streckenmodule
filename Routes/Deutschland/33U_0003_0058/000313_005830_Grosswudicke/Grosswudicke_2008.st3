@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.3" MinVersion="A.1">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="28.22"/>
+<Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="28.43"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Grosswudicke_2008.ls3"/>
@@ -571,38 +571,44 @@
 <InfoNormRichtung vMax="-1" Reg="5002">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10175"/>
-<Signal NameBetriebsstelle="LZB-Bk 10175" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10175" SignalTyp="12" BoundingR="1">
-<p X="2454.1335" Y="248.0715" Z="34.35"/>
+<Signal NameBetriebsstelle="LZB-Bk 10175" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10175" SignalTyp="12" BoundingR="10">
+<p X="2454.1382" Y="248.0554" Z="34.32"/>
 <phi Z="3.134011"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -1229,38 +1235,44 @@
 <InfoNormRichtung vMax="-1" Reg="5005">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10177"/>
-<Signal NameBetriebsstelle="LZB-Bk 10177" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10177" SignalTyp="12" BoundingR="1">
-<p X="-2314.4966" Y="402.8858" Z="39.1271"/>
+<Signal NameBetriebsstelle="LZB-Bk 10177" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10177" SignalTyp="12" BoundingR="10">
+<p X="-2314.4966" Y="402.8857" Z="39.1271"/>
 <phi Z="3.105148"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -2526,11 +2538,13 @@
 <SignalFrame>
 <p Y="-3.1" Z="2.4"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3.1" Z="0.8"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_reflekt.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2568,11 +2582,13 @@
 <SignalFrame>
 <p Y="-3.1" Z="2.4"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3.1" Z="0.8"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_reflekt.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2602,36 +2618,43 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs4m1-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\VsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.175" Y="-0.4" Z="2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vr-TafelKsKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.4" Z="0.125"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.095" Z="4.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.095" Z="4.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.675"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -2787,11 +2810,13 @@
 <SignalFrame>
 <p Y="-3.1" Z="2.4"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3.1" Z="0.8"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_reflekt.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -2893,6 +2918,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -3032,61 +3058,73 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs4m1-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\HmVsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="-0.4" Z="1.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\MastschildKombiKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.4" Z="0.125"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.675"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\Zs7Ks.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.515" Z="6.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.515" Z="6.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_oben.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Z="3.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KS_ESTW.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_1-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="-0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_0-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Z="3.33"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_C-mittel.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -3741,6 +3779,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1959_DB\Sonstiges\DB_Fahrtanzeiger.Lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -3798,6 +3837,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -4591,6 +4631,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -4793,61 +4834,73 @@
 <SignalFrame>
 <p Y="-0.425"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs3m5-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Y="-0.425" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\HsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="-0.825" Z="1.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\MastschildHsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.825" Z="0.725"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Y="-0.425" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\ShKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Y="-0.425" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\Zs7Ks.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.425" Z="3.5"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KS_ESTW.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.4" Z="3.575"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_1-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.45" Z="3.575"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_0-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.4" Z="3.43"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_N-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.45" Z="3.43"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_3-mittel.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -5109,31 +5162,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\500\54_500_1-12_Rechts_Schienen_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\500\Zunge_500R_gerade_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\500\Zunge_500R_abzweig_K-Oberbau.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700 (blaßgrün) rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.17"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Antrieb_S700_blassgruen.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="5.45"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Zungenpruefer_ELP319.lod.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antrieb Mittelverschluß (für gleiche Seite wie Antrieb) rechts" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.24"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Elektrisch\Mittelverschluss500_Re.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -5476,31 +5535,37 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Bogenweichen\54_500_1-12_Links_Schienen_K-Oberbau_gebogen_0001.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Bogenweichen\Zunge_500L_gerade_K-Oberbau_gebogen_0001.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Bogenweichen\Zunge_500L_abzweig_K-Oberbau_gebogen_0001.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Elektrischer Antrieb S700 (blaßgrün) links" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.17"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Bogenweichen\Antrieb_S700_blassgruen.lod_gebogen_0002.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="1" WeichenbaugruppeNr="1" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="5.45"/>
 <phi Z="3.1415"/>
+<sk/>
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Bogenweichen\Zungenpruefer_ELP319.lod_gebogen_0002.ls3"/>
 </SignalFrame>
 <SignalFrame WeichenbaugruppeIndex="2" WeichenbaugruppeNr="1" WeichenbaugruppeBeschreibung="Antrieb Mittelverschluß links(für Antrieb Weiche links)" WeichenbaugruppePos0="1" WeichenbaugruppePos1="1">
 <p X="1.24"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000313_005830_Grosswudicke\Bogenweichen\Mittelverschluss500_Li.lod_gebogen_0001.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -5657,71 +5722,85 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs4m1-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\HsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="-0.4" Z="1.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\MastschildHsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.4" Z="0.125"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.675"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\ShKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\Zs7Ks.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="6.05"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Blechtafeln\Zs3_Tafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.381" Z="6.05"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Blechtafeln\Ziffern\Zs3_Tafel-6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Z="3.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KS_ESTW.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_1-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="-0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_0-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="0.025" Z="3.33"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_N-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="-0.025" Z="3.33"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_5-mittel.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -5973,6 +6052,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -6543,38 +6623,44 @@
 <InfoNormRichtung vMax="-1" Reg="5024">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10375"/>
-<Signal NameBetriebsstelle="LZB-Bk 10375" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10375" SignalTyp="12" BoundingR="1">
-<p X="2454.0154" Y="236.3179" Z="34.35"/>
+<Signal NameBetriebsstelle="LZB-Bk 10375" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10375" SignalTyp="12" BoundingR="10">
+<p X="2454.0405" Y="236.3339" Z="34.32"/>
 <phi Z="3.133974"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr5.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_5.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -7211,38 +7297,44 @@
 <InfoNormRichtung vMax="-1" Reg="5027">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10377"/>
-<Signal NameBetriebsstelle="LZB-Bk 10377" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10377" SignalTyp="12" BoundingR="1">
-<p X="-2315.0554" Y="390.6018" Z="39.1274"/>
+<Signal NameBetriebsstelle="LZB-Bk 10377" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10377" SignalTyp="12" BoundingR="10">
+<p X="-2315.0552" Y="390.6018" Z="39.1274"/>
 <phi Z="3.105081"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -7915,6 +8007,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Bereichskennzeichen\LZB_Bereich-doppelt.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -8189,6 +8282,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbuch_1959_DR\Rangierdienst\DR_Ra10_blank.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="2"/>
@@ -8212,61 +8306,73 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs4m1-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\HsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="-0.4" Z="1.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\MastschildHsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.4" Z="0.125"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.675"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\ShKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\Zs7Ks.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Z="3.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KS_ESTW.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_1-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="-0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_0-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="0.025" Z="3.33"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_P-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.2" Y="-0.025" Z="3.33"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_3-mittel.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -8339,71 +8445,85 @@
 <SignalFrame>
 <p Y="-0.425"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs3m5-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Y="-0.425" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\HsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="-0.825" Z="1.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\MastschildHsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.825" Z="0.725"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.25"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Y="-0.425" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\ShKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Y="-0.425" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\Zs7Ks.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Y="-0.425" Z="6.05"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Blechtafeln\Zs3_Tafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.381" Y="-0.425" Z="6.05"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Blechtafeln\Ziffern\Zs3_Tafel-6.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.4249" Z="3.5"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KS_ESTW.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.3999" Z="3.575"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_1-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.4499" Z="3.575"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_0-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.3999" Z="3.43"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_P-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.35" Y="-0.4499" Z="3.43"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_5-mittel.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -8490,61 +8610,73 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs4m1-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\HmVsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.125" Y="-0.4" Z="1.75"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\MastschildKombiKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.4" Z="0.125"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.675"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\Zs7Ks.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.515" Z="6.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.515" Z="6.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_oben.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1998" Z="3.4"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungsfeld_KS_ESTW.lod1.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1998" Y="0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_1-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1998" Y="-0.025" Z="3.475"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_0-mittel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.1998" Z="3.33"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Mittel\Sigbeschr_H-mittel.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9157,36 +9289,43 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\AuslMastKompKs4m1-0m4-1m.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.455" Z="5"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1995_DBAG\Lichtsignale_Ks\VsigKs.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-0.175" Y="-0.4" Z="2"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Vr-TafelKsKomp.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-0.4" Z="0.125"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\SchaltkastenKsKomp-e.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.095" Z="4.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Zusatzsignale\Lichtsignale_28x22Matrix\Ziffern\Zs3v_Ziffern.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p X="-1.095" Z="4.1"/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Lichtsignale_Kompakt\Lichtzusatzsignale\Schirme\Zs_unten.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="2.675"/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9395,6 +9534,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9420,6 +9560,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="signals\Deutschland\Indusi\Indusi-Sie_kl.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
@@ -9466,11 +9607,13 @@
 <SignalFrame>
 <p Y="-3.1" Z="2.4"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3.1" Z="0.8"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_1_reflekt.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -9492,11 +9635,13 @@
 <SignalFrame>
 <p Y="-3.1" Z="2.4"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3.1" Z="0.8"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_2_reflekt.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -9518,11 +9663,13 @@
 <SignalFrame>
 <p Y="-3.1" Z="2.4"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1935\Kennzeichen\Betonpfosten-oA.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="-3.1" Z="0.8"/>
 <phi Z="-0.349066"/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\Nebensignale\lod\72_DB_Ne3_3_reflekt.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -10161,11 +10308,13 @@
 <SignalFrame>
 <p Y="-0.05"/>
 <phi/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Gleistore\Gleistor_verzinkt_ohne_Sh2.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
 <p Y="0.05"/>
 <phi Z="3.141592"/>
+<sk/>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Gleistore\Gleistor_verzinkt_ohne_Sh2.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="1"/>
@@ -11304,6 +11453,7 @@
 <SignalFrame>
 <p/>
 <phi/>
+<sk/>
 <Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Bereichskennzeichen\LZB_Bereich-doppelt.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff HsigGeschw="-1"/>
@@ -15458,38 +15608,44 @@
 <InfoGegenRichtung vMax="-1" Reg="5041">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10176"/>
-<Signal NameBetriebsstelle="LZB-Bk 10176" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10176" SignalTyp="12" BoundingR="1">
+<Signal NameBetriebsstelle="LZB-Bk 10176" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10176" SignalTyp="12" BoundingR="10">
 <p X="-2435.8379" Y="407.3832" Z="39.4437"/>
 <phi Z="-0.036451"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -15511,38 +15667,44 @@
 <InfoGegenRichtung vMax="-1" Reg="5042">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10376"/>
-<Signal NameBetriebsstelle="LZB-Bk 10376" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10376" SignalTyp="12" BoundingR="1">
-<p X="-2436.303" Y="394.9715" Z="39.4437"/>
+<Signal NameBetriebsstelle="LZB-Bk 10376" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10376" SignalTyp="12" BoundingR="10">
+<p X="-2436.303" Y="394.9714" Z="39.4437"/>
 <phi Z="-0.036465"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr6.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_6.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -15578,38 +15740,44 @@
 <InfoGegenRichtung vMax="-1" Reg="5043">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10372"/>
-<Signal NameBetriebsstelle="LZB-Bk 10372" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10372" SignalTyp="12" BoundingR="1">
-<p X="2307.1338" Y="236.9628" Z="34.7509"/>
+<Signal NameBetriebsstelle="LZB-Bk 10372" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10372" SignalTyp="12" BoundingR="10">
+<p X="2307.134" Y="236.9628" Z="34.7509"/>
 <phi Z="-0.007569"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_2.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -15631,38 +15799,44 @@
 <InfoGegenRichtung vMax="-1" Reg="5044">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 10172"/>
-<Signal NameBetriebsstelle="LZB-Bk 10172" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10172" SignalTyp="12" BoundingR="1">
+<Signal NameBetriebsstelle="LZB-Bk 10172" Stellwerk="Steuerbereich 10 Großwudicke" Signalname="10172" SignalTyp="12" BoundingR="10">
 <p X="2307.189" Y="250.2315" Z="34.6506"/>
 <phi Z="-0.00764"/>
 <SignalFrame>
 <p/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<sk/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr0.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_0.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr2.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_2.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>

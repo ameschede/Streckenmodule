@@ -12,13 +12,13 @@
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Schaltschrank\KVz82A.lod.ls3"/>
-<p X="121.743" Y="310.325" Z="34.4797"/>
+<p X="121.743" Y="310.325" Z="34.2198"/>
 <phi Z="2.450495"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Schaltschrank\KVz82A.lod.ls3"/>
-<p X="120.5922" Y="311.0641" Z="34.482"/>
+<p X="120.5922" Y="311.0641" Z="34.1253"/>
 <phi Z="2.450494"/>
 <sk/>
 </Verknuepfte>
@@ -2136,7 +2136,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\sycamore\Sycamore01-12m.lod.ls3"/>
-<p X="357.633" Y="169.2278" Z="33.1762"/>
+<p X="357.633" Y="169.2278" Z="32.7438"/>
 <phi Z="-0.218943"/>
 <sk X="1.0921" Y="1.0921" Z="1.0921"/>
 </Verknuepfte>
@@ -2148,7 +2148,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\Trees\sycamore\sycamore01-08m.lod.ls3"/>
-<p X="373.2495" Y="180.8052" Z="33.2112"/>
+<p X="373.2495" Y="180.8052" Z="32.7311"/>
 <phi Z="1.993515"/>
 <sk X="1.0481" Y="1.0481" Z="1.0481"/>
 </Verknuepfte>
@@ -7278,7 +7278,7 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Schaltschrank\Schaltschrank_110x140x27.lod.ls3"/>
-<p X="-162.9047" Y="485.9572" Z="34.6718"/>
+<p X="-162.9047" Y="485.9572" Z="34.8373"/>
 <phi Z="2.443461"/>
 <sk/>
 </Verknuepfte>
@@ -10292,6 +10292,42 @@
 <Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\2-leitpfosten_strasse750cm.lod.ls3"/>
 <p X="315.5817" Y="452.567" Z="35.09"/>
 <phi Z="-1.303044"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\Masten\Verkehrszeichenmast_3m.lod.ls3"/>
+<p X="352.6505" Y="113.8322" Z="33.2944"/>
+<phi Z="5.568658"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen131_Lichtzeichenanlage\Zeichen131_1992_mittel.lod.ls3"/>
+<p X="352.6747" Y="113.8112" Z="35.2944"/>
+<phi Z="-0.714527"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\Masten\Verkehrszeichenmast_3m.lod.ls3"/>
+<p X="226.9009" Y="214.3411" Z="33.7487"/>
+<phi Z="5.568658"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen306_Vorfahrtstrasse\Zeichen_306_1992_mittel.lod.ls3"/>
+<p X="226.925" Y="214.3201" Z="36.2488"/>
+<phi Z="-0.714527"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\Masten\Verkehrszeichenmast_3m.lod.ls3"/>
+<p X="204.0014" Y="237.9063" Z="33.819"/>
+<phi Z="5.568658"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen274_Hoechstgeschwindigkeit\Zeichen274_70_1992_mittel.lod.ls3"/>
+<p X="204.0256" Y="237.8853" Z="36.319"/>
+<phi Z="-0.714527"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
@@ -15297,9 +15333,9 @@
 <p X="-500" Y="-195.6349" Z="34.1756"/>
 <n X="-0.0348" Y="0.0906" Z="0.9953"/>
 </Vertex>
-<Vertex U="1" V="-804.819">
-<p X="-500" Y="-195.1692" Z="34.1333"/>
-<n X="-0.0348" Y="0.0906" Z="0.9953"/>
+<Vertex U="1.0134" V="-804.9411">
+<p X="-500" Y="-195.166" Z="34.1358"/>
+<n X="-0.0338" Y="0.0845" Z="0.9958"/>
 </Vertex>
 <Vertex U="1" V="-811.8112">
 <p X="-495.1572" Y="-193.5025" Z="34.1545"/>
@@ -15633,9 +15669,9 @@
 <p X="181.5701" Y="105.9704" Z="40.7153"/>
 <n X="-0.0503" Y="0.0831" Z="0.9953"/>
 </Vertex>
-<Vertex U="1" V="-1831.9435">
-<p X="186.7626" Y="109.6598" Z="40.6718"/>
-<n X="-0.0506" Y="0.0829" Z="0.9953"/>
+<Vertex U="1.022" V="-1836.7468">
+<p X="189.7919" Y="111.3433" Z="40.676"/>
+<n X="-0.0536" Y="0.0905" Z="0.9945"/>
 </Vertex>
 <Vertex V="-1831.9435">
 <p X="187.115" Y="109.021" Z="40.7429"/>
@@ -15801,9 +15837,9 @@
 <p X="465.8044" Y="276.3893" Z="39.7584"/>
 <n X="-0.0454" Y="0.0862" Z="0.9952"/>
 </Vertex>
-<Vertex U="1" V="-2282.8066">
-<p X="469.7015" Y="279.8059" Z="39.6416"/>
-<n X="-0.0456" Y="0.0861" Z="0.9952"/>
+<Vertex U="1.0106" V="-2283.3162">
+<p X="469.982" Y="280" Z="39.6352"/>
+<n X="-0.0469" Y="0.0889" Z="0.9949"/>
 </Vertex>
 <Vertex V="-2282.8066">
 <p X="470.1011" Y="279.1956" Z="39.7127"/>
@@ -15817,9 +15853,9 @@
 <p X="482.1104" Y="287.077" Z="39.5728"/>
 <n X="-0.0451" Y="0.0865" Z="0.9952"/>
 </Vertex>
-<Vertex U="1" V="-2329.0332">
-<p X="497.9676" Y="298.4467" Z="39.3114"/>
-<n X="-0.0455" Y="0.0863" Z="0.9952"/>
+<Vertex U="1.0129" V="-2326.6538">
+<p X="496.5189" Y="297.4985" Z="39.3283"/>
+<n X="-0.0448" Y="0.0852" Z="0.9954"/>
 </Vertex>
 <Vertex V="-2329.0332">
 <p X="498.3716" Y="297.8392" Z="39.3825"/>
@@ -26338,68 +26374,68 @@
 <Face i="65;7;53"/>
 <Face i="3;66;7"/>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10">
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="4">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Deutschland\Pflaster\Rechtecksteinpflaster\Klinkerpflaster02_rot.dds"/>
 </Textur>
-<Vertex U="73.432" V="26.699">
+<Vertex U="184.8527" V="182.7472">
 <p X="233.0148" Y="234.3168" Z="33.7037"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="73.871" V="26.592">
+<Vertex U="185.8646" V="183.2494">
 <p X="234.0775" Y="238.7084" Z="33.6953"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="73.769" V="26.484">
+<Vertex U="185.8435" V="182.8779">
 <p X="235.1616" Y="237.6884" Z="33.6915"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="73.525" V="26.974">
+<Vertex U="184.5892" V="183.4246">
 <p X="230.2612" Y="235.251" Z="33.7148"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="73.347" V="27.159">
+<Vertex U="183.951" V="183.493">
 <p X="228.4112" Y="233.4714" Z="33.7243"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.2" V="28.024">
+<Vertex U="180.3655" V="183.306">
 <p X="219.765" Y="222.004" Z="33.7717"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="73.097" V="27.433">
+<Vertex U="183.0323" V="183.6168">
 <p X="225.6695" Y="230.9741" Z="33.7383"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.539" V="27.864">
+<Vertex U="181.2692" V="183.5452">
 <p X="221.3559" Y="225.3882" Z="33.7619"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.852" V="27.705">
+<Vertex U="182.1243" V="183.7427">
 <p X="222.9489" Y="228.5159" Z="33.7523"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.074" V="28.051">
+<Vertex U="180.0787" V="183.155">
 <p X="219.4901" Y="220.7369" Z="33.774"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.826" V="27.069">
+<Vertex U="183.0987" V="182.4829">
 <p X="229.3146" Y="228.2623" Z="33.725"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.6" V="27.25">
+<Vertex U="182.375" V="182.4669">
 <p X="227.5029" Y="226.0039" Z="33.7348"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.334" V="27.533">
+<Vertex U="181.4098" V="182.5819">
 <p X="224.669" Y="223.342" Z="33.7494"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.132" V="27.759">
+<Vertex U="180.6593" V="182.6905">
 <p X="222.4063" Y="221.3215" Z="33.7609"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="72.018" V="27.952">
+<Vertex U="180.1306" V="182.8753">
 <p X="220.4808" Y="220.1766" Z="33.7702"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
@@ -26417,88 +26453,88 @@
 <Face i="9;12;13"/>
 <Face i="9;13;14"/>
 </SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="10">
+<SubSet Cd="00FFFFFF" TypLs3="11" TypGF="1" MeterProTex="4">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Deutschland\Pflaster\Rechtecksteinpflaster\Klinkerpflaster02_rot.dds"/>
 </Textur>
-<Vertex U="71.335" V="27.386">
+<Vertex U="182.5542" V="178.5131">
 <p X="226.1491" Y="213.3571" Z="33.7535"/>
 <n X="0.0041" Y="0.0006" Z="1"/>
 </Vertex>
-<Vertex U="71.431" V="27.5">
+<Vertex U="182.1822" V="178.5071">
 <p X="225.0201" Y="214.327" Z="33.7581"/>
 <n X="0.0041" Y="0.0011" Z="1"/>
 </Vertex>
-<Vertex U="71.513" V="27.441">
+<Vertex U="182.1551" V="178.753">
 <p X="225.5916" Y="215.1349" Z="33.7526"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="71.668" V="27.301">
+<Vertex U="182.1605" V="179.2737">
 <p X="226.9901" Y="216.6781" Z="33.7452"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="71.258" V="27.295">
+<Vertex U="182.8512" V="178.5215">
 <p X="227.0598" Y="212.5938" Z="33.7502"/>
 <n X="0.0038" Y="0.0013" Z="1"/>
 </Vertex>
-<Vertex U="71.771" V="27.211">
+<Vertex U="182.1566" V="179.6152">
 <p X="227.8854" Y="217.7106" Z="33.7404"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="71.228" V="27.26">
+<Vertex U="182.9687" V="178.5227">
 <p X="227.4146" Y="212.2861" Z="33.7489"/>
 <n X="0.004" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex U="71.926" V="27.063">
+<Vertex U="182.1767" V="180.1525">
 <p X="229.3719" Y="219.2642" Z="33.7327"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="71.193" V="27.219">
+<Vertex U="183.102" V="178.5267">
 <p X="227.8241" Y="211.9438" Z="33.7475"/>
 <n X="0.0044" Y="0.0011" Z="1"/>
 </Vertex>
-<Vertex U="71.901" V="27.018">
+<Vertex U="182.3038" V="180.1791">
 <p X="229.8226" Y="219.0065" Z="33.7309"/>
 <n X="0.0043" Y="0.0009" Z="1"/>
 </Vertex>
-<Vertex U="71.18" V="27.204">
+<Vertex U="183.1517" V="178.5272">
 <p X="227.9742" Y="211.8134" Z="33.7469"/>
 <n X="0.0049" Y="0.001" Z="1"/>
 </Vertex>
-<Vertex U="71.511" V="26.964">
+<Vertex U="183.0505" V="179.5377">
 <p X="230.3542" Y="215.1053" Z="33.7318"/>
 <n X="0.0045" Y="0.0008" Z="1"/>
 </Vertex>
-<Vertex U="71.128" V="27.141">
+<Vertex U="183.3548" V="178.5337">
 <p X="228.5988" Y="211.2933" Z="33.7447"/>
 <n X="0.0046" Y="0.0012" Z="1"/>
 </Vertex>
-<Vertex U="71.473" V="26.955">
+<Vertex U="183.1311" V="179.4823">
 <p X="230.4482" Y="214.7256" Z="33.7318"/>
 <n X="0.0004" Y="0.0028" Z="1"/>
 </Vertex>
-<Vertex U="71.126" V="27.141">
+<Vertex U="183.3587" V="178.5297">
 <p X="228.6" Y="211.2708" Z="33.7447"/>
 <n X="0.0023" Y="0.0023" Z="1"/>
 </Vertex>
-<Vertex U="71.397" V="26.93">
+<Vertex U="183.3043" V="179.3835">
 <p X="230.7041" Y="213.9701" Z="33.7338"/>
 <n X="0.0022" Y="0.0019" Z="1"/>
 </Vertex>
-<Vertex U="71.102" V="27.109">
+<Vertex U="183.4582" V="178.5374">
 <p X="228.9185" Y="211.0298" Z="33.7447"/>
 <n X="0.0027" Y="0.002" Z="1"/>
 </Vertex>
-<Vertex U="71.038" V="26.802">
+<Vertex U="184.1386" V="178.9247">
 <p X="231.9821" Y="210.3826" Z="33.7376"/>
 <n X="0.0022" Y="0.0019" Z="1"/>
 </Vertex>
-<Vertex U="70.709" V="26.634">
+<Vertex U="184.9977" V="178.5866">
 <p X="233.6551" Y="207.0901" Z="33.7396"/>
 <n X="0.0022" Y="0.0018" Z="1"/>
 </Vertex>
-<Vertex U="70.975" V="26.95">
+<Vertex U="183.9668" V="178.5624">
 <p X="230.5064" Y="209.7545" Z="33.7435"/>
 <n X="0.003" Y="0.0023" Z="1"/>
 </Vertex>
@@ -36564,6 +36600,138 @@
 <Face i="43;42;41"/>
 <Face i="42;43;31"/>
 <Face i="30;31;43"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="2"/>
+<Textur>
+<Datei Dateiname="Terrain\Deutschland\Strassen\Zubehoer\schutzplanke.dds"/>
+</Textur>
+<Vertex V="0.99" V2="0.99">
+<p X="374.1205" Y="94.0848" Z="33.4771"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.6848" V="0.99" U2="-16.6848" V2="0.99">
+<p X="348.8884" Y="115.9718" Z="33.4706"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.6848" V="0.76" U2="-16.6848" V2="0.76">
+<p X="348.8884" Y="115.9718" Z="34.2206"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.76" V2="0.76">
+<p X="374.1205" Y="94.0848" Z="34.2271"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.6848" V="0.75" U2="-16.6848" V2="0.75">
+<p X="348.9145" Y="116.0021" Z="34.2206"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.75" V2="0.75">
+<p X="374.1467" Y="94.115" Z="34.2271"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-16.6848" V="0.57" U2="-16.6848" V2="0.57">
+<p X="348.9145" Y="116.0021" Z="33.4706"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.57" V2="0.57">
+<p X="374.1467" Y="94.115" Z="33.4771"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-31.7298" V="0.99" U2="-31.7298" V2="0.99">
+<p X="325.9754" Y="135.5711" Z="33.4734"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-31.7298" V="0.76" U2="-31.7298" V2="0.76">
+<p X="325.9754" Y="135.5711" Z="34.2234"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-31.7298" V="0.75" U2="-31.7298" V2="0.75">
+<p X="326.0013" Y="135.6016" Z="34.2234"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-31.7298" V="0.57" U2="-31.7298" V2="0.57">
+<p X="326.0013" Y="135.6016" Z="33.4734"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-39.5873" V="0.99" U2="-39.5873" V2="0.99">
+<p X="313.9274" Y="145.7457" Z="33.478"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-39.5873" V="0.76" U2="-39.5873" V2="0.76">
+<p X="313.9274" Y="145.7457" Z="34.228"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-39.5873" V="0.75" U2="-39.5873" V2="0.75">
+<p X="313.9531" Y="145.7764" Z="34.228"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-39.5873" V="0.57" U2="-39.5873" V2="0.57">
+<p X="313.9531" Y="145.7764" Z="33.478"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-47.4449" V="0.99" U2="-47.4449" V2="0.99">
+<p X="301.8381" Y="155.8463" Z="33.4849"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-47.4449" V="0.76" U2="-47.4449" V2="0.76">
+<p X="301.8381" Y="155.8463" Z="34.2349"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-47.4449" V="0.75" U2="-47.4449" V2="0.75">
+<p X="301.8636" Y="155.8771" Z="34.2349"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-47.4449" V="0.57" U2="-47.4449" V2="0.57">
+<p X="301.8636" Y="155.8771" Z="33.4849"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-82.2771" V="0.99" U2="-82.2771" V2="0.99">
+<p X="248.2449" Y="200.3606" Z="33.5207"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-82.2771" V="0.76" U2="-82.2771" V2="0.76">
+<p X="248.2449" Y="200.3606" Z="34.2707"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-82.2771" V="0.75" U2="-82.2771" V2="0.75">
+<p X="248.2705" Y="200.3914" Z="34.2707"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-82.2771" V="0.57" U2="-82.2771" V2="0.57">
+<p X="248.2705" Y="200.3914" Z="33.5207"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
+<Face i="9;1;8"/>
+<Face i="1;9;2"/>
+<Face i="10;2;9"/>
+<Face i="2;10;4"/>
+<Face i="11;4;10"/>
+<Face i="4;11;6"/>
+<Face i="13;8;12"/>
+<Face i="8;13;9"/>
+<Face i="14;9;13"/>
+<Face i="9;14;10"/>
+<Face i="15;10;14"/>
+<Face i="10;15;11"/>
+<Face i="17;12;16"/>
+<Face i="12;17;13"/>
+<Face i="18;13;17"/>
+<Face i="13;18;14"/>
+<Face i="19;14;18"/>
+<Face i="14;19;15"/>
+<Face i="21;16;20"/>
+<Face i="16;21;17"/>
+<Face i="22;17;21"/>
+<Face i="17;22;18"/>
+<Face i="23;18;22"/>
+<Face i="18;23;19"/>
 </SubSet>
 </Landschaft>
 </Zusi>

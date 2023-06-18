@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
 <Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="20"/>
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="20.23"/>
 </Info>
 <Strecke Himmelsmodell="2">
 <Datei Dateiname="Routes\Deutschland\33U_0003_0058\000306_005831_Schoenhauser_Damm\Schoenhauser_Damm_2008.ls3"/>
@@ -1412,44 +1412,44 @@
 <InfoNormRichtung vMax="-1" Reg="5005">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 11179"/>
-<Signal NameBetriebsstelle="LZB-Bk 11179" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11179" SignalTyp="12" BoundingR="1">
+<Signal NameBetriebsstelle="LZB-Bk 11179" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11179" SignalTyp="12" BoundingR="10">
 <p X="-108.175" Y="-416.0997" Z="38.388"/>
 <phi Z="3.105035"/>
 <SignalFrame>
 <p/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr9.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_9.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -2290,44 +2290,44 @@
 <InfoNormRichtung vMax="-1" Reg="5007">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 11379"/>
-<Signal NameBetriebsstelle="LZB-Bk 11379" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11379" SignalTyp="12" BoundingR="1">
+<Signal NameBetriebsstelle="LZB-Bk 11379" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11379" SignalTyp="12" BoundingR="10">
 <p X="-108.5889" Y="-428.4028" Z="38.3881"/>
-<phi Z="3.105041"/>
+<phi Z="3.10504"/>
 <SignalFrame>
 <p/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr9.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_9.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -12527,44 +12527,44 @@
 <InfoGegenRichtung vMax="-1" Reg="5055">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 11378"/>
-<Signal NameBetriebsstelle="LZB-Bk 11378" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11378" SignalTyp="12" BoundingR="1">
+<Signal NameBetriebsstelle="LZB-Bk 11378" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11378" SignalTyp="12" BoundingR="10">
 <p X="-234.8777" Y="-423.7948" Z="38.0957"/>
 <phi Z="-0.036561"/>
 <SignalFrame>
 <p/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr3.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_3.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_8.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>
@@ -12586,44 +12586,44 @@
 <InfoGegenRichtung vMax="-1" Reg="5056">
 <Ereignis Er="1000002" Beschr="A"/>
 <Ereignis Er="6" Beschr="@icon=0@LZB-Bk 11178"/>
-<Signal NameBetriebsstelle="LZB-Bk 11178" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11178" SignalTyp="12" BoundingR="1">
+<Signal NameBetriebsstelle="LZB-Bk 11178" Stellwerk="Steuerbereich 11 Schönhauser Damm" Signalname="11178" SignalTyp="12" BoundingR="10">
 <p X="-234.4629" Y="-411.4949" Z="38.0956"/>
 <phi Z="-0.036552"/>
 <SignalFrame>
 <p/>
 <phi/>
 <sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\Blockkennzeichen_ohneRand.lod.ls3"/>
+<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_BlockTafel.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.065" Z="0.11"/>
+<p X="-0.01" Y="0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.065" Z="0.11"/>
+<p X="-0.01" Y="0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="0.13" Z="-0.11"/>
+<p X="-0.01"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr1.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_1.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Z="-0.11"/>
+<p X="-0.01" Y="-0.075"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr7.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_7.lod.ls3"/>
 </SignalFrame>
 <SignalFrame>
-<p X="-0.01" Y="-0.13" Z="-0.11"/>
+<p X="-0.01" Y="-0.15"/>
 <phi/>
-<sk/>
-<Datei Dateiname="Signals\Deutschland\Signalordnung_1972_DB\LZB\LZB-Blockkennzeichen\LZB_Ziffern\LZB_ZifferGr8.lod.ls3"/>
+<sk X="1.4" Y="1.4" Z="1.4"/>
+<Datei Dateiname="Signals\Deutschland\Signalbeschriftung\Beschriftungen\Gross\Sigbeschr_8.lod.ls3"/>
 </SignalFrame>
 <HsigBegriff FahrstrTyp="8"/>
 <HsigBegriff HsigGeschw="-1" FahrstrTyp="8"/>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Kettenwerk Re 160" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="125" Y="-69.2017" Z="42.4723"/>
+<n X="0.4618" Y="-0.0255" Z="0.8445"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-69.0938" Z="42.4682"/>
+<n X="-0.9982" Y="0.0596" Z="-0.0001"/>
+</Vertex>
+<Vertex>
+<p X="124.8804" Y="-71.0967" Z="42.4731"/>
+<n X="-0.9982" Y="0.0596" Z="-0.0001"/>
+</Vertex>
+<Vertex>
+<p X="124.887" Y="-71.097" Z="42.477"/>
+<n X="0.4991" Y="-0.0277" Z="0.8661"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-69.2045" Z="42.4724"/>
+<n X="0.4991" Y="-0.0277" Z="0.8661"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-69.2045" Z="42.4648"/>
+<n X="0.4991" Y="-0.0318" Z="-0.8228"/>
+</Vertex>
+<Vertex>
+<p X="124.887" Y="-71.097" Z="42.4692"/>
+<n X="0.4991" Y="-0.0319" Z="-0.8659"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-69.2045" Z="42.4646"/>
+<n X="0.4991" Y="-0.0319" Z="-0.8659"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="-69.0967" Z="42.4681"/>
+<n X="-0.9588" Y="0.0572" Z="-0.0229"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="0;3;4"/>
+<Face i="4;3;6"/>
+<Face i="4;6;5"/>
+<Face i="5;6;7"/>
+<Face i="2;8;7"/>
+<Face i="2;7;6"/>
+<Face i="8;2;1"/>
+</SubSet>
+<SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Kettenwerk Re 160" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="125" Y="67.8534" Z="42.1058"/>
+<n X="0.4759" Y="0.031" Z="-0.8529"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="67.7605" Z="42.1099"/>
+<n X="-0.9975" Y="-0.07" Z="0.0002"/>
+</Vertex>
+<Vertex>
+<p X="124.9248" Y="68.8317" Z="42.1069"/>
+<n X="-0.9975" Y="-0.07" Z="0.0002"/>
+</Vertex>
+<Vertex>
+<p X="124.9314" Y="68.8322" Z="42.103"/>
+<n X="0.4988" Y="0.0326" Z="-0.8661"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="67.8549" Z="42.1058"/>
+<n X="0.4988" Y="0.0326" Z="-0.8661"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="67.8549" Z="42.1134"/>
+<n X="0.4988" Y="0.0374" Z="0.8395"/>
+</Vertex>
+<Vertex>
+<p X="124.9314" Y="68.8322" Z="42.1108"/>
+<n X="0.4988" Y="0.0375" Z="0.8659"/>
+</Vertex>
+<Vertex>
+<p X="125" Y="67.7621" Z="42.11"/>
+<n X="-0.9725" Y="-0.0682" Z="0.0147"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;0;2"/>
+<Face i="0;3;4"/>
+<Face i="4;3;6"/>
+<Face i="4;6;5"/>
+<Face i="2;7;5"/>
+<Face i="2;5;6"/>
+<Face i="7;2;1"/>
+</SubSet>
+</Landschaft>
+</Zusi>

@@ -2062,6 +2062,60 @@
 <phi Z="1.463808"/>
 <sk/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-FUSS\Mast-Fuss-4x4x6m2.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="30.8533"/>
+<phi Z="-0.089969"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Stiele\Mast-Stiel-2m6x2m6x12m.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="37.0533"/>
+<phi Y="0" Z="-0.089969"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Cubes\Mast-Cube-1m8x1m8x2m.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="49.0533"/>
+<phi X="0" Y="0" Z="-0.089969"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Stiele\Mast-Stiel-2m6x2m6x12m.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="51.0533"/>
+<phi Z="-0.089968"/>
+<sk X="0.692" Y="0.692"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Cubes\Mast-Cube-1m8x1m8x2m.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="63.0533"/>
+<phi Z="-0.089968"/>
+<sk X="0.692" Y="0.692"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Stiele\Mast-Stiel-2m6x2m6x12m.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="65.0533"/>
+<phi Z="-0.089968"/>
+<sk X="0.479" Y="0.479"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Cubes\Mast-Cube-1m8x1m8x2m.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="77.0533"/>
+<phi Z="-0.089968"/>
+<sk X="0.479" Y="0.479"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Stiele\Mast-Stiel-2m9x2m9x7m.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="79.0533"/>
+<phi Z="-0.089968"/>
+<sk X="0.3" Y="0.3"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1839" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Cubes\Mast-Cube-2m7x2m7x2m7.lod.ls3"/>
+<p X="-335.3083" Y="-383.6379" Z="86.0533"/>
+<phi Z="-0.089968"/>
+<sk X="0.3" Y="0.3" Z="0.8"/>
+</Verknuepfte>
 <SubSet Cd="FFF5F5F5" TypLs3="4" TypGF="3" MeterProTex="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -13841,19 +13895,19 @@
 <p X="308.7845" Y="410.8326" Z="30.1219"/>
 <n X="0.0034" Y="0.0015" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1093.9533">
+<Vertex U="1" V="1093.9532">
 <p X="302.3572" Y="417.0167" Z="30.1241"/>
 <n X="0.0032" Y="0.003" Z="1"/>
 </Vertex>
-<Vertex V="1093.9533">
+<Vertex V="1093.9532">
 <p X="303.0874" Y="417.08" Z="30.1228"/>
 <n X="0.0015" Y="0.0027" Z="1"/>
 </Vertex>
-<Vertex U="1" V="1093.9533">
+<Vertex U="1" V="1093.9532">
 <p X="308.9325" Y="417.5864" Z="30.1126"/>
 <n X="0.0034" Y="0.0013" Z="1"/>
 </Vertex>
-<Vertex V="1093.9533">
+<Vertex V="1093.9532">
 <p X="308.2023" Y="417.5232" Z="30.1139"/>
 <n X="0.0016" Y="0.0013" Z="1"/>
 </Vertex>
@@ -13925,7 +13979,7 @@
 <p X="301.8556" Y="500" Z="30.1238"/>
 <n X="0.0001" Y="-0.0007" Z="1"/>
 </Vertex>
-<Vertex V="1206.8897">
+<Vertex V="1206.8896">
 <p X="301.12" Y="500" Z="30.1238"/>
 <n X="0.0001" Y="-0.0007" Z="1"/>
 </Vertex>
