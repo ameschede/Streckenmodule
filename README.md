@@ -20,14 +20,7 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Regensburg Ost
 * Hohenschönhausen
 * Bindfelde
-* Maxhütte-Haidhof
-* Northeim
-* Tilloy-et-Bellay
-* Villers-en-Argonne
-* Brizeaux
-* Ponholz
 * Wuhlheide Rbf
-* Wackersdorf
 * Dietershan
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
@@ -37,11 +30,3 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
 
 Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
-
-Die Module Maxhütte-Haidhof und Ponholz schließen bei Klardorf ans Bestandsnetz an. Hierzu gibt es bis Maxhütte-Haidhof einen Fahrplan im Timetables-Verzeichnis.
-
-Das Modul Wackersdorf schließt bei Schwandorf ans Bestandsnetz an.
-
-Das Modul Northeim schließt bei Edesheim und Sudheim ans Bestandsnetz an.
-
-Die Module Tilloy-et-Bellay, Villers-en-Argonne und Brizeaux bilden ein zusammenhängendes Netz von 61,6 km Länge. Hierzu gibt es einen Fahrplan im Timetables-Verzeichnis.
