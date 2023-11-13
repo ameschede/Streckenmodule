@@ -5554,10 +5554,12 @@
 <NachNorm Nr="545"/>
 <NachGegen Nr="1825"/>
 </StrElement>
-<StrElement Nr="545" spTrass="44.4445" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5447">
+<StrElement Nr="545" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.5447">
 <g X="264.347" Y="2321.176" Z="32.5431"/>
 <b X="232.3988" Y="2319.6948" Z="32.5399"/>
-<InfoGegenRichtung vMax="44.4445" km="101.2164"/>
+<InfoGegenRichtung vMax="44.4444" km="101.2164">
+<Ereignis Er="58"/>
+</InfoGegenRichtung>
 <NachNorm Nr="4254"/>
 <NachGegen Nr="544"/>
 </StrElement>
@@ -6118,6 +6120,7 @@
 <b X="-1856.7406" Y="2222.833" Z="32.5801"/>
 <InfoNormRichtung vMax="-1" Reg="5012">
 <Ereignis Er="6" Beschr="@signal=0@Esig Stendal"/>
+<Ereignis Er="58"/>
 <Signal NameBetriebsstelle="Bft Stendal Vorbf" Stellwerk="Steuerbereich 25 Stendal" Signalname="25B" SignalTyp="7" BoundingR="10">
 <p X="-1856.2295" Y="2224.9531" Z="41.3498"/>
 <phi Z="-3.095223"/>
@@ -10684,6 +10687,9 @@
 <b X="2574.8201" Y="2530.416" Z="41.1842"/>
 <InfoNormRichtung vMax="-1" km="0.1024" pos="1">
 <Ereignis Er="1000002"/>
+<Ereignis Er="58"/>
+<Ereignis Er="58" Wert="31.9444" Beschr="106"/>
+<Ereignis Er="58" Wert="29.1667" Beschr="90"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="0.111"/>
 <NachNorm Nr="1083"/>
@@ -10708,6 +10714,8 @@
 <b X="1500.7349" Y="2378.5" Z="32.5547"/>
 <InfoNormRichtung vMax="-1" km="99.9229" pos="1" Reg="5023">
 <Ereignis Er="4"/>
+<Ereignis Er="58"/>
+<Ereignis Er="58" Wert="41.6667" Beschr="203"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="1500.5865" Y="2381.6965" Z="34.2547"/>
 <phi Z="-3.095242"/>
@@ -11227,6 +11235,7 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="1.162" pos="1">
 <Ereignis Er="1" Wert="36.1111"/>
+<Ereignis Er="58"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1043"/>
 <NachGegen Nr="1039"/>
@@ -12617,6 +12626,7 @@
 <b X="-1856.5789" Y="2218.8352" Z="32.5801"/>
 <InfoNormRichtung vMax="-1" Reg="5032">
 <Ereignis Er="6" Beschr="@signal=0@Esig Stendal"/>
+<Ereignis Er="58"/>
 <Signal NameBetriebsstelle="Bft Stendal Vorbf" Stellwerk="Steuerbereich 25 Stendal" Signalname="25C" SignalTyp="7" BoundingR="10">
 <p X="-1856.0385" Y="2220.8313" Z="41.3498"/>
 <phi Z="-3.095223"/>
@@ -13688,6 +13698,8 @@
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="100.9851" pos="1" Reg="5034">
 <Ereignis Er="1000002"/>
+<Ereignis Er="58"/>
+<Ereignis Er="58" Wert="41.6667" Beschr="203"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1220"/>
 <NachNorm Nr="1230"/>
@@ -15332,6 +15344,8 @@
 <g X="1537.929" Y="2376.22" Z="32.5547"/>
 <b X="1500.922" Y="2374.5039" Z="32.5547"/>
 <InfoNormRichtung vMax="44.4444" km="99.9097" pos="1">
+<Ereignis Er="58" Beschr="203"/>
+<Ereignis Er="58" Wert="41.6667" Beschr="203"/>
 <Signal SignalTyp="1" BoundingR="10">
 <p X="1500.8201" Y="2376.7017" Z="33.1547"/>
 <phi Z="-3.095254"/>
@@ -19143,17 +19157,24 @@
 <NachNorm Nr="1137"/>
 <NachGegen Nr="1136"/>
 </StrElement>
-<StrElement Nr="1819" spTrass="44.4445" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.55">
+<StrElement Nr="1819" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.55">
 <g X="-1856.5789" Y="2218.8352" Z="32.5801"/>
 <b X="-1862.058" Y="2218.5811" Z="32.5801"/>
-<InfoNormRichtung vMax="44.4445" km="103.3078" pos="1" Reg="5047"/>
-<InfoGegenRichtung vMax="-1" Reg="5047"/>
+<InfoNormRichtung vMax="44.4444" km="103.3078" pos="1" Reg="5047"/>
+<InfoGegenRichtung vMax="-1" Reg="5047">
+<Ereignis Er="58"/>
+<Ereignis Er="58" Wert="38.8889" Beschr="212"/>
+</InfoGegenRichtung>
 <NachGegen Nr="1197"/>
 </StrElement>
-<StrElement Nr="1820" spTrass="44.4445" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.55">
+<StrElement Nr="1820" spTrass="44.4444" Anschluss="256" Oberbau="B70 SKL-Oberbau" Volt="2" Drahthoehe="5.55">
 <g X="-1856.7406" Y="2222.833" Z="32.5801"/>
 <b X="-1862.244" Y="2222.5779" Z="32.5801"/>
-<InfoNormRichtung vMax="44.4445" km="103.3077" pos="1"/>
+<InfoNormRichtung vMax="44.4444" km="103.3077" pos="1"/>
+<InfoGegenRichtung vMax="-1">
+<Ereignis Er="58"/>
+<Ereignis Er="58" Wert="38.8889" Beschr="212"/>
+</InfoGegenRichtung>
 <NachGegen Nr="594"/>
 </StrElement>
 <StrElement Nr="1821" Ueberh="-0.0973" kr="0.000227" spTrass="69.4444" Anschluss="256" Oberbau="Feste Fahrbahn Bögl" Volt="2" Drahthoehe="5.3271">
