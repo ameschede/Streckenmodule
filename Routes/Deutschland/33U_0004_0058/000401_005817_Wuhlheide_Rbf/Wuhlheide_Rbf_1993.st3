@@ -27,6 +27,36 @@
 <MondTex Dateiname="_Setup\sky\moon.dds"/>
 <SternTex Dateiname="_Setup\sky\star.dds"/>
 </SkyDome>
+<StreckenStandort StrInfo="Einfahrgruppe vom Stellwerk B1">
+<p X="-235.72" Y="1727.03" Z="51.75"/>
+<lookat X="-237.15" Y="1702.21" Z="49.16"/>
+<up X="-235.78" Y="1726" Z="61.7"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Einfahrgruppe vom Stellwerk W2">
+<p X="-83.82" Y="720.89" Z="53.86"/>
+<lookat X="-96.8" Y="741.92" Z="50.1"/>
+<up X="-84.61" Y="722.17" Z="63.75"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Stellwerk R3 Richtung Ablaufberg">
+<p X="244.06" Y="123.4" Z="46.62"/>
+<lookat X="240.47" Y="148.1" Z="45.18"/>
+<up X="243.98" Y="123.98" Z="56.61"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Stellwerk R3 Richtungsgleise">
+<p X="242.9" Y="122.6" Z="46.62"/>
+<lookat X="253.82" Y="100.16" Z="45.18"/>
+<up X="243.15" Y="122.08" Z="56.61"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Ausfahrgruppe vom Stellwerk W6">
+<p X="608.84" Y="-1185.84" Z="43.47"/>
+<lookat X="616.16" Y="-1209.72" Z="42.28"/>
+<up X="609.07" Y="-1186.27" Z="53.45"/>
+</StreckenStandort>
+<StreckenStandort StrInfo="Ausfahrgruppe vom Stellwerk B8">
+<p X="699.28" Y="-2161.3201" Z="45.33"/>
+<lookat X="700.45" Y="-2136.47" Z="42.92"/>
+<up X="699.33" Y="-2160.3601" Z="55.29"/>
+</StreckenStandort>
 <ModulDateien>
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
 </ModulDateien>
@@ -3380,7 +3410,9 @@
 <StrElement Nr="221" Ueberh="-0.0041" kr="0.000093" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4962">
 <g X="-84.0122" Y="1417.314" Z="49.9892"/>
 <b X="-83.089" Y="1405.157" Z="49.9296"/>
-<InfoNormRichtung vMax="33.3333" km="30.8534"/>
+<InfoNormRichtung vMax="33.3333" km="30.8534">
+<Ereignis Er="28" Beschr="6080b"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="30.8412" pos="1"/>
 <NachNorm Nr="222"/>
 <NachGegen Nr="220"/>
@@ -5689,6 +5721,7 @@
 <HsigBegriff HsigGeschw="11.1111" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="16.6667" FahrstrTyp="4"/>
 <HsigBegriff HsigGeschw="27.7778" FahrstrTyp="4"/>
+<HsigBegriff HsigGeschw="-1" FahrstrTyp="4"/>
 <VsigBegriff VsigGeschw="-1"/>
 <VsigBegriff/>
 <VsigBegriff VsigGeschw="11.1111"/>
@@ -5757,6 +5790,21 @@
 <Ereignis Er="1000"/>
 </MatrixEintrag>
 <MatrixEintrag Signalbild="533454641" MatrixGeschw="16.6667"/>
+<MatrixEintrag Signalbild="533683977" MatrixGeschw="-1">
+<Ereignis Er="28" Wert="18" Beschr="0"/>
+<Ereignis Er="29" Wert="20" Beschr="K"/>
+<Ereignis Er="29" Wert="21" Beschr="S"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="533683971" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="533683973" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="533683973" MatrixGeschw="-1">
+<Ereignis Er="1000"/>
+</MatrixEintrag>
+<MatrixEintrag Signalbild="533683985" MatrixGeschw="-1"/>
 <Ersatzsignal ErsatzsigBezeichnung="Zs1">
 <MatrixEintrag Signalbild="533430081" MatrixGeschw="11.1111">
 <Ereignis Er="28" Wert="18" Beschr="0"/>
@@ -5830,7 +5878,9 @@
 <StrElement Nr="450" Ueberh="-0.0019" kr="0.000053" spTrass="33.3333" Anschluss="256" Oberbau="BS66 KS-Oberbau" Volt="2" Drahthoehe="5.4955">
 <g X="-89.0654" Y="1421.12" Z="50.01"/>
 <b X="-88.2202" Y="1409.8459" Z="49.9549"/>
-<InfoNormRichtung vMax="33.3333" km="30.8577"/>
+<InfoNormRichtung vMax="33.3333" km="30.8577">
+<Ereignis Er="39" Beschr="6080b"/>
+</InfoNormRichtung>
 <InfoGegenRichtung vMax="33.3333" km="30.8464" pos="1"/>
 <NachNorm Nr="451"/>
 <NachGegen Nr="449"/>
@@ -63059,6 +63109,14 @@
 <NachNorm Nr="5038"/>
 <NachGegen Nr="4346"/>
 </StrElement>
+<StrElement Nr="7163" spTrass="27.7778" Fkt="2">
+<g X="119.3078" Y="513.0565" Z="43.5004"/>
+<b X="108.1377" Y="542.3868" Z="43.4845"/>
+</StrElement>
+<StrElement Nr="7164" spTrass="27.7778" Fkt="2">
+<g X="98.2506" Y="537.1637" Z="43.5018"/>
+<b X="108.9345" Y="509.1065" Z="43.5004"/>
+</StrElement>
 <Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Biesd Kr S 306" FahrstrTyp="TypZug" Laenge="277.6">
 <FahrstrStart Ref="522">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
@@ -63076,7 +63134,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSigHaltfall>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Biesd Kr S 310" FahrstrTyp="TypZug" Laenge="754.9">
+<Fahrstrasse FahrstrName="Aufgleispunkt -&gt; Abzw Biesd Kr S 310" FahrstrStrecke="6080b" RglGgl="2" FahrstrTyp="TypZug" Laenge="754.9">
 <FahrstrStart Ref="521">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -63316,7 +63374,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrWeiche>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Biesdf Kr Nord 375" FahrstrTyp="TypZug" Laenge="1387.9">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Biesdf Kr Nord 375" FahrstrStrecke="6080a" RglGgl="3" FahrstrTyp="TypZug" Laenge="1387.9">
 <FahrstrStart Ref="41">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -63362,14 +63420,14 @@
 <FahrstrWeiche Ref="422" FahrstrWeichenlage="1">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrWeiche>
-<FahrstrSignal Ref="41">
+<FahrstrSignal Ref="41" FahrstrSignalZeile="5">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrSignal>
 <FahrstrVSignal Ref="462">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Biesdf Kr Nord 377" FahrstrTyp="TypZug" Laenge="1538.7">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Biesdf Kr Nord 377" FahrstrStrecke="6080a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1538.7">
 <FahrstrStart Ref="41">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -63443,7 +63501,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Abzw Biesd Kr O 359" FahrstrTyp="TypZug" Laenge="1370">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 311 -&gt; Abzw Biesd Kr O 359" FahrstrStrecke="6075a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1370">
 <FahrstrStart Ref="41">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -63517,7 +63575,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 313 -&gt; Biesdf Kr Nord 377" FahrstrTyp="TypZug" Laenge="1538.2">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 313 -&gt; Biesdf Kr Nord 377" FahrstrStrecke="6080a" RglGgl="2" FahrstrTyp="TypZug" Laenge="1538.2">
 <FahrstrStart Ref="465">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -63585,7 +63643,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 313 -&gt; Abzw Biesd Kr O 359" FahrstrTyp="TypZug" Laenge="1369.4">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr Mi 313 -&gt; Abzw Biesd Kr O 359" FahrstrStrecke="6075a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1369.4">
 <FahrstrStart Ref="465">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -64227,7 +64285,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005819_Biesdorfer_Kreuz\Biesdorfer_Kreuz_2020.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 321 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1506.5">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 321 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1506.5">
 <FahrstrStart Ref="222">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -64313,7 +64371,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 321 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1485.2">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 321 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1485.2">
 <FahrstrStart Ref="222">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -64399,7 +64457,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 323 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1506.7">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 323 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1506.7">
 <FahrstrStart Ref="213">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -64485,7 +64543,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 323 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1485.3">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 323 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1485.3">
 <FahrstrStart Ref="213">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -64571,7 +64629,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1185.9">
+<Fahrstrasse FahrstrName="Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1185.9">
 <FahrstrStart Ref="26">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65065,7 +65123,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 123 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1372.9">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 123 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1372.9">
 <FahrstrStart Ref="292">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65163,7 +65221,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 123 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1351.6">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 123 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1351.6">
 <FahrstrStart Ref="292">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65261,7 +65319,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 124 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1372.2">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 124 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1372.2">
 <FahrstrStart Ref="289">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65359,7 +65417,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 124 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1350.8">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 124 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1350.8">
 <FahrstrStart Ref="289">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65457,7 +65515,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 125 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1333.1">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 125 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1333.1">
 <FahrstrStart Ref="280">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65549,7 +65607,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 125 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1311.8">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 125 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1311.8">
 <FahrstrStart Ref="280">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65641,7 +65699,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 126 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1347.8">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 126 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1347.8">
 <FahrstrStart Ref="259">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65733,7 +65791,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 126 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1326.4">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 126 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1326.4">
 <FahrstrStart Ref="259">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65825,7 +65883,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 127 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1382.2">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 127 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1382.2">
 <FahrstrStart Ref="262">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -65923,7 +65981,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 127 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1360.8">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 127 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1360.8">
 <FahrstrStart Ref="262">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -66021,7 +66079,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 128 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrTyp="TypZug" Laenge="1425.2">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 128 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Biesdf Kr Nord 373" FahrstrStrecke="6070a" RglGgl="1" FahrstrTyp="TypZug" Laenge="1425.2">
 <FahrstrStart Ref="274">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>
@@ -66125,7 +66183,7 @@
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrVSignal>
 </Fahrstrasse>
-<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 128 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrTyp="TypZug" Laenge="1403.8">
+<Fahrstrasse FahrstrName="Bln Wuhlhde Rbf W2 Gleis 128 Ausfahrt -&gt; Abzw Biesd Kr SW 325 -&gt; Abzw Biesd Kr W 330" FahrstrStrecke="6071b" RglGgl="1" FahrstrTyp="TypZug" Laenge="1403.8">
 <FahrstrStart Ref="274">
 <Datei Dateiname="Routes\Deutschland\33U_0004_0058\000401_005817_Wuhlheide_Rbf\Wuhlheide_Rbf_1993.st3" NurInfo="1"/>
 </FahrstrStart>

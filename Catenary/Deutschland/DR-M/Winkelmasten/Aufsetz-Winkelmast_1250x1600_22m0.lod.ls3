@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="Aufsetz-Winkelmast nach DR-M 25-21.140;">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorAufwandStunden="1.6"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="350" Vorlade="1" LODbit="4">
+<Datei Dateiname="Aufsetz-Winkelmast_1250x1600_22m0.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarAb="350" SichtbarBis="1500" Vorlade="1" LODbit="3">
+<Datei Dateiname="Aufsetz-Winkelmast_1250x1600_22m0.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Erster Anker des Mastes">
+<p/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Anbauteile">
+<p Z="21.9"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Speiseleitungen\Speiseleitung_Isolator-senkrecht.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Mastschalter\Mastschalter.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Winkelmasten\Anbauteile\Verstaerkungsleitung" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

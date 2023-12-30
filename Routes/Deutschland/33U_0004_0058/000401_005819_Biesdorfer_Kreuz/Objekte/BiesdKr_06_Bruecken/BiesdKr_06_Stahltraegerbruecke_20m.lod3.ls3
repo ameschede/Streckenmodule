@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bruecken\Stahlbruecke\Blechtraeger_FahrbahnOben\blechtraegerbr02.dds"/>
+</Textur>
+<Vertex U="0.8553" V="0.356">
+<p X="-22" Y="-1.9869" Z="0.47"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.8553" V="0.578">
+<p X="-22" Y="-1.9869" Z="-0.8414"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.8553" V="0.356">
+<p X="-22" Y="-2.0177" Z="0.47"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.8553" V="0.578">
+<p X="-22" Y="-2.0177" Z="-0.8414"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.8795" V="1.015">
+<p X="-22" Y="-1.9869" Z="-0.7538"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.8795" V="0.618">
+<p X="-20" Y="1.984" Z="-0.7538"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.8602" V="0.356">
+<p X="-20" Y="2.0148" Z="0.47"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.8602" V="0.578">
+<p X="-20" Y="2.0148" Z="-0.8414"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.8602" V="0.356">
+<p X="-20" Y="1.984" Z="0.47"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.8602" V="0.578">
+<p X="-20" Y="1.984" Z="-0.8414"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="-1.6292" V="0.356">
+<p X="-2" Y="-1.9869" Z="0.47"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="-1.6292" V="0.578">
+<p X="-2" Y="-1.9869" Z="-0.8414"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="-1.6448" V="1.015">
+<p X="-2" Y="-1.9869" Z="-0.7538"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="-1.6292" V="0.356">
+<p X="-2" Y="-2.0177" Z="0.47"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="-1.6292" V="0.578">
+<p X="-2" Y="-2.0177" Z="-0.8414"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="-1.6448" V="0.618">
+<p Y="1.984" Z="-0.7538"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="-1.6222" V="0.356">
+<p Y="2.0148" Z="0.47"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="-1.6222" V="0.578">
+<p Y="2.0148" Z="-0.8414"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="-1.6222" V="0.356">
+<p Y="1.984" Z="0.47"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="-1.6222" V="0.578">
+<p Y="1.984" Z="-0.8414"/>
+<n Y="-1"/>
+</Vertex>
+<Face i="11;10;0"/>
+<Face i="0;1;11"/>
+<Face i="5;4;12"/>
+<Face i="12;15;5"/>
+<Face i="17;16;6"/>
+<Face i="6;7;17"/>
+<Face i="9;8;18"/>
+<Face i="18;19;9"/>
+<Face i="3;2;13"/>
+<Face i="13;14;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>

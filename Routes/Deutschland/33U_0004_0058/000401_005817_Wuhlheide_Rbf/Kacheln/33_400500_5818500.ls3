@@ -923,12 +923,6 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\DR-M\Winkelmasten\Aufsetz-Winkelmast_600x800_7m0.lod.ls3"/>
-<p X="248.0867" Y="257.313" Z="46.1766"/>
-<phi Z="1.780236"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\DR-M\Spannwerke\Spannpunkt_7m.lod.ls3"/>
 <p X="248.0188" Y="257.6324" Z="46.1789"/>
 <phi Y="-0.021817" Z="1.780236"/>
@@ -13822,6 +13816,24 @@
 <phi X="-0.001118" Z="3.359053"/>
 <sk/>
 </Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bruecken\Schutzschienen\endstueck02_2x-innen.ls3"/>
+<p X="392.489" Y="232.6453" Z="51.6009"/>
+<phi Y="-0.005768" Z="1.645153"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="7" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="RailwayObjects\Deutschland\Bruecken\Schutzschienen\endstueck02_2x-innen.ls3"/>
+<p X="387.6895" Y="233.1324" Z="51.6057"/>
+<phi Y="-0.005769" Z="1.645162"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\DR-M\Winkelmasten\Aufsetz-Winkelmast_600x800_8m0.lod.ls3"/>
+<p X="248.0867" Y="257.313" Z="45.1766"/>
+<phi Z="1.780236"/>
+<sk/>
+</Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="3"/>
 <Textur>
@@ -17238,8 +17250,6 @@
 <Face i="95;97;96"/>
 <Face i="99;96;98"/>
 <Face i="100;99;98"/>
-<Face i="101;102;103"/>
-<Face i="104;103;102"/>
 <Face i="107;105;106"/>
 <Face i="108;109;106"/>
 <Face i="105;108;106"/>
@@ -17421,8 +17431,6 @@
 <Face i="291;288;290"/>
 <Face i="290;289;292"/>
 <Face i="293;292;289"/>
-<Face i="289;294;293"/>
-<Face i="295;293;294"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -47348,6 +47356,343 @@
 </Vertex>
 <Face i="2;0;1"/>
 <Face i="0;2;3"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="9" MeterProTex="0.45" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RAILWAYOBJECTS\DEUTSCHLAND\BRUECKEN\SCHUTZSCHIENEN\schutzschiene.dds"/>
+</Textur>
+<Vertex>
+<p X="392.6641" Y="238.675" Z="51.4955"/>
+<n X="-0.9711" Y="-0.0724" Z="-0.2272"/>
+</Vertex>
+<Vertex U="-13.3332" U2="-13.3332">
+<p X="392.2184" Y="244.6583" Z="51.5301"/>
+<n X="-0.9711" Y="-0.0724" Z="-0.2272"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.3423" U2="-13.3332" V2="0.3423">
+<p X="392.1835" Y="244.6558" Z="51.6801"/>
+<n X="0.7811" Y="0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex V="0.3423" V2="0.3423">
+<p X="392.6292" Y="238.6725" Z="51.6455"/>
+<n X="0.7811" Y="0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.4978" U2="-13.3332" V2="0.4978">
+<p X="392.2533" Y="244.6609" Z="51.6801"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.4978" V2="0.4978">
+<p X="392.699" Y="238.6776" Z="51.6455"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.6649" U2="-13.3332" V2="0.6649">
+<p X="392.2533" Y="244.6609" Z="51.5601"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="392.699" Y="238.6776" Z="51.5255"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.6649" U2="-13.3332" V2="0.6649">
+<p X="392.2184" Y="244.6583" Z="51.5901"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="392.6641" Y="238.675" Z="51.5555"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3332" V="1" U2="-13.3332" V2="1">
+<p X="392.3655" Y="244.6693" Z="51.5901"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="392.8112" Y="238.686" Z="51.5555"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
+<Face i="8;7;6"/>
+<Face i="7;8;9"/>
+<Face i="10;9;8"/>
+<Face i="9;10;11"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="9" MeterProTex="0.45" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RAILWAYOBJECTS\DEUTSCHLAND\BRUECKEN\SCHUTZSCHIENEN\schutzschiene.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="391.2755" Y="238.5715" Z="51.5555"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.3332" V="1" U2="-13.3332" V2="1">
+<p X="390.8297" Y="244.5548" Z="51.5901"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.6649" U2="-13.3332" V2="0.6649">
+<p X="390.9768" Y="244.5658" Z="51.5901"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="391.4225" Y="238.5825" Z="51.5555"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.6649" U2="-13.3332" V2="0.6649">
+<p X="390.9419" Y="244.5632" Z="51.5601"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="391.3876" Y="238.58" Z="51.5255"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.4978" U2="-13.3332" V2="0.4978">
+<p X="390.9419" Y="244.5632" Z="51.6801"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.4978" V2="0.4978">
+<p X="391.3876" Y="238.58" Z="51.6455"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3332" V="0.3423" U2="-13.3332" V2="0.3423">
+<p X="391.0117" Y="244.5684" Z="51.6801"/>
+<n X="-0.7811" Y="-0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex V="0.3423" V2="0.3423">
+<p X="391.4575" Y="238.5851" Z="51.6455"/>
+<n X="-0.7811" Y="-0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex U="-13.3332" U2="-13.3332">
+<p X="390.9768" Y="244.5658" Z="51.5301"/>
+<n X="0.9711" Y="0.0724" Z="-0.2272"/>
+</Vertex>
+<Vertex>
+<p X="391.4225" Y="238.5825" Z="51.4955"/>
+<n X="0.9711" Y="0.0724" Z="-0.2272"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
+<Face i="8;7;6"/>
+<Face i="7;8;9"/>
+<Face i="10;9;8"/>
+<Face i="9;10;11"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="9" MeterProTex="0.45" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RAILWAYOBJECTS\DEUTSCHLAND\BRUECKEN\SCHUTZSCHIENEN\schutzschiene.dds"/>
+</Textur>
+<Vertex V="1" V2="1">
+<p X="386.4758" Y="239.0586" Z="51.5603"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.3621" V="1" U2="-13.3621" V2="1">
+<p X="386.0291" Y="245.0548" Z="51.595"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.6649" U2="-13.3621" V2="0.6649">
+<p X="386.1762" Y="245.0658" Z="51.595"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="386.6229" Y="239.0696" Z="51.5603"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.6649" U2="-13.3621" V2="0.6649">
+<p X="386.1413" Y="245.0632" Z="51.565"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="386.588" Y="239.067" Z="51.5303"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.4978" U2="-13.3621" V2="0.4978">
+<p X="386.1413" Y="245.0632" Z="51.685"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.4978" V2="0.4978">
+<p X="386.588" Y="239.067" Z="51.6503"/>
+<n X="-0.7245" Y="-0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.3423" U2="-13.3621" V2="0.3423">
+<p X="386.2111" Y="245.0684" Z="51.685"/>
+<n X="-0.7811" Y="-0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex V="0.3423" V2="0.3423">
+<p X="386.6578" Y="239.0721" Z="51.6503"/>
+<n X="-0.7811" Y="-0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex U="-13.3621" U2="-13.3621">
+<p X="386.1762" Y="245.0658" Z="51.535"/>
+<n X="0.9711" Y="0.0724" Z="-0.2272"/>
+</Vertex>
+<Vertex>
+<p X="386.6229" Y="239.0696" Z="51.5003"/>
+<n X="0.9711" Y="0.0724" Z="-0.2272"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
+<Face i="8;7;6"/>
+<Face i="7;8;9"/>
+<Face i="10;9;8"/>
+<Face i="9;10;11"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="9" MeterProTex="0.45" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RAILWAYOBJECTS\DEUTSCHLAND\BRUECKEN\SCHUTZSCHIENEN\schutzschiene.dds"/>
+</Textur>
+<Vertex>
+<p X="387.8645" Y="239.1621" Z="51.5003"/>
+<n X="-0.9711" Y="-0.0724" Z="-0.2272"/>
+</Vertex>
+<Vertex U="-13.3621" U2="-13.3621">
+<p X="387.4178" Y="245.1583" Z="51.535"/>
+<n X="-0.9711" Y="-0.0724" Z="-0.2272"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.3423" U2="-13.3621" V2="0.3423">
+<p X="387.3829" Y="245.1558" Z="51.685"/>
+<n X="0.7811" Y="0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex V="0.3423" V2="0.3423">
+<p X="387.8296" Y="239.1595" Z="51.6503"/>
+<n X="0.7811" Y="0.0581" Z="-0.6216"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.4978" U2="-13.3621" V2="0.4978">
+<p X="387.4527" Y="245.1609" Z="51.685"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.4978" V2="0.4978">
+<p X="387.8994" Y="239.1647" Z="51.6503"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.6649" U2="-13.3621" V2="0.6649">
+<p X="387.4527" Y="245.1609" Z="51.565"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="387.8994" Y="239.1647" Z="51.5303"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3621" V="0.6649" U2="-13.3621" V2="0.6649">
+<p X="387.4178" Y="245.1583" Z="51.595"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex V="0.6649" V2="0.6649">
+<p X="387.8645" Y="239.1621" Z="51.5603"/>
+<n X="0.7245" Y="0.054" Z="0.6872"/>
+</Vertex>
+<Vertex U="-13.3621" V="1" U2="-13.3621" V2="1">
+<p X="387.5649" Y="245.1693" Z="51.595"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="1" V2="1">
+<p X="388.0116" Y="239.1731" Z="51.5603"/>
+<n Z="1"/>
+</Vertex>
+<Face i="2;0;1"/>
+<Face i="0;2;3"/>
+<Face i="4;3;2"/>
+<Face i="3;4;5"/>
+<Face i="6;5;4"/>
+<Face i="5;6;7"/>
+<Face i="8;7;6"/>
+<Face i="7;8;9"/>
+<Face i="10;9;8"/>
+<Face i="9;10;11"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="3"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
+</Textur>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_Holz_K-Oberbau.dds"/>
+</Textur>
+<Vertex U="0.1884" V="4.2315" U2="1" V2="4.2315">
+<p X="393.1932" Y="244.731" Z="51.5201"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.1884" U2="1">
+<p X="394.1991" Y="231.2278" Z="51.442"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.8116" V="4.2315" V2="4.2315">
+<p X="390.002" Y="244.4932" Z="51.5201"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.8116">
+<p X="391.0079" Y="230.9902" Z="51.442"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;2;1"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="5" MeterProTex2="1">
+<RenderFlags TexVoreinstellung="3"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
+</Textur>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_BetonBS66_KS-Oberbau.dds"/>
+</Textur>
+<Vertex U="0.8116">
+<p X="387.2826" Y="217.0581" Z="51.3634"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.8116" V="5" V2="5">
+<p X="386.0939" Y="233.0137" Z="51.4557"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.1884" U2="1">
+<p X="390.4738" Y="217.2959" Z="51.3634"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.1884" V="5" U2="1" V2="5">
+<p X="389.2851" Y="233.2515" Z="51.4557"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;2;1"/>
+</SubSet>
+<SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="5" MeterProTex2="1">
+<RenderFlags TexVoreinstellung="3"/>
+<Textur>
+<Datei Dateiname="PermanentWay\Default\ballast.dds"/>
+</Textur>
+<Textur>
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Schwellen_Holz_K-Oberbau.dds"/>
+</Textur>
+<Vertex U="0.8116">
+<p X="386.0939" Y="233.0137" Z="51.4557"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.8116" V="3.754" V2="3.754">
+<p X="385.2014" Y="244.9932" Z="51.525"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.1884" U2="1">
+<p X="389.2851" Y="233.2515" Z="51.4557"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Vertex U="0.1884" V="3.754" U2="1" V2="3.754">
+<p X="388.3926" Y="245.231" Z="51.525"/>
+<n X="0.0004" Y="-0.0058" Z="1"/>
+</Vertex>
+<Face i="0;1;2"/>
+<Face i="3;2;1"/>
 </SubSet>
 </Landschaft>
 </Zusi>

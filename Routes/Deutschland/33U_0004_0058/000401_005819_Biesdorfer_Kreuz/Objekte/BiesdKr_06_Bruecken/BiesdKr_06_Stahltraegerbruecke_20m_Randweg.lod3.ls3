@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="RailwayObjects\Deutschland\Bruecken\Stahlbruecke\Blechtraeger_FahrbahnOben\blechtraegerbr02.dds"/>
+</Textur>
+<Vertex U="1" V="0.7286">
+<p X="-20" Y="2.21" Z="-0.6"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="1" V="0.9048">
+<p X="-20" Y="3.5" Z="-0.6"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="1.8443" V="0.2717">
+<p X="-20" Y="3.5" Z="-0.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1.8443" V="0.0036">
+<p X="-20" Y="2.21" Z="-0.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.7286">
+<p Y="2.21" Z="-0.6"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex V="0.9048">
+<p Y="3.5" Z="-0.6"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="-0.8327" V="0.2717">
+<p Y="3.5" Z="-0.5"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-0.8327" V="0.0036">
+<p Y="2.21" Z="-0.5"/>
+<n Z="1"/>
+</Vertex>
+<Face i="1;0;4"/>
+<Face i="4;5;1"/>
+<Face i="3;2;6"/>
+<Face i="6;7;3"/>
+</SubSet>
+</Landschaft>
+</Zusi>
