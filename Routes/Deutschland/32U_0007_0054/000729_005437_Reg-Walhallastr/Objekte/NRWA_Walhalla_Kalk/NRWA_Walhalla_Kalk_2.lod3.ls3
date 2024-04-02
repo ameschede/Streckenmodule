@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="115" AutorName="Leonard Krapf" AutorEmail="leonard.krapf@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFAA00FF" TypLs3="16" TypGF="1">
+<RenderFlags TexVoreinstellung="1"/>
+<Vertex>
+<p X="-5.45" Y="7.8"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="-5.45" Y="-7.8"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="5.45" Y="7.8"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex>
+<p X="5.45" Y="-7.8"/>
+<n Z="-1"/>
+</Vertex>
+<Face i="3;2;0"/>
+<Face i="1;3;0"/>
+</SubSet>
+<SubSet Cd="FFFFFFFF">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="NRWA_Walhalla_Kalk.dds"/>
+</Textur>
+<Vertex U="0.506" V="0.8163">
+<p X="-5.45" Y="7.8"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.506" V="0.7326">
+<p X="-5.45" Y="7.8" Z="23.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.45" V="0.8163">
+<p X="-5.45" Y="-7.8"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.45" V="0.7326">
+<p X="-5.45" Y="-7.8" Z="23.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.506" V="0.7326">
+<p X="-5.45" Y="7.8" Z="23.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.506" V="0.8163">
+<p X="-5.45" Y="7.8"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.9708" V="0.4226">
+<p X="-5.45" Y="7.8" Z="23.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.9708" V="0.2607">
+<p X="-5.45" Y="7.8" Z="26.6"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.9708" V="0.2607">
+<p X="-5.45" Y="7.8" Z="26.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.7795" V="0.2607">
+<p X="-5.45" Y="3.9" Z="26.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.7795" V="0.2607">
+<p X="-5.45" Y="3.9" Z="26.6"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.7795" V="0.4226">
+<p X="-5.45" Y="3.9" Z="23.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.492" V="0.7326">
+<p X="-5.45" Y="3.9" Z="23.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.45" V="0.7326">
+<p X="-5.45" Y="-7.8" Z="23.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.492" V="0.7326">
+<p X="-5.45" Y="3.9" Z="23.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.492" V="0.7208">
+<p X="-5.45" Y="3.9" Z="26.6"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.506" V="0.7208">
+<p X="-5.45" Y="7.8" Z="26.6"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.45" V="0.7326">
+<p X="-5.45" Y="-7.8" Z="23.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.45" V="0.8163">
+<p X="-5.45" Y="-7.8"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.506" V="0.7326">
+<p X="5.45" Y="7.8" Z="23.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.506" V="0.8163">
+<p X="5.45" Y="7.8"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.9708" V="0.4226">
+<p X="5.45" Y="7.8" Z="23.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.9708" V="0.2607">
+<p X="5.45" Y="7.8" Z="26.6"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.9708" V="0.2607">
+<p X="5.45" Y="7.8" Z="26.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.7795" V="0.2607">
+<p X="5.45" Y="3.9" Z="26.6"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.7795" V="0.2607">
+<p X="5.45" Y="3.9" Z="26.6"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.7795" V="0.4226">
+<p X="5.45" Y="3.9" Z="23.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.45" V="0.7326">
+<p X="5.45" Y="-7.8" Z="23.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.492" V="0.7326">
+<p X="5.45" Y="3.9" Z="23.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.9714" V="0.2617">
+<p X="5.45" Y="7.8" Z="26.6"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.7784" V="0.2617">
+<p X="5.45" Y="3.9" Z="26.6"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.7784" V="0.425">
+<p X="5.45" Y="3.9" Z="23.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9714" V="0.425">
+<p X="5.45" Y="7.8" Z="23.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.45" V="0.8163">
+<p X="5.45" Y="-7.8"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.45" V="0.7326">
+<p X="5.45" Y="-7.8" Z="23.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.1993" V="1.0026">
+<p X="5.45" Y="-7.8" Z="11.6307"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.9714" V="1.0026">
+<p X="5.45" Y="7.8" Z="11.6307"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.1993" V="0.425">
+<p X="5.45" Y="-7.8" Z="23.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.61" V="0.8175">
+<p X="5.45" Y="7.8"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.61" V="0.7399">
+<p X="5.45" Y="7.8" Z="11.6307"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.506" V="0.7399">
+<p X="5.45" Y="-7.8" Z="11.6307"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.506" V="0.8175">
+<p X="5.45" Y="-7.8"/>
+<n X="1"/>
+</Vertex>
+<Face i="19;1;0"/>
+<Face i="20;19;0"/>
+<Face i="4;3;2"/>
+<Face i="5;4;2"/>
+<Face i="7;6;21"/>
+<Face i="22;7;21"/>
+<Face i="9;8;23"/>
+<Face i="24;9;23"/>
+<Face i="11;10;25"/>
+<Face i="26;11;25"/>
+<Face i="12;28;27"/>
+<Face i="13;12;27"/>
+<Face i="31;30;29"/>
+<Face i="32;31;29"/>
+<Face i="15;14;4"/>
+<Face i="16;15;4"/>
+<Face i="17;34;33"/>
+<Face i="18;17;33"/>
+<Face i="32;36;35"/>
+<Face i="37;32;35"/>
+<Face i="40;39;38"/>
+<Face i="41;40;38"/>
+</SubSet>
+</Landschaft>
+</Zusi>

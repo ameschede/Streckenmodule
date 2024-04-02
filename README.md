@@ -23,6 +23,9 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Wuhlheide Rbf
 * Dietershan
 * Biesdorfer Kreuz
+* Reg-Wutzlhofen
+* Reg-Walhallastr
+
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
@@ -33,3 +36,5 @@ Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenh
 Zum Modul Hohenschönhausen gibt es einen Fahrplan im Timetables-Verzeichnis.
 
 Die Module Wuhlheide Rbf und Biesdorfer Kreuz bilden ein zusammenhängendes Netz mit 31,6 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6 km).
+
+Die Module Reg-Wutzlhofen und Reg-Walhallastr schließen bei Regenstauf ans Bestandsnetz an.
