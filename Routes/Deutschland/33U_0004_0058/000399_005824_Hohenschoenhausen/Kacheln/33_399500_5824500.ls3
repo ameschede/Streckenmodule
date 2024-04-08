@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.2" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -15574,10 +15574,58 @@
 <phi X="-0.008431" Z="0.573426"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Kettenwerk Re 160" BoundingR="782" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" GruppenName="Kettenwerk Re 160" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\DR-M\Isolatoren\Stabisolator_1962.lod.ls3"/>
 <p X="206.2554" Y="-165.4968" Z="61.0229"/>
 <phi X="-0.002727" Z="0.572431"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\Masten\Verkehrszeichenmast_3m.lod.ls3"/>
+<p X="-335.0346" Y="473.5437" Z="56.3478"/>
+<phi Z="2.207258"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen274_Hoechstgeschwindigkeit\Zeichen274_50_1992_mittel.lod.ls3"/>
+<p X="-335.0536" Y="473.5695" Z="58.9806"/>
+<phi Z="2.207258"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen283_Halteverbot\zeichen283_1992_mittel.lod.ls3"/>
+<p X="-335.0536" Y="473.5695" Z="58.3478"/>
+<phi Z="2.207258"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\Masten\Verkehrszeichenmast_3m.lod.ls3"/>
+<p X="-332.4034" Y="454.3308" Z="56.3214"/>
+<phi Z="0.512333"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen274_Hoechstgeschwindigkeit\Zeichen274-1.lod.ls3"/>
+<p X="-332.3755" Y="454.3465" Z="58.8214"/>
+<phi Z="0.512333"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen306_Vorfahrtstrasse\Zeichen_306_1992_mittel.lod.ls3"/>
+<p X="-329.5101" Y="461.1346" Z="59.0579"/>
+<phi Z="2.12381"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\Masten\Verkehrszeichenmast_3m.lod.ls3"/>
+<p X="-313.5244" Y="443.5605" Z="56.1432"/>
+<phi Z="2.194928"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="962" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Strassen\Verkehrszeichen\1992\Zeichen283_Halteverbot\zeichen283_1992_mittel.lod.ls3"/>
+<p X="-313.5431" Y="443.5865" Z="58.6432"/>
+<phi Z="2.194928"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">

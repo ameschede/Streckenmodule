@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.2" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -224,12 +224,6 @@
 <Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Speiseleitungen\Speiseleitung_Isolator-senkrecht.lod.ls3"/>
 <p X="-318.1353" Y="-294.7415" Z="65.199"/>
 <phi Z="-1.371117"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\DR-M\Winkelmasten\Aufsetz-Winkelmast_600x800_9m5.lod.ls3"/>
-<p X="-305.2919" Y="-292.2813" Z="54.299"/>
-<phi Z="1.770472"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
@@ -532,12 +526,6 @@
 <phi Z="1.951165"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\DR-M\Winkelmasten\Aufsetz-Winkelmast_600x800_9m5.lod.ls3"/>
-<p X="-463.75" Y="256.5015" Z="54.6443"/>
-<phi Z="-1.190541"/>
-<sk/>
-</Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="5" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_4m50\Ausl_4m50_gra_r_ls_4r_kurve_l.lod.ls3"/>
 <p X="-459.2697" Y="258.2924" Z="54.6443"/>
@@ -547,12 +535,6 @@
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\DR-M\Einzelteile\Einzelauslegerhalterung_gra.lod.ls3"/>
 <p X="-460.9412" Y="257.6243" Z="54.6443"/>
-<phi Z="-1.190541"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Speiseleitungen\Speiseleitung_Isolator-senkrecht.lod.ls3"/>
-<p X="-463.75" Y="256.5015" Z="64.0443"/>
 <phi Z="-1.190541"/>
 <sk/>
 </Verknuepfte>
@@ -12514,10 +12496,34 @@
 <phi X="0.029266" Z="0.193791"/>
 <sk/>
 </Verknuepfte>
-<Verknuepfte Flags="16" GruppenName="Kettenwerk Re 160" BoundingR="1478" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" GruppenName="Kettenwerk Re 160" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\DR-M\Isolatoren\Stabisolator_1962.lod.ls3"/>
 <p X="-296.5055" Y="-357.2707" Z="60.2425"/>
 <phi X="0.008943" Z="0.193789"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\DR-M\Winkelmasten\Aufsetz-Winkelmast_600x800_10m0.lod.ls3"/>
+<p X="-305.2919" Y="-292.2813" Z="53.799"/>
+<phi Z="1.770472"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\DR-M\Winkelmasten\Aufsetz-Winkelmast_600x800_10m0.lod.ls3"/>
+<p X="-463.75" Y="256.5015" Z="54.4043"/>
+<phi Z="-1.190541"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Speiseleitungen\Speiseleitung_Isolator-senkrecht.lod.ls3"/>
+<p X="-463.75" Y="256.5015" Z="64.3043"/>
+<phi Z="-2.761338"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1069" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Bushaltestelle\Haltestellenschild_Fahrplan.lod.ls3"/>
+<p X="-438.4811" Y="382.0155" Z="61.4875"/>
+<phi Z="0.59024"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="10" MeterProTex2="10">

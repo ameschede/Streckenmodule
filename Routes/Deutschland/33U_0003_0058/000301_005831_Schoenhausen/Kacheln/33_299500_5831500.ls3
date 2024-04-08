@@ -2071,13 +2071,13 @@
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Stiele\Mast-Stiel-2m6x2m6x12m.lod.ls3"/>
 <p X="-335.3083" Y="-383.6379" Z="37.0533"/>
-<phi Y="0" Z="-0.089969"/>
+<phi Z="-0.089969"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Cubes\Mast-Cube-1m8x1m8x2m.lod.ls3"/>
 <p X="-335.3083" Y="-383.6379" Z="49.0533"/>
-<phi X="0" Y="0" Z="-0.089969"/>
+<phi Z="-0.089969"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
@@ -2110,11 +2110,17 @@
 <phi Z="-0.089968"/>
 <sk X="0.3" Y="0.3"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="1839" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\Deutschland\Freileitungen\Hochspannung\M-Cubes\Mast-Cube-2m7x2m7x2m7.lod.ls3"/>
 <p X="-335.3083" Y="-383.6379" Z="86.0533"/>
 <phi Z="-0.089968"/>
 <sk X="0.3" Y="0.3" Z="0.8"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="2" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\Weichen\Antriebe\Signale\Laternenbock_Li.lod.ls3"/>
+<p X="-436.1337" Y="-490.0885" Z="34.2418"/>
+<phi Y="-0.002667" Z="2.918348"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="FFF5F5F5" TypLs3="4" TypGF="3" MeterProTex="10">
 <RenderFlags TexVoreinstellung="3"/>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.2" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -3376,11 +3376,23 @@
 <phi Z="1.603569"/>
 <sk X="0.9772" Y="0.9772" Z="0.9772"/>
 </Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="204" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Terrain\General\grasses\gras07_5x3.lod.ls3"/>
 <p X="405.8032" Y="319.4813" Z="44.9787"/>
 <phi Z="1.799765"/>
 <sk X="0.9587" Y="0.9587" Z="0.9587"/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Bushaltestelle\Haltestellenschild_Muelleinmer.lod.ls3"/>
+<p X="402.1373" Y="272.5662" Z="41.7918"/>
+<phi Z="-0.085672"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="264" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Terrain\Deutschland\Bushaltestelle\Haltestellenschild_Muelleinmer.lod.ls3"/>
+<p X="420.7744" Y="249.2084" Z="41.9413"/>
+<phi Z="-0.085672"/>
+<sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" MeterProTex="2.4">
 <RenderFlags TexVoreinstellung="3"/>

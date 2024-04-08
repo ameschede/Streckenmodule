@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1" Beschreibung="Profil U140;">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorAufwandStunden="0.43"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="100" Vorlade="1" LODbit="4">
+<Datei Dateiname="Aufsetz-Flachmast_13m50_U14_9006.lod1.ls3"/>
+<p Y="0.335"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="100" SichtbarBis="400" Vorlade="1" LODbit="2">
+<Datei Dateiname="Aufsetz-Flachmast_13m50_U14_9006.lod2.ls3"/>
+<p Y="0.335"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="400" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="Aufsetz-Flachmast_13m50_U14_9006.lod3.ls3"/>
+<p Y="0.335"/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Erster Anker des Mastes">
+<p Y="-2.915"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Ausleger">
+<p Y="-3.11" Z="6.55"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_2m10" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_2m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_2m70" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m00" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m30" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m60" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m90" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_4m20" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_4m50" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_4m80" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_5m10" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_5m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Einzelteile\Doppelauslegerhalterung_gra.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Ausleger">
+<p Y="-2.72" Z="6.55"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_2m10" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_2m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_2m70" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m00" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m30" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m60" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_3m90" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_4m20" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_4m50" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_4m80" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_5m10" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Ausleger_5m40" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Einzelteile\Doppelauslegerhalterung_gra.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Speiseleitung">
+<p Y="-2.915" Z="13.35"/>
+<phi Z="4.712389"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Speiseleitungen\Speiseleitung_Isolator-senkrecht.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Mastschalter\Mastschalter.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Flachmasten\Anbauteile\Verstaerkungsleitung" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel im Randweg">
+<p X="-0.075" Y="-2.715" Z="2.4"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel im Randweg">
+<p X="0.075" Y="-3.115" Z="2.4"/>
+<phi Z="3.141593"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel im Gleisfeld">
+<p X="-0.075" Y="-2.715" Z="3"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel im Gleisfeld">
+<p X="0.075" Y="-3.115" Z="3"/>
+<phi Z="3.141593"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1">
+<p X="0.07" Y="-2.915" Z="6.6"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Einzelteile\Bodenanker_7m00_1Seil.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1">
+<p X="-0.07" Y="-2.915" Z="6.6"/>
+<phi Z="3.141593"/>
+<Datei Dateiname="Catenary\Deutschland\DR-M\Einzelteile\Bodenanker_7m00_1Seil.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>
