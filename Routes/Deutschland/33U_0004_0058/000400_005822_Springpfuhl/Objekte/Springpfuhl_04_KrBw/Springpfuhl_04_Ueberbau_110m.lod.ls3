@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
-<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+<Info DateiTyp="Landschaft" Version="A.2" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="1.25"/>
 </Info>
 <Landschaft>
-<Verknuepfte Flags="16" BoundingR="56" SichtbarBis="3500" Vorlade="1" LODbit="7">
+<Verknuepfte Flags="16" BoundingR="56" SichtbarAb="500" SichtbarBis="3500" Vorlade="1" LODbit="1">
+<Datei Dateiname="Springpfuhl_04_Ueberbau_110m.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="56" SichtbarBis="500" Vorlade="1" LODbit="6">
 <Datei Dateiname="Springpfuhl_04_Ueberbau_110m.lod1.ls3"/>
 <p/>
 <phi/>
