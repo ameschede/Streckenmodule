@@ -18,14 +18,8 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Schönhauser Damm
 * Schönhausen
 * Regensburg Ost
-* Hohenschönhausen
 * Bindfelde
-* Wuhlheide Rbf
 * Dietershan
-* Biesdorfer Kreuz
-* Reg-Wutzlhofen
-* Reg-Walhallastr
-* Springpfuhl
 
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
@@ -34,6 +28,3 @@ Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Net
 
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
 
-Die Module Wuhlheide Rbf, Biesdorfer Kreuz, Springpfuhl und Hohenschönhausen bilden ein zusammenhängendes Netz mit 50 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 12,5 km).
-
-Die Module Reg-Wutzlhofen und Reg-Walhallastr schließen bei Regenstauf ans Bestandsnetz an.
