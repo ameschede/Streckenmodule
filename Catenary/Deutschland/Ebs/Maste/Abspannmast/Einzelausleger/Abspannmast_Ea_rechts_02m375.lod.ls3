@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="81" AutorName="Fabian Schöpflin" AutorEmail="fschoepflin@t-online.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte BoundingR="3" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="Abspannmast_Ea_rechts_02m375.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="3" SichtbarAb="250" SichtbarBis="500" Vorlade="1" LODbit="2">
+<Datei Dateiname="Abspannmast_Ea_rechts_02m375.lod2.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte BoundingR="3" SichtbarAb="500" SichtbarBis="1000" Vorlade="1" LODbit="1">
+<Datei Dateiname="Abspannmast_Ea_rechts_02m375.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt Beschreibung="Mast">
+<p Z="6.5"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="11" AnkerKat="1" Beschreibung="Isolatoren">
+<p X="0.025" Y="2.375" Z="6.5"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Isolatoren\Abspannmast_Stabisolatoren_1998_Vbl.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Isolatoren\Abspannmast_Stabisolatoren_1998_vK_Vbl.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Isolatoren\Abspannmast_Rodurflex-Isolatoren_Vbl.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Isolatoren\Abspannmast_Tyco-Isolatoren_Vbl.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>

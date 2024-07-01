@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<AutorEintrag AutorID="81" AutorName="Fabian Schöpflin" AutorEmail="fschoepflin@t-online.de"/>
+</Info>
+<Landschaft>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="250" Vorlade="1" LODbit="4">
+<Datei Dateiname="Aufsetz-IPB-Mast_IPB260_11m00.lod1.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarAb="250" SichtbarBis="1000" Vorlade="1" LODbit="3">
+<Datei Dateiname="Aufsetz-IPB-Mast_IPB260_11m00.lod3.ls3"/>
+<p/>
+<phi/>
+<sk/>
+</Verknuepfte>
+<Ankerpunkt>
+<p Y="-3.2379"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1" Beschreibung="Festpunktanker">
+<p X="0.13" Y="-3.2379" Z="6.92"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Einzelteile\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="13" AnkerKat="1" Beschreibung="Festpunktanker">
+<p X="-0.13" Y="-3.2379" Z="6.92"/>
+<phi Z="-3.141593"/>
+<Datei Dateiname="Catenary\Deutschland\Re160-200\Einzelteile\Anker.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 75, Re 100">
+<p Y="-3.362" Z="6.85"/>
+<phi Z="-1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re75" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re100" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-IPB-Maste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 250, Re 330">
+<p Y="-3.366" Z="7.1"/>
+<phi Z="-1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re250" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re330" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-IPB-Maste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 160, Re 200, Re 200 mod">
+<p Y="-3.368" Z="7.25"/>
+<phi Z="-1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re160" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200mod" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-IPB-Maste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 75, Re 100">
+<p Y="-3.102" Z="6.85"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re75" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re100" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-IPB-Maste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 250, Re 330">
+<p Y="-3.106" Z="7.1"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re250" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re330" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-IPB-Maste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerKat="1" Beschreibung="Re 160, Re 200, Re 200 mod">
+<p Y="-3.108" Z="7.25"/>
+<phi Z="1.570796"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re160" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Re200mod" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-IPB-Maste\Befestigungsteile" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel">
+<p X="-0.1325" Y="-3.2379" Z="3.15"/>
+<phi/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="14" Beschreibung="Hektometertafel">
+<p X="0.1325" Y="-3.2379" Z="3.15"/>
+<phi Z="3.141593"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="11" AnkerKat="1" Beschreibung="Radspanner">
+<p X="0.13" Y="-3.2379" Z="6.9"/>
+<phi/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Radspannwerke\RSP-IBP2_vor_klGewicht.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_if.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_gf.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+<Ankerpunkt AnkerTyp="11" AnkerKat="1" Beschreibung="Radspanner">
+<p X="-0.13" Y="-3.2379" Z="6.9"/>
+<phi Z="3.141593"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Radspannwerke\RSP-IBP2_vor_klGewicht.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_if.lod.ls3" NurInfo="1"/>
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re250-330\Radspannwerke\RSP_IPB2_vor_klGewicht_Re330_gf.lod.ls3" NurInfo="1"/>
+</Ankerpunkt>
+</Landschaft>
+</Zusi>
