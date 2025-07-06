@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Strecke" Version="A.4" MinVersion="A.1">
+<Info DateiTyp="Strecke" Version="A.5" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de" AutorAufwandStunden="49.18"/>
 </Info>
 <Strecke Himmelsmodell="2">
@@ -5641,7 +5641,10 @@
 <InfoNormRichtung vMax="-1" pos="1">
 <Ereignis Er="3002"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4444" km="101.715"/>
+<InfoGegenRichtung vMax="44.4444" km="101.715">
+<Ereignis Er="76" Wert="900"/>
+<Ereignis Er="6" Beschr="@icon=0@"/>
+</InfoGegenRichtung>
 <NachNorm Nr="1851"/>
 <NachGegen Nr="554"/>
 </StrElement>
@@ -9777,11 +9780,13 @@
 <b X="2668.718" Y="2565.126" Z="40.6419"/>
 <InfoNormRichtung vMax="-1" km="0.0023" pos="1">
 <Ereignis Er="1" Wert="36.1111"/>
-<Ereignis Er="6" Wert="1" Beschr="- Südliche Verbindung -"/>
+<Ereignis Er="6" Wert="1" Beschr="@icon=0@- Südliche Verbindung -"/>
+<Ereignis Er="76" Wert="900"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="0.0136">
 <Ereignis Er="1" Wert="36.1111"/>
-<Ereignis Er="6" Beschr="Abzw Staffelde"/>
+<Ereignis Er="6" Beschr="@icon=0@Abzw Staffelde"/>
+<Ereignis Er="76" Wert="1500"/>
 </InfoGegenRichtung>
 <NachNorm Nr="933"/>
 <NachGegen Nr="929"/>
@@ -10700,11 +10705,13 @@
 <b X="2664.407" Y="2568.3879" Z="40.6601"/>
 <InfoNormRichtung vMax="-1" km="0.0023" pos="1">
 <Ereignis Er="1" Wert="36.1111"/>
-<Ereignis Er="6" Beschr="- Nördliche Verbindung -"/>
+<Ereignis Er="6" Beschr="@icon=0@- Nördliche Verbindung -"/>
+<Ereignis Er="76" Wert="900"/>
 </InfoNormRichtung>
 <InfoGegenRichtung vMax="-1" km="0.0137">
 <Ereignis Er="1" Wert="36.1111"/>
-<Ereignis Er="6" Beschr="Abzw Staffelde"/>
+<Ereignis Er="6" Beschr="@icon=0@Abzw Staffelde"/>
+<Ereignis Er="76" Wert="1500"/>
 </InfoGegenRichtung>
 <NachNorm Nr="1015"/>
 <NachGegen Nr="1011"/>
@@ -12130,7 +12137,10 @@
 <InfoNormRichtung vMax="-1" pos="1">
 <Ereignis Er="3002"/>
 </InfoNormRichtung>
-<InfoGegenRichtung vMax="44.4444" km="101.7153"/>
+<InfoGegenRichtung vMax="44.4444" km="101.7153">
+<Ereignis Er="76" Wert="900"/>
+<Ereignis Er="6" Beschr="@icon=0@"/>
+</InfoGegenRichtung>
 <NachNorm Nr="1850"/>
 <NachGegen Nr="1157"/>
 </StrElement>

@@ -3065,12 +3065,6 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\U100\Aufsetz-Rahmenflachmast_U100_08m25.lod.ls3"/>
-<p X="234.5473" Y="-271.244" Z="205.9783"/>
-<phi Z="2.962476"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Catenary\Deutschland\Ebs\Re200\Keramik\3m60\Re200_Keramik_3m60_Bogen_umgelenkt.lod.ls3"/>
 <p X="234.4404" Y="-271.8344" Z="205.9783"/>
 <phi Z="2.962476"/>
@@ -3086,12 +3080,6 @@
 <Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\Befestigungsteile\Mah_U_U12_BH18_Sba2010.lod.ls3"/>
 <p X="227.3731" Y="-280.5432" Z="205.9191"/>
 <phi Z="-0.140324"/>
-<sk/>
-</Verknuepfte>
-<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Aufsetz-Rahmenflachmaste\U100\Aufsetz-Rahmenflachmast_U100_08m00.lod.ls3"/>
-<p X="207.8932" Y="-267.8312" Z="205.6826"/>
-<phi Z="3.001268"/>
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
@@ -3912,9 +3900,9 @@
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="32" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0056\000634_005642_Neudietendorf\Objekte\Neudietendorf06_Stahlbruecke\Neudietendorf06_Stahlbruecke.lod.ls3"/>
-<p X="225.5111" Y="-314.1725" Z="205.9151"/>
+<p X="225.5111" Y="-314.1725" Z="205.8"/>
 <phi Y="-0.007426" Z="0.105313"/>
-<sk X="0.9"/>
+<sk X="0.9" Z="0.75"/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="36" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="Routes\Deutschland\32U_0006_0056\000634_005642_Neudietendorf\Objekte\Neudietendorf06_Stahlbruecke\Neudietendorf06_Seitenweg.lod.ls3"/>
@@ -4145,7 +4133,7 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Einzelausleger\Abspannmast_Ea_rechts_02m375.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Einzelausleger\Abspannmast_Ea_rechts_02m35.lod.ls3"/>
 <p X="-259.3679" Y="-496.5461" Z="203.3272"/>
 <phi Z="-2.923981"/>
 <sk/>
@@ -4163,7 +4151,7 @@
 <sk/>
 </Verknuepfte>
 <Verknuepfte Flags="16" BoundingR="3" SichtbarBis="3000" Vorlade="1">
-<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Einzelausleger\Abspannmast_Ea_links_02m375.lod.ls3"/>
+<Datei Dateiname="Catenary\Deutschland\Ebs\Maste\Abspannmast\Einzelausleger\Abspannmast_Ea_links_02m35.lod.ls3"/>
 <p X="-201.6898" Y="-493.6613" Z="203.3456"/>
 <phi Z="-2.924205"/>
 <sk/>
@@ -17840,6 +17828,18 @@
 <Datei Dateiname="Terrain\Deutschland\Strassen\Lichtsignalanlage\Bauteile\Optiken\Blende_rot.lod.ls3"/>
 <p X="473.2386" Y="-365.8665" Z="204.3774"/>
 <phi Z="-1.262091"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Flachmasten_U120\Flachmast_U120_08m00.lod.ls3"/>
+<p X="207.8873" Y="-267.8698" Z="205.3126"/>
+<phi Z="3.001268"/>
+<sk/>
+</Verknuepfte>
+<Verknuepfte Flags="16" BoundingR="4" SichtbarBis="3000" Vorlade="1">
+<Datei Dateiname="Catenary\Deutschland\Einzelteile_Re75-200\Flachmasten_U120\Flachmast_U120_08m25.lod.ls3"/>
+<p X="234.5426" Y="-271.2749" Z="205.6083"/>
+<phi Z="2.962476"/>
 <sk/>
 </Verknuepfte>
 <SubSet Cd="00FFFFFF" TypLs3="4" TypGF="3" BeleuchtungTyp="2" MeterProTex="10" MeterProTex2="10">
