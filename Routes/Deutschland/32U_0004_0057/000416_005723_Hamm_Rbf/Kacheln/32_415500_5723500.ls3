@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.3" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -661,6 +661,40 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
 </Textur>
+<SubsetGrenzeVertex SubsetGrenzeNr="8"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="18"/>
+<Vertex U="26.408" V="63.9859">
+<p X="-139.8593" Y="-235.9201" Z="56.4793"/>
+<n X="-0.0137" Y="-0.0174" Z="0.9998"/>
+</Vertex>
+<Vertex U="44.7324" V="67.5485">
+<p X="-175.4849" Y="-52.6755" Z="59.1769"/>
+<n X="-0.0137" Y="-0.0174" Z="0.9998"/>
+</Vertex>
+<Vertex U="44.678" V="53.5072">
+<p X="-35.0717" Y="-53.2195" Z="61.0915"/>
+<n X="-0.0137" Y="-0.0174" Z="0.9998"/>
+</Vertex>
+<Vertex U="32.2836" V="39.5446">
+<p X="104.5537" Y="-177.1645" Z="60.5998"/>
+<n X="-0.0125" Y="-0.0181" Z="0.9998"/>
+</Vertex>
+<Vertex U="43.8751" V="44.3446">
+<p X="56.5545" Y="-61.2487" Z="61.4458"/>
+<n X="-0.0047" Y="-0.0092" Z="0.9999"/>
+</Vertex>
+<Vertex U="42.8519" V="40.114">
+<p X="98.8596" Y="-71.4813" Z="61.8984"/>
+<n X="-0.0138" Y="-0.013" Z="0.9998"/>
+</Vertex>
+<Vertex U="34.4056" V="32.1816">
+<p X="178.1837" Y="-155.9444" Z="61.333"/>
+<n X="-0.0063" Y="-0.0126" Z="0.9999"/>
+</Vertex>
+<Vertex U="42.8695" V="34.7284">
+<p X="152.7155" Y="-71.3048" Z="62.2464"/>
+<n X="-0.0064" Y="-0.0127" Z="0.9999"/>
+</Vertex>
 <Vertex V="26.5679">
 <p X="234.3211" Y="-500" Z="60.957"/>
 <n X="-0.0073" Y="-0.0034" Z="1"/>
@@ -686,9 +720,15 @@
 <n X="-0.0054" Y="-0.0035" Z="1"/>
 </Vertex>
 <Face i="2;0;1"/>
-<Face i="3;4;0"/>
-<Face i="4;5;0"/>
-<Face i="1;0;5"/>
+<Face i="3;0;2"/>
+<Face i="4;3;2"/>
+<Face i="5;3;4"/>
+<Face i="3;5;6"/>
+<Face i="7;6;5"/>
+<Face i="10;8;9"/>
+<Face i="11;12;8"/>
+<Face i="12;13;8"/>
+<Face i="9;8;13"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -889,50 +929,6 @@
 <Face i="6;5;7"/>
 <Face i="7;8;6"/>
 <Face i="8;7;9"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
-</Textur>
-<Vertex U="26.408" V="63.9859">
-<p X="-139.8593" Y="-235.9201" Z="56.4793"/>
-<n X="-0.0137" Y="-0.0174" Z="0.9998"/>
-</Vertex>
-<Vertex U="44.7324" V="67.5485">
-<p X="-175.4849" Y="-52.6755" Z="59.1769"/>
-<n X="-0.0137" Y="-0.0174" Z="0.9998"/>
-</Vertex>
-<Vertex U="44.678" V="53.5072">
-<p X="-35.0717" Y="-53.2195" Z="61.0915"/>
-<n X="-0.0137" Y="-0.0174" Z="0.9998"/>
-</Vertex>
-<Vertex U="32.2836" V="39.5446">
-<p X="104.5537" Y="-177.1645" Z="60.5998"/>
-<n X="-0.0125" Y="-0.0181" Z="0.9998"/>
-</Vertex>
-<Vertex U="43.8751" V="44.3446">
-<p X="56.5545" Y="-61.2487" Z="61.4458"/>
-<n X="-0.0047" Y="-0.0092" Z="0.9999"/>
-</Vertex>
-<Vertex U="42.8519" V="40.114">
-<p X="98.8596" Y="-71.4813" Z="61.8984"/>
-<n X="-0.0138" Y="-0.013" Z="0.9998"/>
-</Vertex>
-<Vertex U="34.4056" V="32.1816">
-<p X="178.1837" Y="-155.9444" Z="61.333"/>
-<n X="-0.0063" Y="-0.0126" Z="0.9999"/>
-</Vertex>
-<Vertex U="42.8695" V="34.7284">
-<p X="152.7155" Y="-71.3048" Z="62.2464"/>
-<n X="-0.0064" Y="-0.0127" Z="0.9999"/>
-</Vertex>
-<Face i="2;0;1"/>
-<Face i="3;0;2"/>
-<Face i="4;3;2"/>
-<Face i="5;3;4"/>
-<Face i="3;5;6"/>
-<Face i="7;6;5"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>

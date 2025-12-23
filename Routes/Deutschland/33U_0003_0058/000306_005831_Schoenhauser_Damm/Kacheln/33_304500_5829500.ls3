@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.3" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -182,36 +182,19 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
 </Textur>
-<Vertex U="-93.0597" V="188.2362">
-<p X="-299.1017" Y="499.9999" Z="29"/>
-<n X="0.0006" Y="-0.0014" Z="1"/>
-</Vertex>
-<Vertex U="-106.3839" V="185.8067">
-<p X="-422.4263" Y="444.0139" Z="29"/>
-<n X="0.0006" Y="-0.0014" Z="1"/>
-</Vertex>
-<Vertex U="-106.1551" V="191.5214">
-<p X="-434.1136" Y="499.9999" Z="29.0852"/>
-<n X="0.0006" Y="-0.0014" Z="1"/>
-</Vertex>
-<Face i="2;0;1"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\Brachland-1.dds"/>
-</Textur>
+<SubsetGrenzeVertex SubsetGrenzeNr="11"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="27"/>
 <Vertex U="-118.67" V="128.1287">
 <p X="218.7134" Y="313.2996" Z="29.2882"/>
-<n X="0" Y="-0.0005" Z="1"/>
+<n Y="-0.0005" Z="1"/>
 </Vertex>
 <Vertex U="-133.7987" V="124.9478">
 <p X="250.5219" Y="162.0128" Z="29.2141"/>
-<n X="0" Y="-0.0005" Z="1"/>
+<n Y="-0.0005" Z="1"/>
 </Vertex>
 <Vertex U="-138.4117" V="149.537">
 <p X="4.6299" Y="115.8832" Z="29.1996"/>
-<n X="0" Y="-0.0005" Z="1"/>
+<n Y="-0.0005" Z="1"/>
 </Vertex>
 <Vertex U="-123.4781" V="151.5088">
 <p X="-15.0879" Y="265.219" Z="29.2266"/>
@@ -245,6 +228,18 @@
 <p X="-233.7434" Y="-468.9468" Z="29.4459"/>
 <n X="-0.0007" Y="0.0023" Z="1"/>
 </Vertex>
+<Vertex U="-93.0597" V="188.2362">
+<p X="-299.1017" Y="499.9999" Z="29"/>
+<n X="0.0006" Y="-0.0014" Z="1"/>
+</Vertex>
+<Vertex U="-106.3839" V="185.8067">
+<p X="-422.4263" Y="444.0139" Z="29"/>
+<n X="0.0006" Y="-0.0014" Z="1"/>
+</Vertex>
+<Vertex U="-106.1551" V="191.5214">
+<p X="-434.1136" Y="499.9999" Z="29.0852"/>
+<n X="0.0006" Y="-0.0014" Z="1"/>
+</Vertex>
 <Face i="1;2;0"/>
 <Face i="3;0;2"/>
 <Face i="6;4;5"/>
@@ -254,36 +249,15 @@
 <Face i="2;8;4"/>
 <Face i="2;4;6"/>
 <Face i="7;2;6"/>
+<Face i="13;11;12"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="Terrain\Default\soil01.dds"/>
 </Textur>
-<Vertex U="-102.1466" V="179.8539">
-<p X="-298.5387" Y="478.5338" Z="29.1481"/>
-<n X="-0.0002" Y="0.0001" Z="1"/>
-</Vertex>
-<Vertex U="-125.8919" V="166.3409">
-<p X="-163.4094" Y="241.0809" Z="29.1899"/>
-<n X="-0.0002" Y="0.0001" Z="1"/>
-</Vertex>
-<Vertex U="-129.6054" V="186.9354">
-<p X="-369.3542" Y="203.9462" Z="29.1582"/>
-<n X="-0.0002" Y="0.0001" Z="1"/>
-</Vertex>
-<Vertex U="-108.1233" V="190.8528">
-<p X="-408.5275" Y="418.7675" Z="29.0999"/>
-<n X="-0.0005" Y="0.0002" Z="1"/>
-</Vertex>
-<Face i="2;0;1"/>
-<Face i="0;2;3"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\soil01.dds"/>
-</Textur>
+<SubsetGrenzeVertex SubsetGrenzeNr="5"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="9"/>
 <Vertex U="-100" V="160.4637">
 <p X="-104.6368" Y="499.9999" Z="29.23"/>
 <n X="-0.0003" Y="-0.0001" Z="1"/>
@@ -304,9 +278,27 @@
 <p X="-201.4517" Y="499.9999" Z="29.1514"/>
 <n X="-0.0008" Y="-0.0002" Z="1"/>
 </Vertex>
+<Vertex U="-102.1466" V="179.8539">
+<p X="-298.5387" Y="478.5338" Z="29.1481"/>
+<n X="-0.0002" Y="0.0001" Z="1"/>
+</Vertex>
+<Vertex U="-125.8919" V="166.3409">
+<p X="-163.4094" Y="241.0809" Z="29.1899"/>
+<n X="-0.0002" Y="0.0001" Z="1"/>
+</Vertex>
+<Vertex U="-129.6054" V="186.9354">
+<p X="-369.3542" Y="203.9462" Z="29.1582"/>
+<n X="-0.0002" Y="0.0001" Z="1"/>
+</Vertex>
+<Vertex U="-108.1233" V="190.8528">
+<p X="-408.5275" Y="418.7675" Z="29.0999"/>
+<n X="-0.0005" Y="0.0002" Z="1"/>
+</Vertex>
 <Face i="1;2;3"/>
 <Face i="1;3;0"/>
 <Face i="0;3;4"/>
+<Face i="7;5;6"/>
+<Face i="5;7;8"/>
 </SubSet>
 </Landschaft>
 </Zusi>

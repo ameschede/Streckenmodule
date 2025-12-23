@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.0">
+<Info DateiTyp="Landschaft" Version="A.3" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
-<Verknuepfte BoundingR="1" SichtbarBis="3000" Vorlade="1">
+<Verknuepfte Flags="16" BoundingR="1" SichtbarBis="3000" Vorlade="1">
 <Datei Dateiname="RailwayObjects\Deutschland\Bahnhof\Bahnsteiglampen\Bausatz\Lichtmast_DIN_EN40_8m.lod.ls3"/>
 <p X="-454.1586" Y="471.1095" Z="72.193"/>
 <phi Z="0.98527"/>
@@ -441,6 +441,42 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\Brachland-2.dds"/>
 </Textur>
+<SubsetGrenzeVertex SubsetGrenzeNr="4"/>
+<SubsetGrenzeVertex SubsetGrenzeNr="8"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="6"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="12"/>
+<Vertex U="-24.9841" V="-10.261">
+<p X="-357.6698" Y="158.2573" Z="71.0444"/>
+<n X="-0.0033" Y="-0.0116" Z="0.9999"/>
+</Vertex>
+<Vertex U="-35.5647" V="-12.9952">
+<p X="-456.3556" Y="111.3155" Z="70.1748"/>
+<n X="-0.0033" Y="-0.0116" Z="0.9999"/>
+</Vertex>
+<Vertex U="-35.41" V="3.2231">
+<p X="-485.6431" Y="270.8395" Z="71.9328"/>
+<n X="-0.0033" Y="-0.0116" Z="0.9999"/>
+</Vertex>
+<Vertex U="-27.7634" V="2.872">
+<p X="-409.9027" Y="281.9172" Z="72.1602"/>
+<n X="-0.0016" Y="-0.0097" Z="1"/>
+</Vertex>
+<Vertex U="-43.6419" V="-18.604">
+<p X="-313.9596" Y="63.5812" Z="71.1617"/>
+<n X="-0.0077" Y="0.0032" Z="1"/>
+</Vertex>
+<Vertex U="-51.9045" V="-5.1795">
+<p X="-448.205" Y="-19.0446" Z="70.3929"/>
+<n X="-0.0077" Y="0.0032" Z="1"/>
+</Vertex>
+<Vertex U="-40.4818" V="-4.636">
+<p X="-453.6399" Y="95.1821" Z="69.9907"/>
+<n X="-0.0077" Y="0.0032" Z="1"/>
+</Vertex>
+<Vertex U="-34.8216" V="-14.5684">
+<p X="-354.316" Y="151.7841" Z="71.1483"/>
+<n X="-0.0093" Y="-0.0041" Z="0.9999"/>
+</Vertex>
 <Vertex U="-72.3812">
 <p X="-500" Y="-223.8117" Z="70.2776"/>
 <n X="-0.0068" Y="-0.0055" Z="1"/>
@@ -473,36 +509,16 @@
 <p X="-500" Y="-316.2971" Z="70.2136"/>
 <n X="-0.0019" Y="-0.0033" Z="1"/>
 </Vertex>
-<Face i="2;3;0"/>
-<Face i="2;0;1"/>
-<Face i="5;6;4"/>
-<Face i="7;0;3"/>
-<Face i="7;3;5"/>
-<Face i="4;7;5"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\Brachland-2.dds"/>
-</Textur>
-<Vertex U="-43.6419" V="-18.604">
-<p X="-313.9596" Y="63.5812" Z="71.1617"/>
-<n X="-0.0077" Y="0.0032" Z="1"/>
-</Vertex>
-<Vertex U="-51.9045" V="-5.1795">
-<p X="-448.205" Y="-19.0446" Z="70.3929"/>
-<n X="-0.0077" Y="0.0032" Z="1"/>
-</Vertex>
-<Vertex U="-40.4818" V="-4.636">
-<p X="-453.6399" Y="95.1821" Z="69.9907"/>
-<n X="-0.0077" Y="0.0032" Z="1"/>
-</Vertex>
-<Vertex U="-34.8216" V="-14.5684">
-<p X="-354.316" Y="151.7841" Z="71.1483"/>
-<n X="-0.0093" Y="-0.0041" Z="0.9999"/>
-</Vertex>
-<Face i="2;0;1"/>
-<Face i="0;2;3"/>
+<Face i="1;2;0"/>
+<Face i="3;0;2"/>
+<Face i="6;4;5"/>
+<Face i="4;6;7"/>
+<Face i="10;11;8"/>
+<Face i="10;8;9"/>
+<Face i="13;14;12"/>
+<Face i="15;8;11"/>
+<Face i="15;11;13"/>
+<Face i="12;15;13"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -542,30 +558,6 @@
 <Face i="4;3;5"/>
 <Face i="6;4;5"/>
 <Face i="3;4;0"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\Brachland-2.dds"/>
-</Textur>
-<Vertex U="-24.9841" V="-10.261">
-<p X="-357.6698" Y="158.2573" Z="71.0444"/>
-<n X="-0.0033" Y="-0.0116" Z="0.9999"/>
-</Vertex>
-<Vertex U="-35.5647" V="-12.9952">
-<p X="-456.3556" Y="111.3155" Z="70.1748"/>
-<n X="-0.0033" Y="-0.0116" Z="0.9999"/>
-</Vertex>
-<Vertex U="-35.41" V="3.2231">
-<p X="-485.6431" Y="270.8395" Z="71.9328"/>
-<n X="-0.0033" Y="-0.0116" Z="0.9999"/>
-</Vertex>
-<Vertex U="-27.7634" V="2.872">
-<p X="-409.9027" Y="281.9172" Z="72.1602"/>
-<n X="-0.0016" Y="-0.0097" Z="1"/>
-</Vertex>
-<Face i="1;2;0"/>
-<Face i="3;0;2"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>

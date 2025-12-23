@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.3" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -103,6 +103,44 @@
 <Textur>
 <Datei Dateiname="Terrain\Default\soil02.dds"/>
 </Textur>
+<SubsetGrenzeVertex SubsetGrenzeNr="9"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="21"/>
+<Vertex U="-363.4679" V="300">
+<p X="500" Y="-134.679" Z="40.9297"/>
+<n X="0.0035" Y="0.0121" Z="0.9999"/>
+</Vertex>
+<Vertex U="-363.5616" V="300">
+<p X="500" Y="-135.6157" Z="40.941"/>
+<n X="0.0035" Y="0.0121" Z="0.9999"/>
+</Vertex>
+<Vertex U="-365.4324" V="307.2884">
+<p X="427.116" Y="-154.3242" Z="41.4221"/>
+<n X="0.0035" Y="0.0121" Z="0.9999"/>
+</Vertex>
+<Vertex U="-354.248" V="307.8477">
+<p X="421.5227" Y="-42.4805" Z="40.0923"/>
+<n X="0.0035" Y="0.0121" Z="0.9999"/>
+</Vertex>
+<Vertex U="-342.7693" V="300">
+<p X="500" Y="72.3066" Z="38.6538"/>
+<n X="0.0011" Y="0.0145" Z="0.9999"/>
+</Vertex>
+<Vertex U="-347.1253" V="307.639">
+<p X="423.6104" Y="28.7473" Z="39.3737"/>
+<n X="0.0011" Y="0.0145" Z="0.9999"/>
+</Vertex>
+<Vertex U="-342.5091" V="307.4705">
+<p X="425.2952" Y="74.9092" Z="38.7015"/>
+<n X="0.0011" Y="0.0145" Z="0.9999"/>
+</Vertex>
+<Vertex U="-342.2962" V="300">
+<p X="500" Y="77.0381" Z="38.5851"/>
+<n X="0.0011" Y="0.0145" Z="0.9999"/>
+</Vertex>
+<Vertex U="-343.4708" V="300">
+<p X="500" Y="65.2922" Z="38.7238"/>
+<n X="0.0014" Y="0.0143" Z="0.9999"/>
+</Vertex>
 <Vertex U="-300" V="317.704">
 <p X="322.96" Y="500" Z="36.77"/>
 <n X="0.0047" Y="0.0095" Z="0.9999"/>
@@ -183,66 +221,6 @@
 <p X="356.1094" Y="500" Z="36.3697"/>
 <n X="-0.0021" Y="0.0066" Z="1"/>
 </Vertex>
-<Face i="2;0;1"/>
-<Face i="4;5;3"/>
-<Face i="9;6;7"/>
-<Face i="8;9;7"/>
-<Face i="11;12;10"/>
-<Face i="6;11;10"/>
-<Face i="7;6;10"/>
-<Face i="10;12;13"/>
-<Face i="12;15;14"/>
-<Face i="13;12;14"/>
-<Face i="14;15;16"/>
-<Face i="15;3;17"/>
-<Face i="16;15;17"/>
-<Face i="17;3;5"/>
-<Face i="17;5;18"/>
-<Face i="18;5;1"/>
-<Face i="18;1;19"/>
-<Face i="19;1;0"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="Terrain\Default\soil02.dds"/>
-</Textur>
-<Vertex U="-363.4679" V="300">
-<p X="500" Y="-134.679" Z="40.9297"/>
-<n X="0.0035" Y="0.0121" Z="0.9999"/>
-</Vertex>
-<Vertex U="-363.5616" V="300">
-<p X="500" Y="-135.6157" Z="40.941"/>
-<n X="0.0035" Y="0.0121" Z="0.9999"/>
-</Vertex>
-<Vertex U="-365.4324" V="307.2884">
-<p X="427.116" Y="-154.3242" Z="41.4221"/>
-<n X="0.0035" Y="0.0121" Z="0.9999"/>
-</Vertex>
-<Vertex U="-354.248" V="307.8477">
-<p X="421.5227" Y="-42.4805" Z="40.0923"/>
-<n X="0.0035" Y="0.0121" Z="0.9999"/>
-</Vertex>
-<Vertex U="-342.7693" V="300">
-<p X="500" Y="72.3066" Z="38.6538"/>
-<n X="0.0011" Y="0.0145" Z="0.9999"/>
-</Vertex>
-<Vertex U="-347.1253" V="307.639">
-<p X="423.6104" Y="28.7473" Z="39.3737"/>
-<n X="0.0011" Y="0.0145" Z="0.9999"/>
-</Vertex>
-<Vertex U="-342.5091" V="307.4705">
-<p X="425.2952" Y="74.9092" Z="38.7015"/>
-<n X="0.0011" Y="0.0145" Z="0.9999"/>
-</Vertex>
-<Vertex U="-342.2962" V="300">
-<p X="500" Y="77.0381" Z="38.5851"/>
-<n X="0.0011" Y="0.0145" Z="0.9999"/>
-</Vertex>
-<Vertex U="-343.4708" V="300">
-<p X="500" Y="65.2922" Z="38.7238"/>
-<n X="0.0014" Y="0.0143" Z="0.9999"/>
-</Vertex>
 <Face i="2;3;0"/>
 <Face i="1;2;0"/>
 <Face i="4;5;6"/>
@@ -250,6 +228,24 @@
 <Face i="8;3;5"/>
 <Face i="8;5;4"/>
 <Face i="3;8;0"/>
+<Face i="11;9;10"/>
+<Face i="13;14;12"/>
+<Face i="18;15;16"/>
+<Face i="17;18;16"/>
+<Face i="20;21;19"/>
+<Face i="15;20;19"/>
+<Face i="16;15;19"/>
+<Face i="19;21;22"/>
+<Face i="21;24;23"/>
+<Face i="22;21;23"/>
+<Face i="23;24;25"/>
+<Face i="24;12;26"/>
+<Face i="25;24;26"/>
+<Face i="26;12;14"/>
+<Face i="26;14;27"/>
+<Face i="27;14;10"/>
+<Face i="27;10;28"/>
+<Face i="28;10;9"/>
 </SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="1" TypGF="1" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>

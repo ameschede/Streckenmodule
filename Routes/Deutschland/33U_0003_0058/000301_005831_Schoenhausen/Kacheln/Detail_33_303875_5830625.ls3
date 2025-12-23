@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Zusi>
-<Info DateiTyp="Landschaft" Version="A.1" MinVersion="A.1">
+<Info DateiTyp="Landschaft" Version="A.3" MinVersion="A.1">
 <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
 </Info>
 <Landschaft>
@@ -196,123 +196,13 @@
 <phi Y="0.0002" Z="-0.036402"/>
 <sk/>
 </Verknuepfte>
-<SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Default\rail.dds"/>
-</Textur>
-<Vertex U="0.5354" V="0.21">
-<p X="-125" Y="15.3589" Z="31.2765"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.566" V="0.21">
-<p X="-125" Y="15.3746" Z="31.2765"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.566">
-<p X="-114.5066" Y="14.9917" Z="31.2748"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.43">
-<p X="-114.5093" Y="14.9217" Z="31.2748"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.43" V="0.21">
-<p X="-125" Y="15.3045" Z="31.2765"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.4604" V="0.2089">
-<p X="-125" Y="13.8529" Z="31.2765"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.43">
-<p X="-114.5615" Y="13.4877" Z="31.2748"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.566">
-<p X="-114.5642" Y="13.4177" Z="31.2748"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.566" V="0.2089">
-<p X="-125" Y="13.7985" Z="31.2765"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.43" V="0.2089">
-<p X="-125" Y="13.8686" Z="31.2765"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.9025" V="0.9344">
-<p X="-125" Y="15.3474" Z="31.1602"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="1" V="0.7244">
-<p X="-125" Y="15.3396" Z="31.1265"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="1" V="0.9344">
-<p X="-114.5081" Y="14.9567" Z="31.1248"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.3334">
-<p X="-125" Y="15.3124" Z="31.2428"/>
-<n Z="1"/>
-</Vertex>
-<Vertex V="0.9344">
-<p X="-114.5081" Y="14.9567" Z="31.1248"/>
-<n Z="1"/>
-</Vertex>
-<Vertex V="0.7244">
-<p X="-125" Y="15.3396" Z="31.1265"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.663">
-<p X="-125" Y="13.8063" Z="31.243"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="1" V="0.9344">
-<p X="-114.5627" Y="13.4527" Z="31.1248"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="1" V="0.7255">
-<p X="-125" Y="13.8336" Z="31.1265"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="0.0961" V="0.9344">
-<p X="-125" Y="13.8414" Z="31.1601"/>
-<n Z="1"/>
-</Vertex>
-<Vertex V="0.7255">
-<p X="-125" Y="13.8336" Z="31.1265"/>
-<n Z="1"/>
-</Vertex>
-<Vertex V="0.9344">
-<p X="-114.5627" Y="13.4527" Z="31.1248"/>
-<n Z="1"/>
-</Vertex>
-<Face i="1;2;0"/>
-<Face i="4;0;2"/>
-<Face i="3;4;2"/>
-<Face i="8;5;6"/>
-<Face i="7;8;6"/>
-<Face i="9;6;5"/>
-<Face i="11;12;10"/>
-<Face i="2;1;10"/>
-<Face i="2;10;12"/>
-<Face i="14;15;13"/>
-<Face i="14;13;3"/>
-<Face i="4;3;13"/>
-<Face i="17;18;16"/>
-<Face i="17;16;7"/>
-<Face i="8;7;16"/>
-<Face i="20;21;19"/>
-<Face i="6;9;19"/>
-<Face i="6;19;21"/>
-</SubSet>
 <SubSet Cd="00FFFFFF" TypLs3="8" MeterProTex="10">
 <RenderFlags TexVoreinstellung="1"/>
 <Textur>
 <Datei Dateiname="PermanentWay\Default\rail.dds"/>
 </Textur>
+<SubsetGrenzeVertex SubsetGrenzeNr="44"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="108"/>
 <Vertex U="0.536" V="0.219">
 <p X="-125" Y="27.8984" Z="31.3828"/>
 <n Z="1"/>
@@ -489,6 +379,94 @@
 <p X="-114.3018" Y="21.2803" Z="31.2306"/>
 <n Z="1"/>
 </Vertex>
+<Vertex U="0.5354" V="0.21">
+<p X="-125" Y="15.3589" Z="31.2765"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="0.21">
+<p X="-125" Y="15.3746" Z="31.2765"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566">
+<p X="-114.5066" Y="14.9917" Z="31.2748"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43">
+<p X="-114.5093" Y="14.9217" Z="31.2748"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="0.21">
+<p X="-125" Y="15.3045" Z="31.2765"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.4604" V="0.2089">
+<p X="-125" Y="13.8529" Z="31.2765"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43">
+<p X="-114.5615" Y="13.4877" Z="31.2748"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566">
+<p X="-114.5642" Y="13.4177" Z="31.2748"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.566" V="0.2089">
+<p X="-125" Y="13.7985" Z="31.2765"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.43" V="0.2089">
+<p X="-125" Y="13.8686" Z="31.2765"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.9025" V="0.9344">
+<p X="-125" Y="15.3474" Z="31.1602"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.7244">
+<p X="-125" Y="15.3396" Z="31.1265"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.9344">
+<p X="-114.5081" Y="14.9567" Z="31.1248"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.3334">
+<p X="-125" Y="15.3124" Z="31.2428"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.9344">
+<p X="-114.5081" Y="14.9567" Z="31.1248"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.7244">
+<p X="-125" Y="15.3396" Z="31.1265"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.663">
+<p X="-125" Y="13.8063" Z="31.243"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.9344">
+<p X="-114.5627" Y="13.4527" Z="31.1248"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="1" V="0.7255">
+<p X="-125" Y="13.8336" Z="31.1265"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.0961" V="0.9344">
+<p X="-125" Y="13.8414" Z="31.1601"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.7255">
+<p X="-125" Y="13.8336" Z="31.1265"/>
+<n Z="1"/>
+</Vertex>
+<Vertex V="0.9344">
+<p X="-114.5627" Y="13.4527" Z="31.1248"/>
+<n Z="1"/>
+</Vertex>
 <Face i="1;2;0"/>
 <Face i="4;0;2"/>
 <Face i="3;4;2"/>
@@ -525,6 +503,24 @@
 <Face i="42;43;41"/>
 <Face i="28;31;41"/>
 <Face i="28;41;43"/>
+<Face i="45;46;44"/>
+<Face i="48;44;46"/>
+<Face i="47;48;46"/>
+<Face i="52;49;50"/>
+<Face i="51;52;50"/>
+<Face i="53;50;49"/>
+<Face i="55;56;54"/>
+<Face i="46;45;54"/>
+<Face i="46;54;56"/>
+<Face i="58;59;57"/>
+<Face i="58;57;47"/>
+<Face i="48;47;57"/>
+<Face i="61;62;60"/>
+<Face i="61;60;51"/>
+<Face i="52;51;60"/>
+<Face i="64;65;63"/>
+<Face i="50;53;63"/>
+<Face i="50;63;65"/>
 </SubSet>
 <SubSet Ca="00FCFCFC" TypLs3="14" GruppenName="Fahrleitung" MeterProTex="10" MeterProTex2="10">
 <RenderFlags TexVoreinstellung="1"/>
@@ -1029,6 +1025,28 @@
 <Textur>
 <Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
 </Textur>
+<SubsetGrenzeVertex SubsetGrenzeNr="5"/>
+<SubsetGrenzeIndex SubsetGrenzeNr="9"/>
+<Vertex U="-233.7689" V="0.7777" U2="-233.7689" V2="0.7777">
+<p X="-125.0002" Y="27.1177" Z="31.1828"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-233.7688" U2="-233.7688">
+<p X="-124.9997" Y="27.141" Z="31.1828"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-234.8592" U2="-234.8592">
+<p X="-114.103" Y="26.7442" Z="31.1806"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-234.8592" V="1" U2="-234.8592" V2="1">
+<p X="-114.104" Y="26.7142" Z="31.1806"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="-233.7689" V="1" U2="-233.7689" V2="1">
+<p X="-125.0002" Y="27.111" Z="31.1828"/>
+<n Z="1"/>
+</Vertex>
 <Vertex U="-233.7856" V="0.7812" U2="-233.7856" V2="0.7812">
 <p X="-124.9997" Y="22.4144" Z="31.1827"/>
 <n Z="1"/>
@@ -1052,35 +1070,9 @@
 <Face i="0;1;2"/>
 <Face i="3;0;2"/>
 <Face i="0;3;4"/>
-</SubSet>
-<SubSet Cd="00FFFFFF" MeterProTex="10" MeterProTex2="10">
-<RenderFlags TexVoreinstellung="1"/>
-<Textur>
-<Datei Dateiname="PermanentWay\Deutschland\1435mm\Regeloberbau\lzbkabel.dds"/>
-</Textur>
-<Vertex U="-233.7689" V="0.7777" U2="-233.7689" V2="0.7777">
-<p X="-125.0002" Y="27.1177" Z="31.1828"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="-233.7688" U2="-233.7688">
-<p X="-124.9997" Y="27.141" Z="31.1828"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="-234.8592" U2="-234.8592">
-<p X="-114.103" Y="26.7442" Z="31.1806"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="-234.8592" V="1" U2="-234.8592" V2="1">
-<p X="-114.104" Y="26.7142" Z="31.1806"/>
-<n Z="1"/>
-</Vertex>
-<Vertex U="-233.7689" V="1" U2="-233.7689" V2="1">
-<p X="-125.0002" Y="27.111" Z="31.1828"/>
-<n Z="1"/>
-</Vertex>
-<Face i="0;1;2"/>
-<Face i="3;0;2"/>
-<Face i="0;3;4"/>
+<Face i="5;6;7"/>
+<Face i="8;5;7"/>
+<Face i="5;8;9"/>
 </SubSet>
 </Landschaft>
 </Zusi>
