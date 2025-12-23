@@ -20,7 +20,6 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Regensburg Ost
 * Bindfelde
 * Dietershan
-* Erfurt Gbf
 
 
 Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
@@ -28,6 +27,3 @@ Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Ge
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
 
 Die Module Großwudicke, Schönhauser Damm und Schönhausen bilden ein zusammenhängendes Netz mit 51 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 18,1 km).
-
-Das Modul Erfurt Gbf schließt in Erfurt ans Bestandsnetz an.
-
