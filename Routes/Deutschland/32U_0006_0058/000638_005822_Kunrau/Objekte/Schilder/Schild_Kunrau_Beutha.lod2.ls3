@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Landschaft" Version="A.3" MinVersion="A.1">
+<AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+</Info>
+<Landschaft>
+<SubSet Cd="FFFFFFFF" Ce="FF000000" MeterProTex="10" MeterProTex2="10">
+<RenderFlags TexVoreinstellung="1"/>
+<Textur>
+<Datei Dateiname="Schilder_Beutha3.dds"/>
+</Textur>
+<Vertex U="0.4964" V="0.0204">
+<p X="-0.05" Y="0.65" Z="0.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.4985" V="0.0204">
+<p Y="0.65" Z="0.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.4985" V="0.0184">
+<p Y="0.65" Z="-0.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.4964" V="0.0184">
+<p X="-0.05" Y="0.65" Z="-0.3"/>
+<n Y="1"/>
+</Vertex>
+<Vertex U="0.7256" V="0.0086">
+<p Y="0.65" Z="0.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.754" V="0.0086">
+<p Y="-0.65" Z="0.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.754" V="0.0157">
+<p Y="-0.65" Z="-0.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.7256" V="0.0157">
+<p Y="0.65" Z="-0.3"/>
+<n X="1"/>
+</Vertex>
+<Vertex U="0.5005" V="0.0184">
+<p Y="-0.65" Z="0.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.4985" V="0.0184">
+<p X="-0.05" Y="-0.65" Z="0.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.4985" V="0.0204">
+<p X="-0.05" Y="-0.65" Z="-0.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.5005" V="0.0204">
+<p Y="-0.65" Z="-0.3"/>
+<n Y="-1"/>
+</Vertex>
+<Vertex U="0.4944" V="0.0123">
+<p X="-0.05" Y="0.65" Z="-0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.4924" V="0.0123">
+<p Y="0.65" Z="-0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.4924" V="0.0204">
+<p Y="-0.65" Z="-0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.4944" V="0.0204">
+<p X="-0.05" Y="-0.65" Z="-0.3"/>
+<n Z="-1"/>
+</Vertex>
+<Vertex U="0.4944" V="0.0204">
+<p X="-0.05" Y="-0.65" Z="0.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.4964" V="0.0204">
+<p Y="-0.65" Z="0.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.4964" V="0.0123">
+<p Y="0.65" Z="0.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.4944" V="0.0123">
+<p X="-0.05" Y="0.65" Z="0.3"/>
+<n Z="1"/>
+</Vertex>
+<Vertex U="0.9928" V="0.0071">
+<p X="-0.05" Y="-0.65" Z="0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.9694" V="0.0071">
+<p X="-0.05" Y="-0.6" Z="0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.9694" V="0.2986">
+<p X="-0.05" Y="-0.6" Z="-0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.9928" V="0.2986">
+<p X="-0.05" Y="-0.65" Z="-0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.6266" V="0.2986">
+<p X="-0.05" Y="-0.6" Z="-0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.6266" V="0.0071">
+<p X="-0.05" Y="-0.6" Z="0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.0072" V="0.0071">
+<p X="-0.05" Y="0.65" Z="0.3"/>
+<n X="-1"/>
+</Vertex>
+<Vertex U="0.0072" V="0.2986">
+<p X="-0.05" Y="0.65" Z="-0.3"/>
+<n X="-1"/>
+</Vertex>
+<Face i="3;2;1"/>
+<Face i="3;1;0"/>
+<Face i="7;6;5"/>
+<Face i="7;5;4"/>
+<Face i="11;10;9"/>
+<Face i="11;9;8"/>
+<Face i="15;14;13"/>
+<Face i="15;13;12"/>
+<Face i="19;18;17"/>
+<Face i="19;17;16"/>
+<Face i="23;22;21"/>
+<Face i="23;21;20"/>
+<Face i="27;26;25"/>
+<Face i="27;25;24"/>
+</SubSet>
+</Landschaft>
+</Zusi>
