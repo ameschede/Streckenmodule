@@ -10,8 +10,6 @@ Wer sich durch alle diese Warnhinweise nicht abschrecken lässt, klickt am beste
 Aktuell liegen in diesem Repository folgende Streckenmodule:
 
 * Landrücken
-* Selmig
-* Hamm Rbf
 * Parkstein-Hütten
 * Schwarzenbach bei Pressath
 * Großwudicke
@@ -22,8 +20,6 @@ Aktuell liegen in diesem Repository folgende Streckenmodule:
 * Dietershan
 * Kunrau
 
-
-Die Module Selmig und Hamm Rbf bilden ein zusammenhängendes Netz mit 25,9 km Gesamt-Streckenlänge (längste ohne Wendung mögliche Zugfahrt: 6,4 km).
 
 Die Module Parkstein-Hütten und Schwarzenbach bilden ein zusammenhängendes Netz mit 10,0 km Gesamt-Streckenlänge.
 
